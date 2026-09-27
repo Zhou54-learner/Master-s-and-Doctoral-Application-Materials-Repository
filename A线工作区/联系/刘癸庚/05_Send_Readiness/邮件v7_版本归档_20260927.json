@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-27",
+  "reason": "本人修订邮件并授权推送最新审查版本；最终发送稿待次日确认",
+  "latest_email": "A线工作区/联系/刘癸庚/01_Email/第一封套磁邮件_刘癸庚_v7_CANDIDATE.md",
+  "latest_email_sha256": "4ea2777ae440a9aacaaed1b7fedf0192a42926b7764fb0033e6e10ed7abbd312",
+  "moves": [
+    {
+      "old_path": "A线工作区/联系/刘癸庚/01_Email/第一封套磁邮件_刘癸庚_v3_CANDIDATE.md",
+      "new_path": "A线工作区/联系/刘癸庚/01_Email/历史版本/第一封套磁邮件_刘癸庚_v3_CANDIDATE.md",
+      "sha256": "95678b729f9de5f58b6793b25d3c4266b0d45a35c5a3b2eb8fcc90c39766d49b"
+    },
+    {
+      "old_path": "A线工作区/联系/刘癸庚/01_Email/第一封套磁邮件_刘癸庚_v4_CANDIDATE.md",
+      "new_path": "A线工作区/联系/刘癸庚/01_Email/历史版本/第一封套磁邮件_刘癸庚_v4_CANDIDATE.md",
+      "sha256": "94234a35392dce49855d99c37db9254ff653d34be7eaa4633531f970236029c6"
+    },
+    {
+      "old_path": "A线工作区/联系/刘癸庚/01_Email/第一封套磁邮件_刘癸庚_v5_CANDIDATE.md",
+      "new_path": "A线工作区/联系/刘癸庚/01_Email/历史版本/第一封套磁邮件_刘癸庚_v5_CANDIDATE.md",
+      "sha256": "3679e8df1376c2c0d0c8152ceaff8d1b63c6805313a69b81593500f691381697"
+    },
+    {
+      "old_path": "A线工作区/联系/刘癸庚/01_Email/第一封套磁邮件_刘癸庚_v6_CANDIDATE.md",
+      "new_path": "A线工作区/联系/刘癸庚/01_Email/历史版本/第一封套磁邮件_刘癸庚_v6_CANDIDATE.md",
+      "sha256": "b20c8df9644ded4b0bccca7c8d8a206579ef04f758ecc98ca6efb132cf53dbb8"
+    },
+    {
+      "old_path": "A线工作区/联系/刘癸庚/01_Email/邮件正文_v4_CANDIDATE.txt",
+      "new_path": "A线工作区/联系/刘癸庚/01_Email/历史版本/邮件正文_v4_CANDIDATE.txt",
+      "sha256": "b3683f1e73dbc4b5e6dedb74d60d964fb5be027892e5ca074f8c360947cd0f69"
+    },
+    {
+      "old_path": "A线工作区/联系/刘癸庚/01_Email/邮件正文_v5_CANDIDATE.txt",
+      "new_path": "A线工作区/联系/刘癸庚/01_Email/历史版本/邮件正文_v5_CANDIDATE.txt",
+      "sha256": "addb23a4584afd2ecf96d895904fd3ea2f8733045d454d0c463c27641b00dfe2"
+    },
+    {
+      "old_path": "A线工作区/联系/刘癸庚/01_Email/邮件正文_v6_CANDIDATE.txt",
+      "new_path": "A线工作区/联系/刘癸庚/01_Email/历史版本/邮件正文_v6_CANDIDATE.txt",
+      "sha256": "55289dc766361625bac91fbdcef17a87a59c82c01dcf754ef1c2a4ece656f485"
+    }
+  ],
+  "link_updates": [
+    "A线_工作台.md",
+    "A线工作区/招生核验与PI行动表.md",
+    "A线工作区/联系/刘癸庚/README.md",
+    "A线工作区/联系/刘癸庚/05_Send_Readiness/本人终读入口_20260927.md"
+  ],
+  "note": "旧验收JSON保留当时路径；迁移映射以本清单为准。CV及项目页旧候选仍用于下一轮对照。"
+}

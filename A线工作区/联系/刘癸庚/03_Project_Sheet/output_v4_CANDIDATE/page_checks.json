@@ -1,0 +1,13 @@
+{
+  "pages": 1,
+  "raster_images": 0,
+  "text_bounds": "PASS",
+  "contribution_end": 503.09999999999997,
+  "page_text_end": 793.5,
+  "visual_review": "PASS: final A4 page and geometry viewed, no clipping or overlap",
+  "reproducible_render_144dpi": "PASS",
+  "svg_mask_cell_counts": "PASS: X36 Y79",
+  "source_hashes_unchanged": "PASS",
+  "svg_static": "PASS: geometry and reflection",
+  "pdf_check": "PASS: single page, vector only"
+}

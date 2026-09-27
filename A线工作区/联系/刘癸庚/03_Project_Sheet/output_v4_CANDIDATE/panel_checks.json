@@ -1,0 +1,19 @@
+{
+  "mask_shape": [
+    12,
+    12
+  ],
+  "X_kept": 36,
+  "Y_kept": 79,
+  "masks_match_result_tuple": true,
+  "physical_row_orientation": "row0 at z=0; row11 at z=h",
+  "p_mm": 13.1409,
+  "h_mm": 10.0731,
+  "curve_samples": 201,
+  "interval_GHz": [
+    4.800000000000001,
+    18.0
+  ],
+  "bandwidth_GHz": 13.2,
+  "fresh_simulation": false
+}

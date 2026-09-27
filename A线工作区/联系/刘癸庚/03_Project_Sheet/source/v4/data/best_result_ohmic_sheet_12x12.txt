@@ -1,0 +1,23 @@
+12x12 semi-constrained multi-template topology GA result
+Best score: 89.63868001716894
+Best contiguous bandwidth( RL<-10 dB ): 13.2 GHz
+Best coverage in 2-18 GHz: 82.5 %
+Best total effective bandwidth estimate: 13.280000000000001 GHz
+Best low edge: 4.800000000000001 GHz
+Best high edge: 18.0 GHz
+Best min RL: -23.485400435875423 dB
+Best mean margin below -10 dB: 5.4479553754385295 dB
+Best individual summary: origin=crossover, p=13.1409, h=10.0731, Rs_x=140.79, Rs_y=35.461, X(kept=36, comp=2), Y(kept=79, comp=1)
+Best parameters (p, h, mask_x_flatten, mask_y_flatten): (13.1409, 10.0731, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+Best CST file: F:\biyesheji\ohmic_sheet_12x12_multitemplate_topology_ga\best_design_ohmic_sheet_12x12.cst
+Best S11 txt file: F:\biyesheji\ohmic_sheet_12x12_multitemplate_topology_ga\best_s11_ohmic_sheet_12x12.txt
+Best S11 png file: F:\biyesheji\ohmic_sheet_12x12_multitemplate_topology_ga\best_s11_ohmic_sheet_12x12.png
+Best X mask txt file: F:\biyesheji\ohmic_sheet_12x12_multitemplate_topology_ga\best_mask_x_12x12.txt
+Best Y mask txt file: F:\biyesheji\ohmic_sheet_12x12_multitemplate_topology_ga\best_mask_y_12x12.txt
+Best mask figure: F:\biyesheji\ohmic_sheet_12x12_multitemplate_topology_ga\best_mask_xy_12x12.png
+
+Best X mask compact:
+000000000000/000000000000/000000000000/010000000000/111110001111/111100001111/111100000111/111100001111/000000011000/000000001000/000000000000/000000000000
+
+Best Y mask compact:
+111111111111/100010010001/100010010001/100000000101/111110001111/111100001111/111100001111/111100001111/100000000001/100010010011/100010010001/111111111111

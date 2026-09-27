@@ -1,0 +1,27 @@
+[
+  {
+    "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_mask_x_12x12.txt",
+    "copy": "best_mask_x_12x12.txt",
+    "sha256": "0f488ec8c3ad31acc65266ddd565c1dd93f0a47857686ee039ee93155047b1f6"
+  },
+  {
+    "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_mask_y_12x12.txt",
+    "copy": "best_mask_y_12x12.txt",
+    "sha256": "22528181083bd2c7cd3db2562603d7c0c2c360dc057250abe76617360346dea4"
+  },
+  {
+    "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_result_ohmic_sheet_12x12.txt",
+    "copy": "best_result_ohmic_sheet_12x12.txt",
+    "sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81"
+  },
+  {
+    "source": "F:\\1A硕博申请\\A线工作区\\联系\\刘癸庚\\03_Project_Sheet\\source\\reflection_archived.tsv",
+    "copy": "reflection_archived.tsv",
+    "sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04"
+  },
+  {
+    "source": "F:\\biyesheji\\code\\ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+    "sha256": "844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72",
+    "read_only_mapping": "i -> z=i*h/12; j -> x/y=-p/2+j*p/12; X film y=0.094; Y film x=0.094 mm; no code executed"
+  }
+]

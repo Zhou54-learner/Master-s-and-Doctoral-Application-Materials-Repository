@@ -1,0 +1,22 @@
+{
+  "周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.pdf": {
+    "pages": 1,
+    "text_bounds": "PASS",
+    "sha256": "e7a2776cc2a75fad5b614215fd30fe1ecfb7ce2a5c589ae9f6482210eec83f19",
+    "body_changes": [
+      {
+        "before": "算术均分：80.20/100（成绩单自算）｜专业排名：21/46（2025.09推免口径）",
+        "after": "算术均分：80.20/100*｜专业排名：21/46（前三年）*"
+      }
+    ]
+  },
+  "周子靖_毕设项目页_刘癸庚版_v3_CANDIDATE.pdf": {
+    "pages": 1,
+    "text_bounds": "PASS",
+    "sha256": "bb5d1f605d1c6112d3d34c364b269c77ea430dc049471eb9f240cb198bf99ba5"
+  },
+  "preserved_baselines": 11,
+  "email_chinese_chars": 432,
+  "visual_review": "PASS: full-page CV and project sheet inspected; readable footer, no overlap",
+  "review_entry_links_checked": 47
+}

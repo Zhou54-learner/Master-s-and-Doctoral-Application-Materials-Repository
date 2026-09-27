@@ -1,5 +1,9 @@
 # Thesis Project Sheet v1 — editable sources
 
+**最新精修候选（2026-09-27）：** [v4一页PDF](output_v4_CANDIDATE/周子靖_毕设项目页_刘癸庚版_v4_CANDIDATE.pdf)、[v4文字](周子靖_毕设项目页_刘癸庚版_v4_CANDIDATE.md)、[来源、可编辑源与验收](source/v4/README.md)。面向PI初次联系重排，结果口径移至图注，结尾改为方向联系；以最终掩码和参数绘制的结构示意替换显示不清的CST截图。未重新运行CST，原截图显示原因未确诊。v3以下为对照候选，均未发送。
+
+**当前审查候选（2026-09-27）：** [v3一页PDF](output_v3_CANDIDATE/周子靖_毕设项目页_刘癸庚版_v3_CANDIDATE.pdf)、[v3文字](周子靖_毕设项目页_刘癸庚版_v3_CANDIDATE.md)、[v3排版源](source/build_project_sheet_v3_candidate.py)。沿用既有结构图、曲线PDF和工作流，仅更新文字与图注，独立输出至`output_v3_CANDIDATE`；待本人审查，未发送。下面v1为对照及来源记录；不得运行旧脚本覆盖新版，v3脚本也拒绝覆盖已有候选PDF。
+
 [一页PDF](output/周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.pdf) · [300dpi预览](output/周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.png) · [Markdown内容源](周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.md)
 
 可编辑源：[页面排版Python](source/build_project_sheet.py)、[曲线Matplotlib源](source/plot_reflection.py)、[工作流SVG](source/workflow.svg)。文字保留中文文本，曲线/箭头/文字在PDF中为矢量；CST结构原图是唯一有意使用的栅格面板。[figure-plan](source/figure-plan.md)记录阅读顺序和证据类型。内容Markdown便于审稿；若改正文需同步页面脚本的对应文字后再导出，不声称只改Markdown会自动改PDF。
