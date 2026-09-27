@@ -4,7 +4,7 @@
 
 ## 当前结论
 
-**版本管理（2026-09-27）：** 用户授权将当前目录同步至本人[私有仓库](https://github.com/Zhou54-learner/Master-s-and-Doctoral-Application-Materials-Repository)，供后续多线并行准备。Git `main` 已初始化，36份ZIP按用户确认仅保留本地，唯一超大非压缩CSV采用LFS；所有非ZIP文件已纳入，原20件哈希及暂存文件字节核验通过。首次推送待执行及远程核验，规则见[仓库说明](README.md)。此轮只建立版本管理，不改变PI联系状态；新申请线待具体任务指令。
+**版本管理（2026-09-27）：** 用户授权将当前目录同步至本人[私有仓库](https://github.com/Zhou54-learner/Master-s-and-Doctoral-Application-Materials-Repository)，供后续多线并行准备。首次提交 `72e244f` 已成功推送至 `main`，远程提交编号一致，默认分支为 `main`、私有状态已核验。共纳入4,167个文件（含新增Git配置和README），36份ZIP按用户确认仅保留本地，唯一超大非压缩CSV已通过LFS上传（218,364,729字节）；所有非ZIP文件无遗漏，原20件哈希及暂存文件字节核验通过。规则见[仓库说明](README.md)。此轮只建立版本管理，不改变PI联系状态；新申请线待具体任务指令。压缩包不属于远程备份，后续若需跨机器使用完整科研快照须另行迁移；其余申请待核事项继续按下文执行。
 
 **最新任务：A4刘癸庚投递包v2已按冻结Master v1.2同步完成，到人工审查处暂停。** 入口：[投递包](A线工作区/联系/刘癸庚/README.md)、[Readiness Report](A线工作区/联系/刘癸庚/05_Send_Readiness/Readiness_Report_v2.md)、[唯一Outreach Tracker](A线工作区/招生核验与PI行动表.md#a4-outreach-tracker)。本轮只推进刘癸庚；用户最新暂定串行顺序为刘癸庚→刘仕→朱一舟→鲍芳琳，覆盖旧并行执行建议，不代表永久兴趣排序。未发送、未联系同学、未登录系统，不自动开始下一位或完整proposal。
 
