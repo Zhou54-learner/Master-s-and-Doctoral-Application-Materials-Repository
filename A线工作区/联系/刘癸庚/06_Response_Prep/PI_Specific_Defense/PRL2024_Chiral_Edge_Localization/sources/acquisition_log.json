@@ -1,0 +1,123 @@
+[
+  {
+    "filename": "paper_published.pdf",
+    "url": "https://www.liuguigeng.com/wp-content/uploads/2025/12/Localization-of-Chiral-Edge-States-by-the-Non-Hermitian-Skin-Effect.pdf",
+    "accessed_at": "2026-09-27T02:51:38.284897+00:00",
+    "status": 200,
+    "final_url": "https://www.liuguigeng.com/wp-content/uploads/2025/12/Localization-of-Chiral-Edge-States-by-the-Non-Hermitian-Skin-Effect.pdf",
+    "bytes": 2230481,
+    "sha256": "039ad1fa9824156325ce9ea70decc3575617b59c9b009efb1dc241181bf4fa07",
+    "content_type": "application/pdf"
+  },
+  {
+    "filename": "lab_research.html",
+    "url": "https://www.liuguigeng.com/research/",
+    "accessed_at": "2026-09-27T02:51:38.285916+00:00",
+    "status": 200,
+    "final_url": "https://www.liuguigeng.com/research/",
+    "bytes": 41043,
+    "sha256": "177b2aa048a08e3d05f92dae6e1e9a61c30a46e5de64d5531235ae7d043f805a",
+    "content_type": "text/html; charset=UTF-8",
+    "interesting_links": []
+  },
+  {
+    "filename": "lab_publications.html",
+    "url": "https://www.liuguigeng.com/publications/",
+    "accessed_at": "2026-09-27T02:51:38.285916+00:00",
+    "status": 200,
+    "final_url": "https://www.liuguigeng.com/publications/",
+    "bytes": 106131,
+    "sha256": "6274c6480e9a90c5ecc295c493cae485b676711038e29f339423d71a40d01c40",
+    "content_type": "text/html; charset=UTF-8",
+    "interesting_links": [
+      "http://www.liuguigeng.com/wp-content/uploads/2026/09/Antichiral-hinge-states-in-a-higher-order-photonic-nodal-ring-semimetal.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/09/Topological-valley-quasi-bound-states-in-the-continuum-for-radiatively-accessible-robust-transport.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/08/Laser-Photonics-Reviews-2026-Zhen-Observation-of-Klein-Tunneling-in-Antichiral-Gyromagnetic-Photonic-Crystals.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/08/Local_boundary_modulation_of_photonic_antichiral_e.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/07/Observation-of-Fractional-Disclination-Charges-Induced-by-Gain-and-Loss.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/06/Nonlinear-topological-edge-states-topological-gap-solitons-and-self-induced-topological-edge-states-in-nonlinear-Su-Schrieffer-Heeger-circuit-lattices.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/04/A-Time-Grating-Approach-to-Ultrahigh‐Q-Guided-Mode-Resonance.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/01/Terahertz-spin-selective-dielectric-metasurfaces-from-exceptional-points.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/12/Chiral-valley-edge-states-based-on-Dirac-mass-engineering.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/11/Photonic-Bilayer-Chern-Insulator-with-Corner-States.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/11/Three-dimensional-acoustic-Chern-insulators-with-arbitrary-Chern-vectors.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/01/Realization-of-a-three-dimensional-photonic-higher-order-topological-insulator.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/12/Realization-of-Topology-Controlled-Photonic-Cavities-in-a-Valley-Photonic-Crystal.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/12/Photonic-axion-insulator.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/11/Abrupt-lateral-beam-shifts-from-terahertz-quasi-bound-states-in-the-continuum.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/11/Three-Dimensional-Topological-Photonic-Crystals-Invited-Review.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2026/01/Topological-Disclination-States-and-Charge-Fractionalization-in-a-Non-Hermitian-Lattice.pdf",
+      "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.113802",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/12/Localization-of-Chiral-Edge-States-by-the-Non-Hermitian-Skin-Effect.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/11/Realization-of-a-quadrupole-topological-insulator-phase-in-a-gyromagnetic-photonic-crystal.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/11/Brillouin-Klein-space-and-half-turn-space-in-three-dimensional-acoustic-crystals.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2025/11/Multiple-Brillouin-Zone-Winding-of-Topological-Chiral-Edge-States-for-Slow-Light-Applications.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2023/05/Topological-antichiral-surface-states-in-a-magnetic-Weyl-photonic-crystal.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2023/03/Topology-with-memory-in-nonlinear-driven-dissipative-photonic-lattices.pdf",
+      "http://www.liuguigeng.com/wp-content/uploads/2024/10/Spinful-Topological-Phases-in-Acoustic-Crystals-with-Projective.pdf"
+    ]
+  },
+  {
+    "filename": "aps_article.html",
+    "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.113802",
+    "accessed_at": "2026-09-27T02:51:38.286914+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "aps_supplement_index.html",
+    "url": "https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.132.113802",
+    "accessed_at": "2026-09-27T02:51:38.286914+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "arxiv_abstract.html",
+    "url": "https://arxiv.org/abs/2305.13139",
+    "accessed_at": "2026-09-27T02:51:40.261778+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2305.13139",
+    "bytes": 43944,
+    "sha256": "8c562e57b17982310c8dde892b36301bebb79fcf79a1b0d254d492257e843c93",
+    "content_type": "text/html; charset=utf-8",
+    "interesting_links": [
+      "https://arxiv.org/abs/2305.13139",
+      "/pdf/2305.13139",
+      "https://arxiv.org/abs/2305.13139",
+      "https://arxiv.org/abs/2305.13139v1",
+      "https://doi.org/10.48550/arXiv.2305.13139",
+      "/show-email/41d71645/2305.13139",
+      "/pdf/2305.13139",
+      "/prevnext?id=2305.13139&amp;function=prev&amp;context=cond-mat.mes-hall",
+      "/prevnext?id=2305.13139&amp;function=next&amp;context=cond-mat.mes-hall",
+      "/abs/2305.13139?context=cond-mat",
+      "/abs/2305.13139?context=physics",
+      "/abs/2305.13139?context=physics.optics",
+      "https://ui.adsabs.harvard.edu/abs/arXiv:2305.13139",
+      "https://scholar.google.com/scholar_lookup?arxiv_id=2305.13139",
+      "https://api.semanticscholar.org/arXiv:2305.13139",
+      "http://www.bibsonomy.org/BibtexHandler?requTask=upload&amp;url=https://arxiv.org/abs/2305.13139&amp;description=Localization of chiral edge states by the non-Hermitian skin effect",
+      "https://reddit.com/submit?url=https://arxiv.org/abs/2305.13139&amp;title=Localization of chiral edge states by the non-Hermitian skin effect",
+      "/auth/show-endorsers/2305.13139"
+    ]
+  },
+  {
+    "filename": "aps_harvest.json",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.132.113802",
+    "accessed_at": "2026-09-27T02:51:40.454771+00:00",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "filename": "arxiv_2305.13139v1.pdf",
+    "url": "https://arxiv.org/pdf/2305.13139v1",
+    "accessed_at": "2026-09-27T02:52:23.249465+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/pdf/2305.13139v1",
+    "bytes": 4818816,
+    "sha256": "6e48b64d5ba1ec043851ddc25e56968df370bbbfd093eff17d137d416bec7fe5"
+  },
+  {
+    "filename": "aps_supplement_index_link.html",
+    "url": "https://link.aps.org/supplemental/10.1103/PhysRevLett.132.113802",
+    "accessed_at": "2026-09-27T02:52:23.250462+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

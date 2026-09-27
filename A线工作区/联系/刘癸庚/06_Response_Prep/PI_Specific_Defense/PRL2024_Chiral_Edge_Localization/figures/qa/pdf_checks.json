@@ -1,0 +1,70 @@
+[
+  {
+    "file": "F:\\1A硕博申请\\A线工作区\\联系\\刘癸庚\\06_Response_Prep\\PI_Specific_Defense\\PRL2024_Chiral_Edge_Localization\\figures\\output\\concept_map.pdf",
+    "status": "PASS",
+    "bytes": 57358,
+    "page_count": 1,
+    "image_xobjects": 0,
+    "pages": [
+      {
+        "page": 1,
+        "width_pt": 900.0,
+        "height_pt": 525.0,
+        "image_xobjects": 0
+      }
+    ],
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "F:\\1A硕博申请\\A线工作区\\联系\\刘癸庚\\06_Response_Prep\\PI_Specific_Defense\\PRL2024_Chiral_Edge_Localization\\figures\\output\\figure_2.pdf",
+    "status": "PASS",
+    "bytes": 998036,
+    "page_count": 1,
+    "image_xobjects": 12,
+    "pages": [
+      {
+        "page": 1,
+        "width_pt": 254.0,
+        "height_pt": 453.0,
+        "image_xobjects": 12
+      }
+    ],
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "F:\\1A硕博申请\\A线工作区\\联系\\刘癸庚\\06_Response_Prep\\PI_Specific_Defense\\PRL2024_Chiral_Edge_Localization\\figures\\output\\figure_3.pdf",
+    "status": "PASS",
+    "bytes": 309994,
+    "page_count": 1,
+    "image_xobjects": 5,
+    "pages": [
+      {
+        "page": 1,
+        "width_pt": 254.0,
+        "height_pt": 257.0,
+        "image_xobjects": 5
+      }
+    ],
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "F:\\1A硕博申请\\A线工作区\\联系\\刘癸庚\\06_Response_Prep\\PI_Specific_Defense\\PRL2024_Chiral_Edge_Localization\\figures\\output\\figure_4.pdf",
+    "status": "PASS",
+    "bytes": 675870,
+    "page_count": 1,
+    "image_xobjects": 8,
+    "pages": [
+      {
+        "page": 1,
+        "width_pt": 254.0,
+        "height_pt": 345.0,
+        "image_xobjects": 8
+      }
+    ],
+    "errors": [],
+    "warnings": []
+  }
+]

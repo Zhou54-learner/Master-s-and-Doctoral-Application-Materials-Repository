@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-27",
+  "original20": [
+    {
+      "path": "A线_PI_04_吴泰霖.md",
+      "ok": true
+    },
+    {
+      "path": "A线_PI_05_鲍芳琳.md",
+      "ok": true
+    },
+    {
+      "path": "A线_PI_06_田静逸.md",
+      "ok": true
+    },
+    {
+      "path": "A线_PI_07_刘癸庚_v2.md",
+      "ok": true
+    },
+    {
+      "path": "A线_PI_08_仇旻.md",
+      "ok": true
+    },
+    {
+      "path": "A线_PI_总表_v1.md",
+      "ok": true
+    },
+    {
+      "path": "个人资料\\成绩单.pdf",
+      "ok": true
+    },
+    {
+      "path": "个人资料\\排名.png",
+      "ok": true
+    },
+    {
+      "path": "个人资料\\英语六级成绩.jpg",
+      "ok": true
+    },
+    {
+      "path": "个人资料\\英语四级成绩.jpg",
+      "ok": true
+    },
+    {
+      "path": "西湖-刘仕组\\刘仕组.md",
+      "ok": true
+    },
+    {
+      "path": "西湖-刘仕组\\A线_PI_02_刘仕_v2.md",
+      "ok": true
+    },
+    {
+      "path": "西湖-朱一舟组\\朱一舟组.md",
+      "ok": true
+    },
+    {
+      "path": "西湖-朱一舟组\\A perspective on training machine learning force fields for solid-state electrolyte materials.pdf",
+      "ok": true
+    },
+    {
+      "path": "西湖-朱一舟组\\A线_PI_01_朱一舟.md",
+      "ok": true
+    },
+    {
+      "path": "西湖-朱一舟组\\A线_PI_03_李文彬.md",
+      "ok": true
+    },
+    {
+      "path": "西湖-朱一舟组\\Automated phase mapping of high-throughput X-ray diffraction data encoded with domain-specific materials science knowledge.pdf",
+      "ok": true
+    },
+    {
+      "path": "西湖-朱一舟组\\Equivariant diffusion solution for inorganic crystal structure determination from powder X-ray diffraction data.pdf",
+      "ok": true
+    },
+    {
+      "path": "西湖-朱一舟组\\Improving Robustness and Training Efficiency of Machine-Learned Potentials by Incorporating Short-Range Empirical Potentials.pdf",
+      "ok": true
+    },
+    {
+      "path": "西湖-朱一舟组\\Supporting Information.pdf",
+      "ok": true
+    }
+  ],
+  "links_checked": 136,
+  "broken_links": [],
+  "pdf_checks": [
+    {
+      "file": "sources\\paper_published.pdf",
+      "pages": 6,
+      "text_characters": 30374
+    },
+    {
+      "file": "sources\\arxiv_2305.13139v1.pdf",
+      "pages": 14,
+      "text_characters": 27913
+    },
+    {
+      "file": "figures\\output\\concept_map.pdf",
+      "pages": 1,
+      "text_characters": 1133
+    },
+    {
+      "file": "figures\\output\\figure_2.pdf",
+      "pages": 1,
+      "text_characters": 589
+    },
+    {
+      "file": "figures\\output\\figure_3.pdf",
+      "pages": 1,
+      "text_characters": 452
+    },
+    {
+      "file": "figures\\output\\figure_4.pdf",
+      "pages": 1,
+      "text_characters": 482
+    }
+  ],
+  "removed_session_cache_files": [
+    "__init__.cpython-311.pyc",
+    "_build.cpython-311.pyc",
+    "_table_headers.cpython-311.pyc",
+    "_table_refine.cpython-311.pyc",
+    "_table_spans.cpython-311.pyc",
+    "_wxcolors.cpython-311.pyc",
+    "extra.cpython-311.pyc",
+    "mupdf.cpython-311.pyc",
+    "pymupdf.cpython-311.pyc",
+    "table.cpython-311.pyc",
+    "utils.cpython-311.pyc"
+  ],
+  "supplement_acquired": false,
+  "source_hashes_ok": true,
+  "required_documents_present": true,
+  "all_learning_documents_have_status": true,
+  "unchanged_contact_and_outreach": true,
+  "svg_structure": "PASS; academic-figure svg_check.py; 27 text, 0 image, 0 foreignObject",
+  "visual_inspection": "PASS; three source crops, concept SVG export and independently rendered concept PDF viewed",
+  "runtime": {
+    "python": "3.11",
+    "pymupdf": "1.28.2",
+    "inkscape": "1.4.4"
+  }
+}

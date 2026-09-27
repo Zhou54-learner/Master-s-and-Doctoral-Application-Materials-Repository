@@ -1,0 +1,409 @@
+=== PDF PAGE 1 ===
+                 PHYSICAL REVIEW LETTERS 132, 113802 (2024)
+
+
+
+            Localization of Chiral Edge States by the Non-Hermitian Skin Effect
+
+         Gui-Geng Liu (刘癸庚)   ,1,* Subhaskar Mandal,1,* Peiheng Zhou,2,* Xiang Xi,3,* Rimi Banerjee,1
+         Yuan-Hang Hu,2 Minggui Wei,1 Maoren Wang,2 Qiang Wang,4 Zhen Gao  ,5 Hongsheng Chen,6
+                           Yihao Yang,6,† Yidong Chong,1,7,‡ and Baile Zhang   1,7,§
+  1Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University,
+                                  21 Nanyang Link, Singapore 637371, Singapore
+                    2National Engineering Research Center of Electromagnetic Radiation Control Materials,
+State Key Laboratory of Electronic Thin Film and Integrated Devices, University of Electronic Science and Technology of China,
+                                          Chengdu 610054, China
+     3School of Electrical Engineering and Intelligentization, Dongguan University of Technology, Dongguan 523808, China
+             4School of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University,
+                                              Nanjing, Jiangsu 210093, China
+            5Department of Electrical and Electronic Engineering, Southern University of Science and Technology,
+                                              Shenzhen 518055, China
+           6Interdisciplinary Center for Quantum Information, State Key Laboratory of Modern Optical Instrumentation,
+ ZJU-Hangzhou Global Science and Technology Innovation Center, College of Information Science and Electronic Engineering,
+Key Laboratory of Advanced Micro/Nano Electronic Devices and Smart Systems of Zhejiang, ZJU-UIUC Institute, Zhejiang University,
+                                          Hangzhou 310027, China
+           7Centre for Disruptive Photonic Technologies, The Photonics Institute, Nanyang Technological University,
+                                50 Nanyang Avenue, Singapore 639798, Singapore
+
+             (Received 28 May 2023; revised 9 December 2023; accepted 9 February 2024; published 12 March 2024)
+
+             Quantum Hall systems host chiral edge states extending along the one-dimensional boundary of any
+             two-dimensional sample. In solid state materials, the edge states serve as perfectly robust transport channels
+               that produce a quantized Hall conductance; due to their chirality, and the topological protection by the
+            Chern number of the bulk band structure, they cannot be spatially localized by defects or disorder. Here,
+          we show experimentally that the chiral edge states of a lossy quantum Hall system can be localized. In a
+             gyromagnetic photonic crystal exhibiting the quantum Hall topological phase, an appropriately structured
+               loss configuration imparts the edge states’ complex energy spectrum with a feature known as point-gap
+             winding. This intrinsically non-Hermitian topological invariant is distinct from the Chern number invariant
+              of the bulk (which remains intact) and induces mode localization via the “non-Hermitian skin effect.” The
+               interplay of the two topological phenomena—the Chern number and point-gap winding—gives rise to a
+             non-Hermitian generalization of the paradigmatic Chern-type bulk-boundary correspondence principle.
+           Compared to previous realizations of the non-Hermitian skin effect, the skin modes in this system have
+              superior robustness against local defects and disorders.
+
+             DOI: 10.1103/PhysRevLett.132.113802
+
+
+  The significance of band topology was first discovered    realizations of quantum Hall systems, based on photonic
+in the context of the quantum Hall effect in the 1980s [1].     [6,7], acoustic [8,9], and mechanical lattices [10].
+In certain two-dimensional (2D) materials with broken      Theories of band topology have mostly been developed
+time-reversal symmetry, the Hall conductance is exactly    in the context of quantum Hall phases, and other topo-
+quantized, which is intimately tied to the fact that the bulk    logical phases of matter that are all Hermitian (energy-
+is insulating and charge transport occurs exclusively via    conserving). In recent years, however, there has been a
+chiral edge states [2]. The existence of the chiral edge    great  deal  of  progress  in understanding  the topology
+states is guaranteed by the bulk bands’ nontrivial top-    of non-Hermitian materials [11–16]. Some concepts from
+ology, as characterized by a topological invariant [the    Hermitian band topology, including the Chern number [12],
+Chern number C [3–5]; see Fig. 1(a)]. It is important for    turn out to be generalizable to the non-Hermitian regime.
+the quantum Hall effect that the chiral edge states are    Moreover, non-Hermitian systems have been found to
+immune to backscattering (so long as the bulk is insulat-    possess unique forms of band topology with no counter-
+ing), and hence do not undergo Anderson localization    part in the Hermitian regime. For instance, non-Hermitian
+despite being one-dimensional (1D) transport channels.    band spectra may exhibit “point gaps,” defined by points
+The robustness of chiral edge states against localization    in the complex plane that are encircled by but do not
+has  even  been  directly  observed  in  classical wave    overlap with any band frequency (energy) [13,15]. (This is
+
+0031-9007=24=132(11)=113802(6)                 113802-1          © 2024 American Physical Society
+
+=== PDF PAGE 2 ===
+                      PHYSICAL REVIEW LETTERS 132, 113802 (2024)
+
+distinct from a “line gap,” an arbitrary line in the complex     (this determines the direction in which waves are “fun-
+plane separating the bands, which is the more straightfor-    neled” [39], and consequently where the skin modes are
+ward generalization of the Hermitian notion of a band    localized [16]). Our gyromagnetic PhC is continuous rather
+gap.) A point-gapped non-Hermitian Hamiltonian cannot    than discrete, and does not require asymmetric couplings,
+be continuously deformed to a Hermitian Hamiltonian    which have been challenging  to implement on many
+without  closing  the  point gap. A  point gap can be    experimental platforms. Moreover, because the skin effect
+associated with an integer winding number, and nonzero                                                                 in our system is based on chiral edge states, forward and
+windings are associated with the “non-Hermitian skin                                                    backward  transport  is  spatially separated (on opposite
+effect” (NHSE) [17–49], whereby an extensive number of                                                       edges of a strip), providing the skin effect with superior
+bulk states become localized to a boundary. This phe-                                                            robustness against local defects and disorder.
+nomenon has been observed in recent experiments based
+                                                   The PhC hosting localized chiral edge modes is depicted
+on classical-wave systems [39–49]. To our knowledge,
+                                                                 in Fig.  2(a).  It consists of a square  lattice with three
+the implications of the NHSE for chiral edge states, which
+                                                       gyromagnetic rods per unit cell, with each rod surrounded
+involve the interplay between point-gap topology and
+                                                  by microwave-absorbing materials with a relative permit-Chern number topology [35–37], have never been studied
+                                                                         tivity  of  either  ε1 ¼ ε01 −iε001  or  ε2 ¼ ε02 −iε002, wherein any experiment.
+                                                                                ε01 ≈ε02 and  ε001 ≪ε002 [50]. In the limit  ε001 ¼ ε002 ¼ 0 and  In this Letter, we report on the observation of NHSE-
+                                                          without losses in the gyromagnetic rods, the PhC would beinduced localization of chiral edge states in a gyromagnetic
+photonic crystal (PhC). Such PhCs are commonly known
+as photonic topological insulators and exhibit photonic
+band gaps with nonzero Chern numbers [6]. By intention-
+ally introducing losses to the system (thereby making  it
+non-Hermitian) in a particular spatial pattern, we induce
+point gaps in the complex spectrum of the chiral edge
+states, with a pair of winding numbers ðνx; νyÞ associated
+with the x and y directions respectively [see Fig. 1(b)]. We
+show  that  the point-gap winding topology determines
+whether  the  chiral edge  states  are  localized along a
+1D sample edge (when νx ≠0 or νy ≠0), or at a zero-
+dimensional (0D) corner (when both νx ≠0 and νy ≠0).
+The chiral edge  states are thus governed by a hybrid
+invariant (C; νx, νy) involving both point-gap and Chern
+number topology (see Fig. S1 for an illustration of the
+hybrid bulk-boundary correspondence [50]).
+  Our system also behaves differently from other NHSE
+realizations that are not based on chiral edge states [38–49].
+Most of the theoretical models exhibiting the NHSE, such
+as the Hatano-Nelson model [13], are based on discrete
+(tight-binding)  lattices, and the most common route to
+manifesting the NHSE is to introduce asymmetric cou-
+plings between discrete lattice sites, which have different
+magnitudes  in  the  forward  and  backward  directions
+
+
+
+
+
+                                                            FIG. 2.   First-principles study of edge-localized chiral edge
+                                                                                states. (a) Unit cell of the PhC. a ¼ 10 mm and d ¼ 3 mm.
+                                                                         (b) Eigenfrequencies for double-PBCs (blue region) and double-
+                                             OBCs (rhombic dots). (c) Finite structure with double-OBCs.
+                                                                         (d) Eigenfunctions for states labeled “1” and “2” in (b). (e) Super-
+                                                                              cell with x-PBC=y-OBC.  (f),(g) Eigenfrequencies and eigen-
+FIG. 1.  Chern-type bulk-boundary correspondence and its non-     functions for the supercell in (e). The black arrows in (f) denote
+Hermitian generalization. (a) Chiral edge states. (b) Edge- or     the kx increasing directions. The red arrows in (g) indicate the
+corner-localized chiral edge states. The determination of boun-    group velocities of the edge states. (h)–(j) Similar to (e)–(g) but
+dary modes requires a hybrid topological invariant (C; νx, νy).      for y-PBC=x-OBC.
+
+
+                                               113802-2
+
+=== PDF PAGE 3 ===
+                      PHYSICAL REVIEW LETTERS 132, 113802 (2024)
+
+Hermitian and all eigenfrequencies would be real. The unit    understood intuitively from the supercell’s configuration:
+cell  is mirror symmetric along the x direction, but not    the states on the lower edge [e.g., states 2 and 4 in Fig. 2(g)]
+along y. We apply a static magnetic field of 0.7 T along the     travel through a lossier region than those on the upper edge
+z axis, breaking time-reversal symmetry in the gyromag-     [states 1 and 3 in Fig. 2(g)].
+netic rods [50]. The PhC  is placed in a parallel-plate     The point-gap winding of the PhC can be quantified
+waveguide, and we focus on  the  transverse magnetic    using the winding numbers [25]
+modes, which have electric fields polarized along the z axis.                                                           I
+  Because  of  the  material  losses,  the PhC  is  non-                       dkα d
+                                                                                    να;n ¼            lnðfðkαÞ −f0Þ;        ð1ÞHermitian. Its bulk band spectrum, calculated from a single                      BZ 2πi dkα
+unit cell under periodic boundary conditions (PBCs) along
+both x and y (“double-PBCs”), forms a set of distinct                                                    where α ¼ x, y indicates the direction along which PBCs
+complex bands each  filling a bounded region  of  the                                                               are imposed on a supercell, n is the gap index, f is the
+complex frequency plane, as indicated by the blue areas                                                    complex eigenfrequency, and f0 is a reference frequency
+in Fig. 2(b). The bands are thus separated by line gaps.                                                           within  the  loop. As  previously  noted,  νx;2 ¼ 1  and
+For the second and third gaps, depicted in this plot, the non-                                                                          νx;3 ¼ −1; the sign difference between the two point-gap
+Hermitian generalization of the Chern number  is well-                                                       windings is consistent with the edge states being localized
+defined [12] and yields C2 ¼ −1 and C3 ¼ 1 [50].                                                  on opposite sides of the double-OBCs sample, as seen in
+  Next, we consider a  finite-size sample of the PhC,                                                                Fig. 2(d) [50]. Similarly, we can construct a supercell along
+bounded by copper claddings along both the x and y    x (y-PBC=x-OBC), as depicted in Fig. 2(h). In this case, we
+directions, as shown in Fig. 2(c). Because the claddings                                                  do not observe any spectral loops [Figs. 2(i) and 2(j)], so
+act as perfect reflectors at microwave frequencies, this
+                                                                          νy;2 ¼ 0 and νy;3 ¼ 0 and the NHSE does not occur. This is
+configuration is equivalent to open boundary conditions
+                                                               consistent with the lack of localization on the upper and
+(OBCs) in a tight-binding model (i.e., open truncation of
+                                                        lower edges in the double-OBCs system [Fig. 2(d)] [25].the  lattice) along both x and y (“double-OBCs”). The
+                                                            Next, we  fabricate the sample shown  in  Figs. 3(a)
+calculated complex eigenfrequencies are plotted as dia-
+                                                    and 3(b), and characterize it using multiple “pump-probe”
+mond markers in Fig. 2(b). We observe that a large set of
+                                                    microwave measurements on it. In order to determine the
+eigenfrequencies, corresponding to bulk modes, occupy the
+                                                                    spatial profiles of the non-Hermitian PhC’s eigenstates,
+same areas as the bulk band frequencies. However, there
+                                           we utilize the principle that a spatially structured source
+are also eigenfrequencies spanning the bulk line gaps; the
+                                                                  preferentially  excites  eigenstates with matching  spatial
+corresponding eigenfunctions are strongly localized along
+                                                                  intensity profiles. We thus consider a line source (i.e., an
+the sample’s right edge (for gap 2) or left edge (for gap 3),
+                                                              array of dipole sources) placed along either the right or left
+as shown by the two exemplary states plotted in Fig. 2(d).
+                                                     edge of the sample, as indicated respectively by the cyan
+  The existence of these edge states, which are localized to
+                                                    and magenta stars in Fig. 3(a). The spatial profiles of these
+part of the sample boundary, arises jointly from point-gap
+winding (an intrinsically non-Hermitian topological invari-
+ant) and the Chern number (a topological band invariant
+generalized from the Hermitian regime). To demonstrate
+the former, we study the supercell depicted in Fig. 2(e),
+which has PBCs along x and OBCs in the y direction
+(“x-PBC=y-OBC”). The calculated eigenfrequencies, plot-
+ted in Fig. 2(f), form a spectral loop in each gap. As the
+wave number kx sweeps through the 1D Brillouin zone of
+the supercell, the eigenfrequencies in the second (third)
+gap  advance  anticlockwise  (clockwise),  producing  a
+point-gap winding number of þ1 (−1). This gives rise
+to the NHSE [25] and the localization behavior in the
+double-OBCs sample discussed in the previous paragraph.
+  Next, we plot intensity distributions for the supercell
+eigenstates in the bulk gap [Fig. 2(g)]. The edge states are
+chiral: states of opposite kx lie on opposite (upper or lower)    FIG. 3.  Observation of edge-localized chiral edge states. (a),(b)
+                                                            Photograph of the fabricated PhC with top copper plate removed
+edges of the  supercell, consistent with the bulk non-                                                                             (a) and  shifted  (b)  for  clear  visualization.  (c),(e) Measured
+Hermitian Chern number of each gap. Moreover, the states                                                                         intensity distributions excited by a line source near the right
+on the upper (lower) arm of each spectral loop, whose     or left boundary in (a), operating at frequencies of 15.3 GHz and
+eigenfrequencies have a larger (smaller) imaginary part, lie    17.2 GHz, respectively. (d),(f) Measured ratios of edge-localized
+on the lower (upper) edge of the supercell. This can be     energy. The arrows point to 15.3 GHz in (d) and 17.2 GHz in (f).
+
+
+                                               113802-3
+
+=== PDF PAGE 4 ===
+                      PHYSICAL REVIEW LETTERS 132, 113802 (2024)
+
+line sources respectively match the edge states for the
+second and third gaps, as shown in Fig. 2(d). We exper-
+imentally measure the fields produced by each constituent
+dipole  source, and map  out  the  intensity  distribution
+induced by the entire line source. The results are shown
+in Figs. 3(c) and 3(e) for two different frequencies in the
+second and third gaps (see Supplemental Material for more
+details about the excitation of the line source [50]).
+  Figure 3(c) shows the measured intensity distribution for
+a line source on the right boundary [cyan stars in Fig. 3(a)]
+at a frequency of 15.3 GHz (in gap 2). The intensity is
+uniformly distributed along the right boundary, matching
+both the profile of the line source and the predicted profile
+of the eigenstate at this frequency [Fig. 2(d)]. For com-
+parison, we also verified that for other choices of source
+profiles, the resulting intensity profile does not match the
+source profile (see Fig. S3 [50]). To quantify the degree of
+localization of the measured intensity profile, we define
+                     R
+                             Πs jEzj2dxdy
+                 Rl ¼ R                   ;               ð2Þ
+                     Π jEzj2dxdy
+                                                            FIG.  4.  Observation of corner-localized  chiral edge  states.
+where jEzj2 is the electric field intensity excited by the line     (a) Unit cell of the PhC. (b) Colored lines: eigenfrequencies
+                                                                         for the supercell in (c) under x-PBC=y-OBC and (d) undersource, Π denotes the entire area of the sample, and Πs
+                                                     y-PBC=x-OBC. Rhombic dots: Eigenfrequencies for the sample
+denotes the area covering the rightmost unit cells in the
+                                                             under double-OBCs in (g). (e),(f) Eigenfunctions for the sample
+sample [encircled by the cyan dashed line in Fig. 3(c)]. A
+larger value of Rl indicates that the fields are more strongly     in (g).  (h),(i) Measured intensity distributions excited by the                                                                  corner source in  (g).  (j) Measured ratios of corner-localized
+localized near the right boundary. Figure 3(d) plots the                                                                   energy. The arrows represent 15.3 GHz and 17.2 GHz.
+measured Rl versus frequency. We see that Rl exhibits a
+prominent peak around 15.3 GHz, coincident with gap 2,
+and takes on lower values  at other frequencies. These     in gap 2, and toward the −x and −y directions in gap 3. We
+results confirm the prediction that the edge states in gap 2    then construct a finite sample under double-OBCs and plot
+are localized along the right boundary, in accordance with      its eigenfrequencies as diamond markers in Fig. 4(b). In this
+the point-gap winding νx;2 ¼ 1 and νy;2 ¼ 0.                system, gaps 2 and 3 are found to be spanned by edge states,
+   Similarly, when the line source  is placed at the  left   whose  eigenfunctions  are  localized on  the  upper-right
+boundary [magenta  stars  in  Fig.  3(a)],  the measured    sample corner [Fig. 4(e) for gap 2] and lower-left sample
+intensity profile at 17.2 GHz is strongly localized along    corner [Fig. 4(f) for gap 3], respectively, consistent with
+the left boundary, as shown in Fig. 3(e). Using a locali-    predictions of the NHSE.
+                                                            Next, we implement an experimental sample with thezation measure Rl, defined similarly to Eq. (2) but singling
+                                                                 loss configuration described in the previous paragraph [seeout the leftmost unit cells, we find that the localization is
+                                                                Fig. 4(g)]. The eigenstates are investigated using a pro-enhanced at frequencies coinciding with gap 3, as shown
+                                                         cedure similar to what we have previously described; in thisin Fig. 3(f). These results are again consistent with the
+                                                                case, we implement corner sources consisting of the dipoletheoretical predictions [Fig. 2(d)]. Results for other choices
+                                                           sources indicated by cyan or magenta stars in Fig. 4(g),
+of source profile can be found in Fig. S4 [50].
+                                                      matching the spatial profiles of the simulated eigenstate
+  By adjusting the design of the PhC, we can induce
+                                                                 in Figs. 4(e) and 4(f). The resulting measured intensity
+different point-gap winding numbers, so that the NHSE
+                                                                  distributions are shown in Figs. 4(h) and 4(i), respectively
+manifests differently. Figure 4(a) shows a PhC unit cell                                                     (more measurement results, for other source profiles, are
+with broken mirror symmetry in both the x and y directions.                                                 shown in Figs. S5–S7 [50]). In Fig. 4(j), we plot the spectral
+The bulk spectrum (double-PBCs) is similar to the previous                                                          response of the energy localization near the two corners,
+case, with  clear  line gaps. To determine the point-gap                                                           defined by analogy to Eq. (2), with the singled-out regions
+windings, we take supercells with x-PBC=y-OBC [Fig. 4(c)]                                                 Πs now consisting of the cyan and magenta rectangles in
+and y-PBC=x-OBC  [Fig.  4(d)];  these two  cases  give                                                                Figs. 4(h) and 4(i), respectively. We thus conclude that the
+identical spectra [colored  lines in Fig. 4(b)] containing     chiral edge states are strongly localized around the upper-
+loops  in both gaps with  νx;2 ¼ 1,  νy;2 ¼ 1,  νx;3 ¼ −1,     right and lower-left corners at frequencies in gap 2 and
+and  νy;3 ¼ −1. The NHSE  is thus predicted to localize    gap  3,  respectively, consistent with the predictions  in
+the chiral edge states toward both the þx and þy directions    Figs. 4(e) and 4(f).
+
+
+                                               113802-4
+
+=== PDF PAGE 5 ===
+                      PHYSICAL REVIEW LETTERS 132, 113802 (2024)
+
+  The above results can be understood in terms of a bulk-      [2] B. I.  Halperin,  Quantized  Hall  conductance,  Current-
+boundary correspondence governed by a hybrid topological          carrying edge states, and the existence of extended states
+invariant                                                                   in a two-dimensional disordered potential, Phys. Rev. B 25,
+                                                            2185 (1982).
+                  νn ¼ ðCn; νx;n; νy;nÞ               ð3Þ      [3] D. J. Thouless, M. Kohmoto, M. P. Nightingale, and M. den
+                                                                               Nijs, Quantized Hall conductance in a two-dimensional
+for each gap n. Only a combination of the Chern number          periodic potential, Phys. Rev. Lett. 49, 405 (1982).
+                                                                          [4] M. Z. Hasan and C. L. Kane, Colloquium: Topologicaland point-gap winding numbers can predict the existence
+                                                                                insulators, Rev. Mod. Phys. 82, 3045 (2010).and localization behavior of the edge states. The Chern
+                                                                          [5] X.-L. Qi and  S.-C. Zhang, Topological  insulators andnumber Cn determines the number of chiral edge states in                                                                      superconductors, Rev. Mod. Phys. 83, 1057 (2011).
+the gap, while the two point-gap winding numbers deter-
+mine how they are localized in the x and y directions [50].      [6] Z. Wang, Y. Chong, J. D. Joannopoulos, and M. Soljačić,
+                                                                    Observation of unidirectional backscattering-immune topo-
+In Fig. S8, we study the boundary modes in a gap with a
+                                                                              logical electromagnetic states, Nature (London) 461, 772
+large Chern number Cn ¼ 2 and find two branches of                                                                        (2009).
+localized chiral edge states spanning in the gap [50].                                                                          [7] M. Hafezi, S. Mittal, J. Fan, A. Migdall, and J. M. Taylor,
+  In conclusion, we have demonstrated the existence of edge                                                               Imaging topological edge states in silicon photonics, Nat.
+and corner localized chiral edge states in a gyromagnetic PhC         Photonics 7, 1001 (2013).
+exhibiting the NHSE. The Chern-type bulk-boundary corre-      [8] Z. Yang, F. Gao, X. Shi, X. Lin, Z. Gao, Y. Chong, and B.
+spondence has been generalized to the non-Hermitian regime,         Zhang, Topological acoustics, Phys. Rev. Lett. 114, 114301
+for which we have proposed a hybrid topological invariant          (2015).
+that incorporates both the Chern number and two winding      [9] Y. Ding, Y. Peng, Y. Zhu, X. Fan, J. Yang, B. Liang, X. Zhu,
+numbers to accurately predict the boundary states in both        X. Wan, and  J. Cheng, Experimental demonstration of
+Hermitian and non-Hermitian cases. Our Letter represents          acoustic Chern insulators, Phys. Rev. Lett. 122, 014302
+the first observation of the NHSE in a PhC, going beyond the          (2019).
+                                                                   [10] L. M. Nash, D. Kleckner, A. Read, V. Vitelli, A. M. Turner,tight-binding approximation [33]. Because of the role of the
+                                                              and W. T. M. Irvine, Topological mechanics of gyroscopic
+chiral edge states, the NHSE in this system exhibits superior
+                                                                        metamaterials, Proc. Natl. Acad. Sci. U.S.A. 112, 14495
+robustness  against  local  defects compared  to  previous
+                                                                        (2015).
+NHSE realizations [50]. Our findings may find applications                                                                   [11] D. Leykam, K. Y. Bliokh, C. Huang, Y. D. Chong, and F.
+in lasing [52] and robust light harvesting [39].                                                                        Nori, Edge modes, degeneracies, and topological numbers
+                                                                             in non-Hermitian systems, Phys. Rev. Lett. 118, 040401
+  This work was sponsored by the National Research          (2017).
+Foundation  Competitive  Research  Program No. NRF-     [12] H. Shen, B. Zhen, and L. Fu, Topological band theory for
+CRP23-2019-0007. Work  at  University  of  Electronic         non-Hermitian Hamiltonians, Phys. Rev. Lett. 120, 146402
+Science and Technology of China was sponsored by the          (2018).
+National Natural Science Foundation of China (NSFC)     [13] Z.  Gong,  Y.  Ashida,  K.  Kawabata,  K.  Takasan,  S.
+(No. 52022018 and No. 52021001). The work at Zhejiang         Higashikawa, and M. Ueda, Topological phases of non-
+University was  sponsored by  the Key  Research  and         Hermitian systems, Phys. Rev. X 8, 031079 (2018).
+Development Program of  the Ministry of Science and     [14] K. Kawabata, K. Shiozaki, M. Ueda, and M. Sato, Sym-
+Technology under Grants No. 2022YFA1405200 (Y. Y.),         metry and topology in non-Hermitian physics, Phys. Rev. X
+No. 2022YFA1404704 (H. C.), and No. 2022YFA1404900           9, 041015 (2019).
+(Y. Y.), the National Natural Science Foundation of China     [15] E. J. Bergholtz, J. C. Budich, and F. K. Kunst, Exceptional
+(NNSFC)  under  Grants  No.  11961141010  (H. C.),         topology of non-Hermitian systems, Rev. Mod. Phys. 93,
+No. 62175215  (Y. Y.), and No. 61975176 (H. C.),  the        015005 (2021).
+Fundamental Research Funds for the Central Universities     [16] F. Song,  S.  Yao, and  Z. Wang, Non-Hermitian  topo-
+(2021FZZX001-19)  (Y. Y.),  and  the  Excellent  Young           logical  invariants  in  real  space,  Phys.  Rev.  Lett.  123,
+Scientists Fund Program (Overseas) of China (Y. Y.). The        246801 (2019).
+                                                                   [17] T. E. Lee, Anomalous edge state in a non-Hermitian lattice,work at Southern University of Science and Technology was
+                                                                    Phys. Rev. Lett. 116, 133903 (2016).sponsored by the National Natural Science Foundation of
+                                                                   [18] F. K.  Kunst,  E.  Edvardsson,  J. C.  Budich,  and  E. J.China (No. 62375118, No. 6231101016, and No. 12104211).
+                                                                        Bergholtz, Biorthogonal bulk-boundary correspondence in
+                                                                  non-Hermitian  systems,  Phys. Rev.  Lett. 121, 026808
+                                                                        (2018).
+    *These authors contributed equally to this work.               [19] S. Yao and Z. Wang, Edge states and topological invariants
+    †Corresponding author: yangyihao@zju.edu.cn                      of non-Hermitian systems, Phys. Rev. Lett. 121, 086803
+    ‡Corresponding author: yidong@ntu.edu.sg                         (2018).
+    §Corresponding author: blzhang@ntu.edu.sg                   [20] T. Liu, Y. R. Zhang, Q. Ai, Z. Gong, K. Kawabata, M. Ueda,
+ [1] K. von Klitzing et al., 40 years of the quantum Hall effect,        and  F.  Nori, Second-order  topological phases  in non-
+     Nat. Rev. Phys. 2, 397 (2020).                                  Hermitian systems, Phys. Rev. Lett. 122, 076801 (2019).
+
+
+                                               113802-5
+
+=== PDF PAGE 6 ===
+                      PHYSICAL REVIEW LETTERS 132, 113802 (2024)
+
+[21] C. H. Lee, L. Li, and J. Gong, Hybrid higher-order skin-     [40] T. Helbig,  T. Hofmann, S. Imhof, M. Abdelghany,  T.
+     topological modes in nonreciprocal systems, Phys. Rev.          Kiessling, L. W. Molenkamp, C. H. Lee, A. Szameit, M.
+      Lett. 123, 016805 (2019).                                              Greiter,  and  R.  Thomale,  Generalized  bulk–boundary
+[22] Y. Yi and Z. Yang, Non-Hermitian skin modes induced by         correspondence  in  non-Hermitian  topolectrical  circuits,
+     on-site dissipations and chiral tunneling effect, Phys. Rev.         Nat. Phys. 16, 747 (2020).
+      Lett. 125, 186802 (2020).                                     [41] T. Hofmann et al., Reciprocal skin effect and its realiza-
+[23] L. Li, C. H. Lee, and J. Gong, Topological switch for non-          tion in a topolectrical circuit, Phys. Rev. Res. 2, 023265
+     Hermitian skin effect in cold-atom systems with loss, Phys.         (2020).
+     Rev. Lett. 124, 250402 (2020).                                [42] A. Ghatak, M. Brandenbourger,  J. van Wezel, and C.
+[24] N. Okuma, K. Kawabata, K.  Shiozaki, and M.  Sato,          Coulais, Observation of non-Hermitian topology and  its
+     Topological origin of non-Hermitian skin  effects, Phys.         bulk–edge  correspondence  in  an  active  mechanical
+     Rev. Lett. 124, 086801 (2020).                                    metamaterial, Proc. Natl. Acad. Sci. U.S.A. 117, 29561
+[25] K. Zhang, Z. Yang, and C. Fang, Correspondence between          (2020).
+    winding numbers and skin modes in non-Hermitian sys-     [43] K. Wang, A. Dutt, K. Y. Yang, C. C. Wojcik, J. Vučković,
+     tems, Phys. Rev. Lett. 125, 126402 (2020).                     and S. Fan, Generating arbitrary topological windings of a
+[26] D. S. Borgnia, A. J. Kruchkov, and R. J.  Slager, Non-         non-Hermitian band, Science 371, 1240 (2021).
+     Hermitian boundary modes and topology, Phys. Rev. Lett.     [44] L. S. Palacios, S. Tchoumakov, M. Guix, I. Pagonabarraga,
+     124, 056802 (2020).                                                S. Sánchez, and A. G. Grushin, Guided accumulation of
+[27] S. Mandal, R. Banerjee, E. A. Ostrovskaya, and T. C. H.          active particles by topological design of a second-order skin
+     Liew, Nonreciprocal transport of exciton polaritons in a non-           effect, Nat. Commun. 12, 4691 (2021).
+     Hermitian chain, Phys. Rev. Lett. 125, 123902 (2020).        [45] X. Zhang, Y. Tian, J. H. Jiang, M. H. Lu, and Y. F. Chen,
+[28] L. Li, C. H. Lee, S. Mu, and J. Gong, Critical non-Hermitian         Observation  of  higher-order non-Hermitian  skin  effect,
+     skin effect, Nat. Commun. 11, 5491 (2020).                       Nat. Commun. 12, 5377 (2021).
+[29] S. Longhi, Non-Bloch-band  collapse and  chiral Zener     [46] L. Zhang  et  al., Acoustic non-Hermitian  skin  effect
+     tunneling, Phys. Rev. Lett. 124, 066602 (2020).                 from  twisted  winding  topology,  Nat. Commun.  12,
+[30] K. Kawabata, M. Sato, and K. Shiozaki, Higher-order non-        6297 (2021).
+     Hermitian skin effect, Phys. Rev. B 102, 205118 (2020).      [47] D. Zou, T. Chen, W. He, J. Bao, C. H. Lee, H. Sun, and X.
+[31] L. J. Lang, S. L. Zhu, and Y. D. Chong, Non-Hermitian topo-         Zhang, Observation of hybrid higher-order skin-topological
+     logical end breathers, Phys. Rev. B 104, L020303 (2021).            effect in non-Hermitian topolectrical circuits, Nat. Com-
+[32] K. Zhang, Z. Yang, and C. Fang, Universal non-Hermitian        mun. 12, 7201 (2021).
+     skin effect in two and higher dimensions, Nat. Commun. 13,     [48] Q. Liang, D. Xie, Z. Dong, H. Li, H. Li, B. Gadway, W. Yi,
+    1 (2022).                                                  and B. Yan, Dynamic signatures of non-Hermitian skin
+[33] J. Zhong, K. Wang, Y. Park, V. Asadchy, C. C. Wojcik, A.           effect and topology in ultracold atoms, Phys. Rev. Lett. 129,
+     Dutt, and S. Fan, Nontrivial point-gap topology and non-        070401 (2022).
+     Hermitian skin effect in photonic crystals, Phys. Rev. B 104,     [49] Y. G. Liu, Y. Wei, O. Hemmatyar, G. G. Pyrialakos, P. S.
+    125416 (2021).                                                  Jung, D. N. Christodoulides, and M. Khajavikhan, Complex
+[34] Y. X. Xiao and C. T. Chan, Topology in non-Hermitian          skin modes in non-Hermitian coupled laser arrays, Light 11,
+    Chern insulators with skin effect, Phys. Rev. B 105, 075128        1 (2022).
+     (2022).                                                       [50] See   Supplemental   Material    at    http://link.aps.org/
+[35] Y. Li, C. Liang, C. Wang, C. Lu, and Y. C. Liu, Gain-loss-         supplemental/10.1103/PhysRevLett.132.113802 for calcu-
+     induced hybrid skin-topological effect, Phys. Rev. Lett. 128,           lation of Chern numbers for non-Hermitian PhCs, materials
+    223903 (2022).                                             and experimental setup, numerical simulation, robustness of
+[36] W. Zhu and J. Gong, Hybrid skin-topological modes without          localized chiral edge states, calculation of winding number,
+     asymmetric couplings, Phys. Rev. B 106, 035425 (2022).            excitation of dipole arrays, and other theoretical results and
+[37] F. Schindler, K. Gu, B. Lian, and K. Kawabata, Hermitian         experimental data, which includes Ref. [51].
+     bulk–non-Hermitian boundary correspondence, PRX Quan-     [51] W. A.  Benalcazar,  B. A.  Bernevig, and  T. L.  Hughes,
+    tum 4, 030315 (2023).                                                Electric multipole moments, topological multipole moment
+[38] L. Xiao, T. Deng, K. Wang, G. Zhu, Z. Wang, W. Yi, and        pumping, and chiral hinge states in crystalline insulators,
+      P. Xue, Non-Hermitian bulk–boundary correspondence in         Phys. Rev. B 96, 245115 (2017).
+    quantum dynamics, Nat. Phys. 16, 761 (2020).                [52] B. Bahari, A. Ndao, F. Vallini, A. E. Amili, Y. Fainman, and
+[39] S. Weidemann, M. Kremer, T. Helbig, T. Hofmann, A.         B. Kant´e, Nonreciprocal lasing in topological cavities of
+     Stegmaier, M.  Greiter, R. Thomale, and A.  Szameit,           arbitrary geometries, Science 358, 636 (2017).
+     Topological funneling of light, Science 368, 311 (2020).
+
+
+
+
+
+                                               113802-6

@@ -4,6 +4,8 @@
 
 ## 打开后从这里进入
 
+**2026-09-27 新增：** [PI-specific Defense / 刘癸庚：PRL 2024 手性边缘态局域化](../A线工作区/联系/刘癸庚/06_Response_Prep/PI_Specific_Defense/PRL2024_Chiral_Edge_Localization/README.md)。状态：**材料已准备 / 待本人学习**。已归档正式论文及刘组官方说明，配有七项学习材料、三张原图和概念图；Supplementary Material 尚未取得，细节待补核。学习范围仅本篇，未运行仿真、未进行本人口述评估。原有项目训练安排继续保留。
+
 1. [申请 claim 与版本边界](00_Application_Claims/00_Claims_Readme.md)：先确认当前 CV 究竟写了什么。
 2. [毕设代码来源与版本关系](01_Thesis_Microwave_Absorber/90_Defense_Workspace/01_Code_Ownership_and_Versions.md)：明天建议先从这里开始。
 3. [缺件与断链](99_Missing_or_To_Confirm/00_Gaps_and_TODO.md)：区分缺文件、缺贡献证明和待理解事项。
@@ -54,4 +56,4 @@
 
 ## 后续1–2天的建议顺序（未开始）
 
-先毕设ownership与版本定位，再毕设单条工作流；随后晶格波数据—轨迹—论文图对应；最后材料项目的个人图件/文字贡献。物理复习、技术追问、讲述训练和PI模拟面试均留待用户下一步指令。原始副本只读，新笔记写入各项目的`90_Defense_Workspace`，不得覆盖快照。
+原有项目建议顺序：先毕设ownership与版本定位，再毕设单条工作流；随后晶格波数据—轨迹—论文图对应；最后材料项目的个人图件/文字贡献。2026-09-27 已按用户指令新增上述刘癸庚单篇论文学习包；材料准备不等于本人训练完成。完整 PI 模拟面试与其他项目训练仍未启动。原始副本只读，新笔记写入各项目的`90_Defense_Workspace`或上述PI-specific子目录，不得覆盖快照。
