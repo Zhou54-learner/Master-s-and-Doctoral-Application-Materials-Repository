@@ -1,0 +1,8 @@
+Fixed current 9x9 best topology with surface Ohmic Sheet model
+score = 13.375058127692798
+bandwidth_RL_lt_minus_10_dB_GHz = 12.25870646766169
+min_RL_dB = -37.21453439840983
+parameters_p_h_mask_x_seed_mask_y_seed = (13.1286, 8.8667, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0])
+cst_file = F:\biyesheji\ohmic_sheet_9x9_best_122587_recheck\fixed_best_ohmic_sheet_check\fixed_best_ohmic_sheet_20260502_235128_3622.cst
+s11_file = F:\biyesheji\ohmic_sheet_9x9_best_122587_recheck\fixed_best_ohmic_sheet_check\fixed_best_ohmic_sheet_s11.txt
+png_file = F:\biyesheji\ohmic_sheet_9x9_best_122587_recheck\fixed_best_ohmic_sheet_check\fixed_best_ohmic_sheet_RL.png

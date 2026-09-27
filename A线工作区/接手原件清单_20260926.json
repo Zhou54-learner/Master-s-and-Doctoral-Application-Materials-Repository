@@ -1,0 +1,106 @@
+{
+  "captured": "2026-09-26",
+  "scope": "Original files present before first project edits; local only",
+  "files": [
+    {
+      "Path": "A线_PI_04_吴泰霖.md",
+      "Bytes": 23615,
+      "SHA256": "1510788D8E9431DCF5725B2392353A8CDC80A193958073ABC28431063B7C7F85"
+    },
+    {
+      "Path": "A线_PI_05_鲍芳琳.md",
+      "Bytes": 21827,
+      "SHA256": "6EFB59E439F082DB5601672C15828FB9FF1892D94FA9BAD21D5168329DCE7209"
+    },
+    {
+      "Path": "A线_PI_06_田静逸.md",
+      "Bytes": 18229,
+      "SHA256": "50F344B8ED8E521089357E986D433F242340CBAFCC2FC9BE3552DF8982EC1578"
+    },
+    {
+      "Path": "A线_PI_07_刘癸庚_v2.md",
+      "Bytes": 26814,
+      "SHA256": "8D9E16ED37D323B9D0AF80CCD03ABC6DEF6A0155CF3F4CEEEFE783F343F4D74B"
+    },
+    {
+      "Path": "A线_PI_08_仇旻.md",
+      "Bytes": 22110,
+      "SHA256": "DE7951EEBEAF134C801F60849E7307021304A2415AF0A773D08E7FCEEF4D72B5"
+    },
+    {
+      "Path": "A线_PI_总表_v1.md",
+      "Bytes": 19599,
+      "SHA256": "AA3CFF51869460C0FF09BEBDBD4D5A8826316C76DBF3FCD812E31D5E053526C0"
+    },
+    {
+      "Path": "个人资料\\成绩单.pdf",
+      "Bytes": 640586,
+      "SHA256": "A8D938729F01B4F587946548B9CB7EE7348EB69A37A60A7E86588DB50C8BAF19"
+    },
+    {
+      "Path": "个人资料\\排名.png",
+      "Bytes": 198251,
+      "SHA256": "03FC0A21933CA18D82233D031804ADF17BF31929B863DA394B88435EED3B579F"
+    },
+    {
+      "Path": "个人资料\\英语六级成绩.jpg",
+      "Bytes": 883157,
+      "SHA256": "15DE1DA766E71B0D025A9ECC876D0743BECE3374E131BF4143A3B2E0564CA762"
+    },
+    {
+      "Path": "个人资料\\英语四级成绩.jpg",
+      "Bytes": 710319,
+      "SHA256": "55BAB09570BE158F2AAFB6755E0038863CA08007A874B3BC372162878CEBB1F1"
+    },
+    {
+      "Path": "西湖-刘仕组\\刘仕组.md",
+      "Bytes": 170,
+      "SHA256": "158998CDEE89CDD400055D09D7465BB16B0F0F0DC7B00844B9B1FF3CA2400283"
+    },
+    {
+      "Path": "西湖-刘仕组\\A线_PI_02_刘仕_v2.md",
+      "Bytes": 26672,
+      "SHA256": "F0AE49DDDED363B7746258ABFCA5E10E1B4B9235CA536C16E54B827B695FEA81"
+    },
+    {
+      "Path": "西湖-朱一舟组\\朱一舟组.md",
+      "Bytes": 4891,
+      "SHA256": "DEA8C48439D2F4DE5E9117902CBFECD514468C82F80CE6298FA4E68818B1F450"
+    },
+    {
+      "Path": "西湖-朱一舟组\\A perspective on training machine learning force fields for solid-state electrolyte materials.pdf",
+      "Bytes": 1591116,
+      "SHA256": "0121094CDF4F98B448DC359D024B5E2D0EAF0F91DB1B648991EC1041686ED87C"
+    },
+    {
+      "Path": "西湖-朱一舟组\\A线_PI_01_朱一舟.md",
+      "Bytes": 14949,
+      "SHA256": "43D2D484BAFC5A1B827F51DCD069A7ECBB30A195E2611E3D947C090E2FC4BA9C"
+    },
+    {
+      "Path": "西湖-朱一舟组\\A线_PI_03_李文彬.md",
+      "Bytes": 22289,
+      "SHA256": "9DC6FBEDD537A76E11D159C9A1E067CCBA53631E5E3A9BC9B49BA7F410127FF9"
+    },
+    {
+      "Path": "西湖-朱一舟组\\Automated phase mapping of high-throughput X-ray diffraction data encoded with domain-specific materials science knowledge.pdf",
+      "Bytes": 2376996,
+      "SHA256": "C2A095CC28B818E20BC2780F0167DF237393B3B5AA00B81485ACBFE20D1338B3"
+    },
+    {
+      "Path": "西湖-朱一舟组\\Equivariant diffusion solution for inorganic crystal structure determination from powder X-ray diffraction data.pdf",
+      "Bytes": 2239813,
+      "SHA256": "A6F15F7445D603BEAAF48E4B4C3D6719BD90A70EE0AB209676287562C8A47F4B"
+    },
+    {
+      "Path": "西湖-朱一舟组\\Improving Robustness and Training Efficiency of Machine-Learned Potentials by Incorporating Short-Range Empirical Potentials.pdf",
+      "Bytes": 3066151,
+      "SHA256": "9813A4CE98292D747F1462B9EFC2B3E0D9E4E77FB122875C86B0FEAFCBD4F429"
+    },
+    {
+      "Path": "西湖-朱一舟组\\Supporting Information.pdf",
+      "Bytes": 4307873,
+      "SHA256": "3318788805246EB4F9DC30A5466322E09236A050C5527D8B8E340BC7D7BF101F"
+    }
+  ]
+}

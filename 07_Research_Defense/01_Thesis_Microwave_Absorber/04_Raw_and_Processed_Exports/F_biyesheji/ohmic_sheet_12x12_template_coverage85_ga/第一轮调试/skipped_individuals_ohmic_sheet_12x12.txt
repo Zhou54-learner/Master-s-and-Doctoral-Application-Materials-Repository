@@ -1,0 +1,2 @@
+initial_seed_perturb_skipped	reason=Y_too_many_kept=144	bitstring=000110001011000000010101000111001001
+initial_seed_perturb_skipped	reason=Y_too_many_kept=144	bitstring=000110001011000000010101000101001101

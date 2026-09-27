@@ -1,0 +1,334 @@
+{
+  "date": "2026-09-26",
+  "status": "complete; archived Markdown changed only to repair relative paths",
+  "scope": "Only superseded generated application assets; protected original 20 unchanged",
+  "files": [
+    {
+      "from": "A线工作区/材料/中文学术简历_v0.1_INTERNAL.md",
+      "to": "A线工作区/材料/历史版本/中文学术简历_v0.1_INTERNAL.md",
+      "SHA256_before": "D32019B305931C84A509F22A6AC3CF176C1A83736EB363B6874EE384C3DAA13A",
+      "SHA256_after_move": "D32019B305931C84A509F22A6AC3CF176C1A83736EB363B6874EE384C3DAA13A",
+      "SHA256_after_link_repair": "D32019B305931C84A509F22A6AC3CF176C1A83736EB363B6874EE384C3DAA13A"
+    },
+    {
+      "from": "A线工作区/材料/周子靖_中文学术简历_v0.2_INTERNAL.md",
+      "to": "A线工作区/材料/历史版本/周子靖_中文学术简历_v0.2_INTERNAL.md",
+      "SHA256_before": "0B97ABE643E7A9C92F389E880C8EBB0D4998A615F699E64B09CABD782B4AAA9E",
+      "SHA256_after_move": "0B97ABE643E7A9C92F389E880C8EBB0D4998A615F699E64B09CABD782B4AAA9E",
+      "SHA256_after_link_repair": "0B97ABE643E7A9C92F389E880C8EBB0D4998A615F699E64B09CABD782B4AAA9E"
+    },
+    {
+      "from": "A线工作区/材料/周子靖_中文学术简历_v0.3_INTERNAL.md",
+      "to": "A线工作区/材料/历史版本/周子靖_中文学术简历_v0.3_INTERNAL.md",
+      "SHA256_before": "56BEEA437B511A89BE3775511AD168C2CB965AAD59C5EF78399CE20DB1CF6DFB",
+      "SHA256_after_move": "56BEEA437B511A89BE3775511AD168C2CB965AAD59C5EF78399CE20DB1CF6DFB",
+      "SHA256_after_link_repair": "56BEEA437B511A89BE3775511AD168C2CB965AAD59C5EF78399CE20DB1CF6DFB"
+    },
+    {
+      "from": "A线工作区/材料/Academic_CV_v1.0_READY.md",
+      "to": "A线工作区/材料/历史版本/Academic_CV_v1.0_READY.md",
+      "SHA256_before": "863698E546D164CF22DE64D716A97EB7691542E75F033002CD5DB2E4896D0BD0",
+      "SHA256_after_move": "863698E546D164CF22DE64D716A97EB7691542E75F033002CD5DB2E4896D0BD0",
+      "SHA256_after_link_repair": "863698E546D164CF22DE64D716A97EB7691542E75F033002CD5DB2E4896D0BD0"
+    },
+    {
+      "from": "A线工作区/材料/Academic_CV_v1.1_READY.md",
+      "to": "A线工作区/材料/历史版本/Academic_CV_v1.1_READY.md",
+      "SHA256_before": "F65F4894007F98E39982B21ADE81D8AC3EADC60E41560800A962935AE0CF33FD",
+      "SHA256_after_move": "F65F4894007F98E39982B21ADE81D8AC3EADC60E41560800A962935AE0CF33FD",
+      "SHA256_after_link_repair": "F65F4894007F98E39982B21ADE81D8AC3EADC60E41560800A962935AE0CF33FD"
+    },
+    {
+      "from": "A线工作区/材料/中文CV_v0.2_修改与真实性检查.md",
+      "to": "A线工作区/材料/历史版本/中文CV_v0.2_修改与真实性检查.md",
+      "SHA256_before": "A211FF58A6DF0AF05D51AC1CFFAE81424A678B042AA914492FFBFD3FF3D6DA61",
+      "SHA256_after_move": "A211FF58A6DF0AF05D51AC1CFFAE81424A678B042AA914492FFBFD3FF3D6DA61",
+      "SHA256_after_link_repair": "00DF2280228235BF5A17D62687F8D9FBC56058150A359F57603572741AD3D230"
+    },
+    {
+      "from": "A线工作区/材料/中文CV_Master_v1_changelog.md",
+      "to": "A线工作区/材料/历史版本/中文CV_Master_v1_changelog.md",
+      "SHA256_before": "C4F6237669DB733C06308D1AD66EAAA6F4C6E6C3066D0CDD66203BE379E4215E",
+      "SHA256_after_move": "C4F6237669DB733C06308D1AD66EAAA6F4C6E6C3066D0CDD66203BE379E4215E",
+      "SHA256_after_link_repair": "85593AED1CE0BBDCFAB7B2AB586783D7EEC122FE2904BC72B35BBF953F52BEE3"
+    },
+    {
+      "from": "A线工作区/材料/校对稿/周子靖_中文学术简历_v0.1_INTERNAL.pdf",
+      "to": "A线工作区/材料/校对稿/历史版本/周子靖_中文学术简历_v0.1_INTERNAL.pdf",
+      "SHA256_before": "C8F662E902D790FC3A2E6002D784D1C9E10ABBB9AB1E258625243BCE96E45394",
+      "SHA256_after_move": "C8F662E902D790FC3A2E6002D784D1C9E10ABBB9AB1E258625243BCE96E45394",
+      "SHA256_after_link_repair": "C8F662E902D790FC3A2E6002D784D1C9E10ABBB9AB1E258625243BCE96E45394"
+    },
+    {
+      "from": "A线工作区/材料/校对稿/周子靖_中文学术简历_v0.2_INTERNAL.pdf",
+      "to": "A线工作区/材料/校对稿/历史版本/周子靖_中文学术简历_v0.2_INTERNAL.pdf",
+      "SHA256_before": "AB78D5A3C6DFFDBBAC31A4C733FA278B5F50D5C96FDE6132059E527DA46E8579",
+      "SHA256_after_move": "AB78D5A3C6DFFDBBAC31A4C733FA278B5F50D5C96FDE6132059E527DA46E8579",
+      "SHA256_after_link_repair": "AB78D5A3C6DFFDBBAC31A4C733FA278B5F50D5C96FDE6132059E527DA46E8579"
+    },
+    {
+      "from": "A线工作区/材料/校对稿/周子靖_中文学术简历_v0.2_INTERNAL.docx",
+      "to": "A线工作区/材料/校对稿/历史版本/周子靖_中文学术简历_v0.2_INTERNAL.docx",
+      "SHA256_before": "96C91E230301A5C536996C674466298CD7F3801D9A1E3A2063D535BD87DFD2DB",
+      "SHA256_after_move": "96C91E230301A5C536996C674466298CD7F3801D9A1E3A2063D535BD87DFD2DB",
+      "SHA256_after_link_repair": "96C91E230301A5C536996C674466298CD7F3801D9A1E3A2063D535BD87DFD2DB"
+    },
+    {
+      "from": "A线工作区/材料/校对稿/周子靖_中文学术简历_v0.3_INTERNAL.pdf",
+      "to": "A线工作区/材料/校对稿/历史版本/周子靖_中文学术简历_v0.3_INTERNAL.pdf",
+      "SHA256_before": "F1C8E7983277CD46DACF68EB7BD0B9D5667C8E14A77C1DE8D2BC4336EF173F44",
+      "SHA256_after_move": "F1C8E7983277CD46DACF68EB7BD0B9D5667C8E14A77C1DE8D2BC4336EF173F44",
+      "SHA256_after_link_repair": "F1C8E7983277CD46DACF68EB7BD0B9D5667C8E14A77C1DE8D2BC4336EF173F44"
+    },
+    {
+      "from": "A线工作区/材料/校对稿/周子靖_中文学术简历_v0.3_INTERNAL.docx",
+      "to": "A线工作区/材料/校对稿/历史版本/周子靖_中文学术简历_v0.3_INTERNAL.docx",
+      "SHA256_before": "013E8071C38CF186C977E469999843BEA97405057F6623E679B0A4A8CB9B076A",
+      "SHA256_after_move": "013E8071C38CF186C977E469999843BEA97405057F6623E679B0A4A8CB9B076A",
+      "SHA256_after_link_repair": "013E8071C38CF186C977E469999843BEA97405057F6623E679B0A4A8CB9B076A"
+    },
+    {
+      "from": "A线工作区/材料/对外PDF/Zijing_Zhou_CV_v1.0.pdf",
+      "to": "A线工作区/材料/对外PDF/历史版本/Zijing_Zhou_CV_v1.0.pdf",
+      "SHA256_before": "E7D7CD4B4DA725BB8B0CDC431B1A6EE3F2C644CFCBE125A60E5A841F33DA8C79",
+      "SHA256_after_move": "E7D7CD4B4DA725BB8B0CDC431B1A6EE3F2C644CFCBE125A60E5A841F33DA8C79",
+      "SHA256_after_link_repair": "E7D7CD4B4DA725BB8B0CDC431B1A6EE3F2C644CFCBE125A60E5A841F33DA8C79"
+    },
+    {
+      "from": "A线工作区/材料/对外PDF/Zijing_Zhou_CV_v1.1.pdf",
+      "to": "A线工作区/材料/对外PDF/历史版本/Zijing_Zhou_CV_v1.1.pdf",
+      "SHA256_before": "81183079FB30CD6643274B54BE9A50A0799845F2078ECF736771373101C47A81",
+      "SHA256_after_move": "81183079FB30CD6643274B54BE9A50A0799845F2078ECF736771373101C47A81",
+      "SHA256_after_link_repair": "81183079FB30CD6643274B54BE9A50A0799845F2078ECF736771373101C47A81"
+    },
+    {
+      "from": "A线工作区/材料/对外PDF/周子靖_中文学术简历_Master_v1.pdf",
+      "to": "A线工作区/材料/对外PDF/历史版本/周子靖_中文学术简历_Master_v1.pdf",
+      "SHA256_before": "02C559A0682C93497D67429A604BE4ECDE45F4195984B301B3A04077C33F9192",
+      "SHA256_after_move": "02C559A0682C93497D67429A604BE4ECDE45F4195984B301B3A04077C33F9192",
+      "SHA256_after_link_repair": "02C559A0682C93497D67429A604BE4ECDE45F4195984B301B3A04077C33F9192"
+    },
+    {
+      "from": "A线工作区/材料/对外PDF/周子靖_中文学术简历_Master_v1.docx",
+      "to": "A线工作区/材料/对外PDF/历史版本/周子靖_中文学术简历_Master_v1.docx",
+      "SHA256_before": "B617F0D855F73CBB0F46A9CED8CD6CCB0F8AAE3F76F0D2D01C78371C7644616B",
+      "SHA256_after_move": "B617F0D855F73CBB0F46A9CED8CD6CCB0F8AAE3F76F0D2D01C78371C7644616B",
+      "SHA256_after_link_repair": "B617F0D855F73CBB0F46A9CED8CD6CCB0F8AAE3F76F0D2D01C78371C7644616B"
+    },
+    {
+      "from": "A线工作区/核验/build_chinese_cv.py",
+      "to": "A线工作区/核验/历史版本/build_chinese_cv.py",
+      "SHA256_before": "E99A880ADCC91ED9B5048DBFCADD4C5AE7788C469F8737C8C7CD6C75DE15B3B8",
+      "SHA256_after_move": "E99A880ADCC91ED9B5048DBFCADD4C5AE7788C469F8737C8C7CD6C75DE15B3B8",
+      "SHA256_after_link_repair": "E99A880ADCC91ED9B5048DBFCADD4C5AE7788C469F8737C8C7CD6C75DE15B3B8"
+    },
+    {
+      "from": "A线工作区/核验/build_chinese_cv_v02.py",
+      "to": "A线工作区/核验/历史版本/build_chinese_cv_v02.py",
+      "SHA256_before": "2CAC42FC1FEB4A496A7E9B25DB8D2CE78646F1490A52D2AB871476FD5B7014CD",
+      "SHA256_after_move": "2CAC42FC1FEB4A496A7E9B25DB8D2CE78646F1490A52D2AB871476FD5B7014CD",
+      "SHA256_after_link_repair": "2CAC42FC1FEB4A496A7E9B25DB8D2CE78646F1490A52D2AB871476FD5B7014CD"
+    },
+    {
+      "from": "A线工作区/核验/check_chinese_cv_v02.py",
+      "to": "A线工作区/核验/历史版本/check_chinese_cv_v02.py",
+      "SHA256_before": "6C3414EF0A942FF2BB482E9BB4DC7B9E1D8F74130FF5283B65CF9011E01E0A0B",
+      "SHA256_after_move": "6C3414EF0A942FF2BB482E9BB4DC7B9E1D8F74130FF5283B65CF9011E01E0A0B",
+      "SHA256_after_link_repair": "6C3414EF0A942FF2BB482E9BB4DC7B9E1D8F74130FF5283B65CF9011E01E0A0B"
+    },
+    {
+      "from": "A线工作区/核验/export_chinese_cv_v02.ps1",
+      "to": "A线工作区/核验/历史版本/export_chinese_cv_v02.ps1",
+      "SHA256_before": "03A56017EBAE8CE2BE3E37F0502AB8533CA15F4DD160A8F551553C7B134C83BB",
+      "SHA256_after_move": "03A56017EBAE8CE2BE3E37F0502AB8533CA15F4DD160A8F551553C7B134C83BB",
+      "SHA256_after_link_repair": "03A56017EBAE8CE2BE3E37F0502AB8533CA15F4DD160A8F551553C7B134C83BB"
+    },
+    {
+      "from": "A线工作区/核验/freeze_chinese_cv_master.py",
+      "to": "A线工作区/核验/历史版本/freeze_chinese_cv_master.py",
+      "SHA256_before": "18409CF2B36116756390C5C94E69FFF410274122FFA679DC8EE8203A475A957E",
+      "SHA256_after_move": "18409CF2B36116756390C5C94E69FFF410274122FFA679DC8EE8203A475A957E",
+      "SHA256_after_link_repair": "18409CF2B36116756390C5C94E69FFF410274122FFA679DC8EE8203A475A957E"
+    },
+    {
+      "from": "A线工作区/核验/export_chinese_cv_master.ps1",
+      "to": "A线工作区/核验/历史版本/export_chinese_cv_master.ps1",
+      "SHA256_before": "E8CF878C0BA0B224E7BE08F443C27C3C044767B58FE1620437BB494EA63F6CB7",
+      "SHA256_after_move": "E8CF878C0BA0B224E7BE08F443C27C3C044767B58FE1620437BB494EA63F6CB7",
+      "SHA256_after_link_repair": "E8CF878C0BA0B224E7BE08F443C27C3C044767B58FE1620437BB494EA63F6CB7"
+    },
+    {
+      "from": "A线工作区/核验/build_application_pdfs.py",
+      "to": "A线工作区/核验/历史版本/build_application_pdfs.py",
+      "SHA256_before": "54EE1B3E98FD2088A92DFDFB77FE03312D77C2F15CAB33276A47E7873C2ADAA3",
+      "SHA256_after_move": "54EE1B3E98FD2088A92DFDFB77FE03312D77C2F15CAB33276A47E7873C2ADAA3",
+      "SHA256_after_link_repair": "54EE1B3E98FD2088A92DFDFB77FE03312D77C2F15CAB33276A47E7873C2ADAA3"
+    },
+    {
+      "from": "A线工作区/核验/中文CV_v0.2_验收.json",
+      "to": "A线工作区/核验/历史版本/中文CV_v0.2_验收.json",
+      "SHA256_before": "687CEFD51D8E00A728FA5D74DF8C8621A4A454D4DD890362F49B09C755A7A0D7",
+      "SHA256_after_move": "687CEFD51D8E00A728FA5D74DF8C8621A4A454D4DD890362F49B09C755A7A0D7",
+      "SHA256_after_link_repair": "687CEFD51D8E00A728FA5D74DF8C8621A4A454D4DD890362F49B09C755A7A0D7"
+    },
+    {
+      "from": "A线工作区/核验/中文CV_Master_v1_验收.json",
+      "to": "A线工作区/核验/历史版本/中文CV_Master_v1_验收.json",
+      "SHA256_before": "BCB479937FA57FB4B8C63342EDFF27327E2EFA686865F649A4A8F81032A84361",
+      "SHA256_after_move": "BCB479937FA57FB4B8C63342EDFF27327E2EFA686865F649A4A8F81032A84361",
+      "SHA256_after_link_repair": "BCB479937FA57FB4B8C63342EDFF27327E2EFA686865F649A4A8F81032A84361"
+    }
+  ],
+  "link_repairs": [
+    {
+      "file": "A线_工作台.md",
+      "links": [
+        {
+          "old": "A线工作区/材料/对外PDF/周子靖_中文学术简历_Master_v1.pdf",
+          "new": "A线工作区/材料/对外PDF/历史版本/周子靖_中文学术简历_Master_v1.pdf"
+        },
+        {
+          "old": "A线工作区/材料/校对稿/周子靖_中文学术简历_v0.3_INTERNAL.docx",
+          "new": "A线工作区/材料/校对稿/历史版本/周子靖_中文学术简历_v0.3_INTERNAL.docx"
+        },
+        {
+          "old": "A线工作区/材料/周子靖_中文学术简历_v0.3_INTERNAL.md",
+          "new": "A线工作区/材料/历史版本/周子靖_中文学术简历_v0.3_INTERNAL.md"
+        },
+        {
+          "old": "A线工作区/材料/中文CV_Master_v1_changelog.md",
+          "new": "A线工作区/材料/历史版本/中文CV_Master_v1_changelog.md"
+        },
+        {
+          "old": "A线工作区/材料/中文CV_v0.2_修改与真实性检查.md",
+          "new": "A线工作区/材料/历史版本/中文CV_v0.2_修改与真实性检查.md"
+        },
+        {
+          "old": "A线工作区/材料/对外PDF/Zijing_Zhou_CV_v1.1.pdf",
+          "new": "A线工作区/材料/对外PDF/历史版本/Zijing_Zhou_CV_v1.1.pdf"
+        },
+        {
+          "old": "A线工作区/材料/Academic_CV_v1.1_READY.md",
+          "new": "A线工作区/材料/历史版本/Academic_CV_v1.1_READY.md"
+        }
+      ]
+    },
+    {
+      "file": "A线工作区/材料/材料版本与发送说明.md",
+      "links": [
+        {
+          "old": "对外PDF/周子靖_中文学术简历_Master_v1.pdf",
+          "new": "对外PDF/历史版本/周子靖_中文学术简历_Master_v1.pdf"
+        },
+        {
+          "old": "校对稿/周子靖_中文学术简历_v0.3_INTERNAL.docx",
+          "new": "校对稿/历史版本/周子靖_中文学术简历_v0.3_INTERNAL.docx"
+        },
+        {
+          "old": "周子靖_中文学术简历_v0.3_INTERNAL.md",
+          "new": "历史版本/周子靖_中文学术简历_v0.3_INTERNAL.md"
+        },
+        {
+          "old": "中文CV_Master_v1_changelog.md",
+          "new": "历史版本/中文CV_Master_v1_changelog.md"
+        },
+        {
+          "old": "中文CV_v0.2_修改与真实性检查.md",
+          "new": "历史版本/中文CV_v0.2_修改与真实性检查.md"
+        },
+        {
+          "old": "../核验/中文CV_Master_v1_验收.json",
+          "new": "../核验/历史版本/中文CV_Master_v1_验收.json"
+        },
+        {
+          "old": "../核验/中文CV_v0.2_验收.json",
+          "new": "../核验/历史版本/中文CV_v0.2_验收.json"
+        },
+        {
+          "old": "../核验/build_application_pdfs.py",
+          "new": "../核验/历史版本/build_application_pdfs.py"
+        },
+        {
+          "old": "../核验/build_chinese_cv_v02.py",
+          "new": "../核验/历史版本/build_chinese_cv_v02.py"
+        },
+        {
+          "old": "../核验/export_chinese_cv_v02.ps1",
+          "new": "../核验/历史版本/export_chinese_cv_v02.ps1"
+        },
+        {
+          "old": "../核验/freeze_chinese_cv_master.py",
+          "new": "../核验/历史版本/freeze_chinese_cv_master.py"
+        },
+        {
+          "old": "../核验/export_chinese_cv_master.ps1",
+          "new": "../核验/历史版本/export_chinese_cv_master.ps1"
+        }
+      ]
+    },
+    {
+      "file": "A线工作区/材料/历史版本/中文CV_Master_v1_changelog.md",
+      "links": [
+        {
+          "old": "对外PDF/周子靖_中文学术简历_Master_v1.pdf",
+          "new": "../对外PDF/历史版本/周子靖_中文学术简历_Master_v1.pdf"
+        },
+        {
+          "old": "校对稿/周子靖_中文学术简历_v0.3_INTERNAL.docx",
+          "new": "../校对稿/历史版本/周子靖_中文学术简历_v0.3_INTERNAL.docx"
+        },
+        {
+          "old": "校对稿/周子靖_中文学术简历_v0.3_INTERNAL.pdf",
+          "new": "../校对稿/历史版本/周子靖_中文学术简历_v0.3_INTERNAL.pdf"
+        },
+        {
+          "old": "../核验/中文CV_Master_v1_验收.json",
+          "new": "../../核验/历史版本/中文CV_Master_v1_验收.json"
+        }
+      ]
+    },
+    {
+      "file": "A线工作区/材料/历史版本/中文CV_v0.2_修改与真实性检查.md",
+      "links": [
+        {
+          "old": "校对稿/周子靖_中文学术简历_v0.2_INTERNAL.docx",
+          "new": "../校对稿/历史版本/周子靖_中文学术简历_v0.2_INTERNAL.docx"
+        },
+        {
+          "old": "校对稿/周子靖_中文学术简历_v0.2_INTERNAL.pdf",
+          "new": "../校对稿/历史版本/周子靖_中文学术简历_v0.2_INTERNAL.pdf"
+        },
+        {
+          "old": "../毕设与新增个人证据核验_20260926.md",
+          "new": "../../毕设与新增个人证据核验_20260926.md"
+        },
+        {
+          "old": "晶格波项目贡献与复述底稿_v0.1_INTERNAL.md",
+          "new": "../晶格波项目贡献与复述底稿_v0.1_INTERNAL.md"
+        },
+        {
+          "old": "荣誉与学籍证据登记_20260926.md",
+          "new": "../荣誉与学籍证据登记_20260926.md"
+        },
+        {
+          "old": "../核验/中文CV_v0.2_验收.json",
+          "new": "../../核验/历史版本/中文CV_v0.2_验收.json"
+        },
+        {
+          "old": "../核验/build_chinese_cv_v02.py",
+          "new": "../../核验/历史版本/build_chinese_cv_v02.py"
+        },
+        {
+          "old": "../核验/export_chinese_cv_v02.ps1",
+          "new": "../../核验/历史版本/export_chinese_cv_v02.ps1"
+        }
+      ]
+    }
+  ],
+  "final_checks": {
+    "local_links_checked": 77,
+    "broken_links": 0,
+    "archived_files_verified": 25,
+    "all_original_locations_vacated": true
+  }
+}

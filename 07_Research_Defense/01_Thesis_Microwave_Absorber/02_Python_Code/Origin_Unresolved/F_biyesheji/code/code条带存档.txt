@@ -1,0 +1,845 @@
+# -*- coding: utf-8 -*-
+import sys
+import os
+import random
+import shutil
+import traceback
+import numpy as np
+
+# =========================
+# CST Python库路径
+# =========================
+cst_lib_path = r"F:\CST Studio Suite 2025\AMD64\python_cst_libraries"
+sys.path.append(cst_lib_path)
+
+import cst
+import cst.interface
+import cst.results
+
+# =========================
+# 保存路径
+# =========================
+SAVE_PATH = r"F:\biyesheji"
+TEMP_DIR = os.path.join(SAVE_PATH, "temp")
+BEST_CST = os.path.join(SAVE_PATH, "best_design.cst")
+LOG_FILE = os.path.join(SAVE_PATH, "ga_log.txt")
+BEST_RESULT_FILE = os.path.join(SAVE_PATH, "best_result.txt")
+ERROR_LOG_FILE = os.path.join(SAVE_PATH, "error_log.txt")
+
+os.makedirs(SAVE_PATH, exist_ok=True)
+os.makedirs(TEMP_DIR, exist_ok=True)
+
+# =========================
+# 真实结构固定参数（第一轮先固定一种工业膜）
+# =========================
+PET_ER = 3.1
+PET_TAND = 0.01
+
+FILM_NAME = "SMH188H-60"
+FILM_SHEET_RESISTANCE = 60.0   # ohm/sq
+SUBSTRATE_THICKNESS = 0.188   # mm
+
+# 电阻膜是单面覆膜，这里先按“无厚度片阻层”处理
+# 下面这个值只是给后续几何区分表面用，不代表真实厚度
+FILM_DRAW_THICKNESS = 0.02   # mm
+
+# =========================
+# 4个参数：p, w1, w2, h
+# 每个参数 6 bit，总共 24 bit
+# =========================
+link = "\n"
+dna_size = 24
+pop_size = 8
+iterations = 5
+p_m_start = 0.08
+
+# 全局变量
+de = cst.interface.DesignEnvironment()
+pj = None
+cache = {}
+
+
+# =========================================================
+# 学长原版 Type()
+# =========================================================
+def Type():
+    sCommand = [
+        "'set the units",
+        'With Units',
+        '    .Geometry "mm"',
+        '    .Frequency "GHz"',
+        '    .Voltage "V"',
+        '    .Resistance "Ohm"',
+        '    .Inductance "H"',
+        '    .TemperatureUnit  "Kelvin"',
+        '    .Time "ns"',
+        '    .Current "A"',
+        '    .Conductance "Siemens"',
+        '    .Capacitance "F"',
+        'End With',
+        '',
+        "'----------------------------------------------------------------------------",
+        '',
+        "'set the frequency range",
+        'Solver.FrequencyRange "2", "18"',
+        '',
+        "'----------------------------------------------------------------------------",
+        '',
+        'Plot.DrawBox True',
+        '',
+        'With Background',
+        '     .Type "Normal"',
+        '     .Epsilon "1.0"',
+        '     .Mu "1.0"',
+        '     .Rho "1.204"',
+        '     .ThermalType "Normal"',
+        '     .ThermalConductivity "0.026"',
+        '      .SpecificHeat "1005", "J/K/kg"',
+        '     .XminSpace "0.0"',
+        '     .XmaxSpace "0.0"',
+        '     .YminSpace "0.0"',
+        '     .YmaxSpace "0.0"',
+        '     .ZminSpace "0.0"',
+        '     .ZmaxSpace "0.0"',
+        'End With',
+        '',
+        "' define Floquet port boundaries",
+        '',
+        'With FloquetPort',
+        '     .Reset',
+        '     .SetDialogTheta "0"',
+        '     .SetDialogPhi "0"',
+        '     .SetSortCode "+beta/pw"',
+        '     .SetCustomizedListFlag "False"',
+        '     .Port "Zmin"',
+        '     .SetNumberOfModesConsidered "2"',
+        '     .Port "Zmax"',
+        '     .SetNumberOfModesConsidered "2"',
+        'End With',
+        '',
+        'MakeSureParameterExists "theta", "0"',
+        'SetParameterDescription "theta", "spherical angle of incident plane wave"',
+        'MakeSureParameterExists "phi", "0"',
+        'SetParameterDescription "phi", "spherical angle of incident plane wave"',
+        '',
+        "' define boundaries, the open boundaries define floquet port",
+        '',
+        'With Boundary',
+        '     .Xmin "unit cell"',
+        '     .Xmax "unit cell"',
+        '     .Ymin "unit cell"',
+        '     .Ymax "unit cell"',
+        '     .Zmin "expanded open"',
+        '     .Zmax "expanded open"',
+        '     .Xsymmetry "none"',
+        '     .Ysymmetry "none"',
+        '     .Zsymmetry "none"',
+        '     .XPeriodicShift "0.0"',
+        '     .YPeriodicShift "0.0"',
+        '     .ZPeriodicShift "0.0"',
+        '     .PeriodicUseConstantAngles "False"',
+        '     .SetPeriodicBoundaryAngles "theta", "phi"',
+        '     .SetPeriodicBoundaryAnglesDirection "inward"',
+        '     .UnitCellFitToBoundingBox "True"',
+        '     .UnitCellDs1 "0.0"',
+        '     .UnitCellDs2 "0.0"',
+        '     .UnitCellAngle "90.0"',
+        'End With',
+        '',
+        "' set tet mesh as default",
+        '',
+        'With Mesh',
+        '     .MeshType "Tetrahedral"',
+        'End With',
+        '',
+        "' FD solver excitation with incoming plane wave at Zmax",
+        '',
+        'With FDSolver',
+        '     .Reset',
+        '     .Stimulation "List", "List"',
+        '     .ResetExcitationList',
+        '     .AddToExcitationList "Zmax", "TE(0,0);TM(0,0)"',
+        '     .LowFrequencyStabilization "False"',
+        'End With',
+        '',
+        "'----------------------------------------------------------------------------",
+        '',
+        'With MeshSettings',
+        '     .SetMeshType "Tet"',
+        '     .Set "Version", 1%',
+        'End With',
+        '',
+        'With Mesh',
+        '     .MeshType "Tetrahedral"',
+        'End With',
+        '',
+        "'set the solver type",
+        'ChangeSolverType("HF Frequency Domain")',
+        '',
+        "'----------------------------------------------------------------------------"
+    ]
+    sCommand = link.join(sCommand)
+    pj.model3d.add_to_history("use template: FSS, Metamaterial - Unit Cell_3.cfg", sCommand)
+
+# =========================================================
+
+def create_pet_material():
+    sCommand = f'''
+With Material
+     .Reset
+     .Name "PET"
+     .Folder ""
+     .Type "Normal"
+     .Epsilon "{PET_ER}"
+     .Mu "1.0"
+     .Sigma "0"
+     .TanD "{PET_TAND}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define material: PET", sCommand)
+
+
+def create_resistive_film_material():
+    # 用一个极薄等效层近似单面电阻膜
+    # sigma = 1 / (Rs * t)
+    film_thickness_m = FILM_DRAW_THICKNESS * 1e-3
+    sigma = 1.0 / (FILM_SHEET_RESISTANCE * film_thickness_m)
+
+    sCommand = f'''
+With Material
+     .Reset
+     .Name "{FILM_NAME}"
+     .Folder ""
+     .Type "Normal"
+     .Epsilon "1.0"
+     .Mu "1.0"
+     .Sigma "{sigma}"
+     .TanD "0.0"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define material: resistive film", sCommand)
+
+# =========================================================
+# 学长原版 gaoshang()
+# =========================================================
+def gaoshang():
+    sCommand = ['With Material', '     .Reset', '     .Name "GAOSHANG"', '     .Folder ""', '     .Rho "0.0"', '     .ThermalType "Normal"', '     .ThermalConductivity "0"', '     .SpecificHeat "0", "J/K/kg"', '     .DynamicViscosity "0"', '     .Emissivity "0"', '     .MetabolicRate "0.0"', '     .VoxelConvection "0.0"', '     .BloodFlow "0"', '     .MechanicsType "Unused"', '     .IntrinsicCarrierDensity "0"', '     .FrqType "all"', '     .Type "Normal"', '     .MaterialUnit "Frequency", "GHz"', '     .MaterialUnit "Geometry", "mm"', '     .MaterialUnit "Time", "ns"', '     .MaterialUnit "Temperature", "Kelvin"', '     .Epsilon "1"', '     .Mu "1"', '     .Sigma "0"', '     .TanD "0.0"', '     .TanDFreq "0.0"', '     .TanDGiven "False"', '     .TanDModel "ConstTanD"', '     .SetConstTanDStrategyEps "AutomaticOrder"', '     .ConstTanDModelOrderEps "3"', '     .DjordjevicSarkarUpperFreqEps "0"', '     .SetElParametricConductivity "False"', '     .ReferenceCoordSystem "Global"', '     .CoordSystemType "Cartesian"', '     .SigmaM "0"', '     .TanDM "0.0"', '     .TanDMFreq "0.0"', '     .TanDMGiven "False"', '     .TanDMModel "ConstTanD"', '     .SetConstTanDStrategyMu "AutomaticOrder"', '     .ConstTanDModelOrderMu "3"', '     .DjordjevicSarkarUpperFreqMu "0"', '     .SetMagParametricConductivity "False"', '     .DispModelEps "None"', '     .DispModelMu "None"', '     .DispersiveFittingSchemeEps "Nth Order"', '     .MaximalOrderNthModelFitEps "10"', '     .ErrorLimitNthModelFitEps "0.1"', '     .DispersiveFittingSchemeMu "Nth Order"', '     .MaximalOrderNthModelFitMu "10"', '     .ErrorLimitNthModelFitMu "0.1"', '     .DispersiveFittingFormatEps "Real_Imag"', '     .AddDispersionFittingValueEps "2", "22.578", "8.3324", "1.0"', '     .AddDispersionFittingValueEps "2.08", "22.4146", "8.2213", "1.0"', '     .AddDispersionFittingValueEps "2.16", "22.2326", "8.1064", "1.0"', '     .AddDispersionFittingValueEps "2.24", "22.0849", "8.0342", "1.0"', '     .AddDispersionFittingValueEps "2.32", "21.9314", "7.9292", "1.0"', '     .AddDispersionFittingValueEps "2.4", "21.7808", "7.863", "1.0"', '     .AddDispersionFittingValueEps "2.48", "21.6598", "7.7878", "1.0"', '     .AddDispersionFittingValueEps "2.56", "21.5289", "7.7084", "1.0"', '     .AddDispersionFittingValueEps "2.64", "21.4164", "7.6481", "1.0"', '     .AddDispersionFittingValueEps "2.72", "21.2953", "7.5649", "1.0"', '     .AddDispersionFittingValueEps "2.8", "21.1965", "7.5103", "1.0"', '     .AddDispersionFittingValueEps "2.88", "21.087", "7.4356", "1.0"', '     .AddDispersionFittingValueEps "2.96", "20.9956", "7.3835", "1.0"', '     .AddDispersionFittingValueEps "3.04", "20.8994", "7.33", "1.0"', '     .AddDispersionFittingValueEps "3.12", "20.8143", "7.265", "1.0"', '     .AddDispersionFittingValueEps "3.2", "20.7213", "7.2184", "1.0"', '     .AddDispersionFittingValueEps "3.28", "20.6261", "7.1557", "1.0"', '     .AddDispersionFittingValueEps "3.36", "20.537", "7.1273", "1.0"', '     .AddDispersionFittingValueEps "3.44", "20.4611", "7.0929", "1.0"', '     .AddDispersionFittingValueEps "3.52", "20.39", "7.0429", "1.0"', '     .AddDispersionFittingValueEps "3.6", "20.3043", "6.9937", "1.0"', '     .AddDispersionFittingValueEps "3.68", "20.213", "6.9384", "1.0"', '     .AddDispersionFittingValueEps "3.76", "20.1303", "6.902", "1.0"', '     .AddDispersionFittingValueEps "3.84", "20.047", "6.8588", "1.0"', '     .AddDispersionFittingValueEps "3.92", "19.9736", "6.8167", "1.0"', '     .AddDispersionFittingValueEps "4", "19.8927", "6.7712", "1.0"', '     .AddDispersionFittingValueEps "4.08", "19.8287", "6.7207", "1.0"', '     .AddDispersionFittingValueEps "4.16", "19.7334", "6.6741", "1.0"', '     .AddDispersionFittingValueEps "4.24", "19.6777", "6.65", "1.0"', '     .AddDispersionFittingValueEps "4.32", "19.6077", "6.6015", "1.0"', '     .AddDispersionFittingValueEps "4.4", "19.5623", "6.5762", "1.0"', '     .AddDispersionFittingValueEps "4.48", "19.4983", "6.5265", "1.0"', '     .AddDispersionFittingValueEps "4.56", "19.4595", "6.5045", "1.0"', '     .AddDispersionFittingValueEps "4.64", "19.4098", "6.4557", "1.0"', '     .AddDispersionFittingValueEps "4.72", "19.3657", "6.4348", "1.0"', '     .AddDispersionFittingValueEps "4.8", "19.3212", "6.3956", "1.0"', '     .AddDispersionFittingValueEps "4.88", "19.2635", "6.3813", "1.0"', '     .AddDispersionFittingValueEps "4.96", "19.2168", "6.3701", "1.0"', '     .AddDispersionFittingValueEps "5.04", "19.1779", "6.3592", "1.0"', '     .AddDispersionFittingValueEps "5.12", "19.1363", "6.334", "1.0"', '     .AddDispersionFittingValueEps "5.2", "19.0876", "6.3549", "1.0"', '     .AddDispersionFittingValueEps "5.28", "19.0703", "6.3365", "1.0"', '     .AddDispersionFittingValueEps "5.36", "19.0192", "6.3405", "1.0"', '     .AddDispersionFittingValueEps "5.44", "18.9861", "6.3464", "1.0"', '     .AddDispersionFittingValueEps "5.52", "18.9619", "6.3625", "1.0"', '     .AddDispersionFittingValueEps "5.6", "18.9267", "6.3562", "1.0"', '     .AddDispersionFittingValueEps "5.68", "18.8762", "6.3836", "1.0"', '     .AddDispersionFittingValueEps "5.76", "18.8611", "6.4042", "1.0"', '     .AddDispersionFittingValueEps "5.84", "18.8189", "6.4068", "1.0"', '     .AddDispersionFittingValueEps "5.92", "18.7811", "6.4264", "1.0"', '     .AddDispersionFittingValueEps "6", "18.731", "6.4579", "1.0"', '     .AddDispersionFittingValueEps "6.08", "18.7031", "6.4749", "1.0"', '     .AddDispersionFittingValueEps "6.16", "18.6445", "6.491", "1.0"', '     .AddDispersionFittingValueEps "6.24", "18.5857", "6.5095", "1.0"', '     .AddDispersionFittingValueEps "6.32", "18.5261", "6.5179", "1.0"', '     .AddDispersionFittingValueEps "6.4", "18.4453", "6.5183", "1.0"', '     .AddDispersionFittingValueEps "6.48", "18.3572", "6.5315", "1.0"', '     .AddDispersionFittingValueEps "6.56", "18.2712", "6.5378", "1.0"', '     .AddDispersionFittingValueEps "6.64", "18.1768", "6.5334", "1.0"', '     .AddDispersionFittingValueEps "6.72", "18.1005", "6.5269", "1.0"', '     .AddDispersionFittingValueEps "6.8", "17.9967", "6.496", "1.0"', '     .AddDispersionFittingValueEps "6.88", "17.9147", "6.4778", "1.0"', '     .AddDispersionFittingValueEps "6.96", "17.8154", "6.4296", "1.0"', '     .AddDispersionFittingValueEps "7.04", "17.7311", "6.3975", "1.0"', '     .AddDispersionFittingValueEps "7.12", "17.6529", "6.3276", "1.0"', '     .AddDispersionFittingValueEps "7.2", "17.5732", "6.2505", "1.0"', '     .AddDispersionFittingValueEps "7.28", "17.4904", "6.1677", "1.0"', '     .AddDispersionFittingValueEps "7.36", "17.4018", "6.0896", "1.0"', '     .AddDispersionFittingValueEps "7.44", "17.34", "6.0183", "1.0"', '     .AddDispersionFittingValueEps "7.52", "17.2802", "5.9401", "1.0"', '     .AddDispersionFittingValueEps "7.6", "17.2461", "5.8661", "1.0"', '     .AddDispersionFittingValueEps "7.68", "17.2248", "5.7719", "1.0"', '     .AddDispersionFittingValueEps "7.76", "17.1984", "5.6968", "1.0"', '     .AddDispersionFittingValueEps "7.84", "17.2001", "5.6195", "1.0"', '     .AddDispersionFittingValueEps "7.92", "17.2085", "5.5369", "1.0"', '     .AddDispersionFittingValueEps "8", "17.2252", "5.4487", "1.0"', '     .AddDispersionFittingValueEps "8.08", "17.234", "5.3745", "1.0"', '     .AddDispersionFittingValueEps "8.16", "17.2512", "5.3061", "1.0"', '     .AddDispersionFittingValueEps "8.24", "17.2738", "5.2577", "1.0"', '     .AddDispersionFittingValueEps "8.32", "17.3105", "5.2103", "1.0"', '     .AddDispersionFittingValueEps "8.4", "17.3451", "5.1806", "1.0"', '     .AddDispersionFittingValueEps "8.48", "17.4137", "5.145", "1.0"', '     .AddDispersionFittingValueEps "8.56", "17.4534", "5.1133", "1.0"', '     .AddDispersionFittingValueEps "8.64", "17.5207", "5.1032", "1.0"', '     .AddDispersionFittingValueEps "8.72", "17.5857", "5.0993", "1.0"', '     .AddDispersionFittingValueEps "8.8", "17.6803", "5.0858", "1.0"', '     .AddDispersionFittingValueEps "8.88", "17.7482", "5.0689", "1.0"', '     .AddDispersionFittingValueEps "8.96", "17.8119", "5.0555", "1.0"', '     .AddDispersionFittingValueEps "9.04", "17.8569", "5.0344", "1.0"', '     .AddDispersionFittingValueEps "9.12", "17.8805", "5.0598", "1.0"', '     .AddDispersionFittingValueEps "9.2", "17.9402", "5.0979", "1.0"', '     .AddDispersionFittingValueEps "9.28", "17.9975", "5.1294", "1.0"', '     .AddDispersionFittingValueEps "9.36", "18.0268", "5.1744", "1.0"', '     .AddDispersionFittingValueEps "9.44", "18.1045", "5.234", "1.0"', '     .AddDispersionFittingValueEps "9.52", "18.1432", "5.2831", "1.0"', '     .AddDispersionFittingValueEps "9.6", "18.224", "5.3324", "1.0"', '     .AddDispersionFittingValueEps "9.68", "18.2583", "5.429", "1.0"', '     .AddDispersionFittingValueEps "9.76", "18.3846", "5.4503", "1.0"', '     .AddDispersionFittingValueEps "9.84", "18.3927", "5.4941", "1.0"', '     .AddDispersionFittingValueEps "9.92", "18.414", "5.537", "1.0"', '     .AddDispersionFittingValueEps "10", "18.4287", "5.6203", "1.0"', '     .AddDispersionFittingValueEps "10.08", "18.4387", "5.6789", "1.0"', '     .AddDispersionFittingValueEps "10.16", "18.4139", "5.7444", "1.0"', '     .AddDispersionFittingValueEps "10.24", "18.4024", "5.8695", "1.0"', '     .AddDispersionFittingValueEps "10.32", "18.4075", "5.9486", "1.0"', '     .AddDispersionFittingValueEps "10.4", "18.4598", "6.0628", "1.0"', '     .AddDispersionFittingValueEps "10.48", "18.4385", "6.0698", "1.0"', '     .AddDispersionFittingValueEps "10.56", "18.4318", "6.1826", "1.0"', '     .AddDispersionFittingValueEps "10.64", "18.3975", "6.2384", "1.0"', '     .AddDispersionFittingValueEps "10.72", "18.4421", "6.2775", "1.0"', '     .AddDispersionFittingValueEps "10.8", "18.4032", "6.3323", "1.0"', '     .AddDispersionFittingValueEps "10.88", "18.3909", "6.3605", "1.0"', '     .AddDispersionFittingValueEps "10.96", "18.3827", "6.3758", "1.0"', '     .AddDispersionFittingValueEps "11.04", "18.274", "6.3513", "1.0"', '     .AddDispersionFittingValueEps "11.12", "18.1945", "6.4128", "1.0"', '     .AddDispersionFittingValueEps "11.2", "18.1218", "6.478", "1.0"', '     .AddDispersionFittingValueEps "11.28", "18.1004", "6.5346", "1.0"', '     .AddDispersionFittingValueEps "11.36", "18.0579", "6.5974", "1.0"', '     .AddDispersionFittingValueEps "11.44", "17.9945", "6.6115", "1.0"', '     .AddDispersionFittingValueEps "11.52", "18.0509", "6.7536", "1.0"', '     .AddDispersionFittingValueEps "11.6", "18.0249", "6.6893", "1.0"', '     .AddDispersionFittingValueEps "11.68", "18.0159", "6.7287", "1.0"', '     .AddDispersionFittingValueEps "11.76", "17.948", "6.7568", "1.0"', '     .AddDispersionFittingValueEps "11.84", "17.944", "6.7866", "1.0"', '     .AddDispersionFittingValueEps "11.92", "17.877", "6.8224", "1.0"', '     .AddDispersionFittingValueEps "12", "17.8338", "6.8672", "1.0"', '     .AddDispersionFittingValueEps "12.08", "17.8411", "6.9503", "1.0"', '     .AddDispersionFittingValueEps "12.16", "17.7709", "6.9536", "1.0"', '     .AddDispersionFittingValueEps "12.24", "17.7161", "7.0588", "1.0"', '     .AddDispersionFittingValueEps "12.32", "17.6388", "7.2147", "1.0"', '     .AddDispersionFittingValueEps "12.4", "17.6959", "7.3237", "1.0"', '     .AddDispersionFittingValueEps "12.48", "17.7287", "7.4255", "1.0"', '     .AddDispersionFittingValueEps "12.56", "17.7586", "7.4362", "1.0"', '     .AddDispersionFittingValueEps "12.64", "17.7272", "7.5307", "1.0"', '     .AddDispersionFittingValueEps "12.72", "17.7188", "7.6129", "1.0"', '     .AddDispersionFittingValueEps "12.8", "17.7081", "7.668", "1.0"', '     .AddDispersionFittingValueEps "12.88", "17.688", "7.7815", "1.0"', '     .AddDispersionFittingValueEps "12.96", "17.69", "7.822", "1.0"', '     .AddDispersionFittingValueEps "13.04", "17.6508", "7.9207", "1.0"', '     .AddDispersionFittingValueEps "13.12", "17.589", "7.9549", "1.0"', '     .AddDispersionFittingValueEps "13.2", "17.5097", "8.164", "1.0"', '     .AddDispersionFittingValueEps "13.28", "17.574", "8.3232", "1.0"', '     .AddDispersionFittingValueEps "13.36", "17.5596", "8.3632", "1.0"', '     .AddDispersionFittingValueEps "13.44", "17.5337", "8.5234", "1.0"', '     .AddDispersionFittingValueEps "13.52", "17.5345", "8.6488", "1.0"', '     .AddDispersionFittingValueEps "13.6", "17.63", "8.6701", "1.0"', '     .AddDispersionFittingValueEps "13.68", "17.4669", "8.6766", "1.0"', '     .AddDispersionFittingValueEps "13.76", "17.4673", "8.8054", "1.0"', '     .AddDispersionFittingValueEps "13.84", "17.3551", "8.8", "1.0"', '     .AddDispersionFittingValueEps "13.92", "17.2607", "8.8513", "1.0"', '     .AddDispersionFittingValueEps "14", "17.1388", "8.9488", "1.0"', '     .AddDispersionFittingValueEps "14.08", "17.0908", "9.0705", "1.0"', '     .AddDispersionFittingValueEps "14.16", "17.0824", "9.0934", "1.0"', '     .AddDispersionFittingValueEps "14.24", "16.8587", "9.1144", "1.0"', '     .AddDispersionFittingValueEps "14.32", "16.7971", "9.236", "1.0"', '     .AddDispersionFittingValueEps "14.4", "16.6531", "9.3154", "1.0"', '     .AddDispersionFittingValueEps "14.48", "16.7009", "9.3846", "1.0"', '     .AddDispersionFittingValueEps "14.56", "16.5269", "9.3727", "1.0"', '     .AddDispersionFittingValueEps "14.64", "16.4701", "9.4703", "1.0"', '     .AddDispersionFittingValueEps "14.72", "16.3504", "9.4808", "1.0"', '     .AddDispersionFittingValueEps "14.8", "16.2558", "9.5787", "1.0"', '     .AddDispersionFittingValueEps "14.88", "16.1191", "9.5315", "1.0"', '     .AddDispersionFittingValueEps "14.96", "15.896", "9.659", "1.0"', '     .AddDispersionFittingValueEps "15.04", "15.7756", "9.7282", "1.0"', '     .AddDispersionFittingValueEps "15.12", "15.5865", "9.7815", "1.0"', '     .AddDispersionFittingValueEps "15.2", "15.466", "9.8964", "1.0"', '     .AddDispersionFittingValueEps "15.28", "15.3046", "9.9557", "1.0"', '     .AddDispersionFittingValueEps "15.36", "15.1292", "9.9666", "1.0"', '     .AddDispersionFittingValueEps "15.44", "14.7721", "9.9736", "1.0"', '     .AddDispersionFittingValueEps "15.52", "14.574", "10.1403", "1.0"', '     .AddDispersionFittingValueEps "15.6", "14.4947", "10.2389", "1.0"', '     .AddDispersionFittingValueEps "15.68", "14.44", "10.2328", "1.0"', '     .AddDispersionFittingValueEps "15.76", "14.2334", "10.2085", "1.0"', '     .AddDispersionFittingValueEps "15.84", "14.0489", "10.1267", "1.0"', '     .AddDispersionFittingValueEps "15.92", "13.7374", "10.1604", "1.0"', '     .AddDispersionFittingValueEps "16", "13.5979", "10.0449", "1.0"', '     .AddDispersionFittingValueEps "16.08", "13.4692", "10.0914", "1.0"', '     .AddDispersionFittingValueEps "16.16", "13.291", "9.8897", "1.0"', '     .AddDispersionFittingValueEps "16.24", "13.0422", "9.926", "1.0"', '     .AddDispersionFittingValueEps "16.32", "12.8426", "9.8474", "1.0"', '     .AddDispersionFittingValueEps "16.4", "12.6628", "9.8599", "1.0"', '     .AddDispersionFittingValueEps "16.48", "12.5293", "9.8657", "1.0"', '     .AddDispersionFittingValueEps "16.56", "12.3656", "9.8266", "1.0"', '     .AddDispersionFittingValueEps "16.64", "12.3297", "9.776", "1.0"', '     .AddDispersionFittingValueEps "16.72", "12.1159", "9.665", "1.0"', '     .AddDispersionFittingValueEps "16.8", "12.084", "9.6732", "1.0"', '     .AddDispersionFittingValueEps "16.88", "11.9724", "9.4574", "1.0"', '     .AddDispersionFittingValueEps "16.96", "11.8553", "9.3286", "1.0"', '     .AddDispersionFittingValueEps "17.04", "11.6536", "9.1656", "1.0"', '     .AddDispersionFittingValueEps "17.12", "11.5326", "9.1618", "1.0"', '     .AddDispersionFittingValueEps "17.2", "11.4273", "9.0407", "1.0"', '     .AddDispersionFittingValueEps "17.28", "11.3512", "9.0187", "1.0"', '     .AddDispersionFittingValueEps "17.36", "11.3162", "8.8558", "1.0"', '     .AddDispersionFittingValueEps "17.44", "11.2297", "8.7508", "1.0"', '     .AddDispersionFittingValueEps "17.52", "11.1667", "8.6607", "1.0"', '     .AddDispersionFittingValueEps "17.6", "11.1587", "8.6025", "1.0"', '     .AddDispersionFittingValueEps "17.68", "11.1817", "8.4953", "1.0"', '     .AddDispersionFittingValueEps "17.76", "11.194", "8.3737", "1.0"', '     .AddDispersionFittingValueEps "17.84", "11.2168", "8.1911", "1.0"', '     .AddDispersionFittingValueEps "17.92", "11.1145", "7.9831", "1.0"', '     .AddDispersionFittingValueEps "18", "11.0239", "7.9573", "1.0"', '     .UseGeneralDispersionEps "True"', '     .DispersiveFittingFormatMu "Real_Imag"', '     .AddDispersionFittingValueMu "2", "0.9581", "0.0433", "1.0"', '     .AddDispersionFittingValueMu "2.08", "0.957", "0.0381", "1.0"', '     .AddDispersionFittingValueMu "2.16", "0.9564", "0.0315", "1.0"', '     .AddDispersionFittingValueMu "2.24", "0.9536", "0.0215", "1.0"', '     .AddDispersionFittingValueMu "2.32", "0.9497", "0.0153", "1.0"', '     .AddDispersionFittingValueMu "2.4", "0.9525", "0.0085", "1.0"', '     .AddDispersionFittingValueMu "2.48", "0.9474", "0.0007", "1.0"', '     .AddDispersionFittingValueMu "2.56", "0.9534", "0", "1.0"', '     .AddDispersionFittingValueMu "2.64", "0.9549", "0", "1.0"', '     .AddDispersionFittingValueMu "2.72", "0.9556", "0", "1.0"', '     .AddDispersionFittingValueMu "2.8", "0.9614", "0", "1.0"', '     .AddDispersionFittingValueMu "2.88", "0.9627", "0", "1.0"', '     .AddDispersionFittingValueMu "2.96", "0.9693", "0", "1.0"', '     .AddDispersionFittingValueMu "3.04", "0.9707", "0", "1.0"', '     .AddDispersionFittingValueMu "3.12", "0.9769", "0", "1.0"', '     .AddDispersionFittingValueMu "3.2", "0.9777", "0", "1.0"', '     .AddDispersionFittingValueMu "3.28", "0.9818", "0", "1.0"', '     .AddDispersionFittingValueMu "3.36", "0.9836", "0", "1.0"', '     .AddDispersionFittingValueMu "3.44", "0.9839", "0", "1.0"', '     .AddDispersionFittingValueMu "3.52", "0.9854", "0", "1.0"', '     .AddDispersionFittingValueMu "3.6", "0.9878", "0", "1.0"', '     .AddDispersionFittingValueMu "3.68", "0.9874", "0", "1.0"', '     .AddDispersionFittingValueMu "3.76", "0.9854", "0", "1.0"', '     .AddDispersionFittingValueMu "3.84", "0.9851", "0", "1.0"', '     .AddDispersionFittingValueMu "3.92", "0.9831", "0", "1.0"', '     .AddDispersionFittingValueMu "4", "0.9837", "0", "1.0"', '     .AddDispersionFittingValueMu "4.08", "0.9813", "0", "1.0"', '     .AddDispersionFittingValueMu "4.16", "0.9819", "0", "1.0"', '     .AddDispersionFittingValueMu "4.24", "0.9788", "0", "1.0"', '     .AddDispersionFittingValueMu "4.32", "0.979", "0", "1.0"', '     .AddDispersionFittingValueMu "4.4", "0.9779", "0", "1.0"', '     .AddDispersionFittingValueMu "4.48", "0.9779", "0", "1.0"', '     .AddDispersionFittingValueMu "4.56", "0.9791", "0", "1.0"', '     .AddDispersionFittingValueMu "4.64", "0.9803", "0", "1.0"', '     .AddDispersionFittingValueMu "4.72", "0.9821", "0", "1.0"', '     .AddDispersionFittingValueMu "4.8", "0.9837", "0", "1.0"', '     .AddDispersionFittingValueMu "4.88", "0.9836", "0", "1.0"', '     .AddDispersionFittingValueMu "4.96", "0.9846", "0", "1.0"', '     .AddDispersionFittingValueMu "5.04", "0.9855", "0", "1.0"', '     .AddDispersionFittingValueMu "5.12", "0.989", "0", "1.0"', '     .AddDispersionFittingValueMu "5.2", "0.9873", "0", "1.0"', '     .AddDispersionFittingValueMu "5.28", "0.9896", "0", "1.0"', '     .AddDispersionFittingValueMu "5.36", "0.9931", "0", "1.0"', '     .AddDispersionFittingValueMu "5.44", "0.995", "0", "1.0"', '     .AddDispersionFittingValueMu "5.52", "0.9957", "0", "1.0"', '     .AddDispersionFittingValueMu "5.6", "1.0008", "0", "1.0"', '     .AddDispersionFittingValueMu "5.68", "0.9996", "0", "1.0"', '     .AddDispersionFittingValueMu "5.76", "0.9989", "0", "1.0"', '     .AddDispersionFittingValueMu "5.84", "1.0009", "0", "1.0"', '     .AddDispersionFittingValueMu "5.92", "1.0028", "0", "1.0"', '     .AddDispersionFittingValueMu "6", "1.0004", "0", "1.0"', '     .AddDispersionFittingValueMu "6.08", "1.0012", "0", "1.0"', '     .AddDispersionFittingValueMu "6.16", "1.0007", "0", "1.0"', '     .AddDispersionFittingValueMu "6.24", "1.0001", "0", "1.0"', '     .AddDispersionFittingValueMu "6.32", "1", "0", "1.0"', '     .AddDispersionFittingValueMu "6.4", "0.9999", "0", "1.0"', '     .AddDispersionFittingValueMu "6.48", "1", "0", "1.0"', '     .AddDispersionFittingValueMu "6.56", "0.9958", "0", "1.0"', '     .AddDispersionFittingValueMu "6.64", "0.9945", "0", "1.0"', '     .AddDispersionFittingValueMu "6.72", "0.9921", "0", "1.0"', '     .AddDispersionFittingValueMu "6.8", "0.9906", "0", "1.0"', '     .AddDispersionFittingValueMu "6.88", "0.9884", "0", "1.0"', '     .AddDispersionFittingValueMu "6.96", "0.9864", "0", "1.0"', '     .AddDispersionFittingValueMu "7.04", "0.984", "0", "1.0"', '     .AddDispersionFittingValueMu "7.12", "0.982", "0", "1.0"', '     .AddDispersionFittingValueMu "7.2", "0.9831", "0", "1.0"', '     .AddDispersionFittingValueMu "7.28", "0.9822", "0", "1.0"', '     .AddDispersionFittingValueMu "7.36", "0.981", "0", "1.0"', '     .AddDispersionFittingValueMu "7.44", "0.9795", "0", "1.0"', '     .AddDispersionFittingValueMu "7.52", "0.9779", "0", "1.0"', '     .AddDispersionFittingValueMu "7.6", "0.9769", "0", "1.0"', '     .AddDispersionFittingValueMu "7.68", "0.976", "0", "1.0"', '     .AddDispersionFittingValueMu "7.76", "0.976", "0", "1.0"', '     .AddDispersionFittingValueMu "7.84", "0.9736", "0", "1.0"', '     .AddDispersionFittingValueMu "7.92", "0.9728", "0", "1.0"', '     .AddDispersionFittingValueMu "8", "0.9716", "0", "1.0"', '     .AddDispersionFittingValueMu "8.08", "0.9716", "0", "1.0"', '     .AddDispersionFittingValueMu "8.16", "0.9713", "0", "1.0"', '     .AddDispersionFittingValueMu "8.24", "0.9717", "0", "1.0"', '     .AddDispersionFittingValueMu "8.32", "0.971", "0", "1.0"', '     .AddDispersionFittingValueMu "8.4", "0.9706", "0", "1.0"', '     .AddDispersionFittingValueMu "8.48", "0.9706", "0", "1.0"', '     .AddDispersionFittingValueMu "8.56", "0.9702", "0", "1.0"', '     .AddDispersionFittingValueMu "8.64", "0.9693", "0", "1.0"', '     .AddDispersionFittingValueMu "8.72", "0.9679", "0", "1.0"', '     .AddDispersionFittingValueMu "8.8", "0.9678", "0", "1.0"', '     .AddDispersionFittingValueMu "8.88", "0.9673", "0", "1.0"', '     .AddDispersionFittingValueMu "8.96", "0.968", "0", "1.0"', '     .AddDispersionFittingValueMu "9.04", "0.9688", "0", "1.0"', '     .AddDispersionFittingValueMu "9.12", "0.9688", "0", "1.0"', '     .AddDispersionFittingValueMu "9.2", "0.9685", "0", "1.0"', '     .AddDispersionFittingValueMu "9.28", "0.9683", "0", "1.0"', '     .AddDispersionFittingValueMu "9.36", "0.969", "0", "1.0"', '     .AddDispersionFittingValueMu "9.44", "0.9675", "0", "1.0"', '     .AddDispersionFittingValueMu "9.52", "0.968", "0", "1.0"', '     .AddDispersionFittingValueMu "9.6", "0.9669", "0", "1.0"', '     .AddDispersionFittingValueMu "9.68", "0.966", "0", "1.0"', '     .AddDispersionFittingValueMu "9.76", "0.9652", "0", "1.0"', '     .AddDispersionFittingValueMu "9.84", "0.9659", "0", "1.0"', '     .AddDispersionFittingValueMu "9.92", "0.9661", "0", "1.0"', '     .AddDispersionFittingValueMu "10", "0.9661", "0", "1.0"', '     .AddDispersionFittingValueMu "10.08", "0.9669", "0", "1.0"', '     .AddDispersionFittingValueMu "10.16", "0.9675", "0", "1.0"', '     .AddDispersionFittingValueMu "10.24", "0.9667", "0", "1.0"', '     .AddDispersionFittingValueMu "10.32", "0.9655", "0", "1.0"', '     .AddDispersionFittingValueMu "10.4", "0.9632", "0", "1.0"', '     .AddDispersionFittingValueMu "10.48", "0.9631", "0", "1.0"', '     .AddDispersionFittingValueMu "10.56", "0.9614", "0", "1.0"', '     .AddDispersionFittingValueMu "10.64", "0.9598", "0", "1.0"', '     .AddDispersionFittingValueMu "10.72", "0.958", "0", "1.0"', '     .AddDispersionFittingValueMu "10.8", "0.9568", "0", "1.0"', '     .AddDispersionFittingValueMu "10.88", "0.9562", "0", "1.0"', '     .AddDispersionFittingValueMu "10.96", "0.9556", "0", "1.0"', '     .AddDispersionFittingValueMu "11.04", "0.9567", "0", "1.0"', '     .AddDispersionFittingValueMu "11.12", "0.9565", "0", "1.0"', '     .AddDispersionFittingValueMu "11.2", "0.9554", "0", "1.0"', '     .AddDispersionFittingValueMu "11.28", "0.9549", "0", "1.0"', '     .AddDispersionFittingValueMu "11.36", "0.9529", "0", "1.0"', '     .AddDispersionFittingValueMu "11.44", "0.9531", "0", "1.0"', '     .AddDispersionFittingValueMu "11.52", "0.9491", "0", "1.0"', '     .AddDispersionFittingValueMu "11.6", "0.9489", "0", "1.0"', '     .AddDispersionFittingValueMu "11.68", "0.9477", "0", "1.0"', '     .AddDispersionFittingValueMu "11.76", "0.9469", "0", "1.0"', '     .AddDispersionFittingValueMu "11.84", "0.9464", "0", "1.0"', '     .AddDispersionFittingValueMu "11.92", "0.9459", "0", "1.0"', '     .AddDispersionFittingValueMu "12", "0.9456", "0", "1.0"', '     .AddDispersionFittingValueMu "12.08", "0.9436", "0", "1.0"', '     .AddDispersionFittingValueMu "12.16", "0.9437", "0", "1.0"', '     .AddDispersionFittingValueMu "12.24", "0.9423", "0", "1.0"', '     .AddDispersionFittingValueMu "12.32", "0.9408", "0", "1.0"', '     .AddDispersionFittingValueMu "12.4", "0.9373", "0", "1.0"', '     .AddDispersionFittingValueMu "12.48", "0.9343", "0", "1.0"', '     .AddDispersionFittingValueMu "12.56", "0.9319", "0", "1.0"', '     .AddDispersionFittingValueMu "12.64", "0.9305", "0", "1.0"', '     .AddDispersionFittingValueMu "12.72", "0.9282", "0", "1.0"', '     .AddDispersionFittingValueMu "12.8", "0.9269", "0", "1.0"', '     .AddDispersionFittingValueMu "12.88", "0.9247", "0", "1.0"', '     .AddDispersionFittingValueMu "12.96", "0.9225", "0", "1.0"', '     .AddDispersionFittingValueMu "13.04", "0.9204", "0", "1.0"', '     .AddDispersionFittingValueMu "13.12", "0.9194", "0", "1.0"', '     .AddDispersionFittingValueMu "13.2", "0.9173", "0", "1.0"', '     .AddDispersionFittingValueMu "13.28", "0.912", "0", "1.0"', '     .AddDispersionFittingValueMu "13.36", "0.91", "0", "1.0"', '     .AddDispersionFittingValueMu "13.44", "0.9065", "0", "1.0"', '     .AddDispersionFittingValueMu "13.52", "0.9037", "0", "1.0"', '     .AddDispersionFittingValueMu "13.6", "0.8986", "0", "1.0"', '     .AddDispersionFittingValueMu "13.68", "0.9007", "0", "1.0"', '     .AddDispersionFittingValueMu "13.76", "0.8974", "0", "1.0"', '     .AddDispersionFittingValueMu "13.84", "0.8986", "0", "1.0"', '     .AddDispersionFittingValueMu "13.92", "0.8982", "0", "1.0"', '     .AddDispersionFittingValueMu "14", "0.8984", "0", "1.0"', '     .AddDispersionFittingValueMu "14.08", "0.8966", "0", "1.0"', '     .AddDispersionFittingValueMu "14.16", "0.8941", "0", "1.0"', '     .AddDispersionFittingValueMu "14.24", "0.8987", "0", "1.0"', '     .AddDispersionFittingValueMu "14.32", "0.8968", "0", "1.0"', '     .AddDispersionFittingValueMu "14.4", "0.8986", "0", "1.0"', '     .AddDispersionFittingValueMu "14.48", "0.8941", "0", "1.0"', '     .AddDispersionFittingValueMu "14.56", "0.8983", "0", "1.0"', '     .AddDispersionFittingValueMu "14.64", "0.8968", "0", "1.0"', '     .AddDispersionFittingValueMu "14.72", "0.8988", "0", "1.0"', '     .AddDispersionFittingValueMu "14.8", "0.8985", "0", "1.0"', '     .AddDispersionFittingValueMu "14.88", "0.9016", "0", "1.0"', '     .AddDispersionFittingValueMu "14.96", "0.9051", "0", "1.0"', '     .AddDispersionFittingValueMu "15.04", "0.9059", "0", "1.0"', '     .AddDispersionFittingValueMu "15.12", "0.91", "0", "1.0"', '     .AddDispersionFittingValueMu "15.2", "0.9094", "0", "1.0"', '     .AddDispersionFittingValueMu "15.28", "0.9123", "0", "1.0"', '     .AddDispersionFittingValueMu "15.36", "0.9161", "0", "1.0"', '     .AddDispersionFittingValueMu "15.44", "0.9275", "0", "1.0"', '     .AddDispersionFittingValueMu "15.52", "0.9296", "0", "1.0"', '     .AddDispersionFittingValueMu "15.6", "0.928", "0", "1.0"', '     .AddDispersionFittingValueMu "15.68", "0.9273", "0", "1.0"', '     .AddDispersionFittingValueMu "15.76", "0.9338", "0", "1.0"', '     .AddDispersionFittingValueMu "15.84", "0.9409", "0", "1.0"', '     .AddDispersionFittingValueMu "15.92", "0.951", "0", "1.0"', '     .AddDispersionFittingValueMu "16", "0.9583", "0", "1.0"', '     .AddDispersionFittingValueMu "16.08", "0.96", "0", "1.0"', '     .AddDispersionFittingValueMu "16.16", "0.9722", "0", "1.0"', '     .AddDispersionFittingValueMu "16.24", "0.9804", "0", "1.0"', '     .AddDispersionFittingValueMu "16.32", "0.9909", "0", "1.0"', '     .AddDispersionFittingValueMu "16.4", "0.9968", "0", "1.0"', '     .AddDispersionFittingValueMu "16.48", "1.0015", "0", "1.0"', '     .AddDispersionFittingValueMu "16.56", "1.0084", "0", "1.0"', '     .AddDispersionFittingValueMu "16.64", "1.01", "0", "1.0"', '     .AddDispersionFittingValueMu "16.72", "1.0235", "0", "1.0"', '     .AddDispersionFittingValueMu "16.8", "1.0223", "0", "1.0"', '     .AddDispersionFittingValueMu "16.88", "1.0357", "0", "1.0"', '     .AddDispersionFittingValueMu "16.96", "1.0462", "0", "1.0"', '     .AddDispersionFittingValueMu "17.04", "1.0646", "0", "1.0"', '     .AddDispersionFittingValueMu "17.12", "1.0701", "0", "1.0"', '     .AddDispersionFittingValueMu "17.2", "1.0817", "0", "1.0"', '     .AddDispersionFittingValueMu "17.28", "1.0851", "0", "1.0"', '     .AddDispersionFittingValueMu "17.36", "1.0943", "0", "1.0"', '     .AddDispersionFittingValueMu "17.44", "1.1044", "0", "1.0"', '     .AddDispersionFittingValueMu "17.52", "1.1121", "0", "1.0"', '     .AddDispersionFittingValueMu "17.6", "1.1128", "0", "1.0"', '     .AddDispersionFittingValueMu "17.68", "1.116", "0", "1.0"', '     .AddDispersionFittingValueMu "17.76", "1.1188", "0", "1.0"', '     .AddDispersionFittingValueMu "17.84", "1.1259", "0", "1.0"', '     .AddDispersionFittingValueMu "17.92", "1.1437", "0", "1.0"', '     .AddDispersionFittingValueMu "18", "1.1512", "0", "1.0"', '     .UseGeneralDispersionMu "True"', '     .NLAnisotropy "False"', '     .NLAStackingFactor "1"', '     .NLADirectionX "1"', '     .NLADirectionY "0"', '     .NLADirectionZ "0"', '     .Colour "0", "1", "1" ', '     .Wireframe "False" ', '     .Reflection "False" ', '     .Allowoutline "True" ', '     .Transparentoutline "False" ', '     .Transparency "0" ', '     .Create', 'End With']
+    sCommand = link.join(sCommand)
+    pj.model3d.add_to_history("define material: GAOSHANG", sCommand)
+
+
+# =========================================================
+# 学长原版 newc()
+# =========================================================
+def newc():
+    sCommand = ['Component.New "component1" ']
+    sCommand = link.join(sCommand)
+    pj.model3d.add_to_history("new component: component1", sCommand)
+
+# =========================================================
+
+def create_pet_cross_substrates(p, h):
+    t = SUBSTRATE_THICKNESS
+
+    # 横向 PET 切片
+    s1 = f'''
+With Brick
+     .Reset
+     .Name "pet_x"
+     .Component "component1"
+     .Material "PET"
+     .Xrange "-{p/2}", "{p/2}"
+     .Yrange "-{t/2}", "{t/2}"
+     .Zrange "0", "{h}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: pet_x", s1)
+
+    # 纵向 PET 切片
+    s2 = f'''
+With Brick
+     .Reset
+     .Name "pet_y"
+     .Component "component1"
+     .Material "PET"
+     .Xrange "-{t/2}", "{t/2}"
+     .Yrange "-{p/2}", "{p/2}"
+     .Zrange "0", "{h}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: pet_y", s2)
+
+# =========================================================
+
+def create_full_cover_film(p, h):
+    t = SUBSTRATE_THICKNESS
+    df = FILM_DRAW_THICKNESS
+
+    # 横向 PET 切片的 +Y 面满覆电阻膜
+    s1 = f'''
+With Brick
+     .Reset
+     .Name "film_x_full"
+     .Component "component1"
+     .Material "{FILM_NAME}"
+     .Xrange "-{p/2}", "{p/2}"
+     .Yrange "{t/2}", "{t/2 + df}"
+     .Zrange "0", "{h}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: film_x_full", s1)
+
+    # 纵向 PET 切片的 +X 面满覆电阻膜
+    s2 = f'''
+With Brick
+     .Reset
+     .Name "film_y_full"
+     .Component "component1"
+     .Material "{FILM_NAME}"
+     .Xrange "{t/2}", "{t/2 + df}"
+     .Yrange "-{p/2}", "{p/2}"
+     .Zrange "0", "{h}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: film_y_full", s2)
+
+# =========================================================
+
+def etch_to_center_bands(p, h, w1, w2):
+    t = SUBSTRATE_THICKNESS
+    df = FILM_DRAW_THICKNESS
+
+    # 横向切片：保留中间宽度为 w1 的膜带
+    s1 = f'''
+With Brick
+     .Reset
+     .Name "etch_x_left"
+     .Component "component1"
+     .Material "Vacuum"
+     .Xrange "-{p/2}", "-{w1/2}"
+     .Yrange "{t/2}", "{t/2 + df}"
+     .Zrange "0", "{h}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: etch_x_left", s1)
+
+    s2 = f'''
+With Brick
+     .Reset
+     .Name "etch_x_right"
+     .Component "component1"
+     .Material "Vacuum"
+     .Xrange "{w1/2}", "{p/2}"
+     .Yrange "{t/2}", "{t/2 + df}"
+     .Zrange "0", "{h}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: etch_x_right", s2)
+
+    # 纵向切片：保留中间宽度为 w2 的膜带
+    s3 = f'''
+With Brick
+     .Reset
+     .Name "etch_y_bottom"
+     .Component "component1"
+     .Material "Vacuum"
+     .Xrange "{t/2}", "{t/2 + df}"
+     .Yrange "-{p/2}", "-{w2/2}"
+     .Zrange "0", "{h}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: etch_y_bottom", s3)
+
+    s4 = f'''
+With Brick
+     .Reset
+     .Name "etch_y_top"
+     .Component "component1"
+     .Material "Vacuum"
+     .Xrange "{t/2}", "{t/2 + df}"
+     .Yrange "{w2/2}", "{p/2}"
+     .Zrange "0", "{h}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: etch_y_top", s4)
+
+    s5 = '''
+Solid.Subtract "component1:film_x_full", "component1:etch_x_left"
+Solid.Subtract "component1:film_x_full", "component1:etch_x_right"
+Solid.Subtract "component1:film_y_full", "component1:etch_y_bottom"
+Solid.Subtract "component1:film_y_full", "component1:etch_y_top"
+'''
+    pj.model3d.add_to_history("etch film to center bands", s5)
+
+# =========================================================
+# 边界、求解器、结构
+# =========================================================
+def set_ground_boundary():
+    sCommand = [
+        'With Boundary',
+        '     .Xmin "unit cell"',
+        '     .Xmax "unit cell"',
+        '     .Ymin "unit cell"',
+        '     .Ymax "unit cell"',
+        '     .Zmin "electric"',
+        '     .Zmax "expanded open"',
+        '     .Xsymmetry "none"',
+        '     .Ysymmetry "none"',
+        '     .Zsymmetry "none"',
+        '     .ApplyInAllDirections "False"',
+        '     .OpenAddSpaceFactor "0.5"',
+        '     .XPeriodicShift "0.0"',
+        '     .YPeriodicShift "0.0"',
+        '     .ZPeriodicShift "0.0"',
+        '     .PeriodicUseConstantAngles "False"',
+        '     .SetPeriodicBoundaryAngles "theta", "phi"',
+        '     .SetPeriodicBoundaryAnglesDirection "inward"',
+        '     .UnitCellFitToBoundingBox "True"',
+        '     .UnitCellDs1 "0.0"',
+        '     .UnitCellDs2 "0.0"',
+        '     .UnitCellAngle "90.0"',
+        'End With'
+    ]
+    sCommand = link.join(sCommand)
+    pj.model3d.add_to_history("define grounded boundaries", sCommand)
+
+
+def set_fast_solver():
+    sCommand = [
+        'Mesh.SetCreator "High Frequency"',
+        '',
+        'With FDSolver',
+        '     .Reset',
+        '     .SetMethod "Tetrahedral", "General purpose"',
+        '     .OrderTet "Second"',
+        '     .OrderSrf "First"',
+        '     .Stimulation "Zmax", "All"',
+        '     .ResetExcitationList',
+        '     .AddToExcitationList "Zmax", "TE(0,0);TM(0,0)"',
+        '     .AutoNormImpedance "False"',
+        '     .NormingImpedance "50"',
+        '     .ModesOnly "False"',
+        '     .ConsiderPortLossesTet "True"',
+        '     .LowFrequencyStabilization "False"',
+        '     .Type "Auto"',
+        '     .MeshAdaptionTet "True"',
+        '     .StoreAllResults "False"',
+        '     .StoreResultsInCache "False"',
+        '     .UseDoublePrecision "False"',
+        '     .UseParallelization "True"',
+        '     .MaxCPUs "1024"',
+        '     .MaximumNumberOfCPUDevices "2"',
+        '     .RemoveAllStopCriteria "Tet"',
+        '     .AddStopCriterion "All S-Parameters", "0.02", "2", "Tet", "True"',
+        '     .SetNumberOfResultDataSamples "201"',
+        'End With',
+        '',
+        'With MeshSettings',
+        '     .SetMeshType "Tet"',
+        '     .Set "Version", 1%',
+        '     .Set "StepsPerWaveNear", "3"',
+        '     .Set "StepsPerWaveFar", "3"',
+        '     .Set "PhaseErrorNear", "0.05"',
+        '     .Set "PhaseErrorFar", "0.05"',
+        '     .Set "CellsPerWavelengthPolicy", "automatic"',
+        '     .Set "StepsPerBoxNear", "4"',
+        '     .Set "StepsPerBoxFar", "1"',
+        '     .Set "UseRatioLimit", "0"',
+        '     .Set "RatioLimit", "100"',
+        '     .Set "MinStep", "0"',
+        'End With',
+        '',
+        'With Mesh',
+        '     .MeshType "Tetrahedral"',
+        '     .SetCreator "High Frequency"',
+        'End With'
+    ]
+    sCommand = link.join(sCommand)
+    pj.model3d.add_to_history("define fast FD solver and mesh", sCommand)
+
+
+def create_cross_with_endcaps(material, p, w1, w2, h1, h2, e):
+    # 横向主条
+    s1 = f'''
+With Brick
+     .Reset
+     .Name "film1"
+     .Component "component1"
+     .Material "{material}"
+     .Xrange "-{p/2}", "{p/2}"
+     .Yrange "-{w1/2}", "{w1/2}"
+     .Zrange "0", "{h1}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: film1", s1)
+
+    # 纵向主条
+    s2 = f'''
+With Brick
+     .Reset
+     .Name "film2"
+     .Component "component1"
+     .Material "{material}"
+     .Xrange "-{w2/2}", "{w2/2}"
+     .Yrange "-{p/2}", "{p/2}"
+     .Zrange "0", "{h2}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: film2", s2)
+
+    # 横向左端帽
+    s3 = f'''
+With Brick
+     .Reset
+     .Name "cap_left"
+     .Component "component1"
+     .Material "{material}"
+     .Xrange "-{p/2}", "-{p/2 - e}"
+     .Yrange "-{e/2}", "{e/2}"
+     .Zrange "0", "{h1}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: cap_left", s3)
+
+    # 横向右端帽
+    s4 = f'''
+With Brick
+     .Reset
+     .Name "cap_right"
+     .Component "component1"
+     .Material "{material}"
+     .Xrange "{p/2 - e}", "{p/2}"
+     .Yrange "-{e/2}", "{e/2}"
+     .Zrange "0", "{h1}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: cap_right", s4)
+
+    # 纵向上端帽
+    s5 = f'''
+With Brick
+     .Reset
+     .Name "cap_top"
+     .Component "component1"
+     .Material "{material}"
+     .Xrange "-{e/2}", "{e/2}"
+     .Yrange "{p/2 - e}", "{p/2}"
+     .Zrange "0", "{h2}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: cap_top", s5)
+
+    # 纵向下端帽
+    s6 = f'''
+With Brick
+     .Reset
+     .Name "cap_bottom"
+     .Component "component1"
+     .Material "{material}"
+     .Xrange "-{e/2}", "{e/2}"
+     .Yrange "-{p/2}", "-{p/2 - e}"
+     .Zrange "0", "{h2}"
+     .Create
+End With
+'''
+    pj.model3d.add_to_history("define brick: cap_bottom", s6)
+
+# =========================================================
+# GA辅助函数
+# =========================================================
+def reconnect_de():
+    global de
+    try:
+        de = cst.interface.DesignEnvironment()
+    except Exception:
+        pass
+
+
+def safe_new_mws():
+    global de
+    try:
+        return de.new_mws()
+    except Exception:
+        reconnect_de()
+        return de.new_mws()
+
+
+def decode(individual):
+    bits = "".join(str(i) for i in individual)
+
+    p_raw  = int(bits[0:6], 2)
+    h_raw  = int(bits[6:12], 2)
+    w1_raw = int(bits[12:18], 2)
+    w2_raw = int(bits[18:24], 2)
+
+    p  = 13.28 + p_raw  / 63.0 * 0.18   # 13.28 ~ 13.46 mm
+    h  = 8.70  + h_raw  / 63.0 * 0.25   # 8.70  ~ 8.95 mm
+    w1 = 4.82  + w1_raw / 63.0 * 0.18   # 4.82  ~ 5.00 mm
+    w2 = 9.20  + w2_raw / 63.0 * 0.30   # 9.20  ~ 9.50 mm
+
+    return (
+        round(p, 4),
+        round(h, 4),
+        round(w1, 4),
+        round(w2, 4),
+    )
+
+def extract_metrics(cst_file):
+    result = cst.results.ProjectFile(cst_file, allow_interactive=True)
+    s11 = result.get_3d().get_result_item(r"1D Results\S-Parameters\SZmax(1),Zmax(1)")
+    data = s11.get_data()
+
+    point_num = 0
+    band_num = 0
+    min_rl = 1e9
+    below10_depth = 0.0
+
+    for row in data:
+        if len(row) < 2:
+            continue
+
+        mag = max(abs(row[1]), 1e-12)
+        rl = 20 * np.log10(mag)
+
+        point_num += 1
+        min_rl = min(min_rl, rl)
+
+        if rl < -10:
+            band_num += 1
+            below10_depth += (-10.0 - rl)
+
+    if point_num == 0:
+        return {"score": 0.0, "bandwidth": 0.0, "min_rl": 0.0}
+
+    bandwidth = band_num / point_num * 16.0
+    depth_bonus = below10_depth / point_num
+
+    if bandwidth > 0:
+        score = bandwidth + 0.12 * depth_bonus
+    else:
+        score = max(0.0, (-min_rl - 3.0) * 0.02)
+
+    return {
+        "score": float(score),
+        "bandwidth": float(bandwidth),
+        "min_rl": float(min_rl)
+    }
+
+
+def run_cst(individual):
+    global pj
+    pj = safe_new_mws()
+
+    try:
+        Type()
+        create_pet_material()
+        create_resistive_film_material()
+        newc()
+
+        p, h, w1, w2 = decode(individual)
+        print(
+            f"Current parameters: "
+            f"p={p:.3f}, h={h:.3f}, w1={w1:.3f}, w2={w2:.3f}"
+        )
+
+        create_pet_cross_substrates(p, h)
+        create_full_cover_film(p, h)
+        etch_to_center_bands(p, h, w1, w2)
+
+        set_ground_boundary()
+        set_fast_solver()
+
+        temp_name = f"temp_{random.randint(1000, 999999)}.cst"
+        cst_file = os.path.join(TEMP_DIR, temp_name)
+
+        print("Running CST solver...")
+        pj.model3d.run_solver()
+        pj.save(cst_file)
+
+        metrics = extract_metrics(cst_file)
+        return metrics, (p, h, w1, w2), cst_file
+
+    finally:
+        try:
+            pj.close()
+        except Exception:
+            pass
+
+def initialize_population(n):
+    pop = []
+    while len(pop) < n:
+        ind = [random.randint(0, 1) for _ in range(dna_size)]
+        if ind not in pop:
+            pop.append(ind)
+    return pop
+
+
+def evaluate_individual(individual):
+    key = tuple(individual)
+    if key in cache:
+        return cache[key]
+
+    try:
+        metrics, params, cst_file = run_cst(individual)
+    except Exception as e:
+        with open(ERROR_LOG_FILE, "a", encoding="utf-8") as f:
+            f.write("\n" + "=" * 80 + "\n")
+            f.write(f"individual = {individual}\n")
+            f.write(repr(e) + "\n")
+            f.write(traceback.format_exc() + "\n")
+
+        metrics = {"score": 0.0, "bandwidth": 0.0, "min_rl": 0.0}
+        params = (0.0, 0.0, 0.0, 0.0)
+        cst_file = ""
+
+    cache[key] = (metrics, params, cst_file)
+    return cache[key]
+
+
+def evaluate_population(pop):
+    fit_list = []
+    info_list = []
+
+    for ind in pop:
+        metrics, params, cst_file = evaluate_individual(ind)
+        fit_list.append(metrics["score"])
+        info_list.append((metrics, params, cst_file))
+
+    return fit_list, info_list
+
+
+def select_parent(pop, fit_list):
+    positive = [max(0.0, x) for x in fit_list]
+    total = sum(positive)
+
+    if total <= 0:
+        return random.choice(pop).copy()
+
+    r = random.random() * total
+    s = 0.0
+    for ind, fit in zip(pop, positive):
+        s += fit
+        if r <= s:
+            return ind.copy()
+
+    return pop[-1].copy()
+
+
+def crossover(father, mother):
+    cross_point1 = random.randint(0, 11)
+    cross_point2 = random.randint(12, 23)
+    return father[:cross_point1] + mother[cross_point1:cross_point2] + father[cross_point2:]
+
+
+def mutate(individual, p_m):
+    child = individual.copy()
+    if random.random() < p_m:
+        mp1 = random.randint(0, dna_size - 1)
+        mp2 = random.randint(0, dna_size - 1)
+        child[mp1] = 1 - child[mp1]
+        child[mp2] = 1 - child[mp2]
+    return child
+
+
+def make_new_population(pop, fit_list, p_m):
+    elite_idx = int(np.argmax(fit_list))
+    elite = pop[elite_idx].copy()
+
+    newpop = [elite]
+    while len(newpop) < pop_size:
+        father = select_parent(pop, fit_list)
+        mother = select_parent(pop, fit_list)
+        child = crossover(father, mother)
+        child = mutate(child, p_m)
+        if child not in newpop:
+            newpop.append(child)
+
+    return newpop
+
+
+def write_best_result(best_metrics, best_ind, best_params):
+    with open(BEST_RESULT_FILE, "w", encoding="utf-8") as f:
+        f.write(f"Best score: {best_metrics['score']}\n")
+        f.write(f"Best bandwidth( RL<-10 dB ): {best_metrics['bandwidth']} GHz\n")
+        f.write(f"Best min RL: {best_metrics['min_rl']} dB\n")
+        f.write(f"Best individual: {best_ind}\n")
+        f.write(f"Best parameters (p, h, w1, w2): {best_params}\n")
+        f.write(f"Best CST file: {BEST_CST}\n")
+
+
+def optimize():
+    pop = initialize_population(pop_size)
+
+    best_metrics = {"score": -1.0, "bandwidth": 0.0, "min_rl": 0.0}
+    best_ind = None
+    best_params = None
+
+    with open(LOG_FILE, "w", encoding="utf-8") as f:
+        f.write("iteration\tindividual\tscore\tbandwidth\tmin_rl\tp\th\tw1\tw2\tcst_file\n")
+
+    for it in range(iterations):
+        current_pm = max(0.03, p_m_start - 0.008 * it)
+        print(f"\n===== Iteration {it} =====")
+        print(f"Current mutation rate = {current_pm:.3f}")
+
+        fit_list, info_list = evaluate_population(pop)
+
+        for ind, fit, info in zip(pop, fit_list, info_list):
+            metrics, params, cst_file = info
+            print(
+                f"score = {metrics['score']:.6f}, "
+                f"bandwidth = {metrics['bandwidth']:.6f}, "
+                f"minRL = {metrics['min_rl']:.3f}"
+            )
+
+            with open(LOG_FILE, "a", encoding="utf-8") as f:
+                f.write(
+                    f"{it}\t{ind}\t{metrics['score']}\t{metrics['bandwidth']}\t{metrics['min_rl']}\t"
+                    f"{params[0]}\t{params[1]}\t{params[2]}\t{params[3]}\t{cst_file}\n"
+                )
+
+        idx = int(np.argmax(fit_list))
+        current_best_metrics, current_best_params, current_best_cst = info_list[idx]
+
+        if current_best_metrics["score"] > best_metrics["score"]:
+            best_metrics = current_best_metrics
+            best_ind = pop[idx].copy()
+            best_params = current_best_params
+
+            if current_best_cst and os.path.exists(current_best_cst):
+                shutil.copyfile(current_best_cst, BEST_CST)
+
+            write_best_result(best_metrics, best_ind, best_params)
+
+        print(f"best score so far = {best_metrics['score']:.6f}")
+        print(f"best bandwidth so far = {best_metrics['bandwidth']:.6f} GHz")
+        print(f"best min RL so far = {best_metrics['min_rl']:.3f} dB")
+        print(f"best params so far = {best_params}")
+
+        pop = make_new_population(pop, fit_list, current_pm)
+
+    print("\nOptimization finished.")
+    print(f"Best score = {best_metrics['score']}")
+    print(f"Best bandwidth = {best_metrics['bandwidth']} GHz")
+    print(f"Best min RL = {best_metrics['min_rl']} dB")
+    print(f"Best params = {best_params}")
+    print(f"Best CST file saved to: {BEST_CST}")
+
+
+if __name__ == "__main__":
+    optimize()

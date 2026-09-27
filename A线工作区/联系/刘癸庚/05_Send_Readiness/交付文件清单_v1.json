@@ -1,0 +1,337 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 2270,
+    "sha256": "4de6b5fe3ba3469afb117855a8bf3a63c45b5c7a83cc0d454e84f88ef35c4740"
+  },
+  {
+    "path": "01_Email\\第一封套磁邮件_刘癸庚_v1_INTERNAL.md",
+    "bytes": 1850,
+    "sha256": "0da0697f89c5213ae28feb610796b97bcbf84515f87fc5a689ca82c237870dc1"
+  },
+  {
+    "path": "01_Email\\邮件正文_v1.txt",
+    "bytes": 1430,
+    "sha256": "25aafb9afd6eeaa2f18bc2f1cd8d2468130c23e47c98dbaa84b314ccc79c87e8"
+  },
+  {
+    "path": "01_Email\\非群发审查_v1.md",
+    "bytes": 1422,
+    "sha256": "a4848a73d1775cbf896daa55d79f6faa803aec3a3759394db609bc994c8d84d5"
+  },
+  {
+    "path": "02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.docx",
+    "bytes": 39658,
+    "sha256": "0b70fc7bf7ff3dd9e5625d0c391bdbd904cbfc841c3e713f6dcdbf3d86b58013"
+  },
+  {
+    "path": "02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.md",
+    "bytes": 2412,
+    "sha256": "0315a021bb4a82f99915fe5d04986223799ede474cfa3a0851563c04e7f4cdad"
+  },
+  {
+    "path": "02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.pdf",
+    "bytes": 109114,
+    "sha256": "a471b17b0f0f8ec36d5fb0914422af08a6cd8fca0ab114ffb26954fc271964e4"
+  },
+  {
+    "path": "02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.png",
+    "bytes": 292148,
+    "sha256": "6a053051b4a013102eca32a85fca1e3f70fc98b1569421473247ef4b9152cbe7"
+  },
+  {
+    "path": "02_CV\\定制说明_v1.md",
+    "bytes": 1113,
+    "sha256": "d6b4a8bf780dffdde31f8f28c5b0a7398c7e16085986e170510cedd88a107841"
+  },
+  {
+    "path": "03_Project_Sheet\\README.md",
+    "bytes": 2926,
+    "sha256": "fd81ad311b4749d1d626b8ceb26f6e7c2de98a6693711352aa4c1b5dbf45ffc2"
+  },
+  {
+    "path": "03_Project_Sheet\\周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.md",
+    "bytes": 2033,
+    "sha256": "cacd077a6ceb766c5519a2d04ee20d5afa93df011c664eb3ad4b9e5afa9519b8"
+  },
+  {
+    "path": "04_Background_Notes\\官网快速复核_20260926.md",
+    "bytes": 4973,
+    "sha256": "4957064d7ea482b1efb0c4a9c4a4021c822f78fb15072b24c559bafceeebed9b"
+  },
+  {
+    "path": "04_Background_Notes\\对外Claim到Defense映射_v1.md",
+    "bytes": 3074,
+    "sha256": "e1545a409a00e8004e952cc1884a8f2c1da0fc6c53d721a7b23e321c334c0dad"
+  },
+  {
+    "path": "04_Background_Notes\\本地复制与基线哈希_v1.json",
+    "bytes": 3358,
+    "sha256": "969544d2a145b9de980965a9b93a590d060e28b7f7266f824a13bdd682e74b62"
+  },
+  {
+    "path": "04_Background_Notes\\组内渠道与匹配判断_v1.md",
+    "bytes": 1478,
+    "sha256": "89cf6311230a2fb6fab290e1947807d14ba3262f172400ef6764e056930ff09c"
+  },
+  {
+    "path": "05_Send_Readiness\\Readiness_Report_v1.md",
+    "bytes": 2134,
+    "sha256": "6e8dc4fbf59b0173f48879bfbc5c2c5f2343d82316d1e7f2d353c457a7ea0635"
+  },
+  {
+    "path": "05_Send_Readiness\\Send_Readiness_Checklist_v1.md",
+    "bytes": 2677,
+    "sha256": "1e0333247aecfee0a7a3158389cfb8771a74293510a0091bbd2179cf05449adf"
+  },
+  {
+    "path": "05_Send_Readiness\\工作台与行动表更新哈希_v1.json",
+    "bytes": 476,
+    "sha256": "21e5441cc7d54e85d2ab3e959c4188d5a9d71464ce1dde63587a4fa48b1ed23f"
+  },
+  {
+    "path": "05_Send_Readiness\\文件验收_v1.json",
+    "bytes": 2573,
+    "sha256": "e3af7be30f0285c760673c1ca194c119890f775b56c025962c6fb17e7c5e9986"
+  },
+  {
+    "path": "05_Send_Readiness\\文件验收_v1.md",
+    "bytes": 1916,
+    "sha256": "dc13093d1ca7cf437ccb80b41ca300b0a0677424e91a7a17a5444d92b1b7243d"
+  },
+  {
+    "path": "05_Send_Readiness\\附件策略与投递节奏_v1.md",
+    "bytes": 3591,
+    "sha256": "36236064c825251e8655badf73678ae4d804c2775191ec89e5e9f202b1083ddd"
+  },
+  {
+    "path": "06_Response_Prep\\回复后动作卡_v1.md",
+    "bytes": 1073,
+    "sha256": "b214dc9bf88e61b8163e63a902c8a5312ef7ca444020b4216f7794c5f303c6a8"
+  },
+  {
+    "path": "06_Response_Prep\\最低Research_Defense_Checklist_v1.md",
+    "bytes": 6391,
+    "sha256": "19cd23d33377c9f90cd0f50b43cdb42f60ba27c40a77e3c1485366509c50cf25"
+  },
+  {
+    "path": "03_Project_Sheet\\output\\reflection.pdf",
+    "bytes": 33004,
+    "sha256": "759cbc95dae3145c50312ae3eb48fc33cc91520cdeb4e458829fa4dea5ca167f"
+  },
+  {
+    "path": "03_Project_Sheet\\output\\reflection.png",
+    "bytes": 48134,
+    "sha256": "9f891fbed2f596c66a0ad2d21cfe51f9a641dee3fde33ba8c804d72d673d52de"
+  },
+  {
+    "path": "03_Project_Sheet\\output\\reflection.svg",
+    "bytes": 9143,
+    "sha256": "dae7d0d82f2d4efe138f12619cf32e220b37caf0c9e7f089570f35c0d1621ec4"
+  },
+  {
+    "path": "03_Project_Sheet\\output\\workflow_preview.png",
+    "bytes": 42123,
+    "sha256": "490f6bc201b14f475dcba3e7d9e85c3ffdd7a27ee77480d69a554c2c674740f1"
+  },
+  {
+    "path": "03_Project_Sheet\\output\\周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.pdf",
+    "bytes": 392916,
+    "sha256": "758e2e2d6d4400800350587ce7b7f04dcfe248313d13942db5d92ddd79f34da1"
+  },
+  {
+    "path": "03_Project_Sheet\\output\\周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.png",
+    "bytes": 833218,
+    "sha256": "e53cf739f43e83a8219841649d2fb7e0a4dcdbc2a082d67107986749bc402fa9"
+  },
+  {
+    "path": "03_Project_Sheet\\qa_regenerated\\reflection.pdf",
+    "bytes": 33004,
+    "sha256": "a81a14a60d4880b51c0ed06f98bd7375c720cd046ae4822d6f858d052d0341ad"
+  },
+  {
+    "path": "03_Project_Sheet\\qa_regenerated\\reflection.png",
+    "bytes": 48134,
+    "sha256": "9f891fbed2f596c66a0ad2d21cfe51f9a641dee3fde33ba8c804d72d673d52de"
+  },
+  {
+    "path": "03_Project_Sheet\\qa_regenerated\\reflection.svg",
+    "bytes": 9143,
+    "sha256": "840a08dd1a49bd927a97595d466bf819841f9f8a780c509dbd2f5915118ab7d7"
+  },
+  {
+    "path": "03_Project_Sheet\\qa_regenerated\\周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.pdf",
+    "bytes": 392915,
+    "sha256": "6516c2a00ac7707e2f2f157b10d089c6400f63b5c7ee2e5d6c4486d959b3d431"
+  },
+  {
+    "path": "03_Project_Sheet\\qa_regenerated\\周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.png",
+    "bytes": 833218,
+    "sha256": "e53cf739f43e83a8219841649d2fb7e0a4dcdbc2a082d67107986749bc402fa9"
+  },
+  {
+    "path": "03_Project_Sheet\\source\\build_project_sheet.py",
+    "bytes": 7384,
+    "sha256": "f28472ac5a36d8633831e04c7f0f49d67b113be991c3b13ff12aea96fc917d2d"
+  },
+  {
+    "path": "03_Project_Sheet\\source\\figure-plan.md",
+    "bytes": 1505,
+    "sha256": "a33f881a20c536148b6d71034f44b643a3616673bb9e1406e21786cbd98d0514"
+  },
+  {
+    "path": "03_Project_Sheet\\source\\plot_reflection.py",
+    "bytes": 1145,
+    "sha256": "f19abe5ed054fd8dbf745124edf8e829a756b800b19ece63bdd122075f6293e6"
+  },
+  {
+    "path": "03_Project_Sheet\\source\\reflection_archived.tsv",
+    "bytes": 9649,
+    "sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04"
+  },
+  {
+    "path": "03_Project_Sheet\\source\\result_archived.txt",
+    "bytes": 2457,
+    "sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81"
+  },
+  {
+    "path": "03_Project_Sheet\\source\\structure_original.png",
+    "bytes": 293392,
+    "sha256": "b4d3784cc300927978a10ef2c2d95ea2fdbfb16abccd56a7e224218acd569885"
+  },
+  {
+    "path": "03_Project_Sheet\\source\\workflow.svg",
+    "bytes": 3590,
+    "sha256": "c59b16b70692c2aee031d42be2ebee0d4fc897159efd750f4c705b790f922c59"
+  },
+  {
+    "path": "03_Project_Sheet\\source\\qa\\layout_precomposition.pdf",
+    "bytes": 360692,
+    "sha256": "f2410d78061c93ef0131ef928e1758aaa6245ab0cfa4888e3e6f7a7fb6f4834a"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\admissions.html",
+    "bytes": 19765,
+    "sha256": "ed4be3e606b5707f913ad7e5209e3175286474ce487c1e25fc5668ec8e9db750"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\admissions.json",
+    "bytes": 7686,
+    "sha256": "d95abbbf161ea38f2579156f454fe49e962849a6cfc274143dc557f4c12b63a0"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\admissions.txt",
+    "bytes": 3421,
+    "sha256": "59c63a0b7b50238841b995041e9ce1c700fc1b1cf2bffeebd3657c6bbd6da41e"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\faculty.html",
+    "bytes": 74426,
+    "sha256": "20df548bc47cb159ab627015b7ac12969108f62539fcd32082d28318132f6271"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\faculty.json",
+    "bytes": 306,
+    "sha256": "7374d74bb51657261240485bcdadbfa2afca3698adf6679ddc0f42332a7a8cc8"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\faculty.txt",
+    "bytes": 41,
+    "sha256": "c3a6c882544cee8a2e5241e5b17eb27c999b0e58e458907bd64e78aca5e1887d"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\faculty_extracted.txt",
+    "bytes": 5830,
+    "sha256": "471a06807b8167f11ff0091f4f81c79c43dbb571083be2cfd4d14c49b7f6dd8b"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\job.html",
+    "bytes": 74445,
+    "sha256": "f858b557b6b345b72f33ac6c7d4ff35d09e2045a6317bb39efc9bf254ed8455a"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\job.json",
+    "bytes": 1763,
+    "sha256": "3a90fd344bdeb98bf243f3cce7045977c5f2059632bcd3e50925e21b52a009a3"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\job.txt",
+    "bytes": 16093,
+    "sha256": "2cd3281c714eb4f22e43cb023e74281c91e90ca1de35ce832f93c2fb487720cb"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\lab.html",
+    "bytes": 35526,
+    "sha256": "be22ed72d8445f873d454db7a04d0715370d126564413f7efa6d9e562c403ba2"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\lab.json",
+    "bytes": 1095,
+    "sha256": "6b670d48ff2217f9e06d0158282994ae1ce21e6431e0d13d60d0bb623c1a8f51"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\lab.txt",
+    "bytes": 926,
+    "sha256": "0a8c0af25ed1f8aea770c9d1259bca3dcbd9c0f7ef8cbd86c21a119ca1281384"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\notice_2027.html",
+    "bytes": 70624,
+    "sha256": "d5d7d5e371d4c74df7265ab87cfa6b1be7f87fb8a0973f36891fa63580ef4ebc"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\notice_2027.json",
+    "bytes": 1044,
+    "sha256": "a545935962432072f845cceba61ef9726a447dbae0661d2f15c06355bb09169c"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\notice_2027.txt",
+    "bytes": 11973,
+    "sha256": "2190826cadc939a72d2672506a775f44328e82e811ae02c84364f90f910c95c3"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\publications.html",
+    "bytes": 106131,
+    "sha256": "2f863fd6ebe1c70d936fb9aa549097520fb4dcf186bf6c21658aa854f570ef9b"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\publications.json",
+    "bytes": 18208,
+    "sha256": "2103032ada2fff9c2cf65a9c8b8614192b1a3f3622390cdbe1722a778c4b666a"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\publications.txt",
+    "bytes": 13915,
+    "sha256": "f543f1db6573f4ec8789013c36701b0c3ccd58f2b4e14072e1f0b56bb9854592"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\research.html",
+    "bytes": 41009,
+    "sha256": "2d267125faffd1daeff6569cd32c0da61de1a1425ae46507ca5c12cfc0efacbb"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\research.json",
+    "bytes": 1195,
+    "sha256": "07c5ae1e1e98e78e5c2084036cdc769c047fc418adcdcc1605b825715cba0aa6"
+  },
+  {
+    "path": "04_Background_Notes\\official_snapshots\\research.txt",
+    "bytes": 4853,
+    "sha256": "bb2d02fc8c06e39f942153fba675159b09959328f24539c42ec3a5ff9b55f421"
+  },
+  {
+    "path": "05_Send_Readiness\\附件备选\\合作论文_吸波材料_2025.pdf",
+    "bytes": 2312663,
+    "sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480"
+  },
+  {
+    "path": "05_Send_Readiness\\附件备选\\合作论文_晶格波_2025.pdf",
+    "bytes": 1910311,
+    "sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c"
+  },
+  {
+    "path": "05_Send_Readiness\\附件备选\\周子靖_本科成绩单.pdf",
+    "bytes": 640586,
+    "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19"
+  }
+]

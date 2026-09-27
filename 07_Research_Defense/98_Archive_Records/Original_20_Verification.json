@@ -1,0 +1,102 @@
+[
+  {
+    "source": "F:/1A硕博申请/A线_PI_04_吴泰霖.md",
+    "sha256": "1510788d8e9431dcf5725b2392353a8cdc80a193958073abc28431063b7c7f85",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/A线_PI_05_鲍芳琳.md",
+    "sha256": "6efb59e439f082db5601672c15828fb9ff1892d94fa9bad21d5168329dce7209",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/A线_PI_06_田静逸.md",
+    "sha256": "50f344b8ed8e521089357e986d433f242340cbafcc2fc9be3552df8982ec1578",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/A线_PI_07_刘癸庚_v2.md",
+    "sha256": "8d9e16ed37d323b9d0af80ccd03abc6def6a0155cf3f4ceeefe783f343f4d74b",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/A线_PI_08_仇旻.md",
+    "sha256": "de7951eebeaf134c801f60849e7307021304a2415af0a773d08e7fceef4d72b5",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/A线_PI_总表_v1.md",
+    "sha256": "aa3cff51869460c0ff09bebdbd4d5a8826316c76dbf3fcd812e31d5e053526c0",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/个人资料/成绩单.pdf",
+    "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/个人资料/排名.png",
+    "sha256": "03fc0a21933ca18d82233d031804adf17bf31929b863da394b88435eed3b579f",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/个人资料/英语六级成绩.jpg",
+    "sha256": "15de1da766e71b0d025a9ecc876d0743bece3374e131bf4143a3b2e0564ca762",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/个人资料/英语四级成绩.jpg",
+    "sha256": "55bab09570be158f2aafb6755e0038863ca08007a874b3bc372162878cebb1f1",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-刘仕组/刘仕组.md",
+    "sha256": "158998cdee89cdd400055d09d7465bb16b0f0f0dc7b00844b9b1ff3ca2400283",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-刘仕组/A线_PI_02_刘仕_v2.md",
+    "sha256": "f0ae49ddded363b7746258abfca5e10e1b4b9235ca536c16e54b827b695fea81",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-朱一舟组/朱一舟组.md",
+    "sha256": "dea8c48439d2f4de5e9117902cbfecd514468c82f80ce6298fa4e68818b1f450",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-朱一舟组/A perspective on training machine learning force fields for solid-state electrolyte materials.pdf",
+    "sha256": "0121094cdf4f98b448dc359d024b5e2d0eaf0f91db1b648991ec1041686ed87c",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-朱一舟组/A线_PI_01_朱一舟.md",
+    "sha256": "43d2d484bafc5a1b827f51dcd069a7ecbb30a195e2611e3d947c090e2fc4ba9c",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-朱一舟组/A线_PI_03_李文彬.md",
+    "sha256": "9dc6fbedd537a76e11d159c9a1e067ccba53631e5e3a9bc9b49ba7f410127ff9",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-朱一舟组/Automated phase mapping of high-throughput X-ray diffraction data encoded with domain-specific materials science knowledge.pdf",
+    "sha256": "c2a095cc28b818e20bc2780f0167df237393b3b5aa00b81485acbfe20d1338b3",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-朱一舟组/Equivariant diffusion solution for inorganic crystal structure determination from powder X-ray diffraction data.pdf",
+    "sha256": "a6f15f7445d603beaaf48e4b4c3d6719bd90a70ee0ab209676287562c8a47f4b",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-朱一舟组/Improving Robustness and Training Efficiency of Machine-Learned Potentials by Incorporating Short-Range Empirical Potentials.pdf",
+    "sha256": "9813a4ce98292d747f1462b9efc2b3e0d9e4e77fb122875c86b0feafcbd4f429",
+    "matches_original": true
+  },
+  {
+    "source": "F:/1A硕博申请/西湖-朱一舟组/Supporting Information.pdf",
+    "sha256": "3318788805246eb4f9dc30a5466322e09236a050c5527d8b8e340bc7d7bf101f",
+    "matches_original": true
+  }
+]

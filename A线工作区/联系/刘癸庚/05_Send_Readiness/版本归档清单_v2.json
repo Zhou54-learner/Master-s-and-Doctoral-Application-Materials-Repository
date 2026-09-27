@@ -1,0 +1,137 @@
+[
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\README.md",
+    "to": "A线工作区\\联系\\刘癸庚\\历史版本\\README_v1.md",
+    "mode": "index snapshot",
+    "before_sha256": "4de6b5fe3ba3469afb117855a8bf3a63c45b5c7a83cc0d454e84f88ef35c4740",
+    "final_sha256": "b5570dca8efbfc71d0ab23f781f173d3471ecc22645f61fab4bb1bcbd821f5df"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.docx",
+    "to": "A线工作区\\联系\\刘癸庚\\02_CV\\历史版本\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.docx",
+    "mode": "move",
+    "before_sha256": "0b70fc7bf7ff3dd9e5625d0c391bdbd904cbfc841c3e713f6dcdbf3d86b58013",
+    "after_move_sha256": "0b70fc7bf7ff3dd9e5625d0c391bdbd904cbfc841c3e713f6dcdbf3d86b58013",
+    "final_sha256": "0b70fc7bf7ff3dd9e5625d0c391bdbd904cbfc841c3e713f6dcdbf3d86b58013"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.pdf",
+    "to": "A线工作区\\联系\\刘癸庚\\02_CV\\历史版本\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.pdf",
+    "mode": "move",
+    "before_sha256": "a471b17b0f0f8ec36d5fb0914422af08a6cd8fca0ab114ffb26954fc271964e4",
+    "after_move_sha256": "a471b17b0f0f8ec36d5fb0914422af08a6cd8fca0ab114ffb26954fc271964e4",
+    "final_sha256": "a471b17b0f0f8ec36d5fb0914422af08a6cd8fca0ab114ffb26954fc271964e4"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.md",
+    "to": "A线工作区\\联系\\刘癸庚\\02_CV\\历史版本\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.md",
+    "mode": "move",
+    "before_sha256": "0315a021bb4a82f99915fe5d04986223799ede474cfa3a0851563c04e7f4cdad",
+    "after_move_sha256": "0315a021bb4a82f99915fe5d04986223799ede474cfa3a0851563c04e7f4cdad",
+    "final_sha256": "0315a021bb4a82f99915fe5d04986223799ede474cfa3a0851563c04e7f4cdad"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.png",
+    "to": "A线工作区\\联系\\刘癸庚\\02_CV\\历史版本\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.png",
+    "mode": "move",
+    "before_sha256": "6a053051b4a013102eca32a85fca1e3f70fc98b1569421473247ef4b9152cbe7",
+    "after_move_sha256": "6a053051b4a013102eca32a85fca1e3f70fc98b1569421473247ef4b9152cbe7",
+    "final_sha256": "6a053051b4a013102eca32a85fca1e3f70fc98b1569421473247ef4b9152cbe7"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\02_CV\\定制说明_v1.md",
+    "to": "A线工作区\\联系\\刘癸庚\\02_CV\\历史版本\\定制说明_v1.md",
+    "mode": "move",
+    "before_sha256": "d6b4a8bf780dffdde31f8f28c5b0a7398c7e16085986e170510cedd88a107841",
+    "after_move_sha256": "d6b4a8bf780dffdde31f8f28c5b0a7398c7e16085986e170510cedd88a107841",
+    "final_sha256": "d6b4a8bf780dffdde31f8f28c5b0a7398c7e16085986e170510cedd88a107841"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\01_Email\\第一封套磁邮件_刘癸庚_v1_INTERNAL.md",
+    "to": "A线工作区\\联系\\刘癸庚\\01_Email\\历史版本\\第一封套磁邮件_刘癸庚_v1_INTERNAL.md",
+    "mode": "move",
+    "before_sha256": "0da0697f89c5213ae28feb610796b97bcbf84515f87fc5a689ca82c237870dc1",
+    "after_move_sha256": "0da0697f89c5213ae28feb610796b97bcbf84515f87fc5a689ca82c237870dc1",
+    "final_sha256": "0da0697f89c5213ae28feb610796b97bcbf84515f87fc5a689ca82c237870dc1"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\01_Email\\邮件正文_v1.txt",
+    "to": "A线工作区\\联系\\刘癸庚\\01_Email\\历史版本\\邮件正文_v1.txt",
+    "mode": "move",
+    "before_sha256": "25aafb9afd6eeaa2f18bc2f1cd8d2468130c23e47c98dbaa84b314ccc79c87e8",
+    "after_move_sha256": "25aafb9afd6eeaa2f18bc2f1cd8d2468130c23e47c98dbaa84b314ccc79c87e8",
+    "final_sha256": "25aafb9afd6eeaa2f18bc2f1cd8d2468130c23e47c98dbaa84b314ccc79c87e8"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\01_Email\\非群发审查_v1.md",
+    "to": "A线工作区\\联系\\刘癸庚\\01_Email\\历史版本\\非群发审查_v1.md",
+    "mode": "move",
+    "before_sha256": "a4848a73d1775cbf896daa55d79f6faa803aec3a3759394db609bc994c8d84d5",
+    "after_move_sha256": "a4848a73d1775cbf896daa55d79f6faa803aec3a3759394db609bc994c8d84d5",
+    "final_sha256": "a4848a73d1775cbf896daa55d79f6faa803aec3a3759394db609bc994c8d84d5"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\05_Send_Readiness\\Readiness_Report_v1.md",
+    "to": "A线工作区\\联系\\刘癸庚\\05_Send_Readiness\\历史版本\\Readiness_Report_v1.md",
+    "mode": "move",
+    "before_sha256": "6e8dc4fbf59b0173f48879bfbc5c2c5f2343d82316d1e7f2d353c457a7ea0635",
+    "after_move_sha256": "6e8dc4fbf59b0173f48879bfbc5c2c5f2343d82316d1e7f2d353c457a7ea0635",
+    "final_sha256": "33f84668c4e4e548fa771fcd96aa277791c819dab9c94b05f1aa62f859e0aa12"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\05_Send_Readiness\\Send_Readiness_Checklist_v1.md",
+    "to": "A线工作区\\联系\\刘癸庚\\05_Send_Readiness\\历史版本\\Send_Readiness_Checklist_v1.md",
+    "mode": "move",
+    "before_sha256": "1e0333247aecfee0a7a3158389cfb8771a74293510a0091bbd2179cf05449adf",
+    "after_move_sha256": "1e0333247aecfee0a7a3158389cfb8771a74293510a0091bbd2179cf05449adf",
+    "final_sha256": "8039161a72d41eeef554d2f579e79711e997cda704fafa5afcfeb1ca866983b0"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\05_Send_Readiness\\附件策略与投递节奏_v1.md",
+    "to": "A线工作区\\联系\\刘癸庚\\05_Send_Readiness\\历史版本\\附件策略与投递节奏_v1.md",
+    "mode": "move",
+    "before_sha256": "36236064c825251e8655badf73678ae4d804c2775191ec89e5e9f202b1083ddd",
+    "after_move_sha256": "36236064c825251e8655badf73678ae4d804c2775191ec89e5e9f202b1083ddd",
+    "final_sha256": "a0a1a5b64d17d55c03fe6a96e7dae15133942a898b648d86e6c53a4bee98b1b7"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\04_Background_Notes\\对外Claim到Defense映射_v1.md",
+    "to": "A线工作区\\联系\\刘癸庚\\04_Background_Notes\\历史版本\\对外Claim到Defense映射_v1.md",
+    "mode": "move",
+    "before_sha256": "e1545a409a00e8004e952cc1884a8f2c1da0fc6c53d721a7b23e321c334c0dad",
+    "after_move_sha256": "e1545a409a00e8004e952cc1884a8f2c1da0fc6c53d721a7b23e321c334c0dad",
+    "final_sha256": "91a805e62ef78b443015b2c1dcb657e81f70d7ab4f6c67afca28a81b0204239d"
+  },
+  {
+    "from": "A线工作区\\联系\\刘癸庚\\06_Response_Prep\\最低Research_Defense_Checklist_v1.md",
+    "to": "A线工作区\\联系\\刘癸庚\\06_Response_Prep\\历史版本\\最低Research_Defense_Checklist_v1.md",
+    "mode": "move",
+    "before_sha256": "19cd23d33377c9f90cd0f50b43cdb42f60ba27c40a77e3c1485366509c50cf25",
+    "after_move_sha256": "19cd23d33377c9f90cd0f50b43cdb42f60ba27c40a77e3c1485366509c50cf25",
+    "final_sha256": "4e64eeb94b22880a226342127fc67319ff9d57805fd4ab8dba68cf21bba2628e"
+  },
+  {
+    "from": "A线工作区\\核验\\a4_prepare.py",
+    "to": "A线工作区\\核验\\历史版本\\a4_prepare.py",
+    "mode": "implementation record",
+    "before_sha256": "9663c136710d28d815586de6a38bf946cd785a429783a21f576aa55ce0ae61db",
+    "after_move_sha256": "9663c136710d28d815586de6a38bf946cd785a429783a21f576aa55ce0ae61db",
+    "final_sha256": "9663c136710d28d815586de6a38bf946cd785a429783a21f576aa55ce0ae61db"
+  },
+  {
+    "from": "A线工作区\\核验\\a4_validate.py",
+    "to": "A线工作区\\核验\\历史版本\\a4_validate.py",
+    "mode": "implementation record",
+    "before_sha256": "7e2050783650e063067cd382b7a03aa0f69b58f5a6a7b11c36b16fb5bdd78a5d",
+    "after_move_sha256": "7e2050783650e063067cd382b7a03aa0f69b58f5a6a7b11c36b16fb5bdd78a5d",
+    "final_sha256": "7e2050783650e063067cd382b7a03aa0f69b58f5a6a7b11c36b16fb5bdd78a5d"
+  },
+  {
+    "from": "A线工作区\\核验\\a4_finish_records.py",
+    "to": "A线工作区\\核验\\历史版本\\a4_finish_records.py",
+    "mode": "implementation record",
+    "before_sha256": "501d22caf5a45e77233f96a884cc2c1c0bfefda9fbf83c7f19172738a5a53b6c",
+    "after_move_sha256": "501d22caf5a45e77233f96a884cc2c1c0bfefda9fbf83c7f19172738a5a53b6c",
+    "final_sha256": "501d22caf5a45e77233f96a884cc2c1c0bfefda9fbf83c7f19172738a5a53b6c"
+  }
+]

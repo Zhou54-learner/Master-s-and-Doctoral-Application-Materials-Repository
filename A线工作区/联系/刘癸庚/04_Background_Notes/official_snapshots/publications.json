@@ -1,0 +1,473 @@
+{
+  "url": "https://www.liuguigeng.com/publications/",
+  "final_url": "https://www.liuguigeng.com/publications/",
+  "status": 200,
+  "retrieved_local": "2026-09-26T20:06:34.223404",
+  "sha256": "2f863fd6ebe1c70d936fb9aa549097520fb4dcf186bf6c21658aa854f570ef9b",
+  "links": [
+    {
+      "text": "Skip to content",
+      "href": "#content"
+    },
+    {
+      "text": "LGG LAB",
+      "href": "https://www.liuguigeng.com/"
+    },
+    {
+      "text": "OVERVIEW",
+      "href": "https://www.liuguigeng.com/"
+    },
+    {
+      "text": "Publications",
+      "href": "https://www.liuguigeng.com/publications/"
+    },
+    {
+      "text": "RESEARCH",
+      "href": "https://www.liuguigeng.com/research/"
+    },
+    {
+      "text": "People",
+      "href": "https://www.liuguigeng.com/people/"
+    },
+    {
+      "text": "Album",
+      "href": "https://www.liuguigeng.com/album/"
+    },
+    {
+      "text": "团队招聘",
+      "href": "https://www.liuguigeng.com/job/"
+    },
+    {
+      "text": "Home",
+      "href": "https://www.liuguigeng.com"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "https://scholar.google.com/citations?hl=en&user=6QWwF40AAAAJ&view_op=list_works&sortby=pubdate"
+    },
+    {
+      "text": "ResearchGate",
+      "href": "https://www.researchgate.net/profile/Gui-Geng-Liu"
+    },
+    {
+      "text": "ORCiD: 0000-0003-4328-9142",
+      "href": "https://orcid.org/0000-0003-4328-9142"
+    },
+    {
+      "text": "2026",
+      "href": "https://lgglab.com/publications/#section11"
+    },
+    {
+      "text": "2025",
+      "href": "https://lgglab.com/publications/#section10"
+    },
+    {
+      "text": "2024",
+      "href": "https://lgglab.com/publications/#section9"
+    },
+    {
+      "text": "2023",
+      "href": "https://lgglab.com/publications/#section8"
+    },
+    {
+      "text": "2022",
+      "href": "https://lgglab.com/publications/#section7"
+    },
+    {
+      "text": "2021",
+      "href": "https://lgglab.com/publications/#section6"
+    },
+    {
+      "text": "2020",
+      "href": "https://lgglab.com/publications/#section5"
+    },
+    {
+      "text": "2019",
+      "href": "https://lgglab.com/publications/#section4"
+    },
+    {
+      "text": "2018",
+      "href": "https://lgglab.com/publications/#section3"
+    },
+    {
+      "text": "2017",
+      "href": "https://lgglab.com/publications/#section2"
+    },
+    {
+      "text": "2016",
+      "href": "https://lgglab.com/publications/#section1"
+    },
+    {
+      "text": "Nature Communications",
+      "href": "https://doi.org/10.1038/s41467-026-77020-2"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/09/Antichiral-hinge-states-in-a-higher-order-photonic-nodal-ring-semimetal.pdf"
+    },
+    {
+      "text": "Nature Communications",
+      "href": "https://doi.org/10.1038/s41467-026-77201-z"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/09/Topological-valley-quasi-bound-states-in-the-continuum-for-radiatively-accessible-robust-transport.pdf"
+    },
+    {
+      "text": "Laser & Photonics Reviews, 0:e71603",
+      "href": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.71603?utm_medium=article&utm_source=researchgate.net"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/08/Laser-Photonics-Reviews-2026-Zhen-Observation-of-Klein-Tunneling-in-Antichiral-Gyromagnetic-Photonic-Crystals.pdf"
+    },
+    {
+      "text": "Photonics Research 14(8), 3368-3377",
+      "href": "https://www.researchgate.net/publication/405124410_Local_boundary_modulation_of_photonic_antichiral_edge_states"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/08/Local_boundary_modulation_of_photonic_antichiral_e.pdf"
+    },
+    {
+      "text": "Electromagnetic Science 4(1), 0130542",
+      "href": "https://www.emscience.org.cn/article/doi/10.23919/emsci.2025.0054"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/07/Observation-of-Fractional-Disclination-Charges-Induced-by-Gain-and-Loss.pdf"
+    },
+    {
+      "text": "Physical Review B 113, 214310",
+      "href": "https://journals.aps.org/prb/abstract/10.1103/s4d3-nlz6"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/06/Nonlinear-topological-edge-states-topological-gap-solitons-and-self-induced-topological-edge-states-in-nonlinear-Su-Schrieffer-Heeger-circuit-lattices.pdf"
+    },
+    {
+      "text": "Laser & Photonics Reviews 71179",
+      "href": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.71179?utm_medium=article&utm_source=researchgate.net"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/04/A-Time-Grating-Approach-to-Ultrahigh‐Q-Guided-Mode-Resonance.pdf"
+    },
+    {
+      "text": "PhotoniX 7, 6",
+      "href": "https://link.springer.com/article/10.1186/s43074-026-00226-6"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/01/Terahertz-spin-selective-dielectric-metasurfaces-from-exceptional-points.pdf"
+    },
+    {
+      "text": "Nature Communications 16, 11256",
+      "href": "https://www.nature.com/articles/s41467-025-66126-8"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Chiral-valley-edge-states-based-on-Dirac-mass-engineering.pdf"
+    },
+    {
+      "text": "Physical Review Letters",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/33mm-mx88"
+    },
+    {
+      "text": "135, 016903",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/33mm-mx88"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/11/Photonic-Bilayer-Chern-Insulator-with-Corner-States.pdf"
+    },
+    {
+      "text": "Physical Review",
+      "href": "https://journals.aps.org/prresearch/abstract/10.1103/qthq-fbt1"
+    },
+    {
+      "text": "Research 7, 023280",
+      "href": "https://journals.aps.org/prresearch/abstract/10.1103/qthq-fbt1"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/11/Three-dimensional-acoustic-Chern-insulators-with-arbitrary-Chern-vectors.pdf"
+    },
+    {
+      "text": "Nature Communications 16, 3122",
+      "href": "https://www.nature.com/articles/s41467-025-58051-7"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/01/Realization-of-a-three-dimensional-photonic-higher-order-topological-insulator.pdf"
+    },
+    {
+      "text": "Physical Review Letters 134, 033803",
+      "href": "https://doi.org/10.1103/PhysRevLett.134.033803"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Realization-of-Topology-Controlled-Photonic-Cavities-in-a-Valley-Photonic-Crystal.pdf"
+    },
+    {
+      "text": "Science 387, 162",
+      "href": "https://www.science.org/doi/10.1126/science.adr5234"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Photonic-axion-insulator.pdf"
+    },
+    {
+      "text": "Science Bulletin 70, 882–888",
+      "href": "https://doi.org/10.1016/j.scib.2025.01.006"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/11/Abrupt-lateral-beam-shifts-from-terahertz-quasi-bound-states-in-the-continuum.pdf"
+    },
+    {
+      "text": "Progress In Electromagnetics Research 181, 99-112",
+      "href": "https://doi.org/10.2528/PIER24111001"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/11/Three-Dimensional-Topological-Photonic-Crystals-Invited-Review.pdf"
+    },
+    {
+      "text": "Physical Review Letters 133, 233804",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.233804"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2026/01/Topological-Disclination-States-and-Charge-Fractionalization-in-a-Non-Hermitian-Lattice.pdf"
+    },
+    {
+      "text": "Physical Review Letters 132(11), 113802",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.113802"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Localization-of-Chiral-Edge-States-by-the-Non-Hermitian-Skin-Effect.pdf"
+    },
+    {
+      "text": "National Science Review 11(11), nwae121",
+      "href": "https://academic.oup.com/nsr/advance-article/doi/10.1093/nsr/nwae121/7638834"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/11/Realization-of-a-quadrupole-topological-insulator-phase-in-a-gyromagnetic-photonic-crystal.pdf"
+    },
+    {
+      "text": "Science Bulletin 69(13), 2050-2058",
+      "href": "https://www.sciencedirect.com/science/article/abs/pii/S2095927324003372"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/11/Brillouin-Klein-space-and-half-turn-space-in-three-dimensional-acoustic-crystals.pdf"
+    },
+    {
+      "text": "Physical Review Letters 132(15), 156602",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.156602"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/11/Multiple-Brillouin-Zone-Winding-of-Topological-Chiral-Edge-States-for-Slow-Light-Applications.pdf"
+    },
+    {
+      "text": "Nature Communications 14, 1991",
+      "href": "https://www.nature.com/articles/s41467-023-37710-7"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2023/05/Topological-antichiral-surface-states-in-a-magnetic-Weyl-photonic-crystal.pdf"
+    },
+    {
+      "text": "ACS Photonics 10(1), 147-154",
+      "href": "https://pubs.acs.org/doi/10.1021/acsphotonics.2c01367"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2023/03/Topology-with-memory-in-nonlinear-driven-dissipative-photonic-lattices.pdf"
+    },
+    {
+      "text": "Physical Review Letters 130(2), 026101",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.026101"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2024/10/Spinful-Topological-Phases-in-Acoustic-Crystals-with-Projective.pdf"
+    },
+    {
+      "text": "Nature 609, 925–930",
+      "href": "https://www.nature.com/articles/s41586-022-05077-2"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Topological-Chern-vectors-in-three-dimensional-photonic-crystals.pdf"
+    },
+    {
+      "text": "Physical Review Letters 129, 125502",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.125502?ft=1"
+    },
+    {
+      "text": "[",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Observation-of-Dirac-Hierarchy-in-Three-Dimensional-Acoustic-Topological-Insulators.pdf"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Observation-of-Dirac-Hierarchy-in-Three-Dimensional-Acoustic-Topological-Insulators.pdf"
+    },
+    {
+      "text": "]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Observation-of-Dirac-Hierarchy-in-Three-Dimensional-Acoustic-Topological-Insulators.pdf"
+    },
+    {
+      "text": "New Journal of Physics 24, 123019",
+      "href": "https://iopscience.iop.org/article/10.1088/1367-2630/aca786"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Observation-of-multiple-rotons-and-multidirectional-roton-like-dispersion-relations-in-acoustic-metamaterials.pdf"
+    },
+    {
+      "text": "Advanced Optical Materials 10(24), 2201975",
+      "href": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.202201975"
+    },
+    {
+      "text": "[PDF]",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2025/12/Extended-metasurface-spin-functionalities-from-rotation-of-elements.pdf"
+    },
+    {
+      "text": "Advanced Materials 34(31), 2202257",
+      "href": "https://onlinelibrary.wiley.com/doi/full/10.1002/adma.202202257"
+    },
+    {
+      "text": "PDF",
+      "href": "http://liuguigeng.com/wp-content/uploads/2022/07/Observation-of-Topological-Edge-States-in-Thermal-Diffusion.pdf"
+    },
+    {
+      "text": "Laser & Photonics Reviews 15(4), 202000388",
+      "href": "https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202000388"
+    },
+    {
+      "text": "PDF",
+      "href": "http://liuguigeng.com/wp-content/uploads/2022/07/Laser-Photonics-Reviews-2021-Zhong-Toggling-Near%E2%80%90Field-Directionality-via-Polarization-Control-of-Surface-Waves.pdf"
+    },
+    {
+      "text": "Nature Communications 11,1873",
+      "href": "https://www.nature.com/articles/s41467-020-15801-z"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2020/07/Observation-of-an-unpaired-photonic-Dirac-point.pdf"
+    },
+    {
+      "text": "Physical Review Letters 125, 133603",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.133603"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2020/10/Topological-Anderson-Insulator-in-Disordered-Photonic-CrystalsPhysRevLett.125.133603.pdf"
+    },
+    {
+      "text": "Let Disorder Dictate Topology",
+      "href": "https://physics.aps.org/articles/v13/s123"
+    },
+    {
+      "text": "Light: Science & Applications 9, 133",
+      "href": "https://www.nature.com/articles/s41377-020-00368-7"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2020/08/Photonic-amorphous-topological-insulator.pdf"
+    },
+    {
+      "text": "Physical Review Letters 125, 263603",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.263603"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2021/01/Observation-of-Photonic-Antichiral-Edge-States.pdf"
+    },
+    {
+      "text": "Physical Review Letters 122, 244301",
+      "href": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.244301"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2019/08/Realization-of-an-Acoustic-Third-Order-Topological-Insulator.pdf"
+    },
+    {
+      "text": "Optics Letters 43(4), 823-826",
+      "href": "https://www.osapublishing.org/abstract.cfm?uri=ol-43-4-823"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2018/08/Measurement-of-the-topological-charge-and-index-of-vortex-vector-optical-fields-with-a-space-variant-half-wave-plate.pdf"
+    },
+    {
+      "text": "Optics Express 26(21), 27726-27747",
+      "href": "https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-21-27726"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2019/08/Femtosecond-polarization-structured-optical.pdf"
+    },
+    {
+      "text": "Journal of the Optical Society of America B 35(10), 2373-2381",
+      "href": "https://www.osapublishing.org/josab/abstract.cfm?uri=josab-35-10-2373"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2018/09/Controlling-optical-field-collapse-by-elliptical-symmetry-hybrid-polarization-structure.pdf"
+    },
+    {
+      "text": "Journal of the Optical Society of America B 35(11), 2916-2922",
+      "href": "https://doi.org/10.1364/JOSAB.35.002916"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2019/08/Unveiling-of-control-on-polarization-of-supercontinuum-spectra-based-on-ultrafast-birefringence-induced-by-filamentation.pdf"
+    },
+    {
+      "text": "APL Photonics 2(12), 126102",
+      "href": "https://doi.org/10.1063/1.5006016"
+    },
+    {
+      "text": "PDF",
+      "href": "https://www.liuguigeng.com/wp-content/uploads/2018/08/Dielectric-broadband-meta-vector-polarizers-based-on-nematic-liquid-crystal.pdf"
+    },
+    {
+      "text": "Advance in Light Filtering Technology Has Implications for LCD Screens, Lasers and Beyond",
+      "href": "https://publishing.aip.org/publications/latest-content/advance-in-light-filtering-technology-has-implications-for-lcd-screens-lasers-and-beyond/"
+    },
+    {
+      "text": "Scientific Reports 7(1), 16260",
+      "href": "https://www.nature.com/articles/s41598-017-16596-8"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2018/08/Two-photon-polymerization-enabled-multi-layer-liquid-crystal-phase-modulator.pdf"
+    },
+    {
+      "text": "Optical Data Processing and Storage 3(1), 79-88",
+      "href": "https://www.degruyter.com/view/j/odps.2017.3.issue-1/odps-2017-0010/odps-2017-0010.xml"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2018/09/Optical-Data-Processing-and-Storage-Recent-progress-in-PancharatnamBerry-phase-optical-elements-and-the-applications-for-virtualaugmented-realities.pdf"
+    },
+    {
+      "text": "AIP Advances 6(12), 125103",
+      "href": "https://aip.scitation.org/doi/abs/10.1063/1.4971427"
+    },
+    {
+      "text": "PDF",
+      "href": "http://www.liuguigeng.com/wp-content/uploads/2018/08/Control-of-femtosecond-multi-filamentation-in-glass-by-designable-patterned-optical-fields.pdf"
+    },
+    {
+      "text": "Gui-Geng LIU Copyright © 2015-2023",
+      "href": "https://liuguigeng.com"
+    }
+  ]
+}

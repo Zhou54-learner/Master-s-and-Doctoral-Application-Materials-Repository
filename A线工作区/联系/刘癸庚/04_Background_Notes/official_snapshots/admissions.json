@@ -1,0 +1,169 @@
+{
+  "url": "https://www.westlake.edu.cn/admissions/graduate/brochure/general/",
+  "final_url": "https://www.westlake.edu.cn/admissions/graduate/brochure/general/",
+  "status": 200,
+  "retrieved_local": "2026-09-26T20:06:15.480019",
+  "sha256": "ed4be3e606b5707f913ad7e5209e3175286474ce487c1e25fc5668ec8e9db750",
+  "links": [
+    {
+      "text": "首页",
+      "href": "../../../../"
+    },
+    {
+      "text": "招生与奖助",
+      "href": "../../../"
+    },
+    {
+      "text": "博士生招生",
+      "href": "../../"
+    },
+    {
+      "text": "招生简章",
+      "href": "../"
+    },
+    {
+      "text": "普博生",
+      "href": "./"
+    },
+    {
+      "text": "西湖大学2027年博士研究生招生普博生第一批报名通知（9月批）",
+      "href": "./202608/t20260813_68957.html"
+    },
+    {
+      "text": "西湖大学生命科学学院2025年博士研究生招生工作简章",
+      "href": "./202606/t20260605_67647.html"
+    },
+    {
+      "text": "西湖大学未来生物医药领军人才培养项目2026年博士研究生招生简章（第二轮）",
+      "href": "https://medicine.westlake.edu.cn/News/202605/t20260511_66530.shtml"
+    },
+    {
+      "text": "西湖大学未来生物医药领军人才培养项目2026年博士研究生招生简章",
+      "href": "https://medicine.westlake.edu.cn/News/202602/t20260203_64632.shtml"
+    },
+    {
+      "text": "西湖大学医学院附属杭州市第一人民医院2026年博士生招生简章",
+      "href": "https://medicine.westlake.edu.cn/News/202601/t20260126_64303.shtml"
+    },
+    {
+      "text": "西湖大学2026年博士研究生招生简章",
+      "href": "./202509/t20250924_59629.html"
+    },
+    {
+      "text": "西湖大学2026年数学学科博士研究生招生简章",
+      "href": "./202509/t20250929_60033.html"
+    },
+    {
+      "text": "西湖大学工学院2026年博士研究生招生简章",
+      "href": "https://engineering.westlake.edu.cn/Admission/GraduateProgram/zszx_2623/202509/t20250924_59659.shtml"
+    },
+    {
+      "text": "西湖大学生命科学学院2026年博士研究生招生工作简章",
+      "href": "../../../../news_events/westlakenews/Admissions/202509/t20250904_58886.html"
+    },
+    {
+      "text": "西湖大学2026年化学学科博士研究生招生简章",
+      "href": "https://science.westlake.edu.cn/newsevents/news/202508/t20250811_57378.shtml"
+    },
+    {
+      "text": "西湖大学交叉科学中心2026年博士研究生招生简章",
+      "href": "https://science.westlake.edu.cn/newsevents/news/202508/t20250811_57380.shtml"
+    },
+    {
+      "text": "西湖大学工学院2026年招收推荐免试直博生报名通知",
+      "href": "https://engineering.westlake.edu.cn/Admission/GraduateProgram/zszx_2623/202508/t20250808_57305.shtml"
+    },
+    {
+      "text": "西湖大学2026年物理学学科博士研究生招生简章",
+      "href": "https://science.westlake.edu.cn/newsevents/news/202508/t20250811_57377.shtml"
+    },
+    {
+      "text": "西湖大学2025年博士研究生招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202410/t20241022_43193.shtml"
+    },
+    {
+      "text": "西湖大学2025年各学院/系/学科博士研究生招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202408/t20240826_42193.shtml"
+    },
+    {
+      "text": "西湖大学医学院附属杭州市第一人民医院 2024年博士生招生简章",
+      "href": "https://www.westlake.edu.cn/admissions_aid/graduate/zsdt1/202403/t20240322_38055.shtml"
+    },
+    {
+      "text": "西湖大学-深圳医学科学院联合培养博士研究生项目2024年招生简章",
+      "href": "https://www.westlake.edu.cn/admissions_aid/graduate/zsdt1/202403/t20240304_37512.shtml"
+    },
+    {
+      "text": "西湖大学各学院学科2024年博士研究生招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202308/t20230808_30685.shtml"
+    },
+    {
+      "text": "西湖大学理学院化学学科2024年博士研究生招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202308/t20230808_30683.shtml"
+    },
+    {
+      "text": "西湖大学工学院2024年博士研究生招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202308/t20230809_30740.shtml"
+    },
+    {
+      "text": "西湖大学2024年博士研究生招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202308/t20230808_30693.shtml"
+    },
+    {
+      "text": "西湖大学理学院数学、物理学学科2024年博士研究生招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202308/t20230808_30691.shtml"
+    },
+    {
+      "text": "西湖大学2022年博士研究生招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202108/t20210820_12000.shtml"
+    },
+    {
+      "text": "浙江大学-西湖大学联合培养博士研究生项目2021年招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202011/t20201118_7403.shtml"
+    },
+    {
+      "text": "复旦大学-西湖大学联合培养博士研究生项目2021年招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202011/t20201118_7402.shtml"
+    },
+    {
+      "text": "浙江大学-西湖大学2020年联合培养博士研究生项目第三轮招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202007/t20200724_6714.shtml"
+    },
+    {
+      "text": "复旦大学-西湖大学2020年联合培养博士研究生项目第三轮招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202007/t20200724_6713.shtml"
+    },
+    {
+      "text": "浙江大学-西湖大学2020年联合培养博士研究生项目招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202007/t20200724_6715.shtml"
+    },
+    {
+      "text": "复旦大学-西湖大学2020年联合培养博士研究生项目招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202007/t20200724_6716.shtml"
+    },
+    {
+      "text": "浙江大学-西湖大学2019年联合培养博士研究生项目招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202006/t20200615_5100.shtml"
+    },
+    {
+      "text": "复旦大学-西湖大学2019年联合培养博士研究生项目 招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202007/t20200724_6726.shtml"
+    },
+    {
+      "text": "浙江大学-西湖大学2019年联合培养博士研究生项目招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202006/t20200615_5100.shtml"
+    },
+    {
+      "text": "复旦大学-西湖大学2019年联合培养博士研究生项目招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202007/t20200724_6709.shtml"
+    },
+    {
+      "text": "浙江大学-西湖大学2019年联合培养博士研究生项目招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202006/t20200615_5100.shtml"
+    },
+    {
+      "text": "复旦大学-西湖大学2019年联合培养博士研究生项目招生简章",
+      "href": "https://www.westlake.edu.cn/news_events/westlakenews/zsdt/202007/t20200724_6709.shtml"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "Master v1.1",
+  "status": "READY; frozen; not sent",
+  "only_major_name_changed": true,
+  "old_layout_preserved": true,
+  "internal_and_master_bodies_identical": true,
+  "fonts_names_links_bounds_checked": true,
+  "original_assets_unchanged": 20,
+  "source_fragments_verified": 37,
+  "outputs": [
+    {
+      "file": "A线工作区\\材料\\校对稿\\周子靖_中文学术简历_v0.4_INTERNAL.pdf",
+      "pages": 1,
+      "SHA256": "BD995C57F59584FF4C76E22C2A80BDB7A76DF1B088D4D0A3ED14821636733947"
+    },
+    {
+      "file": "A线工作区\\材料\\对外PDF\\周子靖_中文学术简历_Master_v1.1.pdf",
+      "pages": 1,
+      "SHA256": "87DBC15EEFCC2BA15FC37A880260C4D55F48FBF1CD2A054FDADBDB800286B438"
+    }
+  ]
+}

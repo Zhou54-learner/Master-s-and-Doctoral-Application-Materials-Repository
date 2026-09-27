@@ -1,0 +1,59 @@
+{
+  "baseline": {
+    "docx": {
+      "path": "F:\\1A硕博申请\\A线工作区\\材料\\对外PDF\\周子靖_中文学术简历_Master_v1.1.docx",
+      "sha256": "61dfa2b86c3f580981d9bf6eb05b086615460361a584e2cba74f6abeeccd7d1d"
+    },
+    "pdf": {
+      "path": "F:\\1A硕博申请\\A线工作区\\材料\\对外PDF\\周子靖_中文学术简历_Master_v1.1.pdf",
+      "sha256": "87dbc15eefcc2ba15fc37a880260c4d55f48fbf1cd2a054fdadbdb800286b438"
+    }
+  },
+  "copies": [
+    {
+      "source": "F:\\1A硕博申请\\A线工作区\\材料\\对外PDF\\周子靖_中文学术简历_Master_v1.1.docx",
+      "copy": "02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.docx",
+      "source_sha256": "61dfa2b86c3f580981d9bf6eb05b086615460361a584e2cba74f6abeeccd7d1d",
+      "copy_sha256": "61dfa2b86c3f580981d9bf6eb05b086615460361a584e2cba74f6abeeccd7d1d",
+      "after_copy_customized": true,
+      "initial_copy_sha256": "61dfa2b86c3f580981d9bf6eb05b086615460361a584e2cba74f6abeeccd7d1d",
+      "current_customized_sha256": "0b70fc7bf7ff3dd9e5625d0c391bdbd904cbfc841c3e713f6dcdbf3d86b58013"
+    },
+    {
+      "source": "F:\\1A硕博申请\\个人资料\\成绩单.pdf",
+      "copy": "05_Send_Readiness\\附件备选\\周子靖_本科成绩单.pdf",
+      "source_sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19",
+      "copy_sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19"
+    },
+    {
+      "source": "F:\\1A硕博申请\\个人资料\\论文1.pdf",
+      "copy": "05_Send_Readiness\\附件备选\\合作论文_吸波材料_2025.pdf",
+      "source_sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480",
+      "copy_sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480"
+    },
+    {
+      "source": "F:\\1A硕博申请\\个人资料\\论文2.pdf",
+      "copy": "05_Send_Readiness\\附件备选\\合作论文_晶格波_2025.pdf",
+      "source_sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c",
+      "copy_sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c"
+    },
+    {
+      "source": "E:\\360MoveData\\Users\\zzj\\OneDrive\\桌面\\毕业设计\\结题\\终稿\\_ppt_assets_resistive_film\\fig6_2_final_3d_model.png",
+      "copy": "03_Project_Sheet\\source\\structure_original.png",
+      "source_sha256": "b4d3784cc300927978a10ef2c2d95ea2fdbfb16abccd56a7e224218acd569885",
+      "copy_sha256": "b4d3784cc300927978a10ef2c2d95ea2fdbfb16abccd56a7e224218acd569885"
+    },
+    {
+      "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_s11_ohmic_sheet_12x12.txt",
+      "copy": "03_Project_Sheet\\source\\reflection_archived.tsv",
+      "source_sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04",
+      "copy_sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04"
+    },
+    {
+      "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_result_ohmic_sheet_12x12.txt",
+      "copy": "03_Project_Sheet\\source\\result_archived.txt",
+      "source_sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81",
+      "copy_sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81"
+    }
+  ]
+}

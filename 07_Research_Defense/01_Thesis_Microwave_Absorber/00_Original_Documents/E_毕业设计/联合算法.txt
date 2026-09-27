@@ -1,0 +1,296 @@
+import sys
+import os
+import numpy as np
+import random
+
+sys.path.append(r"F:\CST Studio Suite 2025\AMD64\python_cst_libraries")
+
+import cst
+import cst.interface
+import cst.results
+
+SAVE_PATH = r"F:\biyesheji"
+
+DNA_SIZE = 18
+POP_SIZE = 36  # 6x6 grid (6x6)
+ITERATIONS = 4
+MUTATION_RATE = 0.2  # mutation rate that gradually decreases
+
+de = cst.interface.DesignEnvironment()
+
+
+def create_project():
+    pj = de.new_mws()
+
+    s = r'''
+With Units
+    .Geometry "mm"
+    .Frequency "GHz"
+    .Time "ns"
+End With
+
+Solver.FrequencyRange "2", "18"
+
+With Background
+    .Type "Normal"
+    .Epsilon "1.0"
+    .Mu "1.0"
+    .XminSpace "0.0"
+    .XmaxSpace "0.0"
+    .YminSpace "0.0"
+    .YmaxSpace "0.0"
+    .ZminSpace "0.0"
+    .ZmaxSpace "0.0"
+End With
+
+With Boundary
+    .Xmin "unit cell"
+    .Xmax "unit cell"
+    .Ymin "unit cell"
+    .Ymax "unit cell"
+    .Zmin "expanded open"
+    .Zmax "expanded open"
+    .Xsymmetry "none"
+    .Ysymmetry "none"
+    .Zsymmetry "none"
+    .XPeriodicShift "0.0"
+    .YPeriodicShift "0.0"
+    .ZPeriodicShift "0.0"
+    .PeriodicUseConstantAngles "False"
+    .SetPeriodicBoundaryAngles "0", "0"
+    .SetPeriodicBoundaryAnglesDirection "inward"
+    .UnitCellFitToBoundingBox "True"
+    .UnitCellDs1 "0.0"
+    .UnitCellDs2 "0.0"
+    .UnitCellAngle "90.0"
+End With
+
+With FloquetPort
+    .Reset
+    .SetDialogTheta "0"
+    .SetDialogPhi "0"
+    .SetSortCode "+beta/pw"
+    .SetCustomizedListFlag "False"
+    .Port "Zmin"
+    .SetNumberOfModesConsidered "2"
+    .Port "Zmax"
+    .SetNumberOfModesConsidered "2"
+End With
+
+With Mesh
+    .MeshType "Tetrahedral"
+End With
+
+ChangeSolverType("HF Frequency Domain")
+
+With FDSolver
+    .Reset
+    .Stimulation "List", "List"
+    .ResetExcitationList
+    .AddToExcitationList "Zmax", "TE(0,0);TM(0,0)"
+    .LowFrequencyStabilization "False"
+End With
+'''
+    pj.model3d.add_to_history("project setup", s)
+    return pj
+
+
+def create_material(pj):
+    s = r'''
+With Material
+    .Reset
+    .Name "ResFilm"
+    .Folder ""
+    .Type "Normal"
+    .Epsilon "1"
+    .Mu "1"
+    .Sigma "1000"
+    .TanD "0.0"
+    .Create
+End With
+'''
+    pj.model3d.add_to_history("material", s)
+
+
+def create_component(pj):
+    pj.model3d.add_to_history("new component", 'Component.New "component1"')
+
+
+def create_cross(pj, p, w, h):
+    s1 = f'''
+With Brick
+    .Reset
+    .Name "film1"
+    .Component "component1"
+    .Material "ResFilm"
+    .Xrange "-{p/2}", "{p/2}"
+    .Yrange "-{w/2}", "{w/2}"
+    .Zrange "0", "{h}"
+    .Create
+End With
+'''
+    pj.model3d.add_to_history("film1", s1)
+
+    s2 = f'''
+With Brick
+    .Reset
+    .Name "film2"
+    .Component "component1"
+    .Material "ResFilm"
+    .Xrange "-{w/2}", "{w/2}"
+    .Yrange "-{p/2}", "{p/2}"
+    .Zrange "0", "{h}"
+    .Create
+End With
+'''
+    pj.model3d.add_to_history("film2", s2)
+
+
+def set_mesh(pj):
+    s = r'''
+With MeshSettings
+    .SetMeshType "Tet"
+    .Set "StepsPerWaveNear", "2"
+    .Set "StepsPerWaveFar", "2"
+End With
+'''
+    pj.model3d.add_to_history("mesh settings", s)
+
+
+def extract_fitness(cst_file):
+    result = cst.results.ProjectFile(cst_file, allow_interactive=True)
+    s11 = result.get_3d().get_result_item(r"1D Results\S-Parameters\SZmax(1),Zmax(1)")
+
+    data = s11.get_data()
+
+    band = 0
+    total = 0
+
+    for row in data:
+        if len(row) >= 2:
+            val = row[1]
+            total += 1
+            rl = 20 * np.log10(abs(val))
+            if rl < -10:
+                band += 1
+
+    if total == 0:
+        return 0.0
+
+    return band / total
+
+
+def run_simulation(individual):
+    pj = create_project()
+    create_material(pj)
+    create_component(pj)
+
+    bits = "".join(str(i) for i in individual)
+
+    p = int(bits[0:6], 2) * 0.15 + 6.0
+    w = int(bits[6:12], 2) * 0.03 + 0.3
+    h = int(bits[12:18], 2) * 0.08 + 1.0
+
+    print(f"Current parameters: p={p:.3f}, w={w:.3f}, h={h:.3f}")
+
+    create_cross(pj, p, w, h)
+    set_mesh(pj)
+
+    cst_file = os.path.join(
+        SAVE_PATH,
+        "temp",
+        f"temp_{random.randint(1000,999999)}.cst"
+    )
+    pj.save(cst_file)
+
+    print("Running CST solver...")
+    pj.model3d.run_solver()
+
+    fitness = extract_fitness(cst_file)
+    pj.close()
+    return fitness, (p, w, h)
+
+
+def init_population():
+    pop = []
+    for _ in range(POP_SIZE):
+        ind = [random.randint(0, 1) for _ in range(DNA_SIZE)]
+        pop.append(ind)
+    return pop
+
+
+def mutate(ind):
+    if random.random() < MUTATION_RATE:
+        i = random.randint(0, DNA_SIZE - 1)
+        ind[i] = 1 - ind[i]
+    return ind
+
+
+def crossover(p1, p2):
+    point = random.randint(1, DNA_SIZE - 1)
+    return p1[:point] + p2[point:]
+
+
+def optimize():
+    pop = init_population()
+    best_fit = -1
+    best_ind = None
+    best_params = None
+
+    log_file = os.path.join(SAVE_PATH, "ga_log.txt")
+    with open(log_file, "w", encoding="utf-8") as f:
+        f.write("iteration\tindividual\tfitness\tp\tw\th\n")
+
+    for it in range(ITERATIONS):
+        print(f"\n===== Iteration {it} =====")
+        fitness_list = []
+
+        for ind in pop:
+            try:
+                fit, params = run_simulation(ind)
+            except Exception as e:
+                print("Simulation failed:", e)
+                fit, params = 0.0, (0, 0, 0)
+
+            fitness_list.append(fit)
+            print("fitness =", fit)
+
+            with open(log_file, "a", encoding="utf-8") as f:
+                f.write(f"{it}\t{ind}\t{fit}\t{params[0]}\t{params[1]}\t{params[2]}\n")
+
+        idx = int(np.argmax(fitness_list))
+        if fitness_list[idx] > best_fit:
+            best_fit = fitness_list[idx]
+            best_ind = pop[idx]
+            bits = "".join(str(i) for i in best_ind)
+            best_params = (
+                int(bits[0:6], 2) * 0.15 + 6.0,
+                int(bits[6:12], 2) * 0.03 + 0.3,
+                int(bits[12:18], 2) * 0.08 + 1.0,
+            )
+
+        print("best fitness so far =", best_fit)
+
+        new_pop = []
+        while len(new_pop) < POP_SIZE:
+            p1 = random.choice(pop)
+            p2 = random.choice(pop)
+            child = crossover(p1, p2)
+            child = mutate(child)
+            new_pop.append(child)
+
+        pop = new_pop
+
+    print("\nOptimization finished")
+    print("Best fitness:", best_fit)
+    print("Best individual:", best_ind)
+    print("Best parameters:", best_params)
+
+    with open(os.path.join(SAVE_PATH, "best_result.txt"), "w", encoding="utf-8") as f:
+        f.write(f"Best fitness: {best_fit}\n")
+        f.write(f"Best individual: {best_ind}\n")
+        f.write(f"Best parameters: {best_params}\n")
+
+
+if __name__ == "__main__":
+    optimize()

@@ -1,0 +1,8 @@
+film_model_type: ohmic_sheet
+score: 11.931111508087241
+bandwidth_RL_lt_minus_10_dB_GHz: 11.144278606965175
+min_RL_dB: -34.31965524682772
+parameters_p_h_mask_x_seed_mask_y_seed: (13.281, 8.8571, [0, 0, 0, 0, 0, 0, 1, 1, 1], [1, 1, 1, 1, 0, 0, 1, 1, 0])
+cst_file: F:\biyesheji\branch1_surface_ohmic_sheet_comparison_v6\ohmic_sheet\fixed_best_ohmic_sheet_20260502_212015_3557.cst
+s11_file: F:\biyesheji\branch1_surface_ohmic_sheet_comparison_v6\ohmic_sheet\fixed_best_ohmic_sheet_s11.txt
+png_file: F:\biyesheji\branch1_surface_ohmic_sheet_comparison_v6\ohmic_sheet\fixed_best_ohmic_sheet_RL.png

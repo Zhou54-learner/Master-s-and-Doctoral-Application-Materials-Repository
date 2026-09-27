@@ -1,0 +1,93 @@
+
+================================================================================
+Fixed comparison failed for film_model_type = ohmic_sheet
+RuntimeError('An error occurred while trying to execute add_to_history:\n(10091) ActiveX Automation: no such property or method.\n(.SheetResistance "60.0")')
+Traceback (most recent call last):
+  File "F:\biyesheji\code\branch1_film_model_comparison_code.py", line 1310, in compare_fixed_best_structure
+    metrics, params, cst_file = run_cst_for_params(
+  File "F:\biyesheji\code\branch1_film_model_comparison_code.py", line 1034, in run_cst_for_params
+    build_resistive_film_by_model_type(p, h, mask_x, mask_y, film_model_type)
+  File "F:\biyesheji\code\branch1_film_model_comparison_code.py", line 922, in build_resistive_film_by_model_type
+    create_ohmic_sheet_material()
+  File "F:\biyesheji\code\branch1_film_model_comparison_code.py", line 320, in create_ohmic_sheet_material
+    pj.model3d.add_to_history("define material: ohmic sheet film x", sCommand1)
+RuntimeError: An error occurred while trying to execute add_to_history:
+(10091) ActiveX Automation: no such property or method.
+(.SheetResistance "60.0")
+
+
+================================================================================
+Fixed comparison failed for film_model_type = thin_solid
+RuntimeError('Failed to save project. The given path already exists F:\\biyesheji\\temp\\fixed_best_thin_solid.cst')
+Traceback (most recent call last):
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code.py", line 1368, in compare_fixed_best_structure
+    metrics, params, cst_file = run_cst_for_params(
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code.py", line 1103, in run_cst_for_params
+    pj.save(cst_file)
+RuntimeError: Failed to save project. The given path already exists F:\biyesheji\temp\fixed_best_thin_solid.cst
+
+
+================================================================================
+Fixed comparison failed for film_model_type = ohmic_sheet
+RuntimeError('An error occurred while trying to execute add_to_history:\n(10091) ActiveX Automation: no such property or method.\n(.Impedance "60.0")')
+Traceback (most recent call last):
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code.py", line 1368, in compare_fixed_best_structure
+    metrics, params, cst_file = run_cst_for_params(
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code.py", line 1092, in run_cst_for_params
+    build_resistive_film_by_model_type(p, h, mask_x, mask_y, film_model_type)
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code.py", line 980, in build_resistive_film_by_model_type
+    create_ohmic_sheet_material()
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code.py", line 335, in create_ohmic_sheet_material
+    pj.model3d.add_to_history("define material: ohmic sheet film x", sCommand1)
+RuntimeError: An error occurred while trying to execute add_to_history:
+(10091) ActiveX Automation: no such property or method.
+(.Impedance "60.0")
+
+
+================================================================================
+Fixed comparison failed for film_model_type = ohmic_sheet
+RuntimeError('CST run failed at stage=\'build_resistive_film_ohmic_sheet\', film_model_type=\'ohmic_sheet\'. Original error: RuntimeError(\'An error occurred while trying to execute add_to_history:\\n(10091) ActiveX Automation: no such property or method.\\n(.Impedance "60.0")\')')
+Traceback (most recent call last):
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v3.py", line 1147, in run_cst_for_params
+    build_resistive_film_by_model_type(p, h, mask_x, mask_y, film_model_type)
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v3.py", line 1007, in build_resistive_film_by_model_type
+    create_ohmic_sheet_material()
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v3.py", line 344, in create_ohmic_sheet_material
+    pj.model3d.add_to_history("define material: ohmic sheet film x", sCommand1)
+RuntimeError: An error occurred while trying to execute add_to_history:
+(10091) ActiveX Automation: no such property or method.
+(.Impedance "60.0")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v3.py", line 1436, in compare_fixed_best_structure
+    metrics, params, cst_file = run_cst_for_params(
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v3.py", line 1170, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='build_resistive_film_ohmic_sheet', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute add_to_history:\n(10091) ActiveX Automation: no such property or method.\n(.Impedance "60.0")')
+
+
+================================================================================
+Fixed comparison failed for film_model_type = ohmic_sheet
+RuntimeError('CST run failed at stage=\'build_resistive_film_ohmic_sheet\', film_model_type=\'ohmic_sheet\'. Original error: RuntimeError(\'An error occurred while trying to execute add_to_history:\\n(10091) ActiveX Automation: no such property or method.\\n(.Impedance "60.0")\')')
+Traceback (most recent call last):
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v4.py", line 1148, in run_cst_for_params
+    build_resistive_film_by_model_type(p, h, mask_x, mask_y, film_model_type)
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v4.py", line 1008, in build_resistive_film_by_model_type
+    create_ohmic_sheet_material()
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v4.py", line 345, in create_ohmic_sheet_material
+    pj.model3d.add_to_history("define material: ohmic sheet film x", sCommand1)
+RuntimeError: An error occurred while trying to execute add_to_history:
+(10091) ActiveX Automation: no such property or method.
+(.Impedance "60.0")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v4.py", line 1437, in compare_fixed_best_structure
+    metrics, params, cst_file = run_cst_for_params(
+  File "F:\biyesheji\code\branch1_surface_ohmic_sheet_comparison_code_v4.py", line 1171, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='build_resistive_film_ohmic_sheet', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute add_to_history:\n(10091) ActiveX Automation: no such property or method.\n(.Impedance "60.0")')
+

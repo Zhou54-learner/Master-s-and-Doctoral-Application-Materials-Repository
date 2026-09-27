@@ -1,0 +1,67 @@
+{
+  "copies_and_original_sources_match": true,
+  "frozen_master_unchanged": true,
+  "original_files_unchanged": 20,
+  "pdfs": [
+    {
+      "file": "02_CV\\周子靖_中文学术简历_刘癸庚版_v1_INTERNAL.pdf",
+      "pages": 1,
+      "bytes": 109114,
+      "sha256": "a471b17b0f0f8ec36d5fb0914422af08a6cd8fca0ab114ffb26954fc271964e4"
+    },
+    {
+      "file": "03_Project_Sheet\\output\\周子靖_毕设项目页_刘癸庚版_v1_INTERNAL.pdf",
+      "pages": 1,
+      "bytes": 392916,
+      "sha256": "758e2e2d6d4400800350587ce7b7f04dcfe248313d13942db5d92ddd79f34da1"
+    },
+    {
+      "file": "05_Send_Readiness\\附件备选\\合作论文_吸波材料_2025.pdf",
+      "pages": 9,
+      "bytes": 2312663,
+      "sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480"
+    },
+    {
+      "file": "05_Send_Readiness\\附件备选\\合作论文_晶格波_2025.pdf",
+      "pages": 10,
+      "bytes": 1910311,
+      "sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c"
+    },
+    {
+      "file": "05_Send_Readiness\\附件备选\\周子靖_本科成绩单.pdf",
+      "pages": 2,
+      "bytes": 640586,
+      "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19"
+    }
+  ],
+  "cv_docx_pdf_paragraphs_match": 30,
+  "cv_only_three_body_edits": [
+    {
+      "before": "计算物理 · 科学机器学习 · 物理驱动的逆向设计",
+      "after": "计算物理 · 电磁与光子学模拟 · 物理驱动的逆向设计"
+    },
+    {
+      "before": "• 仿真自动化： 使用并扩展 Python-CST 参数化电磁仿真与遗传算法优化流程，实现候选结构建模、求解调用和反射响应评估的自动化。",
+      "after": "• 仿真自动化： 使用并扩展 Python-CST 参数化电磁仿真与遗传算法结构优化流程，实现候选结构建模、求解调用和反射响应评估的自动化。"
+    },
+    {
+      "before": "CST Studio Suite： 电磁仿真、参数化建模与批量求解。",
+      "after": "CST Studio Suite： 频域电磁仿真、参数化建模与批量求解。"
+    }
+  ],
+  "project_independent_rebuild_pixels_equal": true,
+  "archived_data_points": 201,
+  "archived_reflection_interval": [
+    4.800000000000001,
+    18.0
+  ],
+  "email_chinese_characters_excluding_signature": 391,
+  "local_links_checked": 89,
+  "broken_links": [],
+  "dependencies": {
+    "PyMuPDF": "1.28.2",
+    "python-docx": "1.2.0",
+    "reportlab": "4.4.9",
+    "beautifulsoup4": "4.15.0"
+  }
+}

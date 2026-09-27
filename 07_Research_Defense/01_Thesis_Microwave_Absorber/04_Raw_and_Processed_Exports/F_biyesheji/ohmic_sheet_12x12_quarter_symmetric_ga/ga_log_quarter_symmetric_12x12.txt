@@ -1,0 +1,1 @@
+iteration	index	summary	score	bandwidth	coverage	f_low	f_high	min_rl	worst_44_48	mean_44_48	worst_mid	worst_hi	p	h	rs_x	rs_y	qx_kept	qy_kept	cst_file

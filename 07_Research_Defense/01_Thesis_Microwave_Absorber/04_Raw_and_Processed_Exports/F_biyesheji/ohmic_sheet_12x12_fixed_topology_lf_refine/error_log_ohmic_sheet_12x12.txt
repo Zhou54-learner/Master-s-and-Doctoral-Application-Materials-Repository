@@ -1,0 +1,1225 @@
+
+================================================================================
+generation = 4, index = 4
+summary = origin=elite_local_1.0, p=13.10685, h=10.19521, Rs_x=155.7829, Rs_y=36.825
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\\nERROR: Error while running S-parameter post processing.\\nERROR: 4 errors and 3 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 4 errors and 3 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\nERROR: Error while running S-parameter post processing.\nERROR: 4 errors and 3 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 5
+summary = origin=crossover, p=13.11387, h=10.07317, Rs_x=137.1561, Rs_y=35.3552
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\\nERROR: Error while running S-parameter post processing.\\nERROR: 4 errors and 3 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 4 errors and 3 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\nERROR: Error while running S-parameter post processing.\nERROR: 4 errors and 3 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 6
+summary = origin=injected_random_seed, p=13.12099, h=10.06651, Rs_x=126.9802, Rs_y=32.5768
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 7
+summary = origin=injected_random_seed, p=13.04021, h=10.14319, Rs_x=159.934, Rs_y=30.3838
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 8
+summary = origin=parent_mut, p=13.11205, h=9.96, Rs_x=137.0311, Rs_y=33.9411
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 9
+summary = origin=injected_random_seed, p=13.10252, h=10.19212, Rs_x=182.1132, Rs_y=34.9133
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 10
+summary = origin=parent_mut, p=13.05932, h=9.96, Rs_x=141.8308, Rs_y=38.8219
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 11
+summary = origin=crossover, p=13.16174, h=10.1559, Rs_x=148.0155, Rs_y=32.9504
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\\nERROR: Error while running S-parameter post processing.\\nERROR: 4 errors and 3 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 4 errors and 3 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\nERROR: Error while running S-parameter post processing.\nERROR: 4 errors and 3 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 12
+summary = origin=parent_mut, p=13.1326, h=10.34, Rs_x=152.1871, Rs_y=33.1212
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 4, index = 13
+summary = origin=injected_random_seed, p=13.175, h=10.13581, Rs_x=165.2745, Rs_y=35.7744
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 2
+summary = origin=elite_local_0.45, p=13.09633, h=10.25962, Rs_x=156.7473, Rs_y=35.9167
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\\nERROR: Error while running S-parameter post processing.\\nERROR: 4 errors and 3 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 4 errors and 3 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\nERROR: Error while running S-parameter post processing.\nERROR: 4 errors and 3 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 3
+summary = origin=elite_local_0.7, p=13.08556, h=10.26017, Rs_x=157.9298, Rs_y=35.4216
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Could not write to disk or read file. Maybe not enough disk space.\\nERROR: Could not compute preconditioner.\\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\\nERROR: Error while running S-parameter post processing.\\nERROR: 4 errors and 3 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Could not write to disk or read file. Maybe not enough disk space.
+ERROR: Could not compute preconditioner.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 4 errors and 3 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Could not write to disk or read file. Maybe not enough disk space.\nERROR: Could not compute preconditioner.\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\nERROR: Error while running S-parameter post processing.\nERROR: 4 errors and 3 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 4
+summary = origin=elite_local_1.0, p=13.10314, h=10.20148, Rs_x=158.5568, Rs_y=33.4788
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 6
+summary = origin=injected_random_seed, p=13.16218, h=10.1718, Rs_x=194.8055, Rs_y=44.812
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 7
+summary = origin=injected_random_seed, p=13.00501, h=10.19443, Rs_x=192.3514, Rs_y=42.7446
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 8
+summary = origin=parent_mut, p=13.17781, h=10.24104, Rs_x=154.9176, Rs_y=40.1542
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 9
+summary = origin=crossover, p=13.09368, h=10.19519, Rs_x=150.4524, Rs_y=35.4029
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 10
+summary = origin=parent_mut, p=13.06454, h=10.19453, Rs_x=160.022, Rs_y=39.2674
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 11
+summary = origin=crossover, p=13.11853, h=10.15189, Rs_x=144.5916, Rs_y=34.3097
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 12
+summary = origin=parent_mut, p=13.07137, h=10.26018, Rs_x=150.3985, Rs_y=37.7703
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 5, index = 13
+summary = origin=injected_random_seed, p=13.13098, h=10.07989, Rs_x=129.2112, Rs_y=40.5459
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 2
+summary = origin=elite_local_0.45, p=13.0991, h=10.23257, Rs_x=156.8511, Rs_y=35.5749
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 3
+summary = origin=elite_local_0.7, p=13.09021, h=10.21305, Rs_x=160.7912, Rs_y=34.6175
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 4
+summary = origin=elite_local_1.0, p=13.06906, h=10.19369, Rs_x=159.7578, Rs_y=42.9419
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 5
+summary = origin=crossover, p=13.16233, h=10.1008, Rs_x=138.8282, Rs_y=35.2992
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 6
+summary = origin=crossover, p=13.12253, h=10.17584, Rs_x=145.5374, Rs_y=34.2073
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 7
+summary = origin=parent_mut, p=13.14859, h=10.04457, Rs_x=133.6992, Rs_y=38.9317
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 8
+summary = origin=crossover, p=13.09717, h=10.25173, Rs_x=155.6426, Rs_y=37.7339
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 9
+summary = origin=injected_random_seed, p=13.11586, h=10.07836, Rs_x=169.4491, Rs_y=39.4359
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 10
+summary = origin=crossover, p=13.16041, h=10.07663, Rs_x=134.027, Rs_y=36.3341
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 11
+summary = origin=injected_random_seed, p=13.17842, h=10.13248, Rs_x=128.9021, Rs_y=33.8322
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 12
+summary = origin=crossover, p=13.13491, h=10.09374, Rs_x=135.9086, Rs_y=37.7801
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 6, index = 13
+summary = origin=injected_random_seed, p=13.10844, h=10.05711, Rs_x=201.4781, Rs_y=37.8548
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 2
+summary = origin=elite_local_0.45, p=13.11511, h=10.26157, Rs_x=159.0294, Rs_y=37.2446
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 3
+summary = origin=elite_local_0.7, p=13.08818, h=10.25281, Rs_x=153.9224, Rs_y=34.1453
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 4
+summary = origin=elite_local_1.0, p=13.12431, h=10.21187, Rs_x=156.4201, Rs_y=39.4713
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 5
+summary = origin=parent_mut, p=13.14741, h=10.08777, Rs_x=140.6551, Rs_y=32.929
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 6
+summary = origin=parent_mut, p=13.0796, h=10.33314, Rs_x=155.7977, Rs_y=36.581
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 7
+summary = origin=parent_mut, p=13.13328, h=10.01567, Rs_x=150.4264, Rs_y=36.9089
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 8
+summary = origin=injected_random_seed, p=13.2363, h=10.05071, Rs_x=134.8844, Rs_y=42.2313
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 9
+summary = origin=crossover, p=13.08496, h=10.12531, Rs_x=140.8569, Rs_y=35.0104
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 10
+summary = origin=crossover, p=13.1437, h=10.05777, Rs_x=139.4128, Rs_y=33.9109
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 11
+summary = origin=crossover, p=13.10055, h=10.21672, Rs_x=154.1517, Rs_y=36.1478
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 12
+summary = origin=crossover, p=13.11122, h=10.17942, Rs_x=147.6068, Rs_y=33.9453
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+
+
+================================================================================
+generation = 7, index = 13
+summary = origin=crossover, p=13.14343, h=10.09586, Rs_x=138.3556, Rs_y=35.7377
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: Error during construction of pre-conditioner. Not enough memory.\\nERROR: Could not compute preconditioner.\\nERROR: 2 errors and 2 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: Error during construction of pre-conditioner. Not enough memory.
+ERROR: Could not compute preconditioner.
+ERROR: 2 errors and 2 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5758, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 5632, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=mask_x_seed, mask_y_seed=mask_y_seed, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_fixed_topology_lf_refine_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: Error during construction of pre-conditioner. Not enough memory.\nERROR: Could not compute preconditioner.\nERROR: 2 errors and 2 warnings occurred.')
+

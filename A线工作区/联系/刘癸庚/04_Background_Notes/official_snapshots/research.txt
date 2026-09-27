@@ -1,0 +1,63 @@
+RESEARCH – LGG LAB
+Skip to content
+Top Menu
+Top Menu
+LGG LAB
+lgglab@Westlake University
+Menu
+Primary Menu
+OVERVIEW
+Publications
+RESEARCH
+People
+Album
+团队招聘
+Breadcrumbs
+Home
+RESEARCH
+RESEARCH
+Below are some of our key research achievements:
+1. Three-Dimensional Photonic Chern Insulator
+: We successfully implemented three-dimensional photonic Chern insulators using magnetically tunable photonic crystals. Our work revealed that the isofrequency contours formed by topological surface states exhibit torus knots or links, characterized by integers determined by the Chern vectors. Notably, we established the Chern vector as an intrinsic bulk topological invariant, demonstrating a sample with surface states forming a (2, 2) torus link. This research provides unique topological characteristics to surface states, as published in
+Nature
+.
+2. Non-Hermitian Photonic Chern Insulator
+: Our experimental investigations into lossy quantum Hall systems revealed that chiral edge states can be localized in a gyromagnetic photonic crystal. By structuring the loss configuration, we achieved a complex energy spectrum with point-gap winding, an intrinsically non-Hermitian topological invariant. This interplay between the Chern number and point-gap winding leads to a robust non-Hermitian skin effect, enhancing the resilience of skin modes against defects and disorders, as detailed in
+Physical Review Letters
+.
+3. Photonic Topological Anderson Insulator
+: We proposed and experimentally demonstrated a photonic topological Anderson insulator within a disordered gyromagnetic photonic crystal. This work directly observed the disorder-induced topological phase transition from a trivial insulator to a topological Anderson insulator, showcasing robust chiral edge states. Our findings have been recognized as an Editors’ Suggestion and featured in
+Physics
+by
+Physical Review Letters
+.
+4. Unpaired Photonic Dirac Point
+: In a planar two-dimensional gyromagnetic photonic crystal, we observed an unpaired Dirac point, analogous to the Haldane model. By breaking time-reversal symmetry with gyromagnetic materials, we fine-tuned a parity-breaking parameter to achieve this breakthrough, which holds promise for applications in valley filters and angular selective photonic devices, as reported in
+Nature Communications
+.
+Photonic Antichiral Boundary States
+: We reported the discovery of antichiral edge states in a two-dimensional photonic Dirac semimetal and antichiral surface states in a three-dimensional Weyl semimetal. These findings enhance our understanding of topological boundary states and present new opportunities for practical applications, such as topological coaxial cables, as published in
+Physical Review Letters
+and
+Nature Communications
+.
+Photonic Amorphous Topological Insulators
+: Our research also delves into the behavior of Chern number-based photonic topological insulators in amorphous phases of matter. By tuning disorder strength, we demonstrated that photonic topological edge states can persist into the amorphous regime prior to the glass-to-liquid transition. This work illuminates the relationship between topology and short-range order in amorphous lattices, paving the way for new classes of non-crystalline topological photonic bandgap materials, as explored in
+Light Science & Applications
+.
+Through these pioneering studies,
+Our future research directions include, but are not limited to:
+(1) Topological states and topological optoelectronic devices
+Investigating the fundamental mechanisms of novel topological states in experimental platforms such as photonic crystals, metamaterials, on-chip microcavities, and circuits, and developing topological optoelectronic devices with novel manipulation mechanisms.
+(2) Non-Hermitian physics and non-Hermitian optical devices
+Exploring exotic physical effects (e.g., exceptional points, bound states in the continuum) in open non-Hermitian systems using optical microcavities, non-Hermitian circuits, superconducting devices, metamaterials, etc., and advancing their applications in sensing and communication.
+(3) Terahertz chips and 6G communication technologies
+Developing novel terahertz photonic chips based on photonic crystals, metasurfaces, and other platforms to achieve dynamic control of terahertz waves and promote their application in 6G communication scenarios.
+(4) Spatially structured light fields
+Advancing techniques for the generation, manipulation, and characterization of novel structured light fields, including spatiotemporal optical vortices and vector beams.
+(5) Other frontier optical technologies
+Exploring interdisciplinary areas such as optical AI computing and advanced display technologies.
+Subsidiary Sidebar
+总浏览量：2,687,759
+·
+Gui-Geng LIU Copyright © 2015-2023

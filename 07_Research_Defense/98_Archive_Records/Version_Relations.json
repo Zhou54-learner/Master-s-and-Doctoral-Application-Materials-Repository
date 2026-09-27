@@ -1,0 +1,469 @@
+{
+  "byte_identical_groups": {
+    "7c6628a2f8c5ff53566b2ddb39bb8a18b62a137a898488eb419af6f1ef4f15c6": [
+      "F:/biyesheji/branch1_surface_ohmic_sheet_comparison_v6/ohmic_sheet/fixed_best_ohmic_sheet_20260502_212015_3557.cst",
+      "F:/biyesheji/temp/fixed_best_ohmic_sheet_20260502_212015_3557.cst"
+    ],
+    "d7561dd9ebcf7f7fbdbcf614216158551f65353166db148c650106f193bad75d": [
+      "F:/biyesheji/branch1_surface_ohmic_sheet_comparison_v6/thin_solid/fixed_best_thin_solid_20260502_211949_2667.cst",
+      "F:/biyesheji/temp/fixed_best_thin_solid_20260502_211949_2667.cst"
+    ],
+    "9464b60ec8b4510ef302e8bc6619c279442f6fc99053c36d0603c2b4b577f8c3": [
+      "F:/biyesheji/code/code拓扑12.89最终存档.txt",
+      "F:/biyesheji/code/临时代码文件.txt"
+    ],
+    "844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72": [
+      "F:/biyesheji/code/ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+      "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/ohmic_sheet_12x12_multitemplate_topology_ga_code.py"
+    ],
+    "018ddbc0944f5657c6485977dc37559f2a94e0fa70b2c9bebb8a345d277de847": [
+      "F:/biyesheji/ohmic_sheet_12x12_coverage85_ga/best_design_ohmic_sheet_12x12.cst",
+      "F:/biyesheji/ohmic_sheet_12x12_coverage85_ga/temp/temp_ohmic_sheet_20260503_142118_2919.cst"
+    ],
+    "6e35c6e36e9a2c1346739ad588f9e71856f74081bff92eb8c8b1ac9ac78915ff": [
+      "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/best_design_ohmic_sheet_12x12.cst",
+      "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/temp/temp_ohmic_sheet_20260503_183833_9354.cst"
+    ],
+    "08f80c4d0b6d10806b2cdbc533174fc9223d4651a1ebc6796195fd7017d4b5c5": [
+      "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/best_design_ohmic_sheet_12x12.cst",
+      "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_163049_7944.cst"
+    ],
+    "7d70fb8a99ac3c787faedf9c6394041d5df0f840f8de2bdf7abf47aea6b18d77": [
+      "F:/biyesheji/ohmic_sheet_12x12_hybrid_coverage85_ga/best_design_ohmic_sheet_12x12.cst",
+      "F:/biyesheji/ohmic_sheet_12x12_hybrid_coverage85_ga/temp/temp_ohmic_sheet_20260503_153856_7403.cst"
+    ],
+    "407a696b5f9e5d16e9c663dfbf6c266e234a5b9adbd8072682d23368de5215b3": [
+      "F:/biyesheji/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/best_design_ohmic_sheet_12x12.cst",
+      "F:/biyesheji/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/temp/temp_ohmic_sheet_20260503_144930_8080.cst"
+    ],
+    "b1e8adbf50d4f57f82cdeba122e9aeb124e99533ab6729263fbd23ebd312ed65": [
+      "F:/biyesheji/ohmic_sheet_6x6_ga_stable/best_design_ohmic_sheet_6x6.cst",
+      "F:/biyesheji/ohmic_sheet_6x6_ga_stable/temp/temp_ohmic_sheet_20260502_223848_4700.cst"
+    ],
+    "4687621c2e4eb5aaa2f6f2e633c2aa46beb146e4c4d48c2b5aae7f96794a2221": [
+      "F:/biyesheji/ohmic_sheet_6x6_ga_stable/片阻1.1/best_design_ohmic_sheet_6x6.cst",
+      "F:/biyesheji/ohmic_sheet_6x6_ga_stable/片阻1.1/temp/temp_ohmic_sheet_20260502_222138_3347.cst"
+    ],
+    "51064ecd1c9547de638fc75fb07fd2f095b1e778865ced58e5c98433a487abd8": [
+      "F:/biyesheji/ohmic_sheet_9x9_best_122587_recheck/fixed_best_ohmic_sheet_check/fixed_best_ohmic_sheet_20260502_235128_3622.cst",
+      "F:/biyesheji/ohmic_sheet_9x9_best_122587_recheck/temp/fixed_best_ohmic_sheet_20260502_235128_3622.cst"
+    ],
+    "b4996b15a9bf81e7c4464272ceead3477b7ac22d2813443cd217ad9b66b127dc": [
+      "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/best_design_ohmic_sheet_9x9.cst",
+      "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/temp/temp_ohmic_sheet_20260502_234029_2973.cst"
+    ],
+    "d594f250888391117fb7aa6b0c4d753ba224481570443c895e64a155bb549e07": [
+      "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/best_design_ohmic_sheet_9x9.cst",
+      "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/temp/temp_ohmic_sheet_20260502_232948_3391.cst"
+    ],
+    "130ac9a1265d81868257df9682ca16a0be199ac8697696c481921a9cb44a3ff9": [
+      "F:/biyesheji/数据存档/01/02基本/best_design.cst",
+      "F:/biyesheji/temp/temp_851791.cst"
+    ],
+    "8648543f12cc5bfc702b998d01d959ccfabc5c34258639296f8f16aa8f5c592c": [
+      "F:/biyesheji/数据存档/01/03/best_design.cst",
+      "F:/biyesheji/temp/temp_651499.cst"
+    ],
+    "3e46d277a424090feaf4f61c9960a897cf330d6d87dfc0ca9aa0713cee21016d": [
+      "F:/biyesheji/数据存档/01/04/best_design.cst",
+      "F:/biyesheji/temp/temp_272474.cst"
+    ],
+    "11982511ca89e1acaf08238251fc16b3229f8e49f0cd1346a741f27c481a9116": [
+      "F:/biyesheji/数据存档/01/05/best_design.cst",
+      "F:/biyesheji/temp/temp_658704.cst"
+    ],
+    "7e5a5fa98df77836c175668faaea390a0734484ed0ea8f17d5acb8b92af85ddc": [
+      "F:/biyesheji/数据存档/01/06非等厚/best_design.cst",
+      "F:/biyesheji/temp/temp_220345.cst"
+    ],
+    "afa1a4592852a06b0a885fc9a7f7bdeb05ac5b51c450947b7c743015276b82e1": [
+      "F:/biyesheji/数据存档/01/07/best_design.cst",
+      "F:/biyesheji/temp/temp_741460.cst"
+    ],
+    "cccc95972f145d8c019c5cc128bf627e7c0aa3214865dbca43be5756f9923527": [
+      "F:/biyesheji/数据存档/01/08非等厚-非等高/best_design.cst",
+      "F:/biyesheji/temp/temp_615415.cst"
+    ],
+    "721d8413aea65586a70680317251383dc88647c8be4d0c65bb0ca3bc922afeba": [
+      "F:/biyesheji/数据存档/01/09非等厚-非等高-非等长/best_design.cst",
+      "F:/biyesheji/temp/temp_71580.cst"
+    ],
+    "efc9ce2026400c11a94ee9694f7b88a99d9f7d84e7c86a70c3c547395bbc73ff": [
+      "F:/biyesheji/数据存档/01/10中心叠加/best_design.cst",
+      "F:/biyesheji/temp/temp_376681.cst"
+    ],
+    "31fb6ca5addf5a7319b41e24dd470da601bfc4ebe34ce676e924659e9e6e5bdd": [
+      "F:/biyesheji/数据存档/01/11四边中心立柱/best_design.cst",
+      "F:/biyesheji/temp/temp_594172.cst"
+    ],
+    "2bf1fc0b8d821da22336e4c5d3a1be22c7d9f6b97386e322540e9761fae62a6c": [
+      "F:/biyesheji/数据存档/02基本-40条带/best_design.cst",
+      "F:/biyesheji/temp/temp_957482.cst"
+    ],
+    "0e8a44082e4835c9860606fbc1eae630116bbb124c504ba60dfa02944409bc6f": [
+      "F:/biyesheji/数据存档/03基本-60条带1/best_design.cst",
+      "F:/biyesheji/temp/temp_486372.cst"
+    ],
+    "61d3fef7f662d95894e276468dd4c067d033735054c782f2596d4f4dcde1ee74": [
+      "F:/biyesheji/数据存档/04基本-80条带/best_design.cst",
+      "F:/biyesheji/temp/temp_536717.cst"
+    ],
+    "3aaf2bbe240943cdffe47f93f83b0897691b576193692895dbe6892cb1cac002": [
+      "F:/biyesheji/数据存档/05基本-60条带2/best_design.cst",
+      "F:/biyesheji/temp/temp_374599.cst"
+    ],
+    "d763e21c533797015636a98b2b7795e2c71291160167b1e01cc44e47cabff6ca": [
+      "F:/biyesheji/数据存档/06基本-60条带3/best_design.cst",
+      "F:/biyesheji/数据存档/06基本-60条带3/temp_441769.cst",
+      "F:/biyesheji/temp/temp_441769.cst"
+    ],
+    "a8b5bf28d748ee713f4082dd9a0ca1b4604445c6692d1f2691cbb03fd2778979": [
+      "F:/biyesheji/数据存档/07基本-60工字1/best_design.cst",
+      "F:/biyesheji/数据存档/07基本-60工字1/temp_567151.cst",
+      "F:/biyesheji/temp/temp_567151.cst"
+    ],
+    "e855e2a25c4b0e339c7ab6af2356e4fe2c348e0cfff09a776ea8323c312aa98b": [
+      "F:/biyesheji/数据存档/08基本-60工字2/best_design.cst",
+      "F:/biyesheji/数据存档/08基本-60工字2/temp_140143.cst",
+      "F:/biyesheji/temp/temp_140143.cst"
+    ],
+    "311eda18a198be5a16e72fa228c836e26023f21ec66a93859fb979eead71c153": [
+      "F:/biyesheji/数据存档/09基本-60工字3.1/best_design.cst",
+      "F:/biyesheji/数据存档/09基本-60工字3.1/temp_25758.cst",
+      "F:/biyesheji/temp/temp_25758.cst"
+    ],
+    "4b49aa141c0774e05065cf693b9c570ba4358bc0e855e3f53a16f2e092c94300": [
+      "F:/biyesheji/数据存档/10基本-60工字3.2/best_design.cst",
+      "F:/biyesheji/temp/temp_68875.cst"
+    ],
+    "c2f5f10e756760491859afe9a6448a0b511bba5f1809390ac052313b450f8afd": [
+      "F:/biyesheji/数据存档/11基本-60工字4/best_design.cst",
+      "F:/biyesheji/temp/temp_329405.cst"
+    ],
+    "5b94873fe047d24e2754acf8473260511086ecaa77edf39825c025d63a779437": [
+      "F:/biyesheji/数据存档/12基本-60_80工字/best_design.cst",
+      "F:/biyesheji/temp/temp_74919.cst"
+    ],
+    "320ea9e12db8393d2356ede6512ca6c5d96366bbec9956a9846c031228085aee": [
+      "F:/biyesheji/数据存档/13基本-60-拓扑1.1/best_design.cst",
+      "F:/biyesheji/数据存档/13基本-60-拓扑1.1/temp_36419.cst",
+      "F:/biyesheji/temp/temp_36419.cst"
+    ],
+    "3e630eba9001bfed451efba271af1c2af6a97534a3f21c45fc3b04c8888f77fd": [
+      "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院-孟庆鑫.pdf",
+      "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院.pdf"
+    ]
+  },
+  "same_name_different_bytes": {
+    "best_design_ohmic_sheet_12x12.cst": [
+      {
+        "source": "F:/biyesheji/ohmic_sheet_12x12_coverage85_ga/best_design_ohmic_sheet_12x12.cst",
+        "sha256": "018ddbc0944f5657c6485977dc37559f2a94e0fa70b2c9bebb8a345d277de847",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_12x12_coverage85_ga.zip::ohmic_sheet_12x12_coverage85_ga/best_design_ohmic_sheet_12x12.cst"
+      },
+      {
+        "source": "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/best_design_ohmic_sheet_12x12.cst",
+        "sha256": "6e35c6e36e9a2c1346739ad588f9e71856f74081bff92eb8c8b1ac9ac78915ff",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_12x12_fixed_topology_lf_refine.zip::ohmic_sheet_12x12_fixed_topology_lf_refine/best_design_ohmic_sheet_12x12.cst"
+      },
+      {
+        "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/best_design_ohmic_sheet_12x12.cst",
+        "sha256": "08f80c4d0b6d10806b2cdbc533174fc9223d4651a1ebc6796195fd7017d4b5c5",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_12x12_hf_compensation_ga.zip::ohmic_sheet_12x12_hf_compensation_ga/best_design_ohmic_sheet_12x12.cst"
+      },
+      {
+        "source": "F:/biyesheji/ohmic_sheet_12x12_hybrid_coverage85_ga/best_design_ohmic_sheet_12x12.cst",
+        "sha256": "7d70fb8a99ac3c787faedf9c6394041d5df0f840f8de2bdf7abf47aea6b18d77",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_12x12_hybrid_coverage85_ga.zip::ohmic_sheet_12x12_hybrid_coverage85_ga/best_design_ohmic_sheet_12x12.cst"
+      },
+      {
+        "source": "F:/biyesheji/ohmic_sheet_12x12_quarter_symmetric_ga/best_design_ohmic_sheet_12x12.cst",
+        "sha256": "29c6667fc264dfae891160a5bbb6f8d5fe063294b6cdaf2cd518a79696f2cbfe",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_12x12_quarter_symmetric_ga.zip::ohmic_sheet_12x12_quarter_symmetric_ga/best_design_ohmic_sheet_12x12.cst"
+      },
+      {
+        "source": "F:/biyesheji/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/best_design_ohmic_sheet_12x12.cst",
+        "sha256": "407a696b5f9e5d16e9c663dfbf6c266e234a5b9adbd8072682d23368de5215b3",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_12x12_template_coverage85_ga.zip::ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/best_design_ohmic_sheet_12x12.cst"
+      },
+      {
+        "source": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12.cst",
+        "sha256": "a1d145af24db946b04d74e2c07d5ffc069511a9914fb1cdfcbf1dc53074b0174",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/最终结果ohmic_sheet_12x12_multitemplate_topology_ga.zip::最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12.cst"
+      }
+    ],
+    "best_design_ohmic_sheet_6x6.cst": [
+      {
+        "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/best_design_ohmic_sheet_6x6.cst",
+        "sha256": "b1e8adbf50d4f57f82cdeba122e9aeb124e99533ab6729263fbd23ebd312ed65",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_6x6_ga_stable.zip::ohmic_sheet_6x6_ga_stable/best_design_ohmic_sheet_6x6.cst"
+      },
+      {
+        "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/片阻1.1/best_design_ohmic_sheet_6x6.cst",
+        "sha256": "4687621c2e4eb5aaa2f6f2e633c2aa46beb146e4c4d48c2b5aae7f96794a2221",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_6x6_ga_stable.zip::ohmic_sheet_6x6_ga_stable/片阻1.1/best_design_ohmic_sheet_6x6.cst"
+      }
+    ],
+    "best_design_ohmic_sheet_9x9.cst": [
+      {
+        "source": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/best_design_ohmic_sheet_9x9.cst",
+        "sha256": "b4996b15a9bf81e7c4464272ceead3477b7ac22d2813443cd217ad9b66b127dc",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_9x9_fixed_ph_ga.zip::ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/best_design_ohmic_sheet_9x9.cst"
+      },
+      {
+        "source": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/best_design_ohmic_sheet_9x9.cst",
+        "sha256": "d594f250888391117fb7aa6b0c4d753ba224481570443c895e64a155bb549e07",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_9x9_fixed_ph_ga.zip::ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/best_design_ohmic_sheet_9x9.cst"
+      },
+      {
+        "source": "F:/biyesheji/ohmic_sheet_9x9_ph_micro_only_ga/best_design_ohmic_sheet_9x9.cst",
+        "sha256": "b52eb372461d62d8e833ebfc1ad7cb28ed278a6b4ab8b48ccd62001dfe148d09",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/ohmic_sheet_9x9_ph_micro_only_ga.zip::ohmic_sheet_9x9_ph_micro_only_ga/best_design_ohmic_sheet_9x9.cst"
+      }
+    ],
+    "best_design.cst": [
+      {
+        "source": "F:/biyesheji/数据存档/01/02基本/best_design.cst",
+        "sha256": "130ac9a1265d81868257df9682ca16a0be199ac8697696c481921a9cb44a3ff9",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/02基本/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/03/best_design.cst",
+        "sha256": "8648543f12cc5bfc702b998d01d959ccfabc5c34258639296f8f16aa8f5c592c",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/03/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/04/best_design.cst",
+        "sha256": "3e46d277a424090feaf4f61c9960a897cf330d6d87dfc0ca9aa0713cee21016d",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/04/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/05/best_design.cst",
+        "sha256": "11982511ca89e1acaf08238251fc16b3229f8e49f0cd1346a741f27c481a9116",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/05/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/06非等厚/best_design.cst",
+        "sha256": "7e5a5fa98df77836c175668faaea390a0734484ed0ea8f17d5acb8b92af85ddc",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/06非等厚/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/07/best_design.cst",
+        "sha256": "afa1a4592852a06b0a885fc9a7f7bdeb05ac5b51c450947b7c743015276b82e1",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/07/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/08非等厚-非等高/best_design.cst",
+        "sha256": "cccc95972f145d8c019c5cc128bf627e7c0aa3214865dbca43be5756f9923527",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/08非等厚-非等高/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/09非等厚-非等高-非等长/best_design.cst",
+        "sha256": "721d8413aea65586a70680317251383dc88647c8be4d0c65bb0ca3bc922afeba",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/09非等厚-非等高-非等长/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/10中心叠加/best_design.cst",
+        "sha256": "efc9ce2026400c11a94ee9694f7b88a99d9f7d84e7c86a70c3c547395bbc73ff",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/10中心叠加/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/01/11四边中心立柱/best_design.cst",
+        "sha256": "31fb6ca5addf5a7319b41e24dd470da601bfc4ebe34ce676e924659e9e6e5bdd",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/01/11四边中心立柱/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/02基本-40条带/best_design.cst",
+        "sha256": "2bf1fc0b8d821da22336e4c5d3a1be22c7d9f6b97386e322540e9761fae62a6c",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/02基本-40条带/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/03基本-60条带1/best_design.cst",
+        "sha256": "0e8a44082e4835c9860606fbc1eae630116bbb124c504ba60dfa02944409bc6f",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/03基本-60条带1/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/04基本-80条带/best_design.cst",
+        "sha256": "61d3fef7f662d95894e276468dd4c067d033735054c782f2596d4f4dcde1ee74",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/04基本-80条带/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/05基本-60条带2/best_design.cst",
+        "sha256": "3aaf2bbe240943cdffe47f93f83b0897691b576193692895dbe6892cb1cac002",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/05基本-60条带2/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/06基本-60条带3/best_design.cst",
+        "sha256": "d763e21c533797015636a98b2b7795e2c71291160167b1e01cc44e47cabff6ca",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/06基本-60条带3/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/07基本-60工字1/best_design.cst",
+        "sha256": "a8b5bf28d748ee713f4082dd9a0ca1b4604445c6692d1f2691cbb03fd2778979",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/07基本-60工字1/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/08基本-60工字2/best_design.cst",
+        "sha256": "e855e2a25c4b0e339c7ab6af2356e4fe2c348e0cfff09a776ea8323c312aa98b",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/08基本-60工字2/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/09基本-60工字3.1/best_design.cst",
+        "sha256": "311eda18a198be5a16e72fa228c836e26023f21ec66a93859fb979eead71c153",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/09基本-60工字3.1/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/10基本-60工字3.2/best_design.cst",
+        "sha256": "4b49aa141c0774e05065cf693b9c570ba4358bc0e855e3f53a16f2e092c94300",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/10基本-60工字3.2/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/11基本-60工字4/best_design.cst",
+        "sha256": "c2f5f10e756760491859afe9a6448a0b511bba5f1809390ac052313b450f8afd",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/11基本-60工字4/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/12基本-60_80工字/best_design.cst",
+        "sha256": "5b94873fe047d24e2754acf8473260511086ecaa77edf39825c025d63a779437",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/12基本-60_80工字/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/13基本-60-拓扑1.1/best_design.cst",
+        "sha256": "320ea9e12db8393d2356ede6512ca6c5d96366bbec9956a9846c031228085aee",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/13基本-60-拓扑1.1/best_design.cst"
+      },
+      {
+        "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design.cst",
+        "sha256": "67fdda00c2b30b94e8b35abf521fe18f9b94b4ce7ccf0c9733ecca35c4b7582d",
+        "copy": "01_Thesis_Microwave_Absorber/80_Full_Source_Snapshot/数据存档.zip::数据存档/14基本-60-拓扑1.2/best_design.cst"
+      }
+    ],
+    "2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx": [
+      {
+        "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx",
+        "sha256": "685b65a185f2ef73415ebfa79525a78cf85ebdfe3e6df521c813bacf3633cc61",
+        "copy": "01_Thesis_Microwave_Absorber/00_Original_Documents/E_毕业设计/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx"
+      },
+      {
+        "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx",
+        "sha256": "2e0ee751f7c6362f1360e304458dadbc94928ebe344770b0b0edf90f75e92549",
+        "copy": "01_Thesis_Microwave_Absorber/00_Original_Documents/E_毕业设计/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx"
+      }
+    ],
+    "2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf": [
+      {
+        "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+        "sha256": "6e401c8474012021450137e5a789de2778c75d2da9ab7a880861c8f155673e59",
+        "copy": "01_Thesis_Microwave_Absorber/00_Original_Documents/E_毕业设计/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf"
+      },
+      {
+        "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+        "sha256": "1368f0ee91a9acbf4bd53ad263e4c96a3f5e23dd95e5949eae4d749fe013fefc",
+        "copy": "01_Thesis_Microwave_Absorber/00_Original_Documents/E_毕业设计/开题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf"
+      },
+      {
+        "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+        "sha256": "c87e747560f049aa978844fa1e03d976ec9bbc8de529171de26b63d87026b3ed",
+        "copy": "01_Thesis_Microwave_Absorber/00_Original_Documents/E_毕业设计/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf"
+      }
+    ],
+    "fxfl.m": [
+      {
+        "source": "E:/2024/yxy组代码/代码/fxfl.m",
+        "sha256": "216ef3bfd2f1ef1c46b94a01afa164dc1c465845d3af032a8709f000f685b66c",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码/fxfl.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码存档/模拟代码/fxfl.m",
+        "sha256": "953a5225206f0ececcff9ff8b9ed2e138093b78bf6d8cc6edb5731ef3e5448a4",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码存档/模拟代码/fxfl.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码（偏振）去前段/fxfl.m",
+        "sha256": "56a981ddd67681778c34ead4b389306d003dfd39f5cc8fa3b24497df84b17660",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码（偏振）去前段/fxfl.m"
+      }
+    ],
+    "fyfl.m": [
+      {
+        "source": "E:/2024/yxy组代码/代码/fyfl.m",
+        "sha256": "b4f325307f541eb8e7f86536c2e7d4affacd58fd6308f4922aa19c4b4f0eeae2",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码/fyfl.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码存档/模拟代码/fyfl.m",
+        "sha256": "c6bd78d79e9b2674601a585dc0be6289d6bd5a37d3114d623028000de056117b",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码存档/模拟代码/fyfl.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码（偏振）去前段/fyfl.m",
+        "sha256": "8e62cdaf96ca8eaef4bb4421be3e7eda9560aee347272c8b67aa39d62fac1bd0",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码（偏振）去前段/fyfl.m"
+      }
+    ],
+    "vxnn.m": [
+      {
+        "source": "E:/2024/yxy组代码/代码/vxnn.m",
+        "sha256": "0ee1cff5b329e894001f7d7a81b53c920681d9b0486e2570d1b43b912024de11",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码/vxnn.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码存档/模拟代码/vxnn.m",
+        "sha256": "440b77629ccae25ffa570cfa0cd3c52c5c4f6324f740a894582229c8be1e17d0",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码存档/模拟代码/vxnn.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码（偏振）去前段/vxnn.m",
+        "sha256": "24227fffee47164de5f2d7f607719afe5d45c9ba4772737ef9026549c59f6f94",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码（偏振）去前段/vxnn.m"
+      }
+    ],
+    "vynn.m": [
+      {
+        "source": "E:/2024/yxy组代码/代码/vynn.m",
+        "sha256": "0c11c1877bc2270bb4baa5cc9ebe2d13434dce38a7deb8d92e56a2b167d19e21",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码/vynn.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码存档/模拟代码/vynn.m",
+        "sha256": "b7187faa9cf19b30ce82485dc50e08fa854d5f239f942b103eeabf459f67f9f8",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码存档/模拟代码/vynn.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码（偏振）去前段/vynn.m",
+        "sha256": "38d8ea2318b5a699a5876e47f05d445baf91242fdf5e65ce5b58fabaff62826c",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码（偏振）去前段/vynn.m"
+      }
+    ],
+    "xlg.m": [
+      {
+        "source": "E:/2024/yxy组代码/代码/xlg.m",
+        "sha256": "9243010d0dda0e5755fa7e13388862350bf168c24f44e041338d3a4177323a0c",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码/xlg.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码存档/模拟代码/xlg.m",
+        "sha256": "8e50b89e13c77e37601565fd961f74ffcc417d46b49a2b7be842e615f0da790b",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码存档/模拟代码/xlg.m"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码（偏振）去前段/xlg.m",
+        "sha256": "22f835455b6a62f8b707d8adae143affbf07dcd58672398a3e182b0ee8bc6077",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码（偏振）去前段/xlg.m"
+      }
+    ],
+    "main.mlx": [
+      {
+        "source": "E:/2024/yxy组代码/代码存档/模拟代码/main.mlx",
+        "sha256": "9c233c29694e8bb4d96baa4fb23cf7e8c7af02fbe8a7581c1d0d99e094c497e6",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码存档/模拟代码/main.mlx"
+      },
+      {
+        "source": "E:/2024/yxy组代码/代码（偏振）去前段/main.mlx",
+        "sha256": "60d34027b678d980b25768fed7f6252fb838b805b02da1bca31e982c955153c5",
+        "copy": "02_Dusty_Plasma/01_MATLAB_Code/E_yxy组代码/代码（偏振）去前段/main.mlx"
+      }
+    ]
+  },
+  "rule": "同哈希只证明字节相同；异哈希/文件时间不证明父子关系或作者；全部副本保留"
+}

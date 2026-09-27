@@ -1,0 +1,60 @@
+
+================================================================================
+generation = 0, index = 6
+individual = [0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1]
+bitstring = 010100110100111001011100111101
+prefilter_report = {'p': 13.1952, 'h': 8.9476, 'mask_x_seed': [1, 1, 1, 0, 0, 1, 0, 1, 1], 'mask_y_seed': [1, 0, 0, 1, 1, 1, 1, 0, 1], 'mask_x': [[1, 1, 1, 1, 1, 1], [0, 0, 1, 1, 0, 0], [0, 1, 1, 1, 1, 0], [0, 1, 1, 1, 1, 0], [0, 0, 1, 1, 0, 0], [1, 1, 1, 1, 1, 1]], 'mask_y': [[1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1], [1, 0, 1, 1, 0, 1], [1, 0, 1, 1, 0, 1], [1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1]], 'x': {'kept': 24, 'isolated': 0, 'components': 1}, 'y': {'kept': 24, 'isolated': 0, 'components': 1}, 'total_kept': 48}
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: The direct solver did not reach the desired accuracy.\\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\\nERROR: Error while running S-parameter post processing.\\nERROR: 3 errors and 3 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py", line 1480, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: The direct solver did not reach the desired accuracy.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 3 errors and 3 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py", line 1620, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py", line 1509, in run_cst
+    return run_cst_for_params(
+  File "F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py", line 1490, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: The direct solver did not reach the desired accuracy.\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\nERROR: Error while running S-parameter post processing.\nERROR: 3 errors and 3 warnings occurred.')
+
+
+================================================================================
+generation = 1, index = 8
+individual = [1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0]
+bitstring = 100101100100000010111111100110
+prefilter_report = {'p': 13.2762, 'h': 8.8714, 'mask_x_seed': [0, 0, 0, 0, 1, 0, 1, 1, 1], 'mask_y_seed': [1, 1, 1, 1, 0, 0, 1, 1, 0], 'mask_x': [[0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 1, 0], [1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1], [0, 1, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0]], 'mask_y': [[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 1, 0, 0, 1, 1], [1, 1, 0, 0, 1, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]], 'x': {'kept': 16, 'isolated': 0, 'components': 1}, 'y': {'kept': 24, 'isolated': 0, 'components': 1}, 'total_kept': 40}
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nTerminated on unknown error\\n\\nReported error messages:\\nERROR: The direct solver did not reach the desired accuracy.\\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\\nERROR: Error while running S-parameter post processing.\\nERROR: 3 errors and 3 warnings occurred.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py", line 1480, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Terminated on unknown error
+
+Reported error messages:
+ERROR: The direct solver did not reach the desired accuracy.
+ERROR: Error: Unable to initialize PP structure from S-Matrix information.
+ERROR: Error while running S-parameter post processing.
+ERROR: 3 errors and 3 warnings occurred.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py", line 1620, in evaluate_individual
+    metrics, params, cst_file = run_cst(individual)
+  File "F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py", line 1509, in run_cst
+    return run_cst_for_params(
+  File "F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py", line 1490, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nTerminated on unknown error\n\nReported error messages:\nERROR: The direct solver did not reach the desired accuracy.\nERROR: Error: Unable to initialize PP structure from S-Matrix information.\nERROR: Error while running S-parameter post processing.\nERROR: 3 errors and 3 warnings occurred.')
+

@@ -1,0 +1,12 @@
+F:
+cd biyesheji\code
+python ohmic_sheet_12x12_hf_compensation_ga_code.py
+python ohmic_sheet_12x12_hybrid_coverage85_ga_code.py
+python ohmic_sheet_12x12_template_coverage85_ga_code.py
+python ohmic_sheet_9x9_ph_micro_only_ga.py
+python ohmic_sheet_9x9_best_recheck.py
+python ohmic_sheet_9x9_fixed_ph_ga_code.py
+python ohmic_sheet_6x6_ga_stable_code.py
+python branch1_surface_ohmic_sheet_comparison_code_v6.py
+python code_run_v2.py
+python run_optimizer.py

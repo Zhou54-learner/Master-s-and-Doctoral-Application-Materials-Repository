@@ -1,0 +1,30 @@
+{
+  "baseline_unchanged": {
+    "A线工作区\\材料\\对外PDF\\周子靖_中文学术简历_Master_v1.2.docx": "d46d1bbb140f6c01ea7eacf0d25ab34f352e831ddc4925c6023f715c7afa80b7",
+    "A线工作区\\材料\\对外PDF\\周子靖_中文学术简历_Master_v1.2.pdf": "12979a1979fde6851cc36ec799dd5756bd822d464209f8666cacd97da4d64f28",
+    "A线工作区\\材料\\周子靖_中文学术简历_v0.5_INTERNAL.md": "d5374db2d69ef4d8f8647df5f1405385a0c61c3fada2aca0921972520a45bd2e"
+  },
+  "cv_pages": 1,
+  "docx_pdf_paragraphs_match": 33,
+  "cv_three_body_changes": [
+    {
+      "before": "计算物理 · 科学机器学习 · 物理驱动的逆向设计",
+      "after": "计算物理 · 电磁与光子学模拟 · 物理驱动的逆向设计"
+    },
+    {
+      "before": "• 仿真自动化： 使用并扩展 Python-CST 参数化电磁仿真与遗传算法优化流程，实现候选结构建模、求解调用和反射响应评估的自动化。",
+      "after": "• 仿真自动化： 使用并扩展 Python-CST 参数化电磁仿真与遗传算法结构优化流程，实现候选结构建模、求解调用和反射响应评估的自动化。"
+    },
+    {
+      "before": "CST Studio Suite： 电磁仿真、参数化建模与批量求解。",
+      "after": "CST Studio Suite： 频域电磁仿真、参数化建模与批量求解。"
+    }
+  ],
+  "cv_sha256": "595bf93125a0d3112d7cf5b4d0d9ae92e624020a839be19b1a37a81730adfcef",
+  "email_chinese_chars": 434,
+  "defense_questions": 25,
+  "archive_records": 17,
+  "local_links_checked": 127,
+  "broken_links": [],
+  "originals_unchanged": 20
+}

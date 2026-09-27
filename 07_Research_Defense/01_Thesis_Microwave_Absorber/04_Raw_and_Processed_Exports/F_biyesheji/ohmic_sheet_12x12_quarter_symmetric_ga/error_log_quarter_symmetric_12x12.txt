@@ -1,0 +1,22 @@
+
+================================================================================
+generation=0, index=1
+summary=origin=manual_seed_lowfreq, p=13.09271, h=10.10726, Rs_x=136.9204, Rs_y=30.188, QX=10, QY=21, X(kept=40, comp=2), Y(kept=84, comp=1)
+RuntimeError("CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nConnection closed.')")
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_quarter_symmetric_ga_code.py", line 1794, in run_cst_for_params
+    pj.model3d.run_solver()
+RuntimeError: An error occurred while trying to execute run_solver:
+Connection closed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\biyesheji\code\ohmic_sheet_12x12_quarter_symmetric_ga_code.py", line 5995, in evaluate_individual
+    result = run_cst(ind)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_quarter_symmetric_ga_code.py", line 5760, in run_cst
+    return run_cst_for_params(p=p, h=h, mask_x_seed=sx, mask_y_seed=sy, film_model_type=film_model_type)
+  File "F:\biyesheji\code\ohmic_sheet_12x12_quarter_symmetric_ga_code.py", line 1804, in run_cst_for_params
+    raise RuntimeError(
+RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\nConnection closed.')
+

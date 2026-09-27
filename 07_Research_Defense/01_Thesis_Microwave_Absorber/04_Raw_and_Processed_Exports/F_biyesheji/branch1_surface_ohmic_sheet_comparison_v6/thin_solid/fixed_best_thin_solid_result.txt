@@ -1,0 +1,8 @@
+film_model_type: thin_solid
+score: 13.85031170795209
+bandwidth_RL_lt_minus_10_dB_GHz: 12.895522388059701
+min_RL_dB: -39.67109214035739
+parameters_p_h_mask_x_seed_mask_y_seed: (13.281, 8.8571, [0, 0, 0, 0, 0, 0, 1, 1, 1], [1, 1, 1, 1, 0, 0, 1, 1, 0])
+cst_file: F:\biyesheji\branch1_surface_ohmic_sheet_comparison_v6\thin_solid\fixed_best_thin_solid_20260502_211949_2667.cst
+s11_file: F:\biyesheji\branch1_surface_ohmic_sheet_comparison_v6\thin_solid\fixed_best_thin_solid_s11.txt
+png_file: F:\biyesheji\branch1_surface_ohmic_sheet_comparison_v6\thin_solid\fixed_best_thin_solid_RL.png

@@ -1,0 +1,8 @@
+Best score: 13.37505413606585
+Best bandwidth( RL<-10 dB ): 12.25870646766169 GHz
+Best min RL: -37.213558042866644 dB
+Best individual: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]
+Best parameters (p, h, mask_x_seed, mask_y_seed): (13.1286, 8.8667, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0], [1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0])
+Best CST file: F:\biyesheji\ohmic_sheet_9x9_fixed_ph_ga\best_design_ohmic_sheet_9x9.cst
+Best S11 txt file: F:\biyesheji\ohmic_sheet_9x9_fixed_ph_ga\best_s11_ohmic_sheet_9x9.txt
+Best S11 png file: F:\biyesheji\ohmic_sheet_9x9_fixed_ph_ga\best_s11_ohmic_sheet_9x9.png

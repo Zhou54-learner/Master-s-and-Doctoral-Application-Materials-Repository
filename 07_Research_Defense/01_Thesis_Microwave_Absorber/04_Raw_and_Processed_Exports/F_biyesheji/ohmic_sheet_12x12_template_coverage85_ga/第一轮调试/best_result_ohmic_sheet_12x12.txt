@@ -1,0 +1,13 @@
+Best score: 21.12027450375561
+Best contiguous bandwidth( RL<-10 dB ): 10.0 GHz
+Best coverage in 2-18 GHz: 62.5 %
+Best total effective bandwidth estimate: 10.08 GHz
+Best low edge: 7.5200000000000005 GHz
+Best high edge: 17.52 GHz
+Best min RL: -20.958358690783264 dB
+Best individual: [0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0]
+Best template parameters: p=13.1714, h=8.854, template_type=0, y_frame_w=1, y_window_w=6, y_window_h=7, y_bridge_w=1, y_slot_type=4, x_strip_w=3, x_gap_w=4, x_end_load=2, x_vert_offset=0
+Best parameters (p, h, mask_x_flatten, mask_y_flatten): (13.1714, 8.854, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+Best CST file: F:\biyesheji\ohmic_sheet_12x12_template_coverage85_ga\best_design_ohmic_sheet_12x12.cst
+Best S11 txt file: F:\biyesheji\ohmic_sheet_12x12_template_coverage85_ga\best_s11_ohmic_sheet_12x12.txt
+Best S11 png file: F:\biyesheji\ohmic_sheet_12x12_template_coverage85_ga\best_s11_ohmic_sheet_12x12.png

@@ -1,0 +1,41 @@
+12x12 quarter-symmetric Ohmic-sheet topology GA result
+Best score: 63.34931391325111
+Best contiguous bandwidth( RL<-10 dB ): 12.640000000000002 GHz
+Best coverage in 2-18 GHz: 79.00000000000001 %
+Best low edge: 4.5600000000000005 GHz
+Best high edge: 17.200000000000003 GHz
+Best min RL: -29.166771104540686 dB
+Best total effective bandwidth estimate: 12.72 GHz
+Best worst RL in 4.4-4.8 GHz: -9.502980811005106 dB
+Best mean RL in 4.4-4.8 GHz: -10.011746469250957 dB
+Best worst RL in 6.0-12.0 GHz: -10.191549619055895 dB
+Best worst RL in 17.6-18.0 GHz: -8.048790100757484 dB
+RL at 4.32 GHz: -9.223644121052956 dB
+RL at 4.40 GHz: -9.502980811005106 dB
+RL at 4.48 GHz: -9.771727951158963 dB
+RL at 4.56 GHz: -10.027364112697022 dB
+RL at 4.64 GHz: -10.267363320240324 dB
+RL at 4.72 GHz: -10.48929615115337 dB
+RL at 4.80 GHz: -10.690943252693266 dB
+RL at 4.88 GHz: -10.870412394877214 dB
+Best individual summary: origin=crossover, p=13.19553, h=10.14234, Rs_x=140.6055, Rs_y=35.4283, QX=10, QY=20, X(kept=40, comp=2), Y(kept=80, comp=1)
+Best parameters (p, h, mask_x_flatten, mask_y_flatten): (13.19553, 10.14234, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+Best CST file: F:\biyesheji\ohmic_sheet_12x12_quarter_symmetric_ga\best_design_ohmic_sheet_12x12.cst
+Best S11 txt file: F:\biyesheji\ohmic_sheet_12x12_quarter_symmetric_ga\best_s11_ohmic_sheet_12x12.txt
+Best S11 png file: F:\biyesheji\ohmic_sheet_12x12_quarter_symmetric_ga\best_s11_ohmic_sheet_12x12.png
+Best X mask txt file: F:\biyesheji\ohmic_sheet_12x12_quarter_symmetric_ga\best_mask_x_12x12.txt
+Best Y mask txt file: F:\biyesheji\ohmic_sheet_12x12_quarter_symmetric_ga\best_mask_y_12x12.txt
+Best quarter X txt file: F:\biyesheji\ohmic_sheet_12x12_quarter_symmetric_ga\best_quarter_x_6x6.txt
+Best quarter Y txt file: F:\biyesheji\ohmic_sheet_12x12_quarter_symmetric_ga\best_quarter_y_6x6.txt
+
+Best quarter X compact:
+000000/000000/000000/010000/111110/111100
+
+Best quarter Y compact:
+111111/100010/100010/100000/111110/111100
+
+Best full X compact:
+000000000000/000000000000/000000000000/010000000010/111110011111/111100001111/111100001111/111110011111/010000000010/000000000000/000000000000/000000000000
+
+Best full Y compact:
+111111111111/100010010001/100010010001/100000000001/111110011111/111100001111/111100001111/111110011111/100000000001/100010010001/100010010001/111111111111

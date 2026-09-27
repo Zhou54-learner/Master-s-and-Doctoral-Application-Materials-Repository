@@ -1,0 +1,705 @@
+Publications – LGG LAB
+Skip to content
+Top Menu
+Top Menu
+LGG LAB
+lgglab@Westlake University
+Menu
+Primary Menu
+OVERVIEW
+Publications
+RESEARCH
+People
+Album
+团队招聘
+Breadcrumbs
+Home
+Publications
+#
+Contribute equally
+†
+Corresponding author
+Google Scholar
+ResearchGate
+ORCiD: 0000-0003-4328-9142
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2026 Publications
+43
+.
+Yuchen Peng
+#
+, Deep Mondal
+#
+, Yuting Yang, Wanting Wu, Bo Zhao, Shuaiyang Wei, Zhenzhi Liu, Wenrong Qi, Xiaokang Dai, Minqi Cheng, Weili Li, Xinyi Zhang, Fei-Fei Li, Rimi Banerjee, Minggui Wei, Jingyi Tian, Peiheng Zhou, Subhaskar Mandal
+†
+, Baile Zhang
+†
+and
+Gui-Geng Liu
+†
+“Antichiral hinge states in a higher-order photonic nodal ring semimetal”
+Nature Communications
+[PDF]
+42
+.
+Minggui Wei, Yang Long
+†
+,
+Gui-Geng Liu
+†
+, Jianwei Liu, Sudheer Manjima, Elbert E. M. Chia and Baile Zhang
+†
+“Topological valley quasi-bound states in the continuum for radiatively accessible robust transport”
+Nature Communications
+[PDF]
+41
+.
+Qiutong Zhen, Chunquan Peng, Yujie Tang, Yutian Ao, Qindong Xie, Xiaowei Wang, Yuan Chen,
+Gui-Geng Liu
+†
+, Peiheng Zhou
+†
+“Observation of Klein Tunneling in Antichiral Gyromagnetic Photonic Crystals”
+Laser & Photonics Reviews, 0:e71603
+[PDF]
+40
+.
+Shiyi Liu
+#
+, Yuting Yang
+#†
+, Weipeng Li, Liwei Shi, Enyuan Wang,
+Gui-Geng Liu
+†
+, and Zhihong Hang
+†
+“Local boundary modulation of photonic antichiral edge states”
+Photonics Research 14(8), 3368-3377
+[PDF]
+39
+.
+Ruifeng Li
+†#
+, Rimi Banerjee
+#
+, Subhaskar Mandal
+#
+, Da Li
+#
+, Yang Long, Tianchi Ma, Jian-Wei Liu,
+Gui-Geng Liu
+, Yidong Chong
+†
+, Baile Zhang
+†
+, and Er-Ping Li
+†
+“Observation of Fractional Disclination Charges Induced by Gain and Loss”
+Electromagnetic Science 4(1), 0130542
+[PDF]
+38
+.
+Rujiang Li
+†
+, Wencai Wang, Xiangyu Kong, Ce Shang, Yongtao Jia,
+Gui-Geng Liu
+†
+, Huibin Tao, Ying Liu, and Baile Zhang
+†
+“Nonlinear topological edge states, topological gap solitons, and self-induced topological edge states in nonlinear Su-Schrieffer-Heeger circuit lattices”
+Physical Review B 113, 214310
+[PDF]
+37
+.
+Youxiu Yu, Xiaofeng Xu, Yang Long,
+Gui-Geng Liu
+, Dongliang Gao, Xiao Lin
+†
+, Hao Hu
+†
+“A Time Grating Approach to Ultrahigh-Q Guided Mode Resonance”
+Laser & Photonics Reviews 71179
+[PDF]
+36
+.
+Minggui Wei,
+Gui‑Geng Liu
+, Yang Long, Zheyu Cheng, Song Han, Subhaskar Mandal and Baile Zhang
+†
+“Terahertz spin-selective dielectric metasurfaces from exceptional points”
+PhotoniX 7, 6
+[PDF]
+2025 Publications
+35
+.
+Jian-Wei Liu
+#
+,
+Gui-Geng Liu
+#
+, Bo Zhang
+#
+, Hao-Chang Mo, Ruifeng Li, Mingwei Li, Xiao-Dong Chen, Baile Zhang
+†
+, Wen-Jie Chen
+†
+, and Jian-Wen Dong
+†
+“Chiral valley edge states based on Dirac mass engineering”
+Nature Communications 16, 11256
+[PDF]
+34
+.
+Subhaskar Mandal
+#
+, Ziyao Wang
+#
+, Rimi Banerjee, Hau Tian Teo, Minggui Wei, Peiheng Zhou, Xiang Xi
+†
+, Zhen Gao
+†
+,
+Gui-Geng Liu
+†
+, Baile Zhang
+†
+“Photonic Bilayer Chern Insulator with Corner States”
+Physical Review Letters
+135, 016903
+[PDF]
+33
+.
+Linyun Yang
+#
+, Xiang Xi
+#
+, Yan Meng
+#
+, Zhenxiao Zhu
+#
+, Ying Wu, Jingming Chen, Minqi Cheng, Kexin Xiang, Perry Ping Shum, Yihao Yang, Hongsheng Chen, Jian Li, Bei Yan
+†
+,
+Gui-Geng Liu
+†
+, Baile Zhang
+†
+, and Zhen Gao
+†
+“Three-dimensional acoustic Chern insulators with arbitrary Chern vectors”
+Physical Review
+Research 7, 023280
+[PDF]
+32
+.
+Ziyao Wang
+#
+, Yan Meng
+#
+, Bei Yan
+#
+, Dong Zhao
+#
+, Linyun Yang, Jingming Chen, Minqi Cheng, Tao Xiao, Perry Ping Shum,
+Gui-Geng Liu
+, Yihao Yang, Hongsheng Chen, Xiang Xi
+†
+, Zhen-Xiao Zhu
+†
+, Biye Xie
+†
+,and Zhen Gao
+†
+“Realization of a three-dimensional photonic higher-order topological insulator”
+Nature Communications 16, 3122
+[PDF]
+31
+.
+Bei Yan
+#
+, Baoliang Liao
+#
+, Fulong Shi
+#
+, Xiang Xi
+#
+, Yuan Cao, Kexin Xiang, Yan Meng, Linyun Yang, Zhenxiao Zhu, Jingming Chen, Xiao-Dong Chen
+†
+,
+Gui-Geng Liu
+†
+, Baile Zhang
+†
+, and Zhen Gao
+†
+“Realization of Topology-Controlled Photonic Cavities in a Valley Photonic Crystal”
+Physical Review Letters 134, 033803
+[PDF]
+30.
+Gui-Geng Liu
+#
+, Subhaskar Mandal
+#
+, Xiang Xi
+#
+, Qiang Wang
+#
+, Chiara Devescovi, Antonio Morales-Pérez, Ziyao Wang, Linyun Yang, Rimi Banerjee, Yang Long, Yan Meng, Peiheng Zhou, Zhen Gao, Yidong Chong, Aitzol García-Etxarri, Maia G. Vergniory, Baile Zhang
+†
+“Photonic Axion Insulator”
+Science 387, 162
+[PDF]
+29.
+Minggui Wei, Yang Long
+†
+Feng Wu
+†
+,
+Gui-Geng Liu
+, Baile Zhang
+†
+“Abrupt lateral beam shifts from terahertz quasi-bound states in the continuum”
+Science Bulletin 70, 882–888
+[PDF]
+2024 Publications
+28.
+Jian-Wei Liu
+†
+,
+Gui-Geng Liu
+†
+, and Baile Zhang
+†
+,
+“Three-Dimensional Topological Photonic Crystals”
+Progress In Electromagnetics Research 181, 99-112
+[PDF]
+Invited Review
+27.
+Rimi Banerjee, Subhaskar Mandal, Yun Yong Terh, Shuxin Lin,
+Gui-Geng Liu
+, Baile Zhang
+†
+and Y. D. Chong
+†
+“Topological Disclination States and Charge Fractionalization in a Non-Hermitian Lattice”
+Physical Review Letters 133, 233804
+[PDF]
+26.
+Gui-Geng Liu
+#
+, Subhaskar Mandal
+#
+, Peiheng Zhou
+#
+, Xiang Xi
+#
+, Rimi Banerjee, Yuan-Hang Hu, Minggui Wei, Maoren Wang, Qiang Wang, Zhen Gao, Hongsheng Chen, Yihao Yang
+†
+, Yidong Chong
+†
+, Baile Zhang
+†
+“Localization of chiral edge states by the non-Hermitian skin effect”
+Physical Review Letters 132(11), 113802
+[PDF]
+25.
+Peiheng Zhou,
+Gui-Geng Liu
+†
+, Zihao Wang, Shuwei Li, Qindong Xie, Yunpeng Zhang, Subhaskar Mandal, Xiang Xi, Zhen Gao, Longjiang Deng
+†
+, Baile Zhang
+†
+“Realization of a quadrupole topological insulator phase in a gyromagnetic photonic crystal”
+National Science Review 11(11), nwae121
+[PDF]
+24.
+Zhenxiao Zhu, Linyun Yang, Jien Wu, Yan Meng, Xiang Xi, Bei Yan, Jingming Chen, Jiuyang Lu, Xueqin Huang, Weiyin Deng, Ce Shang, Perry Ping Shum, Yihao Yang, Hongsheng Chen, Kexin Xiang,
+Gui-Geng Liu
+†
+, Zhengyou Liu
+†
+, Zhen Gao
+†
+“Brillouin Klein space and half-turn space in three-dimensional acoustic crystals”
+Science Bulletin 69(13), 2050-2058
+[PDF]
+23.
+Fujia Chen
+#
+, Haoran Xue
+#
+, Yuang Pan, Maoren Wang, Yuanhang Hu, Li Zhang, Qiaolu Chen, Song Han,
+Gui-geng Liu
+, Zhen Gao, Peiheng Zhou
+†
+, Wenyan Yin
+†
+, Hongsheng Chen
+†
+, Baile Zhang
+†
+, Yihao Yang
+†
+“Multiple Brillouin Zone Winding of Topological Chiral Edge States for Slow Light Applications”
+Physical Review Letters 132(15), 156602
+[PDF]
+2023 Publications
+22.
+Xiang Xi
+#
+, Bei Yan
+#
+, Linyun Yang
+#
+, Yan Meng, Zhen-Xiao Zhu, Jing-Ming Chen, Ziyao Wang, Peiheng Zhou, Perry Ping Shum, Yihao Yang, Hongsheng Chen, Subhaskar Mandal,
+Gui-Geng Liu
+†
+, Baile Zhang
+†
+, and Zhen Gao
+†
+“Topological antichiral surface states in a magnetic Weyl photonic crystal”
+Nature Communications 14, 1991
+[
+PDF
+]
+21.
+Subhaskar Mandal
+†
+,
+Gui-Geng Liu
+, and Baile Zhang
+†
+“Topology with memory in nonlinear driven-dissipative photonic lattices”
+ACS Photonics 10(1), 147-154
+[
+PDF
+]
+20.
+Yan Meng
+#
+, Shuxin Lin
+#
+, Bin-jie Shi
+#
+, Bin Wei, Linyun Yang, Bei Yan, Zhenxiao Zhu, Xiang Xi, Yin Wang, Yong Ge, Shou-qi Yuan, Jingming Chen,
+Gui-Geng Liu
+, Hong-xiang Sun
+†
+, Hongsheng Chen, Yihao Yang
+†
+, Zhen Gao
+†
+“Spinful Topological Phases in Acoustic Crystals with Projective  Symmetry”
+Physical Review Letters 130(2), 026101
+[
+PDF
+]
+2022 Publications
+19.
+Gui-Geng Liu
+#
+, Zhen Gao
+#
+, Qiang Wang, Xiang Xi, Yuan-Hang Hu, Maoren Wang, Chengqi Liu, Xiao Lin, Longjiang Deng, Shengyuan A. Yang, Peiheng Zhou
+†
+, Yihao Yang
+†
+, Yidong Chong
+†
+, and Baile Zhang
+†
+“Topological Chern vectors in three-dimensional photonic crystals”
+Nature 609, 925–930
+[PDF]
+18.
+Linyun Yang
+#
+, Yin Wang
+#
+, Yan Meng, Zhenxiao Zhu, Xiang Xi, Bei Yan, Shuxin Lin, Jingming Chen, Bin-jie Shi, Yong Ge, Shou-qi Yuan, Hongsheng Chen, Hong-xiang Sun
+†
+,
+Gui-Geng Liu
+†
+, Yihao Yang
+†
+, and Zhen Gao
+†
+“Observation of Dirac hierarchy in three-dimensional acoustic topological insulators”
+Physical Review Letters 129, 125502
+[
+PDF
+]
+Editors’ Suggestion
+17.
+Zhenxiao Zhu
+#
+, Zhen Gao
+#†
+,
+Gui-Geng Liu
+#
+, Yong Ge, Yin Wang, Xiang Xi, Bei Yan, Fujia Chen, Perry Ping Shum, Hong-xiang Sun
+†
+, and Yihao Yang
+†
+“Observation of multiple rotons and multidirectional roton-like dispersion relations in acoustic metamaterials”
+New Journal of Physics 24, 123019
+[PDF]
+16.
+Minggui Wei, Yuhong Xu,
+Guigeng Liu
+, Tong Wu, Wanyin Liu, Xiaoqiang Su, Quan Xu, Xueqian Zhang, Jiaguang Han
+†
+, Jianqiang Gu
+†
+, and Baile Zhang
+†
+“Extended metasurface spin functionalities from rotation of elements”
+Advanced Optical Materials 10(24), 2201975
+[PDF]
+15.
+Hao Hu
+#
+, Song Han
+#
+, Yihao Yang
+#
+†
+, Dongjue Liu, Haoran Xue,
+Gui-Geng Liu
+, Zheyu Cheng, Qi Jie Wang, Shuang Zhang, Baile Zhang
+†
+, and Yu Luo
+†
+“
+Observation of Topological Edge States in Thermal Diffusion
+“
+Advanced Materials 34(31), 2202257
+[
+PDF
+]
+2021 Publications
+14.
+Yuhan Zhong
+#
+, Xiao Lin
+#
+†
+, Jing Jiang, Yi Yang,
+Gui-Geng Liu
+, Haoran Xue, Tony Low
+†
+,
+Hongsheng Chen
+†
+, and Baile Zhang
+†
+“Toggling Near‐Field Directionality via Polarization Control of Surface Waves”
+Laser & Photonics Reviews 15(4), 202000388
+[
+PDF
+]
+2020 Publications
+13.
+Gui-Geng Liu
+#
+, Peiheng Zhou
+#
+, Yihao Yang
+†
+, Haoran Xue, Xin Ren, Xiao Lin, Hong-xiang Sun, Lei Bi,
+Yidong Chong
+†
+, and Baile Zhang
+†
+“Observation of an unpaired photonic Dirac point”
+Nature Communications 11,1873
+[
+PDF
+]
+12.
+Gui-Geng Liu
+, Yihao Yang
+†
+, Xin Ren, Haoran Xue, Xiao Lin, Yuan-Hang Hu, Hong-xiang Sun, Bo Peng, Peiheng Zhou
+†
+, Yidong Chong
+†
+, and Baile Zhang
+†
+“Topological Anderson insulator in disordered photonic crystals”
+Physical Review Letters 125, 133603
+[
+PDF
+]
+Featured in Physics & Editors’ Suggestion
+Synopsis
+:
+Let Disorder Dictate Topology
+11.
+Peiheng Zhou
+#
+,
+Gui-Geng Liu
+#
+, Xin Ren, Yihao Yang
+†
+, Haoran Xue, Lei Bi, Longjiang Deng, Yidong Chong
+†
+, and Baile Zhang
+†
+“Photonic amorphous topological insulator”
+Light: Science & Applications 9, 133
+[
+PDF
+]
+10.
+Peiheng Zhou,
+Gui-Geng Liu
+†
+, Yihao Yang
+, Yuan-Hang Hu, Sulin Ma, Haoran Xue, Qiang Wang, Longjiang Deng
+†
+,
+and Baile Zhang
+†
+“Observation of photonic antichiral edge states”
+Physical Review Letters 125, 263603
+[
+PDF
+]
+2019 Publications
+9.
+Haoran Xue, Yahui
+Yang
+,
+Guigeng Liu
+, Fei Gao, Yidong Chong
+†
+, and Baile Zhang
+†
+“Realization of an acoustic third-order topological insulator”
+Physical Review Letters 122, 244301
+[
+PDF
+]
+2018 Publications
+8.
+Gui-Geng Liu
+, Ke Wang, Yun-Han Lee, Dan Wang, Ping-Ping Li, Fangwang Gou, Yongnan Li, Chenghou Tu
+†
+, Shin-Tson Wu, Hui-Tian Wang
+†
+“Measurement of the topological charge and index of vortex vector optical fields with a space-variant half-wave plate”
+Optics Letters 43(4), 823-826
+[
+PDF
+]
+7.
+Dan Wang,
+Gui-Geng Liu
+, Jia-Qi Lü, Ping-Ping Li, Meng-Qiang Cai, Guan-Lin Zhang, Yongnan Li, Chenghou Tu
+†
+, Hui-Tian Wang
+†
+“Femtosecond polarization-structured optical field meets an anisotropic nonlinear medium”
+Optics Express 26(21), 27726-27747
+[
+PDF
+]
+6.
+Dan Wang, Yue Pan, Jia-Qi Lü, Ping-Ping Li,
+Gui-Geng Liu
+, Meng-Qiang Cai, Yongnan Li, Chenghou Tu
+†
+, Hui-Tian Wang
+†
+“Controlling optical field collapse by elliptical symmetry hybrid polarization structure”
+Journal of the Optical Society of America B 35(10), 2373-2381
+[
+PDF
+]
+5.
+Ping-Ping Li, Meng-Qiang Cai, Jia-Qi Lü, Dan Wang,
+Gui-Geng Liu
+, Chenghou Tu, Yongnan Li
+†
+, Hui-Tian Wang
+†
+“Unveiling of control on polarization of supercontinuum spectra based on ultrafast birefringence induced by filamentation”
+Journal of the Optical Society of America B 35(11), 2916-2922
+[
+PDF
+]
+2017 Publications
+4.
+Gui-Geng Liu
+, Yun-Han Lee, Yuge Huang, Zheyuan Zhu, Guanjun Tan, Meng-Qiang Cai, Ping-Ping Li, Dan Wang, Yongnan Li, Shuo Pang, Chenghou Tu
+†
+, Shin-Tson Wu
+†
+, Hui-Tian Wang
+†
+“Dielectric broadband meta-vector-polarizers based on nematic liquid crystal”
+APL Photonics 2(12), 126102
+[
+PDF
+]
+Featured Paper
+AIP News
+:
+Advance in Light Filtering Technology Has Implications for LCD Screens, Lasers and Beyond
+3.
+Yun-Han Lee, Daniel Franklin, Fangwang Gou,
+Guigeng Liu
+, Fenglin Peng, Debashis Chanda
+†
+, Shin-Tson Wu
+†
+“Two-photon polymerization enabled multi-layer liquid crystal phase modulator”
+Scientific Reports 7(1), 16260
+[
+PDF
+]
+2.
+Yun-Han Lee, Guanjun Tan, Tao Zhan, Yishi Weng,
+Guigeng Liu
+, Fangwang Gou, Fenglin Peng, Nelson V Tabiryan, Sebastian Gauza, Shin-Tson Wu
+†
+“Recent progress in Pancharatnam–Berry phase optical elements and the applications for virtual/augmented realities”
+Optical Data Processing and Storage 3(1), 79-88
+[
+PDF
+]
+Invited Review
+2016 Publications
+1.
+Ping-Ping Li, Meng-Qiang Cai, Jia-Qi Lü, Dan Wang,
+Gui-Geng Liu
+, Sheng-Xia Qian, Yongnan Li, Chenghou Tu
+†
+, Hui-Tian Wang
+†
+“Control of femtosecond multi-filamentation in glass by designable patterned optical fields”
+AIP Advances 6(12), 125103
+[
+PDF
+]
+Subsidiary Sidebar
+总浏览量：2,687,759
+·
+Gui-Geng LIU Copyright © 2015-2023

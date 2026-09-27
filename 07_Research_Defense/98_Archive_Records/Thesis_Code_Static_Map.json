@@ -1,0 +1,608 @@
+[
+  {
+    "source": "F:/biyesheji/code/base.txt",
+    "sha256": "9ab763a946f5ad12776d438c4fea68e789f76f99fba537422104d64add8b5129",
+    "lines": 12,
+    "reference_comment_lines": [],
+    "save_path_lines": [],
+    "static_parse": "not Python syntax or command notes; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/code01-05存档.txt",
+    "sha256": "5049e52301acfb01ac290aaa4c7d537dace718ff271418200d8aeb04996e84e3",
+    "lines": 580,
+    "reference_comment_lines": [
+      48,
+      171
+    ],
+    "save_path_lines": [
+      {
+        "line": 22,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/code06-07存档.txt",
+    "sha256": "c777e1a9c1846336b63c25b940327c70f1147e05a90080f2c757a2cce913ff14",
+    "lines": 583,
+    "reference_comment_lines": [
+      50,
+      173,
+      182
+    ],
+    "save_path_lines": [
+      {
+        "line": 22,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/code09存档.txt",
+    "sha256": "7b0b12dcb01ba27b3c409168af4412b144610f8317cf0217f7e472a515214194",
+    "lines": 591,
+    "reference_comment_lines": [
+      50,
+      173,
+      182
+    ],
+    "save_path_lines": [
+      {
+        "line": 22,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/code_run_v2.py",
+    "sha256": "4c1d80d3b5bcd12ec04df0d487d902599ddf16b1e5aecb7241a546e0ea674ecc",
+    "lines": 1101,
+    "reference_comment_lines": [
+      80,
+      258,
+      267
+    ],
+    "save_path_lines": [
+      {
+        "line": 23,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/code工字形最终存档.txt",
+    "sha256": "f0c2c3d44dd69e3e468e210df1d4b134959b933da21246a7af2b570862450081",
+    "lines": 878,
+    "reference_comment_lines": [
+      67,
+      244,
+      253
+    ],
+    "save_path_lines": [
+      {
+        "line": 22,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/code拓扑12.89最终存档.txt",
+    "sha256": "9464b60ec8b4510ef302e8bc6619c279442f6fc99053c36d0603c2b4b577f8c3",
+    "lines": 1032,
+    "reference_comment_lines": [
+      71,
+      248,
+      257
+    ],
+    "save_path_lines": [
+      {
+        "line": 23,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/code条带存档.txt",
+    "sha256": "b26e004f4f5b2f6c3a08c75b2c82ca5f975aaa9cf2e0fb4883d8749e3a7229d9",
+    "lines": 845,
+    "reference_comment_lines": [
+      63,
+      225,
+      234
+    ],
+    "save_path_lines": [
+      {
+        "line": 22,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_12x12_fixed_topology_lf_refine_code.py",
+    "sha256": "43881dee7868997da1e39cd3a77a0c3bc87de392e4f21575fd8266c8f5e4d75d",
+    "lines": 6028,
+    "reference_comment_lines": [
+      226,
+      566,
+      575
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_template_coverage85_ga\")"
+      },
+      {
+        "line": 2360,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hybrid_coverage85_ga\")"
+      },
+      {
+        "line": 3340,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hf_compensation_ga\")"
+      },
+      {
+        "line": 4272,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_multitemplate_topology_ga\")"
+      },
+      {
+        "line": 5481,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_fixed_topology_lf_refine\")"
+      }
+    ],
+    "redefined_top_level_functions": {
+      "flatten_mask": 5,
+      "decode": 5,
+      "template_summary": 5,
+      "bitstring": 5,
+      "mask_quality_report": 4,
+      "prefilter_individual": 4,
+      "log_individual_trace": 4,
+      "_find_effective_intervals": 5,
+      "extract_metrics": 5,
+      "run_cst": 5,
+      "initialize_population": 5,
+      "evaluate_individual": 5,
+      "evaluate_population": 5,
+      "select_parent": 5,
+      "crossover": 5,
+      "mutate": 4,
+      "make_new_population": 5,
+      "write_best_result": 5,
+      "optimize": 5,
+      "ensure_array_mask": 4,
+      "matrix_to_string": 4,
+      "repair_masks": 3,
+      "make_individual": 4,
+      "clone_individual": 4,
+      "individual_key": 4,
+      "configure_rs_for_individual": 4,
+      "save_mask_txt": 4,
+      "export_mask_figure": 4,
+      "repair_x_mask": 2,
+      "repair_y_mask": 2,
+      "mutate_params": 2
+    },
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_12x12_hf_compensation_ga_code.py",
+    "sha256": "1b5536622b73bb69c84118864c4d20c19f11b444bc475fbe7030cc6cedb361b3",
+    "lines": 4267,
+    "reference_comment_lines": [
+      226,
+      566,
+      575
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_template_coverage85_ga\")"
+      },
+      {
+        "line": 2360,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hybrid_coverage85_ga\")"
+      },
+      {
+        "line": 3340,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hf_compensation_ga\")"
+      }
+    ],
+    "redefined_top_level_functions": {
+      "flatten_mask": 3,
+      "decode": 3,
+      "template_summary": 3,
+      "bitstring": 3,
+      "mask_quality_report": 3,
+      "prefilter_individual": 3,
+      "log_individual_trace": 3,
+      "_find_effective_intervals": 3,
+      "extract_metrics": 3,
+      "run_cst": 3,
+      "initialize_population": 3,
+      "evaluate_individual": 3,
+      "evaluate_population": 3,
+      "select_parent": 3,
+      "crossover": 3,
+      "mutate": 3,
+      "make_new_population": 3,
+      "write_best_result": 3,
+      "optimize": 3,
+      "ensure_array_mask": 2,
+      "matrix_to_string": 2,
+      "repair_masks": 2,
+      "make_individual": 2,
+      "clone_individual": 2,
+      "individual_key": 2,
+      "configure_rs_for_individual": 2,
+      "save_mask_txt": 2,
+      "export_mask_figure": 2
+    },
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_12x12_hybrid_coverage85_ga_code.py",
+    "sha256": "0412c0b2dfa69235ded3f960b546ea97afd1fd2b1bbc46224ef718abf48d7a6a",
+    "lines": 3337,
+    "reference_comment_lines": [
+      226,
+      566,
+      575
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_template_coverage85_ga\")"
+      },
+      {
+        "line": 2360,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hybrid_coverage85_ga\")"
+      }
+    ],
+    "redefined_top_level_functions": {
+      "flatten_mask": 2,
+      "decode": 2,
+      "template_summary": 2,
+      "bitstring": 2,
+      "mask_quality_report": 2,
+      "prefilter_individual": 2,
+      "log_individual_trace": 2,
+      "_find_effective_intervals": 2,
+      "extract_metrics": 2,
+      "run_cst": 2,
+      "initialize_population": 2,
+      "evaluate_individual": 2,
+      "evaluate_population": 2,
+      "select_parent": 2,
+      "crossover": 2,
+      "mutate": 2,
+      "make_new_population": 2,
+      "write_best_result": 2,
+      "optimize": 2
+    },
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+    "sha256": "844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72",
+    "lines": 5479,
+    "reference_comment_lines": [
+      226,
+      566,
+      575
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_template_coverage85_ga\")"
+      },
+      {
+        "line": 2360,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hybrid_coverage85_ga\")"
+      },
+      {
+        "line": 3340,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hf_compensation_ga\")"
+      },
+      {
+        "line": 4272,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_multitemplate_topology_ga\")"
+      }
+    ],
+    "redefined_top_level_functions": {
+      "flatten_mask": 4,
+      "decode": 4,
+      "template_summary": 4,
+      "bitstring": 4,
+      "mask_quality_report": 4,
+      "prefilter_individual": 4,
+      "log_individual_trace": 4,
+      "_find_effective_intervals": 4,
+      "extract_metrics": 4,
+      "run_cst": 4,
+      "initialize_population": 4,
+      "evaluate_individual": 4,
+      "evaluate_population": 4,
+      "select_parent": 4,
+      "crossover": 4,
+      "mutate": 4,
+      "make_new_population": 4,
+      "write_best_result": 4,
+      "optimize": 4,
+      "ensure_array_mask": 3,
+      "matrix_to_string": 3,
+      "repair_masks": 3,
+      "make_individual": 3,
+      "clone_individual": 3,
+      "individual_key": 3,
+      "configure_rs_for_individual": 3,
+      "save_mask_txt": 3,
+      "export_mask_figure": 3,
+      "repair_x_mask": 2,
+      "repair_y_mask": 2
+    },
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_12x12_quarter_symmetric_ga_code.py",
+    "sha256": "6b31f4e4ec84e4d58b1bba9526146fd53ba322c9adaba15d632d1ffeabb09cdd",
+    "lines": 6194,
+    "reference_comment_lines": [
+      226,
+      566,
+      575
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_template_coverage85_ga\")"
+      },
+      {
+        "line": 2360,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hybrid_coverage85_ga\")"
+      },
+      {
+        "line": 3340,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_hf_compensation_ga\")"
+      },
+      {
+        "line": 4272,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_multitemplate_topology_ga\")"
+      },
+      {
+        "line": 5478,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_quarter_symmetric_ga\")"
+      }
+    ],
+    "redefined_top_level_functions": {
+      "flatten_mask": 5,
+      "decode": 5,
+      "template_summary": 5,
+      "bitstring": 5,
+      "mask_quality_report": 4,
+      "prefilter_individual": 4,
+      "log_individual_trace": 4,
+      "_find_effective_intervals": 4,
+      "extract_metrics": 5,
+      "run_cst": 5,
+      "initialize_population": 5,
+      "evaluate_individual": 5,
+      "evaluate_population": 5,
+      "select_parent": 5,
+      "crossover": 5,
+      "mutate": 5,
+      "make_new_population": 5,
+      "write_best_result": 4,
+      "optimize": 5,
+      "ensure_array_mask": 3,
+      "matrix_to_string": 4,
+      "repair_masks": 3,
+      "make_individual": 4,
+      "clone_individual": 4,
+      "individual_key": 4,
+      "configure_rs_for_individual": 4,
+      "save_mask_txt": 3,
+      "export_mask_figure": 4,
+      "repair_x_mask": 2,
+      "repair_y_mask": 2,
+      "point_flip": 2,
+      "mutate_params": 2
+    },
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_12x12_template_coverage85_ga_code.py",
+    "sha256": "cbb62b638544cbc14b3bbe69680c78190af5f733772b51a92371ef2310288372",
+    "lines": 2354,
+    "reference_comment_lines": [
+      226,
+      566,
+      575
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_template_coverage85_ga\")"
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_6x6_ga_stable_code.py",
+    "sha256": "4a479ac5dacca039ebda686e0469ad796f09e07e52c4f54fe1ad345224240e33",
+    "lines": 2000,
+    "reference_comment_lines": [
+      196,
+      536,
+      545
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_6x6_ga_stable\")"
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_9x9_best_recheck.py",
+    "sha256": "bae46ecca55ce72c7cbfe92f65029a7b66721963778ca540c52ff08259d96e9c",
+    "lines": 2030,
+    "reference_comment_lines": [
+      216,
+      556,
+      565
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_9x9_best_122587_recheck\")"
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_9x9_fixed_ph_ga_code.py",
+    "sha256": "6b39e310b3a048615df4d7ad14deba1916afc9fdb494fffda438d66bf992cc51",
+    "lines": 2030,
+    "reference_comment_lines": [
+      216,
+      556,
+      565
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_9x9_fixed_ph_ga\")"
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/ohmic_sheet_9x9_ph_micro_only_ga.py",
+    "sha256": "61d088cf4b1ad641002013763eb7babb652b47d1cee3c2cb2dcd5f3c97abfc19",
+    "lines": 2073,
+    "reference_comment_lines": [
+      223,
+      563,
+      572
+    ],
+    "save_path_lines": [
+      {
+        "line": 26,
+        "text": "BASE_SAVE_PATH = r\"F:\\biyesheji\""
+      },
+      {
+        "line": 27,
+        "text": "SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_9x9_ph_micro_only_ga\")"
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/run_optimizer.py",
+    "sha256": "8074e06ff5e2a1221e1997e4e0826263aebcedadad74d4bfde1615995ba19aa1",
+    "lines": 848,
+    "reference_comment_lines": [
+      68,
+      245
+    ],
+    "save_path_lines": [
+      {
+        "line": 23,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/test_cst.py",
+    "sha256": "2312e7499ce82c34031644d93577e47805f03e1ed12a5c7c7ac6c7cf4db63c9c",
+    "lines": 18,
+    "reference_comment_lines": [],
+    "save_path_lines": [],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/test_ohmic_sheet_assign.py",
+    "sha256": "769c080bb2d5faecd97ad6239101c0c8c3e47492fc8230638e4a48c590cab80c",
+    "lines": 72,
+    "reference_comment_lines": [],
+    "save_path_lines": [],
+    "static_parse": "not Python syntax or command notes; not executed"
+  },
+  {
+    "source": "F:/biyesheji/code/临时代码文件.txt",
+    "sha256": "9464b60ec8b4510ef302e8bc6619c279442f6fc99053c36d0603c2b4b577f8c3",
+    "lines": 1032,
+    "reference_comment_lines": [
+      71,
+      248,
+      257
+    ],
+    "save_path_lines": [
+      {
+        "line": 23,
+        "text": "SAVE_PATH = r\"F:\\biyesheji\""
+      }
+    ],
+    "redefined_top_level_functions": {},
+    "static_parse": "OK; not executed"
+  }
+]

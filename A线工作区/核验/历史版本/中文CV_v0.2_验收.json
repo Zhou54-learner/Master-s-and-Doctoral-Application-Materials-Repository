@@ -1,0 +1,129 @@
+{
+  "date": "2026-09-26",
+  "version": "v0.2 INTERNAL",
+  "pdf_pages": 1,
+  "word_pages": 1,
+  "word_page_count_source": "Word ComputeStatistics during PDF export",
+  "source_fragments_matched_in_docx_and_pdf": 37,
+  "pdf_font_families": [
+    "SourceHanSansCN-Bold",
+    "SourceHanSansCN-Regular"
+  ],
+  "all_fonts_embedded": true,
+  "all_text_inside_page_and_horizontal_margins": true,
+  "dates_right_aligned": 6,
+  "own_name_bold_instances": 3,
+  "hyperlinks": [
+    "https://doi.org/10.1360/SSPMA-2024-0393",
+    "https://doi.org/10.20249/j.cnki.2096-5974.2025.01.011",
+    "mailto:zhouzijing54@gmail.com"
+  ],
+  "local_document_links_checked": 34,
+  "original_assets": [
+    {
+      "path": "A线_PI_04_吴泰霖.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_PI_05_鲍芳琳.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_PI_06_田静逸.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_PI_07_刘癸庚_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_PI_08_仇旻.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_PI_总表_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "个人资料\\成绩单.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "个人资料\\排名.png",
+      "unchanged": true
+    },
+    {
+      "path": "个人资料\\英语六级成绩.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "个人资料\\英语四级成绩.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-刘仕组\\刘仕组.md",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-刘仕组\\A线_PI_02_刘仕_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-朱一舟组\\朱一舟组.md",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-朱一舟组\\A perspective on training machine learning force fields for solid-state electrolyte materials.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-朱一舟组\\A线_PI_01_朱一舟.md",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-朱一舟组\\A线_PI_03_李文彬.md",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-朱一舟组\\Automated phase mapping of high-throughput X-ray diffraction data encoded with domain-specific materials science knowledge.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-朱一舟组\\Equivariant diffusion solution for inorganic crystal structure determination from powder X-ray diffraction data.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-朱一舟组\\Improving Robustness and Training Efficiency of Machine-Learned Potentials by Incorporating Short-Range Empirical Potentials.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "西湖-朱一舟组\\Supporting Information.pdf",
+      "unchanged": true
+    }
+  ],
+  "historical_versions_unchanged": [
+    "材料/中文学术简历_v0.1_INTERNAL.md",
+    "材料/校对稿/周子靖_中文学术简历_v0.1_INTERNAL.pdf",
+    "核验/build_chinese_cv.py",
+    "材料/Academic_CV_v1.1_READY.md",
+    "材料/对外PDF/Zijing_Zhou_CV_v1.1.pdf"
+  ],
+  "outputs": [
+    {
+      "path": "A线工作区\\材料\\周子靖_中文学术简历_v0.2_INTERNAL.md",
+      "SHA256": "0B97ABE643E7A9C92F389E880C8EBB0D4998A615F699E64B09CABD782B4AAA9E"
+    },
+    {
+      "path": "A线工作区\\材料\\校对稿\\周子靖_中文学术简历_v0.2_INTERNAL.docx",
+      "SHA256": "96C91E230301A5C536996C674466298CD7F3801D9A1E3A2063D535BD87DFD2DB"
+    },
+    {
+      "path": "A线工作区\\材料\\校对稿\\周子靖_中文学术简历_v0.2_INTERNAL.pdf",
+      "SHA256": "AB78D5A3C6DFFDBBAC31A4C733FA278B5F50D5C96FDE6132059E527DA46E8579"
+    }
+  ],
+  "limits": [
+    "Text/layout checks do not independently prove applicant contributions",
+    "No CST execution, Gmail send test, external upload, email send or application submission"
+  ]
+}

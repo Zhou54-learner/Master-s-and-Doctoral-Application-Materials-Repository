@@ -1,0 +1,8 @@
+Best score: 14.559257865495175
+Best bandwidth( RL<-10 dB ): 11.462686567164178 GHz
+Best min RL: -23.24449853228938 dB
+Best individual: [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0]
+Best parameters (p, h, mask_x_seed, mask_y_seed): (13.1778, 8.8571, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0], [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0])
+Best CST file: F:\biyesheji\ohmic_sheet_12x12_coverage85_ga\best_design_ohmic_sheet_12x12.cst
+Best S11 txt file: F:\biyesheji\ohmic_sheet_12x12_coverage85_ga\best_s11_ohmic_sheet_12x12.txt
+Best S11 png file: F:\biyesheji\ohmic_sheet_12x12_coverage85_ga\best_s11_ohmic_sheet_12x12.png

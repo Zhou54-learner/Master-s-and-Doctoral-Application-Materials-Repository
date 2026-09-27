@@ -1,0 +1,31 @@
+12x12 fixed-topology low-frequency-edge refinement result
+Best score: 57.607454381572026
+Best contiguous bandwidth( RL<-10 dB ): 13.2 GHz
+Best coverage in 2-18 GHz: 82.5 %
+Best low edge: 4.800000000000001 GHz
+Best high edge: 18.0 GHz
+Best min RL: -20.193035468923167 dB
+Best total effective bandwidth estimate: 13.280000000000001 GHz
+Best worst RL in 4.4-4.8 GHz: -8.747182197521008 dB
+Best mean RL in 4.4-4.8 GHz: -9.34141087116866 dB
+Best worst RL in 17.6-18.0 GHz: -10.328915409684171 dB
+RL at 4.40 GHz: -8.747182197521008 dB
+RL at 4.48 GHz: -9.041703211711487 dB
+RL at 4.56 GHz: -9.339133746013022 dB
+RL at 4.64 GHz: -9.638864990365445 dB
+RL at 4.72 GHz: -9.940170210232328 dB
+RL at 4.80 GHz: -10.242192565771543 dB
+Best individual summary: origin=elite_local_1.0, p=13.0902, h=10.25072, Rs_x=156.5991, Rs_y=36.4988
+Best parameters (p, h, mask_x_flatten, mask_y_flatten): (13.0902, 10.25072, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+Best CST file: F:\biyesheji\ohmic_sheet_12x12_fixed_topology_lf_refine\best_design_ohmic_sheet_12x12.cst
+Best S11 txt file: F:\biyesheji\ohmic_sheet_12x12_fixed_topology_lf_refine\best_s11_ohmic_sheet_12x12.txt
+Best S11 png file: F:\biyesheji\ohmic_sheet_12x12_fixed_topology_lf_refine\best_s11_ohmic_sheet_12x12.png
+Fixed X mask txt file: F:\biyesheji\ohmic_sheet_12x12_fixed_topology_lf_refine\fixed_mask_x_12x12.txt
+Fixed Y mask txt file: F:\biyesheji\ohmic_sheet_12x12_fixed_topology_lf_refine\fixed_mask_y_12x12.txt
+Fixed mask figure: F:\biyesheji\ohmic_sheet_12x12_fixed_topology_lf_refine\fixed_mask_xy_12x12.png
+
+Fixed X mask compact:
+000000000000/000000000000/000000000000/010000000000/111110001111/111100001111/111100000111/111100001111/000000011000/000000001000/000000000000/000000000000
+
+Fixed Y mask compact:
+111111111111/100010010001/100010010001/100000000101/111110001111/111100001111/111100001111/111100001111/100000000001/100010010011/100010010001/111111111111

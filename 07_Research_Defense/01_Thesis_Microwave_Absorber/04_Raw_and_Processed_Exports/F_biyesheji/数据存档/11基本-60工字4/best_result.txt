@@ -1,0 +1,6 @@
+Best score: 12.273121443213254
+Best bandwidth( RL<-10 dB ): 11.621890547263682 GHz
+Best min RL: -31.247852001010674 dB
+Best individual: [0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0]
+Best parameters (p, h, w1, w2, cap_ratio, orientation): (13.2429, 8.821, 4.94, 9.3889, 0.1594, 0)
+Best CST file: F:\biyesheji\best_design.cst
