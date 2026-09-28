@@ -1,0 +1,19 @@
+{
+  "周子靖_中文学术简历_刘癸庚版_v4.pdf": {
+    "pages": 1,
+    "sha256": "dfb90a547b7f3c976824f240b66007cf01d2f36b8e3f1f9a287e1fc40e10cc88",
+    "internal_marks": false,
+    "text_chars": 1119,
+    "raster_images": 0
+  },
+  "周子靖_毕设项目页_刘癸庚版_v5.pdf": {
+    "pages": 1,
+    "sha256": "2e6a9783ea5df4e30666df35ed6e5bec75f9310db2dea4538392e418c612f4b8",
+    "internal_marks": false,
+    "text_chars": 835,
+    "raster_images": 0
+  },
+  "email_body_unchanged": true,
+  "project_regeneration_pixel_match": true,
+  "visual_review": "PASS: CV and project sheet full-page previews inspected"
+}

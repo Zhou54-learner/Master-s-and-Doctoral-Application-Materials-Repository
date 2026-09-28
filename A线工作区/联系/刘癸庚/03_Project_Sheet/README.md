@@ -1,5 +1,7 @@
 # Thesis Project Sheet v1 — editable sources
 
+**2026-09-28当前待审：** [项目页v5 PDF](output_v5/周子靖_毕设项目页_刘癸庚版_v5.pdf) / [预览](output_v5/周子靖_毕设项目页_刘癸庚版_v5.png) / [可编辑源与修改说明](source/v5/README.md)。末段改为已有经验与继续学习，删除内部页脚；结构与曲线不变。v4保留供本轮对照，下方为旧版本记录。
+
 **最新精修候选（2026-09-27）：** [v4一页PDF](output_v4_CANDIDATE/周子靖_毕设项目页_刘癸庚版_v4_CANDIDATE.pdf)、[v4文字](周子靖_毕设项目页_刘癸庚版_v4_CANDIDATE.md)、[来源、可编辑源与验收](source/v4/README.md)。面向PI初次联系重排，结果口径移至图注，结尾改为方向联系；以最终掩码和参数绘制的结构示意替换显示不清的CST截图。未重新运行CST，原截图显示原因未确诊。v3以下为对照候选，均未发送。
 
 **当前审查候选（2026-09-27）：** [v3一页PDF](output_v3_CANDIDATE/周子靖_毕设项目页_刘癸庚版_v3_CANDIDATE.pdf)、[v3文字](周子靖_毕设项目页_刘癸庚版_v3_CANDIDATE.md)、[v3排版源](source/build_project_sheet_v3_candidate.py)。沿用既有结构图、曲线PDF和工作流，仅更新文字与图注，独立输出至`output_v3_CANDIDATE`；待本人审查，未发送。下面v1为对照及来源记录；不得运行旧脚本覆盖新版，v3脚本也拒绝覆盖已有候选PDF。
