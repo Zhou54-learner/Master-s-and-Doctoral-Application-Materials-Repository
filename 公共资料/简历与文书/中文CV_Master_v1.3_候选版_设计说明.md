@@ -2,6 +2,8 @@
 
 2026-09-28｜INTERNAL｜供本人、Chat 与 Work 审查；**不是 READY，不替代已冻结的 Master v1.2，不得直接外发。**
 
+**Work已完成审查与实排：** 见[审查结论与一页Word/PDF](中文CV_Master_v1.3_审查结论与验收.md)。下文呈现策略为原提案；事实来源、改动和实测以审查记录为准。新版仍CANDIDATE，不合并或升级READY。
+
 候选内容源：[`周子靖_中文学术简历_v0.6_INTERNAL.md`](周子靖_中文学术简历_v0.6_INTERNAL.md)
 
 ## 1. 本轮为什么要改
@@ -38,7 +40,7 @@
 
 Zeyang Zhang, Jun Li, Juan Cui, Zegeng Chen, Zhengyu Zhang, Nandong Deng, Yulin Zeng, **Zijing Zhou**, Zhongxiang Zhou. *Broadband Microwave Absorption of Nb2CTx Nanosheets by a One-Step Hydrothermal Method*. Inorganic Chemistry, 2025, 64(19): 9435–9446. DOI: 10.1021/acs.inorgchem.4c05411.
 
-书目信息已按 ACS/DOI 页面复核；申请人为第 8 位作者。
+本轮书目信息已按出版方提交的Crossref DOI记录复核，申请人为第8位作者；ACS页面本次返回403，未声称取得全文。见[原响应与事实核验](../事实核验/PR8审查_20260928/事实核验.md)。
 
 **为什么建议列出：** Publications 栏首先陈列客观作者身份。只要作者身份真实，完整 CV 列出该论文并不等于声称本人承担了核心研究。此前完全删除它，会让第一眼成果密度降低，也会使“完整论文发表记录”与系统未来要求的全量清单不一致。
 
@@ -55,7 +57,7 @@ Zeyang Zhang, Jun Li, Juan Cui, Zegeng Chen, Zhengyu Zhang, Nandong Deng, Yulin 
 
 ### 2.4 保留本科毕设为绝对主轴
 
-毕设仍占科研区最大的篇幅，三个 bullet 不变：
+毕设仍占科研区最大的篇幅，三条结构保留；Work将旧“构建分阶段搜索流程”同步为后续已核的“调整分阶段搜索流程”：
 
 1. Python-CST 自动化；
 2. 参数空间扩展、GA 搜索与几何约束筛选；
@@ -120,7 +122,7 @@ Zeyang Zhang, Jun Li, Juan Cui, Zegeng Chen, Zhengyu Zhang, Nandong Deng, Yulin 
 4. 保留三篇论文书目信息；
 5. 若版面超出，再压缩荣誉、技能行距和论文排版，而不是先删除真实科研资产。
 
-第三篇论文不需要 contribution 行，本身只增加约 2 行；国家级大创控制为 1 个标题 + 1 个 bullet，增量应尽量小。
+第三篇不增加contribution行。原提案对新增篇幅的预估偏少：Work实排为3行完整书目+1行DOI；国家级大创为标题、成员/编号/导师行及1条贡献。通过技能和荣誉合并、段距/行距调整保持一页，正文仍10.5 pt。
 
 不建议为了强行一页把正文压到明显影响阅读的字号。如果合理压缩后仍无法一页，应由 Work 在实际 Word/PDF 版式中比较“紧凑一页”和“舒适两页”后给出建议，但首轮 PI 套磁仍优先一页。
 
