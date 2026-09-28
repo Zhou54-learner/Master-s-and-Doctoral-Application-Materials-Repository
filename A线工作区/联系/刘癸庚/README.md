@@ -4,13 +4,13 @@
 
 **[打开当前材料与附件清单](05_Send_Readiness/当前材料与附件清单_20260928.md)**
 
-邮件与CV已清除外发内部标记，材料状态READY；项目页v5待本人审查，状态单独记在索引，不显示在PDF内。实际联系仍READYING / NOT SENT，未发送。
+邮件与CV已清除外发内部标记，材料状态READY；项目页v5已获本人初步认可，整包待本人请Chat复审；状态单独记在索引，不显示在PDF内。实际联系仍READYING / NOT SENT，未发送。
 
 | 当前入口 | 文件 |
 |---|---|
 | 邮件 | [主题与正文](01_Email/第一封套磁邮件_刘癸庚_v8.md) / [纯正文](01_Email/邮件正文_v8.txt) |
 | 中文CV | [一页PDF](02_CV/周子靖_中文学术简历_刘癸庚版_v4.pdf) / [Word](02_CV/周子靖_中文学术简历_刘癸庚版_v4.docx) |
-| 待审项目页 | [一页PDF](03_Project_Sheet/output_v5/周子靖_毕设项目页_刘癸庚版_v5.pdf) / [预览](03_Project_Sheet/output_v5/周子靖_毕设项目页_刘癸庚版_v5.png) / [修改说明](03_Project_Sheet/source/v5/README.md) |
+| 项目页（待Chat复审） | [一页PDF](03_Project_Sheet/output_v5/周子靖_毕设项目页_刘癸庚版_v5.pdf) / [预览](03_Project_Sheet/output_v5/周子靖_毕设项目页_刘癸庚版_v5.png) / [修改说明](03_Project_Sheet/source/v5/README.md) |
 | 最新复审 | [整包复审](05_Send_Readiness/联系包全面复审_20260928.md) / [本轮验收](05_Send_Readiness/外发材料清理与项目页v5_验收_20260928.json) |
 | 唯一联系记录 | [招生核验与PI行动表](../../招生核验与PI行动表.md#a4-outreach-tracker) |
 | 科研答问准备 | [个人经历与学习清单](06_Response_Prep/最低Research_Defense_Checklist_v3.md) / [专篇学习包](06_Response_Prep/PI_Specific_Defense/PRL2024_Chiral_Edge_Localization/README.md) |
