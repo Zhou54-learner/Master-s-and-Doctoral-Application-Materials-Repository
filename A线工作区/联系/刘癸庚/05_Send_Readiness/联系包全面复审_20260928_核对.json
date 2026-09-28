@@ -1,0 +1,145 @@
+{
+  "cv": {
+    "path": "A线工作区/联系/刘癸庚/02_CV/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.pdf",
+    "bytes": 118540,
+    "pages": 1,
+    "sha256": "e7a2776cc2a75fad5b614215fd30fe1ecfb7ce2a5c589ae9f6482210eec83f19",
+    "annotations": 0,
+    "page_text_lengths": [
+      1190
+    ],
+    "embedded_files": 0,
+    "page_size": [
+      595.3200073242188,
+      841.9199829101562
+    ]
+  },
+  "project": {
+    "path": "A线工作区/联系/刘癸庚/03_Project_Sheet/output_v4_CANDIDATE/周子靖_毕设项目页_刘癸庚版_v4_CANDIDATE.pdf",
+    "bytes": 131926,
+    "pages": 1,
+    "sha256": "015f6ec57b01d63e55e6270357898c87902c446f5538f74a3f7b63585c8e5b55",
+    "annotations": 0,
+    "page_text_lengths": [
+      834
+    ],
+    "embedded_files": 0,
+    "page_size": [
+      595.2760009765625,
+      841.8900146484375
+    ]
+  },
+  "grades": {
+    "path": "A线工作区/联系/刘癸庚/05_Send_Readiness/附件备选/周子靖_本科成绩单.pdf",
+    "bytes": 640586,
+    "pages": 2,
+    "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19",
+    "annotations": 0,
+    "page_text_lengths": [
+      0,
+      0
+    ],
+    "embedded_files": 0,
+    "same_as_original": true
+  },
+  "paper1": {
+    "path": "A线工作区/联系/刘癸庚/05_Send_Readiness/附件备选/合作论文_吸波材料_2025.pdf",
+    "bytes": 2312663,
+    "pages": 9,
+    "sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480",
+    "annotations": 0,
+    "page_text_lengths": [
+      1926,
+      2231,
+      1449,
+      1125,
+      1144,
+      700,
+      1053,
+      1665,
+      3521
+    ],
+    "embedded_files": 0,
+    "same_as_original": true
+  },
+  "paper2": {
+    "path": "A线工作区/联系/刘癸庚/05_Send_Readiness/附件备选/合作论文_晶格波_2025.pdf",
+    "bytes": 1910311,
+    "pages": 10,
+    "sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c",
+    "annotations": 0,
+    "page_text_lengths": [
+      1586,
+      1690,
+      1828,
+      1653,
+      1450,
+      1572,
+      1368,
+      1162,
+      2206,
+      1642
+    ],
+    "embedded_files": 0,
+    "same_as_original": true
+  },
+  "grades_calculation": {
+    "rows": 92,
+    "numeric_count": 91,
+    "sum": "7298.6",
+    "mean": "80.20439560439560439560439560",
+    "credits": "242.5"
+  },
+  "email": {
+    "body_chars_without_signature": 436,
+    "chinese_chars": 370,
+    "md_body_equal": true
+  },
+  "attachment_total_bytes": 4982100,
+  "project_sources": {
+    "best_mask_x_12x12.txt": true,
+    "best_mask_y_12x12.txt": true,
+    "best_result_ohmic_sheet_12x12.txt": true,
+    "reflection_archived.tsv": true,
+    "ohmic_sheet_12x12_multitemplate_topology_ga_code.py": true
+  },
+  "project_curve_recalculation": {
+    "points": 201,
+    "below_threshold_points": 166,
+    "first": {
+      "freq_GHz": "4.800000000000001",
+      "s11_mag": "0.31468094359865584",
+      "rl_dB": "-10.04259112461038"
+    },
+    "last": {
+      "freq_GHz": "18.0",
+      "s11_mag": "0.30661036238951067",
+      "rl_dB": "-10.268263431085252"
+    },
+    "width": 13.2
+  },
+  "masks": {
+    "best_mask_x_12x12.txt": 36,
+    "best_mask_y_12x12.txt": 79
+  },
+  "cv_docx": {
+    "insertions": 0,
+    "deletions": 0,
+    "comments_file": false,
+    "paragraphs_missing_from_pdf": []
+  },
+  "review_boundary": "当前对外候选全文/版面/附件原件及支持证据；论文核书目及文本层完整性，不作全篇理论与代码重审；未运行科研程序。",
+  "new_official_rank": {
+    "path": "个人资料/排名证明21-46.pdf",
+    "sha256": "a01a83c0e4e46204391c40f1f3900caba05a6b84bfb8d403ac81f6a1dc79f819",
+    "pages": 1,
+    "date": "2026-09-28",
+    "scope": "2022秋—2026春",
+    "rank": 21,
+    "cohort": 46,
+    "official_average": "73.58",
+    "metric": "平均学分绩",
+    "user_clarification": "统计所有考试课课程成绩；与算术均分不同",
+    "online_verified": false
+  }
+}

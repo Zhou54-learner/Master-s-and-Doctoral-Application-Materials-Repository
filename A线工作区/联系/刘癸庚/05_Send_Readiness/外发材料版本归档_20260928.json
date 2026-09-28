@@ -1,0 +1,35 @@
+{
+  "moves": [
+    {
+      "old": "A线工作区/联系/刘癸庚/01_Email/第一封套磁邮件_刘癸庚_v7_CANDIDATE.md",
+      "new": "A线工作区/联系/刘癸庚/01_Email/历史版本/第一封套磁邮件_刘癸庚_v7_CANDIDATE.md",
+      "sha256": "4ea2777ae440a9aacaaed1b7fedf0192a42926b7764fb0033e6e10ed7abbd312"
+    },
+    {
+      "old": "A线工作区/联系/刘癸庚/01_Email/邮件正文_v7_CANDIDATE.txt",
+      "new": "A线工作区/联系/刘癸庚/01_Email/历史版本/邮件正文_v7_CANDIDATE.txt",
+      "sha256": "1f68e8f67e20f8bf3cd9dd9468e8b2a326bc15630b53d0d28d575a2b6c668f20"
+    },
+    {
+      "old": "A线工作区/联系/刘癸庚/02_CV/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.docx",
+      "new": "A线工作区/联系/刘癸庚/02_CV/历史版本/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.docx",
+      "sha256": "57970b059ac04c09e4fb84dff994906594b984c10d5559dca5f35374f6c04147"
+    },
+    {
+      "old": "A线工作区/联系/刘癸庚/02_CV/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.md",
+      "new": "A线工作区/联系/刘癸庚/02_CV/历史版本/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.md",
+      "sha256": "9601a14cc234b25ce5e4164e41947e62bfc8ace9736e5046c582c8c7254a25cd"
+    },
+    {
+      "old": "A线工作区/联系/刘癸庚/02_CV/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.pdf",
+      "new": "A线工作区/联系/刘癸庚/02_CV/历史版本/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.pdf",
+      "sha256": "e7a2776cc2a75fad5b614215fd30fe1ecfb7ce2a5c589ae9f6482210eec83f19"
+    },
+    {
+      "old": "A线工作区/联系/刘癸庚/02_CV/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.png",
+      "new": "A线工作区/联系/刘癸庚/02_CV/历史版本/周子靖_中文学术简历_刘癸庚版_v3_CANDIDATE.png",
+      "sha256": "29c197f838577145bb5209858b0b6303279b1a54d7fd455167ae0596693e7ee2"
+    }
+  ],
+  "note": "邮件v8正文未改，CV v4清理完成；项目页v5待本人审查，v4仍用于对照。旧验收记录中的路径按本表映射。"
+}
