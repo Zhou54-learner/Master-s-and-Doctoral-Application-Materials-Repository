@@ -30,10 +30,10 @@ Aug. 2026 – Present
 
 ## Publications
 
-1. Yutian, Yulin Zeng, Xiaoling Xiao, **Zijing Zhou**, Jun Li. “Design of Magnetic Nano-Alloy/Graphene Composite Microwave Absorbing Materials for Wireless Communication.” *Flight Control & Detection*, 2025, 8(1): 96–104. DOI: 10.20249/j.cnki.2096-5974.2025.01.011.  
+1. YU Tian, ZENG Yulin, XIAO Xiaoling, **ZHOU Zijing**, LI Jun. “Design of Magnetic Nanoalloy/Graphene Composite Absorbing Materials for Wireless Communication.” *Flight Control & Detection*, 2025, 8(1): 96–104. DOI: 10.20249/j.cnki.2096-5974.2025.01.011.  
    **Contribution:** data processing and visualization; preparation of selected figures and manuscript content.
 
-2. Runliang Cheng, Chengrui Zheng, Wenyi Fang, Zhouzhi Liu, Kaichen Yang, **Zijing Zhou**, Xiaoyi Yang. “Lattice Wave Characteristics in Two-Dimensional Dusty Plasma.” *Scientia Sinica Physica, Mechanica & Astronomica*, 2025, 55(10): 105209. DOI: 10.1360/SSPMA-2024-0393.  
+2. CHENG RunLiang, ZHENG ChengRui, FANG WenYi, LIU ZhouZhi, YANG KaiChen, **ZHOU ZiJing**, YANG XiaoYi. “Research of the Lattice Wave Properties of Two-Dimensional Dusty Plasma.” *Scientia Sinica Physica, Mechanica & Astronomica*, 2025, 55(10): 105209. DOI: 10.1360/SSPMA-2024-0393.  
    **Contribution:** MATLAB processing of simulation data, polarization analysis, and trajectory visualization.
 
 ## Technical Skills
