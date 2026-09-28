@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-28",
+  "status": "READY / NOT SENT",
+  "versions": {
+    "email": "v9",
+    "cv": "v4",
+    "project": "v6 (reserve)"
+  },
+  "archived": [
+    {
+      "old": "A线_西湖博士/联系材料/刘癸庚/当前材料/第一封套磁邮件_刘癸庚_v8.md",
+      "new": "A线_西湖博士/联系材料/刘癸庚/历史版本/邮件/第一封套磁邮件_刘癸庚_v8.md",
+      "bytes": 1558,
+      "sha256": "171ae32f757ab32af73c05e2f3af47a6a5d0a307efe3f17a7ada2a538e283c5e"
+    },
+    {
+      "old": "A线_西湖博士/联系材料/刘癸庚/当前材料/邮件正文_v8.txt",
+      "new": "A线_西湖博士/联系材料/刘癸庚/历史版本/邮件/邮件正文_v8.txt",
+      "bytes": 1362,
+      "sha256": "1f68e8f67e20f8bf3cd9dd9468e8b2a326bc15630b53d0d28d575a2b6c668f20"
+    },
+    {
+      "old": "A线_西湖博士/联系材料/刘癸庚/当前材料/周子靖_毕设项目页_刘癸庚版_v5.md",
+      "new": "A线_西湖博士/联系材料/刘癸庚/历史版本/项目页/第五版/周子靖_毕设项目页_刘癸庚版_v5.md",
+      "bytes": 1755,
+      "sha256": "8f93bc25743968b75751b6476190611a14d7ca237d499be8ed6011647d52881b"
+    },
+    {
+      "old": "A线_西湖博士/联系材料/刘癸庚/当前材料/周子靖_毕设项目页_刘癸庚版_v5.pdf",
+      "new": "A线_西湖博士/联系材料/刘癸庚/历史版本/项目页/第五版/周子靖_毕设项目页_刘癸庚版_v5.pdf",
+      "bytes": 131946,
+      "sha256": "2e6a9783ea5df4e30666df35ed6e5bec75f9310db2dea4538392e418c612f4b8"
+    }
+  ],
+  "attachments": [
+    {
+      "source": "A线_西湖博士/联系材料/刘癸庚/当前材料/周子靖_中文学术简历_刘癸庚版_v4.pdf",
+      "delivery": "A线_西湖博士/联系材料/刘癸庚/当前材料/首封附件/周子靖_学术简历.pdf",
+      "bytes": 112966,
+      "sha256": "dfb90a547b7f3c976824f240b66007cf01d2f36b8e3f1f9a287e1fc40e10cc88"
+    },
+    {
+      "source": "A线_西湖博士/联系材料/刘癸庚/当前材料/周子靖_本科成绩单.pdf",
+      "delivery": "A线_西湖博士/联系材料/刘癸庚/当前材料/首封附件/周子靖_本科成绩单.pdf",
+      "bytes": 640586,
+      "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19"
+    },
+    {
+      "source": "A线_西湖博士/联系材料/刘癸庚/当前材料/合作论文_吸波材料_2025.pdf",
+      "delivery": "A线_西湖博士/联系材料/刘癸庚/当前材料/首封附件/磁纳米合金与石墨烯复合吸波材料_2025.pdf",
+      "bytes": 2312663,
+      "sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480"
+    },
+    {
+      "source": "A线_西湖博士/联系材料/刘癸庚/当前材料/合作论文_晶格波_2025.pdf",
+      "delivery": "A线_西湖博士/联系材料/刘癸庚/当前材料/首封附件/二维尘埃等离子体晶格波特性研究_2025.pdf",
+      "bytes": 1910311,
+      "sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c"
+    }
+  ],
+  "pdf_review": {
+    "合作论文_吸波材料_2025.pdf": {
+      "pages": 9,
+      "bytes": 2312663,
+      "sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480",
+      "annotations": 0,
+      "embedded": 0,
+      "internal_marks": false,
+      "metadata": {
+        "format": "PDF 1.6",
+        "title": "",
+        "author": "CNKI",
+        "subject": "",
+        "keywords": "",
+        "creator": "ReaderEx_DIS 2.6.0 Build 4111",
+        "producer": "TTKN",
+        "creationDate": "D:20250318155745-08'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    "合作论文_晶格波_2025.pdf": {
+      "pages": 10,
+      "bytes": 1910311,
+      "sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c",
+      "annotations": 0,
+      "embedded": 0,
+      "internal_marks": false,
+      "metadata": {
+        "format": "PDF 1.6",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "CNKI",
+        "producer": "ReaderEx_DIS 2.6.0 Build 4116",
+        "creationDate": "D:20251106193325-08'00'",
+        "modDate": "",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    "周子靖_中文学术简历_刘癸庚版_v4.pdf": {
+      "pages": 1,
+      "bytes": 112966,
+      "sha256": "dfb90a547b7f3c976824f240b66007cf01d2f36b8e3f1f9a287e1fc40e10cc88",
+      "annotations": 0,
+      "embedded": 0,
+      "internal_marks": false,
+      "metadata": {
+        "format": "PDF 1.7",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "Microsoft® Word 适用于 Microsoft 365",
+        "producer": "Microsoft® Word 适用于 Microsoft 365",
+        "creationDate": "D:20260928091625+08'00'",
+        "modDate": "D:20260928091625+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    "周子靖_本科成绩单.pdf": {
+      "pages": 2,
+      "bytes": 640586,
+      "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19",
+      "annotations": 0,
+      "embedded": 0,
+      "internal_marks": false,
+      "metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "PaperStream Capture 2.1",
+        "producer": "PFU PDF Library 1.2.1",
+        "creationDate": "D:20260603080911+08'00'",
+        "modDate": "D:20260603080911+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    "周子靖_毕设项目页_刘癸庚版_v5.pdf": {
+      "pages": 1,
+      "bytes": 131946,
+      "sha256": "2e6a9783ea5df4e30666df35ed6e5bec75f9310db2dea4538392e418c612f4b8",
+      "annotations": 0,
+      "embedded": 0,
+      "internal_marks": false,
+      "metadata": {
+        "format": "PDF 1.4",
+        "title": "周子靖｜电阻膜微波吸收结构的仿真与优化｜研究经历补充",
+        "author": "Zijing Zhou",
+        "subject": "unspecified",
+        "keywords": "",
+        "creator": "anonymous",
+        "producer": "ReportLab PDF Library - (opensource)",
+        "creationDate": "D:20260928091610+08'00'",
+        "modDate": "D:20260928091610+08'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    }
+  },
+  "readiness_policy": "User instructed that work reconstruction and defense study are interview preparation, not first-email gates.",
+  "final_checks": {
+    "email_exactly_two_edits": true,
+    "body_matches_mail": true,
+    "cv_docx_paragraphs_match_pdf": true,
+    "cv_unchanged": true,
+    "project_v6_pages": 1,
+    "project_vector_only": true,
+    "project_visual_review": "PASS",
+    "project_rebuild_pixel_match": true,
+    "original_panel_pixel_match": true,
+    "project_sha256": "0d7424502fdcdd4abe075cea4cd3b191fb2896e1fe5157a613a73b26b62a673f",
+    "four_attachments_bytes": 4976526,
+    "transcript_original_byte_match": true,
+    "relative_links_checked": 144,
+    "broken_links": []
+  }
+}
