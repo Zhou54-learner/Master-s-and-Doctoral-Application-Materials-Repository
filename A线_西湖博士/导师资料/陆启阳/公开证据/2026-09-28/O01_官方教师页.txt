@@ -1,0 +1,34 @@
+Qiyang Lu, Ph.D. - Westlake University
+Dr. Qiyang Lu was born and raised in Huai’an, Jiangsu, China. He received his bachelor’s degree from Tsinghua University (2012) and his PhD degree from Massachusetts Institute of Technology (MIT, 2018), both in Materials Science and Engineering. His PhD work was awarded best PhD thesis award from MIT. He did his postdoctoral study at Stanford University with a joint fellowship at Advanced Light Source, Lawrence Berkeley National Laboratory. He received several prestigious awards, including Graduate Student Gold Award from Materials Research Society and Ross Coffin Purdy award from American Ceramic Society.
+2022
+NSFC outstanding youth (Overseas)
+2020
+Assistant professor, PI of School of Engineering of Westlake University
+2019
+Postdoctoral Fellow, Stanford University and Advanced Light Source, Lawrence Berkeley National Laboratory
+2018
+Postdoctoral Fellow, Oak Ridge National Laboratory
+Received doctoral degree from Massachusetts Institute of Technology
+Best PhD thesis award from MIT
+Graduate Student Gold Award from Materials Research Society (MRS)
+2017
+Ross Coffin Purdy award from American Ceramic Society (ACerS)
+2012
+Received Bachelor's degree in Materials Science and Engineering from Tsinghua University
+The research in our group focuses on the fundamental understanding and new applications in the field of solid state ionics (SSI), applied surface science and solid state electrochemistry. Our current research interests include:
+1. Designing mixed electronic and ionic conducting oxide thin films for reversible solid state electrochemical cells;
+2. Understanding the role of ionic defects in determining reaction kinetics in electrocatalysis;
+3. Prototyping neuromorphic computing devices enabled by ion transport and intercalation.
+1. Yang Hu, Luhan Wei, Haowen Chen, Zihan Xu, Andrey Shavorskiy, Christoph Baeumer*, Qiyang Lu*, Quantifying Dynamic Changes of Oxygen Nonstoichiometry and Formation of Surface Phases of SrCoOx Electrocatalysts by Operando Characterizations, ACS Nano 19 (2025), 13999–14009
+2. Luhan Wei#, Haowen Chen#, Zihan Xu, Yang Hu, Bin Zhao, Ying Lu, Nian Zhang and Qiyang Lu*, Quantifying Hydrogen Chemical Diffusivity in NdNiO3 Thin Films through Operando Multimodal Measurements, Nano Letters 25 (2025), 6348–6355
+3. Luhan Wei, Yang Hu, Yiwei Huang, Ying Lu, Zihan Xu, Nian Zhang and Qiyang Lu*, Deconvoluting Surface and Bulk Charge Storage Processes in Redox-Active Oxides by Integrating Electrochemical and Optical Insights, Journal of the American Chemical Society 146 (2024), 24167–24176
+4. Kaichuang Yang, Ying Lu, Yang Hu, Zihan Xu, Jieping Zheng, Haowen Chen, Jingle Wang, Yi Yu, Hui Zhang, Zhi Liu, and Qiyang Lu*, Differentiating Oxygen Exchange Reaction Mechanisms across Phase Boundaries, Journal of the American Chemical Society, 145 (2023), 25806–25814 Link
+5. Qiyang Lu*. How to Correctly Analyze the X-ray Photoelectron Spectra of 3d Transition Metal Oxides (Nano Focus Article). ACS Nano. 18 (2024) 13973–13982
+6. Ying Lu, Yiwei Huang, Zihan Xu, Kaichuang Yang, Weichao Bao, Qiyang Lu*, Quantifying Electrochemical Driving Force for Exsolution in Perovskite Oxides by Designing Graded Oxygen Chemical Potential, ACS Nano, 17 (2023), 14005−14013
+7. Haowen Chen#, Mingdong Dong#, Yang Hu, Ting Lin, Qinghua Zhang, Er-Jia Guo, Lin Gu, Jie Wu, Qiyang Lu*, Protonation-Induced Colossal Chemical Expansion and Property Tuning in NdNiO3 Revealed by Proton Concentration Gradient Thin Films, Nano Letters, 22 (2022), 8983-8990
+8. Qiyang Lu#, Samuel Huberman#, Hantao Zhang, Qichen Song, Jiayue Wang, Gulin Vardar, Adrian Hunt, Iradwikanari Waluyo, Gang Chen*, Bilge Yildiz*, Bi-directional Tuning of Thermal Transport in SrCoOx with Electrochemically Induced Phase Transitions, Nature Materials, 19 (2020) 655-662
+9. Nikolay Tsvetkov#, Qiyang Lu#, Lixin Sun, Ethan Crumlin, and Bilge Yildiz*, Improved Chemical and Electrochemical Stability of Perovskite Oxides by Oxidizing Cations at the Surface, Nature Materials, 15 (2016) 1010-1016
+Google Scholar Homepage: https://scholar.google.com/citations?user=-kK4ibEAAAAJ&hl=en
+Email: luqiyang@westlake.edu.cn
+Opening: Our group is recruiting postdoctoral scholars, PhD students as well as research associates. We welcome highly motivated researchers with backgrounds of materials science, condensed matter physics, inorganic/surface chemistry or related field (not essential for PhDs and RAs) to join us.
+Interested candidates are welcome to send CV to luqiyang@westlake.edu.cn.

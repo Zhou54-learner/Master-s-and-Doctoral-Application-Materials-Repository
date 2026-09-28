@@ -1,0 +1,31 @@
+Bing GU, Ph.D. - Westlake University
+BING GU was born in Jiangsu, China. He received his bachelor’s degree in chemical physics with honor from the University of Science and Technology of China and Ph.D in Theoretical and Computational Chemistry at the University of South Carolina, Columbia, USA. After a two-year postdoctoral research period in Ignacio Franco’s group at the University of Rochester, he moved to the University of California, Irvine, to work with Prof. Shaul Mukamel on ultrafast spectroscopy and molecular polaritons. He joins Westlake University in 2023.
+2023 -
+Assistant Professor, Westlake University
+2018-2022
+Associate Specialist, Department of Chemistry, University of California, Irvine
+2016-2018
+Postdoc, Department of Chemistry, University of Rochester
+2016
+Ph.D., University of South Carolina
+2011
+B.S. University of Science and Technology of China
+The Gu group mainly conducts theoretical research on nonlinear ultrafast spectroscopy, excited state molecular dynamics, and molecular polaritons. It includes
+• The design and simulation of novel spectroscopy with quantum light sources: how to use quantum light to enhance the resolution of the spectrum?
+• the dynamics of open quantum systems: how to understand the influence of the environment on quantum systems?
+• photochemistry in optical microcavities and laser control of the physicochemical properties of materials: how to use optical microcavities and lasers to manipulate the physical and chemical properties of molecules and materials?
+We are looking for talented Ph.D., postdoctoral fellows, and research assistants to join us!
+1. B. Gu, S. M. Cavaletto, D. R. Nascimento, M. Khalil, N. Govind, and S. Mukamel, Manipulating Valence and Core Electronic Excitations of a Transition-Metal Complex Using UV/Vis and X-ray Cavities, Chem. Sci., 2021, 12, 8088-8095
+2. D. Cho, B. Gu*, S. Mukamel, Multidimensional Spectroscopy of Polaritonic Conical Intersections in an Optical Cavity, J. Am. Chem. Soc. 2022, 144, 17, 7758–7767
+3. B. Gu, D. Keefer, F. Aleotti, A. Nenov, M. Gavavelli, S. Mukamel, Photoisomerization Transition State Manipulation by Entangled-Two-Photon-Absorption, Proc. Natl. Acad. Sci. U.S.A, 2021, 118 (47) e2116868118
+4. B. Gu*, D. Keefer, and S. Mukamel, Wavepacket Control and Simulation Protocols for Entangled Two-Photon-Absorption of Molecules, J. Chem. Theory. Comput., 2021, 18, 1, 406–414
+5. Manipulating nonadiabatic conical intersection dynamics by optical cavities
+B Gu*, S Mukamel, Chemical science 11 (5), 1290-1298, 2020
+6. Quantifying early-time quantum decoherence dynamics through fluctuations
+B Gu, I Franco, The Journal of Physical Chemistry Letters 8 (17), 4289-4294, 2017
+7. B Gu*, I Franco, Optical absorption properties of laser-driven matter, Physical Review A 98 (6), 063412, 2018
+8. B Gu*, Diagrammatic time-local master equation for open quantum systems
+Phys. Rev. A 101, 012121, 2020
+9. B. Gu* and S. Mukamel, Manipulating Two-Photon-Absorption of Cavity Polaritons by Entangled Light, J. Phys. Chem. Lett., 2020, 11, 8177–8182
+10. Gu, B., Nenov, A., Segatta, F., Garavelli, M. & Mukamel, S. Manipulating Core Excitations in Molecules by X-Ray Cavities. Phys. Rev. Lett. 2021, 126, 053201
+Email：gubing@westlake.edu.cn

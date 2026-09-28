@@ -1,0 +1,24 @@
+{
+  "source_url": "https://omal.lab.westlake.edu.cn/Join_Us/Ph_D_students_or_research_assistants.htm",
+  "checked_date": "2026-09-28",
+  "key": "P01_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://omal.lab.westlake.edu.cn/Join_Us/Ph_D_students_or_research_assistants.htm",
+  "sha256": "7ba115b1bb530b7df3302c8b6c08f04c84fd881d5b457e478f555bcc24280350",
+  "bytes": 6981,
+  "links": [
+    "https://www.westlake.edu.cn/",
+    "../index.htm",
+    "../News.htm",
+    "../Research.htm",
+    "../Publications.htm",
+    "../Team.htm",
+    "../Gallery.htm",
+    "../JoinUs.jsp?urltype=tree.TreeTempUrl&wbtreeid=1018",
+    "javascript:history.go(-1);",
+    "https://www.westlake.edu.cn/admissions/graduate/brochure/general/202608/t20260813_68957.html",
+    "https://beian.miit.gov.cn/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

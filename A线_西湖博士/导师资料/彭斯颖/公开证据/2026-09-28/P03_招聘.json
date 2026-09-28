@@ -1,0 +1,22 @@
+{
+  "source_url": "https://pengsy.lab.westlake.edu.cn/Opening.html",
+  "checked_date": "2026-09-28",
+  "key": "P03_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://pengsy.lab.westlake.edu.cn/Opening.html",
+  "sha256": "73729f65117984046d3481f9338f2735129057682ea289e6f3753c94c0abfa87",
+  "bytes": 2645,
+  "links": [
+    "index.html",
+    "Research.html",
+    "Group.html",
+    "Publications.html",
+    "Opening.html",
+    "#postdoc",
+    "#phd",
+    "https://www.westlake.edu.cn/admissions_aid/graduate/",
+    "mailto:pengsiying@westlake.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

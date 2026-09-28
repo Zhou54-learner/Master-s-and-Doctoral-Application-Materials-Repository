@@ -1,0 +1,28 @@
+Yizhou Zhu, Ph.D. - Westlake University
+Yizhou Zhu obtained her B.S. degree in Physics (2011) and M.S. degree in Nuclear Technology (2014) both from Peking University. She earned her Ph.D. degree in Materials Science and Engineering at the University of Maryland, College Park in 2018. She worked as a postdoctoral research associate at Northwestern University from 2018 to 2021. Zhu joined the Westlake University as a tenure-track Assistant Professor since September 2021.
+2021
+Assistant Professor, School of Engineering, Westlake University
+2018
+Postdoctoral Researcher, Northwestern University
+Ph.D. Degree, Materials Science and Engineering, University of Maryland
+2014
+M.E. Degree, Nuclear Technology, Peking University
+2011
+B.S. Degree, Physics, Peking University
+Our computational materials science group focus on understanding, discovering, designing, and engineering inorganic solid materials through computational approaches. Traditional material research often relies heavily on empirical intuition and extensive trial and error, which results in long development cycles and high costs that cannot meet the rapid social and industrial demand for high performance materials. By integrating artificial intelligence algorithms with diverse computational tools, our group aims to establish fundamental understandings of the core structure property relationships at the microscopic atomic scale. Through high throughput computing and data mining, they discover and design novel materials that meet practical application requirements.
+Our group has published academic papers Nature, Nature Communications, Science Advances, Angewandte Chemie International Edition, Joule, and Journal of Materials Chemistry A. Several of these publications are recognized as Web of Science Highly Cited Papers.
+Current Research Interests:
+-AI assisted automated characterization and analysis tools (AI plus Materials)
+-Fundamental understanding and rational design of solid state synthesis
+-Development and application of specialized machine learning force fields for solid state electrolytes
+Opening: Our group currently have open positions for PhD students, postdoctoral scholars, and research associates. We welcome students with backgrounds of physics, materials science, computer science, chemical engineering, or any related field to join us. Interested candidates are welcome to send CV to zhuyizhou@westlake.edu.cn
+1. Y. Zhu*(co-corresponding), Y. Mo*, Materials Design Principles for Air‐Stable Lithium/Sodium Solid Electrolytes. Angewandte Chemie International Edition, 59 (40), 17472-17476 (2020)
+2. Y. Zhu, X. He, Y. Mo, Origin of outstanding stability in the lithium solid electrolyte materials: insights from thermodynamic analyses based on first principles calculations. ACS Applied Materials & Interfaces, 7, 23685-23693 (2015)
+3. Y. Zhu, X. He, Y. Mo, First principles study on electrochemical and chemical stability of solid electrolyte-electrode interfaces in all-solid-state Li-ion batteries. Journal of Materials Chemistry A, 4, 3253-3266 (2016)
+(Featured cover, “2016 Journal of Materials Chemistry A HOT Papers” and editorial “most highly cited original research articles in 2016”)
+4. Y. Zhu, X. He, Y. Mo, Strategies based on nitride materials chemistry to stabilize Li metal anode. Advanced Science, 1600517 (2017)
+5. F. Han, Y. Zhu (co-first), X. He, Y. Mo, C. Wang, Electrochemical stability of Li10GeP2S12 and Li7La3Zr2O12 solid electrolytes. Advanced Energy Materials, 6, 1501590 (2016)
+6. X. He, Y. Zhu, Y. Mo, Origin of fast ion diffusion in super-ionic conductors. Nature Communication, 6 (2017)
+Google Scholar Homepage:  https://scholar.google.com/citations?hl=en&pli=1&user=gW_3VzEAAAAJ
+Email: zhuyizhou@westlake.edu.cn
+We have open positions for postdocs, graduate students, and research assistants. Our research focus on the fundamental understanding, rational design, and automated characterization on inorganic materials.  Our group is highly interdisciplinary. We welcome students or postdocs with backgrounds in materials, physics, chemistry, chemical engineering, computer science to join us.

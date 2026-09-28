@@ -1,0 +1,25 @@
+Sergio Andres Galindo Torres, Ph.D. - Westlake University
+Graduated from the National University of Colombia (School of Physics) in 2003 (2006) with a bachelor's (master's) degree; in 2010, received a PhD in computational physics from the National University of Colombia. Then he worked as a postdoctoral researcher at the University of Queensland, Australia. He has been a senior researcher and lecturer in applied mathematics at the University of Queensland from 2015 to 2017. In 2016, he was awarded the Advance Queensland Fellowship by the Queensland Government of Australia, the only fellowship granted in the field of Civil and Environmental Engineering for that year. In 2017, he joined the University of Liverpool as a Senior Lecturer and as an Honorary Associate Professor at the University of Queensland. Starting in early 2019, he joined Westlake as an Associate Professor in Geomechanics.
+2019
+Associate Professor,School of Engineering, Westlake University
+2017
+Senior Lecturer (equivalent to Associate Professor), School of Engineering, The University of Liverpool UK
+2016
+Advance Queensland Fellowship awarded by the State Government of Queensland, Australia
+2015
+Lecturer Applied Mathematics and Research Fellow, School of Mathematics and Physics and School of Civil Engineering, The University of Queensland
+2009
+Postdoctoral Research Fellow，The University of Queensland
+2006
+Ph.D. in computational physics, National University of Colombia
+2004
+MSc in applied physics, National University of Colombia,
+1999
+Bachelor degree in physics, National University of Colombia
+His research deals with the multi-scale analysis of complex processes found in disciplines such as Civil, Mining and Environmental Engineering. Its focus is to find the connection between the physics that happens at the microscale (interactions between soil grains, water droplets, air and gas bubbles) and the field scale behaviour. To achieve this goal, experiments, numerical simulations (using techniques such as computational fluid dynamics) and theoretical developments, coming from statistical physics are combined, to gain further understanding and predictability of these challenging problems. Dr. Galindo Torres research has created an impact beyond the academy, by working in research projects with industry partners such as Golder Associates Ltd and Newcrest Mining Ltd.
+1. M. Aminpour, S. A. Galindo-Torres, A. Scheuermann, and L. Li. Pore-Scale Behavior of Darcy Flow in Static and Dynamic Porous Media. Physical Review Applied (2018) https://doi.org/10.1103/PhysRevApplied.9.064025
+2. S.A. Galindo Torres, S.Palma, S.Quintero, A.Scheuermann, X.Zhang, K.Krabbenhoft, M.Ruest, D.Finn. An airblast hazard simulation engine for block caving sites. International Journal of Rock Mechanics and Mining Sciences (2018) https://doi.org/10.1016/j.ijrmms.2018.04.034
+3. Sergio Andres Galindo Torres, T. Molebatsi, X.-Z. Kong, A. Scheuermann, D. Bringemeier, and L. Li. Scaling solutions for connectivity and conductivity of continuous random networks. Physical Review E Rapid Communication (2015). http://dx.doi.org/10.1103/PhysRevE.92.041001
+4. Galindo Torres Sergio Andres. A coupled Discrete Element Lattice Boltzmann Method for the simulation of fluid-solid interaction with particles of general shapes. Computer Methods in Applied Mechanics and Engineering, 265, 107-119 (2013), http://dx.doi.org/10.1016/j.cma.2013.06.004 .
+5. Zi Li, Sergio Galindo-Torres, Guanxi Yan, Alexander Scheuermann and Ling Li. A lattice Boltzmann investigation of steady-state fluid distribution, capillary pressure and relative permeability of a porous medium: Effects of fluid and geometrical properties. Advances in Water Resources (2018) https://doi.org/10.1016/j.advwatres.2018.04.009
+6. S. Behraftar, S.A. Galindo Torres, A. Scheuermann, D.J. Williams, E.A.G. Marques, H. Janjani Avarzaman. A calibration methodology to obtain material parameters for the representation of fracture mechanics based on discrete element simulations. Computers and Geotechnics (2017). http://dx.doi.org/10.1016/j.compgeo.2016.08.029

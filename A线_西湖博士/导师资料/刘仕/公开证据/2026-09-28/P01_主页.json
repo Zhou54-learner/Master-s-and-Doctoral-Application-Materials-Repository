@@ -1,0 +1,17 @@
+{
+  "source_url": "https://liutheory.westlake.edu.cn/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://liutheory.westlake.edu.cn/",
+  "sha256": "b4731b118a059b869a047821bdebc2087a9bd2d69d9ebd3a811dac59ac0ec411",
+  "bytes": 17741,
+  "links": [
+    "#research",
+    "https://scholar.google.com/citations?hl=en&user=wI7o6NQAAAAJ",
+    "https://orcid.org/0000-0002-8488-4848",
+    "liulab_pic.html"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

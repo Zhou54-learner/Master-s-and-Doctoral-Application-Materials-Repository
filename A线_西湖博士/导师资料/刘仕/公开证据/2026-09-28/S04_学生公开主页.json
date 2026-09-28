@@ -1,0 +1,8 @@
+{
+  "source_url": "https://blog.enthalpy.space",
+  "checked_date": "2026-09-28",
+  "key": "S04_学生公开主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "error": "('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+  "content_review": "失败/空壳/跳转，不能支持正文结论"
+}

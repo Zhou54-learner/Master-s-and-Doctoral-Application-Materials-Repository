@@ -1,0 +1,21 @@
+{
+  "source_url": "https://liutheory.westlake.edu.cn/shared/common.js",
+  "checked_date": "2026-09-28",
+  "key": "P04_导航脚本",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://liutheory.westlake.edu.cn/shared/common.js",
+  "sha256": "9f2476b974221c4093c08ec367f376316a65d965a76af0df436b3393816ea342",
+  "bytes": 12827,
+  "links": [
+    "\\\"\"",
+    "\\\"join_us.html\\\"",
+    "\\\"resource.html\\\"",
+    "\\\"poster.html\\\"",
+    "\\\"https://liutheory.westlake.edu.cn/\\\"",
+    "\\\"https://www.westlake.edu.cn/\\\"",
+    "\\\"https://www.westlake.edu.cn/\\\"\"",
+    "https://www.westlake.edu.cn/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

@@ -1,0 +1,33 @@
+王贺明博士 - 西湖大学
+王贺明，辽宁大连人。2012年获第13届亚洲物理奥林匹克竞赛（APhO）金牌。2016年本科毕业于北京大学物理学院并获理学学士学位，2021年于加利福尼亚理工学院应用物理系取得博士学位（师从Kerry Vahala教授）。之后先后于加利福尼亚理工学院（Kerry Vahala课题组）、加州大学圣巴巴拉分校（John Bowers课题组）、斯坦福大学（Shanhui Fan课题组）从事博士后研究。2025年全职加入西湖大学，担任特聘研究员、助理教授，负责非厄米动力学与器件实验室。
+2025
+助理教授, 西湖大学
+2023
+博士后, 斯坦福大学
+2022
+博士后，加利福尼亚大学圣巴巴拉分校
+2021
+博士后，加利福尼亚理工学院
+博士，加利福尼亚理工学院
+2016
+学士，北京大学
+2012
+第13届亚洲物理奥林匹克竞赛（APhO）金牌
+能量守恒是现代物理学大厦的支柱，但现实生活中很难找到能量完全守恒的例子。秋千的摇摆会因为摩擦而最终停止，各类电器在电能用尽之后就需要插入电源充电。当损失能量和获得能量的过程同时发生时，就可以引发异常奇妙的现象，而这正是非厄米物理研究的内容。
+王贺明博士基于理论、仿真、实验、微纳加工的研究经验，对各类非厄米光学系统进行了严谨细致的分析，代表性成果包括：（1）提出一维周期性结构的边态在不受对称性保护时仍然具有拓扑稳定性，给出了计算拓扑不变量的具体公式并推广至非厄米系统；（2）提出并实验验证使用Petermann系数解释奇异点传感器在奇异点附近的噪声，打破了奇异点领域内只考虑本征值噪声而忽略本征矢量贡献的固有观念，同时澄清了关于奇异点附近噪声行为的争议；（3）提出移除孤子生成系统中的激光隔离器并使其形成激光—微腔自注入锁定系统，揭示光孤子的自发形成机理，使得孤子的生成由随机性事件变为确定性事件；（4）提出使用耦合横模和其形成的等效色散替代单一横模和材料固有色散，类比相对论量子场论中的狄拉克孤子，解析求解了耦合模式中的孤子脉冲形式，使得正常色散材料中脉冲孤子产生成为可能。
+王贺明博士负责的非厄米动力学与器件实验室将基于光学、电学、声学、机械结构等具体体系，继续深入探讨能量损失和增加带来的物理效应，进行跨学科的基础和应用研究，实现新型高灵敏度传感器和其他潜在应用。研究方向包括但不限于：
+(1) 传感器的噪声特性和性能极限；
+(2) 奇异点及其几何性质；
+(3) 非厄米能带结构及其拓扑性质；
+(4) 非厄米系统的基本原理和数学形式。
+1. Janet Zhong#, Heming Wang#, Alexander N. Poddubny, Shanhui Fan*. “Topological Nature of Edge States for One-Dimensional Systems without Symmetry Protection”. Phys. Rev. Lett. 135, 016601 (2025).
+2. Heming Wang, Janet Zhong, Shanhui Fan*. “Non-Hermitian photonic band winding and skin effects: a tutorial”. Adv. Opt. Photonics 16, 659 (2024).
+3. Zhiquan Yuan#, Maodong Gao#, Yan Yu#, Heming Wang#, Warren Jin#, Qing-Xin Ji, Avi Feshali, Mario Paniccia, John Bowers*, Kerry Vahala*. “Soliton pulse pairs at multiple colours in normal dispersion microresonators”. Nat. Photon. 17, 977 (2023).
+4. Warren Jin#, Qi-Fan Yang#, Lin Chang#, Boqiang Shen#, Heming Wang#, Mark A. Leal, Lue Wu, Avi Feshali, Mario Paniccia, Kerry J. Vahala*, John E. Bowers*. “Hertz-linewidth semiconductor lasers using CMOS-ready ultra-high-Q microresonators”. Nat. Photon. 15, 346 (2021).
+5. Heming Wang, Yu-Kun Lu, Lue Wu, Dong Yoon Oh, Boqiang Shen, Seung Hoon Lee, Kerry Vahala*. “Dirac solitons in optical microresonators”. Light Sci. Appl. 9, 205 (2020).
+6. Zhiquan Yuan#, Heming Wang#, Lue Wu#, Maodong Gao, Kerry Vahala*. “Linewidth enhancement factor in a microcavity Brillouin laser”. Optica 7, 1150 (2020).
+7. Boqiang Shen#, Lin Chang#, Junqiu Liu#, Heming Wang#, Qi-Fan Yang#, Chao Xiang, Rui Ning Wang, Jijun He, Tianyi Liu, Weiqiang Xie, Joel Guo, Dave Kinghorn, Lue Wu, Qing-Xin Ji, Tobias J. Kippenberg*, Kerry Vahala*, John E. Bowers*. “Integrated turnkey soliton microcombs”. Nature 582, 365 (2020).
+8. Heming Wang#, Yu-Hung Lai#, Zhiquan Yuan#, Myoung-Gyun Suh, Kerry Vahala. “Petermann-factor limited sensing near an exceptional point”. Nat. Commun. 11, 1610 (2020).
+电子邮箱：wangheming@westlake.edu.cn
+课题组招生和招聘（长期有效）：
+本实验室长期招收博士生、博士后及科研助理。实验室聚焦于能量损失和增加引起的物理效应，基于光学、电学、声学、机械结构等具体体系进行基础和应用研究。欢迎具有相关理科和工科背景的学者加入，有意向的学者可直接通过电子邮件联系。根据具体情况，实验室将提供配套的资源开展对应领域的研究。

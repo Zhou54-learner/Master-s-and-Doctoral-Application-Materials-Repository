@@ -1,0 +1,44 @@
+李秋洋博士 - 西湖大学
+李秋洋，安徽马鞍山人。2013年于中国科学技术大学获得材料物理学士学位。2019年于美国埃默里大学获得化学博士学位，师从连天泉教授 (Tianquan Lian)，研究方向是利用瞬态吸收光谱研究二维纳米晶体中激子性质。博士毕业后前往美国哥伦比亚大学化学系朱晓阳教授 (Xiaoyang Zhu) 课题组，研究方向是利用角度分辨光电子能谱研究二维材料，随后加入美国密歇根大学物理系邓慧教授（Hui Deng）课题组，研究二维材料的光-物质相互作用和腔调控。李秋洋博士现在西湖大学工学院担任助理教授，作为独立课题组负责人开展低维量子材料的超快光谱学和腔工程的研究。
+2026年
+助理教授，西湖大学
+2021年
+博士后，密歇根大学（美国）
+2019年
+国家优秀自费留学生奖学金
+博士后，哥伦比亚大学（美国）
+博士，埃默里大学（美国）
+2018年
+Quayle Senior Student Award, 埃默里大学（美国）
+2015年
+Osborne R. Quayle Fellowship, 埃默里大学（美国）
+2013年
+学士，中国科学技术大学
+李秋洋博士以静态和超快光谱为主要研究手段（包括但不限于：瞬态吸收/荧光光谱、角度分辨光电子能谱、时间分辨法拉第旋转光谱、共聚焦显微光谱等），长期致力于探索和操控低维量子材料的光物理以及新的性质和物态。李秋洋博士已发表论文47篇，其中以第一作者在Phys. Rev. Lett.、Nature Communications、J. Am. Chem. Soc.、ACS Nano、Nano Lett.、Chem. Rev.、Acc. Chem. Res.等顶级期刊发表文章20篇。
+李秋洋课题组致力于超快光谱、凝聚态物理和腔工程的交叉学科研究，主要研究方向包括：（1）二维莫尔量子物质的腔感应和腔调控；（2）低维量子材料中集体行为和有序态的超快光学调控和腔调控；（3）建立、探测、调控新型二维范德华多铁性材料。
+代表论文（#代表共同第一作者；*代表通信作者）
+1. Qiuyang Li, Xiaohan Wan, Senlei Li, Adam Alfrey, Wenhao Liu, Zixin Zhai, Wyatt Alpers, Yujie Yang, Irmina Wladyszewska, Christiano W. Beach, Liuyan Zhao, Bing Lv, Chunhui Rita Du, Kai Sun, Hui Deng*, “Twist Engineering of Anisotropic Excitonic and Optical Properties of a Two-Dimensional Magnetic Semiconductor”, Physical Review Letters 2025, 135, 156901.
+2. Qiuyang Li#, Xin Xie#, Adam Alfrey, Christiano W. Beach, Nicholas McLellan, Yang Lu, Jiaqi Hu, Wenhao Liu, Nikhil Dhale, Bing Lv, Liuyan Zhao, Kai Sun, Hui Deng*, “Two-Dimensional Magnetic Exciton-Polariton with Strongly Coupled Atomic and Photonic Anisotropies”, Physical Review Letters 2024, 133, 266901.
+3. Qiuyang Li*, Kaifeng Wu*, Haiming Zhu*, Ye Yang*, Sheng He, Tianquan Lian*, “Charge Transfer from Quantum Confined 0D, 1D and 2D Nanocrystals”, Chemical Reviews 2024, 124, 5695-5763.
+4. Qiuyang Li, Adam Alfrey, Jiaqi Hu, Nathanial Lydick, Eunice Paik, Bin Liu, Haiping Sun, Yang Lu, Ruoyu Wang, Stephen Forrest, Hui Deng*, “Macroscopic transition metal dichalcogenides monolayers with uniformly high optical quality”, Nature Communications 2023, 14, 1837.
+5. Qiuyang Li, Fengjiao Zhao, Chen Qu, Qiongyi Shang, Zihao Xu, Li Yu, Tianquan Lian*, “2D Morphology Enhances Light-driven H2 Generation Efficiency in CdS Nanoplatelet-Pt Heterostructure”, J. Am. Chem. Soc. 2018, 14, 11726-11734.
+6. Qiuyang Li, Tianquan Lian*, “Exciton Spatial Coherence and Optical Gain in Colloidal Two-Dimensional Cadmium Chalcogenide Nanoplatelets”, Accounts of Chemical Research 2019, 52, 2684-2693.
+7. Qiuyang Li, Sheng He, and Tianquan Lian*, “How Exciton and Single Carriers Block the Excitonic Transition in Two-Dimensional Cadmium Chalcogenide Nanoplatelets”, Nano Letters 2020, 20, 6162-6169.
+8. Qiuyang Li#, Yawei Yang#, Wenxiu Que, Tianquan Lian*, “Size- and Morphology-Dependent Auger Recombination in CsPbBr3 Perovskite Two-Dimensional Nanoplatelets and One-Dimensional Nanorods”, Nano Letters 2019, 19, 5620-5627.
+9. Qiuyang Li, Tianquan Lian*, “Area- and Thickness-Dependent Biexciton Auger Recombination in Colloidal CdSe Nanoplatelets: Breaking the Universal Volume Scaling Law”, Nano Letters 2017, 17, 3152-3158.
+10. Qiuyang Li, Zihao Xu, James McBride, Tianquan Lian*, “Low Threshold Multiexciton Optical Gain in Colloidal CdSe/CdTe Core/Crown Type-II Nanoplatelet Heterostructures”, ACS Nano 2017, 11, 2545-2553.
+11. Qiuyang Li, Kaifeng Wu, Jinquan Chen, Zheyuan Chen, James McBride, Tianquan Lian*, “Size-Independent Exciton Localization Efficiency in Colloidal CdSe/CdS Core/Crown Nanosheet Type-I Heterostructures”, ACS Nano 2016, 10, 3843-3851.
+12. Qiuyang Li, Boyang Zhou, James McBride, Tianquan Lian*, “Diffusive Transport of Cold and Hot Excitons in Colloidal CdSe/CdTe Core/Crown Nanoplatelet Heterstructures”, ACS Energy Letters 2017, 2, 174-181.
+13. Qiuyang Li, Tianquan Lian*, “A Model for Optical Gain Threshold in Colloidal CdSe Nanoplatelets”, Chemical Science 2018, 9, 728-734.
+14. Qiuyang Li, Qiliang Liu, Richard Schaller, Tianquan Lian*, “Reducing Optical Gain Threshold in Two-Dimensional CdSe Nanoplatelets by Giant Oscillator Strength Transition Effect”, J. Phys. Chem. Lett. 2019, 10, 1624-1632.
+15. Qiuyang Li, Tianquan Lian*, “Ultrafast Charge Separation in Two-Dimensional CsPbBr3 Perovskite Nanoplatelets”, J. Phys. Chem. Lett. 2019, 10, 566-573.
+16. Qiuyang Li, Tianquan Lian*, “Exciton Dissociation Dynamics and Light Driven H2 Generation in Colloidal 2D cadmium Chalcogenide Nanoplatelet Heterostructures”, Nano Research 2018, 11, 3031.
+17. Qiuyang Li, Fang Liu, Jake Russell, Xavier Roy, Xiaoyang Zhu*, “Strong Polaronic Effect in a Superatomic Two-Dimensional Semiconductor”, J. Chem. Phys. 2020, 152, 171101.
+18. Qiuyang Li, Lucas Huber, Colin Nuckolls, and Xiaoyang Zhu*, “Spin-Polarized Charge Separation in a Photoexcited Transition Metal Dichalcogenide Heterobilayer at Room Temperature”, J. Phys. Chem. C 2022, 126, 15795-15800.
+19. Xu Guo#, Qiuyang Li#, Yawei Liu, Tao Jin, Yubin Chen, Liejin Guo, and Tianquan Lian*, “Enhanced Light-Driven Charge Separation and H2 Generation Efficiency in WSe2 Nanosheet–Semiconductor Nanocrystal Heterostructures”, ACS Appl. Mater. Interfaces 2020, 12, 44769-44776.
+20. Qiuyang Li, Wenxing Yang, Tianquan Lian*, “Exciton Transport and Interfacial Charge Transfer in Semiconductor Nanocrystals and Heterostructures”, Springer Handbook of Inorganic Photochemistry, 2022, Chapter 33, 985-1012.
+电子邮箱：liqiuyang@westlake.edu.cn
+李秋洋课题组正招收博士研究生、博士后、本科生：
+1. 博士研究生：欢迎对光谱（包括但不限于静态、线性/非线性、超快光谱等），低维量子材料和纳米材料，光-物质相互作用，以及腔工程和纳米光子晶体感兴趣的本科和硕士生提前联系李秋洋博士liqiuyang@westlake.edu.cn。
+2. 博士后：欢迎具有凝聚态物理、材料科学、光学、物理化学等相关研究背景的博士毕业生申请。具有以下研究背景的申请人将优先考虑：静态/超快光谱；二维范德华材料和器件（光学或电学）；低维纳米材料（如纳米晶体、二维钙钛矿等）；编写LabView或Python小程序操控实验设备。申请者请发送个人简历、推荐信等申请材料至liqiuyang@westlake.edu.cn。我们将提供在国内外同等职位上极具竞争力的个人待遇和补助（详情面议）。
+3. 本科生：欢迎有意向在本课题组参与科研实习的本科生随时咨询。

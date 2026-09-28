@@ -1,0 +1,68 @@
+Comp. Mater. Lab | Westlake University
+Home
+Research
+People
+Publications
+Gallery
+News
+Computational Approaches to
+Material Design
+Comp. Mater. Lab. @ Westlake University
+About Us
+Our research group focuses on computational materials science, aiming to understand, discover, design, and modify novel inorganic solid materials through computation. By combining artificial intelligence algorithms with various materials computation methods, we can establish an in-depth fundamental understanding of the core structure-property relationships in materials science from the microscopic atomic scale, and discover and design new materials that meet practical application requirements through high-throughput computation and data mining.
+Research
+Solid-state Battery Materials
+Understanding and designing novel materials for next-generation batteries through computational approaches and AI-driven discovery.
+Strategic Solid-state Synthesis
+Exploring reaction pathways and mechanisms in materials synthesis using advanced computational methods.
+AI for Materials Discovery
+Developing and applying machine learning models for accelerated materials discovery and property prediction.
+Our Team
+Yizhou Zhu
+Assistant Professor
+School of Engineering, Westlake University
+Yizhou Zhu obtained her B.S. degree in Physics (2011) and M.S. degree in Nuclear Technology (2014) both from Peking University. She earned her Ph.D. degree in Materials Science and Engineering at the University of Maryland, College Park in 2018. She worked as a postdoctoral research associate at Northwestern University from 2018 to 2021. Zhu joined the Westlake University as a tenure-track Assistant Professor since September 2021.
+Her research works on solid electrolytes have been published in renowned journals such as Nature, Sci. Adv., Adv. Mater., Adv. Energy Mater., Angew. Chem. Int. Ed., Joule, J. Mater. Chem. A, etc.
+Members
+←
+Xizhe Zhang
+Ph.D. Student
+M.S. in Applied Mechanics, Zhejiang University (2020-2023)
+Zihan Yan
+Ph.D. Student
+B.S. in Microelectronics Science and Engineering, Yangzhou University (2019-2023)
+Boyi Situ
+Ph.D. Student
+B.S. in Microelectronics Science and Engineering, Yangzhou University (2020-2024)
+Yiyi Kong
+Ph.D. Student
+B.S. in Material Science and Engineering, Huazhong University of Science and Technology (2022-2026)
+Zhengqi Liu
+Ph.D. Student
+B.S. in Chemical Engineering and Technology, Harbin Institute of Technology (2020-2024)
+Xinlin Wang
+Undergraduate Student
+Undergraduate Student, Westlake University (2023-Present)
+→
+View All Members
+Publications
+←
+→
+View All Publications
+News
+←
+→
+View All News
+0
+Materials Studied
+0
+Lab Members
+0
+Publications
+0
+Software Tools
+Contact Us
+Address: Yungu Campus, Westlake University, 600 Dunyu Road, Xihu District, Hangzhou
+Postal Code: 310030
+Email: zhuyizhou@westlake.edu.cn
+Follow us on WeChat

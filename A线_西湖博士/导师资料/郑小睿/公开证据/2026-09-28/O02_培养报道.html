@@ -1,0 +1,1950 @@
+<!--
+ * @Author: llf
+ * @Date: 2023-07-28 17:48:11
+ * @LastEditors: llf
+ * @LastEditTime: 2023-08-07 11:24:43
+ * @FilePath: \westlake-web-en\src\newsDetail\newsDetail.shtml
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  <meta name="title" content="Study at Westlake" />
+  <meta name="keywords" content="Study at Westlake" />
+  <meta name="description" content="Westlake University Study at Westlake provides an innovative service ecosystem that can make positive social and economic impacts." />
+  <img style="display:none;" src="" alt="Study at Westlake" />
+
+  <title>Study at Westlake&nbsp;-&nbsp;Westlake&nbsp;University</title>
+<script>
+window.nav = "News & Events";
+</script>
+  <script src="../../../images/qrcode.min.js"></script>
+  <script src="../../../images/newsDetail.js"></script>
+  <link rel="icon" pre-href="$assetsPublicPathfavicon.ico">
+</head>
+
+<body>
+  <div class="seo_content">
+    <!-- 
+     此处填写seo优化代码
+     通常直接用 “置标” 填写需要被抓取到的服务端渲染内容
+     注：该区域不会显示在页面上
+     -->
+  </div>
+  <div class="body_container">
+    <html>
+
+<head>
+  <link rel="stylesheet" href="" pre-href="$assetsPublicPathiconfont.css">
+  <script src="/images/header.js"></script>
+  <div id="headerEn" class="header"></div>
+</head>
+<style>
+.header_top .text_box .line2 .nav_item .first_link {
+    cursor: default;
+}
+</style>
+<body>
+  <script>
+    new header("#headerEn", {
+      headerNav: window.nav,
+      quickList: [
+        {
+          text: "Faculty",
+          url: "https://my.westlake.edu.cn/",
+          target: "_self",
+        },
+        {
+          text: "Students",
+          url: "https://my.westlake.edu.cn/",
+          target: "_self",
+        },
+        {
+          text: "Staff",
+          url: "https://my.westlake.edu.cn/",
+          target: "_self",
+        },
+      ],
+      maskObj: {
+      
+        keywords: "Giving",//当前点击文案（头部Support Us和尾部Giving不同）
+        title: "If you are interested in supporting us or making a contribution, please contact:",
+        brief: "Westlake Education Foundation",
+        list: [
+        
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345246180375.png",
+            name: "Phone",
+            text: "+86(0)571 8688 6859",
+          },
+          
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345246363754.png",
+            name: "E-Mail",
+            text: "office@wefoundation.org.cn",
+          },
+          
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345246483234.png",
+            name: "Fax",
+            text: "+86(0)571 8527 1986",
+          }
+          
+        
+        ]
+      
+      },
+      // 跳转到搜索页searchList
+      callback: (keywords) => {
+        console.log("home-keywords ", keywords);
+        window.location.href = "/others/search/?keywords=" + keywords;
+      },
+      homeObj: {
+        url: "https://en.westlake.edu.cn/",
+        target: "_self",
+      },
+      chineseObj: {
+        url: "https://www.westlake.edu.cn/",
+        target: "_self",
+      },
+      quickLink: [
+        {
+          text: "Calendars",
+          url: "https://en.westlake.edu.cn/news_events/EventCalendars/",
+          target: "_self",
+        },
+        {
+          text: "Giving",
+          // url: "#",
+          // target: "_self",
+        },
+        {
+          text: "iWestlake",
+          url: "#",
+          target: "_self",
+        },
+      ],
+      navList: [
+      
+        {
+          text: "About",
+          // active: "about".includes((function () {
+          //   var link = window.location.href;
+          //   var parts = link.split('/');
+          //   // 去掉parts数组中的空白值
+          //   var newArr = parts.filter((item) => {
+          //     return item && item.trim();
+          //   });
+          //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+          //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+          //     var firstWord = newArr[enIndex + 1];
+          //     // console.log(firstWord);
+          //     return firstWord;
+          //   }
+          // })()),
+          //url: "https://en.westlake.edu.cn/about/",
+          // target: "_self",
+          imgUrl: "https://en.westlake.edu.cn/about/images/P020231207514705804801.jpg",
+          children: [
+          
+            {
+              text: "Message from the President",
+              // active: "message_from_president".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/about/message_from_president/",
+              target: "_self",
+            },
+          
+            {
+              text: "Facts & History",
+              // active: "facts_history".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/about/facts_history/",
+              target: "_self",
+            },
+          
+            {
+              text: "Leadership & Organization",
+              // active: "leadership_organization".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/about/leadership_organization/",
+              target: "_self",
+            },
+          
+            {
+              text: "Faculty",
+              // active: "faculty".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/about/faculty/",
+              target: "_self",
+            },
+          
+            {
+              text: "Partnerships",
+              // active: "partnerships".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/about/partnerships/",
+              target: "_self",
+            },
+          
+            {
+              text: "Contact Us",
+              // active: "contact_us".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/about/contact_us/",
+              target: "_self",
+            },
+          
+            {
+              text: "Resources",
+              // active: "VIS".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/about/VIS/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "Academics",
+          // active: "academics".includes((function () {
+          //   var link = window.location.href;
+          //   var parts = link.split('/');
+          //   // 去掉parts数组中的空白值
+          //   var newArr = parts.filter((item) => {
+          //     return item && item.trim();
+          //   });
+          //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+          //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+          //     var firstWord = newArr[enIndex + 1];
+          //     // console.log(firstWord);
+          //     return firstWord;
+          //   }
+          // })()),
+          // url: "https://en.westlake.edu.cn/academics/",
+          // target: "_self",
+          imgUrl: "https://en.westlake.edu.cn/academics/images/P020231207529674619423.jpeg",
+          children: [
+          
+            {
+              text: "Undergraduate Studies",
+              // active: "undergraduate_studies".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/academics/undergraduate_studies/",
+              target: "_self",
+            },
+          
+            {
+              text: "Graduate Studies",
+              // active: "graduate_studies".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/academics/graduate_studies/",
+              target: "_self",
+            },
+          
+          
+            {
+              text: "School of Science",
+              // active: "".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://science.westlake.edu.cn/en/",
+              target: "_blank",
+            },
+          
+            {
+              text: "School of Engineering",
+              // active: "".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en-soe.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+            {
+              text: "School of Life Sciences",
+              // active: "".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://lifesciences.westlake.edu.cn",
+              target: "_blank",
+            },
+          
+            {
+              text: "School of Medicine",
+              // active: "".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://medicine.westlake.edu.cn/en",
+              target: "_blank",
+            },
+          
+            {
+              text: "Westlake Fellows Program",
+              // active: "".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://westlakefellows.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "Academic Calendar",
+              // active: "academic_calendar".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/academics/academic_calendar/",
+              target: "_self",
+            },
+          
+            {
+              text: "Library",
+              // active: "library".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/academics/library/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "Research",
+          // active: "research".includes((function () {
+          //   var link = window.location.href;
+          //   var parts = link.split('/');
+          //   // 去掉parts数组中的空白值
+          //   var newArr = parts.filter((item) => {
+          //     return item && item.trim();
+          //   });
+          //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+          //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+          //     var firstWord = newArr[enIndex + 1];
+          //     // console.log(firstWord);
+          //     return firstWord;
+          //   }
+          // })()),
+          // url: "https://en.westlake.edu.cn/research/",
+          // target: "_self",
+          imgUrl: "https://en.westlake.edu.cn/research/images/P020231207545766750329.jpg",
+          children: [
+          
+            {
+              text: "Research at Westlake",
+              // active: "research_at_westlake".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/research/research_at_westlake/",
+              target: "_self",
+            },
+          
+            {
+              text: "Centers & Institutes",
+              // active: "centers_institutes".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/research/centers_institutes/",
+              target: "_self",
+            },
+          
+            {
+              text: "Research Facilities",
+              // active: "research_facilities".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/research/research_facilities/",
+              target: "_self",
+            },
+          
+            {
+              text: "Innovation",
+              // active: "innovation".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/research/innovation/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "Admissions",
+          // active: "admissions".includes((function () {
+          //   var link = window.location.href;
+          //   var parts = link.split('/');
+          //   // 去掉parts数组中的空白值
+          //   var newArr = parts.filter((item) => {
+          //     return item && item.trim();
+          //   });
+          //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+          //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+          //     var firstWord = newArr[enIndex + 1];
+          //     // console.log(firstWord);
+          //     return firstWord;
+          //   }
+          // })()),
+          // url: "https://en.westlake.edu.cn/admissions/",
+          // target: "_self",
+          imgUrl: "https://en.westlake.edu.cn/admissions/images/P020231207545844047240.jpg",
+          children: [
+          
+            {
+              text: "Undergraduate",
+              // active: "International_Undergraduate".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/admissions/International_Undergraduate/",
+              target: "_blank",
+            },
+          
+          //sss
+          
+            {
+              text: "Graduate",
+              // active: "graduate".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/admissions/graduate/",
+              target: "_self",
+            },
+          
+            {
+              text: "International Students",
+              // active: "international_students".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/admissions/international_students/",
+              target: "_self",
+            },
+          
+            {
+              text: "Short-term Programs",
+              // active: "summer_sessions".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/admissions/summer_sessions/",
+              target: "_self",
+            },
+          
+            {
+              text: "Admitted Students",
+              // active: "admitted_students".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/admissions/admitted_students/",
+              target: "_self",
+            },
+          
+            {
+              text: "Financial Aid & Scholarships",
+              // active: "financial_aid".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/admissions/financial_aid/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "News & Events",
+          // active: "news_events".includes((function () {
+          //   var link = window.location.href;
+          //   var parts = link.split('/');
+          //   // 去掉parts数组中的空白值
+          //   var newArr = parts.filter((item) => {
+          //     return item && item.trim();
+          //   });
+          //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+          //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+          //     var firstWord = newArr[enIndex + 1];
+          //     // console.log(firstWord);
+          //     return firstWord;
+          //   }
+          // })()),
+          // url: "https://en.westlake.edu.cn/news_events/",
+          // target: "_self",
+          imgUrl: "https://en.westlake.edu.cn/news_events/images/P020250327394128441621.jpg",
+          children: [
+          
+            {
+              text: "Westlake News",
+              // active: "westlakenews".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/",
+              target: "_self",
+            },
+          
+            {
+              text: "Event Calendars",
+              // active: "EventCalendars".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/news_events/EventCalendars/",
+              target: "_self",
+            },
+          
+            {
+              text: "Gallery",
+              // active: "gallery".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/news_events/gallery/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+        {
+          text: "Campus Life",
+          // active: "campus_life".includes((function () {
+          //   var link = window.location.href;
+          //   var parts = link.split('/');
+          //   // 去掉parts数组中的空白值
+          //   var newArr = parts.filter((item) => {
+          //     return item && item.trim();
+          //   });
+          //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+          //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+          //     var firstWord = newArr[enIndex + 1];
+          //     // console.log(firstWord);
+          //     return firstWord;
+          //   }
+          // })()),
+          // url: "https://en.westlake.edu.cn/campus_life/",
+          // target: "_self",
+          imgUrl: "https://en.westlake.edu.cn/campus_life/images/P020231207545964733419.jpg",
+          children: [
+          
+            {
+              text: "Visit Westlake",
+              // active: "visit_westlake".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/campus_life/visit_westlake/",
+              target: "_self",
+            },
+          
+            {
+              text: "Westlake Residential College",
+              // active: "westlake_residential_college".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/campus_life/westlake_residential_college/",
+              target: "_self",
+            },
+          
+            {
+              text: "Housing & Dining",
+              // active: "housing_dining".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/campus_life/housing_dining/",
+              target: "_self",
+            },
+          
+            {
+              text: "Fitness & Recreation",
+              // active: "fitness_recreation".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/campus_life/fitness_recreation/",
+              target: "_self",
+            },
+          
+            {
+              text: "Student Groups & Activities",
+              // active: "student_groups_activities".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/campus_life/student_groups_activities/",
+              target: "_self",
+            },
+          
+            {
+              text: "Health & Wellness",
+              // active: "health_wellness".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/campus_life/health_wellness/",
+              target: "_self",
+            },
+          
+            {
+              text: "Life in Hangzhou",
+              // active: "life_in_hangzhou".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/campus_life/life_in_hangzhou/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+        {
+          text: "Careers",
+          // active: "careers".includes((function () {
+          //   var link = window.location.href;
+          //   var parts = link.split('/');
+          //   // 去掉parts数组中的空白值
+          //   var newArr = parts.filter((item) => {
+          //     return item && item.trim();
+          //   });
+          //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+          //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+          //     var firstWord = newArr[enIndex + 1];
+          //     // console.log(firstWord);
+          //     return firstWord;
+          //   }
+          // })()),
+          // url: "https://en.westlake.edu.cn/careers/",
+          // target: "_self",
+          imgUrl: "https://en.westlake.edu.cn/careers/images/P020231207546043805825.jpg",
+          children: [
+          
+            {
+              text: "Open Positions",
+              // active: "OpenPositions".includes((function () {
+              //   var link = window.location.href;
+              //   var parts = link.split('/');
+              //   // 去掉parts数组中的空白值
+              //   var newArr = parts.filter((item) => {
+              //     return item && item.trim();
+              //   });
+              //   var enIndex = newArr.indexOf('officialweb-test.westlake.edu.cn');
+              //   if (enIndex !== -1 && enIndex + 1 < newArr.length) {
+              //     var firstWord = newArr[enIndex + 2];
+              //     // console.log(firstWord);
+              //     return firstWord;
+              //   }
+              // })()),
+              url: "https://en.westlake.edu.cn/careers/OpenPositions/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      ],
+      mounted: function () {
+        var $el = $(this.$el);
+      },
+    });
+  </script>
+</body>
+
+</html>
+    <div id="app"></div>
+    <!--
+ * @Author: llf
+ * @Date: 2023-09-04 11:50:03
+ * @LastEditors: llf
+ * @Description: 
+ * @FilePath: \westlake-web-en\src\otherProgram\otherProgram.shtml
+-->
+<html>
+
+<head>
+  <script src="/images/otherProgram.js"></script>
+</head>
+<body>
+  <div id="otherProgram" class="otherProgram"></div>
+  <script>
+    new otherProgram("#otherProgram", {
+      //底部文案 点击可跳转
+      bottomObj: [
+        {
+          title: "Subscribe to Westlake Newsletter",
+          url: "https://newsletter.westlake.edu.cn/",
+          target: '_self',
+          bgUrl: window.assetsPublicPath + "technologyShowcase.png",//第一块背景图
+        }
+        , {
+          title: "Media Inquiries",
+          children: [
+            {
+              text: "Contact: Chi Zhang"
+            },
+            {
+              text: "E-mail: zhangchi@westlake.edu.cn"
+            },
+            {
+              text: "Phone: +86-(0)571-86886861"
+            },
+            {
+              text: "Office of Public Affairs"
+            }
+          ]
+        },
+        {
+          title: "Useful Links",
+          children: [
+            {
+              text: "Fact",
+              url: "https://en.westlake.edu.cn/about/facts_history/",
+              target: '_self'
+            },
+            {
+              text: "Message from President",
+              url: "https://en.westlake.edu.cn/about/message_from_president/",
+              target: '_self'
+            },
+            {
+              text: "Faculty",
+              url: "https://en.westlake.edu.cn/about/faculty/",
+              target: '_self'
+            },
+            {
+              text: "Visit Westlake",
+              url: "https://en.westlake.edu.cn/campus_life/visit_westlake/",
+              target: '_self'
+            }
+          ]
+        },
+        {
+          title: "Events",
+          url: "https://en.westlake.edu.cn/news_events/EventCalendars/",
+          target: '_self',
+          imgUrl: window.assetsPublicPath + "rili_grey.png",//日历图标
+          imgUrlHover: window.assetsPublicPath + "rili_yellow.png",//悬浮黄色日历图标
+        }
+      ]
+    });
+  </script>
+</body>
+
+</html>
+    <!-- <script src="../../images/footer.js"></script>
+<div id="footerEn" class="footer"></div>
+<script>
+  new footer("#footerEn", {
+  })
+ </script> --><!--
+ * @Author: Qian.qianchen
+ * @Date: 2021-05-28 15:47:58
+ * @LastEditors: llf
+ * @Description: 公共底部静态页面
+ * @FilePath: \westlake-web-en\src\footer\footer.shtml
+-->
+<html>
+
+<head>
+  <script src="/images/footer.js"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=5597" async="async" defer="defer"></script>
+<!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F6DQ43LNL4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-F6DQ43LNL4');
+  </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?27ab2daf7ee5965ed3dc2b49f7ac67f5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+  
+</head>
+
+<body>
+  <div id="footer" class="footer"></div>
+  <script>
+    new footer("#footer", {
+      firstLine: "FOLLOW US",
+      maskObj: {
+      
+        keywords: "Giving",//当前点击文案（头部Support Us和尾部Giving不同）
+        title: "If you are interested in supporting us or making a contribution, please contact:",
+        brief: "For any inquiries,<br>Please contact us:",
+        list: [
+        
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345246180375.png",
+            name: "Phone",
+            text: "+86(0)571 8688 6859",
+          },
+          
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345246363754.png",
+            name: "E-Mail",
+            text: "office@wefoundation.org.cn",
+          },
+          
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345246483234.png",
+            name: "Fax",
+            text: "+86(0)571 8527 1986",
+          }
+          
+        
+        ]
+      
+      },
+      mediaObj: {
+      
+        keywords: "Media Request",//当前点击文案（头部Support Us和尾部Giving不同）
+        title: "Please contact:",
+        brief: "Office of Public Affairs",
+        list: [
+        
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345530659249.png",
+            name: "Phone",
+            text: "+86(0)571 86886861",
+          },
+          
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345530806912.png",
+            name: "E-Mail",
+            text: "media@westlake.edu.cn",
+          },
+          
+          
+          {
+            icon: "https://en.westlake.edu.cn/others/footer/202310/W020231031345530938823.png",
+            name: "Fax",
+            text: "+86(0)571 88111699",
+          }
+          
+        
+        ]
+      
+      },
+      iconList: [
+      
+      
+        {
+          imgUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008515400012494.png",
+          activeImngUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008515400195032.png",//移入时展示图标
+          url: "https://weibo.com/u/6535729991",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008515612660562.png",
+          activeImngUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008515612858149.png",//移入时展示图标
+          url: "#",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020241230577944214967.png",
+          activeImngUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020241230577944371972.png",//移入时展示图标
+          url: "https://twitter.com/Westlake_Uni/",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008514890532513.png",
+          activeImngUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008514890665031.png",//移入时展示图标
+          url: "https://www.instagram.com/westlake_univ/",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008515002248035.png",
+          activeImngUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008515002375035.png",//移入时展示图标
+          url: "https://www.facebook.com/WestlakeUni/",
+          target: "_self",
+        },
+      
+      
+        {
+          imgUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008515209073342.png",
+          activeImngUrl: "https://en.westlake.edu.cn/others/footer/link_01/202309/W020231008515208927333.png",//移入时展示图标
+          // url: "https://www.linkedin.com/school/westlakeuniversity/",
+          // target: "_self",
+          QRcodeUrl: "",
+        },
+      
+      
+      ],
+      schoolList: [
+        {
+          title: "STUDY WITH US",
+          children: [
+            {
+              text: "Undergraduate Study",
+              url: "https://en.westlake.edu.cn/academics/undergraduate_studies/",
+              target: "_self",
+            },
+            {
+              text: "Graduate Study",
+              url: "https://en.westlake.edu.cn/academics/graduate_studies/",
+              target: "_self",
+            },
+            {
+              text: "Summer Sessions",
+              url: "https://en.westlake.edu.cn/admissions/summer_sessions/",
+              target: "_self",
+            },
+          ]
+        },
+        {
+          title: "WORK WITH US",
+          children: [
+            {
+              text: "Open Positions",
+              url: "https://en.westlake.edu.cn/careers/OpenPositions/",
+              target: "_self",
+            },
+            {
+              text: "Our Faculty",
+              url: "https://en.westlake.edu.cn/about/faculty/",
+              target: "_self",
+            },
+          ]
+        },
+        {
+          title: "CONTACT US",
+          children: [
+            {
+              text: "Giving",
+              // url: "",
+              // target: "_self",
+            },
+            {
+              text: "Visit Westlake",
+              url: "https://en.westlake.edu.cn/campus_life/visit_westlake/",
+              target: "_self",
+            },
+            {
+              text: "Media Request",
+              // url: "https://officialweb-test.westlake.edu.cn/careers/OpenPositions/administrative_professional/202309/t20230920_33850.html",
+              // target: "_self",
+            },
+            {
+              text: "International Affairs",
+              url: "https://international.westlake.edu.cn/",
+              target: "_blank",
+            },
+          ]
+        },
+      ],
+      campusList: [
+      
+        {
+          title: "YUNGU CAMPUS",
+          children: [
+            "No. 600 Dunyu Road,<br\/>Xihu District, Hangzhou,<br\/>Zhejiang, 310030, P.R. China", 
+         
+            "<span >E-mail: </span>office@westlake.edu.cn",
+          ]
+        },
+      
+        {
+          title: "YUNQI CAMPUS",
+          children: [
+            "No. 18 Shilongshan Road,<br\/>Xihu District, Hangzhou,<br\/>Zhejiang, 310024, P.R. China", 
+         
+            "<span >E-mail: </span>office@westlake.edu.cn",
+          ]
+        },
+      
+      ],
+      copyRight: [
+        {
+          text: "浙ICP备18025489号",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+        {
+          text: "浙公安备33010602007514号",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+        {
+          text: "© 2019-2025 Westlake University. All Rights Reserved",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+      ],
+      right: {
+        title: "Contact Westlake",
+        brief: "For any inquiries, <br>please contact us:",
+        phone: " +86(0)571 8811 1600",
+        email: "office@westlake.edu.cn",
+        bgImgTop: window.assetsPublicPath + "footer_right_top.png",//右侧顶部背景图带滤镜 暂时不抛去
+        bgImg: window.assetsPublicPath + "footer_bottom_right.png",//右侧图片展示
+      }
+    });
+  </script>
+</body>
+
+</html>
+  </div>
+  <script>
+    new newsDetail("#app", {
+      //顶部面包屑
+      navList: [
+        {
+          title: "Events ",
+          url: "#1",
+          target: '_self'
+        }
+      ],
+      mainObj: {
+        Data: "2024-12-19 14:00:00",//黄色框时间字段 前端截取
+        mainTitle: "The Journey of a New Mentor: Xiaorui Zheng\'s First Years at Westlake University",//大标题
+        Author: "",
+        Category: "Study at Westlake",
+        categoryUrl: "https://en.westlake.edu.cn/news_events/westlakenews/all_news/",
+        keywords: "Study at Westlake",
+        IconList: [
+          {
+            imgUrl: window.assetsPublicPath + "eventsdetail_icon_bird.png",
+            url: "#",
+            target: "_self",
+          },
+          {
+            imgUrl: window.assetsPublicPath + "eventsdetail_icon_camera.png",
+            url: "#",
+            target: "_self",
+          },
+          {
+            imgUrl: window.assetsPublicPath + "eventsdetail_icon_f.png",
+            url: "#",
+            target: "_self",
+          },
+          {
+            imgUrl: window.assetsPublicPath + "eventsdetail_icon_in.png",
+            url: "#",
+            target: "_self",
+          },
+          {
+            imgUrl: window.assetsPublicPath + "eventsdetail_icon_weibo.png",
+            url: "#",
+            target: "_self",
+          },
+          {
+            imgUrl: window.assetsPublicPath + "eventsdetail_icon_weixin.png",
+            url: "#",
+            target: "_self",
+          },
+        ],
+        detailContent: "<div class=\"view TRS_UEDITOR trs_paper_default trs_word trs_web\"><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Prof. Xiaorui Zheng, a principal investigator in the Department of Electronic Information Engineering at the Westlake University School of Engineering, sits before a stack of just-printed papers. Recently, the four Ph.D. students he supervises—three of whom are part of the first cohort he recruited after joining Westlake University—have all published their research in academic journals. This marks a significant step in their journey of scientific exploration, as they begin to enjoy the scenery and excitement of advancing in their field.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\"><br\/><\/p><p style=\"margin: 0px 0px 11px; line-height: 18.4px; font-size: 16px; font-family: Aptos, sans-serif; text-wrap: wrap; text-align: center;\"><img src=\".\/W020250106523404208432_ORIGIN.png\" data-uploadpic=\"W020250106523404208432_ORIGIN.png\" needdownload=\"true\" data-needdownload=\"true\" title=\"Screenshot 2025-01-06 at 2.30.40 PM.png\" alt=\"\" style=\"text-align: center;text-wrap-mode: wrap;width: 500px\" uploadpic=\"W020250106523404208432_ORIGIN.png\" picname=\"Screenshot 2025-01-06 at 2.30.40 PM.png\" OLDSRC=\"W020250106523404208432_ORIGIN.png\" \/><br\/><span style=\"color: rgb(127, 127, 127); font-size: 14px;\">Xiaorui<\/span><span style=\"color: rgb(127, 127, 127); font-size: 14px;\"> Zheng<\/span><\/p><p style=\"margin: 0px 0px 11px; line-height: 18.4px; font-size: 16px; font-family: Aptos, sans-serif; text-wrap: wrap; text-align: center;\"><br\/><\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">&quot;Consider the results as a ‘by-product,’ and focus on becoming a better version of yourself.&quot;<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Zheng flips through these research papers, each densely packed with text, pulling him back to four years ago.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">It was around this time that he began his role as a mentor. The Yunqi Campus was small, with few people, and as a newcomer, Zheng didn’t know anyone. At the Yunqi Campus coffee bar, a few outdoor tables were set up in front of Building 5. One October afternoon, he sat under an umbrella, chatting with someone who was working on semiconductor materials. His work was impressive, and Zheng later learned that this person was Prof. Lin Xiao from the Department of Physics at the School of Science.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">“I had seen his work on the website, but I had never met him in person,” Zheng recalls.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Also present that day was Prof. Wenbin Li from the Department of Materials Science and Engineering at the School of Engineering. The three of them quickly hit it off and decided to collaborate on research involving low-dimensional ferroelectric materials.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Low-dimensional ferroelectric materials are those that exhibit ferroelectric properties at two-dimensional or quasi-two-dimensional scales. Ferroelectricity refers to the ability of a material to spontaneously polarize without the application of an external electric field; this polarization can be reversed with the application of an external field. These materials, which have fast read\/write speeds, low power consumption, and ultra-thin integration characteristics, are expected to play a significant role in future brain-like computing systems, pushing the development of artificial intelligence.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">At that time, the 2020 cohort of Ph.D. students had just arrived, so Zheng had to wait until 2021 to recruit students. In the meantime, he hired a research assistant, Mengqi Wu, a recent graduate from the Chinese Academy of Sciences who had delayed her overseas studies due to the pandemic and was looking for a transitional job. She was somewhat indifferent to everything—after all, she planned to go abroad eventually.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\"><br\/><\/p><p style=\"text-align: center\"><img src=\".\/W020250108626347199266.jpg\" data-uploadpic=\"U020250108623176214511.jpg\" needdownload=\"true\" data-needdownload=\"true\" title=\"微信图片_20241217134303.jpg\" alt=\"\" style=\"width: 500px;\" picname=\"微信图片_20241217134303.jpg\" OLDSRC=\"W020250108626347199266.jpg\" \/><br\/><span style=\"color: rgb(127, 127, 127); font-family: Aptos, sans-serif; font-size: 14px;\">Mengqi<\/span><span style=\"color: rgb(127, 127, 127); font-family: Aptos, sans-serif; font-size: 14px;\"> Wu<\/span><\/p><p style=\"text-align: center\"><span style=\"color: rgb(127, 127, 127);font-family: Aptos, sans-serif;font-size: 14px;text-wrap-mode: wrap\"><br\/><\/span><\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Wu, who had a background in biomaterials, had to start from scratch to learn about the properties and characterization of low-dimensional ferroelectric materials, a field entirely different from her previous studies.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Prof. Lin’s research is more theoretical, focusing on the novel properties of two-dimensional materials and phase transition control. Prof. Li’s work mainly involves advanced semiconductor materials and the study of electron-phonon interactions, electrical transport properties, and phase control in complex electronic materials. Zheng’s research focuses on scanning probe techniques and their applications, making it ideal for controlling and characterizing the physical properties of two-dimensional materials. As a result, Wu became a bridge between the three research groups, using a piezoresponse force microscope (PFM) to apply a force to the Bi<sub>2<\/sub>O<sub>2<\/sub>Se thin film and observe whether this force could induce a ferroelectric phase transition.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Though it sounds simple, the process was complicated and intricate.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Wu, initially indifferent to everything, became deeply engrossed in the project. A year later, she decided against going abroad, instead passing the admissions process at the School of Engineering to become Zheng’s first Ph.D. student at Westlake University.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">From a postdoctoral researcher to an independent scientist, Zheng now needed to consider a more systematic and complete approach. “Westlake University helps you grow quickly,” he says.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">But growth is never instant.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">“There’s always inertia at the beginning.”<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Zheng’s undergraduate studies were at Wuhan University, where he majored in electronic science and technology and physics. After graduating, he was admitted to the Institute of Physics at the Chinese Academy of Sciences for his master’s degree in condensed matter physics. Later, he pursued a Ph.D. at the Centre for Micro-photonics, Swinburne University of Technology in Australia, under Prof. Baohua Jia and Prof. Min Gu, researching laser fabrication of low-dimensional nano-photonic devices. Low-dimensional nano-photonic devices became his focus during his postdoctoral research at institutions such as the University of California, San Diego, the New York Academy of Sciences, and New York University.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">During his postdoctoral research, Zheng collaborated with Prof. Elisa Riedo at New York University on the development of commercial scanning probe nanofabrication systems. Using this technology, he created micro-nano electronic devices such as a single-atom-layer semiconductor diode with an optimal rectification ratio (<em>Nat. Commun<\/em>. 11, 3463, 2020) and a single-atom-layer field-effect transistor with an optimal switching ratio (<em>Nat. Electron<\/em>. 2, 17, 2019).<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\"><br\/><\/p><p style=\"text-align: center\"><img src=\".\/W020250108626347353765.jpg\" data-uploadpic=\"U020250108623562614678.jpg\" needdownload=\"true\" data-needdownload=\"true\" title=\"微信图片_20250108135335.jpg\" alt=\"\" style=\"width: 500px;\" picname=\"微信图片_20250108135335.jpg\" OLDSRC=\"W020250108626347353765.jpg\" \/><br\/><span style=\"color: rgb(127, 127, 127); font-family: Aptos, sans-serif; font-size: 14px;\">Haoting<\/span><span style=\"color: rgb(127, 127, 127); font-family: Aptos, sans-serif; font-size: 14px;\"> Ying<\/span><\/p><p style=\"text-align: center\"><span style=\"color: rgb(127, 127, 127);font-family: Aptos, sans-serif;font-size: 14px;text-wrap-mode: wrap\"><br\/><\/span><\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Haoting Ying, a member of the 2021 cohort, was the first Ph.D. student Zheng recruited. The first task he assigned to Ying was similar to his own postdoctoral research—creating a field-effect transistor using a similar method but with a different material.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Reproducing previous work should have been easy.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">It took Ying six months to complete the task. However, when he suggested publishing the work at a group meeting, his mentor rejected the idea.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">“Why can’t I publish this work, even though it’s the same as what you did during your postdoc?” Ying asked.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Zheng explained, “The new material you used is a special bipolar material that can significantly enhance transistor performance. The materials I used during my postdoc didn’t have this property. Your work can’t just be about changing the material. Besides, you have the potential to go further, so why not?”<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">People are often resistant to change and afraid of challenges.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">After the meeting, Ying found his mentor to explain that the approach was not feasible. Most of the time, Zheng would sit down with him to discuss potential solutions, offer advice, and encourage him to “give it a try.”<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">&quot;Give it a try&quot; was also the encouragement Zheng received from his mentors during his own Ph.D. studies.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Ying Haoting, using a thermal scanning probe system to pattern devices.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">“The biggest transformation for Ying during this process was that he went from being someone who was unwilling to try to someone who was willing to try and, ultimately, to someone who could try things on his own,” Zheng says. By the end of the second phase of work, many key breakthroughs were made by Ying on his own.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Now, could they publish?<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">This time, both mentor and student had reached a mutual understanding—it still wasn’t enough.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">With the PN junction in place, many things could be done. “It’s like having the building blocks for basic logic operations—seven different ones, like seven different Lego shapes. Is it possible to use one transistor to perform all seven operations?” Zheng often thinks outside the box, aiming for an all-in-one solution.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">“Ying’s first task was to replicate what I had done; his second task was something I knew could be done but hadn’t done myself, so I asked him to try; by the third task, I wasn’t sure if it could be done, but I felt it was challenging and meaningful, so we tried together.”<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Once Ying completed these three stages, publishing the paper was a natural outcome—a “by-product.”<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">In September 2023, their paper on a bipolar transistor that performed seven basic logic operations using tellurium homojunction materials and non-invasive scanning probe lithography was published in the journal <em>Device<\/em> (<em>Device<\/em> 1, 100069, 2023). This research holds significant implications for future brain-like computing and miniaturized computing devices.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">This wasn’t Ying’s only gain from this work. He also earned recognition as the lab’s most improved student, and became an example to encourage others.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Mengqi Wu, Haoting Ying, Zishun Li were all part of the 2021 doctoral student cohort. While two students published papers on unique technologies, Li struggled with his own project for a while. However, by the spring of 2023, he had a breakthrough.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">One day, after a group meeting, Li had a flash of inspiration about memristors. He suggested to Zheng that they could “build” lightning rods inside memristors to control discharge directions.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">“Good idea, let’s give it a try!” Zheng responded.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\"><br\/><\/p><p style=\"text-align: center\"><img src=\".\/W020250108626347704153.jpg\" data-uploadpic=\"U020250108624646088136.jpg\" needdownload=\"true\" data-needdownload=\"true\" title=\"微信图片_20241217111908.jpg\" alt=\"\" style=\"width: 500px;\" picname=\"微信图片_20241217111908.jpg\" OLDSRC=\"W020250108626347704153.jpg\" \/><br\/><span style=\"color: rgb(127, 127, 127); font-family: Aptos, sans-serif; font-size: 14px;\">Zishun<\/span><span style=\"color: rgb(127, 127, 127); font-family: Aptos, sans-serif; font-size: 14px;\"> Li<\/span><\/p><p style=\"text-align: center\"><span style=\"color: rgb(127, 127, 127);font-family: Aptos, sans-serif;font-size: 14px;text-wrap-mode: wrap\"><br\/><\/span><\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Li’s innovative approach, combining his background in material science with memristor research, led to a novel solution using thermal probe technology to create nanostructures in silk fibroin membranes. This breakthrough significantly improved the stability and switching speed of the devices, leading to a paper published in <em>Advanced Materials <\/em>(<em>Adv. Mater.<\/em> 36, 2308843, 2024).<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">The journey began under an umbrella at Yunqi Campus and continues forward, with new research emerging from the collaborative efforts of Zheng’s team.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">Recently, the collaboration with Prof. Xiao Lin from the Department of Physics has also yielded exciting results. Their new research into advanced ferroelectric materials for quantum memory devices is on the verge of publication.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">For Zheng, the most satisfying aspect of mentoring is not just the academic achievements of his students but also the sense of shared growth and the nurturing of independent scientific inquiry.<\/p><p style=\"margin: 0 0 11px;line-height: 18.4px;font-size: 16px;font-family: Aptos, sans-serif;text-wrap: wrap\">In his words, &quot;As a mentor, you’re not only teaching but also learning and growing with your students. That’s the real reward.&quot;<\/p><p style=\"text-align: center\"><img src=\".\/W020250108626347980162.jpg\" data-uploadpic=\"U020250108624932134853.jpg\" needdownload=\"true\" data-needdownload=\"true\" title=\"微信图片_20241217111914.jpg\" alt=\"\" style=\"width: 500px;\" picname=\"微信图片_20241217111914.jpg\" OLDSRC=\"W020250108626347980162.jpg\" \/><br\/><span style=\"font-size: 14px; color: rgb(127, 127, 127); font-family: Aptos, sans-serif;\">Prof.<\/span><span style=\"font-size: 14px; color: rgb(127, 127, 127); font-family: Aptos, sans-serif;\"> Xiaorui<\/span><span style=\"font-size: 14px; color: rgb(127, 127, 127); font-family: Aptos, sans-serif;\"> Zheng&#39;s<\/span><span style=\"font-size: 14px; color: rgb(127, 127, 127); font-family: Aptos, sans-serif;\"> group<\/span><\/p><p><br\/><\/p><\/div>",
+        // mediaContacts: {
+        //   title: "Media contacts",
+        //   contact: "Chi ZHANG",
+        //   email: "media@westlake.edu.cn",
+        //   phone: "+86-(0)571-86886861",
+        //   department: "Office of Public Affairs"
+        // },
+        otherProgram: {
+          title: "You may also be interested",
+          programList: [
+          
+            {
+              imgUrl: "./W020250106629068319658.jpg",
+              title: "Study at Westlake",
+              content: "From a Sailor to a Ph.D. Candidate",
+              time: "2024-12-10 13:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/From-a-Sailor-to-a-PhD-Candidate.html"
+            },
+          
+            {
+              imgUrl: "../202411/W020241128608056760550_ORIGIN.jpeg",
+              title: "Study at Westlake",
+              content: "Westlake University Artificial Intelligence Open Course Now Online",
+              time: "2024-11-21 09:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202411/t20241128_46435.html"
+            },
+          
+            {
+              imgUrl: "../202411/W020241128606241442801_ORIGIN.png",
+              title: "Study at Westlake",
+              content: "Westlake University Engineering Ph.D. Student Wins Top AI Conference Award",
+              time: "2024-11-06 13:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202411/t20241128_46433.html"
+            },
+          
+            {
+              imgUrl: "../202411/W020241118554708537910_ORIGIN.png",
+              title: "Study at Westlake",
+              content: "Ph.D. Student Shuai He: Westlake Values True Passion, Potential",
+              time: "2024-10-18 12:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202411/t20241118_45806.html"
+            },
+          
+            {
+              imgUrl: "../202410/W020241010378525654721.jpg",
+              title: "Study at Westlake",
+              content: "Westlake Freshmen: The Optimal Solution of Jinghan Yang",
+              time: "2024-09-12 09:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202410/t20241010_42839.html"
+            },
+          
+            {
+              imgUrl: "../202410/W020241010392066613714.jpg",
+              title: "Study at Westlake",
+              content: "Westlake Freshmen: When the \'Lone Wolf\' Olympiad Contestant Meets Potential Academic Advisors",
+              time: "2024-09-02 13:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202410/t20241010_42832.html"
+            },
+          
+            {
+              imgUrl: "../202409/W020240911540038223017.jpg",
+              title: "Study at Westlake",
+              content: "Westlake Freshman Kefan Chen: Young People Need Ambition",
+              time: "2024-08-26 10:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202409/t20240911_42461.html"
+            },
+          
+            {
+              imgUrl: "../202409/W020240911547219889632.jpg",
+              title: "Study at Westlake",
+              content: "Westlake Undergraduate Freshman Father\'s Parenting Secret Is Watching Movies",
+              time: "2024-08-16 14:14:07",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202409/t20240911_42455.html"
+            },
+          
+            {
+              imgUrl: "../202408/W020240821397349121379.jpg",
+              title: "Study at Westlake",
+              content: "New Undergraduates Arrive at Westlake University",
+              time: "2024-08-03 13:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202408/t20240820_42079.html"
+            },
+          
+            {
+              imgUrl: "../202409/W020240903496552396100.png",
+              title: "Study at Westlake",
+              content: "Westlake Kicks off 1st Mathematics Summer School",
+              time: "2024-07-24 12:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202409/t20240903_42354.html"
+            },
+          
+            {
+              imgUrl: "../202407/W020240712537429628571.jpg",
+              title: "Study at Westlake",
+              content: "Cell Biology Course a Legendary Exploration of Life Sciences",
+              time: "2024-06-12 10:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202407/t20240712_41578.html"
+            },
+          
+            {
+              imgUrl: "../202406/W020240617617775899240.jpg",
+              title: "Study at Westlake",
+              content: "My Life as a Ph.D. Student at Westlake: Kai Chen on Hitting the Jackpot on the First Go",
+              time: "2024-05-13 13:43:49",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202406/t20240617_41096.html"
+            },
+          
+            {
+              imgUrl: "../202403/W020240320572736777847.jpg",
+              title: "Study at Westlake",
+              content: "Principal Investigators Become Academic Advisors for Undergraduates",
+              time: "2024-03-20 12:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202403/t20240320_37941.html"
+            },
+          
+            {
+              imgUrl: "../202404/W020240416624808075915.png",
+              title: "Study at Westlake",
+              content: "Engaging Undergraduates in Scientific Discovery at Westlake University",
+              time: "2024-03-14 10:10:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202404/t20240416_39347.html"
+            },
+          
+            {
+              imgUrl: "../202312/W020231222605409946075_ORIGIN.jpg",
+              title: "Study at Westlake",
+              content: "Westlake Freshmen: The Worries of Young Zheng Zhang",
+              time: "2023-12-22 16:46:30",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202312/t20231222_36017.html"
+            },
+          
+            {
+              imgUrl: "../202401/W020240122602606950443_ORIGIN.jpg",
+              title: "Study at Westlake",
+              content: "Alpha College Student Lecheng Zhang Publishes Research Paper at Top AI Conference",
+              time: "2023-12-11 16:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202401/t20240122_36733.html"
+            },
+          
+            {
+              imgUrl: "../202401/W020240109399353334706_ORIGIN.jpg",
+              title: "Study at Westlake",
+              content: "School of Science Hosts 72 Students for Summer Camp",
+              time: "2023-12-04 04:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202401/t20240109_36406.html"
+            },
+          
+            {
+              imgUrl: "../202401/W020240111587134181662_ORIGIN.gif",
+              title: "Study at Westlake",
+              content: "Westlake Freshmen: The Rubik’s Cube Genius",
+              time: "2023-11-16 12:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202401/t20240111_36584.html"
+            },
+          
+            {
+              imgUrl: "../202308/W020231221781943253753.jpg",
+              title: "Study at Westlake",
+              content: "Westlake University Hosts \'Frontiers of Life Sciences\' International Undergraduate Summer Camp 2023",
+              time: "2023-08-07 10:56:30",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/UniversityNews/202308/t20230807_35903.html"
+            },
+          
+            {
+              imgUrl: "../202306/W020230928409670609792.jpg",
+              title: "Study at Westlake",
+              content: "Westlake Ph.D. Students Dianyu Chen & Bingqing Yao Win 2023 Ray Wu Prize",
+              time: "2023-06-09 14:26:45",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202306/t20230609_34083.html"
+            },
+          
+            {
+              imgUrl: "../202306/W020231221781951659806.jpg",
+              title: "Study at Westlake",
+              content: "Westlake University & Fudan University Joint 2023 Eastern Science International Summer School Program Applications Open",
+              time: "2023-06-09 14:23:51",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/UniversityNews/202306/t20230609_35905.html"
+            },
+          
+            {
+              imgUrl: "../202304/W020231009359473999351.jpg",
+              title: "Study at Westlake",
+              content: "Yixiao Xiao: What a Character!",
+              time: "2023-04-17 10:36:18",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202304/t20230417_34379.html"
+            },
+          
+            {
+              imgUrl: "../202304/W020231009359475409265.png",
+              title: "Study at Westlake",
+              content: "To Be a Happy Hog or a Suffering Socrates?",
+              time: "2023-04-17 10:25:31",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202304/t20230417_34380.html"
+            },
+          
+            {
+              imgUrl: "../202304/W020231009359477183013.jpg",
+              title: "Study at Westlake",
+              content: "The Hottest Class at Westlake University",
+              time: "2023-04-15 13:44:47",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202304/t20230415_34381.html"
+            },
+          
+            {
+              imgUrl: "../202304/W020231009359478531258.jpeg",
+              title: "Study at Westlake",
+              content: "1st-year Ph.D. Students are ‘Noisy’ Until Dawn Discussing Musk and More｜Westlake Notes",
+              time: "2023-04-14 14:41:53",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202304/t20230414_34382.html"
+            },
+          
+            {
+              imgUrl: "../202304/W020231009359480129812.png",
+              title: "Study at Westlake",
+              content: "A Step-by-Step Guide to Finding Your Dream PhD Supervisor in Biology",
+              time: "2023-04-07 11:19:36",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202304/t20230407_34383.html"
+            },
+          
+            {
+              imgUrl: "../202303/W020231009359482918825.jpeg",
+              title: "Study at Westlake",
+              content: "Shuleyi Zheng of Alpha College: Finding a New Goal Every Day",
+              time: "2023-03-28 15:42:09",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202303/t20230328_34385.html"
+            },
+          
+            {
+              imgUrl: "../202303/W020231009359484222234.jpg",
+              title: "Study at Westlake",
+              content: "Ruoyu Wang: Quietly \"Stealing\" a Mentor",
+              time: "2023-03-24 13:55:40",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202303/t20230324_34386.html"
+            },
+          
+            {
+              imgUrl: "../202303/W020231009359485461541.jpg",
+              title: "Study at Westlake",
+              content: "Lei and Hongyu: Student & Teacher On a First Name Basis",
+              time: "2023-03-24 13:53:46",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202303/t20230324_34387.html"
+            },
+          
+            {
+              imgUrl: "../202303/W020231009359487012926.jpeg",
+              title: "Study at Westlake",
+              content: "A Small Class of Four Undergraduates",
+              time: "2023-03-23 14:09:55",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202303/t20230323_34388.html"
+            },
+          
+            {
+              imgUrl: "../202303/W020231009359491276955.JPG",
+              title: "Study at Westlake",
+              content: "Senior Female Students Share Experiences and Lessons with Junior Peers",
+              time: "2023-03-08 16:38:38",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202303/t20230308_34389.html"
+            },
+          
+            {
+              imgUrl: "../202303/W020231009359493076781.jpg",
+              title: "Study at Westlake",
+              content: "Meng-Yue Cao: Exploring New Pathways for Organic Synthesis",
+              time: "2023-03-08 10:15:44",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202303/t20230308_34390.html"
+            },
+          
+            {
+              imgUrl: "../202303/W020231009359494598397.jpeg",
+              title: "Study at Westlake",
+              content: "Ruoyu Wang of Delta College: We Are Shaping the College to Our Liking",
+              time: "2023-03-07 05:00:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202303/t20230310_34391.html"
+            },
+          
+            {
+              imgUrl: "../202303/W020231009359497715675.jpeg",
+              title: "Study at Westlake",
+              content: "Yifei Jia of Beta College: The Free and Productive Freshman",
+              time: "2023-03-03 16:03:18",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202303/t20230303_34393.html"
+            },
+          
+            {
+              imgUrl: "../202302/W020231009359499895060.jpeg",
+              title: "Study at Westlake",
+              content: "Westlake University’s First Class of Undergraduates Take First Winter Vacation",
+              time: "2023-02-23 17:28:26",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202302/t20230223_34394.html"
+            },
+          
+            {
+              imgUrl: "../202301/W020230928409686864700.jpeg",
+              title: "Study at Westlake",
+              content: "Yinghao Yang: Always Prepared for the Next Move",
+              time: "2023-01-09 14:02:14",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202301/t20230109_34092.html"
+            },
+          
+            {
+              imgUrl: "../202301/W020230928408501510915.jpg",
+              title: "Study at Westlake",
+              content: "Westlake Spring Reading Special: Books of the Year",
+              time: "2022-12-01 09:45:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202301/t20230109_34038.html"
+            },
+          
+            {
+              imgUrl: "../202211/W020231009359517208494.jpg",
+              title: "Study at Westlake",
+              content: "Why You Should Choose Westlake University for Your Ph.D. Studies",
+              time: "2022-11-15 16:17:25",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202211/t20221115_34405.html"
+            },
+          
+            {
+              imgUrl: "../202211/W020231009359501707986.png",
+              title: "Study at Westlake",
+              content: "The Turning Point for an Obstetric Intern | New Westlake Students",
+              time: "2022-11-03 17:03:33",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202211/t20221103_34395.html"
+            },
+          
+            {
+              imgUrl: "../202211/W020231009359503174330.png",
+              title: "Study at Westlake",
+              content: "A ‘New Song’ for Doctoral Student Chuhan Jiang丨New Westlake Students",
+              time: "2022-11-03 17:00:52",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202211/t20221103_34396.html"
+            },
+          
+            {
+              imgUrl: "../202210/W020231009359504452403.jpg",
+              title: "Study at Westlake",
+              content: "Zhenhai High School Graduate Jingwei Xu Staying Out of the Rat Race | New Westlake Students",
+              time: "2022-10-27 16:34:22",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202210/t20221027_34397.html"
+            },
+          
+            {
+              imgUrl: "../202210/W020231009359505885683.jpeg",
+              title: "Study at Westlake",
+              content: "Older Twin Goes to Tsinghua University, Younger Twin Comes to Westlake",
+              time: "2022-10-24 14:40:10",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202210/t20221024_34398.html"
+            },
+          
+            {
+              imgUrl: "../202210/W020231009359507478671.png",
+              title: "Study at Westlake",
+              content: "Xingyang Ren, Accumulating Energy",
+              time: "2022-10-24 14:36:19",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202210/t20221024_34399.html"
+            },
+          
+            {
+              imgUrl: "../202301/W020230928409688976739.jpeg",
+              title: "Study at Westlake",
+              content: "Yiru Pan: Enjoy Life as It Comes",
+              time: "2022-10-19 10:50:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202301/t20230109_34093.html"
+            },
+          
+            {
+              imgUrl: "../202209/W020231009359509209578.png",
+              title: "Study at Westlake",
+              content: "Westlakers Chat Around the World at Global Hangout",
+              time: "2022-09-21 17:10:53",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202209/t20220921_34400.html"
+            },
+          
+            {
+              imgUrl: "../202209/W020230928409702400704.png",
+              title: "Study at Westlake",
+              content: "Meet Our Students | At 43, Age Is No Barrier to Higher Education",
+              time: "2022-09-07 11:17:32",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202209/t20220907_34098.html"
+            },
+          
+            {
+              imgUrl: "../202209/W020231221782046459066.png",
+              title: "Study at Westlake",
+              content: "Westlake University Hosts School of Science Summer Camp",
+              time: "2022-09-01 17:05:21",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/UniversityNews/202209/t20220901_35936.html"
+            },
+          
+            {
+              imgUrl: "../202208/W020220812594702868413.png",
+              title: "Study at Westlake",
+              content: "Freshman Xinyi Wang: Why Did We Choose Westlake?",
+              time: "2022-08-12 16:29:36",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/UniversityNews/202208/t20220812_22078.html"
+            },
+          
+            {
+              imgUrl: "../202206/W020230928409710070426.jpg",
+              title: "Study at Westlake",
+              content: "Novice Researchers Behind Breakthrough Publication in ‘Cell’",
+              time: "2022-06-02 14:48:19",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202206/t20220602_34101.html"
+            },
+          
+            {
+              imgUrl: "../202204/W020220408449140828611.png",
+              title: "Study at Westlake",
+              content: "After Visiting Westlake University, High School Students Are Impressed",
+              time: "2022-04-08 12:20:58",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/UniversityNews/202204/t20220408_19736.html"
+            },
+          
+            {
+              imgUrl: "../202112/W020231009359510708267.jpeg",
+              title: "Study at Westlake",
+              content: "Westlake Voices: Yaoting Sun",
+              time: "2021-12-09 16:48:25",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202112/t20211209_34401.html"
+            },
+          
+            {
+              imgUrl: "../202111/W020231009359512764083.jpeg",
+              title: "Study at Westlake",
+              content: "Westlake Voices: Qingwei Niu",
+              time: "2021-11-04 17:20:39",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202111/t20211104_34402.html"
+            },
+          
+            {
+              imgUrl: "../202110/W020231009359514095122.png",
+              title: "Study at Westlake",
+              content: "Westlake Voices: Limin Qi - \"After 3 Years, Here I am\"",
+              time: "2021-10-09 16:03:04",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202110/t20211009_34403.html"
+            },
+          
+            {
+              imgUrl: "../202110/W020231009359515423983.png",
+              title: "Study at Westlake",
+              content: "Westlake Voices: Min Yang - \"The Freedom I Was Looking For\"",
+              time: "2021-10-09 15:54:32",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202110/t20211009_34404.html"
+            },
+          
+            {
+              imgUrl: "../202109/W020210910516697393091.png",
+              title: "Study at Westlake",
+              content: "Westlake Voices: Fang Guo – “Let’s Turn Our Dreams into Reality, Together!”",
+              time: "2021-09-10 10:52:45",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/UniversityNews/202109/t20210910_12503.html"
+            },
+          
+            {
+              imgUrl: "../202004/W020231009359518814685.jpg",
+              title: "Study at Westlake",
+              content: "PhD life at Westlake: Graduated from London, I found my place in Hangzhou",
+              time: "2020-04-14 17:28:06",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202004/t20200414_34406.html"
+            },
+          
+            {
+              imgUrl: "../202004/W020231009359520926318.jpg",
+              title: "Study at Westlake",
+              content: "My crazy ideas finally found a home at Westlake | Study at Westlake",
+              time: "2020-04-10 10:51:57",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/202004/t20200410_34407.html"
+            },
+          
+            {
+              imgUrl: "../201912/W020231009359524547442.jpg",
+              title: "Study at Westlake",
+              content: "A Midsummer Night\'s Dream at Westlake, Who is Your Superstar?",
+              time: "2019-06-06 08:05:00",
+              url: "https://en.westlake.edu.cn/news_events/westlakenews/Study_at_Westlake/201912/t20191214_34408.html"
+            },
+          
+          ],
+        },
+      },
+      mounted: function () {
+         
+       },
+    });
+  </script>
+
+</body>
+
+</html>

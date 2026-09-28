@@ -1,0 +1,189 @@
+Xin Yuan
+Home
+About
+Research Interests
+Education
+Publications
+Informations
+DR. Xin Yuan.
+Looking for your Joining !
+Hello I'm
+One of The Prime Drivers Behind Snapshot Compression Imaging.
+About
+About Me
+Dr. Xin Yuan received his B.Eng. and M.Eng. degrees from Xidian University, in 2007 and 2009, respectively, and his Ph.D.degree from The Hong Kong Polytechnic University in 2012. From 2012 to 2015, he had been a Postdoctoral Associate with the Department of Electrical and Computer Engineering, Duke University, where he was working on compressive sensing and machine learning. From 2015 to 2021, he was a Video Analysis and Coding Lead Researcher at Bell Labs, Murray Hills, NJ, USA. Besides, he has received several best paper awards in international conferences. He has been the Associate Editor of Pattern Recognition since 2019. He is the leading guest editor of the special issue of “Deep Learning for High Dimensional Sensing” in the IEEE Journal of Selective Topics in Signal Processing (2021). Dr. Yuan Joined the Westlake University in 2021 as an Associate Professor in School of Engineering.
+Dr. Xin Yuan has been working on computational imaging since 2012, which includes the hardware system design (usually using optics, please refer to papers published in CVPR, ICCV, ECCV, Optica, Optics Letters, Optics Express and APL Photonics), algorithm development including optimization-based algorithms (please refer to papers published in IEEE T-PAMI, T-IP,T-SP and IJCV) and deep-learning-based algorithms (please refer to papers published in CVPR, ICCV and ECCV). Furthermore, Dr. Yuan works with colleagues on the theoretical derivation of computational imaging systems (please refer to papers published in IEEE T-IT). Dr. Yuan also works on machine learning models for other data analysis (please refer to papers published in ICML, NIPS and AISTATS).
+Currently, Dr. Yuan is working on the Snapshot Compressive Imaging (refer to the review paper published in IEEE Signal Processing Magazine entitled "Snapshot Compressive Imaging: Theory, Algorithms and Applications" doi: 10.1109/MSP.2020.3023869), also known as the SCI. SCI uses a two-dimensional (2D) detector to capture high-dimensional (HD, i.e., 3D or larger) data in a snapshot measurement. Via novel optical designs, the 2D detector samples the HD data in a compressive manner; following this, algorithms are employed to reconstruct the desired HD data-cube. SCI has been used in hyperspectral imaging, video, holography, tomography, focal depth imaging, polarization imaging, microscopy, etc. Though the hardware has been investigated for more than a decade, the theoretical guarantees have only recently been derived in 2019. Inspired by deep learning, various deep neural networks have also been developed to reconstruct the HD data-cube in spectral SCI and video SCI. Dr. Yuan and his collaborators are leading the state-of-the-art SCI reconstruction algorithms, both in optimization (T-PAMI 2019, 2021) and deep learning (CVPR 2020, 2021, ECCV 2020 and ICCV 2021).
+Interests
+Research Interests
+Artificial Intelligence
+Sensing and Computational Imaging
+Deep Learning
+Machine Learning
+Optical Devices
+Statistical & Data Sciences
+Education
+Education
+Post-doc Researcher
+May 2012 - March 2015
+Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA
+Ph.D.
+September 2009 - April 2012
+Department of Electronic and Information Engineering, The Hong Kong Polytechnic University, Hong Kong
+M.Eng.
+August 2007 - June 2009
+National Key Lab of Radar Signal Processing, School of Electronic Engineering, Xidian University, China
+B.Eng.
+August 2003 - June 2007
+School of Electronic Engineering, Xidian University, China
+Publications
+Publications
+BOOK CHAPTER:
+Z. Gan,X. Yuan, R. Henao, E. L. Tsalik, and L. Carin "Inference of gene networks associated with the host response to infectious disease" inBig Data Over Networks, S. Cui, A. Hero, Z.-Q. Luo and J. Moura Eds. 2015.
+P. Llull, X. Yuan, X. Liao, J. Yang, D. Kittle, L. Carin, G. Sapiro, and D.J. Brady, “Temporal compressive sensing for video,” in Compressed Sensing and its Applications, H. Boche,R. Calderbank, G. Kutyniok, and J. Vybral, Eds., pp. 41–74. Springer International Publishing, 2015.
+JOURNALS & CONFERENCES:
+X. Yuan*# , Y. Liu#, J. Suo, F. Durand and Q. Dai, "Plug-and-Play Algorithms for Video Snapshot Compressive Imaging,"   IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021.
+R. Lu, B. Chen*, G. Liu, Z. Cheng, M. Qiao and X. Yuan*, "Dual-view Snapshot Compressive Imaging via Optical Flow Aided Recurrent Neural Network,"   International Journal of Computer Vision (IJCV), 2021.
+Z. Meng, Z. Yu, K. Xu and X. Yuan*, "Self-supervised Neural Networks for Spectral Snapshot Compressive Imaging,"   IEEE/CVF International Conference on Computer Vision (ICCV), 2021.
+X. Li, J. Suo, W. Zhang, X. Yuan, and Q. Dai, "Universal and Flexible Optical Aberration Correction Using Deep-Prior Based Deconvolution,"   IEEE/CVF International Conference on Computer Vision (ICCV), 2021.
+M. Qiao, Y. Sun, J. Ma, Z. Meng, X. Liu and X. Yuan*,  "Snapshot Coherence Tomographic Imaging,"   IEEE Transactions on Computational Imaging, 2021.
+Z. Zha, B. Wen*, X. Yuan, J. T. Zhou, J. Zhou and C. Zhu,  "Triply Complementary Priors for Image Restoration,"   IEEE Transactions on Image Processing, 2021.
+S. Zheng, C. Wang, X. Yuan* and H. Xin*,  "Triply Complementary Priors for Image Restoration,"   IEEE Transactions on Image Processing, 2021.
+X. Yuan and S.Han, "Single-Pixel Neutron Imaging with Artificial Intelligence: Breaking the Barrier in Multi-Parameter Imaging, Sensitivity and Spatial Resolution,"   The Innovation: Cell Press, 2021.
+Z. Cheng, B. Chen, G. Liu, H. Zhang, R. Lu, Z. Wang and X. Yuan, "Memory-Efficient Network for Large-scale Video Compressive Sensing,"   CVPR , 2021.  Code: https://github.com/BoChenGroup/RevSCI-net.
+T. Huang, W. Dong, X. Yuan, J. Wu and G. Shi, "Deep Gaussian Scale Mixture Prior for Spectral Compressive Imaging,"   CVPR, 2021. Code: https://github.com/TaoHuang95/DGSMP.
+Z. Wang, H. Zhang, Z, Cheng, B. Chen and X. Yuan, "MetaSCI: Scalable and Adaptive Reconstruction for Video Compressive Sensing,"   CVPR, 2021. Code: https://github.com/xyvirtualgroup/MetaSCI-CVPR2021.
+Z. Zha, X. Yuan, B. Wen, J. Zhang and C. Zhu, " Non-Convex Structural Sparsity Residual Constraint for Image Restoration,"   IEEE Transactions on Cybernetics, 2021.
+Y. Zhang, N. Xiong, Z. Wei, X. Yuan and J. Wang, "ADCC: An Effective and Intelligent Attention Dense Color Constancy System for Studying Images in Smart Cities,"   IEEE Transactions on Systems, Man and Cybernetics: Systems, 2021.
+X. Ma, X. Yuan, C. Fu and G. R. Arce, "LED-based compressive spectral-temporal imaging,"   Optics Express, 2021.
+M. Qiao, X. Liu and X. Yuan*, "Snapshot Temporal Compressive Microscopy Using Untrained Deep Neural Networks,"   Optics Letters, 2021. (*Corresponding author).
+X. Yuan*, D. Brady, and A. Katsaggelos , "Snapshot Compressive Imaging: Theory, Algorithms and Applications,"   IEEE Signal Processing Magazine, vol. 38, no. 2, pp. 65-88, March 2021.
+S. Yang, X. Yan, H. Qin, Q. Zeng, Y. Liang, H. Arguello and X. Yuan, "Mid-Infrared Compressive Hyperspectral Imaging, "   Remote Sensing, 2021, 13, 741.
+Z. Zha, B. Wen, X. Yuan, J. Zhou, C. Zhu and A. C. Kot, "A Hybrid Structural Sparsification Error Model for Image Restoration,"   IEEE Transactions on Neural Networks and Learning Systems, 2021. DOI: 10.1109/TNNLS.2021.3057439.
+S. Zheng,  Y. Liu, Z. Meng, M. Qiao, Z. Tong, X. Yang, S. Han, X. Yuan, "Deep Plug-and-Play Priors for Spectral Snapshot Compressive Imaging ,"  Photonics Research.  Code: https://github.com/zsm1211/PnP-CASSI.
+Q. Xu, X. Yuan and C. Ouyang,Y. Zeng, "Spatial-spectral FFPNet: Attention-Based Pyramid Network for Segmentation and Classification of Remote Sensing Images," Remote Sensing, 12(21), 3501, 2020.
+Q. Xu, X. Yuan and C. Ouyang, "Class-aware Domain Adaptation for Semantic Segmentation of Remote Sensing Images,"  IEEE Transactions on Geoscience and Remote Sensing, 2020.
+X. Yuan, D. Brady and A. Katsaggelos, "Snapshot Compressive Imaging: Theory, Algorithms and Applications,"  IEEE Signal Processing Magazine, 2020.
+D. P. Siddons, A. Kuczewski, A. K. Rumaiz, R. Tappero, M. Idir, K. Nakhoda, J. Khanfri, V. Singh, E. R. Farquhar, M. Sullivan, D. Abel, D. J. Brady and X. Yuan, "A Coded-aperture Microscope for X-ray Fluorescence Full-Field Imaging," Journal of Synchrotron Radiation, 2020.
+Z. Zha, X. Yuan, B. Wen, J. Zhou and C. Zhu,"Group Sparsity Residual Constraint with Non-Local Priors for Image Restoration,"  IEEE Transactions on Image Processing, 2020.
+L. Pan, C. Deng, Z. Bo, X. Yuan, D. Zhu, W. Gong and S. Han, "Experimental investigation of chirped amplitude modulation Heterodyne ghost imaging," Optics Express, 2020.
+Z. Meng, M. Qiao, J. Ma, Z. Yu, K. Xu, and X. Yuan, "Snapshot Multispectral Endomicroscopy," Optics Letters, 2020. Code: https://github.com/mengziyi64/SMEM
+Z. Zha, X. Yuan, J. Zhou, C. Zhu and B. Wen,"Image Restoration via Simultaneous Nonlocal Self-Similarity Priors," IEEE Transactions on Image Processing, 2020.
+Z. Zha, X. Yuan, B. Wen, J. Zhang, J. Zhou and C. Zhu, "Image Restoration Using Joint Patch-Group Based Sparse Representation," IEEE Transactions on Image Processing, 2020.
+P. Yang, L. Kong, X.-Y. Liu, X. Yuan and G. Chen, "Shearlet Enhanced Snapshot Compressive Imaging," IEEE Transactions on Image Processing, 2020.
+P. Peng, S. Jalali and X. Yuan, "Solving Inverse Problem via Auto-encoders," IEEE Journal on Selected Areas in Information Theory, 2020.
+M. Qiao, Z. Meng, J. Ma and  X. Yuan*, "Deep Learning for Video Compressive Sensing,"  APL Photonics (Invited paper for Special Topic: Photonics and AI), 2020.  (*Corresponding author).  Code and data at: https://github.com/mq0829/DL-CACTI
+M. Qiao, X. Liu and  X. Yuan*, "Snapshot spatial-temporal compressive imaging," Optics Letters, 2020, doi:10.1364/OL.386238.  (*Corresponding author).
+X. Yuan and R. Haimi-Cohen, "Image Compression Based on Compressive Sensing: End-to-End Comparison with JPEG," IEEE Transactions on Multimedia, 2020. doi:10.1109/TMM.2020.2967646
+M. Qiao and X. Yuan*, "A Realistic phase screen model for forward multiple-scattering media," Optics Letters, 2020. doi: 10.1364/OL.383923 (*Corresponding author).
+S. Lu, X. Yuan and W. Shi, "An integrated framework for compressive imaging processing on CAVs,” in ACM/IEEE Symposium on Edge Computing (SEC), November 2020.
+Z. Cheng, R. Lu, Z. Wang, H. Zhang, B. Chen, Z. Meng, X. Yuan, "BIRNAT: Bidirectional Recurrent Neural Networks with Adversarial Training for Video Snapshot Compressive Imaging," European Conference on Computer Vision (ECCV), 2020. Code: https://github.com/BoChenGroup/BIRNAT
+Z. Meng, J. Ma and X. Yuan, "End-to-End Low Cost Compressive Spectral Imaging with Spatial-Spectral Self-Attention," European Conference on Computer Vision, August, 2020. Code: https://github.com/mengziyi64/TSA-Net
+Z. Zha, B. Wen, X. Yuan, J. Zhou, C. Zhu, "Reconciliation of Group Sparsity and Low-rank models for Image Restoration," IEEE International Conference on Multimedia & Expo (ICME), London, UK, July, 2020 (oral).
+X. Yuan, Y. Liu, J. Suo and Q. Dai, "Plug-and-Play Algorithms for Large-scale Snapshot Compressive Imaging," IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, WA, USA, June, 2020. Code: https://github.com/liuyang12/PnP-SCI
+Z. Zha, X. Yuan, J. Zhou, C. Zhu and B. Wen, ``Hybrid Structural Sparse Error Model for Image Deblocking,"  IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Barcelona, Spain, May 2020.
+Z. Zha, X. Yuan, B. Wen, J. Zhou, J. Zhang and C. Zhu, "A Benchmark to Sparse Coding: When Group Sparsity Meets Rank Minimization," IEEE Transactions on Image Processing, 2019.
+Z. Zha, X. Yuan, B. Wen, J. Zhou, J. Zhang and C. Zhu, "From Rank Estimation to Rank Approximation: Rank Residual Constraint for Image Restoration," IEEE Transactions on Image Processing, 2019. doi: 10.1109/TIP.2019.2958309
+C. Geng, X. Yuan and H. Huang, "Exploiting Channel Correlations for NLOS ToA Localization and Multivariate Gaussian Mixture Models," IEEE Wireless Communications Letters, vol. 9, no. 1, pp. 70-73, Jan. 2020.  doi: 10.1109/LWC.2019.2941878.
+J. Ding, M. Yang, B. Chen and X. Yuan, "A Single Triangular SS-EMVS Aided High Accuracy DOA Estimation Using A Multi-scale L-shaped Sparse Array," EURASIP Journal on Advances in Signal Processing, 44 (2019) doi:10.1186/s13634-019-0642-4.
+S. Jalali and X. Yuan, "Snapshot Compressed Sensing: Performance Bounds and Algorithms," IEEE Transactions on Information Theory, vol. 65, no. 12, pp. 8005-8024, Dec. 2019. doi: 10.1109/TIT.2019.2940666.
+M. Yang, J. Ding, B. Chen and X. Yuan,"Coprime L-shaped Array Connected by A Triangular Spatially-spread Electromagnetic-Vector-Sensor for Two-Dimensional Directional of Arrival Estimation," IET Radar, Sonar and Navigation, vol. 13, no. 10, pp. 1609-1615, 2019. doi: 10.1049/iet-rsn.2018.5536.
+P. Peng, S. Jalali and X. Yuan, "Auto-Encoders for Compressed Sensing", Neural Information Processing Systems (NeurIPS) workshop, Vancouver, Canada, December 2019.
+J. Ma, X-Y. Liu, Z. Shou, X. Yuan, "Deep Tensor ADMM-Net for Snapshot Compressive Imaging," IEEE International Conference on Computer Vision (ICCV), Seoul, Korea, October, 2019. (acceptance rate: 1076/4303 = 25%).
+X. Miao, X. Yuan*, Y. Pu and V. Athitsos, "Lambda-net: Reconstruct Hyperepsectral Images from a Snapshot Measurement," IEEE International Conference on Computer Vision (ICCV), Seoul, Korea, October, 2019. (acceptance rate: 1076/4303 = 25%) (*Corresponding author.).
+Z. Zha, X. Yuan, B.Wen, J. Zhang, J. Zhou, C. Zhu, "Simultaneous Nonlocal Self-Similarity Prior for Image Denoising", IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan, China, September 2019.
+S. Jalali and  X. Yuan, "Solving Linear Inverse Problems Using Generative Models", IEEE International Symposium on Information Theory (ISIT), Paris, France. July 2019.
+M. Qiao, Y. Sun, X. Liu, X. Yuan*, and P. Wilford, "Snapshot Optical Coherence Tomography," OSA Digital Holography and 3-D Imaging, Bordeaux, France, May, 2019.
+X. Miao, X. Yuan*, and P. Wilford, "Deep Learning for Compressive Spectral Imaging," OSA Digital Holography and 3-D Imaging, Bordeaux, France, May, 2019.
+Y. Liu*, X. Yuan*, J. Suo, D. Brady and Q. Dai, "Rank Minimization for Snapshot Compressive Imaging,"  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) , vol. 41, no. 12, pp. 2990-3006, 1 Dec. 2019. doi: 10.1109/TPAMI.2018.2873587 (* equal contribution).  code
+Z. Zha and  X. Yuan, "Joint Patch-Group Based Sparse Representation for Image Inpainting," Asian Conference on Machine Learning (ACML), Beijing, China, November 2018.
+X. Yuan and Y. Pu, "Deep Learning for Lensless Compressive Imaging," Microscopy & Microanalysis 2018 Meeting, Baltimore, Maryland, August, 2018.
+S. Jalali and  X. Yuan, "Compressive Imaging via One-shot Measurements," IEEE International Symposium on Information Theory (ISIT), Colorado, USA, June 2018 (Oral).
+X. Zhang, X. Yuan, and L. Carin, "Nonlocal Low-Rank Tensor Factor Analysis for Image Restortaion," IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, Utah, USA, June, 2018.
+Z. Zha, X. Zhang, Q. Wang, Y. Bai, L. Tang, and X. Yuan, "Group Sparsity Residual with Non-Local Samples for Image Denoising," IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Calgary, Alberta, Canada, April, 2018 (Oral).
+X. Yuan, and X. Liu, “Wavelet Tree Structure Based Speckle Noise Removal for Optical Coherence Tomography," SPIE Photonics West, BiOS, San Francisco, California, USA, January, 2018.
+X. Yuan, "Adaptive Step-size Iterative Algorithm for Sparse Signal Recovery," Signal Processing, vol. 152, pp. 273-285, November 2018. code
+H. Li, J. Wang and X. Yuan, "On the Fundamental Limit of Multipath Matching Pursuit," IEEE Journal of Selected Topics in Signal Processing, vol. 12, no. 5, pp. 916-927, October 2018.
+Z. Zha, X. Zhang, Y. Wu, Q. Wang, X. Liu, L. Tang and X. Yuan, "Non-Convex Weighted L_p Nuclear Norm based ADMM Framework for Image Restoration," Neurocomputing, vol. 311, pp. 209-224, October 2018.
+M. Yang, A. M. Haimovich, X. Yuan, L. Sun and B. Chen, "A Unified Array Geometry Composed of Multiple Identical Subarrays with Hole-free Difference Coarrays for Underdetermined DOA Estimation," in IEEE Access, vol. 6, pp. 14238-14254, 2018.
+M. Yang, J. Ding, B. Chen, and X. Yuan, "A multiscale sparse array of spatially spread electromagnetic-vector-sensors for direction finding and polarization estimation,"IEEE Access, vol. 6, pp. 9807–9818, 2018.
+X Yuan, and Y. Pu, "Parallel Lensless Compressive Imaging via Deep Convolutional Neural Networks," Optics Express, vol. 26, no. 2, pp. 1962-1977, 2018.
+M Yang, L Sun, X Yuan, B Chen, "A New Nested MIMO Array With Increased Degrees of Freedom and Hole-Free Difference Coarray," IEEE Signal Processing Letters 25 (1), 40-44. January 2018.
+X Yuan, G. Huang, H. Jiang, and P. Wilford, "Block-wise Lensless Compressive Camera," IEEE International Conference on Image Processing (ICIP), Beijing, China, September,2017 (Oral).
+X Yuan, Y. Pu, "Convolutional Factor Analysis Inspired Compressive Sensing," IEEE International Conference on Image Processing (ICIP), Beijing, China, September, 2017 (Oral).
+X Yuan, Y. Sun and S. Pang "Compressive Temporal RGB-D Imaging," OSA Imaging and Applied Optics, San Francisco, California, USA, June, 2017 (Oral).
+F. Zaki, Y. Wang, X Yuan, and X. Liu "Adaptive Wavelet Thresholding for Optical Coherence Tomography Image Denoising," OSA Imaging and Applied Optics, San Francisco, California, USA, June, 2017 (Oral).
+X Yuan, Y. Sun, and S. Pang, "Compressive Video Sensing with Side Information," SPIE Commercial + Scientific Sensing and Imaging, Anaheim, USA, April, 2017.
+Y. Sun, X Yuan, and S. Pang, "Compressive high-speed stereo imaging," Optics Express, vol. no. 15, pp. 18182-18190, July 2017.
+F. Zaki, Y. Wang, H. Su, X. Yuan, and X. Liu, "Noise adaptive wavelet thresholding for speckle noise removal in optical coherence tomography," Biomedical Optics Express, vol. 8, no. 5, pp. 2720-2731, 2017.
+X. Yuan, Y. Sun, and S. Pang, "Compressive Video Sensing with Side Information," Applied Optics, 56(10), 2697-2704, April 2017. code
+X. Yuan,, "Compressive dynamic range imaging via Bayesian shrinkage dictionary learning", Optical Engineering, 55(12), 123110 (Dec 22, 2016).
+M. Yang, L. Sun, X. Yuan, and B. Chen, "Improved Nested Array with Hole-free Difference Coarray and More Degrees of Freedom", IET Electronics Letters, vol. 52, no. 25, pp. 2068-2070, December 8 2016
+X. Yuan,, H. Jiang, G. Huang, and P. Wilford, "SLOPE: Shrinkage of Local Overlapping Patches Estimator for Lensless Compressive Imaging," IEEE Sensors Journal, vol. 16, no. 22, pp. 8091-8102, November 15, 2016. code
+Y. Sun, X. Yuan, and S. Pang, "High-speed Compressive Range Imaging Based on Active Illumination," Optics Express, vol. 24, no. 20, pp. 22836-22846, October 2016.
+X. Yuan, X. Liao, P. Llull, D. Brady, and L. Carin"An Efficient Patch-based Approach for Compressive Depth Imaging," Applied Optics, vol. 55, no. 27, pp. 7556-7564, September 2016. code
+F. Renna, L. Wang, X. Yuan, J. Yang, G. Reeves, R. Calderbank, L. Carin and M. R. D. Rodrigues, "Classification and Reconstruction of High-Dimensional Signals from Low-Dimensional Noisy Features in the Presence of Side Information," IEEE Transactions on Information Theory, vol. 62, no. 11, pp. 6459-6492, November 2016.
+X. Cao, T. Yue, X. Lin, S. Lin, X. Yuan, Q. Dai, Lawrence Carin and D. Brady, "Computational Snapshot Multi-spectral Cameras: Towards Dynamic Capture of the Spectral World," IEEE Signal Processing Magazine, 2016
+X. Yuan, S. Pang, “Structured Illumination Temporal Compressive Microscopy," Biomedical Optics Express, 7(3), pp. 746-758, 2016.
+Y. Pu, Z. Gan, R. Henao, X. Yuan, C. Li, A. Stevens and L. Carin, "Variational Autoencoder for Deep Learning of Images, Labels and Captions," Neural Information Processing Systems (NIPS), Barcelona, Spain, December 2016.
+X. Yuan, "Generalized Alternating Projection Based Total Variation Minimization for Compressive Sensing," IEEE International Conference on Image Processing (ICIP), Phoenix, Arizona, USA, September, 2016. code
+X. Yuan, and S. Pang "Compressive Video Microscope via Structured Illumination," IEEE International Conference on Image Processing (ICIP), Phoenix, Arizona, USA, September, 2016 (Oral).
+X. Yuan, Y. Sun, and S. Pang, "Compressive Temporal Stereo-Vision Imaging," Computational Optical Sensing and Imaging (COSI), Heidelberg, Germany, July, 2016.
+A. Stevens, H. Yang, L. Kovarik, X. Yuan, Q. Ramasse, P. Abellan, Y. Pu, L Carin, and N. Browning, "Compressive Sensing in Microscopy: a Tutorial," Microscopy and Microanalysis, vol. 22, pp. 2084-2085, Columbus, Ohio, July, 2016.
+Y. Pu, X. Yuan, A. Stevens, C. Li and L. Carin, "A Deep Generative Deconvolutional Image Model," International Conference on Artficial Intelligence and Statistics(AISTATS), Cadiz, Spain, May 201
+L. Wang, F. Renna, X. Yuan, M. Rodrigues, R. Calderbank, and L. Carin, "A General Framework for Reconstruction and Classi.cation from Compressive Measurements with Side Information," IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Shanghai, China, March 2016.
+M. Yang, A. Haimovich, B. Chen, and X. Yuan, "A New Array Geometry for DOA Estimated with Enhanced Degrees of Freedom," IEEE International Conference on Acoustics,Speech, and Signal Processing (ICASSP), Shanghai, China, March 2016.
+P. Llull, X. Yuan, L. Carin, and D. J. Brady, "Image translation for single-shot focal tomography," Optica,  2, 822-825 (2015). (reported at: http://www.sciencedaily.com/releases/2015/09/150917110004.htm)
+T.-H. Tsai, P. Llull, X. Yuan, L. Carin, and D. J. Brady, "Spectral-Temporal Compressive Imaging," Optics Letters, 40(17), pp. 4054-4057, September, 2015.
+L. Wang*, J. Huang*, X. Yuan*, K. Krishnamurthy, J. Greenberg, V. Cevher, D. J. Brady, M. Rodrigues, R. Calderbank, and L. Carin, "Signal Recovery and System Calibration from Multiple Compressive Poisson Measurements," SIAM Journal on Imaging Science,2015. (* equal contribution)
+A. Stevens, L. Kovarik, P. Abellan, X. Yuan, L. Carin, N. D. Browning, "Applying Compressive Sensing to TEM Video: A Substantial Framerate Increase on any Camera," Advanced Structural and Chemical Imaging, 2015.
+T.-H. Tsai, X. Yuan, and D. J. Brady, "Spatial Light Modulator based Color Polarization Imaging," Optics Express, 23(9), pp.11912-11926, May, 2015.
+X. Yuan, T.-H. Tsai, R. Zhu, P. Llull, D. J. Brady, and L. Carin, "Compressive Hyperepectral Imaging with Side Information," IEEE Journal of Selected Topics in Signal Processing, September, 2015. code
+J. Yang, X. Liao, X. Yuan, P. Llull, D. J. Brady, G. Sapiro and L. Carin, "Compressive Sensing by Learning a Gaussian Mixture Model from Measurements," IEEE Transactions on Image Processing, vol. 24, no. 1, pp. 106-119, January 2015.
+X. Yuan, S. Pang, "Structured Illumination Temporal Compressive Microscopy," Frontier in Optics (FiO), 2015.
+A. Stevens, L. Kovarik, P. Abellan, X. Yuan, L Carin, and N.D. Browning, "TEM Video Compressive Sensing," Microscopy & Micro analysis 2015 Meeting, Portland, Oregon, August, 2015.
+X. Yuan, R. Henao, E. L. Tsalik, and L. Carin, "Non-Gaussian Discriminative Factor Models via the Max-Margin Rank Likelihood," , Lille, France, July 2015. code
+T. Tsai, P. Llull, X. Yuan, L. Carin, and D. Brady, "Coded Aperture Compressive Spectral-Temporal Imaging,” Computational Optical Sensing and Imaging (COSI), Arlington, Virginia, USA, June, 2015, (Oral).
+Y. Pu,  X. Yuan, and L. Carin, "A Generative Model for Deep Convolutional Learning," International Conference on Learning Representations (ICLR) workshop, San Diego, CA, USA, May 2015.
+L. Wang, J. Huang, X. Yuan, V. Cevher, M. Rodrigues, R. Calderbank, and L. Carin, "A Concentration-of-Measure Inequality for Multiple-Measurement Models," IEEE International Symposium on Information Theory (ISIT), Hong Kong, June, 2015.
+F. Renna, L. Wang, X. Yuan, J. Yang, G. Reeves, R. Calderbank, L. Carin and M. R. D. Rodrigues, "Classication and Reconstruction of Compressed GMM Signals with Side Information," IEEE International Symposium on Information Theory (ISIT), Hong Kong, June, 2015.
+J. Huang, X. Yuan and R. Calderbank, “Collaborative Compressive X-Ray Image Reconstruction," IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Brisbane, Australia, April 2015.
+J. Huang, X. Yuan and R. Calderbank, "Multi-Scale Bayesian Reconstruction of Compressive X-Ray Image," IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Brisbane, Australia, April 2015.
+X. Yuan, J. Huang and R. Calderbank, "Polynomial-Phase Signal Direction-Finding and Source-Tracking with A Single Acoustic Vector Sensor," IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Brisbane, Australia, April 2015.
+E. L. Tsalik, R. J. Langley, D. L. Dinwiddie, N. A. Miller, B. Yoo, J. C van Velkinburgh, L. D. Smith, I. Thi_ault, A. K. Jaehne, A. M. Valente, R. Henao, X. Yuan, S. W. Glickman, B. J. Rice, M. K McClain, L. Carin, G. R. Corey, G. S Ginsburg, C. B Cairns, R. M Otero, V. G Fowler Jr, E. P Rivers, C. W Woods, S. F. Kingsmore, "An Integrated Transcriptome and Expressed Variant Analysis Associated with Death in Sepsis," Genome Medicine, November, 2014.
+J. Yang, X. Yuan, X. Liao, P. Llull, D. J. Brady, G. Sapiro and L. Carin "Video Compressive Sensing Using Gaussian Mixture Models," IEEE Transactions on Image Processing, vol. 23, no. 21, pp. 4863-4878, November, 2014.
+X. Yuan, V. Rao, S. Han and L. Carin, "Hierarchical In_nite Divisibility for Multiscale Shrinkage, " IEEE Transactions on Signal Processing, vol. 62, no. 17, pp. 4363- 4374, September 1, 2014.
+X. Yuan, "Coherent Sources Direction Finding and Polarization Estimation with Various Compositions of Spatially Spread Polarized Antenna Arrays," Signal Processing, vol. 102, pp. 265-281, 2014.
+R. Henao, X. Yuan and L. Carin, "Bayesian Nonlinear Support Vector Machines and Supervised Factor Modeling," Neural Information Processing Systems (NIPS), Montreal, Canada, December 2014.
+X. Yuan, P. Llull, X. Liao, J. Yang, G. Sapiro, D. J. Brady, and L. Carin, "Low-Cost Compressive Sensing for Color Video and Depth," IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Columbus, Ohio, USA, June, 2014. code
+P. Llull, X. Yuan, X. Liao, J. Yang, L. Carin, G. Sapiro and D.J. Brady, "Compressive Extended Depth of Field Using Image Space Coding," Computational Optical Sensing and Imaging (COSI), Hawaii, USA, June, 2014, (Oral). (Best paper award).
+T.-H. Tsai, X. Yuan, L. Carin, and D.J. Brady, "Spatial Light Modulator Based Spectral Polarization Imaging," Computational Optical Sensing and Imaging (COSI), Hawaii, USA, June, 2014, (Oral).
+X. Yuan, "Spatially Spread Dipole/Loop Quads/Quints: for Direction Finding and Polarization Estimation," IEEE Antennas and Wireless Propagation Letters, vol. 12, pp. 1081-1084, 2013. code
+P. Llull, X. Liao, X. Yuan, J. Yang, D. Kittle, L. Carin, G. Sapiro and D.J. Brady, "Coded Aperture Compressive Temporal Imaging", Optics Express, vol. 21, Issue 9, pp. 10526-10545, 2013. (Top Downloaded Article in Image Processing from OSA Journals in 2013). code
+X. Yuan, J. Yang, P. Llull, X. Liao, G. Sapiro, D. J. Brady and L. Carin, "Adaptive Temporal Compressive Sensing for Video," International Conference on Image Processing (ICIP), Melbourne, Australia, September, 2013, (Oral).
+J. Yang, X. Yuan, X. Liao, P. Llull, G. Sapiro, D. J. Brady and L. Carin, "Gaussian Mixture Model for Video Compressive Sensing," International Conference on Image Processing (ICIP), Melbourne, Australia, September, 2013, (Oral).
+P. Llull, X. Liao, X. Yuan, J. Yang, D. Kittle, L. Carin, G. Sapiro and D.J. Brady, "Compressive Sensing for Video Using a Passive Coding Element," Computational Optical Sensing and Imaging (COSI), Arlington, VA, June, 2013, (Oral). (Best paper award).
+X. Yuan, "Estimating the DOA and the Polarization of a Polynomial-Phase Signal Using a Single Polarized Vector-Sensor," IEEE Transactions on Signal Processing, vol. 60, no. 3, pp. 1270-1282, March 2012.
+X. Yuan, "Direction-Finding with a Misoriented Acoustic Vector Sensor," IEEE Transactions on Aerospace and Electronic Systems, vol. 48, no. 2, pp. 1809-1815, April 2012.
+X. Yuan, K. T. Wong and K. Agrawal, "Polarization Estimation with a Dipole-Dipole Pair, a Dipole-Loop Pair, or a Loop-Loop Pair of Various Orientations," IEEE Transactions on Antennas and Propagation, vol. 60, no. 5, pp. 2442 - 2452, May 2012.
+F. Luo and X. Yuan, "Enhanced ‘Vector-Cross-Product’ Direction-Finding Using a Constrained Sparse Triangular-Array", EURASIP Journal on Advances in Signal Processing, 2012:115 doi:10.1186/1687-6180-2012-115, May 2012.
+Y. I. Wu, K. T. Wong, X. Yuan, S.-K. Lau and S. K. Tang, "A Directionally Tunable but Frequency-Invariant Beamformer on an Acoustic Velocity-Sensor Triad to Enhance Speech Perception," Journal of the Acoustical Society of America, vol. 131, no. 5, pp. 3891-3902, May 2012.
+X. Yuan, K. T. Wong, Z. Xu and K. Agrawal, "Various Compositions to Form a Triad of Collocated Dipoles/Loops, for Direction Finding & Polarization Estimation," IEEE Sensors Journal, vol. 12, no. 6, pp. 1763 - 1771, June 2012.
+X. Yuan, "Direction-Finding Wideband Linear FM Sources with Triangular Arrays," IEEE Transactions on Aerospace and Electronic Systems, vol. 48, no. 3, pp. 2416- 2425, July 2012.
+X. Yuan, “Coherent Source Direction-Finding Using a Sparsely-Distributed Acoustic Vector-Sensor Array," IEEE Transactions on Aerospace and Electronic Systems, vol. 48, no. 3, pp. 2710-2715, July 2012.
+Z. Xu and X. Yuan, "Cramer-Rao Bounds of Angle-of-Arrival & Polarisation Estimation for Various Triads," IET Microwaves, Antennas and Propagation, vol. 6, no. 15, pp. 1651-1664, 2012.
+X. Yuan, "Cramer-Rao Bounds of Direction-of-Arrival and Distance Estimation of a Near-Field Incident Source for an Acoustic Vector-Sensor: Gaussian Source and Polynomial-Phase Source," IET Radar, Sonar and Navigation, vol. 6, no. 7, pp. 638-648, July 2012.
+X. Yuan, "Quad Compositions of Collocated Dipoles and Loops: for Direction Finding and Polarization Estimation," IEEE Antennas and Wireless Propagation Letters,vol. 11, pp. 1044-1047, 2012.
+X. Yuan, "Polynomial-Phase Signal Source-Tracking Using an Electromagnetic Vector-Sensor," IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Kyoto, Japan, March 2012.
+K. T. Wong and X. Yuan, "Vector Cross-Product Direction-Finding With an Electromagnetic Vector-Sensor of Six Orthogonally Oriented but Spatially Noncollocating Dipoles/Loops", IEEE Transactions on Signal Processing, vol. 59, no. 1, pp. 160-171, January 2011. code
+X. Yuan, "Cramer-Rao Bound of The Direction-of-Arrival Estimation Using a Spatially Spread Electromagnetic Vector-Sensor," IEEE Statistical Signal Processing Workshop (SSP), Nice, France, June 2011.
+K. T. Wong, Y. I. Wu, X. Yuan, S.-K, Lau & S.-K. Tang, "A Directionally Tunable but Frequency-Invariant Beamformer on an Acoustic Velocity-Sensor Triad to Enhance Speech Perception", the 8th International Conference on Networked Sensing Systems, 2011.
+Contact
+Informations
+Email: xylab@westlake.edu.cn
+Address: 18 Shilongshan Street, Xihu District, Hangzhou City, Zhejiang Province, China.
+Github:  https://xyvirtualgroup.github.io/
+Chinese Official Website:  https://www.westlake.edu.cn/academics/School_of_Engineering/About/Faculty/202111/t20211101_14440.shtml
+English Official Website:  https://en.westlake.edu.cn/academics/School_of_Engineering/About/Our_People/Faculty/202111/t20211101_14444.shtml
+Copyright © 2021 All Rights Reserved.
+>

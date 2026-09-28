@@ -1,0 +1,31 @@
+{
+  "source_url": "https://omal.lab.westlake.edu.cn/Team.htm",
+  "checked_date": "2026-09-28",
+  "key": "S01_团队",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://omal.lab.westlake.edu.cn/Team.htm",
+  "sha256": "5f4371b26f8d8e2b8fad37f774ea61f550d1a949bc7d401313577f8b38f7f8be",
+  "bytes": 11026,
+  "links": [
+    "https://www.westlake.edu.cn/",
+    "index.htm",
+    "News.htm",
+    "Research.htm",
+    "Publications.htm",
+    "Team.htm",
+    "Gallery.htm",
+    "JoinUs.jsp?urltype=tree.TreeTempUrl&wbtreeid=1018",
+    "Team/AdministrativeAssistant/Wei_Yang_yw.htm",
+    "Team/Postdoctoral_Fellow/Yuchen_Peng_pyc.htm",
+    "Team/Postdoctoral_Fellow/Mingke_Jin_jmk.htm",
+    "Team/Postdoctoral_Fellow/Tonghuai_Chengcth.htm",
+    "Team/Ph_D__Students/Jieyu_Zheng_zjy.htm",
+    "Team/Ph_D__Students/Zhengjie_Wang_wzj.htm",
+    "Team/Ph_D__Students/Xiang_Gao_gx.htm",
+    "Team/Ph_D__Students/Xinbo_Mo_mxb.htm",
+    "Team/Visiting_Student/Yitong_Xiao_xyt.htm",
+    "https://beian.miit.gov.cn/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

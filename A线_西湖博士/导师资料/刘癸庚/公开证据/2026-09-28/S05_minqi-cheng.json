@@ -1,0 +1,21 @@
+{
+  "source_url": "https://lgglab.com/minqi-cheng",
+  "checked_date": "2026-09-28",
+  "key": "S05_minqi-cheng",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://lgglab.com/minqi-cheng/",
+  "sha256": "8c1a09d6a779e08dfc094c11504831cdf5e31e0a8634e7b930ba0f1f37996f57",
+  "bytes": 47631,
+  "links": [
+    "#content",
+    "https://lgglab.com/",
+    "https://lgglab.com/publications/",
+    "https://lgglab.com/research/",
+    "https://lgglab.com/people/",
+    "https://lgglab.com/album/",
+    "https://lgglab.com/job/",
+    "https://lgglab.com",
+    "https://liuguigeng.com"
+  ]
+}

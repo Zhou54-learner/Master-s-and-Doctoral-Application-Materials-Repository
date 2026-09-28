@@ -1,0 +1,20 @@
+{
+  "source_url": "https://qid.lab.westlake.edu.cn/join.html",
+  "checked_date": "2026-09-28",
+  "key": "P02_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://qid.lab.westlake.edu.cn/join.html",
+  "sha256": "1b1050bedab3d109dec2768c0b46945ff0d231fda1c52d44e935fd2c917a9421",
+  "bytes": 3813,
+  "links": [
+    "index.html",
+    "research.html",
+    "team.html",
+    "publications.html",
+    "news.html",
+    "join.html",
+    "mailto:lixinhao@westlake.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

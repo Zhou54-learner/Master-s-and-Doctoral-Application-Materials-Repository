@@ -1,0 +1,21 @@
+{
+  "source_url": "https://qid.lab.westlake.edu.cn/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://qid.lab.westlake.edu.cn/",
+  "sha256": "e8adfc8c53de915a82bc3e70c2023cfc2587815c7e8ddabf86d2ba88a35084f6",
+  "bytes": 5983,
+  "links": [
+    "index.htm",
+    "research.html",
+    "team.html",
+    "publications.html",
+    "news.html",
+    "join.html",
+    "https://phys.org/news/2026-04-quantum-dark-horse-emerges-frozen.html",
+    "https://phys.org/news/2023-10-quantum-architecture-electron-qubit-millisecond.html"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

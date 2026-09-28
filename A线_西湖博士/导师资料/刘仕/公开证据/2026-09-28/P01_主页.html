@@ -1,0 +1,400 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head><title>刘仕实验室</title><META Name="keywords" Content="刘仕实验室" />
+
+    <meta charset="utf-8">
+    <script src="shared/common.js"></script>
+    <script>
+        LiuLabShared.writeHead({ title: "Liu's lab", includeIonicons: true });
+    </script>
+
+    <style>
+        .timeline-small {
+            max-width: 350px;
+            max-height: 630px;
+            overflow: hidden;
+            margin: 3rem auto 0;
+            box-shadow: 0 0 1rem #a0a0a0;
+            font-family: 'Montserrat', sans-serif;}
+        .timeline-small-body ul {
+            padding: 1em 0 0 2.05em;
+            margin: 0;
+            list-style: none;
+            position: relative;}
+        .timeline-small-body ul::before {
+            content: ' ';
+            height: 95%;
+            width: 0.4rem;
+            background-color: #d9d9d9;
+            position: absolute;
+            top: 0.2rem;
+            left: 2.358em;
+            z-index: -1;}
+        .timeline-small-body li div {
+            display: inline-block;
+            margin: 1em 0;
+            vertical-align: top;}
+        .timeline-small-body .bullet {
+            width: 1rem;
+            height: 1rem;
+            box-sizing: border-box;
+            border-radius: 50%;
+            background: #fff;
+            z-index: 1;
+            margin-right: 1rem;
+            margin-top: 7%;}
+        .timeline-small-body .bullet.pink {
+            background-color: hotpink;}
+        .timeline-small-body .bullet.green {
+            background-color: #283a66;}
+        .timeline-small-body .bullet.blue {
+            background-color: aquamarine;}
+        .timeline-small-body .bullet.orange {
+            background-color: #F89938;}
+        .timeline-small-body .date {
+            width: 23%;
+            font-size: 0.75em;
+            padding-top: 0.40rem;
+            padding-right: 2rem;}
+        .timeline-small-body .desc {
+            width: 50%;}
+        .timeline-small-body h3 {
+            font-size: 0.9em;
+            font-weight: 400;
+            margin: 0;}
+        .timeline-small-body h4 {
+            margin: 0;
+            font-size: 0.7em;
+            font-weight: 400;
+            color: #808080;}
+    </style>
+    <style>
+        h2flash{
+            font-size: 6px;
+            font-family: 'Montserrat', sans-serif;
+            color: #222;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            cursor: pointer;}
+        h2flash span{
+            transition: 0.3s;}
+        h2flash:hover span:nth-child(1){
+            margin-right: 0px;}
+        h2flash:hover span:nth-child(1)::after{
+            content: "";}
+        h2flash:hover span:nth-child(2){
+            margin-left: 40px;}
+        h2flash:hover span{
+            color: #fff;
+            text-shadow: 0 0 10px #fff,
+                        0 0 20px #fff,
+                        0 0 40px #fff,
+                        0 0 80px #fff,
+                        0 0 120px #fff,
+                        0 0 160px #fff;}
+    </style>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307b76475c525b574200000003455c -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1709730293)</script>
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <script>
+        LiuLabShared.writeNavigation({ variant: "home" });
+    </script>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1>Liu Theory Lab</h1>
+                            <h2 style="color:#fff ; font-size:1.5rem">Welcome to Multiscale Materials Modeling Laboratory @Westlake University!</h2>
+                            <p class="p-heading p-large">We use computational modeling to study emergent phenomena in condensed matter physics and to address challenges in the areas of energy and information technology. </p>
+                            <h2flash><span><a class="btn-solid-lg page-scroll" href="#research">DISCOVER</a></span></h2flash>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Research -->
+    <div id="research" class="basic-1" style="background-color: #FFFFFF">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="text-container">
+                    <div class="section-title" style="font-size: 1.7rem">RESEARCH</div>
+                    <p>The overarching theme of our research is to develop and apply predictive multiscale computational approach that combines formerly isolated methods to enable accurate and efficient estimations of materials properties at technologically relevant length/time scales.We comprehend the structure-property relationships of current state-of-the-art materials and then use these insights to guide the design of advanced materials. Research areas in our lab are in:</p>
+                    <ul>
+                        <li>
+                            Novel ferroelectrics for next-generation energy and information technology.
+                        </li>
+                        <li>
+                            Topological phases in condensed matter physics.
+                        </li>
+                        <li>
+                            Deep-learning-based large-scale modeling of complex oxides.
+                        </li>
+                    </ul>
+                    <p><strong>Explanation of Website Background Image</strong>: The background image on our website provides a vivid representation of our lab's three primary research areas. We have developed a deep neural network-based classical force field, facilitating large-scale molecular dynamics simulations of the PbTiO<sub>3</sub>/SrTiO<sub>3</sub> superlattice. PbTiO<sub>3</sub> is a prototypical ferroelectric material possessing spontaneous electric polarization. Within this superlattice, PbTiO<sub>3</sub>'s unit cells exhibit electric dipoles, leading to the emergence of vortex structures - topological configurations in real space. To enhance the visual appeal of this snapshot, we have artistically blended it with elements from Van Gogh's iconic masterpiece, "Starry Night," using a specialized AI algorithm.</p>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="col-lg-12">
+                    <div class="slider-1">
+
+                        <div class="slider-container">
+                            <div class="swiper-container card-slider">
+                                <div class="swiper-wrapper" id="research-poster-render-root"></div>
+                            </div>
+                        </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Leader -->
+    <div id="Leader">
+        <div class="basic-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-yhh" style="font-size: 1.7rem">TEAM LEADER</div>
+
+                        <div class="team-member">
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="image_mine/webp_MicrosoftTeams-image.jpg" alt="alternative" loading="lazy" decoding="async">
+
+                            </div>
+                            <h3>刘仕 Shi LIU, Ph.D.</h3>
+                            <h5>Email: liushi (at) westlake.edu.cn</h5>
+                            <p class="job-title">Principal Investigator<br />Tenured Associate Professor<br /><nobr>School of Science, Westlake University</nobr></p>
+                            <span class="social-icons">
+
+                                <span class="fa-stack">
+                                    <a href="https://scholar.google.com/citations?hl=en&user=wI7o6NQAAAAJ" target="_blank">
+                                        <img src="image_mine/gs-1-2.png" alt="sabbi-social" class="img-responsive" loading="lazy" decoding="async">
+
+                                    </a>
+                                </span>
+                                <span class="fa-stack">
+                                    <a href="https://orcid.org/0000-0002-8488-4848" target="_blank">
+                                        <img src="image_mine/id-1-2.png" alt="sabbi-social" class="img-responsive" loading="lazy" decoding="async">
+                                    </a>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div text-align="justify" style="position: inherit; top: -2rem">Shi Liu graduated in 2009 with a B.S. in Chemical Physics from the University of Science and Technology of China, before completing his Ph.D. from the University of Pennsylvania in 2015. During the Ph.D. program, he worked under the direction of Professor Andrew M. Rappe, mainly focusing on computational condensed matter physics. Following completion of his Ph.D., Dr. Liu was offered a Carnegie Fellowship at the Carnegie Institution for Science in Washington, D.C., where he worked with Dr. Ronald E. Cohen on multiscale simulations of defects in ferroelectrics and hybrid perovskites for photovoltaic applications. He received the American Physical Society Nicholas Metropolis Award in Computational Physics in 2017 and SEDD (Sensors and Electronic Device Directorate) Distinguished Fellowship at U.S. Army Research Laboratory in 2018. In June 2019, Dr. Liu joined the School of Science at Westlake University.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- News -->
+    <div id="news" class="basic-1" style="margin-top: -2.125rem; margin-bottom: 2.125rem; background-color: #FFFFFF">
+    <div class="counter">
+        <div class="container">
+                    <div class="text-container">
+                        <div class="section-title" style="font-size: 1.7rem">NEWS</div>
+
+                        <div id="news-render-root"></div>
+
+                    </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Publications -->
+    <div id="publications" class="accordion">
+
+    <div class="accordion-container" style="margin-top: -4.325rem">
+        <div class="tabs">
+            <div>
+
+                <div class="section-title" style="font-size: 1.7rem; margin-top: 0.5rem;">SELECTED PUBLICATIONS</div>
+                <div id="selected-publications-render-root"></div>
+            </div>
+        </div>
+     </div>
+
+    <div class="accordion-container" style="margin-top: -1.325rem">
+        <div class="tabs" id="publications-render-root"></div>
+     </div>
+
+    <div class="accordion-container" style="margin-top: -1.325rem">
+        <div class="tabs">
+            <div>
+                <div class="section-title-yhh" style="font-size: 1.7rem">BOOK CHAPTER</div>
+
+                <div id="book-render-root"></div>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    <!-- Team -->
+    <div class="basic-1" id="team" style="background-color: #FFFFFF">
+        <div class="slider" style="margin-top: -2.325rem">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-yhh" align="center" style="font-size: 1.7rem; margin-top: 2.5rem;">Our Team Members</div>
+                        <p class="p-heading">Our team members are our partners and we can not imagine a better future for our team without helping them reach their full potential.</p>
+                    </div>
+                </div>
+
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="swiper-wrapper" id="team-swiper-wrapper"></div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    </div>
+                </div>
+                <div id="team-modals-container"></div>
+
+            </div>
+        </div>
+    </div>
+
+        <div class="counter" id="team-counter">
+        </div>
+
+    <!-- Lab Gallery -->
+    <div id="liulab">
+        <div class="basic-3" style="background-color: #FFFFFF">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="team-member">
+                            <div class="image-wrapper-yhh">
+                                <figure>
+                                    <img src="image_mine/webp_liulab19.jpg" class="img-fluid" alt="" loading="lazy" decoding="async">
+                                    <a href="liulab_pic.html" target="_blank" data-lightbox="basic-3" data-title="liulab" class="link-preview" title="More"><i class="ion ion-eye"></i></a>
+                                </figure>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        LiuLabShared.writeFooter({ variant: "home" });
+    </script>
+
+    <script>
+        LiuLabShared.writeCoreScripts({
+            beforeScripts: ["data/research-poster.js", "render/research-poster.js"]
+        });
+        LiuLabShared.writeScripts([
+            "data/selected-publication.js",
+            "render/selected-publication.js",
+            "data/publication.js",
+            "render/publication.js",
+            "data/new.js",
+            "render/new.js",
+            "data/book.js",
+            "render/book.js",
+            "data/team.js",
+            "render/team.js"
+        ]);
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link.page-scroll');
+
+            const smoothScroll = (targetId) => {
+                const targetElement = document.getElementById(targetId);
+                if (!targetElement) {
+                    console.error('目标元素不存在:', targetId);
+                    return;
+                }
+
+                if ('scrollBehavior' in document.documentElement.style) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                else {
+                    const offset = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                    const duration = 800;
+                    const start = window.pageYOffset;
+                    const startTime = performance.now();
+
+                    const animate = (currentTime) => {
+                        const elapsed = currentTime - startTime;
+                        const progress = Math.min(elapsed / duration, 1);
+                        window.scrollTo(0, start + offset * progress);
+                        if (progress < 1) {
+                            requestAnimationFrame(animate);
+                        }
+                    };
+
+                    requestAnimationFrame(animate);
+                }
+            };
+
+            // Route only anchor-style navigation through the smooth-scroll handler.
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    const href = this.getAttribute('href');
+
+                    if (href.startsWith('#')) {
+                        event.preventDefault();
+                        const targetId = href.slice(1);
+                        history.replaceState(null, null, '#' + targetId);
+                        smoothScroll(targetId);
+                    }
+                    else if (href.includes('.html#')) {
+                        event.preventDefault();
+                        const [page, hash] = href.split('#');
+                        window.location.href = page;
+
+                        setTimeout(() => {
+                            if (document.getElementById(hash)) {
+                                smoothScroll(hash);
+                                history.replaceState(null, null, '#' + hash);
+                            }
+                        }, 100);
+                    }
+                });
+            });
+
+            if (window.location.hash) {
+                const initialHash = window.location.hash.slice(1);
+                smoothScroll(initialHash);
+            }
+        });
+        </script>
+
+</body>
+
+</html>

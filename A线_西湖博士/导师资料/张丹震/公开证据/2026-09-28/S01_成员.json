@@ -1,0 +1,24 @@
+{
+  "source_url": "https://zdz.lab.westlake.edu.cn/en/people/index.html",
+  "checked_date": "2026-09-28",
+  "key": "S01_成员",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://zdz.lab.westlake.edu.cn/en/people/index.html",
+  "sha256": "79a3f9340400ef1cc7c7fc9ed07966af509834fe8f0cebf2b3b38540ce9c2aac",
+  "bytes": 50582,
+  "links": [
+    "../index.html",
+    "../research/index.html",
+    "../publications/index.html",
+    "../people/index.html",
+    "../openings/index.html",
+    "../../people/index.html",
+    "mailto:zhangdanzhen@westlake.edu.cn",
+    "https://scholar.google.com/citations?user=8tX1_7UAAAAJ&hl=en",
+    "../../cv/index.html",
+    "mailto:assistant@westlake.edu.cn",
+    "mailto:hchen@university.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

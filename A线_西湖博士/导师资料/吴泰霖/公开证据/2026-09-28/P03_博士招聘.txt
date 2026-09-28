@@ -1,0 +1,114 @@
+AI for Scientific Simulation and Discovery Lab | PhD and Interns
+AI for Scientific Simulation and Discovery Lab
+AI for Scientific Simulation and Discovery Lab
+Join Us
+diversity_2
+People
+Principal Investigator
+Postdocs
+See all 3 members
+PhD Students
+See all 8 members
+Research Assistant
+See all 3 members
+Visiting Students
+See all 9 members
+Undergraduate
+See all 2 members
+Collaborator
+See all 2 members
+Alumnus
+See all 7 members
+Principal Investigator
+Postdocs
+See all 3 members
+PhD Students
+See all 8 members
+Research Assistant
+See all 3 members
+Visiting Students
+See all 9 members
+Undergraduate
+See all 2 members
+Collaborator
+See all 2 members
+Alumnus
+See all 7 members
+mode_comment
+Publications
+menu_book
+Blogs
+psychology_alt
+Talks
+newspaper
+News
+book
+Course
+meeting_room
+Opening
+Research Assistant
+西湖大学工学院吴泰霖AI+Science实验室科研助理招聘启事
+PhD and Interns
+西湖大学工学院吴泰霖AI+Science实验室博士生和实习生招聘启事
+Postdocs
+西湖大学工学院吴泰霖AI+Science实验室博士后和助理研究员招聘启事
+Research Assistant
+西湖大学工学院吴泰霖AI+Science实验室科研助理招聘启事
+PhD and Interns
+西湖大学工学院吴泰霖AI+Science实验室博士生和实习生招聘启事
+Postdocs
+西湖大学工学院吴泰霖AI+Science实验室博士后和助理研究员招聘启事
+Join Us
+PhD and Interns
+西湖大学工学院吴泰霖AI+Science实验室博士生和实习生招聘启事
+2026-01-13
+opening
+一、导师介绍
+吴泰霖博士为西湖大学工学院人工智能方向特聘研究员、助理教授、博士生导师。2012 年于北京大学物理学院获得学士学位，2019 年获得麻省理工学院理学博士学位（师从 Max Tegmark 教授），2020 年-2023 年 5 月在斯坦福大学计算机系从事博士后研究（师从 Jure Leskovec 教授）。
+吴泰霖博士的主要研究方向为 AI for Science，开发基于生成模型、AI 智能体、大模型的方法，用于科学中的核心、普适问题，包括基于生成模型用于科学中的仿真和控制问题（流体、能源、生命科学等），开发 AI 智能体等方法用于科学发现（物理、生命科学）。
+吴泰霖博士的代表性工作包括：在科学仿真方面，通过图神经网络模拟大规模系统方面成数量级地加快了仿真速度，解决其多尺度、多分辨率、大规模的核心挑战；在控制方面，提出基于扩散生成模型的将仿真和控制融为一体的控制方式，用于复杂物理系统的控制；提出 AI 物理学家架构，模仿物理学家从数据中总结和发现方程和理论；在表示学习方面，吴泰霖博士提出的图信息瓶颈（GIB）架构大幅度提高了图表示学习的鲁棒性。
+吴泰霖博士的工作正被应用于流体、等离子体、能源等的大规模仿真以及物理、天文等领域的科学发现中。其工作发表在 NeurIPS、ICLR、ICML 等机器学习顶级会议以及物理学顶级期刊上，并被 MIT Technology Review 等报道。吴泰霖博士也是美国国家科学院院刊（PNAS）、Nature Communications、Nature Machine Intelligence、Science Advances 等多个综合类顶级期刊的审稿人，以及机器学习顶级会议 NeurIPS、ICLR、ICML 的领域主席。
+吴泰霖博士实验室主页：人工智能与科学仿真发现实验室：ai4s.lab.westlake.edu.cn
+吴泰霖博士个人主页：http://tailin.org
+二、团队介绍
+课题组长期开展 AI + Science 学科交叉的核心、普适问题。主要研究方向包括：
+核心 AI：开发基于 Diffusion/Flow Matching 的生成式 AI 方法以及下一代生成模型；自进化的 AI 架构（包括但不限于 LLM）
+AI for Physics：开发新型 AI 方法，创造流体、等离子体、天体物理等复杂物理系统的仿真、控制、设计、重建、科学发现的新范式，并有机会在从深海到人造太阳的极端物理场景中实际部署
+水下具身智能：开发适用于水下复杂物理环境的具身智能算法，并可以在先进平台上进行实验
+AI for Biology: 利用前沿 AI 技术构建生物复杂系统仿真模型，旨在解码生命系统的演化机制与内在逻辑
+AI Agent：开发结合 AI 智能体、LLM 的方法，构建通用 AI 科学家/工程师，用于科学探索的智能化并产生新的科学发现，在生命科学、物理等关键领域应用。
+三、招聘岗位
+（1）博士生（2027 年秋季入学）
+课题组计划招收博士生（包括推免生）。诚邀对 AI 与自然科学交叉领域（AI + Science）研究充满热情的优秀学子加入，共同探索前沿创新方向。
+基本要求：
+· 本科就读于国内外知名高校，且课业成绩或科研成果拔尖
+· 有机器学习或相关领域科研经验
+· 有志于在 AI + Science 领域做出开创性研究
+· 积极主动、热爱研究
+吴泰霖博士与国际上各 AI + Science 的著名研究组（包括 Stanford、DeepMind、MIT、Caltech、NVIDIA、TAMU 等）有广泛的联系，会推荐优秀的高年级博士生到相应的组实习以及攻读博士后。
+（2）实习生
+课题组长期招收实习生（3 个月或以上）。尤其欢迎对 AI+Science 感兴趣的博士生（AI 背景或者科学背景）来本组长期访问实习或者合作。实习生将能参与并有机会领导独立项目，并 target 机器学习顶级会议和国际综合期刊（PNAS、Nature 子刊等）。欢迎编程好、并对本课题组研究领域有强烈兴趣的同学报名。
+四、团队特色
+与科学和工业界顶尖团队合作：与多个科学领域顶尖团队紧密合作，共同攻克具有重大影响力的科学问题，并在这一过程中实现 AI 方法的突破创新。欢迎来自高校、研究所、工业界志同道合的合作者，在相同研究兴趣的支持下达成形式自由的科研合作。
+充足的计算资源：可调用西湖大学 AI Station 集群（H800/A100/A800/V100 等百余张 GPU），实验室拥有多台 8 卡服务器（A6000/L40）并长期租用多台 8 卡 H800 服务器，计算资源在国内高校中，处于最为丰富的第一梯队。
+交换&实习&博后推荐：吴泰霖博士与国际国内各 AI + Science 的著名研究组（包括 Stanford、DeepMind、MIT、Caltech 等）有广泛的联系，会推荐优秀的高年级博士生到相应的组实习以及攻读博士后。
+学生成长：实验室注重 work-life balance，认为良好的科研状态来自健康和积极的生活状态。吴泰霖博士将密切陪伴和引导学生成长，同时鼓励学生自主驱动（self-motivated），培养独立思考、自主探索、交流和领导能力，做出具有影响力的突破性成果。
+频繁的学术交流：实验室鼓励团队成员多次参加国内外顶级学术会议，通过研究成果和经历建立个人履历与人脉。
+吴泰霖组博后和学生在维也纳召开的 ICLR 2024 做报告
+吴泰霖组博后（正中）在温哥华 NeurIPS 2024 共同主办的 Safe Generative AI workshop 上与组织者和嘉宾共进午餐
+五、申请流程
+应聘者通过电子邮件 talentlab@westlake.edu.cn 联系吴泰霖博士，并附上简历。
+邮件主题：博士后/ 助理研究员 - 名字
+邮件附件：个人简历（包括个人基本情况，教育和工作经历，科研工作概述，论文发表情况或其他成果）。
+收到邮件的简历提交后，如果与本实验室可能 match，会在 2 周之内回复，并会 follow up 之后的面试。
+期待你的加入！在西湖大学，我们共同解决重要的问题，and have fun!
+Home
+People
+Publications
+Blogs
+Talks
+News
+Course
+Opening
+Copyright ©
+by Tailin Wu Lab

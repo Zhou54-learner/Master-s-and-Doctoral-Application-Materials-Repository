@@ -1,0 +1,19 @@
+{
+  "source_url": "https://qid.lab.westlake.edu.cn/team.html",
+  "checked_date": "2026-09-28",
+  "key": "S01_团队",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://qid.lab.westlake.edu.cn/team.html",
+  "sha256": "bae6d1fa6d5c057bda3b7d6498b2001c860c05a46361d907a19437b4a5632237",
+  "bytes": 9867,
+  "links": [
+    "index.jsp",
+    "research.html",
+    "team.html",
+    "publications.html",
+    "news.html",
+    "join.html"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

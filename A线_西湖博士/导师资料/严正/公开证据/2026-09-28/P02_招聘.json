@@ -1,0 +1,25 @@
+{
+  "source_url": "https://zheng-yan-group.github.io/join",
+  "checked_date": "2026-09-28",
+  "key": "P02_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://zheng-yan-group.github.io/join/",
+  "sha256": "46d4407ddc0977d2a04c2f2e6e789eb3afe61d9beb6c141137d6cbb7c2b9686a",
+  "bytes": 5887,
+  "links": [
+    "/",
+    "/news",
+    "/research",
+    "/people",
+    "/publications",
+    "/teaching",
+    "/gallery",
+    "/join",
+    "mailto:zhengyan@westlake.edu.cn",
+    "https://www.westlake.edu.cn/admissions_aid/graduate/",
+    "https://en.westlake.edu.cn/admissions_aid/phdprograms/",
+    "http://hexo.io/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

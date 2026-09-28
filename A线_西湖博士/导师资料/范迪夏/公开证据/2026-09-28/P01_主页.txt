@@ -1,0 +1,49 @@
+﻿
+流体智能与信息化实验室
+HOME
+PEOPLE
+Principal Investigator
+Research Fellows
+Students
+Research Assistant & Engineer
+Alumni
+RESEARCH
+Topics
+Facilities
+PUBLICATION
+TEACHING
+Westlake Class
+MIT Class
+STEM 3.0
+NEWS
+IBiM SEMINAR
+CONTACT
+Welcome to our i⁴ - FSI Lab:
+The i⁴ - FSI Lab (流体智能与信息化) is established by Dr. Dixia Fan in the School of Engineering at Westlake University, Hangzhou, China. The name of "i⁴ - FSI " stands for "intelligent", "informational", "integrative" and "interdisciplinary" fluid-structure interaction, a research vision shared by the group to develop a new paradigm for fluid research and applications. By carefully incorporating physics-informed (and -informative) machine learning methods and bio-inspired principles into the fluid mechanics investigation, we will be able to significantly understand and control the fluid motion that is inherently non-linear and multi-scale in both space and time.
+Currently, the group has developed various experimental facilities and numerical tools and has been focusing on the following research topics:
+1. Physics-informed (and -informative) reinforcement learning for fluid-structure interaction
+2. Bio-inspired robots for vortical flow control and sensing
+3. Programmable metamaterial for aero/hydro morphing structures
+4. Autonomy for amphibious (aerial/aquatic) swarms
+5. Smart environmental conservation and restoration
+Research
+video
+尚无内容。
+more+Research findings
+more+ News
+more+ People
+Hang XU
+Dr.Dashuai C
+Guangmin DAI
+Haodong FENG
+Fei HAN
+Siyu LI
+Aoming LIANG
+Xinyu TONG
+Zhipeng WANG
+Dehan YUAN
+Dr. Pengming
+Dr. Ang LI
+西湖大学流体智能与信息化实验室     i⁴ - FSI Lab, Westlake University
+地址：浙江省杭州市西湖区墩余路600号西湖大学云谷校区
+Address: Yungu Campus of Westlake University, No. 600 Dunyu Road, Xihu District, 310030 Hangzhou, Zhejiang, China.

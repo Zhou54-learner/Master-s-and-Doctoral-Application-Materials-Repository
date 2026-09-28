@@ -1,0 +1,21 @@
+{
+  "source_url": "https://lgglab.com/zichen-li",
+  "checked_date": "2026-09-28",
+  "key": "S06_zichen-li",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://lgglab.com/zichen-li/",
+  "sha256": "94cd34a733d84d07fde8d3f5c5fc9bc05053d8acfbd1a1e5d31f82424ec7e7ef",
+  "bytes": 44928,
+  "links": [
+    "#content",
+    "https://lgglab.com/",
+    "https://lgglab.com/publications/",
+    "https://lgglab.com/research/",
+    "https://lgglab.com/people/",
+    "https://lgglab.com/album/",
+    "https://lgglab.com/job/",
+    "https://lgglab.com",
+    "https://liuguigeng.com"
+  ]
+}

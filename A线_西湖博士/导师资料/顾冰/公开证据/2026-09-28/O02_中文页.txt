@@ -1,0 +1,27 @@
+顾冰博士 - 西湖大学
+顾冰，江苏靖江人。 2011年本科毕业于中国科学技术大学化学物理系，2016年获得南卡罗莱纳大学哥伦比亚分校理论与计算化学博士。2023年2月加入西湖大学理学院。
+2023 -至今
+西湖大学，特聘研究员
+2018-2022
+加州大学欧文分校，副研究员
+2016-2018
+罗切斯特大学，博士后
+2016
+南卡罗莱纳大学哥伦比亚分校，博士
+2011
+中国科学技术大学，学士
+顾冰教授课题组主要开展非线性超快光谱，激发态分子动力学，和分子极化激元的理论研究。包括
+• 新型量子光谱的理论设计与模拟（如何利用量子光源增强光谱的分辨率）
+• 开放量子体系的动力学（如何模拟环境对量子体系的影响）
+• 分子在微腔中的反应动力学以及光学调控材料的物理化学性质 （如何利用光学微腔和激光来调控分子、材料的物理化学性质）。
+课题组长期招聘理论研究方向的博士、博士后、助理研究员以及科研助理。
+1. B. Gu, S. M. Cavaletto, D. R. Nascimento, M. Khalil, N. Govind, and S. Mukamel, Manipulating Valence and Core Electronic Excitations of a Transition-Metal Complex Using UV/Vis and X-ray Cavities, Chem. Sci., 2021, 12, 8088-8095
+2. D. Cho, B. Gu*, S. Mukamel, Multidimensional Spectroscopy of Polaritonic Conical Intersections in an Optical Cavity, J. Am. Chem. Soc. 2022, 144, 17, 7758–7767
+3. B. Gu, D. Keefer, F. Aleotti, A. Nenov, M. Gavavelli, S. Mukamel, Photoisomerization Transition State Manipulation by Entangled-Two-Photon-Absorption, Proc. Natl. Acad. Sci. U.S.A, 2021, 118 (47) e2116868118
+4. B. Gu*, D. Keefer, and S. Mukamel, Wavepacket Control and Simulation Protocols for Entangled Two-Photon-Absorption of Molecules, J. Chem. Theory. Comput., 2021, 18, 1, 406–414
+5. Manipulating nonadiabatic conical intersection dynamics by optical cavities. B Gu*, S Mukamel, Chemical science 11 (5), 1290-1298, 2020
+6. Quantifying early-time quantum decoherence dynamics through fluctuations. B Gu, I Franco, The Journal of Physical Chemistry Letters 8 (17), 4289-4294, 2017
+7. B Gu*, I Franco, Optical absorption properties of laser-driven matter, Physical Review A 98 (6), 063412, 2018
+8. B Gu*, Diagrammatic time-local master equation for open quantum systems. Phys. Rev. A 101, 012121, 2020
+9. B. Gu* and S. Mukamel, Manipulating Two-Photon-Absorption of Cavity Polaritons by Entangled Light, J. Phys. Chem. Lett., 2020, 11, 8177–8182
+10. Gu, B., Nenov, A., Segatta, F., Garavelli, M. & Mukamel, S. Manipulating Core Excitations in Molecules by X-Ray Cavities. Phys. Rev. Lett. 2021, 126, 053201

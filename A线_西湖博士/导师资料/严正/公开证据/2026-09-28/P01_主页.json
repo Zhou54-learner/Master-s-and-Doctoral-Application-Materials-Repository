@@ -1,0 +1,23 @@
+{
+  "source_url": "https://zheng-yan-group.github.io/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://zheng-yan-group.github.io/",
+  "sha256": "f5c461d29f0be0cb4c1433392a628b2c8d1f6e3fb20111e30ada5eb5f190bfb3",
+  "bytes": 11033,
+  "links": [
+    "/",
+    "/news",
+    "/research",
+    "/people",
+    "/publications",
+    "/teaching",
+    "/gallery",
+    "/join",
+    "mailto:zhengyan@westlake.edu.cn",
+    "http://hexo.io/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

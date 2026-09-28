@@ -1,0 +1,28 @@
+{
+  "source_url": "https://3dnano.lab.westlake.edu.cn/OPEN_POSITIONS.htm",
+  "checked_date": "2026-09-28",
+  "key": "P02_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://3dnano.lab.westlake.edu.cn/OPEN_POSITIONS.htm",
+  "sha256": "16103135433f38ad525fda5192279f708745417faa355872fabf47afa4f14ee5",
+  "bytes": 13126,
+  "links": [
+    "http://www.so.com",
+    "http://www.baidu.com",
+    "index.htm",
+    "RESEARCH.htm",
+    "PEOPLE.htm",
+    "PEOPLE/PI.htm",
+    "PEOPLE/Group_Member.htm",
+    "PUBLICATIONS.htm",
+    "FACILITIES.htm",
+    "NEWS.htm",
+    "OPEN_POSITIONS.htm",
+    "mailto:wenliaoyong@westlake.edu.cn",
+    "https://nanolab.westlake.edu.cn/index.htm",
+    "https://iscps.westlake.edu.cn/",
+    "https://beian.miit.gov.cn/state/outPortal/loginPortal.action"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

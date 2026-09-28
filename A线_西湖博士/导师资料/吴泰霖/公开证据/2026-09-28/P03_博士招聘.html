@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+  <head>
+  <!-- 1. 关键 CSS 内联 -->
+  <style>
+    /* 首屏关键样式 */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+  
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: #fff;
+      padding: 1rem;
+    }
+  
+    .main-content {
+      padding-top: 70px;
+    }
+  
+    .container {
+      width: 100%;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  </style>
+  
+  <!-- 2. 预加载主要 CSS -->
+  <link rel="preload" href="/assets/css/material-kit-pro.min.css" as="style">
+  
+  <!-- 3. 异步加载主要 CSS -->
+  <link rel="stylesheet" href="/assets/css/material-kit-pro.min.css" media="print"
+    onload="this.media='all'">
+  
+  <!-- 4. 延迟加载其他 CSS -->
+  <link rel="stylesheet" href="/assets/css/nucleo-icons.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/nucleo-svg.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/nativecode.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/output.css" media="print" onload="this.media='all'">
+  
+  <!-- 5. CSS 加载失败的备用方案 -->
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/material-kit-pro.min.css">
+    <link rel="stylesheet" href="/assets/css/nucleo-icons.css">
+    <link rel="stylesheet" href="/assets/css/nucleo-svg.css">
+    <link rel="stylesheet" href="/assets/css/nativecode.css">
+    <link rel="stylesheet" href="/assets/css/output.css">
+  </noscript>
+  
+  <!-- 6. CSS 加载优化脚本 -->
+  <script>
+    // 检测 CSS 加载完成
+    var cssMain = document.querySelector('link[href*="material-kit-pro.min.css"]');
+    if (cssMain) {
+      cssMain.addEventListener('load', function () {
+        document.documentElement.classList.add('css-loaded');
+      });
+    }
+  </script>
+  <!-- 原有的其他 head 内容 -->
+  <!-- 在现有 head 标签内的最前面添加 -->
+  
+  <!-- 开发环境 -->
+  <link rel="preconnect" href="http://127.0.0.1:4000">
+  <link rel="dns-prefetch" href="http://127.0.0.1:4000">
+  
+  
+  <!-- 如果网站用到了以下资源,建议也添加预连接 -->
+  
+  
+  <!-- 如果使用了 Google Analytics -->
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  
+  <!-- 原有的其他 head 内容 -->
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+
+  <link
+    rel="apple-touch-icon"
+    sizes="76x76"
+    href="/assets/img/apple-icon.png"
+  />
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+  <title>AI for Scientific Simulation and Discovery Lab | PhD and Interns</title>
+  <!--     Fonts and icons     -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700"
+  />
+  <!-- Nucleo Icons -->
+  <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <!-- <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script> -->
+  <script
+    src="https://kit.fontawesome.com/7665ecc650.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Material Icons -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+    rel="stylesheet"
+  />
+  <!-- CSS Files -->
+  <!-- <link
+    id="pagestyle"
+    href="/assets/css/material-kit-pro.css?v=3.0.4"
+    rel="stylesheet"
+  /> -->
+  <link id="pagestyle" href="/assets/css/output.css" rel="stylesheet" />
+  <link id="codestyle" href="/assets/css/nativecode.css" rel="stylesheet" />
+  <!-- 让markdown适配公式 -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+    integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j"
+    crossorigin="anonymous"
+  />
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+    integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+    crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"
+  ></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body class="blog-single-article bg-gray-200">
+    <!-- Navbar Light -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+  <div class="container">
+    <img
+      class="avatar avatar-md m-1"
+      src="/assets/img/logo_noword.png"
+      alt="logo"
+    />
+    <a
+      class="navbar-brand font-weight-bold d-none d-md-block"
+      href="/"
+      rel="tooltip"
+      data-placement="bottom"
+      target="_blank"
+      style="white-space: normal"
+    >
+      AI for Scientific Simulation and Discovery Lab
+    </a>
+    <a
+      class="navbar-brand font-weight-bold d-block d-md-none col"
+      href="/"
+      rel="tooltip"
+      data-placement="bottom"
+      target="_blank"
+      style="white-space: normal"
+    >
+      AI for Scientific Simulation and Discovery Lab
+    </a>
+    <a
+      href="/opening"
+      class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
+      >Join Us</a
+    >
+    <button
+      class="navbar-toggler shadow-none ms-2"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navigation"
+      aria-controls="navigation"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon mt-2">
+        <span class="navbar-toggler-bar bar1"></span>
+        <span class="navbar-toggler-bar bar2"></span>
+        <span class="navbar-toggler-bar bar3"></span>
+      </span>
+    </button>
+    <div
+      class="collapse navbar-collapse w-lg-80 pt-3 pb-2 py-lg-0"
+      id="navigation"
+    >
+      <ul class="navbar-nav navbar-nav-hover ms-auto">
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a
+            class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+            id="dropdownMenuPeople"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            role="button"
+          >
+            <i class="material-icons opacity-6 me-2 text-md">diversity_2</i>
+            People
+            <img
+              src="/assets/img/down-arrow-dark.svg"
+              alt="down-arrow"
+              class="arrow ms-auto ms-md-2"
+            />
+          </a>
+          <div
+            class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md mt-0 mt-lg-3 p-3 border-radius-lg"
+            aria-labelledby="dropdownMenuPeople"
+          >
+            <div class="d-none d-lg-block">
+              <ul class="list-group">
+                 
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/people#principal-investigator"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Principal Investigator
+                    </h6>
+                    
+                  </a>
+                </li>
+                  
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/people#postdocs"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Postdocs
+                    </h6>
+                    
+                    <span class="text-sm"
+                      >See all 3 members</span
+                    >
+                    
+                  </a>
+                </li>
+                  
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/people#phd-students"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      PhD Students
+                    </h6>
+                    
+                    <span class="text-sm"
+                      >See all 8 members</span
+                    >
+                    
+                  </a>
+                </li>
+                  
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/people#research-assistant"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Research Assistant
+                    </h6>
+                    
+                    <span class="text-sm"
+                      >See all 3 members</span
+                    >
+                    
+                  </a>
+                </li>
+                  
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/people#visiting-students"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Visiting Students
+                    </h6>
+                    
+                    <span class="text-sm"
+                      >See all 9 members</span
+                    >
+                    
+                  </a>
+                </li>
+                  
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/people#undergraduate"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Undergraduate
+                    </h6>
+                    
+                    <span class="text-sm"
+                      >See all 2 members</span
+                    >
+                    
+                  </a>
+                </li>
+                  
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/people#collaborator"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Collaborator
+                    </h6>
+                    
+                    <span class="text-sm"
+                      >See all 2 members</span
+                    >
+                    
+                  </a>
+                </li>
+                  
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/people#alumnus"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Alumnus
+                    </h6>
+                    
+                    <span class="text-sm"
+                      >See all 7 members</span
+                    >
+                    
+                  </a>
+                </li>
+                 
+              </ul>
+            </div>
+            <div class="row d-lg-none">
+              <div class="col-md-12 g-0">
+                 
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/people#principal-investigator"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Principal Investigator
+                  </h6>
+                  
+                </a>
+                  
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/people#postdocs"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Postdocs
+                  </h6>
+                  
+                  <span class="text-sm"
+                    >See all 3 members</span
+                  >
+                  
+                </a>
+                  
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/people#phd-students"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    PhD Students
+                  </h6>
+                  
+                  <span class="text-sm"
+                    >See all 8 members</span
+                  >
+                  
+                </a>
+                  
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/people#research-assistant"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Research Assistant
+                  </h6>
+                  
+                  <span class="text-sm"
+                    >See all 3 members</span
+                  >
+                  
+                </a>
+                  
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/people#visiting-students"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Visiting Students
+                  </h6>
+                  
+                  <span class="text-sm"
+                    >See all 9 members</span
+                  >
+                  
+                </a>
+                  
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/people#undergraduate"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Undergraduate
+                  </h6>
+                  
+                  <span class="text-sm"
+                    >See all 2 members</span
+                  >
+                  
+                </a>
+                  
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/people#collaborator"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Collaborator
+                  </h6>
+                  
+                  <span class="text-sm"
+                    >See all 2 members</span
+                  >
+                  
+                </a>
+                  
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/people#alumnus"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Alumnus
+                  </h6>
+                  
+                  <span class="text-sm"
+                    >See all 7 members</span
+                  >
+                  
+                </a>
+                 
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a
+            class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+            href="/publications"
+          >
+            <i class="material-icons opacity-6 me-2 text-md">mode_comment</i>
+            Publications
+          </a>
+        </li>
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a
+            class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+            href="/blogs"
+          >
+            <i class="material-icons opacity-6 me-2 text-md">menu_book</i>
+            Blogs
+          </a>
+        </li>
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a
+            class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+            href="/talks"
+          >
+            <i class="material-icons opacity-6 me-2 text-md">psychology_alt</i>
+            Talks
+          </a>
+        </li>
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a
+            class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+            href="/news"
+          >
+            <i class="material-icons opacity-6 me-2 text-md">newspaper</i>
+            News
+          </a>
+        </li>
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a
+            class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+            href="/course/frontiers-2026/"
+          >
+            <i class="material-icons opacity-6 me-2 text-md">book</i>
+            Course
+          </a>
+        </li>
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a
+            class="nav-link ps-2 d-flex cursor-pointer align-items-center"
+            id="dropdownMenuDocs"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            role="button"
+          >
+            <i class="material-icons opacity-6 me-2 text-md">meeting_room</i>
+            Opening
+            <img
+              src="/assets/img/down-arrow-dark.svg"
+              alt="down-arrow"
+              class="arrow ms-auto ms-md-2"
+            />
+          </a>
+          <div
+            class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md mt-0 mt-lg-3 p-3 border-radius-lg"
+            aria-labelledby="dropdownMenuDocs"
+          >
+            <div class="d-none d-lg-block">
+              <ul class="list-group">
+                   
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/opening/2026/01/13/%E7%A7%91%E7%A0%94%E5%8A%A9%E7%90%86-en.html"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Research Assistant
+                    </h6>
+                    <span class="text-sm">西湖大学工学院吴泰霖AI+Science实验室科研助理招聘启事</span>
+                  </a>
+                </li>
+                    
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/opening/2026/01/13/%E5%8D%9A%E5%A3%AB%E7%94%9F%E5%92%8C%E8%AE%BF%E9%97%AE%E5%AD%A6%E7%94%9F-en.html"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      PhD and Interns
+                    </h6>
+                    <span class="text-sm">西湖大学工学院吴泰霖AI+Science实验室博士生和实习生招聘启事</span>
+                  </a>
+                </li>
+                    
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a
+                    class="dropdown-item py-2 ps-3 border-radius-md"
+                    href="/opening/postdoctoral/2026/01/13/%E5%8D%9A%E5%A3%AB%E5%90%8E%E5%92%8C%E5%8A%A9%E7%90%86%E7%A0%94%E7%A9%B6%E5%91%98-en.html"
+                  >
+                    <h6
+                      class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                    >
+                      Postdocs
+                    </h6>
+                    <span class="text-sm">西湖大学工学院吴泰霖AI+Science实验室博士后和助理研究员招聘启事</span>
+                  </a>
+                </li>
+                 
+              </ul>
+            </div>
+            <div class="row d-lg-none">
+              <div class="col-md-12 g-0">
+                   
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/opening/2026/01/13/%E7%A7%91%E7%A0%94%E5%8A%A9%E7%90%86-en.html"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Research Assistant
+                  </h6>
+                  <span class="text-sm">西湖大学工学院吴泰霖AI+Science实验室科研助理招聘启事</span>
+                </a>
+                    
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/opening/2026/01/13/%E5%8D%9A%E5%A3%AB%E7%94%9F%E5%92%8C%E8%AE%BF%E9%97%AE%E5%AD%A6%E7%94%9F-en.html"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    PhD and Interns
+                  </h6>
+                  <span class="text-sm">西湖大学工学院吴泰霖AI+Science实验室博士生和实习生招聘启事</span>
+                </a>
+                    
+                <a
+                  class="dropdown-item py-2 ps-3 border-radius-md"
+                  href="/opening/postdoctoral/2026/01/13/%E5%8D%9A%E5%A3%AB%E5%90%8E%E5%92%8C%E5%8A%A9%E7%90%86%E7%A0%94%E7%A9%B6%E5%91%98-en.html"
+                >
+                  <h6
+                    class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
+                  >
+                    Postdocs
+                  </h6>
+                  <span class="text-sm">西湖大学工学院吴泰霖AI+Science实验室博士后和助理研究员招聘启事</span>
+                </a>
+                 
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav d-lg-block d-none">
+        <li class="nav-item">
+          <a href="/opening" class="btn btn-sm bg-gradient-success mb-0 me-1"
+            >Join Us</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!-- End Navbar -->
+    <!-- -------- START HEADER 8 w/ card over right bg image ------- -->
+    <header>
+      <div
+        class="page-header min-vh-85"
+        style="background-image: url('/assets/img/bg5.jpg'); background-size:cover;"
+        loading="lazy"
+      >
+        <span class="mask bg-gradient-dark opacity-8"></span>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 d-flex justify-content-center flex-column">
+              <h1 class="text-white mb-0">PhD and Interns</h1>
+              <p class="lead pe-sm-5 me-sm-5 text-white opacity-8">
+                西湖大学工学院吴泰霖AI+Science实验室博士生和实习生招聘启事
+              </p>
+              <h5 class="mt-3 text-white">2026-01-13</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -------- END HEADER 8 w/ card over right bg image ------- -->
+    <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
+      <!-- START Blogs w/ 3 images & quote & text -->
+      <section class="py-5 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 ms-auto me-auto">
+              <span
+                class="badge bg-dark me-2"
+              >
+                opening</span
+              > <h2 id="一导师介绍">一、导师介绍</h2>
+
+<p><strong>吴泰霖博士</strong>为西湖大学工学院人工智能方向特聘研究员、助理教授、博士生导师。2012 年于北京大学物理学院获得学士学位，2019 年获得麻省理工学院理学博士学位（师从 Max Tegmark 教授），2020 年-2023 年 5 月在斯坦福大学计算机系从事博士后研究（师从 Jure Leskovec 教授）。</p>
+
+<p>吴泰霖博士的主要研究方向为 AI for Science，<strong>开发基于生成模型、AI 智能体、大模型的方法，用于科学中的核心、普适问题，包括基于生成模型用于科学中的仿真和控制问题（流体、能源、生命科学等），开发 AI 智能体等方法用于科学发现（物理、生命科学）。</strong></p>
+
+<p>吴泰霖博士的代表性工作包括：在科学仿真方面，通过图神经网络模拟大规模系统方面成数量级地加快了仿真速度，解决其多尺度、多分辨率、大规模的核心挑战；在控制方面，提出基于扩散生成模型的将仿真和控制融为一体的控制方式，用于复杂物理系统的控制；提出 AI 物理学家架构，模仿物理学家从数据中总结和发现方程和理论；在表示学习方面，吴泰霖博士提出的图信息瓶颈（GIB）架构大幅度提高了图表示学习的鲁棒性。</p>
+
+<p>吴泰霖博士的工作正被应用于流体、等离子体、能源等的大规模仿真以及物理、天文等领域的科学发现中。<strong>其工作发表在 NeurIPS、ICLR、ICML 等机器学习顶级会议以及物理学顶级期刊上，并被 MIT Technology Review 等报道。吴泰霖博士也是美国国家科学院院刊（PNAS）、Nature Communications、Nature Machine Intelligence、Science Advances 等多个综合类顶级期刊的审稿人，以及机器学习顶级会议 NeurIPS、ICLR、ICML 的领域主席。</strong></p>
+
+<p>吴泰霖博士实验室主页：人工智能与科学仿真发现实验室：<a href="https://ai4s.lab.westlake.edu.cn">ai4s.lab.westlake.edu.cn</a></p>
+
+<p>吴泰霖博士个人主页：<a href="http://tailin.org">http://tailin.org</a></p>
+
+<h2 id="二团队介绍">二、团队介绍</h2>
+
+<p><strong>课题组长期开展 AI + Science 学科交叉的核心、普适问题。</strong>主要研究方向包括：</p>
+
+<ul>
+  <li><strong>核心 AI：</strong>开发基于 Diffusion/Flow Matching 的生成式 AI 方法以及下一代生成模型；自进化的 AI 架构（包括但不限于 LLM）</li>
+  <li><strong>AI for Physics：</strong>开发新型 AI 方法，创造流体、等离子体、天体物理等复杂物理系统的仿真、控制、设计、重建、科学发现的新范式，并有机会在从深海到人造太阳的极端物理场景中实际部署</li>
+  <li><strong>水下具身智能：</strong>开发适用于水下复杂物理环境的具身智能算法，并可以在先进平台上进行实验</li>
+  <li><strong>AI for Biology:</strong> 利用前沿 AI 技术构建生物复杂系统仿真模型，旨在解码生命系统的演化机制与内在逻辑</li>
+  <li><strong>AI Agent：</strong>开发结合 AI 智能体、LLM 的方法，构建通用 AI 科学家/工程师，用于科学探索的智能化并产生新的科学发现，在生命科学、物理等关键领域应用。</li>
+</ul>
+
+<h2 id="三招聘岗位">三、招聘岗位</h2>
+
+<p><strong>（1）博士生（2027 年秋季入学）</strong></p>
+
+<p>课题组计划招收博士生（包括推免生）。诚邀对 AI 与自然科学交叉领域（AI + Science）研究充满热情的优秀学子加入，共同探索前沿创新方向。</p>
+
+<p>基本要求：</p>
+
+<p>· 本科就读于国内外知名高校，且课业成绩或科研成果拔尖</p>
+
+<p>· 有机器学习或相关领域科研经验</p>
+
+<p>· 有志于在 AI + Science 领域做出开创性研究</p>
+
+<p>· 积极主动、热爱研究</p>
+
+<p>吴泰霖博士与国际上各 AI + Science 的著名研究组（包括 Stanford、DeepMind、MIT、Caltech、NVIDIA、TAMU 等）有广泛的联系，会推荐优秀的高年级博士生到相应的组实习以及攻读博士后。</p>
+
+<p><strong>（2）实习生</strong></p>
+
+<p>课题组长期招收实习生（3 个月或以上）。尤其欢迎对 AI+Science 感兴趣的博士生（AI 背景或者科学背景）来本组长期访问实习或者合作。实习生将能参与并有机会领导独立项目，并 target 机器学习顶级会议和国际综合期刊（PNAS、Nature 子刊等）。欢迎编程好、并对本课题组研究领域有强烈兴趣的同学报名。</p>
+
+<h2 id="四团队特色">四、团队特色</h2>
+
+<ol>
+  <li><strong>与科学和工业界顶尖团队合作：</strong>与多个科学领域顶尖团队紧密合作，共同攻克具有重大影响力的科学问题，并在这一过程中实现 AI 方法的突破创新。欢迎来自高校、研究所、工业界志同道合的合作者，在相同研究兴趣的支持下达成形式自由的科研合作。</li>
+  <li><strong>充足的计算资源：</strong>可调用西湖大学 AI Station 集群（H800/A100/A800/V100 等百余张 GPU），实验室拥有多台 8 卡服务器（A6000/L40）并长期租用多台 8 卡 H800 服务器，计算资源在国内高校中，处于最为丰富的第一梯队。</li>
+  <li><strong>交换&amp;实习&amp;博后推荐：</strong>吴泰霖博士与国际国内各 AI + Science 的著名研究组（包括 Stanford、DeepMind、MIT、Caltech 等）有广泛的联系，会推荐优秀的高年级博士生到相应的组实习以及攻读博士后。</li>
+  <li><strong>学生成长：</strong>实验室注重 work-life balance，认为良好的科研状态来自健康和积极的生活状态。吴泰霖博士将密切陪伴和引导学生成长，同时鼓励学生自主驱动（self-motivated），培养独立思考、自主探索、交流和领导能力，做出具有影响力的突破性成果。</li>
+  <li><strong>频繁的学术交流：</strong>实验室鼓励团队成员多次参加国内外顶级学术会议，通过研究成果和经历建立个人履历与人脉。</li>
+</ol>
+
+<div style="display: flex; justify-content: space-between; width: 100%;">
+<img src="/assets/img/opening/pic1.png" class="col-6" />
+<img src="/assets/img/opening/pic2.png" class="col-6" />
+</div>
+
+<p>吴泰霖组博后和学生在维也纳召开的 ICLR 2024 做报告</p>
+
+<p><img src="/assets/img/opening/pic3.png" class="col-12" /></p>
+
+<p>吴泰霖组博后（正中）在温哥华 NeurIPS 2024 共同主办的 Safe Generative AI workshop 上与组织者和嘉宾共进午餐</p>
+
+<h2 id="五申请流程">五、申请流程</h2>
+
+<p>应聘者通过电子邮件 talentlab@westlake.edu.cn 联系吴泰霖博士，并附上简历。<br />
+邮件主题：博士后/ 助理研究员 - 名字<br />
+邮件附件：个人简历（包括个人基本情况，教育和工作经历，科研工作概述，论文发表情况或其他成果）。<br />
+收到邮件的简历提交后，如果与本实验室可能 match，会在 2 周之内回复，并会 follow up 之后的面试。<br />
+期待你的加入！在西湖大学，我们共同解决重要的问题，and have fun!</p>
+
+<p><img src="/assets/img/gallary/pic12.png" class="col-12" /></p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END Blogs w/ 3 images & quote & text -->
+      <!-- -------- START Features w/ 4 cols w/ colored icon & title & text -------- -->
+      <!-- -------   START PRE-FOOTER 2 - simple social line w/ title & 3 buttons    -------- -->
+
+      <!-- -------   END PRE-FOOTER 2 - simple social line w/ title & 3 buttons    -------- -->
+    </div>
+    <footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mb-4 mx-auto text-center">
+        
+        <a
+          href="/"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Home
+        </a>
+        
+        <a
+          href="/people"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          People
+        </a>
+        
+        <a
+          href="/publications"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Publications
+        </a>
+        
+        <a
+          href="/blogs"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Blogs
+        </a>
+        
+        <a
+          href="/talks"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Talks
+        </a>
+        
+        <a
+          href="/news"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          News
+        </a>
+        
+        <a
+          href="/course/frontiers-2026/"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Course
+        </a>
+        
+        <a
+          href="/opening"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Opening
+        </a>
+        
+      </div>
+      <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
+        
+        <a
+          href="https://github.com/AI4Science-WestlakeU"
+          target="_blank"
+          class="text-secondary me-xl-4 me-4"
+        >
+          <span class="text-lg fab fa-github-alt"></span>
+        </a>
+        
+        <a
+          href="https://twitter.com/tailin_wu"
+          target="_blank"
+          class="text-secondary me-xl-4 me-4"
+        >
+          <span class="text-lg fab fa-x-twitter"></span>
+        </a>
+         
+        <a class="text-secondary me-xl-4 me-4" href="/zh/opening/2026/01/13/%E5%8D%9A%E5%A3%AB%E7%94%9F%E5%92%8C%E8%AE%BF%E9%97%AE%E5%AD%A6%E7%94%9F-en.html">
+          <span class="fa-solid fa-language"></span>
+        </a>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8 mx-auto text-center mt-1">
+        <p class="mb-0 text-secondary">
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          by Tailin Wu Lab
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ <!--   Core JS Files   -->
+<script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/perfect-scrollbar.min.js"></script>
+<!--  Plugin for TypedJS, full documentation here: https://github.com/mattboldt/typed.js/ -->
+<script src="/assets/js/plugins/typedjs.js"></script>
+<!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
+<script src="/assets/js/plugins/parallax.min.js"></script>
+<!--  Plugin for SmoothScroll, full documentation here: https://github.com/cferdinandi/smooth-scroll -->
+<script src="/assets/js/plugins/smooth-scroll.min.js"></script>
+<!--  Plugin for the Sliders, full documentation here: https://refreshless.com/nouislider/ -->
+<script
+  src="/assets/js/plugins/nouislider.min.js"
+  type="text/javascript"
+></script>
+<!--  Plugin for the blob animation -->
+<script src="/assets/js/plugins/anime.min.js" type="text/javascript"></script>
+<!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
+<!--  Google Maps Plugin    -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script> -->
+<script
+  src="/assets/js/material-kit-pro.min.js?v=3.0.4"
+  type="text/javascript"
+></script>
+
+    <script>
+      if (document.getElementsByClassName("page-header")) {
+        window.onscroll = debounce(function () {
+          var scrollPosition = window.pageYOffset;
+          var bgParallax = document.querySelector(".page-header");
+          var oVal = window.scrollY / 3;
+          bgParallax.style.transform = "translate3d(0," + oVal + "px,0)";
+        }, 6);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,799 @@
+<html lang="zh">
+  <head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!--对页面标题-->
+  <meta name="title" content="" />
+  <!--对页面的描述-->
+  <meta name="description" content="" />
+  <!--页面关键字-->
+  <meta name="keywords" content="" />
+  <title>张丹震博士 - 西湖大学</title>
+  <script>
+  window.nav = "走进西湖";
+  </script>
+  <script src="../images/facultyDetail.js"></script>
+  <link rel="icon" pre-href="$assetsPublicPathfavicon.ico"></head>
+
+<body>
+  <div class="seo_content">
+    <!-- 
+     此处填写seo优化代码
+     通常直接用 “置标” 填写需要被抓取到的服务端渲染内容
+     注：该区域不会显示在页面上
+     -->
+  </div>
+  <div class="body_container">
+    <html>
+<head>
+<link rel="stylesheet" href="" pre-href="$assetsPublicPathiconfont.css">
+<script src="/images/header.js"></script>
+</head>
+<body>
+<div id="headerEn" class="header"></div>
+  <script>
+    new header("#headerEn", {
+      headerNav: window.nav,
+      placeholder:"输入关键词搜索",
+      quickList: [
+        // {
+        //   text: "Faculty",
+        //   url: "#",
+        //   target: "_self",
+        // },
+        // {
+        //   text: "Students",
+        //   url: "#",
+        //   target: "_self",
+        // },
+        // {
+        //   text: "Staff",
+        //   url: "#",
+        //   target: "_self",
+        // },
+      ],
+      maskObj: {
+        
+        keywords: "Support Us",//当前点击文案（头部Support Us和尾部Giving不同）
+        title: "请联系：",
+        brief: "公共事务部",
+        list: [
+        
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586747778.png",
+            name: "电话",
+            text: "0571-86886861",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586894337.png",
+            name: "邮箱",
+            text: "media@westlake.edu.cn",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552587092891.png",
+            name: "传真",
+            text: "0571-88111699",
+          }
+          
+        
+        ]
+      
+      },
+      // 跳转到搜索页searchList
+      callback: (keywords) => {
+        console.log("home-keywords ", keywords);
+        window.location.href = "/others/search/?keywords=" + keywords;
+      },
+      homeObj: {
+    url: "https://en.westlake.edu.cn/",
+        target: "_blank",
+      },
+      chineseObj: {
+        url: "https://www.westlake.edu.cn/",
+        target: "_self",
+      },
+      quickLink: [
+      
+      {
+        text: "党群",
+        url: "https://dq.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "捐赠",
+        url: "https://wudf.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "湖心讲堂",
+        url: "https://huxin.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "求是西湖",
+        url: "https://qiushi.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "图书馆",
+        url: "https://www.westlake.edu.cn/academics/library/",
+        target: "_blank",
+      },
+      
+      {
+        text: "附属医院",
+        url: "https://www.hz-hospital.com/",
+        target: "_blank",
+      },
+      
+
+      ],
+      navList: [
+      
+        {
+          text: "走进西湖",
+          active: true,//需要加高亮的设置active:true;不需要的设置false，或者不设置
+          url: "#",
+          target: "_self",
+          imgUrl: "https://www.westlake.edu.cn/about/images/P020250928502674278558.jpg",
+          children: [
+          
+            {
+              text: "学校概况",
+              url: "https://www.westlake.edu.cn/about/facts_history/",
+              target: "_self",
+            },
+          
+            {
+              text: "校长寄语",
+              url: "https://www.westlake.edu.cn/about/message_from_president/",
+              target: "_self",
+            },
+          
+            {
+              text: "组织架构",
+              url: "https://www.westlake.edu.cn/about/leadership_organization/",
+              target: "_self",
+            },
+          
+            {
+              text: "导师团队",
+              url: "https://www.westlake.edu.cn/about/faculty/",
+              target: "_self",
+            },
+          
+            {
+              text: "合作交流",
+              url: "https://www.westlake.edu.cn/about/partnerships/",
+              target: "_self",
+            },
+          
+            {
+              text: "资料下载",
+              url: "https://www.westlake.edu.cn/about/VIS/",
+              target: "_self",
+            },
+          
+            {
+              text: "联系我们",
+              url: "https://www.westlake.edu.cn/about/contact_us/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "教育教学",
+          imgUrl: "https://www.westlake.edu.cn/academics/images/P020241230494630827541.jpeg",
+          children: [
+          
+            {
+              text: "本科生教育",
+              url: "https://www.westlake.edu.cn/academics/undergraduate_studies/",
+              target: "_self",
+            },
+          
+            {
+              text: "博士生教育",
+              url: "https://www.westlake.edu.cn/academics/graduate_studies/",
+              target: "_self",
+            },
+          
+          
+            {
+              text: "理学院",
+              url: "https://science.westlake.edu.cn/zh/",
+              target: "_blank",
+            },
+          
+            {
+              text: "工学院",
+              url: "https://engineering.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+            {
+              text: "生命科学学院",
+              url: "https://sls.westlake.edu.cn/About/Overview/",
+              target: "_blank",
+            },
+          
+            {
+              text: "医学院",
+              url: "https://medicine.westlake.edu.cn/About/",
+              target: "_blank",
+            },
+          
+            {
+              text: "西湖卓越学者计划",
+              url: "https://westlakefellows.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "教学日历",
+              url: "https://www.westlake.edu.cn/academics/academic_calendar/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "科学研究",
+          imgUrl: "https://www.westlake.edu.cn/research/images/P020250928391588094108.jpg",
+          children: [
+          
+            {
+              text: "科研进展",
+              url: "https://www.westlake.edu.cn/research/research_at_westlake/",
+              target: "_self",
+            },
+          
+            {
+              text: "创新平台",
+              url: "https://www.westlake.edu.cn/research/centers_institutes/",
+              target: "_self",
+            },
+          
+            {
+              text: "校级公共科研平台",
+              url: "https://www.westlake.edu.cn/research/research_facilities/",
+              target: "_self",
+            },
+          
+            {
+              text: "成果转化",
+              url: "https://www.westlake.edu.cn/research/innovation/",
+              target: "_self",
+            },
+          
+            {
+              text: "学术交流",
+              url: "https://www.westlake.edu.cn/research/academic_exchanges/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "招生与奖助",
+          imgUrl: "https://www.westlake.edu.cn/admissions/images/P020241230495205609325.jpg",
+          children: [
+          
+            {
+              text: "本科生招生",
+              url: "https://zh-ugadmissions.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "博士生招生",
+              url: "https://www.westlake.edu.cn/admissions/graduate/",
+              target: "_self",
+            },
+          
+          
+            {
+              text: "国际学生招生",
+              url: "https://en.westlake.edu.cn/admissions/international_students/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "短期项目",
+              url: "https://www.westlake.edu.cn/admissions/summer_sessions/",
+              target: "_self",
+            },
+          
+            {
+              text: "拟录取新生",
+              url: "https://www.westlake.edu.cn/admissions/admitted_students/",
+              target: "_self",
+            },
+          
+            {
+              text: "奖助体系",
+              url: "https://www.westlake.edu.cn/admissions/financial_aid/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "新闻与活动",
+          imgUrl: "https://www.westlake.edu.cn/news_events/images/P020250107627544696104.jpg",
+          children: [
+          
+            {
+              text: "西湖新闻",
+              url: "https://www.westlake.edu.cn/news_events/westlakenews/",
+              target: "_self",
+            },
+          
+            {
+              text: "西湖影像",
+              url: "https://www.westlake.edu.cn/news_events/gallery/",
+              target: "_self",
+            },
+          
+            {
+              text: "校园文化",
+              url: "https://www.westlake.edu.cn/news_events/thematic_activity/",
+              target: "_self",
+            },
+          
+            {
+              text: "活动预告",
+              url: "https://www.westlake.edu.cn/news_events/EventCalendars/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+        {
+          text: "校园生活",
+          imgUrl: "https://www.westlake.edu.cn/campus_life/images/P020241230495341467625.jpg",
+          children: [
+          
+            {
+              text: "云栖·云谷",
+              url: "https://www.westlake.edu.cn/campus_life/visit_westlake/",
+              target: "_self",
+            },
+          
+            {
+              text: "餐饮住宿",
+              url: "https://www.westlake.edu.cn/campus_life/housing_dining/",
+              target: "_self",
+            },
+          
+            {
+              text: "体育运动",
+              url: "https://www.westlake.edu.cn/campus_life/fitness_recreation/",
+              target: "_self",
+            },
+          
+            {
+              text: "社团活动",
+              url: "https://www.westlake.edu.cn/campus_life/student_groups_activities/",
+              target: "_self",
+            },
+          
+            {
+              text: "身心健康",
+              url: "https://www.westlake.edu.cn/campus_life/health_wellness/",
+              target: "_self",
+            },
+          
+            {
+              text: "西湖书院",
+              url: "https://www.westlake.edu.cn/campus_life/westlake_residential_college/",
+              target: "_self",
+            },
+          
+            {
+              text: "乐活杭州",
+              url: "https://www.westlake.edu.cn/campus_life/life_in_hangzhou/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "人才招聘",
+          imgUrl: "https://www.westlake.edu.cn/careers/images/P020241230495385122431.jpg",
+          children: [
+             {
+              text: "学术人才",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=学术人才",
+              target: "_blank",
+            },
+             {
+              text: "专职教学",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=专职教学",
+              target: "_blank",
+            },
+          
+            {
+              text: "平台支撑",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=86537",
+              target: "_blank",
+            },
+          
+            {
+              text: "教学辅助",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=85045",
+              target: "_blank",
+            },
+          
+          {
+              text: "科研团队",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=科研团队",
+              target: "_blank",
+            },
+            
+            {
+              text: "行政服务",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=86536",
+              target: "_blank",
+            },
+            
+            {
+              text: "博士后",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=博士后",
+              target: "_blank",
+            },
+           {
+              text: "更多岗位",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/",
+              target: "_blank",
+            }
+          ],
+        },
+      
+
+      
+        {
+          text: "师生入口",
+          imgUrl: "https://www.westlake.edu.cn/TeacherStudentEntrance/images/P020241231556861680164.jpg",
+          children: [
+          
+            {
+              text: "校园门户",
+              url: "https://my.westlake.edu.cn/",
+              target: "_self",
+            },
+          
+            {
+              text: "学校邮箱",
+              url: "https://mail.westlake.edu.cn",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      ],
+      mounted: function () {
+        var $el = $(this.$el);
+      },
+    });
+  </script>
+</body>
+
+</html>
+    <div id="app"></div>
+    <html lang="zh">
+<head>
+  <script src="/images/footer.js"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=5522" async="async" defer="defer"></script>
+<!-- <script id="_trs_ta_js" src="https://www.westlake.edu.cn/c/js/ta.js?mpid=5522" async="async" defer="defer"></script> -->
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJMXC8KQ5C"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-VJMXC8KQ5C'); </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?27ab2daf7ee5965ed3dc2b49f7ac67f5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="footer" class="footer"></div>
+  <script>
+    new footer("#footer", {
+      firstLine: "关注西湖大学",
+      maskObj: {
+      
+        keywords:"媒体接洽",//这里是打开mask弹窗的钥匙
+        title: "请联系：",
+        brief: "公共事务部",
+        list: [
+        
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586747778.png",
+            name: "电话",
+            text: "0571-86886861",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586894337.png",
+            name: "邮箱",
+            text: "media@westlake.edu.cn",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552587092891.png",
+            name: "传真",
+            text: "0571-88111699",
+          }
+          
+        
+        ]
+      
+      },
+      mediaObj: {
+      
+      },
+      iconList: [
+      
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552831551435.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552831680680.png",//移入时展示图标
+          url: "https://weibo.com/u/6535729991",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552832493827.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552832642257.png",//移入时展示图标
+          url: "#",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241230578673418134.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241230578673544879.png",//移入时展示图标
+          url: "https://twitter.com/Westlake_Uni/",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552828590082.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552828727988.png",//移入时展示图标
+          url: "https://www.instagram.com/westlake_univ/",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552829518161.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552829656122.png",//移入时展示图标
+          url: "https://www.facebook.com/WestlakeUni/",
+          target: "_self",
+        },
+      
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552830523875.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552830676779.png",//移入时展示图标
+          // url: "https://www.linkedin.com/school/westlakeuniversity/",
+          // target: "_self",
+          QRcodeUrl: "",
+        },
+      
+      
+      ],
+      schoolList: [
+        {
+          title: "走进西湖",
+          children: [
+            
+            {
+              text: "学校概况",
+              url: "https://www.westlake.edu.cn/about/facts_history/",
+              target: "_self",
+            },
+            
+            {
+              text: "教师团队",
+              url: "https://www.westlake.edu.cn/about/faculty/",
+              target: "_self",
+            },
+            
+            {
+              text: "校园地图",
+              url: "https://www.westlake.edu.cn/campus_life/visit_westlake/",
+              target: "_self",
+            },
+            
+          ]
+        },
+        {
+          title: "招生资讯",
+          children: [
+            
+            {
+              text: "本科生招生",
+              url: "https://zh-ugadmissions.westlake.edu.cn/",
+              target: "_self",
+            },
+            
+            {
+              text: "博士生招生",
+              url: "https://www.westlake.edu.cn/admissions/graduate/",
+              target: "_self",
+            },
+            
+            {
+              text: "短期项目",
+              url: "https://www.westlake.edu.cn/admissions/summer_sessions/",
+              target: "_self",
+            },
+            
+          ]
+        },
+       {
+          title: "联系我们",
+          children: [
+            
+            {
+              text: "捐赠通道",
+              url: "https://wudf.westlake.edu.cn/",
+              target: "_blank",
+            },
+            
+            
+            {
+              text: "招聘岗位",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/",
+              target: "_self",
+            },
+            
+            {
+              text: "媒体接洽",
+              url: "#",
+              target: "_self",
+            },
+            
+          ]
+        },
+      ],
+      campusList: [
+      {
+        title: "云谷校区",
+        children: [
+          "浙江省杭州市西湖区","墩余路600号","邮编：310030","邮箱：office@westlake.edu.cn"
+        ]
+      },
+        
+      {
+        title: "云栖校区",
+        children: [
+          "浙江省杭州市西湖区", " 石龙山街18号", "邮编：310024"," 邮箱：office@westlake.edu.cn"
+        ]
+      },
+      ],
+      copyRight: [
+        {
+          text: "浙ICP备18025489号",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+        {
+          text: "浙公安备33010602007514号",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+        {
+          text: "© 2019-2025 Westlake University. All Rights Reserved",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+      ],
+      right: {
+       title: "如有需要<br>请联系我们",
+        phone: "0571-88111600",
+        email: "office@westlake.edu.cn",
+        bgImgTop: window.assetsPublicPath + "footer_right_top.png",//右侧顶部背景图带滤镜 暂时不抛去
+        bgImg: window.assetsPublicPath + "footer_bottom_right.png",//右侧图片展示
+      }
+    });
+  </script>
+</body>
+
+</html>
+  </div>
+  <script>
+    new facultyDetail("#app", {
+      // 暂时不做活这张图片
+      bgUrl: window.assetsPublicPath + "faculty_detail_banner.png",
+      titleObj1: {
+        text: "走进西湖",
+        url: "https://www.westlake.edu.cn/about/",
+        target: "_self"
+      },
+      titleObj2: {
+        text: "导师团队",
+        url: "https://www.westlake.edu.cn/about/faculty/",
+        target: "_self"
+      },
+      personObj: {
+        // 3个共有字段
+        imgUrl: "./W020260602528061085508.png",
+        name: "张丹震博士",
+        post: "工学院",
+        // 新增
+		    // subject和lab 为about页面下的faculty-detail独有字段
+		    subject: "材料科学与工程,",
+        lab: "MXene光电化学及其柔性器件实验室",
+        // 新增
+		    // 1个共有字段
+        email: "zhangdanzhen@westlake.edu.cn",
+		    // email右边那个字段的信息
+        bottomLabel: "网站",
+		    bottomUrl: "https:\/\/zdz.lab.westlake.edu.cn",//bottomUrl为空不显示email右边那个字段的信息
+        bottomTarget: "_self",
+		    msg: "于无声处，静水深流。",
+      },
+      videoObj: {
+        imgUrl: "",// imgUrl为空不显示
+        videoUrl: "",//优先展示视频，没有展示封面图
+      },
+      //个人简介  标题文案抛出 内容开始
+      biographyTitle: "个人简介",
+      biographyStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin: 0px; text-align: justify; text-indent: 32px; line-height: 28px;\"><span style=\"font-family:&#39;微软雅黑&#39;,sans-serif;color:black\">张丹震，1997年生，山西长治人。2019年获清华大学工学学士学位，2024获美国德雷塞尔大学博士，师从Yury Gogotsi教授，随后在美国西北大学Querrey Simpson生物电子研究所（Querrey Simpson Institute for Bioelectronics）进行博士后研究，合作导师为John A. Rogers教授。曾获北京市优秀毕业生，清华大学优良毕业生，德雷塞尔优秀博士毕业生。将于2027年7月全职加入西湖大学，任特聘研究员、助理教授、博士生导师。<\/span><\/p><\/div>",
+      // 年份和事件必须独立包裹在p标签内，且不可以有多余的p标签
+      historyStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p>2027<\/p><p>助理教授，西湖大学<\/p><p>2024<\/p><p>博士后，美国西北大学<\/p><p>2024<\/p><p>博士，美国德雷塞尔大学<\/p><p>2019<\/p><p>学士，清华大学<\/p><\/div>",
+      researchTitle: "学术成果及研究方向", //标题文案抛出
+      researchStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin: 0px; text-align: justify; text-indent: 32px; line-height: 28px;\"><span style=\"font-family: &#39;微软雅黑&#39;,sans-serif;color:black\">MXene <\/span><span style=\"font-family:&#39;微软雅黑&#39;,sans-serif;color:black\">材料自发现以来，因其独特的二维层状结构、类金属高导电性、丰富且可调的表面官能团、良好的溶液加工性以及优异的机械柔韧性，在能源存储、电磁屏蔽、光电调控和柔性电子等领域展现出重要应用潜力。张丹震博士研究成果包括建立基于原位 UV–Vis 光谱的 MXene 电化学储能机制定量分析方法，实现 MXene 与微波相互作用的电化学动态调控，并拓展 MXene 在高效率全拉伸 OLED中的应用。已发表 SCI 论文 23 篇，其中第一作者或共同第一作者论文 7 篇，发表于 <em>Nature、Nature Energy、Nature Nanotechnology、Materials Today<\/em> 等期刊，并担任 <em>ACS Nano、Energy Storage Materials <\/em>等期刊审稿人，现担任 <em>Soft Science <\/em>客座编辑。<\/span><\/p><\/div>",
+      // 教授名字和学刊名用span标签 类名为name包裹 <span class='name'></span>
+      // 或者直接<span style='color:#333;font-weight:bold;'></span>写在标签内
+      representativeList: [
+        {
+          title: "代表论文",
+          content: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">1. Huanyu Zhou#, Hyun-Wook Kim#, Shin Jung Han#, <strong>Danzhen Zhang<\/strong>#, Woo Jin Jeong, Haomiao Yu, Youichi Tsuchiya, Bin Hu, June Huh, Teng Zhang, Seungyeon Cho, Joo Sung Kim, Dong-Hyeok Kim, Hyung Joong Yun, Jinwoo Park, Kyung Yeon Jang, Eojin Yoon, Amit Kumar Harit, Min-Jun Sung, Yooseong Ahn, Hao Chen, Qingsen Zeng, Chan-Yul Park, Kwan-Nyeong Kim, Landep Ayuningtias, Hoichang Yang, Jong Chan Kim, Yun-Hi Kim, Han Young Woo, Chihaya Adachi, Yury Gogotsi*, Tae-Woo Lee*. Exciplex-Enabled High-Efficiency Fully Stretchable OLEDs. <strong>Nature<\/strong>, 649, 604-601 (2026)<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">2. Audrey Perju, <strong>Danzhen Zhang<\/strong>, Ruocun John Wang, Pierre‐Louis Taberna, Yury Gogotsi*, Patrice Simon*. Investigation of the charge storage mechanism in Ti<sub>3<\/sub>C<sub>2<\/sub> MXene in water-in-salt electrolyte using operando techniques. <strong>Advanced Energy Materials<\/strong>, 15, 2405028 (2025).<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">3.<\/span> <span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">Tetiana Parker, <strong>Danzhen Zhang<\/strong>, David Bugallo, Kateryna Shevchuk, Marley Downes, Geetha Valurouthu, Alex Inman, Benjamin Chacon, Teng Zhang, Christopher E Shuck, Yong-Jie Hu, Yury Gogotsi*. Fourier-transform infrared spectral library of MXenes. <strong>Chemistry of Materials<\/strong>. 36, 8437-8446, (2024)<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">4.<\/span> <span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">Ahmad A Shamsabadi#, Hui Fang#, <strong>Danzhen Zhang<\/strong>, Anupma Thakur, Cindy Y Chen, Aixi Zhang, Haonan Wang, Babak Anasori, Masoud Soroush, Yury Gogotsi, Zahra Fakhraai. The Evolution of MXenes Conductivity and Optical Properties Upon Heating in Air. <strong>Small Methods<\/strong>, 2300568, (2023)<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">5.<\/span> <strong><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">Danzhen Zhang<\/span><\/strong><span style=\"font-family: &#39;Times New Roman&#39;,serif;color:black\">, Ruocun Wang, Xuehang Wang*, Yury Gogotsi*. In situ monitoring redox processes in energy storage using UV-Vis spectroscopy. <strong>Nature Energy<\/strong>, 8, 567-576, (2023). [Selected to publish a Research Briefing: UV–vis spectroscopy for monitoring oxidation state changes during electrochemical energy storage. Nature Energy 8, 565-566, (2023)]<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">6.<\/span> <span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">Meikang Han#, <strong>Danzhen Zhang<\/strong>#, Akash Singh#, Tetiana Hryhorchuk, Christopher Eugene Shuck, Teng Zhang, Lingyi Bi, Bernard McBride, Vivek B Shenoy*, Yury Gogotsi*. Versatility of Infrared properties of MXenes. <strong>Materials Today<\/strong>, 64, 31-39, (2023)<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">7.<\/span> <span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">Meikang Han#, <strong>Danzhen Zhang<\/strong>#, Christopher E Shuck, Bernard McBride, Teng Zhang, Ruocun Wang, Kateryna Shevchuk, Yury Gogotsi. Electrochemically modulated interaction of MXenes with microwaves. <strong>Nature Nanotechnology<\/strong>, 18, 373-379, (2023)<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">8. Huanyu Zhou#, Shin Jung Han#, Hyeon‐Dong Lee#, <strong>Danzhen Zhang<\/strong>, Mark Anayee, Seung Hyeon Jo, Yury Gogotsi, Tae‐Woo Lee. Overcoming the Limitations of MXene Electrodes for Solution-Processed Optoelectronic Devices.<strong> Advanced Materials<\/strong> 34, e2206377, (2022)<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">9. Adir Hazan, Barak Ratzker, <strong>Danzhen Zhang<\/strong>, Aviad Katiyi, Maxim Sokol, Yury Gogotsi*, Alina Karabchevsky*. MXene-Nanoflakes-Enabled All-Optical Nonlinear Activation Function for On-Chip Photonic Deep Neural Networks. Advanced Materials, e2210216, (2023)<\/span><\/p><p style=\"margin:0;text-align:justify;text-justify:inter-ideograph;line-height:150%\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">10. <strong>Danzhen Zhang<\/strong>, Deesha Shah, Alexandra Boltasseva*, Yury Gogotsi*. MXenes for Photonics. ACS Photonics, 9, 1108-1116, (2022)<\/span><\/p><p style=\"margin: 0px; text-align: justify; line-height: 150%;\"><span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">11. <strong>Danzhen Zhang<\/strong>, Chengyu Wen, John Brandon Mcclimon, Paul Masih Das, Qicheng Zhang, Grace A Leone, Srinivas V Mandyam, Marija Drndić, Alan T Charlie Johnson Jr*, Meng‐Qiang Zhao*.<\/span> <span style=\"font-family:&#39;Times New Roman&#39;,serif;color:black\">Rapid Growth of Monolayer MoSe2 Films for Large‐Area Electronics. <strong>Advanced Electronic Materials<\/strong>. 7, 2001219, (2021).<\/span><\/p><\/div>",
+        },
+        {
+          title: "联系我们",
+          content: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin:0\"><span style=\"font-family:&#39;微软雅黑&#39;,sans-serif;color:black\">电子邮箱：<\/span>zhangdanzhen@westlake.edu.cn<\/p><p style=\"margin: 0px; text-align: justify;\"><span style=\"font-family:&#39;微软雅黑&#39;,sans-serif;color:black\">张丹震博士课题组未来将继续深耕于MXene材料的光\/电化学\/电学性质及其柔性器件的研究，包括但不限于：（1）MXene等二维材料的可控合成，（2）利用 MXene 的高电导率、电化学活性及可调表面化学，使其既可作为透明导电电极，也可作为电化学响应活性材料，实现基于MXene的从紫外到微波的全光谱调控（3）利用 MXene 的高电导率、高透光率与优异柔韧性，作为高性能透明导电电极或主要功能组分，构建柔性发光器件（LED）、光伏器件（太阳能电池）及生物电信号传感电极（EMG\/ECG\/EEG），探究其在智能衣物、人体运动监测等生物电子系统中的应用。<\/span><\/p><\/div>",
+        },
+      ],
+      mounted: function () { },
+    });
+  </script>
+
+
+</body></html>

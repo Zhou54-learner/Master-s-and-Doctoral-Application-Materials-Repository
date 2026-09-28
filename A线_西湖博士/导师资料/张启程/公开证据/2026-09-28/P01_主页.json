@@ -1,0 +1,22 @@
+{
+  "source_url": "https://ne2.lab.westlake.edu.cn/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://ne2.lab.westlake.edu.cn/",
+  "sha256": "0f4b8a2847d33124b1f519ff62d40564f4f76fc6b43c544d078980e81da43482",
+  "bytes": 17955,
+  "links": [
+    "index.htm",
+    "content_CN/home_CN.htm",
+    "Content_EN/Research.htm",
+    "Content_EN/Investigators.htm",
+    "Content_EN/Publications.htm",
+    "Content_EN/Gallery.htm",
+    "Content_EN/Join_us.htm",
+    "https://clelandlab.uchicago.edu/index.php",
+    "https://quantum-materials.columbia.edu/seminars-lectures/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

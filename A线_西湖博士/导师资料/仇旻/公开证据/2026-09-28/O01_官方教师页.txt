@@ -1,0 +1,61 @@
+Min Qiu, Ph.D. - Westlake University
+Prof.Min Qiu is the Guoqiang Chair Professor of Optical Engineering and Vice President at Westlake University, where he also serves as the Dean of School of Engineering and the Director of Westlake Institute for Optoelectronics. He is a Foreign Member of Academia Europaea, a Foreign Member of European Academy of Sciences and Arts and a recipient of the National Science Fund for Distinguished Young Scholars. He is also a Fellow of several prestigious professional societies, including:IEEE Fellow (Institute of Electrical and Electronics Engineers)，Optica Fellow(formerly OSA, The Optical Society of America)，SPIE Fellow (International Society for Optical Engineering)，COS Fellow(Chinese Optical Society)，CSOE Fellow (Chinese Society of Optical Engineering) and CIE Fellow(Chinese Institute of Electronics). Prof. Qiu actively contributes to the academic community through leadership roles, serving as a Standing Council Member of the Chinese Society of Optical Engineering (CSOE), Deputy Director of both the Micro- and Nano-Optics Committees of CSOE and the Chinese Optical Society (COS), as well as Vice President of the Zhejiang Optical Society and the Zhejiang Institute of Electronics.
+He received his Bachelor of Science and his Ph.D. in Condensed Matter Physics from Zhejiang University in 1995 and 1999, respectively. He then earned a Ph.D. in Electromagnetic Theory from the Royal Institute of Technology (KTH) in Sweden in 2001. He was appointed as Assistant Professor at KTH in the same year, promoted to Associate Professor in 2005, and became a full professor in photonics in 2009. His research has been supported by prestigious grants, including the "Future Research Leader" program from the Swedish Foundation for Strategic Research and the Senior Researcher Specialized Grant from the Swedish Research Council. In 2010, he joined the College of Optical Science and Engineering at Zhejiang University, where he also served as the Director of the State Key Laboratory of Modern Optical Instrumentation. In 2018, he joined Westlake University.
+2025
+Member of Academia Europaea
+Member of European Academy of Sciences and Arts
+2024
+Dean of School of Engineering of Westlake University
+2022
+Director of Westlake Institute for Optoelectronics
+The first prize of the 2021 Zhejiang Provincial Natural Science Award
+Fellow of the Chinese Society for Optical Engineering (CSOE Fellow)
+2021
+Director-at-large on the Board of Directors of Optica
+2019
+Fellow of the Chinese Institute of Electronics (CIE Fellow)
+Fellow of the Chinese Optical Society (COS Fellow)
+2018
+Guoqiang Chair Professor and Vice President, Westlake University
+2015
+Fellow of the Institute of Electrical and Electronics Engineers (IEEE Fellow)
+2013
+Fellow of the Optical Society of America (Optica Fellow)
+Fellow of the International Society for Optical Engineering (SPIE Fellow)
+2010
+Professor in the College of Optical Science and Engineering, Zhejiang University
+2009
+Professor of Photonics at the School of Information and Communication Technology, Royal Institute of Technology (KTH)
+2005
+Associate Professor, Royal Institute of Technology (KTH)
+2001
+Assistant Professor, Royal Institute of Technology (KTH)
+Ph.D.in electromagnetic theory, Royal Institute of Technology (KTH)
+1999
+Ph.D. in condensed matter physics, Zhejiang University
+1995
+Bachelor of Science degree, Zhejiang University
+Professor Min Qiu's laboratory focuses on micro- and nano- optoelectronics, encompassing advanced fabrication technologies and instrumentations, functional optical and optoelectronic devices, and nanophotonic technologies and theories for intelligent applications. In 2017 and 2020, he served as the project leader for the National Key R&D Program of China and the National Major Scientific Instrument Development Project, respectively. He was honored with the First Prize of the 2021 Zhejiang Provincial  Natural Science Award. He currently serves as the Editor-in-Chief for PhotoniX (Springer Nature), the Associate Editor for Science Bulletin (Science China Press), the Associate Editor of Acta Photonica Sinica, and the Topical Editor for Light: Science & Applications (Nature Publishing Group).
+1.  Zhirong Yang, Shan Wu, Kang Zhao, Ding Zhao*, Min Qiu*,"Patterning on Living Tardigrades",Nano Letters,25(15):6168 - 6175(2025).
+2. Xinggang Shang, Ning Wang, Simin Cao, Hehao Chen, Dixia Fan, Nanjia Zhou, Min Qiu*, Fiber‐Integrated Force Sensor using 3D Printed Spring‐Composed Fabry‐Perot Cavities with a High Precision Down to Tens of Piconewton, Advanced Materials, 36(2): 2305121 (2024).
+3. Xixian Zu, Xiaoyu Sun, Wei Yan, Wei E. I. Sha, Min Qiu*, Fast and Efficient Inverse Design Framework for Multifunctional Metalenses, Laser&Photonics Reviews, 2400886 (2024).
+4. Lei Zhang, Xinyu Sun, Hongyan Yu, Niping Deng, Feng Qiu, Jiyong Wang , Min Qiu*, Plasmonic metafibers electro-optic modulators, Light: Science & Applications, 12(1):198 (2023).
+5. Yihan Lu, Binbin Jin, Rui Zheng, Shan Wu, Ding Zhao, Min Qiu*, Production and Patterning of Fluorescent Quantum Dots by Cryogenic Electron-Beam Writing, ACS Applied Materials & Interfaces, 15(9): 12154–12160 (2023).
+6.  Jiao Geng, Liye Xu, Wei Yan, Liping Shi*, Min Qiu*, High-speed laser writing of structural colors for full-color inkless printing, Nature Communications, 14(1):565 (2023).
+7. Binbin Jin, Fei Liang, Ding Zhao*, Yihan Lu, Lufang Liu, Fengjiang Liu, Zhong Chen, Gang Bi, Pan Wang, Qing Zhang, Min Qiu*, Suppression of Phase Transitions in Perovskite Thin Films through Cryogenic Electron Beam Irradiation, Nano Letters, 22(18): 7449-7456 (2022).
+8. Jiao Geng, Wei Yan, Liping Shi, Min Qiu*, Surface plasmons interference nanogratings: wafer-scale laser direct structuring in seconds, Light: Science and Applications，11(1): 189 (2022).
+9. Yu-Hui Chen, Ronnie R. Tamming, Kai Chen, Zhepeng Zhang, Fengjiang Liu, Yanfeng Zhang, Justin M. Hodgkiss, Richard J. Blaikie, Boyang Ding*, Min Qiu*, Bandgap control in two-dimensional semiconductors via coherent doping of plasmonic hot electrons, Nature Communications, 12(1): 4332 (2021).
+10.  Huanzheng Zhu, Qiang Li, Chenning Tao, Yu Hong, Ziquan Xu, Weidong Shen, Sandeep Kaur, Pintu Ghosh, Min Qiu*, Multispectral camouflage for infrared, visible, lasers and microwave with radiative cooling, Nature Communications, 12(1): 1-8 (2021).
+11. Yu Hong, Ding Zhao, Jiyong Wang, Jinsheng Lu, Guangnan Yao, Dongli Liu, Hao Luo, Qiang Li, Min Qiu*, Solvent-free nanofabrication based on ice-assisted electron beam lithography, Nano Letters, 20(12): 8841-8846 (2020).
+12.  Wei Yan, Philippe Lalanne, Min Qiu*, Shape Deformation of Nanoresonator: A Quasinormal-Mode Perturbation Theory, Physical Review Letters, 125(1): 013901 (2020).
+13.  Jinsheng Lu, Qiang Li, Cheng-Wei Qiu, Yu Hong, Pintu Ghosh, Min Qiu*, Nanoscale Lamb wave–driven motors in nonliquid environments, Science Advances, 5(3): eaau8271 (2019).
+14.  Jingyi Tian, Hao Luo, Yuanqing Yang*, Fei Ding, Yurui Qu, Ding Zhao, Min Qiu*, Sergey I Bozhevolnyi, Active control of anapole states by structuring the phase-change alloy Ge2Sb2Te5, Nature Communications, 10(1): 396 (2019).
+15. Yu Hong*, Ding Zhao*, Dongli Liu, Binze Ma, Guangnan Yao, Qiang Li, Anpan Han, Min Qiu*, Three-Dimensional in Situ Electron-Beam Lithography Using Water Ice, Nano Letters, 18(8):5036–5041 (2018).
+16. Yurui Qu, Qiang Li*, Lu Cai, Meiyan Pan, Pintu Ghosh, Kaikai Du, Min Qiu*, Thermal camouflage based on the phase-changing material GST, Light: Science & Applications, 7(1): 26 (2018).
+17. Jinsheng Lu, Hangbo Yang, Lina Zhou, Yuanqing Yang, Si Luo, Qiang Li, Min Qiu*, Light-Induced Pulling and Pushing by the Synergic Effect of Optical Force and Photophoretic Force, Physical Review Letters, 118(4): 043601 (2017).
+18. Xi Chen, Yiting Chen, Min Yan, Min Qiu*, Nanosecond Photothermal Effects in Plasmonic Nanostructures, ACS Nano, 6(3): 2550-2557 (2012).
+19. Jiaming Hao, Lei Zhou, Min Qiu*, Nearly Total Absorption of Light and Heat Generation by Plasmonic Metamaterials, Physical Review B, 83(16): 165107 (2011).
+20. Jiaming Hao, Jing Wang, Xianliang Liu, Willie J Padilla, Lei Zhou, Min Qiu*, High Performance Optical Absorber Based on a Plasmonic Metamaterial, Applied Physics Letters, 96(25): 251104 (2010).
+Email: qiu_lab@westlake.edu.cn
+Our lab is committed to training the next generation of scientists. We endeavor to provide an innovative, rigorous, and collegial research environment for our trainees, and offer continuous support for the career growth of young scientists.
+Please visit https://qiu.lab.westlake.edu.cn/ for more information.

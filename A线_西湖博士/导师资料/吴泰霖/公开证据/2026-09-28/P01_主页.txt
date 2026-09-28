@@ -1,0 +1,120 @@
+AI for Scientific Simulation and Discovery Lab | Tailin Wu Lab
+AI for Scientific Simulation and Discovery Lab
+Index
+People
+Publications
+Blogs
+Talks
+News
+Course
+Opening
+Our lab mission is to
+solve important AI + Science problems
+open new frontiers
+Our lab's research solves the core and universal problems
+at the intersection of AI (deep learning) and scientific
+disciplines, including:
+(1) Core AI:
+Develop generative AI methods based on diffusion/flow matching and next-generation generative models; create self-evolving AI architectures. Develop generalist AI scientists and AI engineers.
+(2) AI for Physical Sciences:
+Develop novel generative AI approaches for scientific simulation, control, design, and scientific discovery in complex physical systems such as fluids and plasmas. Develop underwater embodied intelligence.
+(3) AI for Life Science:
+Develop AI virtual cells and decode the evolutionary mechanisms and intrinsic logic of living systems.
+Publications
+BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction
+We introduce BuildArena that studies whether LLM agents can design and build functional machines in a physics simulator. Given natural language goals, LLM agents construct rockets, bridges, vehicles, and other 3D mechanisms from scratch.Read More
+Invited Talk
+Latest talks
+[2025/04]  生成模型用于复杂系统的设计与控制以及test-time scaling，at 北大前沿探索者沙龙
+[2024/12]  AI+科学和工程：从2025到2035，at 浦江AI学术年会
+[2024/10]  基于扩散生成模型的复杂系统设计和控制, at CNCC 2024
+Featured talks
+[2023/05] Graph Neural Networks for Large-scale Scientific Simulations, at 首届人工智能科学计算研讨会
+[2023/03] Steps toward an AI scientist: neuro-symbolic models for concept generalization and theory learning, at AAAI 2023 Symposium of Computational Approaches to Scientific Discovery
+slides
+[2023/03] AI + Science: motivation, advances and open problems, at Swarma (集智)
+slides summary
+Other talks
+[2025/04]  生成模型用于复杂系统的设计与控制以及test-time scaling，at 北大前沿探索者沙龙
+[2024/12]  AI+科学和工程：从2025到2035，at 浦江AI学术年会
+[2024/10]  基于扩散生成模型的复杂系统设计和控制, at CNCC 2024
+[2024/10]  Learning adaptive and compositional networks for multi-resolution simulation and inverse design, at IMS-NTU joint workshop on Applied Geometry for Data Sciences, Part I
+[2024/07]  Designing and controlling complex systems via diffusion generative models, at the 10th Shanghai International Symposium on Nonlinear Sciences and Applications
+[2024/04]  Envisioning AI + Science in 2030, at  2050 Yunqi Forum
+[2024/03]   Uncertainty Quantification for Forward and Inverse Problems of PDEs via Latent Global Evolution, at SIAM Conference on Uncertainty Quantification (UQ24)
+[2024/02]  Compositional generative inverse design, at AI4Science Talks
+slide
+[2024/01] Machine learning for accelerating scientific simulation, design and control, at Annual Meeting of Peking University Center for Quantitative Biology
+[2023/11] GNN for scientific simulations: towards adaptive multi-resolution simulators and a foundation neural operator, at LoG Shanghai Meetup
+[2023/08] Machine learning of structured representations for accelerating scientific discovery and simulation, invited talk at CPS Fall Meeting（中国物理学会 2023 秋季会议）
+[2023/08] Graph neural network for accelerating scientific simulation, at 2023 科学智能峰会
+[2023/08] Phase transitions in the universal tradeoff between accuracy and simplicity in machine learning, at HK Satellite of StatPhys28
+[2023/07] 走向AI物理学家，做科学发现和仿真, at 果壳未来光锥
+[2023/06] Machine learning of structured representations for accelerating scientific discovery and simulation, at Tsinghua University
+[2023/06] Learning structured representations for accelerating simulation and design, at School of Intelligence Science and Technology, Peking University
+[2023/05] Steps toward an AI scientist: neuro-symbolic models for concept generalization and theory learning, at Brown University Autonomous Empirical Research group.
+[2023/04] Learning Controllable Adaptive Simulation for Multi-resolution Physics, at Stanford Data for Sustainability Conference 2023
+slides
+[2023/04] AI for scientific design: Surrogate model + backpropagation method, at Swarma
+slides
+[2023/03] Learning Controllable Adaptive Simulation for Multi-resolution Physics, at TechBeat
+slides video
+[2023/02] ZeroC: A Neuro-Symbolic Model for Zero-shot Concept Recognition and Acquisition at Inference Time, at AI Time
+slides
+[2023/02] Graph Neural Networks for Large-scale Simulations, at Stanford HAI Climate-Centred Student Affinity Group
+slides
+[2022/12] Steps toward an AI scientist: neuro-symbolic models for zero-shot learning of concepts and theories, at BIGAI
+[2022/09] Learning to Accelerate Large-Scale Physical Simulations in Fluid and Plasma Physics, at SIAM 2022 Conference on Mathematics of Data Science
+[2022/06] Learning to accelerate simulation and inverse optimization of PDEs via latent global evolution, Stanford CS ML lunch
+[2021/12] Machine learning of physics theories, at Alan Turing Institute, Machine Learning and Dynamical Systems Seminar
+video
+[2021/10] Graph Information Bottleneck, at Beijing Academy of Artificial Intelligence (BAAI)
+[2021/06] Machine learning of physics theories and its universal tradeoff between accuracy and simplicity, at Workshop on Artificial Scientific Discovery 2021
+slides video
+[2021/04] Phase transitions on the tradeoff between prediction and compression in machine learning, Stanford CS ML lunch
+[2021/04] Machine Learning of Physics Theories, at Workshop on Artificial Scientific Discovery 2021, Summer school hosted by Max Planck Institute for the Science of Light
+slides video
+[2021/03] Learning to accelerate the simulation of PDEs, at CLARIPHY Topical Meetings
+video
+[2021/02] Phase transitions on the universal tradeoff between prediction and compression in machine learning, at Math Machine Learning seminar MPI MIS + UCLA
+video
+[2021/02] Machine Learning of Physics Theories, at Seminar Series of SJTU Institute of Science
+video
+[2020/10] Machine learning of physics theories and its universal tradeoff between accuracy and simplicity, at Los Alamos National Lab
+[2020/02] Phase transitions for the information bottleneck, UIUC
+News
+MIT Technology Review and MotherBoard featured our work Toward an AI Physicist for Unsupervised Learning.
+Best Poster Award at ICML Time Series Workshop
+Our paper Graph Information Bottleneck was featured in Synced AI Technology & Industry Review (机器之心).
+Our paper Toward an AI Physicist for Unsupervised Learning published at Physical Review E as part of a PRE Spotlight on Machine Learning in Physics.
+Organized “Deep Learning for Simulation” workshop in ICLR 2021
+Guest lecture at Caltech CS159, “AI Physicist and Machine Learning for Simulations”
+Invited talk at Lawrence Livermore National Laboratory (LLNL)’s DDPS seminar, “Learning to accelerate large-scale physical simulations”.
+I have been organizing a bi-weekly Reading Group on Simulation and Inverse Design, with >20 participants (Ph.Ds, postdocs, assistant professor) from CS, EE, ME, and Energy departments from Stanford, MIT, and Caltech. Each time we spend 1h discussing a relevant paper deeply (Thursday 4-5pm PT, Friday 7am Beijing time). Contact me if you want to participate!
+ICLR 2023 Spotlight for our paper “Learning Controllable Adaptive Simulation for Multi-resolution Physics”.
+AAAI 2024 oral for our paper “Uncertainty Quantification for Forward and Inverse Problems of PDEs via Latent Global Evolution”
+ICLR 2024 Spotlight for our paper “Compositional Generative Inverse Design”.
+MIT Technology Review:西湖大学吴泰霖：用 AI 助力科学仿真和发现，可控权衡预测精度和计算效率
+Co-organize NeurIPS 2024 Safe Generative AI Workshop
+Featured in 35 challenges in materials science being tackled by PIs under 35(ish) in 2024 in Matter by Cell Press
+实验室博士后魏龙，荣获2024年度西湖大学优秀博士后
+Our CL-DiffyCon paper is nominated Outstanding Youth Paper Award at China Embodied AI Conference (CEAI 2025)
+实验室博士后魏龙将加入复旦大学人工智能创新与产业研究院任助理教授
+We release BuildArena, where LLM agents design, build, and test rockets, cars, and bridges in a physics simulator! With BuildArena, AIs turn words into designs, blueprints, and finally, 3D mechanisms tested in real-time physics!
+西湖大学解锁 AI 新角色：基建工程师, 火箭桥梁都能造! 首次让语言驱动工程实现闭环 [DeepTech 深科技报道]
+Our lab has 7 papers accepted at ICLR! [X]
+BuildArena 2.0 Challenge is now open! Collaborate with Agents to build rockets that can circle the Earth! $1000 prize pool! [Challenge homepage][Kaggle][知乎]
+Announcing NeurIPS 2026 RealPDE Competition! $21000 prize pool, 2 tracks, compete and develop in the first NeurIPS Scientific ML competition centered on data from real physical systems!
+About Our Team
+The Journey is the Reward
+Join Us
+Home
+People
+Publications
+Blogs
+Talks
+News
+Course
+Opening
+Copyright ©
+by Tailin Wu Lab

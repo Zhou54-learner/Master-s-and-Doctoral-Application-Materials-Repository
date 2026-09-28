@@ -1,0 +1,105 @@
+Gu Lab @ Westlake University
+Gu
+Group: Theory & Computations
+Chemistry, Geometry, and Renormalization Group
+Westlake University
+Home
+Research
+Members
+Publications
+Events
+Gallery
+Resources
+Contact
+Previous
+Next
+Gu Lab · Westlake University
+We are interested in using light to probe and control electronic, optical, and chemical properties of matter, ranging from atoms and molecules to solids.
+Latest updates from the group
+Group news
+July 20, 2026
+In this work, using exact quantum geometric dynamics, we show that the S1/S2 crossing seam controls singlet fission in H4 and can completely block an open reaction channel when extended. Check it out!
+July 4, 2026
+Congratulations to Shuoyi Hu on her graduation! We wish her every success in her Ph.D. journey at the University of Wisconsin–Madison.
+June 24, 2026
+Welcome DU Yanrui coming to our group for summer intern!
+May 15, 2026
+In this work, we demonstrate the exponential convergence of our group's discrete variable local diabatic representation (LDR) method for nonadiabatic eigenvalue problems. Our results show that our LDR approach remains highly accurate and converges exponentially fast even for conical intersections where the traditional Born-Huang representation diverges, providing a robust, divergence-free framework for exact quantum dynamics simulations. Check it out!
+April 14, 2026
+Mo gave a presentation titled Coarse-Grained Geometric Quantum Dynamics in the Tensor Network Representation in the 35th CCS Congress.
+April 14, 2026
+Yujuan was awarded the Best Poster Award in The 35th CCS Congress. Congratulations!
+April 12, 2026
+Yujuan, Xiang, Xiaotong, Ruoxi and Junzhe made the poster presentations in Session 26: Quantum and Classical Dynamics in Chemistry in The 35th CCS Congress.
+April 12, 2026
+Shuoyi gave a presentation titled Pseudo-spectral ab initio Density Matrix Renormalization Group Self-Consistent Field in The 35th CCS Congress.
+April 11, 2026
+Bing was invited to give presentation titled Ab Initio Full Quantum Ultrafast Dynamics and Spectroscopy in The 35th CCS Congress.
+Dec 10, 2025
+In this work, we unveil the pivotal role of electronic quantum geometry—often neglected in previous studies—in governing both adiabatic and nonadiabatic topological quantum dynamics of molecular fiber bundles, and we show that the electronic overlap matrix alone encodes all essential geometric and topological effects including conical intersections. Check it out!
+Oct 16, 2025
+In this work, we develop the linked product approximation, a numerically efficient method to construct the global many-electron overlap matrix from products of nearest-neighbor overlaps, enabling accurate and nearly exact simulations of nonadiabatic conical intersection dynamics while drastically reducing computational cost. Check it out!
+Mar 20, 2025
+We recently welcomed Professor Yoshitaka Tanimura from Kyoto University...
+Mar 3, 2025
+Our perspective paper on exploiting quantum light-matter interaction for probing and controlling molecular events is now published in JPCL. We show how entangled photon pairs and chiral cavities can enhance spectroscopic signals and control chemical reactions.Check it out!
+Dec 26, 2024
+Welcome HU Shuoyi to the theory group!
+Dec 18, 2024
+Welcome LI Xiang to the theory group! He got his Ph.D. from the University of Science and Technology of China.
+Dec 13, 2024
+Bing is presenting our recent work on conical intersection dynamics at NYU Shanghai, Shanghai.
+Oct 21, 2024
+Welcome ZHANG Junzhe to join the theory group!
+Oct 16, 2024
+We developed a nonadiabatic conical intersection wave packet dynamics method in the local diabatic representation using Smolyak sparse grids.  Our results show that the sparse grid and direct product grid results are in good agreement, with the computational cost of the sparse grid being half that of the full grid. Check it out!
+Oct 14, 2024
+Bing is presenting our recent work on conical intersection dynamics at the 11th ISTCP at Qingdao, Shandong.
+Aug 6, 2024
+Bing gave a presentation titled Strongly Correlated Electron-Nuclear Dynamics at the Local Diabatic Representation International Workshop on Fundamentals and Frontiers in Complex System Dynamics.
+July 28, 2024
+Welcome LIU Hangyu from Zhejiang University coming to our group for summer intern!
+June 18, 2024
+Yujuan gave a presentation titled A Theoretical Study of Aromatic Ring Currents Induced by Chiral Vibrational Polaritons in The 34th CCS Congress. Check Events for more details!
+June 16, 2024
+Ruoxi was awarded the Best Poster Award in The 34th CCS Congress. Congratulations!
+June 16, 2024
+Xiaotong and Ruoxi made the poster presentations in Session 27: Quantum and Classical Dynamics in Chemistry in The 34th CCS Congress. Check Events for more details!
+June 15, 2024
+Bing was invited to give presentation titled Ab initio Conical Intersection Dynamics and Ultrafast Spectroscopy in The 34th CCS Congress. Check Events for more details!
+May 20, 2024
+In this JPCL, we generalized the TRK and Bethe sum rules for light-dressed matter.  An interesting conclusion is that the no matter how strong the drive is, the energy exchange rate between the probe laser and the materials is preserved. Check it out!
+May 12, 2024
+Ruoxi was awarded the Oral Presentation Prize at the COMP Virtual Asia-Pacific Graduate Student Symposium, ACS Spring 2024. Congratulations!
+Mar 28, 2024
+We suggested a better integration algorithm for the local diabatic representation method for the exact modeling of conical intersection dynamics. Check it out!
+Mar 21, 2024
+Yujuan and Ruoxi gave presentations in Virtual Graduate Students Symposium in Asia-Pacific Region on Computational Chemistry at ACS Spring 2024.
+Mar 18, 2024
+Bing gave a presentation titled Local diabatic representation of conical intersection dynamics in the Session Recent Progress in Theoretical Methods for Coupled Quantum Systems at ACS Spring 2024.
+Jan 28, 2024
+Bing was selected to join the first Eary Carrer Board of the Journal of Chemical Theory and Computation. Congratulations!
+Oct 19, 2023
+The time-convolutionless master equation is a powerful technique to model the non-Markovian dynamics of open quantum systems. In this arXiv, we introduce a diagrammatic representation of the time-local generator to arbitrary orders and also a non-perturbative method to approximate it by a nested time-ordered exponential.
+Oct 17, 2023
+A review of our recent work on exploiting strong light-matter coupling to manipulate molecular photophysics and spectroscopy is published in Acc. Chem. Res. Check it out!
+Sep 03, 2023
+Welcome ZHU Xiaotong to join the theory group!
+July 18, 2023
+Welcome ZHANG Junzhe from Zhejiang University and ZENG Yingrong from University College London coming to our group for summer intern.
+July 11, 2023
+Welcome CHEN Zihao from University of Science and Technology of China coming to our group for a visit.
+July 3, 2023
+Welcome YANG Yukun, XIE Yujuan and CHEN Duanrui to join the theory group.
+May 16, 2023
+Our paper on utilizing entangled light to improve the temporal and spectral resolution of time-resolved photoelectron spectroscopy has been published in PNAS. Check it out!
+Apr 11, 2023
+Our paper on a novel diabatic representation for conical intersection wave packet dynamics is in arXiv.
+It provides a framework to model nonadiabatic dynamics without the diverging nonadiabatic couplings. Check it out!
+Mar 14, 2023
+Welcome LIU Ruoxi to join the theory group.
+Mar 14, 2023
+Our paper on utilizing entangled light to improve the temporal and spectral resolution of time-resolved photoelectron spectroscopy is submitted to PNAS.
+Feb 14, 2023
+GU Bing starts independent academic career as a PI of Chemistry at School of Science, Westlake University.
+Website design: Ruoxi Liu © Copyright 2023 Gu Lab at Westlake University

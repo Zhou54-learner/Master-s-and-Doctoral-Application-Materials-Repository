@@ -1,0 +1,24 @@
+{
+  "source_url": "https://omal.lab.westlake.edu.cn/Team/Ph_D__Students/Xinbo_Mo_mxb.htm",
+  "checked_date": "2026-09-28",
+  "key": "S05_莫鑫波",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://omal.lab.westlake.edu.cn/Team/Ph_D__Students/Xinbo_Mo_mxb.htm",
+  "sha256": "9cc796241de9c8dd60eb15ed6c6067541f9181ac43226ddfd41af3fe4ae9ac97",
+  "bytes": 5683,
+  "links": [
+    "https://www.westlake.edu.cn/",
+    "../../index.htm",
+    "../../News.htm",
+    "../../Research.htm",
+    "../../Publications.htm",
+    "../../Team.htm",
+    "../../Gallery.htm",
+    "../../JoinUs.jsp?urltype=tree.TreeTempUrl&wbtreeid=1018",
+    "javascript:history.go(-1);",
+    "mailto:moxinbo@westlake.edu.cn",
+    "https://beian.miit.gov.cn/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

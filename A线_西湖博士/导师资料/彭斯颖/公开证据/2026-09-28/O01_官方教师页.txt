@@ -1,0 +1,19 @@
+Siying Peng, Ph.D. - Westlake University
+Siying Peng received her Ph.D. in physics from California Institute of Technology, advised by Professor Harry A. Atwater. She was a postdoctoral fellow at Stanford University in the Geballe Laboratory for Advanced Materials, advised by Professor Paul C. McIntyre. She joined the faculty at Westlake University, School of Engineering in 2021. Her research interests range from new materials for light-matter interactions at the nanoscale to topological phenomena with nanophotonic devices.
+2021
+Assistant professor, PI of School of Engineering of Westlake University
+2017
+Received Ph.D. in Physics from the California Institute of Technology
+GLAM Fellowship postdoctoral researcher at the Geballe Laboratory for Advanced Materials at Stanford University
+Silver Award of American Society for Materials Research Graduate Student
+2015
+John Stapp Memorial Award
+NKT Optical Communications Distinguished Doctoral Research Award
+2011
+Received B.S. in physics and mathematics from Texas A&M University
+Our research group focuses on exploring new material platforms for nanophotonics, including halide perovskites, mid-infrared and topological materials, with cryoelectron microscopy and spectroscopy techniques, emphasizing applications in AR/VR, quantum information sciences and health. The nanophotonic materials lab is seeking creative, highly motivated and team-oriented young scientists of all levels interested in developing an inter-disciplinary research program. The lab combines advanced microscopy methods with unconventional nanophotonic materials to explore new phenomena in the spatio-temporal domain, with potential applications in renewable energy, AR/VR and quantum information science.
+1. S. Peng, Y. Wang, M. Braun, Y. Yin, A. C. Meng, W. Tan, B. Saini, K. Severson, A. F. Marshall, K. Sytwu, J. D. Baniecki, J. Dionne, W. Cai, P. C. McIntyre, “Kinetics and Mechanism of Light-Induced Phase Separation in a Mixed Halide Perovskite”, Matter (2023)
+2. M. Li, P. Bai, C. Yan, S. Peng*, “Mid-infrared silicon metasurfaces for near-field enhancement of molecular fingerprints”, Opt. Lett. 48, 1502 (2023)
+3. N. Aihemaiti, Y. Jiang, Yi. Zhou, S. Peng*, “Light-Induced Phase Segregation Evolution of All-Inorganic Mixed Halide Perovskites”, J. Phys. Chem. Lett. 14, 267 (2023)
+4. S. Peng, N. J. Schilder, X. Ni, J. van de Groep, M. L. Brongersma, A. Alù, A.  Khanikaev, H. A. Atwater, A. Polman, “Probing the bandstructure of topological silicon photonic lattices in the visible”, Phys. Rev. Lett. 122, 117401 (2019)
+5. S. Peng, R. Zhang, V. H. Chen, E. T. Khabibouline, P. Braun, H. A. Atwater, “Three-dimensional single gyroid photonic crytals with a mid-infrared bandgap”, ACS Photonics 3, 1131 (2016)

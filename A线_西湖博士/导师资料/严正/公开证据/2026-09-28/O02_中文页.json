@@ -1,0 +1,28 @@
+{
+  "source_url": "https://www.westlake.edu.cn/faculty/zheng-yan.html",
+  "checked_date": "2026-09-28",
+  "key": "O02_中文页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://www.westlake.edu.cn/faculty/zheng-yan.html",
+  "sha256": "eeb4db1bee9c7d687a3e671c51f7b8fb3d33ed3a44d8ab3b69da931da6972618",
+  "bytes": 58124,
+  "links": [
+    "https://journals.aps.org/prl/abstract/10.1103/7j21-l3pg",
+    "https://journals.aps.org/prl/abstract/10.1103/tkx5-kzhh",
+    "https://www.nature.com/articles/s41467-025-67324-0",
+    "https://journals.aps.org/prl/abstract/10.1103/fg7f-zvtt",
+    "https://journals.aps.org/prxquantum/abstract/10.1103/pyzr-jmvw",
+    "https://www.nature.com/articles/s41467-025-61084-7",
+    "https://www.nature.com/articles/s41467-025-58058-0",
+    "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.206502",
+    "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.206501",
+    "https://www.nature.com/articles/s41467-023-37756-7",
+    "https://www.nature.com/articles/s41467-022-33431-5",
+    "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.010601",
+    "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.227201",
+    "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.165135",
+    "mailto:zhengyan@westlake.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

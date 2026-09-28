@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/lab_logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wenhao Lab @ Westlake" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Wenhao Lab @ Westlake</title>
+    <script type="module" crossorigin src="/assets/index-BjrujhZE.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Dph6wev6.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (() => {
+        if (window.busuanziRequestSent) return;
+        window.busuanziRequestSent = true;
+
+        const u = new URL('https://cdn.busuanzi.cc/');
+        fetch(u.protocol + '//' + u.host + '/api.php', {
+          method: 'POST',
+          body: JSON.stringify({
+            url: 'https://wangwenhaolab.com',
+            referrer: document.referrer,
+          }),
+        })
+          .then((r) => r.json())
+          .then((r) => {
+            for (const k in r) {
+              const value = k === 'busuanzi_site_pv' ? String(r[k]).padStart(8, '0') : r[k];
+              document.querySelectorAll('#' + k).forEach((e) => (e.innerText = value));
+            }
+          })
+          .catch((e) => console.error(e));
+      })();
+    </script>
+  </body>
+</html>

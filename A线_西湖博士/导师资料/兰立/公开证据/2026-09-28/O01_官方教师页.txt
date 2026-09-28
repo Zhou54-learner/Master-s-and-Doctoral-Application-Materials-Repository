@@ -1,0 +1,42 @@
+Lan Li, Ph.D. - Westlake University
+Lan Li obtained her B. S. degree from University of Science and Technology of China (2010) and Ph.D. degree from University of Delaware (2016), both in Materials Science and Engineering. Since then she has been the postdoctoral associate at the Massachusetts Institute of Technology. She was recognized with the Chinese Government Award for Outstanding Students Abroad (2015) and Norbert J. Kreidl Award for Young Scholars (2016) by American Ceramic Society Glass and Optical Materials Division. Dr. Li accepted the offer as an assistant professor in Westlake University and returned to China in early 2019. Her research interest focuses on nanophotonic materials and devices, infrared optical glass materials, integrated flexible photonic device fabrication, characterization and application.
+2022
+Excellent teacher Award in the city of Hangzhou
+2021
+The 2021 Faculty Award for Excellence in Services in the School of Engineering, Westlake University
+2020
+Innovative Leading Talent of Zhejiang Province
+2019
+Assistant Professor in the School of Engineering, Westlake University
+Postdoc Associate in Material Science & Engineering, Massachusetts Institute of Technology
+2016
+Norbert J. Kreidl Award for Young Scholars, awarded by the Glass & Optical Materials Division of the American Ceramic Society
+Ph.D. in Material Science & Engineering, University of Delaware
+2015
+The Chinese Government Award for Outstanding Students Abroad
+2010
+B.S. in Material Science & Engineering, University of Science & Technology of China
+Flexible integrated photonics is a new technology that has only started to burgeon in the past few years, which enables a wide cross-section of emerging applications ranging from flexible optical interconnects, broadband photonic tuning to conformal sensors on biological tissues.
+Dr. Li has pioneered a monolithic approach to realize flexible, high-index-contrast glass photonics with significantly improved processing throughput and yield. She also demonstrated flexible photonic devices with record optical performance and extreme mechanical robustness, which can sustain over thousands of bending or stretching cycles by adopting the developed mechanics theory accounting for multiple neutral axes. This theory can accurately predict the strain-optical coupling behavior within the laminated structures. She further proved that the developed technology can also offer a facile fabrication route for heterogeneous integration with active components as well as 3-D photonic devices such as vertically coupled micro-resonators, adiabatic inter-layer waveguide couplers and photonic crystal. Those multilayer devices are usually difficult to process using traditional methods. The related research work has been highlighted as one of the most exciting peer-reviewed optics research by the Optical Society of America ("Optics in 2014" special issue of OSA's Optics & Photonics News).
+Her future work will continue focusing on the technology development and the practical implementation of flexible integrated photonics. The research directions include but are not limited to the following:
+1. Photonic integration development with novel materials such as infrared optical glass materials, biocompatible oxides, polymer, 2D materials, semiconductor membrane, etc;
+2. Design, fabrication and testing of passive and active components with new functionalities;
+3. Investigation and application of flexible photonic chip in the field of wearable sensing, optical interconnect, and biotechnology.
+1. Y. Luo, C. Sun, M. Wei, H. Ma, Y. Wu, Z. Chen, H. Dai, J. Jian, B. Sun, C. Zhong, J. Li, K. Richardson, H. Lin, and L. Li, " Integrated Flexible Microscale Mechanical Sensors Based on Cascaded Free Spectral Range-Free Cavities," Nano Letters, doi.org/10.1021/acs.nanolett.3c02239 (2023).
+2. Z. Chen, Y. Shi, M. Wei, Y. Luo, H. Ma, R. Tang, Y. Weng, H. Dai, C. Zhong, C. Sun, L. Wang, K. Si, W. Gong, H. Lin, and L. Li, " A Universal Approach to High-Index-Contrast Flexible Integrated Photonics," Advanced Optical Materials, 11, 2202824 (2023).
+3. C. Sun, Z. Chen, Y. Ye, K. Lei, H. Ma, M. Wei, R. Tang, J. Wu, H. Lin, and L. Li, " Scalable On-Chip Microdisk Resonator Spectrometer," Laser & Photonics Reviews, 17, 2200792 (2023).
+4. C. Sun, Z. Chen, Y. Ye, Y. Weng, K. Lei, H. Ma, M. Wei, C. Zhong, H. Lin, and L. Li, " Integrated Microring Spectrometer with In-Hardware Compressed Sensing to Break the Resolution-Bandwidth Limit for General Continuous Spectrum Analysis," Laser & Photonics Reviews, 2300291 (2023).
+5. J. Wu, Y. Ye, J. Jian, X. Yao, J. Li, B. Tang, H. Ma, M. Wei, W. Li, H. Lin, and L. Li, " Reversible Thermally Driven Phase Change of Layered In2Se3 for Integrated Photonics," Nano Letters, 23, 6440−6448 (2023).
+6. R. Tang, Y. Shi, H. Shang, J. Wu, H. Ma, M. Wei, Y. Luo, Z. Chen, Y. Ye, J. Jian, X. Zheng, H. Lin, and L. Li, " Two-dimensional heterostructure quasi-BIC photonic crystal surface-emitting laser with low divergence," Nanophotonics, 12(16) , 3257–3265 (2023).
+7. J. Jian, J. Wu, C. Zhong, H. Ma, B. Sun, Y. Ye, Y. Luo, M. Wei, K. Lei, R. Liu, Z. Chen, G. Li, H. Dai, R. Tang, C. Sun, J. Li, W. Li, M. Li, H. Lin, and L. Li, " High-Speed Compact Plasmonic-PdSe2 Waveguide Integrated Photodetector," ACS Photonics, doi.org/10.1021/acsphotonics.3c00453 (2023).
+8. C. L. Sun, Z. Q. Chen, Y. X. Yin, Y. T. Ye, Y. Luo, H. Ma, J. L. Jian, Y. L. Shi, C. Y. Zhong, D. M. Zhang, H. T. Lin, and L. Li, "Broadband and High-Resolution Integrated Spectrometer Based on a Tunable FSR-Free Optical Filter Array," ACS Photonics 9, 2973-2980 (2022).
+9. C. Sun, Y. Yin, Z. Chen, Y. Ye, Y. Luo, H. Ma, L. Wang, M. Wei, J. Jian, R. Tang, H. Dai, J. Wu, J. Li, D. Zhang, H. Lin, and L. Li, "Tunable narrow-band single-channel add-drop integrated optical filter with ultrawide FSR," PhotoniX 3, 12 (2022).
+10. C. Sun, C. Zhong, M. Wei, H. Ma, Y. Luo, Z. Chen, R. Tang, J. Jian, H. Lin, and L. Li, "Free-spectral-range-free filters with ultrawide tunability across the S + C + L band," Photon. Res. 9, 1013-1018 (2021).
+11. L. Li*, H. Lin*, Y. Huang, R. J. Shiue,  J. Li, J. Michon , C. Smith, K. Richardson, D. Englund and J. Hu, " High-performance flexible waveguide-integrated photodetectors," Optica, 5, 44-51 (2018).
+12. L. Li*, H. Lin*, S. Qiao*, Y. Huang, J. Li, J. Michon, T. Gu, C. Ramos, L. Vivien, A.Yadav, K. Richardson, N. Lu and J. Hu, " Monolithic stretchable integrated photonics," Light: Sci. & Appl., 7, 17138 (2018).
+13. D. Li*,L. Li*, B. Jared, G. Keeler, B. Miller, M. Wood, C. Hains, W. Sweatt, S. Paap, M. Saavedra, C. Alford, J. Mudrick, U. Das, S. Hegedus, A. Tauke-Pedretti, J. Hu and T. Gu, “Wafer integrated micro-scale concentrating photovoltaics,”Prog. Photovolt: Res. Appl., 26, 651-658 (2018)
+14. L. Li*, H. Lin*, S. Qiao*, Y. Zou, S. Danto, K. Richardson, J. D. Musgraves, N. Lu, and J. Hu, " Integrated Flexible Chalcogenide Glass Photonic Devices," Nat. Photonics, 8 (8), 643-649 (2014).
+* These authors contributed equally
+Email:  lilan@westlake.edu.cn
+We are looking for creative and motivated Postdocs, Ph.D. Students, and Research Assistants. If you are interested in integrated photonics, nanofabrication technologies, flexible optoelectronic materials and devices, please do not hesitate to join us for an in-depth exploration of flexible photonic devices and their applications in communication, sensing, and biotechnology. Please feel free to contact us for more information.
+Please visit https://flip.lab.westlake.edu.cn/index.htm for more information.

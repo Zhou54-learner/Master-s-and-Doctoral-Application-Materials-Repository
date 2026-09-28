@@ -1,0 +1,21 @@
+{
+  "source_url": "https://lgglab.com/mingyang-yue",
+  "checked_date": "2026-09-28",
+  "key": "S07_mingyang-yue",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://lgglab.com/mingyang-yue/",
+  "sha256": "fb1ab9bf0f7fc65557596271f8f6143b02f80b5ff20a45ea23515439f6701e0d",
+  "bytes": 45720,
+  "links": [
+    "#content",
+    "https://lgglab.com/",
+    "https://lgglab.com/publications/",
+    "https://lgglab.com/research/",
+    "https://lgglab.com/people/",
+    "https://lgglab.com/album/",
+    "https://lgglab.com/job/",
+    "https://lgglab.com",
+    "https://liuguigeng.com"
+  ]
+}

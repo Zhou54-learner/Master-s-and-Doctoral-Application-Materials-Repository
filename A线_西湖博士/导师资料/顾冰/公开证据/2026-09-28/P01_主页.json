@@ -1,0 +1,12 @@
+{
+  "source_url": "https://gu.lab.westlake.edu.cn/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://gu.lab.westlake.edu.cn/",
+  "sha256": "7c1394889e0971fad2ea7fabd1abd1972fdf1958bbf10188a764af32ff1b6629",
+  "bytes": 1628,
+  "links": [],
+  "content_review": "失败/空壳/跳转，不能支持正文结论"
+}

@@ -1,0 +1,17 @@
+{
+  "source_url": "https://www.westlake.edu.cn/admissions/graduate/brochure/general/202608/t20260813_68957.html",
+  "checked_date": "2026-09-28",
+  "key": "O03_2027第一批",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://www.westlake.edu.cn/admissions/graduate/brochure/general/202608/t20260813_68957.html",
+  "sha256": "d5d7d5e371d4c74df7265ab87cfa6b1be7f87fb8a0973f36891fa63580ef4ebc",
+  "bytes": 70624,
+  "links": [
+    "https://www.westlake.edu.cn/admissions/graduate/brochure/recommended/202608/t20260803_68690.html",
+    "https://gradadmission.westlake.edu.cn/",
+    "http://www.westlake.edu.cn/",
+    "mailto:SFBM-students@westlake.edu.cn",
+    "http://www.gsao.fudan.edu.cn/"
+  ]
+}

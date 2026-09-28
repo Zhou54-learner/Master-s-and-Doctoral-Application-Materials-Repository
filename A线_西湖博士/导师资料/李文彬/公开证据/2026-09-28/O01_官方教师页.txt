@@ -1,0 +1,31 @@
+Wenbin Li, Ph.D. - Westlake University
+Wenbin Li received his bachelor’s degree from Zhejiang University (2008), master’s degree from the University of Pennsylvania (2011), and Ph.D. degree from the Massachusetts Institute of Technology (MIT, 2015), all in Materials Science and Engineering. From 2015 to 2017, he was a postdoctoral associate at the Research Laboratory of Electronics of MIT. He then spent two years at the University of Oxford as a Marie Curie Fellow. In 2019, he joined the School of Engineering at Westlake University as an Assistant Professor and is now the Principal Investigator of the Materials Modeling and Design Lab. He has received a number of awards, including the R&D 100 Award (team member, 2016), the Marie Skłodowska-Curie Individual Fellowship (2017), the Junior Research Fellowship of Wolfson College at the University of Oxford (2017), and the Excellence in Teaching Award from the School of Engineering at Westlake University (2022).
+2025
+Associate Professor, School of Engineering, Westlake University
+2019
+Assistant Professor, School of Engineering, Westlake University
+2017
+Marie Skłodowska-Curie Fellow, University of Oxford
+2015
+Postdoctoral Associate, Research Laboratory of Electronics, MIT
+Ph.D., Materials Science and Engineering, MIT
+2011
+M.S., Materials Science and Engineering, University of Pennsylvania
+2008
+B.E., Materials Science and Engineering, Zhejiang University, China
+The research of our group focuses on the fundamental understanding and design of advanced functional materials using computational and data-driven approaches. By employing quantum mechanical calculations, atomistic simulations, and machine learning, we aim to provide fundamental insights into structure-property relationships in complex functional materials, as well as accelerate the discovery of new materials through computational and machine learning-assisted design.
+Our main research interests include:
+(1) Electron-phonon interactions in complex electronic materials
+(2) Modeling and design of advanced semiconductors
+(3) Machine learning for accelerated materials design
+1. J. Hu, W. Li*, Z. Guo, H. Wang*, K. Chang, Quantum Geometry in Phonon-Mediated Optical Responses, Physical Review Letters, 135, 256404 (2025)
+2. J. Huang, S. Zhao, J. Gao, R. Xiang, W. Li*, An Atlas of Chirality-Dependent Electronic Structures of MoS2 Nanotubes from Deep Learning, ACS Nano, doi: 10.1021/acsnano.5c14194 (2025)
+3. Z. Zhu#, J. Hu#, Y. Yuan, H. Wang, X. Lin, and W. Li*, Giant Polarizability and Origin of Ferroelectricity in Layered Materials with a Litharge-Type Structural Unit, Nano Letters, 25, 4093 (2025)
+4. J. Wang#, Z. Liu#, S. Zhao#, Y. Zhang, T. Xu*, S. Z. Li*, and W. Li*, Aggregation Rules of Short Peptides, JACS Au, 4, 3567-3580 (2024)
+5. X. Yao, Y. Xun, Z. Zhu, S. Zhao, and W. Li*, Origin of the High Electrical Conductivity of the Delafossite Metal PdCoO2, Physical Review B 109, 075110 (2024)
+6. S. Zhao, C. Yang, Z. Zhu, X. Yao, and W. Li*, Curvature-Controlled Band Alignment Transition in 1D van der Waals Heterostructures, npj Computational Materials, 9, 92 (2023)
+7. T. Xu#, J. Wang#, S. Zhao#, D. Chen#, H. Zhang, Y. Fang, N. Kong, Z. Zhou, W. Li*, and H. Wang*, Accelerating the Prediction and Discovery of Peptide Hydrogels with Human-in-the-Loop, Nature Communications, 14, 3880 (2023)
+8. J. Wang#, Z. Liu#, S. Zhao#, T. Xu#, H. Wang*, S. Z. Li*, and W. Li*, Deep Learning Empowers the Discovery of Self-Assembling Peptides with Over 10 Trillion Sequences, Advanced Science, 2301544 (2023)
+9. Z. Zhu, X. Yao, S. Zhao, X. Lin, and W. Li*, Giant Modulation of the Electron Mobility in Semiconductor Bi2O2Se via Incipient Ferroelectric Phase Transition, Journal of the American Chemical Society, 144, 4541-4549 (2022)
+10. W. Li*, X. Qian, and J. Li*, Phase Transitions in 2D Materials, Nature Reviews Materials, 6, 829-846 (2021)
+Google Scholar Homepage: https://scholar.google.com/citations?hl=en&user=rZ7mgIUAAAAJ

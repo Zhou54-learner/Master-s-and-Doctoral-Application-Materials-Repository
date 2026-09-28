@@ -1,0 +1,120 @@
+Liu Theory Group wiki
+Skip to content
+Liu Theory Group wiki
+Home
+Initializing search
+LiuTheoryLab/group_wiki
+Home
+Tutorials
+New Members
+Contributing
+Liu Theory Group wiki
+LiuTheoryLab/group_wiki
+Home
+Home
+Table of contents
+Research Snapshots
+Tutorials
+Tutorials
+Molecular Dynamics and Analysis
+Molecular Dynamics and Analysis
+MD piezoelectric tensor
+Simulation of THz-driven processes using LAMMPS
+Finite-temperature force constants
+Train an MLP
+FourPhonon
+Diffuse scattering pattern
+LAMMPS dynamic BEC
+Dislocation motion
+Calculating shear stress-strain curves and slip energy barriers
+CP2K polaron dynamics
+Simulation of frequency-dependent dielectric spectra
+Simulation of dipole spirals in stretched PTO membranes
+DFT and Electronic Structure
+DFT and Electronic Structure
+Spin Hall effect
+Anomalous Hall effect
+VASP PDOS and fatband
+PASP four states
+DeepH
+DeepKS
+Phonon spectrum calculations
+CP2K polaron structure
+Structural optimization and band structure calculations using PWmat
+Wien2k
+Ferroelectrics and Polarization
+Ferroelectrics and Polarization
+Depolarization effect
+Polarization branch
+Analysis of local polarization in (111)-oriented PTO thin films
+Oxygen displacement
+Dipole-dipole spatial correlation
+rPEM and LGD
+Archive
+Archive
+AIRSS
+AIRSS convex hull
+Auto subjob
+CASTEP
+Calypso
+Doped vacancy generation
+Endnote
+OriginLab
+QE
+VASP
+New Members
+New Members
+HPC manual
+Books
+Useful Website
+Contributing
+Contributing
+How to contribute
+How to write
+Template
+Table of contents
+Research Snapshots
+Multiscale Materials Modeling Laboratory
+This wiki is the working notebook of Liu Theory Lab at Westlake University.
+It collects the things that help in day-to-day research: tutorials, install
+notes, HPC tips, analysis workflows, and the small pieces of group knowledge
+that would otherwise disappear into chat history.
+The public website tells the external story of the lab. This site is for the
+hands-on part: how we run calculations, reproduce results, and get new people
+moving without too much friction.
+Browse Tutorials
+New Members
+Contributing Guide
+Visit Group Website
+Research Snapshots¶
+A small set of tutorials that map directly onto recent papers from the group.
+Each one is meant to help you reproduce a concrete workflow rather than just
+browse a topic at a high level.
+Implementing Dynamic BEC Simulations in LAMMPS
+Learn how displacement-dependent Born effective charges can be fitted and
+embedded into LAMMPS to simulate field-driven sliding ferroelectrics with
+machine-learned force fields.
+Related paper: Phys. Rev. Lett. 135, 046201
+(2025). Editors' Suggestion.
+Open tutorial
+Persistent Embryo Method and Landau-Ginzburg-Devonshire Model for Domain Nucleation
+Follow the revised persistent embryo method and LGD analysis used to
+identify critical nuclei and switching behavior in ferroelectric hafnia.
+Related paper: Phys. Rev. X 15, 021042 (2025).
+Open tutorial
+Calculating the Full Piezoelectric Tensor at Finite Temperature using MD
+Compute the full finite-temperature piezoelectric tensor from molecular
+dynamics by combining strain, stress, and polarization analysis into one
+reproducible workflow.
+Related paper: Phys. Rev. Lett. 136, 016801
+(2026).
+Open tutorial
+This site works best when notes stay close to the work. If something only exists
+in a shell history, a chat thread, or somebody's Downloads folder, it is
+probably worth turning into a page here.
+Contribute a Page
+Back to top
+Next
+Overview
+Made with
+Material for MkDocs
