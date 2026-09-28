@@ -1,0 +1,52 @@
+Hanqing Jiang, Ph.D. - Westlake University
+Hanqing Jiang was born in 1975 in Wuyi, Hebei, Fellow of American Society of Mechanical Engineers (ASME), the 2021 recipient of the Worcester Reed Warner Medal from ASME, and the 2009 recipient of National Science Foundation (NSF) CAREER Award. Received bachelor degree in engineering mechanics from Dalian University of Technology in 1996, and doctoral degree in solid mechanics from Tsinghua University in 2001. Jiang was a postdoctoral research associate in the University of Illinois at Urbana-Champaign from 2001 to 2006. Jiang taught at Arizona State University from 2006 to 2021 (2006-2011, Assistant Professor; 2011-2016, Associate Professor; 2016-2021, Professor). Jiang joined Westlake University as Chair Professor of Mechanical Engineering in 2021 .
+2021
+ASME Worcester Reed Warner Medal
+2019
+Member, ASU Chapter, National Academy of Inventors
+2016
+Fellow, The American Society of Mechanical Engineers
+Professor, Arizona State University
+2014
+Faculty Achievement Award (Best Innovation), Arizona State University
+2011
+Associate Professor,Arizona State University
+2009
+NSF CAREER Award
+2006
+Assistant Professor, Arizona State University
+2005
+Research Scientist,University of Illinois
+2003
+National Excellent Doctoral Dissertation Award, China
+2001
+Postdoctoral Research Associate,University of Illinois
+1996
+Ph.D., Tsinghua University
+1992
+B.E., Dalian University of Technology
+Professor Hanqing Jiang is an internationally renowned researcher in solid mechanics. He has conducted cutting-edge research in interdisciplinary topics by bridging materials, mechanics, and multiphysics interactions, including robotics, flexible electronics, lithium-metal batteries, origami, and mechanical metamaterials. He initiated several research topics and led the studies in these areas, such as origami and kirigami-based mechanical metamaterials and flexible electronics, and stress-driven lithium dendrite growth and mitigation using soft materials. Jiang was honored to receive the 2021 Worcester Reed Warner Medal from ASME “for seminal contributions through a series of papers on post-buckling behavior of stiff thin films on soft substrates under large deformation, and its new applications in diverse areas.” He has led more than 30 research projects funded by National Science Foundation and other funding agencies in the US with total grant over $5 M. Jiang has published more than 150 archived papers in leading journals, such as Science, Nature Energy, Nature Nanotechnology, Nature Communications, and PNAS, with total citation more than 20,000 and h-index 71. He has 36 patents issued by the US and other countries.
+Jiang was elected as the Fellow of American Society of Mechanical Engineers in 2016. He was the president of the Society of Engineering Science in 2022. He serves as a member of the Executive Committee of the Materials Division of ASME (chair in 2025). Jiang is the editor and in the editorial board in multiple journals, such as in Extreme Mechanics Letters, and Research (AAAS/Science Partner Journal).
+1. Xiaowen Li, Lige Chang, Yajun Cao, Junqiang Lu, Xiaoli Lu, and H. Jiang*, 2023, Physics Supervised Deep Learning-based Optimization (PSDLO) with Accuracy and Efficiency, Proceedings of the National Academy of Sciences of the United States of America, DOI: 10.1073/pnas.2309062120.
+2. C. Zhang, Z. Zhang, Y. Peng, Y. Zhang, S. An, Y. Wang, Z. Zhai, Y. Xu*, and H. Jiang*, 2023, Plug & Play Origami Modules with All-Purpose Deformation Modes, Nature Communications, DOI: 10.1038/s41467-023-39980-7.
+3. Z. Zhang, Z. Xu, L. Emu, P. Wei, S. Chen, Z. Zhai, L. Kong, Y. Wang, and H. Jiang*, 2023, Active Mechanical Haptics with High-Fidelity Perceptions for Immersive Virtual Reality, Nature Machine Intelligence, DOI: 10.1038/s42256-023-00671-z.
+4. Z. Zhang, Y. Long, G. Chen, Q. Wu, H. Wang*, and H. Jiang*, 2023, Soft and Lightweight Fabric Enables Powerful and High-Range Pneumatic Actuation, Science Advances, DOI: 10.1126/sciadv.adg1203.
+5. Z. Huang, S. Huang, J. Li, Y. Wang*, and H. Jiang*, 2023, Extracting Conservative Equations from Nonconservative State Data, Journal of the Mechanics and Physics of Solids, DOI: 10.1016/j.jmps.2022.105127.
+6. C. Liang, Z. Yang, and H. Jiang*, 2022, A film-lever actuated switch technology for multifunctional, on-demand, and robust manipulation of liquids, Nature Communications, DOI: 10.1038/s41467-022-32676-4.
+7. Z. Huang, C. Li, Z. Huang, Y. Wang*, and H. Jiang*, 2021, AI-Timoshenko: Automatedly Discovering Simplified Governing Equations for Applied Mechanics Problems from Simulated Data, Journal of Applied Mechanics, 88, 101006.
+8. Z. Zhai, Y. Wang, K. Lin, L. Wu, H. Jiang*, 2020, In Situ Stiffness Manipulation Using Elegant Curved Origami, Science Advances, 6, doi.org/10.1126/sciadv.abe2000.
+9. Z. Huang, Y. Tian, C. Li, G. Lin, L. Wu, Y. Wang*, H. Jiang*, 2020, Data-Driven Automated Discovery of Variational Laws Hidden in Physical Systems, Journal of the Mechanics and Physics of Solids, 137, 103871.
+10. X. Wang, Z. Zhai, Y. Chen, and H. Jiang*, 2018, A Robust and Versatile Finite Element Implementation to Study the Time-Dependent Behaviors of Responsive Gels, Extreme Mechanics Letters, 22, 89-97.
+11. X. Wang, W. Zeng, L. Hong, W. Xu, H. Yang, H. Duan*, M. Tang*, and H. Jiang*, 2018, Stress-driven lithium dendrite growth mechanism and dendrite mitigation by electroplating on soft substrates, Nature Energy, 3, 227-235.
+12. Z. Zhai, Y. Wang, and H. Jiang*, 2018, Origami-inspired, on-demand deployable and collapsible mechanical metamaterials with tunable stiffness, Proceedings of the National Academy of Sciences of the United States of America, 115 (9) 2032-2037.
+13. W. Xu, H. Yang, W. Zeng, T. Houghton, X. Wang, R. Murthy, H. Kim, Y. Lin, M. Mignolet, H. Duan, H. Yu, M. Slepian, and H. Jiang*, 2017, Food-Based Edible and Nutritive Electronics, Advanced Materials Technologies, 1700181, DOI: 10.1002/admt.201700181
+14. Z. Song, X. Wang, C. Lv, Y. An, M. Liang, T. Ma, D. He, Y.-J. Zheng, S.-Q. Huang, H. Yu, and H. Jiang*, 2015, Kirigami-based Stretchable Lithium-Ion Batteries, Scientific Reports, DOI: 10.1038/srep10988.
+15. Z. Song, T. Ma, R. Tang, Q. Cheng, X. Wang, D. Krishnaraju, R. Panat, C. K. Chan, H. Yu, and H. Jiang*, 2014, Origami Lithium-ion Batteries, Nature Communications, 5:3140 doi: 10.1038/ncomms4140.
+16. C. Lv, D. Krishnaraju, G. Konjevod, H. Yu, and H. Jiang*, 2014, Origami based Mechanical Metamaterials, Scientific Reports, 4:5979 doi: 10.1038/srep05979.
+17. C. Yu, X. Li, T. Ma, J. Rong, R. Zhang, J. Shaffer, Y. An, Q. Liu, B. Q. Wei*, and H. Jiang*, 2012, Silicon Thin Films As Anodes For High Performance Lithium Ion Batteries With Effective Stress Relaxation, Advanced Energy Materials, 2, 68-73.
+18. C. Yu, C. Masarapu, J. P. Rong, B. Q. Wei*, H. Jiang*, 2009, Stretchable supercapacitors based on Buckled Single-Walled Carbon Nanotube Macro-Films, Advanced Materials, 21, 4793-4797.
+19. H. Jiang, D.-Y. Khang, J. Song, Y. Sun, Y. Huang*, and J. A. Rogers*, 2007, Finite Deformation Mechanics in Buckled Thin Films on Compliant Supports, Proceedings of the National Academy of Sciences of the United States of America, 104, 15607-15612.
+20. D.-Y. Khang, H. Jiang, Y. Huang, and J. A. Rogers*, 2006, A Stretchable Form of Single Crystal Silicon for High-Performance Electronics on Rubber Substrates, Science, 311, 208-212.
+Email: jianghanqing@westlake.edu.cn
+We have several open positions for postdocs, graduate students and research assistants. Our lab is committed to training the next generation of scientists. We endeavor to provide an innovative, rigorous, and collegial research environment for our trainees, and offer continuous support for the career growth of young scientists.
+Please visit https://jiang.lab.westlake.edu.cn/ for more information.

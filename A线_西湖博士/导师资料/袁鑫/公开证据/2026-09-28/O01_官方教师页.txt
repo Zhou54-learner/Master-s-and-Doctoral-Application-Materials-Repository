@@ -1,0 +1,109 @@
+Xin Yuan, Ph.D. - Westlake University
+Dr. Xin Yuan received his B.Eng. and M.Eng. degrees from Xidian University, in 2007 and 2009, respectively, and his Ph.D. degree from The Hong Kong Polytechnic University in 2012. From 2012 to 2015, he had been a Postdoctoral Associate with the Department of Electrical and Computer Engineering, Duke University, where he was working on compressive sensing and machine learning. From 2015 to 2021, he was a Video Analysis and Coding Lead Researcher at Bell Labs, Murray Hill, NJ 07974, USA. He had received several best paper awards in international conferences. He has been the Associate Editor of Pattern Recognition since 2019. He is the leading guest editor of the special issue of “Deep Learning for High Dimensional Sensing” in the IEEE Journal of Selective Topics in Signal Processing (2021). Dr. Yuan Joined the Westlake University in 2021 as an Associate Professor in School of Engineering.
+2023
+Computational Imaging Conference 2023，Sydney，Australia
+JSAP-Optica Joint Symposia 2023 Invited Talk，Kumamoto, Japan
+Silver Prize in the Start-up Group at the 12th Innovation and Entrepreneurship Contest Zhejiang Provincial Finals
+Second Prize in the “Maker in China” SME Innovation and Entrepreneurship Global Contest (“SME IEGC”)  in the Start-up Group
+2022
+Distinguished Young Scholar of Zhejiang Province
+13th International Conference on Information Optics and Photonics (Keynote talk)
+2021 Ten Major Advances in Optics in China (invited talk)
+2021
+Associate Professor, School of Engineering, Westlake University
+National Excellent Young Scholar (overseas program)
+High-level talent in Zhejiang Province
+2021 International Conference on Optical Instrument and Technology (Plenary talk)
+2015
+Video Analysis and Coding Lead Researcher at Bell Labs Murray Hill, NJ 07974, USA
+2012
+Postdoctoral Fellow, Duke University, NC, USA
+2012
+Ph.D. degree，Hong Kong Polytechnic University
+2009
+Master degree, National Key Laboratory of Radar Signal Processing，Xidian University
+2007
+Bachelor degree，Xidian University
+Dr. Xin Yuan has been working on computational imaging since 2012, which includes the hardware system design (usually using optics, please refer to papers published in CVPR, ICCV, ECCV, Optica, Optics Letters, Optics Express and APL Photonics), algorithm development including optimization-based algorithms (please refer to papers published in IEEE T-PAMI, T-IP, T-SP and IJCV) and deep-learning-based algorithms (please refer to papers published in CVPR, ICCV and ECCV). Furthermore, Dr. Yuan works with colleagues on the theoretical derivation of computational imaging systems (please refer to papers published in IEEE T-IT). Dr. Yuan also works on machine learning models for other data analysis (please refer to papers published in ICML, NeurIPS and AISTATS).
+Currently, Dr. Yuan is working on the Snapshot Compressive Imaging (refer to the review paper published in IEEE Signal Processing Magazine entitled “Snapshot Compressive Imaging: Theory, Algorithms and Applications” doi: 10.1109/MSP.2020.3023869), also known as the SCI. SCI uses a two-dimensional (2D) detector to capture high-dimensional (HD, i.e., 3D or larger) data in a snapshot measurement. Via novel optical designs, the 2D detector samples the HD data in a compressive manner; following this, algorithms are employed to reconstruct the desired HD data-cube. SCI has been used in hyperspectral imaging, video, holography, tomography, focal depth imaging, polarization imaging, microscopy, etc. Though the hardware has been investigated for more than a decade, the theoretical guarantees have only recently been derived in 2019. Inspired by deep learning, various deep neural networks have also been developed to reconstruct the HD data-cube in spectral SCI and video SCI. Dr. Yuan and his collaborators are leading the state-of-the-art SCI reconstruction algorithms, both in optimization (T-PAMI) and deep learning (CVPR, ECCV and ICCV).
+1. Z. Chen, Y. Zhang, D. Liu, B. Xia, J. Gu, L. Kong, and X. Yuan, “Hierarchical Integration  Diffusion Model for Realistic Image Deblurring,” NeurIPS, Spotlight, 2023.
+2. Y. Cai, Y. Zheng, J. Lin， H. Wang, X. Yuan and Y. Zhang, “Binarized Spectral Compressive  Imaging,” NeurIPS, 2023.
+3. X. Su, Y. Hong, J. Ye, F. Xu and X. Yuan, “Multi-scale Model-guided Iterative Method  for NLOS Reconstruction,” Pacific Graphics, 2023.
+4. P. Wang and X. Yuan, “SAUNet: Spatial-Attention Unfolding Network for Image Compressive Sensing,” ACM Multimedia, 2023.
+5. P. Wang, L. Wang and X. Yuan, “Deep Optics for Video Snapshot Compressive Imaging,”  IEEE/CVF International Conference on Computer Vision(ICCV), 2023.
+6. S. Zheng and X. Yuan, “Unfolding Framework with Prior of Convolution-Transformer Mixture and Uncertainty Estimation for Video Snapshot Compressive Imaging,” IEEE/CVF  International Conference on Computer Vision(ICCV), 2023.
+7. Zhang, W., Suo, J., Dong, K., Li, L., Yuan, X., Pei, C., & Dai, Q. (2023). Handheld snapshot multi-spectral camera at tens-of-megapixel resolution. Nature Communications, 14(1), 5043.
+8. Xu, P., Liu, L., Zheng, H., Yuan, X., Xu, C., & Xue, L. (2023). Degradation-aware Dynamic Fourier-based Network For Spectral Compressive Imaging. IEEE Transactions on Multimedia.
+9. Meng, Z., Yuan, X., & Jalali, S. (2023). Deep Unfolding for Snapshot Compressive Imaging. International Journal of Computer Vision, 1-26.
+10. Zhao, Y., Zheng, S., & Yuan, X. (2023, June). Deep Equilibrium Models for Snapshot Compressive Imaging. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 37, No. 3, pp. 3642-3650).
+11. Zha, Z., Wen, B., Yuan, X., Zhang, J., Zhou, J., Lu, Y., & Zhu, C. (2023). Non-Local Structured Sparsity Regularization Modeling for Hyperspectral Image Denoising. IEEE Transactions on Geoscience and Remote Sensing.
+12. Luo, T., Wang, L., & Yuan, X. (2023). Grating-based coded aperture compressive spectral imaging to reconstruct over 190 spectral bands from a snapshot measurement. Journal of Physics D: Applied Physics, 56(25), 254004.
+13. Huang, T., Yuan, X., Dong, W., Wu, J., & Shi, G. (2023). Deep Gaussian Scale Mixture Prior for Image Reconstruction. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+14. Xue, Y., Su, X., Zhang, S., & Yuan, X. (2023). Optical implementation and robustness validation for multi-scale masked autoencoder. APL Photonics, 8(4).
+15. Wu, Z., Yang, C., Su, X., & Yuan, X. (2023). Adaptive deep pnp algorithm for video snapshot compressive imaging. International Journal of Computer Vision, 1-18.
+16. Zha, Z., Wen, B., Yuan, X., Zhang, J., Zhou, J., Jiang, X., & Zhu, C. (2023). Multiple complementary priors for multispectral image compressive sensing reconstruction. IEEE Transactions on Cybernetics.
+17. Xu, Q., Shi, Y., Yuan, X., & Zhu, X. X. (2023). Universal Domain Adaptation for Remote Sensing Image Scene Classification. IEEE Transactions on Geoscience and Remote Sensing, 61, 1-15.
+18. Zha, Z., Wen, B., Yuan, X., Ravishankar, S., Zhou, J., & Zhu, C. (2023). Learning nonlocal sparse and low-rank models for image compressive sensing: Nonlocal sparse and low-rank modeling. IEEE Signal Processing Magazine, 40(1), 32-44.
+19. Wang, L., Cao, M., & Yuan, X. (2023). Efficientsci: Densely connected network with space-time factorization for large-scale video snapshot compressive imaging. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 18477-18486).
+20. Qiao, M., & Yuan, X. (2023). Coded aperture compressive temporal imaging using complementary codes and untrained neural networks for high-quality reconstruction. Optics Letters, 48(1), 109-112.
+21. Yu, Z., Liu, D., Cheng, L., Meng, Z., Zhao, Z., Yuan, X., & Xu, K. (2022). Deep learning enabled reflective coded aperture snapshot spectral imaging. Optics Express, 30(26), 46822-46837.
+22. Zhang, Z., Zhang, B., Yuan, X., Zheng, S., Su, X., Suo, J., ... & Dai, Q. (2022). From compressive sampling to compressive tasking: Retrieving semantics in compressed domain with low bandwidth. PhotoniX, 3(1), 1-22.
+23. Chen, Z., Zhang, Y., Gu, J., Kong, L., & Yuan, X. (2022). Cross Aggregation Transformer for Image Restoration. Advances in Neural Information Processing Systems, 35, 25478-25490.
+24. Wang, J., Zhang, Y., Yuan, X., Meng, Z., & Tao, Z. (2022, October). Modeling mask uncertainty in hyperspectral image reconstruction. In European Conference on Computer Vision (pp. 112-129). Cham: Springer Nature Switzerland.
+25. Yang, C., Zhang, S., & Yuan, X. (2022, October). Ensemble learning priors driven deep unfolding for scalable video snapshot compressive imaging. In European Conference on Computer Vision (pp. 600-618). Cham: Springer Nature Switzerland.
+26. Zhang, J., Zhang, Y., Gu, J., Zhang, Y., Kong, L., & Yuan, X. (2022, September). Accurate Image Restoration with Attention Retractable Transformer. In The Eleventh International Conference on Learning Representations.
+27. Cheng, S., Zhang, Y., Li, X., Yang, L., Yuan, X., & Li, S. Z. (2022). Roadmap toward the metaverse: An AI perspective. The Innovation, 3(5).
+28. Wang, L., Cao, M., Zhong, Y., & Yuan, X. (2022). Spatial-temporal transformer for video snapshot compressive imaging. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+29. Wang, L., Wu, Z., Zhong, Y., & Yuan, X. (2022). Snapshot spectral compressive imaging reconstruction using convolution and contextual transformer. Photonics Research, 10(8), 1848-1858.
+30. Xu, Q., Ouyang, C., Jiang, T., Yuan, X., Fan, X., & Cheng, D. (2022). MFFENet and ADANet: a robust deep transfer learning method and its application in high precision and fast cross-scene recognition of earthquake-induced landslides. Landslides, 19(7), 1617-1647.
+31. Chen, Z., Zheng, S., Tong, Z., & Yuan, X. (2022). Physics-driven deep learning enables temporal compressive coherent diffraction imaging. Optica, 9(6), 677-680.
+32. Cai, Y., Lin, J., Wang, H., Yuan, X., Ding, H., Zhang, Y., Timofte, R. & Gool, L. V. (2022). Degradation-aware unfolding half-shuffle transformer for spectral compressive imaging. Advances in Neural Information Processing Systems, 35, 37749-37761.
+33. Zhang, B., Yuan, X., Deng, C., Zhang, Z., Suo, J., & Dai, Q. (2022). End-to-end snapshot compressed super-resolution imaging with deep optics. Optica, 9(4), 451-454.
+34. Cheng, Z., Chen, B., Lu, R., Wang, Z., Zhang, H., Meng, Z., & Yuan, X. (2022). Recurrent neural networks for snapshot compressive imaging. IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(2), 2264-2281.
+35. Cai, Y., Lin, J., Hu, X., Wang, H., Yuan, X., Zhang, Y., ... & Van Gool, L. (2022, October). Coarse-to-fine sparse transformer for hyperspectral image reconstruction. In European Conference on Computer Vision (pp. 686-704). Cham: Springer Nature Switzerland.
+36. Hu, X., Cai, Y., Lin, J., Wang, H., Yuan, X., Zhang, Y., Timofte R. & Van Gool, L. (2022). Hdnet: High-resolution dual-domain learning for spectral compressive imaging. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 17542-17551).
+37. Zha, Z., Wen, B., Yuan, X., Zhou, J., Zhu, C., & Kot, A. C. (2022). Low-rankness guided group sparse representation for image restoration. IEEE Transactions on Neural Networks and Learning Systems.
+38. Yuan, X. #, Liu, Y., Suo, J., Durand, F., & Dai, Q. (2021). Plug-and-play algorithms for video snapshot compressive imaging. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(10), 7093-7111.
+39. Lu, R., Chen, B., Liu, G., Cheng, Z., Qiao, M., & Yuan, X.  (2021). Dual-view snapshot compressive imaging via optical flow aided recurrent neural network. International Journal of Computer Vision, 129, 3279-3298.
+40. Meng, Z., Yu, Z., Xu, K., & Yuan, X.  (2021). Self-supervised neural networks for spectral snapshot compressive imaging. In Proceedings of the IEEE/CVF international conference on computer vision (pp. 2622-2631).
+41. Li, X., Suo, J., Zhang, W., Yuan, X., & Dai, Q. (2021). Universal and flexible optical aberration correction using deep-prior based deconvolution. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 2613-2621).
+42. Qiao, M., Sun, Y., Ma, J., Meng, Z., Liu, X., & Yuan, X.  (2021). Snapshot coherence tomographic imaging. IEEE Transactions on Computational Imaging, 7, 624-637.
+43. Zha, Z., Wen, B., Yuan, X., Zhou, J. T., Zhou, J., & Zhu, C. (2021). Triply complementary priors for image restoration. IEEE Transactions on Image Processing, 30, 5819-5834.
+44. Zha, Z., Yuan, X., Wen, B., Zhang, J., & Zhu, C. (2021). Nonconvex structural sparsity residual constraint for image restoration. IEEE Transactions on Cybernetics, 52(11), 12440-12453.
+45. Zheng, S., Wang, C., Yuan, X., & Xin, H. L.* (2021). Super-compression of large electron microscopy time series by deep compressive sensing learning. Patterns, 2(7).
+46. Yuan, X., & Han, S. (2021). Single-pixel neutron imaging with artificial intelligence: Breaking the barrier in multi-parameter imaging, sensitivity, and spatial resolution. The Innovation, 2(2).
+47. Cheng, Z., Chen, B., Liu, G., Zhang, H., Lu, R., Wang, Z., & Yuan, X.* (2021). Memory-efficient network for large-scale video compressive sensing. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 16246-16255).
+48. Wang, Z., Zhang, H., Cheng, Z., Chen, B.*, & Yuan, X.  (2021). Metasci: Scalable and adaptive reconstruction for video compressive sensing. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 2083-2092).
+49. Huang, T., Dong, W., Yuan, X., Wu, J., & Shi, G. (2021). Deep gaussian scale mixture prior for spectral compressive imaging. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 16216-16225).
+50. Zha, Z., Yuan, X., Wen, B., Zhang, J., & Zhu, C. (2021). Nonconvex structural sparsity residual constraint for image restoration. IEEE Transactions on Cybernetics, 52(11), 12440-12453.
+51. Qiao, M., Liu, X., & Yuan, X.  (2021). Snapshot temporal compressive microscopy using an iterative algorithm with untrained neural networks. Optics Letters, 46(8), 1888-1891.
+52. Yuan, X., Brady, D. J., & Katsaggelos, A. K. (2021). Snapshot compressive imaging: Theory, algorithms, and applications. IEEE Signal Processing Magazine, 38(2), 65-88.
+53. Zha, Z., Wen, B., Yuan, X., Zhou, J., Zhu, C., & Kot, A. C. (2021). A hybrid structural sparsification error model for image restoration. IEEE Transactions on Neural Networks and Learning Systems, 33(9), 4451-4465.
+54. Zheng, S., Liu, Y., Meng, Z., Qiao, M., Tong, Z., Yang, X., ... & Yuan, X.  (2021). Deep plug-and-play priors for spectral snapshot compressive imaging. Photonics Research, 9(2), B18-B29.
+55. Lu, S., Yuan, X., & Shi, W. (2020, November). Edge compression: An integrated framework for compressive imaging processing on cavs. In 2020 IEEE/ACM Symposium on Edge Computing (SEC) (pp. 125-138). IEEE.
+56. Meng, Z., Ma, J., & Yuan, X.  (2020, August). End-to-end low cost compressive spectral imaging with spatial-spectral self-attention. In European conference on computer vision (pp. 187-204). Cham: Springer International Publishing.
+57. Cheng, Z., Lu, R., Wang, Z., Zhang, H., Chen, B., Meng, Z., & Yuan, X.  (2020, August). BIRNAT: Bidirectional recurrent neural networks with adversarial training for video snapshot compressive imaging. In European Conference on Computer Vision (pp. 258-275). Cham: Springer International Publishing.
+58. Yuan, X., Liu, Y., Suo, J., & Dai, Q. (2020). Plug-and-play algorithms for large-scale snapshot compressive imaging. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 1447-1457).
+59. Q. Xu#, X. Yuan# and C. Ouyang, “Class-aware Domain Adaptation for Semantic Segmentation of Remote Sensing Images," IEEE Transactions on Geoscience and Remote Sensing, 2020.
+60. Meng, Z., Qiao, M., Ma, J., Yu, Z., Xu, K., & Yuan, X.  (2020). Snapshot multispectral endomicroscopy. Optics Letters, 45(14), 3897-3900.
+61. Zha, Z., Yuan, X., Zhou, J., Zhu, C., & Wen, B. (2020). Image restoration via simultaneous nonlocal self-similarity priors. IEEE Transactions on Image Processing, 29, 8561-8576.
+62. Zha, Z., Yuan, X., Wen, B., Zhang, J., Zhou, J., & Zhu, C. (2020). Image restoration using joint patch-group-based sparse representation. IEEE Transactions on Image Processing, 29, 7735-7750.
+63. Qiao, M., Meng, Z., Ma, J., & Yuan, X.  (2020). Deep learning for video compressive sensing. APL Photonics, 5(3).
+64. Qiao, M., Liu, X., & Yuan, X.*(2020). Snapshot spatial–temporal compressive imaging. Optics letters, 45(7), 1659-1662.
+65. Yuan, X., & Haimi-Cohen, R. (2020). Image compression based on compressive sensing: End-to-end comparison with JPEG. IEEE Transactions on Multimedia, 22(11), 2889-2904.
+66. Zha, Z., Yuan, X., Wen, B., Zhou, J., Zhang, J., & Zhu, C. (2020). A benchmark for sparse coding: When group sparsity meets rank minimization. IEEE Transactions on Image Processing, 29, 5094-5109.
+67. Zha, Z., Yuan, X., Wen, B., Zhou, J., Zhang, J., & Zhu, C. (2019). From rank estimation to rank approximation: Rank residual constraint for image restoration. IEEE Transactions on Image Processing, 29, 3254-3269.
+68. Ma, J., Liu, X. Y., Shou, Z., & Yuan, X. (2019). Deep tensor admm-net for snapshot compressive imaging. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 10223-10232).
+69. Miao, X., Yuan, X., Pu, Y., & Athitsos, V. (2019). l-net: Reconstruct hyperspectral images from a snapshot measurement. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 4059-4069).
+70. Jalali, S., & Yuan, X. (2019). Snapshot compressed sensing: Performance bounds and algorithms. IEEE Transactions on Information Theory, 65(12), 8005-8024.
+71. Liu, Y., Yuan, X., Suo, J., Brady, D. J., & Dai, Q. (2018). Rank minimization for snapshot compressive imaging. IEEE transactions on pattern analysis and machine intelligence, 41(12), 2990-3006.
+72. Zhang, X., Yuan, X., & Carin, L. (2018). Nonlocal low-rank tensor factor analysis for image restoration. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 8232-8241).
+73. Pu, Y., Gan, Z., Henao, R., Yuan, X., Li, C., Stevens, A., & Carin, L. (2016). Variational autoencoder for deep learning of images, labels and captions. Advances in neural information processing systems, 29.
+74. Pu, Y., Yuan, X., Stevens, A., Li, C., & Carin, L. (2016, May). A deep generative deconvolutional image model. In Artificial Intelligence and Statistics (pp. 741-750). PMLR.
+75. Yuan, X., Henao, R., Tsalik, E., Langley, R., & Carin, L. (2015, June). Non-Gaussian discriminative factor models via the max-margin rank-likelihood. In International Conference on Machine Learning (pp. 1254-1263). PMLR.
+76. Llull, P., Yuan, X., Carin, L., & Brady, D. J. (2015). Image translation for single-shot focal tomography. Optica, 2(9), 822-825.
+77. Henao, R., Yuan, X., & Carin, L. (2014). Bayesian nonlinear support vector machines and discriminative factor modeling. Advances in neural information processing systems, 27.
+78. Yuan, X., Llull, P., Liao, X., Yang, J., Brady, D. J., Sapiro, G., & Carin, L. (2014). Low-cost compressive sensing for color video and depth. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 3318-3325).
+Email: xylab@westlake.edu.cn
+SCI Lab currently offers multiple Postdoctoral, Ph.D. and Research Assistant positions. SCI Lab welcomes highly self-motivated applicants. For student who have enrolled in other universities but filled with brilliant ideas and strong willingness to work in Computational Imaging, we highly encourage you to come as a visiting student.
+Please visit https://xyvirtualgroup.github.io for more information.

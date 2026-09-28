@@ -1,0 +1,79 @@
+﻿
+people-M3_lab
+Home
+People
+Publications and software
+Research
+News
+Opportunities
+Lectures
+Family Portrait 2024
+Taken on May 2024
+Hiking
+Taken on May 28, 2023
+People
+S. A. Galindo-Torres
+Associate Professor
+Graduated from the National University of Colombia (School of Physics) in 2003 (2006) with a bachelor's (master's) degree; in 2010, received a PhD in computational physics from the National University of Colombia. Then he worked as a postdoctoral researcher at the University of Queensland, Australia. He has been a senior researcher and lecturer in applied mathematics at the University of Queensland from 2015 to 2017. In 2016, he was awarded the Advance Queensland Fellowship by the Queensland Government of Australia, the only fellowship granted in the field of Civil and Environmental Engineering for that year. In 2017, he joined the University of Liverpool as a Senior Lecturer and as an Honorary Associate Professor at the University of Queensland. Starting in early 2019, he joined Westlake as an Associate Professor in the area of Environmental and Resources Engineering.
+EXECUTIVE ASSISTANT
+Ms Tingting Tang
+I am an executive assistant in M3 Lab. In 2019, I graduated from Henan Normal University. My major is English translation. After that I had a further study of MTI in Beijing International Studies University and got master degree. In 2023, I  joined Westlake University.
+RESEARCHERS
+Dr Marco Previtali
+I am a new postdoctoral researcher in the M3 group, working on using coupled DEM-LBM to derive constitutive relationships for granular suspensions. I got my PhD in Civil Engineering from University of Dundee (UK) in 2023. Throughout the years I have worked on multiple topics, from the mitigation of natural hazards to offshore fundations. I decided to join the M3 lab as it gives me the possibility to carry out fundamental research on multi-scale multi-physics models.
+PHD STUDENTS
+Ms Xia Yang
+I received my B.S. degree in Computational Science from Xiangtan University. I am currently a Ph.D. candidate at Westlake University, under the supervision of Prof. Sergio Torres. My research interest is investigating coupled LBM-DEM numerical approaches for granular flow simulations.
+Ms Jun Yao
+I earned my M.S. in Chemical Engineering from the University of Chinese Academy of Sciences and my B.S. in Polymer Materials and Engineering from Jilin University. I am currently pursuing my PhD in Environmental Science and Engineering in Professor Sergio’s group, where my research focuses on proton transport in confined channels using Molecular Dynamics (MD) simulations.
+Mr Jiadi Tang
+I received my B.S. in Civil Engineering from Southwest Jiaotong University and my M.S. in Geological Engineering from China University of Geosciences. I am currently pursuing my Ph.D. in Environmental Science and Engineering in the research group of Prof. Sergio Andres Galindo Torres. My current research focuses on multiscale heat and mass transfer problems through numerical simulations. In addition, I have a strong interest in music and sports.
+Mr Jiangjiang Wang
+Jiangjiang Wang received his Master’s degree with distinction from the University of Liverpool. Currently, he is a PhD student of Cohort 2023 supervised by Prof. Sergio Andres Galindo-Torres. Jiangjiang pays attention to the reaction flow in porous media in the fields of energy, environment and geo-physical-chemistry, including the dissolution and precipitation caused by the reaction and the transportation of reaction solutes. He is developing a massively parallel program based on Linux system and CPP with CUDA to realize the modeling and mechanism exploration of this scientific problem.
+Ms Hangtong Li
+I received my B.S. in Chemistry from University of Liverpool and my M.S. from University College London with a major in Materials for Energy and Environment. I am currently pursuing my PhD in Environmental Science and Engineering in Prof. Sergio Andres Galindo Torres' group. My research focuses on water-solid interactions at the nanoscale through Molecular Dynamics (MD) Simulations and fabrication of the nanoscale functional materials (eg. Carbon Nanotubes (CNTs)). Besides, I like photography and travel.
+Mr Ling Qiu
+Qiu received his Master's degree from University of Sheffield in Environmental and Energy Engineering and Bachelor's degree from University of Nottingham in Environmental Engineering. His current research interest is the development of a model for floating offshore wind turbines, under the supervision of Prof. Sergio Andres Galindo Torres. Qiu enjoys music and scuba diving in his free time.
+Ms Zaohui Zhang
+I am a PhD student in Dr. Sergio's group. I focus on the properties of granular-fluid system and it's engineering applications. I received my B.S. in the University of South China with the major of Mineral Resources Engineering, and M.S. in the Wuhan University of Technology (with a joint program in the Wuhan Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, majoring in Marine Geotechnical Engineering). After that, I engaged in the research and testing of materials, as well as the project management and consulting (in the Institute of Advanced Engineering Technology, Wuhan University of Technology, Zhongshan City).
+Mr Beichen Ji
+I received my B.S in Beijing university of chemical technology and my M.S. from Paris science and letter. Currently, I am pursuing my phd in Environmental science and engineering in prof. Sergio’s group. My research interest focus on modeling of multi-phase flow.
+Mr Xuwen Chen
+I received my B.S. in Water Resources and Hydropower Engineering from  Hohai University in 2021. Currently I am pursing my Ph.D. in Environmental Engineering at Westlake University. Now, my research interest focus on numerical modeling and visualization based on CFD-LBM method with CUDA-powered GPU programming.
+ALUMNI
+Dr. Tilsa Aryeni
+I am a postdoctoral researcher in Professor Galindo-Torres's group. I am currently working on microscale fluid dynamics in particular studying the multiphase and multicomponent flows of some fluid phenomena using lattice Boltzmann method (LBM). I received my Ph.D. in mathematics from University of Wyoming in December 2022. Bachelor degree is obtained in my home country Indonesia.
+Dr Tingchang Yin
+Yin earned his bachelor’s and master’s degrees from guangxi university, followed by a phd jointly awarded by zhejiang university and westlake university, china. His research focuses on computational and physical modeling of fluid flow and solute transport in geological media. Currently, he is a postdoctoral researcher at the weizmann institute of science.
+Dr. Pei Zhang
+Research fellow and Research Professor 2020-2024 Westlake University. Now he is a Associate Professor at Nanjing University of Science and Technology link.
+Email:zhangpei@njust.edu.cn
+Dr. Teng Man
+Postdoctoral fellow and Research Assistant Professor 2019-2024 Westlake University. Granted the Young Scientist grant from the NSFC. Now he is a tenure-track Associate Professor at Zhejiang University of Technology.link
+Email:manteng0520@zjut.edu.cn
+Dr Zhuan Ge
+PhD 2024 Westlake University. Now he is a lecturer at the Chengdu University of Technology.
+Email:gezhuan@cdut.edu.cn
+Dr. Guanlong Guo
+Postdoctoral fellow 2021-2023 Westlake University. Now he is a researcher at the Lawrence Berkeley National Laboratory.
+Dr. Songkai Ren
+PhD 2023 Westlake University. Winner of the Su Wu Scholarship. Now he is a lecturer at the Hangzhou Dianzi University.
+Dr. Yanmei Tian
+PhD 2025 Westlake University. Research: Hydrodynamics of Acorpora coral skeleton. Now she lectures at Nanchang Hangkong University.
+Mr Yifeng Zhao
+PhD 2025 Westlake University. Now he works in government in Shanghai.
+VISITOR
+Dr. Mario Trujillo
+PhD 2020 Universidad Javeriana Colombia and visitor at Westlake University. Now Lecturer at the South Colombian University.
+Mr Zhongrong Wang
+Master 2023 Shandong University and visitor at Westlake University. Now PhD student at RMIT University.
+Mr Zhuo Liu
+B.S. 2024 from Lanzhou University, summer research intern 2022 and visiting student at Westlake University. Incoming PhD student at UC Berkeley.
+Ms Liqun Fu
+Summer research intern 2019 and visiting student at Westlake University. Now PhD student at Tsinghua University.
+Mr Fanyu Wu
+Summer research intern 2020 and visiting student at Westlake University. Now PhD student at The University of Hong Kong.
+Ms Siqi Sun
+Summer research intern 2020 and visiting student at Westlake University. Now PhD student at The Hong Kong Polytechnic University.
+©2019 Westlake University浙ICP备18025489号
+Institute of Engineering

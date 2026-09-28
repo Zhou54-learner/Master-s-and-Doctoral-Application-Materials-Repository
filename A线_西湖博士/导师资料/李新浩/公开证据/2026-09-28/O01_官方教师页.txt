@@ -1,0 +1,26 @@
+Xinhao Li, Ph.D. - Westlake University
+Xinhao Li received his bachelor's degree in 2015 from the Tsien Excellence in Engineering Program at Tsinghua University. He obtained his Ph.D. in 2021 from the Department of Mechanical Engineering at the Massachusetts Institute of Technology (MIT), under the supervision of Professor Nicholas X. Fang. From 2021 to 2024 and then from 2024 to 2025, he conducted postdoctoral research in the groups of Professor Dafei Jin at Argonne National Laboratory and Professor Amir Yacoby at Harvard University, respectively. In 2025, he joined the School of Engineering at Westlake University as a tenure-track Assistant Professor in the Department of Electronic and Information Engineering.
+2025
+Assistant Professor, Westlake University
+2024
+Postdoctoral Fellow, Harvard University
+2021
+Postdoctoral Appointee, Argonne National Laboratory
+2021
+Ph.D. Degree, Massachusetts Institute of Technology
+2017
+Master Degree, Massachusetts Institute of Technology
+2015
+Bachelor’s degree, Tsinghua University
+The group focuses on innovating novel qubit platforms grounded in fundamental material science, device physics, and quantum engineering principles. Specifically, through investigating the physics of cavity quantum electrodynamics, engineering the electromagnetic and phononic qubit interfaces, and advancing solid-state superconducting devices, we aim to achieve precise manipulation of electron qubits and facilitate scalable quantum information technologies. Current research directions include:
+1). Investigation of interfacial and low-dimensional electron transport and exotic quantum phenomena;
+2). Quantum control of electron charge and spin qubits on cryogenic noble gas substrates;
+3). Integration and scaling of solid-state quantum devices, with applications in quantum computing, sensing, and communication.
+1. Xinhao Li*, Yizhong Huang, Xu Han, Xianjing Zhou*, and Dafei Jin*. "Coherent manipulation of interacting electron qubits on solid neon." arXiv preprint arXiv:2503.23738 (2025).
+2. Xinhao Li, Christopher S. Wang, Brennan Dizdar, Yizhong Huang, Yutian Wen, Wei Guo, Xufeng Zhang, Xu Han*, Xianjing Zhou*, and Dafei Jin*. "Noise-resilient solid host for electron qubits above 100 mK." arXiv preprint arXiv:2502.01005 (2025).
+3. Xianjing Zhou†, Xinhao Li†, Qianfan Chen, Gerwin Koolstra, Ge Yang, Brennan Dizdar, Yizhong Huang et al. "Electron charge qubit with 0.1 millisecond coherence time." Nature Physics 20, no. 1 (2024): 116-122.
+4. Xinhao Li†, Zheng Jie Tan†, and Nicholas X. Fang. "Grayscale stencil lithography for patterning multispectral color filters." Optica 7, no. 9 (2020): 1154-1161.
+5. Xinhao Li†, Chang Liu†, Shien-Ping Feng, and Nicholas Xuanlai Fang. "Broadband light management with thermochromic hydrogel microparticles for smart windows." Joule 3, no. 1 (2019): 290-302.
+Email: lixinhao@westlake.edu.cn
+The lab is currently recruiting Ph.D. students, postdoctoral researchers, and research assistants. The group is committed to fostering an open, transparent, collaborative, and diverse academic environment. We strive to provide a world-class academia experience, working together to explore the vibrant field of quantum information engineering and to support the mutual growth of each team member and the research group.
+Outstanding candidates with backgrounds in physics, electronics, materials science, and related fields are warmly welcome to apply. Applicants with a strong foundation in mathematics and physics, and experience in low-temperature physics, microwave and superconducting quantum experiments, or micro/nanofabrication are preferred. Interested applicants are encouraged to reach out via email with a cover letter and CV.

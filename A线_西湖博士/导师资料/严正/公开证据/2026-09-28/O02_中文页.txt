@@ -1,0 +1,67 @@
+严正博士 - 西湖大学
+严正，1990年生，浙江绍兴人。2013年获大连理工大学学士学位，2019年获得复旦大学理论物理博士学位。2019年至2023年在香港大学工作，历任博士后研究员和研究助理教授。2023年全职加入西湖大学，组建量子多体计算实验室，同年获得国家高层次青年人才项目资助。课题组主要开展量子多体理论和数值计算方向的研究，以及与之相关的量子模拟/计算、量子材料交叉学科研究，比如
+1)    量子阻挫磁性: 自旋液体、新奇物相、临界行为等；
+2)    量子模拟和量子计算，测量诱导相变，开放系统等；
+3)    受限多体系统和晶格规范场，如量子dimer/loop模型等；
+4)    量子多体纠缠，如纠缠熵、纠缠谱、无序算符等行为；
+5)    发展新的量子多体算法；
+除了上述方向之外，课题组也乐意积极拓展量子多体相关的交叉学科。
+2023-
+西湖大学，特聘研究员
+2022-2023
+香港大学，研究助理教授
+2019-2022
+香港大学，博士后
+2013-2019
+复旦大学，博士
+2009-2013
+大连理工大学，学士
+目前发表论文约60篇，大多数是Phys. Rev. B。我主要从事量子多体物理的理论和计算研究，发展了多项量子蒙卡算法，解决了一些极具挑战的多体计算难题并揭示了若干新奇物理，例如：
+1）发明了sweeping cluster量子蒙卡，解决了quantum dimer/loop model等纯规范场模型多年来的计算难题，该算法被国外数值方法教材以单独小节介绍；基于该算法，系统研究了冷原子和磁性体系中的演生规范场物理。比如，得到了同时含有奇、偶Z2自旋液体的里德堡阵列相图，发现了一直被认为是自旋液体的新型vison隐藏序等。
+2）提出了基于量子蒙卡和随机解析延拓提取多体纠缠谱的方案，解决了高维/大尺寸系统纠缠谱的计算难题；结合此方案，给出了纠缠谱和能谱的一般关系，指出了约化密度矩阵路径积分上的虫洞效应是形成纠缠谱的根本机制，预言并证实了Li-Haldane猜想的适用范围等。
+3）目前课题组正在大力发展的双组份重赋权退火计算框架，解决了量子多体系统中高效提取纠缠熵、纠缠负性、非对角信息、稳定熵等难题。为复杂系统计算提供了一个新的计算范式。这个框架极大地扩展了量子蒙卡算法的适用范围。
+课题组将继续致力于以“算法的突破”带动“物理的突破”。欢迎志同道合的朋友们一起加入！
+1.  Detecting emergent continuous symmetry of criticality via subsystem's entanglement spectrum
+Bin-Bin Mao, Zhe Wang, Bin-Bin Chen, ZY
+Phys. Rev. Lett. 136, 046401 (2026)
+2.  Bipartite entanglement and surface criticality: The extra contribution of non-ordinary edge in entanglement
+Yanzhang Zhu, Zenan Liu, Zhe Wang, Yan-Cheng Wang, ZY
+Phys. Rev. Lett. 136, 046501 (2026)
+3.  Addressing general measurements in quantum Monte Carlo
+Zhiyan Wang, Zenan Liu, Bin-Bin Mao, Zhe Wang, ZY
+Nat. Commun. 16, 5880 (2026)
+4.  Double Supersolid Phase in a Bosonic t-J-V Model with Rydberg Atoms
+Kuangjie Chen, Yang Qi, ZY, Xiaopeng Li
+Phys. Rev. Lett. 135, 266003 (2025)
+5.  Evaluating many-body stabilizer Rényi entropy by sampling reduced Pauli strings: Singularities, volume law, and nonlocal magic,
+Yi-Ming Ding, Zhe Wang, and ZY
+PRX Quantum 6, 030328 (2025)
+6.  Bipartite reweight-annealing algorithm of quantum Monte Carlo to extract large-scale data of entanglement entropy and its derivative,
+Zhe Wang, Zhiyan Wang, Yi-Ming Ding, Bin-Bin Mao, ZY
+Nat. Commun. 16, 5880 (2025)
+7.  Sampling reduced density matrix to extract fine levels of entanglement spectrum and restore entanglement Hamiltonian，
+Bin-Bin Mao, Yi-Ming Ding, Zhe Wang, Shijie Hu, ZY
+Nat. Commun. 16, 2880 (2025)
+8.  Measuring the boundary gapless state and criticality via disorder operator，
+Zenan Liu, Rui-Zhen Huang, Yan-Cheng Wang, ZY, Dao-Xin Yao
+Phys. Rev. Lett. 132, 206502 (2024)
+9.   Emergent glassy behavior in a kagome Rydberg atom array,
+ZY, Yan-Cheng Wang, Rhine Samajdar, Subir Sachdev, Zi Yang Meng
+Phys. Rev. Lett. 130, 206501 (2023)
+10.  Unlocking the general relationship between energy and entanglement spectra via the wormhole effect,
+ZY, Zi Yang Meng,
+Nat. Commun. 14, 2360 (2023)
+11.  Triangular lattice quantum dimer model with variable dimer density,
+ZY, Rhine Samajdar, Yan-Cheng Wang, Subir Sachdev, Zi Yang Meng
+Nat. Commun. 13, 5799 (2022)
+12. Scaling of entanglement entropy at deconfined quantum criticality
+Jiarui Zhao, Yan-Cheng Wang, ZY, Meng Cheng, Zi Yang Meng
+Phys. Rev. Lett. 128, 010601 (2022)
+13. Amplitude mode in quantum magnets via dimensional crossover
+Chengkang Zhou, ZY, Han-Qing Wu, Kai Sun, Oleg Starykh, Zi Yang Meng
+Phys. Rev. Lett. 126, 227201 (2021)
+14. Sweeping cluster algorithm for quantum spin systems with strong geometric restrictions,
+ZY, Yongzheng Wu, Chenrong Liu, Olav F. Syljuåsen, Jie Lou, Yan Chen
+Phys. Rev. B 99, 165135 (2019)
+电子邮箱：zhengyan@westlake.edu.cn
+每年招收1-2名博士生，欢迎申请本组博士后！

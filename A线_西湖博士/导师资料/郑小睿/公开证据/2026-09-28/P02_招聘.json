@@ -1,0 +1,20 @@
+{
+  "source_url": "https://alien.westlake.edu.cn/Join_Us.htm",
+  "checked_date": "2026-09-28",
+  "key": "P02_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://alien.westlake.edu.cn/Join_Us.htm",
+  "sha256": "944c3259a4b531cec8dd2c448df9299c4bbe6c5c25fd5cdda19254f668fa53fa",
+  "bytes": 7213,
+  "links": [
+    "index.htm",
+    "Research.htm",
+    "Publications.htm",
+    "People.htm",
+    "News.htm",
+    "Join_Us.htm",
+    "Contact_Us.htm"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

@@ -1,0 +1,27 @@
+{
+  "source_url": "https://qne.lab.westlake.edu.cn/team/",
+  "checked_date": "2026-09-28",
+  "key": "S01_团队",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://qne.lab.westlake.edu.cn/team/",
+  "sha256": "4792dfa44df5175347da9abf3c8b066a119c0d84f5cd2aa06072cd60eee4bb34",
+  "bytes": 166628,
+  "links": [
+    "#content",
+    "https://qne.lab.westlake.edu.cn/",
+    "https://qne.lab.westlake.edu.cn/research/",
+    "https://qne.lab.westlake.edu.cn/growth/",
+    "https://qne.lab.westlake.edu.cn/spectroscopy/",
+    "https://qne.lab.westlake.edu.cn/transport/",
+    "https://qne.lab.westlake.edu.cn/scanning/",
+    "https://qne.lab.westlake.edu.cn/team/",
+    "https://qne.lab.westlake.edu.cn/highlights/",
+    "https://qne.lab.westlake.edu.cn/full-list/",
+    "https://qne.lab.westlake.edu.cn/contact/",
+    "mailto:songqian@westlake.edu.cn",
+    "https://scholar.google.com/citations?user=mOcGbokAAAAJ&hl=en",
+    "https://qne.lab.westlake.edu.cn/wp-content/uploads/2026/05/CV-Qian-Song.pdf"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

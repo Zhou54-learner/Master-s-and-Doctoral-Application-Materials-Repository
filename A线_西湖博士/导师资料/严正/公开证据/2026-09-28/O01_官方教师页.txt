@@ -1,0 +1,68 @@
+Zheng Yan, Ph.D. - Westlake University
+Zheng YAN was born in 1990 in Shaoxing, Zhejiang, China. He received the Bachelor Degree from Dalian University of Technology in 2013 and the Ph.D in Theoretical Physics from Fudan University in 2019. Thereafter he worked as a Postdoctoral Fellow, then a Research Assistant Professor at the University of Hong Kong. In 2023, he joined the Westlake University as a Tenure-track Assistant Professor (PI). His main research areas are theoretical and numerical studies of quantum many-body physics, as well as related quantum simulation/computing and quantum materials cross-disciplinary research, currently focusing on:
+(1) Novel phase and phase transition, quasi-particle excitation of frustrated quantum magnetisms;
+(2) Quantum simulation, cold atom array, quantum adiabatic computing, etc.;
+(3) Constrained quantum many-body systems and related lattice gauge theory, such as quantum dimer/loop models;
+(4) Entanglement properties of quantum many-body systems, such as the behaviors of entanglement entropy and spectrum;
+(5) Developing numerical methods for strongly correlated systems, especially quantum Monte Carlo and related algorithms;
+In addition to the above directions, he is also willing to actively expand the interdisciplinarity related to quantum many-body physics.
+2023-
+Tenure-track Assistant Professor, Westlake University
+2022-2023
+Research Assistant Professor, University of Hong Kong
+2019-2022
+Postdoc, University of Hong Kong
+2013-2019
+Ph.D. degree, Fudan University
+2009-2013
+B.S. degree, Dalian University of Technology
+Zheng YAN has (pre-) published about 60 articles, most of which are Phys. Rev. B. The representative achievements are mainly concentrated on three parts:
+1) The sweeping cluster quantum Monte Carlo, which can calculate the local constrained model, is developed by the PI. The algorithm solves the computational problem put forward by pure gauge field models such as quantum dimer/loop models. It has been included in a single subsection of a numerical textbook recently. Based on the algorithm, the gauge field physics emerging on the frustrated magnetic system and Rydberg array are systematically studied. Such as the phase transition between odd and even Z2 spin liquids is first explored, and the hidden order, which had been thought as a spin liquid in a long time, is discovered.
+2) A scheme for extracting entanglement spectra of large-size many-body systems based on quantum Monte Carlo has been proposed. The entanglement spectra with large entanglement regions are obtained for the first time. Furthermore, the wormhole effect on the path integral of reduced density matrix is put forward to reveal the relationship between entanglement spectrum and energy spectrum. The famous Li-Haldane conjecture has been explained and extended. The numerical experiment for inversing the conjecture has been even realized according to the wormhole mechanism.
+3) Recently, we are focusing on developing the numerical framework of “Bipartite Reweight-annealing” to solve the long-standing problems, such as efficiently extracting entanglement entropy, entanglement negativity, off-diagonal information and magic from quantum many-body systems. It provides a new computing paradigm for quantum Monte Carlo.
+Our research group will continue to be committed to driving "physical breakthroughs" through "algorithmic breakthroughs". Friends with the same aspirations are welcome to join us!
+1.  Detecting emergent continuous symmetry of criticality via subsystem's entanglement spectrum
+Bin-Bin Mao, Zhe Wang, Bin-Bin Chen, ZY
+Phys. Rev. Lett. 136, 046401 (2026)
+2.  Bipartite entanglement and surface criticality: The extra contribution of non-ordinary edge in entanglement
+Yanzhang Zhu, Zenan Liu, Zhe Wang, Yan-Cheng Wang, ZY
+Phys. Rev. Lett. 136, 046501 (2026)
+3.  Addressing general measurements in quantum Monte Carlo
+Zhiyan Wang, Zenan Liu, Bin-Bin Mao, Zhe Wang, ZY
+Nat. Commun. 16, 5880 (2026)
+4.  Double Supersolid Phase in a Bosonic t-J-V Model with Rydberg Atoms
+Kuangjie Chen, Yang Qi, ZY, Xiaopeng Li
+Phys. Rev. Lett. 135, 266003 (2025)
+5.  Evaluating many-body stabilizer Rényi entropy by sampling reduced Pauli strings: Singularities, volume law, and nonlocal magic,
+Yi-Ming Ding, Zhe Wang, and ZY
+PRX Quantum 6, 030328 (2025)
+6.  Bipartite reweight-annealing algorithm of quantum Monte Carlo to extract large-scale data of entanglement entropy and its derivative,
+Zhe Wang, Zhiyan Wang, Yi-Ming Ding, Bin-Bin Mao, ZY
+Nat. Commun. 16, 5880 (2025)
+7.  Sampling reduced density matrix to extract fine levels of entanglement spectrum and restore entanglement Hamiltonian，
+Bin-Bin Mao, Yi-Ming Ding, Zhe Wang, Shijie Hu, ZY
+Nat. Commun. 16, 2880 (2025)
+8.  Measuring the boundary gapless state and criticality via disorder operator，
+Zenan Liu, Rui-Zhen Huang, Yan-Cheng Wang, ZY, Dao-Xin Yao
+Phys. Rev. Lett. 132, 206502 (2024)
+9.   Emergent glassy behavior in a kagome Rydberg atom array,
+ZY, Yan-Cheng Wang, Rhine Samajdar, Subir Sachdev, Zi Yang Meng
+Phys. Rev. Lett. 130, 206501 (2023)
+10.  Unlocking the general relationship between energy and entanglement spectra via the wormhole effect,
+ZY, Zi Yang Meng,
+Nat. Commun. 14, 2360 (2023)
+11.  Triangular lattice quantum dimer model with variable dimer density,
+ZY, Rhine Samajdar, Yan-Cheng Wang, Subir Sachdev, Zi Yang Meng
+Nat. Commun. 13, 5799 (2022)
+12. Scaling of entanglement entropy at deconfined quantum criticality
+Jiarui Zhao, Yan-Cheng Wang, ZY, Meng Cheng, Zi Yang Meng
+Phys. Rev. Lett. 128, 010601 (2022)
+13. Amplitude mode in quantum magnets via dimensional crossover
+Chengkang Zhou, ZY, Han-Qing Wu, Kai Sun, Oleg Starykh, Zi Yang Meng
+Phys. Rev. Lett. 126, 227201 (2021)
+14. Sweeping cluster algorithm for quantum spin systems with strong geometric restrictions,
+ZY, Yongzheng Wu, Chenrong Liu, Olav F. Syljuåsen, Jie Lou, Yan Chen
+Phys. Rev. B 99, 165135 (2019)
+All my works: http://arxiv.org/a/yan_z_2
+Email：zhengyan@westlake.edu.cn
+Open positions for PhD student, Postdoc Fellow and Research Assistant Professor.

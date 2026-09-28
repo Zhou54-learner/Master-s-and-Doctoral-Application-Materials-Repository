@@ -1,0 +1,34 @@
+Shuigang Xu, Ph.D. - Westlake University
+Dr. Shuigang Xu received his B.S. degree from Wuhan University in 2009, and Ph.D. degree from the Hong Kong University of Science and Technology in 2013. He worked as a postdoc in the Hong Kong University of Science and Technology from 2013 to 2016 and in University of Manchester from 2016 to 2021 supervised by Nobel Laureate Andre Geim. He joined School of Science in September 2021.
+2021-
+Assistant Professor,Westlake University
+2016-2020
+Postdoc, University of Manchester
+2013-2016
+Postdoc, Hong Kong University of Science and Technology
+2013
+Ph.D. degree, Hong Kong University of Science and Technology
+2009
+B.S. degree, Wuhan University
+My research interests are focused on:
+1.    Novel quantum transport in two-dimensional materials and van der Waals heterostructures
+2.    Engineering van der Waals heterostructures for exotic properties and high functionality
+3.    Electron correlations and topology in moiré superlattices
+4.    Growth, electronic and optoelectronic properties, and applications of low-dimensional materials.
+1.   Jing Ding*, Hanxiao Xiang*, Jiannan Hua*, Wenqiang Zhou, Naitian Liu, Le Zhang, Na Xin, Bing Wu, Kenji Watanabe, Takashi Taniguchi, Zdeněk Sofer, Wei Zhu, Shuigang Xu#, “Electric-field switchable chirality in rhombohedral graphene Chern insulators stabilized by tungsten diselenide”, Phys. Rev. X, 15, 011052, (2025).
+2.   Le Zhang, Jing Ding, Hanxiao Xiang, Naitian Liu, Wenqiang Zhou, Linfeng Wu, Na Xin#, Kenji Watanabe, Takashi Taniguchi, Shuigang Xu#, “Electronic ferroelectricity in monolayer graphene moiré superlattices”, Nature Communications, 15, 10905, (2024).
+3.   Jing Ding, Hanxiao Xiang, Wenqiang Zhou, Naitian Liu, Qianmei Chen, Xinjie Fang, Kangyu Wang, Linfeng Wu, Kenji Watanabe, Takashi Taniguchi, Na Xin, Shuigang Xu#, “Engineering band structures of two-dimensional materials with remote moiré ferroelectricity”, Nature Communications, 15, 9087, (2024).
+4.   Wenqiang Zhou*, Jing Ding*, Jiannan Hua*, Le Zhang, Kenji Watanabe, Takashi Taniguchi, Wei Zhu#, Shuigang Xu#, “Layer-polarized ferromagnetism in rhombohedral multilayer graphene”, Nature Communications, 15, 2597, (2024).
+5.   Wenqiang Zhou*, Jiannan Hua*, Naitian Liu, Jing Ding, Hanxiao Xiang, Wei Zhu, Shuigang Xu#, “Inversion Symmetry-Broken Tetralayer Graphene Probed by Second-Harmonic Generation”, Nano Letters, 24, 8378-8385, (2024).
+6.   Shuigang Xu*, Mohammed M. Al Ezzi*, Nilanthy Balakrishnan*, Aitor Garcia-Ruiz, Bonnie Tsim, Ciaran Mullan, Julien Barrier, Na Xin, Benjamin A. Piot, Takashi Taniguchi, Kenji Watanabe, Alexandra Carvalho, Artem Mishchenko, A. K. Geim, Vladimir I. Fal'ko, Shaffique Adam, Antonio Helio Castro Neto, Kostya S. Novoselov, Yanmeng Shi, “Tunable van Hove singularities and correlated states in twisted monolayer-bilayer graphene”, Nature Physics, 17, 619-626, (2021).
+7.   Yanmeng Shi*, Shuigang Xu*, Yaping Yang*, Sergey Slizovskiy, Sergey V. Morozov, Seok-Kyun Son, Servet Ozdemir, Ciaran Mullan, Julien Barrier, Jun Yin, Alexey I. Berdyugin, Benjamin A. Piot, Takashi Taniguchi, Kenji Watanabe, Vladimir I. Fal’ko, Kostya S. Novoselov, A. K. Geim, Artem Mishchenko, “Electronic phase separation in multilayer rhombohedral graphite”, Nature, 584, 210-214, (2020).
+8.   M. Kim*, S. G. Xu*, A. I. Berdyugin*, A. Principi, S. Slizovskiy, N. Xin, P. Kumaravadivel, W. Kuang, M. Hamer, R. Krishna Kumar, R. V. Gorbachev, K. Watanabe, T. Taniguchi, I. V. Grigorieva, V. I. Fal’ko, M. Polini, A. K. Geim, “Control of electron-electron interaction in graphene by proximity screening”, Nature Communication, 11, 2339, (2020).
+9.   A. I. Berdyugin*, S. G. Xu*, F. M. D. Pellegrino, R. Krishna Kumar, A. Principi, I. Torre, M. Ben Shalom, T. Taniguchi, K. Watanabe, I. V. Grigorieva, M. Polini, A. K. Geim, D. A. Bandurin, “Measuring Hall viscosity of graphene’s electron fluid”, Science, 364(6436), 162-165, (2019).
+10.  S. G. Xu*, A. I. Berdyugin*, P. Kumaravadivel, F. Guinea, R. Krishna Kumar, D. A. Bandurin, S. V. Morozov, W. Kuang, B. Tsim, S. Liu, J. H. Edgar, I. V. Grigorieva, V. I. Fal’ko, M. Kim, A. K. Geim, “Giant oscillations in a triangular network of one-dimensional states in marginally twisted graphene”, Nature Communications, 10, 4008, (2019). (Selected as Editors’ Highlights)
+11.  Shuigang Xu*, Junying Shen*, Gen Long, Zefei Wu, Zhi-qiang Bao, Cheng-Cheng Liu, Xiao Xiao, Tianyi Han, Jiangxiazi Lin, Yingying Wu, Huanhuan Lu, Jianqiang Hou, Liheng An, Yuanwei Wang, Yuan Cai, K. M. Ho, Yuheng He, Rolf Lortz, Fan Zhang, Ning Wang, “Odd-integer quantum hall states and giant spin susceptibility in p-type few-layer WSe2”, Physical Review Letters, 118, 067702, (2017). (Selected as Editors’ Suggestion)
+12.  Shuigang Xu*, Zefei Wu*, Huanhuan Lu*, Yu Han, Gen Long, Xiaolong Chen, Tianyi Han, Weiguang Ye,  Yingying Wu, Jiangxiazi Lin, Junying Shen, Yuan Cai, Yuheng He, Fan Zhang, Rolf Lortz, Chun Cheng and Ning Wang, “Universal low-temperature Ohmic contacts for quantum transport in transition metal dichalcogenides”, 2D materials, 3, 021007, (2016)
+13.  Zefei Wu*, Shuigang Xu*, Huanhuan Lu*, Armin Khamoshi*, Gui-Bin Liu*, Tianyi Han, Yingying Wu, Jiangxiazi Lin, Gen Long, Yuheng He, Yuan Cai, Yugui Yao, Fan Zhang, Ning Wang, “Even-odd layer-dependent magnetotransport of high-mobility Q-valley electrons in transition metal disulfides”, Nature Communications, 7, 12955, (2016).
+14.  Shuigang Xu*, Yu Han*, Xiaolong Chen, Zefei Wu, Lin Wang, Tianyi Han, Weiguang Ye, Huanhuan Lu, Gen Long, Yingying Wu, Jiangxiazi Lin, Yuan Cai, Ho Kin Ming, Yuheng He, Ning Wang, “Van der Waals epitaxial growth of atomically thin Bi2Se3 and thickness-dependent topological phase transition”, Nano Letters, 15(4), 2645-2651 , (2015).
+15.  Shuigang Xu, Wenhao Guo, Shengwang Du, M. M. T. Loy, Ning Wang, “Piezotronic Effects on the Optical Properties of ZnO Nanowires”, Nano Letters, 12(11), 5802-5807, (2012).
+Email: xushuigang@westlake.edu.cn
+We are seeking for hard working PhD students, postdocs, research assistants who have strong background in physics, materials science or electronic engineering to join our group. Interested candidates are welcome to send CV to xushuigang@westlake.edu.cn

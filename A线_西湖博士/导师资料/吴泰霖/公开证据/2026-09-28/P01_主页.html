@@ -1,0 +1,1623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- 1. 关键 CSS 内联 -->
+  <style>
+    /* 首屏关键样式 */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+  
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: #fff;
+      padding: 1rem;
+    }
+  
+    .main-content {
+      padding-top: 70px;
+    }
+  
+    .container {
+      width: 100%;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  </style>
+  
+  <!-- 2. 预加载主要 CSS -->
+  <link rel="preload" href="/assets/css/material-kit-pro.min.css" as="style">
+  
+  <!-- 3. 异步加载主要 CSS -->
+  <link rel="stylesheet" href="/assets/css/material-kit-pro.min.css" media="print"
+    onload="this.media='all'">
+  
+  <!-- 4. 延迟加载其他 CSS -->
+  <link rel="stylesheet" href="/assets/css/nucleo-icons.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/nucleo-svg.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/nativecode.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/output.css" media="print" onload="this.media='all'">
+  
+  <!-- 5. CSS 加载失败的备用方案 -->
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/material-kit-pro.min.css">
+    <link rel="stylesheet" href="/assets/css/nucleo-icons.css">
+    <link rel="stylesheet" href="/assets/css/nucleo-svg.css">
+    <link rel="stylesheet" href="/assets/css/nativecode.css">
+    <link rel="stylesheet" href="/assets/css/output.css">
+  </noscript>
+  
+  <!-- 6. CSS 加载优化脚本 -->
+  <script>
+    // 检测 CSS 加载完成
+    var cssMain = document.querySelector('link[href*="material-kit-pro.min.css"]');
+    if (cssMain) {
+      cssMain.addEventListener('load', function () {
+        document.documentElement.classList.add('css-loaded');
+      });
+    }
+  </script>
+  <!-- 原有的其他 head 内容 -->
+  <!-- 在现有 head 标签内的最前面添加 -->
+  
+  <!-- 开发环境 -->
+  <link rel="preconnect" href="http://127.0.0.1:4000">
+  <link rel="dns-prefetch" href="http://127.0.0.1:4000">
+  
+  
+  <!-- 如果网站用到了以下资源,建议也添加预连接 -->
+  
+  
+  <!-- 如果使用了 Google Analytics -->
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  
+  <!-- 原有的其他 head 内容 -->
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+
+  <link
+    rel="apple-touch-icon"
+    sizes="76x76"
+    href="/assets/img/apple-icon.png"
+  />
+  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+  <title>AI for Scientific Simulation and Discovery Lab | Tailin Wu Lab</title>
+  <!--     Fonts and icons     -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700"
+  />
+  <!-- Nucleo Icons -->
+  <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <!-- <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script> -->
+  <script
+    src="https://kit.fontawesome.com/7665ecc650.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Material Icons -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+    rel="stylesheet"
+  />
+  <!-- CSS Files -->
+  <!-- <link
+    id="pagestyle"
+    href="/assets/css/material-kit-pro.css?v=3.0.4"
+    rel="stylesheet"
+  /> -->
+  <link id="pagestyle" href="/assets/css/output.css" rel="stylesheet" />
+  <link id="codestyle" href="/assets/css/nativecode.css" rel="stylesheet" />
+  <!-- 让markdown适配公式 -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+    integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j"
+    crossorigin="anonymous"
+  />
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+    integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+    crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"
+  ></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body class="page-headers-sections">
+    <!-- -------- START HEADER 2 w/ waves and typed text ------- -->
+    <header class="position-relative">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark navbar-absolute bg-transparent shadow-none"
+      >
+        <div class="container justify-content-between">
+          <img
+            class="avatar avatar-md m-1 mt-n1"
+            src="/assets/img/logo_noword.png"
+            alt="logo"
+          /><a class="navbar-brand col" href="/">
+            <h6 class="text-white text-start" style="white-space: normal">
+              AI for Scientific Simulation and Discovery Lab
+            </h6></a
+          >
+          <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon mt-2">
+              <span class="navbar-toggler-bar bar1"></span>
+              <span class="navbar-toggler-bar bar2"></span>
+              <span class="navbar-toggler-bar bar3"></span>
+            </span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">
+                Index
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mx-auto">
+                   
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/people">
+                    People
+                  </a>
+                </li>
+                  
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/publications">
+                    Publications
+                  </a>
+                </li>
+                  
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/blogs">
+                    Blogs
+                  </a>
+                </li>
+                  
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/talks">
+                    Talks
+                  </a>
+                </li>
+                  
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/news">
+                    News
+                  </a>
+                </li>
+                  
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/course/frontiers-2026/">
+                    Course
+                  </a>
+                </li>
+                  
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/opening">
+                    Opening
+                  </a>
+                </li>
+                 
+              </ul>
+              <ul class="navbar-nav mx-auto">
+                
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="https://github.com/AI4Science-WestlakeU">
+                    <i class="fa-brands fa-github-alt"></i>
+                  </a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="https://twitter.com/tailin_wu">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+                
+                <li>
+                  
+                  <a
+                    class="nav-link text-white nav-item"
+                    href="/zh/"
+                  >
+                    <i class="fa-solid fa-language"></i>
+                  </a>
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="page-header min-vh-50"
+        style="background-image: url(assets/img/indexbg.jpg)"
+        loading="lazy"
+      >
+        <span class="mask bg-gradient-info opacity-4"></span>
+        <div class="container" style="z-index: 0">
+          <div class="row">
+            <div class="col-lg-8 text-center mx-auto">
+              <h1 class="text-white">
+                Our lab mission is to
+                <span class="text-white" id="typed"></span>
+              </h1>
+              <div id="typed-strings">
+                
+                <h1>solve important AI + Science problems</h1>
+                
+                <h1>open new frontiers</h1>
+                
+                <!-- <h1>solve important AI + Science problems</h1>
+                <h1>open new frontiers</h1> -->
+              </div>
+              <p class="lead text-white text-center pe-5 mt-4">
+                <!-- The time is now for it to be okay to be great. People in this
+                world shun people for being great. For being a bright color. -->
+                <!-- The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. -->
+              </p>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -------- END HEADER 2 w/ waves and typed text ------- -->
+    <!-- -------- START SECTION 3 w/ waves and typed text ------- -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mt-5">
+            <div class="row flex-row-reverse">
+              <div class="col-lg-6 justify-content-center d-flex flex-column">
+                <div class="card border-radius-lg">
+                  <div class="blur-shadow-image">
+                    <img
+                      src="/assets/img/figures.png"
+                      alt="img-blur-shadow-blog-2"
+                      class="img-fluid border-radius-lg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-6 pe-lg-5 justify-content-center d-flex flex-column pt-lg-0 pt-3"
+              >
+                <h3>
+                  <a href="" class="text-dark"
+                    >Our lab's research solves the core and universal problems
+                    at the intersection of AI (deep learning) and scientific
+                    disciplines, including:</a
+                  >
+                </h3>
+                <p>
+                  <strong>(1) Core AI:</strong>
+                  Develop generative AI methods based on diffusion/flow matching and next-generation generative models; create self-evolving AI architectures. Develop generalist AI scientists and AI engineers.
+                </p>
+                <p>
+                  <strong>(2) AI for Physical Sciences:</strong>
+                  Develop novel generative AI approaches for scientific simulation, control, design, and scientific discovery in complex physical systems such as fluids and plasmas. Develop underwater embodied intelligence.
+                </p>
+                <p>
+                  <strong>(3) AI for Life Science:</strong>
+                  Develop AI virtual cells and decode the evolutionary mechanisms and intrinsic logic of living systems.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Newest Pubilication -->
+           
+          <div class="col-lg-12 mt-5">
+            <div class="row flex-row-reverse">
+              <div class="col-lg-6 col-md-6 justify-content-center d-flex flex-column">
+                <div class="card border-radius-lg" style="width: 100%;">
+                  <div class="blur-shadow-image" style="width: 100%;">
+                    <img
+                      src="/assets/img/publications/buildAnera.gif"
+                      alt="img-blur-shadow-blog-2"
+                      class="border-radius-lg"
+                      loading="lazy"
+                      style="width: 100%; height: auto; display: block; object-fit: contain;"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-6 pe-lg-5 justify-content-center d-flex flex-column pt-lg-0 pt-3"
+              >
+                <h6 class="category text-info mt-3">
+                  <a href="/publications" style="color: #1a73e8"
+                    >Publications</a
+                  >
+                </h6>
+                <h3>
+                  <a href="" class="text-dark">BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction</a>
+                </h3>
+                <p>
+                  We introduce BuildArena that studies whether LLM agents can design and build functional machines in a physics simulator. Given natural language goals, LLM agents construct rockets, bridges, vehicles, and other 3D mechanisms from scratch.<a
+                    href="/publications"
+                    class="text-darker icon-move-right text-sm"
+                    >Read More
+                    <i class="fas fa-arrow-right text-xs ms-1"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Talks  -->
+          
+          <div class="col-lg-12 mx-auto pt-7">
+            <a href="/talks"
+              ><h2>Invited Talk</h2></a
+            >
+            <div class="accordion" id="accordionRental">
+              <div class="accordion-item mb-3">
+                <h5 class="accordion-header" id="headingLatest">
+                  <button
+                    class="accordion-button border-bottom font-weight-bold text-start"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseLatest"
+                    aria-expanded="true"
+                    aria-controls="collapseLatest"
+                  >
+                    Latest talks
+                    <i
+                      class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"
+                    ></i>
+                    <i
+                      class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"
+                    ></i>
+                  </button>
+                </h5>
+                <div
+                  id="collapseLatest"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingLatest"
+                  data-bs-parent="#accordionRental"
+                >
+                  <br class="accordion-body text-sm opacity-8" />
+                  <div class="row">
+                    
+                    <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                      <p class="text-sm"><h6 id="202504--生成模型用于复杂系统的设计与控制以及test-time-scalingat-北大前沿探索者沙龙">[2025/04]  生成模型用于复杂系统的设计与控制以及test-time scaling，at <a href="https://ele.pku.edu.cn/info/1012/3606.htm">北大前沿探索者沙龙</a></h6>
+
+</p>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                      <p class="text-sm"><h6 id="202412--ai科学和工程从2025到2035at-浦江ai学术年会">[2024/12]  AI+科学和工程：从2025到2035，at <a href="https://www.shlab.org.cn/event/detail/84">浦江AI学术年会</a></h6>
+
+</p>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                      <p class="text-sm"><h6 id="202410--基于扩散生成模型的复杂系统设计和控制-at-cncc-2024">[2024/10]  基于扩散生成模型的复杂系统设计和控制, at CNCC 2024</h6>
+
+</p>
+                    </div>
+                    
+                  </div>
+                </div>
+                </div>
+                <div class="accordion-item mb-3">
+                <h5 class="accordion-header" id="headingFeatured">
+                  <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFeatured" aria-expanded="true" aria-controls="collapseFeatured">
+                    Featured talks
+                    <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                    <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
+                  </button>
+                </h5>
+                <div id="collapseFeatured" class="accordion-collapse collapse show" aria-labelledby="headingFeatured"
+                  data-bs-parent="#accordionRental">
+                  <br class="accordion-body text-sm opacity-8" />
+                  <div class="row">
+                    
+                    <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                      <p class="text-sm"><h6 id="202305-graph-neural-networks-for-large-scale-scientific-simulations-at-首届人工智能科学计算研讨会">[2023/05] Graph Neural Networks for Large-scale Scientific Simulations, at <a href="https://www.jiqizhixin.com/articles/2023-05-28-5">首届人工智能科学计算研讨会</a></h6>
+
+</p>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                      <p class="text-sm"><h6 id="202303-steps-toward-an-ai-scientist-neuro-symbolic-models-for-concept-generalization-and-theory-learning-at-aaai-2023-symposium-of-computational-approaches-to-scientific-discovery">[2023/03] Steps toward an AI scientist: neuro-symbolic models for concept generalization and theory learning, at <a href="https://cogsys.org/symposium/discovery-2023/schedule.html">AAAI 2023 Symposium of Computational Approaches to Scientific Discovery</a></h6>
+
+<p><span class="badge bg-info"><a href="https://drive.google.com/file/d/1pOW2QNBDrOoASE_1bQ-kLck17rMPINXh/view?usp=share_link">slides</a></span></p>
+</p>
+                    </div>
+                    
+                    <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                      <p class="text-sm"><h6 id="202303-ai--science-motivation-advances-and-open-problems-at-swarma-集智">[2023/03] <a href="https://pattern.swarma.org/study_group_issue/439">AI + Science: motivation, advances and open problems</a>, at Swarma (集智)</h6>
+
+<p><span class="badge bg-info"><a href="https://tailin.org/wp-content/uploads/2023/05/AIScience-motivation-advances-and-open-problems.pdf">slides</a></span> <span class="badge bg-info"><a href="https://mp.weixin.qq.com/s?__biz=MzIzMjQyNzQ5MA==&amp;mid=2247662658&amp;idx=1&amp;sn=90142fbe669a1b4081c54a6c7e288931">summary</a></span></p>
+</p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h5 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button border-bottom font-weight-bold text-start"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Other talks
+                    <i
+                      class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"
+                    ></i>
+                    <i
+                      class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"
+                    ></i>
+                  </button>
+                </h5>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionRental"
+                >
+                  <div class="accordion-body text-sm opacity-8">
+                    <div class="row">
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202504--生成模型用于复杂系统的设计与控制以及test-time-scalingat-北大前沿探索者沙龙">[2025/04]  生成模型用于复杂系统的设计与控制以及test-time scaling，at <a href="https://ele.pku.edu.cn/info/1012/3606.htm">北大前沿探索者沙龙</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202412--ai科学和工程从2025到2035at-浦江ai学术年会">[2024/12]  AI+科学和工程：从2025到2035，at <a href="https://www.shlab.org.cn/event/detail/84">浦江AI学术年会</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202410--基于扩散生成模型的复杂系统设计和控制-at-cncc-2024">[2024/10]  基于扩散生成模型的复杂系统设计和控制, at CNCC 2024</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202410--learning-adaptive-and-compositional-networks-for-multi-resolution-simulation-and-inverse-design-at-ims-ntu-joint-workshop-on-applied-geometry-for-data-sciences-part-i">[2024/10]  Learning adaptive and compositional networks for multi-resolution simulation and inverse design, at <a href="https://ims.nus.edu.sg/events/applied-geometry-for-data-sciences-part-i/">IMS-NTU joint workshop on Applied Geometry for Data Sciences, Part I</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202407--designing-and-controlling-complex-systems-via-diffusion-generative-models-at-the-10th-shanghai-international-symposium-on-nonlinear-sciences-and-applications">[2024/07]  Designing and controlling complex systems via diffusion generative models, at the <a href="https://global.cumt.edu.cn/info/1002/2018.htm">10th Shanghai International Symposium on Nonlinear Sciences and Applications</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202404--envisioning-ai--science-in-2030-at--2050-yunqi-forum">[2024/04]  Envisioning AI + Science in 2030, at  <a href="https://2050.org.cn/#/">2050 Yunqi Forum</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202403---uncertainty-quantification-for-forward-and-inverse-problems-of-pdes-via-latent-global-evolution-at-siam-conference-on-uncertainty-quantification-uq24">[2024/03]   Uncertainty Quantification for Forward and Inverse Problems of PDEs via Latent Global Evolution, at <a href="https://www.siam.org/conferences/cm/conference/uq24">SIAM Conference on Uncertainty Quantification (UQ24)</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202402--compositional-generative-inverse-design-at-ai4science-talks">[2024/02]  Compositional generative inverse design, at <a href="https://ai4sciencetalks.github.io/projects/compositional_invdesign_tailinwu/">AI4Science Talks</a></h6>
+
+<p><span class="badge bg-info"><a href="https://tailin.org/wp-content/uploads/2024/02/Presentation.pdf">slide</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202401-machine-learning-for-accelerating-scientific-simulation-design-and-control-at-annual-meeting-of-peking-university-center-for-quantitative-biology">[2024/01] Machine learning for accelerating scientific simulation, design and control, at <a href="https://cqb.pku.edu.cn/xshd/xsnh.htm">Annual Meeting of Peking University Center for Quantitative Biology</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202311-gnn-for-scientific-simulations-towards-adaptive-multi-resolution-simulators-and-a-foundation-neural-operator-at-log-shanghai-meetup">[2023/11] GNN for scientific simulations: towards adaptive multi-resolution simulators and a foundation neural operator, at <a href="https://log2023sh.github.io/">LoG Shanghai Meetup</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202308-machine-learning-of-structured-representations-for-accelerating-scientific-discovery-and-simulation-invited-talk-at-cps-fall-meeting中国物理学会-2023-秋季会议">[2023/08] <a href="https://www.phys.tsinghua.edu.cn/phyen/info/1048/1811.htm">Machine learning of structured representations for accelerating scientific discovery and simulation</a>, invited talk at <a href="https://meeting.cps-net.org.cn/nxu2023">CPS Fall Meeting</a>（中国物理学会 2023 秋季会议）</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202308-graph-neural-network-for-accelerating-scientific-simulation-at-2023-科学智能峰会">[2023/08] Graph neural network for accelerating scientific simulation, at <a href="https://www.news.cn/tech/zt/2023kxznfh/index.html">2023 科学智能峰会</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202308-phase-transitions-in-the-universal-tradeoff-between-accuracy-and-simplicity-in-machine-learning-at-hk-satellite-of-statphys28">[2023/08] Phase transitions in the universal tradeoff between accuracy and simplicity in machine learning, at <a href="https://www.icts.hkbu.edu.hk/statphys28">HK Satellite of StatPhys28</a></h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202307-走向ai物理学家做科学发现和仿真-at-果壳未来光锥">[2023/07] <a href="https://new.qq.com/rain/a/20230810A04LDB00">走向AI物理学家，做科学发现和仿真</a>, at 果壳未来光锥</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202306-machine-learning-of-structured-representations-for-accelerating-scientific-discovery-and-simulation-at-tsinghua-university">[2023/06] <a href="https://www.phys.tsinghua.edu.cn/phyen/info/1048/1811.htm">Machine learning of structured representations for accelerating scientific discovery and simulation</a>, at Tsinghua University</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202306-learning-structured-representations-for-accelerating-simulation-and-design-at-school-of-intelligence-science-and-technology-peking-university">[2023/06] Learning structured representations for accelerating simulation and design, at School of Intelligence Science and Technology, Peking University</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202305-steps-toward-an-ai-scientist-neuro-symbolic-models-for-concept-generalization-and-theory-learning-at-brown-university-autonomous-empirical-research-group">[2023/05] Steps toward an AI scientist: neuro-symbolic models for concept generalization and theory learning, at Brown University Autonomous Empirical Research group.</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202304-learning-controllable-adaptive-simulation-for-multi-resolution-physics-at-stanford-data-for-sustainability-conference-2023">[2023/04] Learning Controllable Adaptive Simulation for Multi-resolution Physics, at <a href="https://datascience.stanford.edu/research/research-areas/center-sustainability-data-science/data-sustainability-conference-2023">Stanford Data for Sustainability Conference 2023</a></h6>
+
+<p><span class="badge bg-info"><a href="https://docs.google.com/presentation/d/1wAVa_gH3RAn8hDeEc8el0J_qehH3grAEsCPesZAiV7E/edit?usp=sharing">slides</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202304-ai-for-scientific-design-surrogate-model--backpropagation-method-at-swarma">[2023/04] AI for scientific design: Surrogate model + backpropagation method, at <a href="https://pattern.swarma.org/study_group_issue/450">Swarma</a></h6>
+
+<p><span class="badge bg-info"><a href="https://tailin.org/wp-content/uploads/2023/05/AI-for-scientific-design_Surrogate-models.pdf">slides</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202303-learning-controllable-adaptive-simulation-for-multi-resolution-physics-at-techbeat">[2023/03] Learning Controllable Adaptive Simulation for Multi-resolution Physics, at <a href="https://www.techbeat.net/talk-info?id=755&amp;utm_campaign=0308吴泰霖&amp;utm_medium=知乎&amp;utm_source=知乎&amp;gio_link_id=EoZkA2k9">TechBeat</a></h6>
+
+<p><span class="badge bg-info"><a href="https://docs.google.com/presentation/d/1_mpVCRTZ-dMFylmWtwEfjyaeouj4cepaRl1aOb-4l9o/edit#slide=id.p">slides</a></span> <span class="badge bg-info"><a href="https://www.youtube.com/watch?v=GGwXWQcnF_g">video</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202302-zeroc-a-neuro-symbolic-model-for-zero-shot-concept-recognition-and-acquisition-at-inference-time-at-ai-time">[2023/02] ZeroC: A Neuro-Symbolic Model for Zero-shot Concept Recognition and Acquisition at Inference Time, at <a href="https://www.aminer.cn/">AI Time</a></h6>
+
+<p><span class="badge bg-info"><a href="https://docs.google.com/presentation/d/1fLhV7m09iCK5Xf_PXKhF-1pSv8MMyZeiOHgmGFtn9gs/edit?usp=sharing">slides</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202302-graph-neural-networks-for-large-scale-simulations-at-stanford-hai-climate-centred-student-affinity-group">[2023/02] Graph Neural Networks for Large-scale Simulations, at Stanford HAI Climate-Centred Student Affinity Group</h6>
+
+<p><span class="badge bg-info"><a href="https://docs.google.com/presentation/d/1joJKSsozevQx1W1V8_0XO6DS5qAXZCCqUFv3nNnVRSA/edit?usp=sharing">slides</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202212-steps-toward-an-ai-scientist-neuro-symbolic-models-for-zero-shot-learning-of-concepts-and-theories-at-bigai">[2022/12] Steps toward an AI scientist: neuro-symbolic models for zero-shot learning of concepts and theories, at BIGAI</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202209-learning-to-accelerate-large-scale-physical-simulations-in-fluid-and-plasma-physics-at-siam-2022-conference-on-mathematics-of-data-science">[2022/09] Learning to Accelerate Large-Scale Physical Simulations in Fluid and Plasma Physics, at SIAM 2022 Conference on Mathematics of Data Science</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202206-learning-to-accelerate-simulation-and-inverse-optimization-of-pdes-via-latent-global-evolution-stanford-cs-ml-lunch">[2022/06] Learning to accelerate simulation and inverse optimization of PDEs via latent global evolution, Stanford CS ML lunch</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202112-machine-learning-of-physics-theories-at-alan-turing-institute-machine-learning-and-dynamical-systems-seminar">[2021/12] Machine learning of physics theories, at Alan Turing Institute, Machine Learning and Dynamical Systems Seminar</h6>
+
+<p><span class="badge bg-info"><a href="https://www.youtube.com/watch?v=H4vFTkXAj6M">video</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202110-graph-information-bottleneck-at-beijing-academy-of-artificial-intelligence-baai">[2021/10] Graph Information Bottleneck, at Beijing Academy of Artificial Intelligence (BAAI)</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202106-machine-learning-of-physics-theories-and-its-universal-tradeoff-between-accuracy-and-simplicity-at-workshop-on-artificial-scientific-discovery-2021">[2021/06] Machine learning of physics theories and its universal tradeoff between accuracy and simplicity, at <a href="https://mpl.mpg.de/divisions/marquardt-division/workshops/2021-artificial-scientific-discovery/#:~:text=6%3A20%20pm%C2%A0%C2%A0Tailin%20Wu%20(Stanford)%3A%20Machine%20learning%20of%20physics%20theories%20and%20its%20universal%20tradeoff%20between%20accuracy%20and%20simplicity">Workshop on Artificial Scientific Discovery 2021</a></h6>
+
+<p><span class="badge bg-info"><a href="https://owncloud.gwdg.de/index.php/s/vWZmzGmskA0QZqD">slides</a></span> <span class="badge bg-info"><a href="https://mpl.mpg.de/divisions/marquardt-division/workshops/2021-artificial-scientific-discovery/#:~:text=6%3A20%20pm%C2%A0%C2%A0Tailin%20Wu%20(Stanford)%3A%20Machine%20learning%20of%20physics%20theories%20and%20its%20universal%20tradeoff%20between%20accuracy%20and%20simplicity">video</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202104-phase-transitions-on-the-tradeoff-between-prediction-and-compression-in-machine-learning-stanford-cs-ml-lunch">[2021/04] Phase transitions on the tradeoff between prediction and compression in machine learning, Stanford CS ML lunch</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202104-machine-learning-of-physics-theories-at-workshop-on-artificial-scientific-discovery-2021-summer-school-hosted-by-max-planck-institute-for-the-science-of-light">[2021/04] Machine Learning of Physics Theories, at <a href="https://mpl.mpg.de/divisions/marquardt-division/workshops/2021-artificial-scientific-discovery/">Workshop on Artificial Scientific Discovery 2021</a>, Summer school hosted by Max Planck Institute for the Science of Light</h6>
+
+<p><span class="badge bg-info"><a href="https://owncloud.gwdg.de/index.php/s/vWZmzGmskA0QZqD">slides</a></span> <span class="badge bg-info"><a href="https://owncloud.gwdg.de/index.php/s/MJnaForZTWvfijB">video</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202103-learning-to-accelerate-the-simulation-of-pdes-at-clariphy-topical-meetings">[2021/03] <a href="https://indico.fnal.gov/event/47822/">Learning to accelerate the simulation of PDEs</a>, at <a href="https://clariphy.org/topical.html">CLARIPHY Topical Meetings</a></h6>
+
+<p><span class="badge bg-info"><a href="https://www.youtube.com/watch?v=Q8yA9cjOR5I&amp;t=0">video</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202102-phase-transitions-on-the-universal-tradeoff-between-prediction-and-compression-in-machine-learning-at-math-machine-learning-seminar-mpi-mis--ucla">[2021/02] <a href="https://www.mis.mpg.de/calendar/lectures/2021/abstract-32076.html">Phase transitions on the universal tradeoff between prediction and compression in machine learning</a>, at Math Machine Learning seminar MPI MIS + UCLA</h6>
+
+<p><span class="badge bg-info"><a href="https://media.mis.mpg.de/mml/2021-02-04">video</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202102-machine-learning-of-physics-theories-at-seminar-series-of-sjtu-institute-of-science">[2021/02] <a href="https://www.ins.sjtu.edu.cn/seminars/2021/02/25/machine-learning-of-physics-theories/1867">Machine Learning of Physics Theories</a>, at Seminar Series of SJTU Institute of Science</h6>
+
+<p><span class="badge bg-info"><a href="https://ins.sjtu.edu.cn/seminars/1867">video</a></span></p>
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202010-machine-learning-of-physics-theories-and-its-universal-tradeoff-between-accuracy-and-simplicity-at-los-alamos-national-lab">[2020/10] Machine learning of physics theories and its universal tradeoff between accuracy and simplicity, at Los Alamos National Lab</h6>
+
+</p>
+                      </div>
+                      
+                      <div class="col-sm-6 col-lg-4 mt-lg-1 mt-4">
+                        <p class="text-sm"><h6 id="202002-phase-transitions-for-the-information-bottleneck-uiuc">[2020/02] Phase transitions for the information bottleneck, UIUC</h6>
+
+</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- News Carousel -->
+          <section class="pt-7 position-relative">
+            <a href="/news"><h2>News</h2></a>
+            <div
+              id="carousel-testimonials"
+              class="carousel slide carousel-team"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="mit-technology-review-and-motherboard-featured-our-work-toward-an-ai-physicist-for-unsupervised-learning"><a href="https://www.technologyreview.com/2018/11/01/1895/an-ai-physicist-can-derive-the-natural-laws-of-imagined-universes/">MIT Technology Review</a> and <a href="https://www.vice.com/en/article/evwj9p/researchers-created-an-ai-physicist-that-can-derive-the-laws-of-physics-in-imaginary-universes">MotherBoard</a> featured our work <a href="https://arxiv.org/abs/1810.10525">Toward an AI Physicist for Unsupervised Learning</a>.</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="best-poster-award-at-icml-time-series-workshop"><span style="color: red;">Best Poster Award</span> at ICML Time Series Workshop</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="our-paper-graph-information-bottleneck-was-featured-in-synced-ai-technology--industry-review-机器之心">Our paper <a href="https://arxiv.org/abs/2010.12811">Graph Information Bottleneck</a> was featured in <a href="https://www.jiqizhixin.com/articles/2020-10-31-4?from=synced&amp;keyword=图信息瓶颈">Synced AI Technology &amp; Industry Review (机器之心)</a>.</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="our-paper-toward-an-ai-physicist-for-unsupervised-learning-published-at-physical-review-e-as-part-of-a-pre-spotlight-on-machine-learning-in-physics">Our paper <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.033311">Toward an AI Physicist for Unsupervised Learning</a> published at Physical Review E as part of a <a href="https://journals.aps.org/pre/">PRE Spotlight on Machine Learning in Physics</a>.</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="organized-deep-learning-for-simulation-workshop-in-iclr-2021">Organized “<a href="https://simdl.github.io/">Deep Learning for Simulation</a>” workshop in ICLR 2021</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="guest-lecture-at-caltech-cs159-ai-physicist-and-machine-learning-for-simulations">Guest lecture at <a href="https://sites.google.com/view/cs159/lectures?authuser=0">Caltech CS159</a>, “<a href="https://drive.google.com/file/d/1cYFChLUVJZakZhnF81kNlS14WBV2HnQL/view?usp=sharing">AI Physicist and Machine Learning for Simulations</a>”</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="invited-talk-at-lawrence-livermore-national-laboratory-llnls-ddps-seminar-learning-to-accelerate-large-scale-physical-simulations">Invited talk at Lawrence Livermore National Laboratory (LLNL)’s DDPS seminar, “<a href="https://www.youtube.com/watch?v=UJw4aM5D5bo">Learning to accelerate large-scale physical simulations</a>”.</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="i-have-been-organizing-a-bi-weekly-reading-group-on-simulation-and-inverse-design-with-20-participants-phds-postdocs-assistant-professor-from-cs-ee-me-and-energy-departments-from-stanford-mit-and-caltech-each-time-we-spend-1h-discussing-a-relevant-paper-deeply-thursday-4-5pm-pt-friday-7am-beijing-time-contact-me-if-you-want-to-participate">I have been organizing a bi-weekly <font color="red">Reading Group</font> <strong>on Simulation and Inverse Design</strong>, with &gt;20 participants (Ph.Ds, postdocs, assistant professor) from CS, EE, ME, and Energy departments from Stanford, MIT, and Caltech. Each time we spend 1h discussing a relevant paper deeply (Thursday 4-5pm PT, Friday 7am Beijing time). Contact me if you want to participate!</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="iclr-2023-spotlight-for-our-paper-learning-controllable-adaptive-simulation-for-multi-resolution-physics">ICLR 2023 Spotlight for our paper “<a href="https://openreview.net/forum?id=PbfgkZ2HdbE">Learning Controllable Adaptive Simulation for Multi-resolution Physics</a>”.</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="aaai-2024-oral-for-our-paper-uncertainty-quantification-for-forward-and-inverse-problems-of-pdes-via-latent-global-evolution">AAAI 2024 oral for our paper “<a href="https://arxiv.org/abs/2402.08383">Uncertainty Quantification for Forward and Inverse Problems of PDEs via Latent Global Evolution</a>”</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="iclr-2024-spotlight-for-our-paper-compositional-generative-inverse-design">ICLR 2024 Spotlight for our paper “<a href="https://openreview.net/forum?id=wmX0CqFSd7">Compositional Generative Inverse Design</a>”.</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="mit-technology-review西湖大学吴泰霖用-ai-助力科学仿真和发现可控权衡预测精度和计算效率">MIT Technology Review:<a href="https://www.mittrchina.com/news/detail/12687">西湖大学吴泰霖：用 AI 助力科学仿真和发现，可控权衡预测精度和计算效率</a></h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="co-organize-neurips-2024-safe-generative-ai-workshop">Co-organize <a href="https://safegenaiworkshop.github.io/">NeurIPS 2024 Safe Generative AI Workshop</a></h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="featured-in-35-challenges-in-materials-science-being-tackled-by-pis-under-35ish-in-2024-in-matter-by-cell-press">Featured in <a href="https://www.cell.com/matter/abstract/S2590-2385(24)00505-8">35 challenges in materials science being tackled by PIs under 35(ish) in 2024</a> in <em>Matter</em> by <em>Cell Press</em></h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="实验室博士后魏龙荣获2024年度西湖大学优秀博士后">实验室博士后魏龙，荣获2024年度西湖大学优秀博士后</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="our-cl-diffycon-paper-is-nominated-outstanding-youth-paper-award-at-china-embodied-ai-conference-ceai-2025">Our <a href="https://openreview.net/forum?id=PiHGrTTnvb">CL-DiffyCon</a> paper is nominated Outstanding Youth Paper Award at China Embodied AI Conference (CEAI 2025)</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="实验室博士后魏龙将加入复旦大学人工智能创新与产业研究院任助理教授">实验室博士后魏龙将加入复旦大学人工智能创新与产业研究院任助理教授</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="we-release-buildarena-where-llm-agents-design-build-and-test-rockets-cars-and-bridges-in-a-physics-simulator-with-buildarena-ais-turn-words-into-designs-blueprints-and-finally-3d-mechanisms-tested-in-real-time-physics">We release <a href="https://build-arena.github.io">BuildArena</a>, where LLM agents design, build, and test rockets, cars, and bridges in a physics simulator! With BuildArena, AIs turn words into designs, blueprints, and finally, 3D mechanisms tested in real-time physics!</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="西湖大学解锁-ai-新角色基建工程师-火箭桥梁都能造-首次让语言驱动工程实现闭环-deeptech-深科技报道">西湖大学解锁 AI 新角色：基建工程师, 火箭桥梁都能造! 首次让语言驱动工程实现闭环 <a href="https://mp.weixin.qq.com/s/5cPMQN91SV7pxnVH1CJN3A">[DeepTech 深科技报道]</a></h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="our-lab-has-7-papers-accepted-at-iclr-x">Our lab has 7 papers accepted at ICLR! <a href="https://x.com/tailin_wu/status/2015778055969767444">[X]</a></h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="buildarena-20-challenge-is-now-open-collaborate-with-agents-to-build-rockets-that-can-circle-the-earth-1000-prize-pool-challenge-homepagekaggle知乎">BuildArena 2.0 Challenge is now open! Collaborate with Agents to build rockets that can circle the Earth! $1000 prize pool! <a href="https://build-arena.github.io/ConstructionChallenge/">[Challenge homepage]</a><a href="https://www.kaggle.com/competitions/build-arena-human-ai-colleberation-engineering-challenge">[Kaggle]</a><a href="https://zhuanlan.zhihu.com/p/2060320041313243447">[知乎]</a></h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+                <div
+                  class="carousel-item active "
+                >
+                  <div class="row align-items-center">
+                    <div class="col-md-12 me-lg-auto position-relative">
+                      <h1
+                        class="text-dark display-3 font-weight-bolder fadeIn2 fadeInBottom"
+                      >
+                        <h6 id="announcing-neurips-2026-realpde-competition-21000-prize-pool-2-tracks-compete-and-develop-in-the-first-neurips-scientific-ml-competition-centered-on-data-from-real-physical-systems">Announcing <a href="https://realpdecompetition.github.io/">NeurIPS 2026 RealPDE Competition</a>! $21000 prize pool, 2 tracks, compete and develop in the first NeurIPS Scientific ML competition centered on data from real physical systems!</h6>
+
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+
+          <!-- Group Member -->
+          <div class="row pt-7">
+            <div class="col-lg-10">
+              <a href="/people"
+                ><h2>About Our Team</h2></a
+              >
+              <p>The Journey is the Reward</p>
+              <div class="col-12">
+                  
+                <a
+                  href="/people#principal-investigator"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Tailin Wu"
+                >
+                  <img
+                    alt="principal-investigator"
+                    src="../../assets/img/memoji/tailinwu.png"
+                  />
+                </a>
+                     
+                <a
+                  href="/people#postdocs"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Long Wei"
+                >
+                  <img
+                    alt="postdocs"
+                    src="../../assets/img/memoji/longwei.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#postdocs"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Qianyi Chen"
+                >
+                  <img
+                    alt="postdocs"
+                    src="../../assets/img/memoji/qianyichen.png"
+                  />
+                </a>
+                      
+                <a
+                  href="/people#phd-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Tao Zhang"
+                >
+                  <img
+                    alt="phd-students"
+                    src="../../assets/img/memoji/taozhang.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#phd-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Jiaxin Li"
+                >
+                  <img
+                    alt="phd-students"
+                    src="../../assets/img/memoji/jiaxinli.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#phd-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Ruiqi Feng"
+                >
+                  <img
+                    alt="phd-students"
+                    src="../../assets/img/memoji/ruiqifeng.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#phd-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Chenglei Yu"
+                >
+                  <img
+                    alt="phd-students"
+                    src="../../assets/img/memoji/chengleiyu.png"
+                  />
+                </a>
+                         
+                <a
+                  href="/people#research-assistant"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Wenhao Deng"
+                >
+                  <img
+                    alt="research-assistant"
+                    src="../../assets/img/memoji/wenhaodeng.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#research-assistant"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Tian Xia"
+                >
+                  <img
+                    alt="research-assistant"
+                    src="../../assets/img/memoji/tianxia.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#research-assistant"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Yi Dai"
+                >
+                  <img
+                    alt="research-assistant"
+                    src="../../assets/img/memoji/yidai.png"
+                  />
+                </a>
+                     
+                <a
+                  href="/people#visiting-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Peiyan Hu"
+                >
+                  <img
+                    alt="visiting-students"
+                    src="../../assets/img/memoji/peiyanhu.png"
+                  />
+                </a>
+                  
+                <a
+                  href="/people#visiting-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Haodong Feng"
+                >
+                  <img
+                    alt="visiting-students"
+                    src="../../assets/img/memoji/haodongfeng.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#visiting-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Tao Zhang"
+                >
+                  <img
+                    alt="visiting-students"
+                    src="../../assets/img/memoji/taozhang2.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#visiting-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Xiaowei Qian"
+                >
+                  <img
+                    alt="visiting-students"
+                    src="../../assets/img/memoji/xiaoweiqian.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#visiting-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Tianci Bu"
+                >
+                  <img
+                    alt="visiting-students"
+                    src="../../assets/img/memoji/tiancibu.png"
+                  />
+                </a>
+                  
+                <a
+                  href="/people#visiting-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Chuanrui Wang"
+                >
+                  <img
+                    alt="visiting-students"
+                    src="../../assets/img/memoji/chuanruiwang.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#visiting-students"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Hao Ma"
+                >
+                  <img
+                    alt="visiting-students"
+                    src="../../assets/img/memoji/haoma.png"
+                  />
+                </a>
+                     
+                <a
+                  href="/people#undergraduate"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Zebang Wu"
+                >
+                  <img
+                    alt="undergraduate"
+                    src="../../assets/img/memoji/zebangwu.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#undergraduate"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Yixian Jiang"
+                >
+                  <img
+                    alt="undergraduate"
+                    src="../../assets/img/memoji/yixianjiang.png"
+                  />
+                </a>
+                     
+                <a
+                  href="/people#collaborator"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Haixin Wang, Peking University"
+                >
+                  <img
+                    alt="collaborator"
+                    src="../../assets/img/memoji/haixinwang.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#collaborator"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Qianru Zhang, HKU"
+                >
+                  <img
+                    alt="collaborator"
+                    src="../../assets/img/memoji/qianruzhang.png"
+                  />
+                </a>
+                       
+                <a
+                  href="/people#alumnus"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Siyuan Li"
+                >
+                  <img
+                    alt="alumnus"
+                    src="../../assets/img/memoji/siyuanli.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#alumnus"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Yixuan Du"
+                >
+                  <img
+                    alt="alumnus"
+                    src="../../assets/img/memoji/yixuandu.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#alumnus"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Rui Wang"
+                >
+                  <img
+                    alt="alumnus"
+                    src="../../assets/img/memoji/ruiwang.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#alumnus"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Xiang Zheng"
+                >
+                  <img
+                    alt="alumnus"
+                    src="../../assets/img/memoji/xiangzheng.png"
+                  />
+                </a>
+                 
+                <a
+                  href="/people#alumnus"
+                  class="avatar avatar-lg"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Shiwen Wang"
+                >
+                  <img
+                    alt="alumnus"
+                    src="../../assets/img/memoji/shiwenwang.png"
+                  />
+                </a>
+                   
+              </div>
+            </div>
+            <div
+              class="col-lg-2 text-end d-flex flex-column justify-content-center"
+            >
+              <!-- <button type="button" class="btn bg-gradient-info mb-0 ms-lg-auto me-lg-0 me-auto mt-lg-0 mt-2">Join Team</button> -->
+              <a
+                href="/opening"
+                class="btn bg-gradient-success mb-0 ms-lg-auto me-lg-0 me-auto mt-lg-0 mt-2"
+                >Join Us</a
+              >
+            </div>
+          </div>
+          <div class="card pt-3 pe-lg-7 ps-lg-7" style="box-shadow: none">
+            <a href="/people#gallary">
+              <img src="/assets/img/gallary/pic12.png" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------- END SECTION 3 w/ waves and typed text ------- -->
+
+    <!-- -------- START FOOTER 5 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
+    <footer class="footer py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mb-4 mx-auto text-center">
+        
+        <a
+          href="/"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Home
+        </a>
+        
+        <a
+          href="/people"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          People
+        </a>
+        
+        <a
+          href="/publications"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Publications
+        </a>
+        
+        <a
+          href="/blogs"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Blogs
+        </a>
+        
+        <a
+          href="/talks"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Talks
+        </a>
+        
+        <a
+          href="/news"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          News
+        </a>
+        
+        <a
+          href="/course/frontiers-2026/"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Course
+        </a>
+        
+        <a
+          href="/opening"
+          target="_blank"
+          class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2"
+        >
+          Opening
+        </a>
+        
+      </div>
+      <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
+        
+        <a
+          href="https://github.com/AI4Science-WestlakeU"
+          target="_blank"
+          class="text-secondary me-xl-4 me-4"
+        >
+          <span class="text-lg fab fa-github-alt"></span>
+        </a>
+        
+        <a
+          href="https://twitter.com/tailin_wu"
+          target="_blank"
+          class="text-secondary me-xl-4 me-4"
+        >
+          <span class="text-lg fab fa-x-twitter"></span>
+        </a>
+         
+        <a class="text-secondary me-xl-4 me-4" href="/zh/">
+          <span class="fa-solid fa-language"></span>
+        </a>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8 mx-auto text-center mt-1">
+        <p class="mb-0 text-secondary">
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          by Tailin Wu Lab
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- -------- END FOOTER 5 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
+    <!--   Core JS Files   -->
+    <!--   Core JS Files   -->
+<script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/perfect-scrollbar.min.js"></script>
+<!--  Plugin for TypedJS, full documentation here: https://github.com/mattboldt/typed.js/ -->
+<script src="/assets/js/plugins/typedjs.js"></script>
+<!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
+<script src="/assets/js/plugins/parallax.min.js"></script>
+<!--  Plugin for SmoothScroll, full documentation here: https://github.com/cferdinandi/smooth-scroll -->
+<script src="/assets/js/plugins/smooth-scroll.min.js"></script>
+<!--  Plugin for the Sliders, full documentation here: https://refreshless.com/nouislider/ -->
+<script
+  src="/assets/js/plugins/nouislider.min.js"
+  type="text/javascript"
+></script>
+<!--  Plugin for the blob animation -->
+<script src="/assets/js/plugins/anime.min.js" type="text/javascript"></script>
+<!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
+<!--  Google Maps Plugin    -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script> -->
+<script
+  src="/assets/js/material-kit-pro.min.js?v=3.0.4"
+  type="text/javascript"
+></script>
+
+    <script>
+      if (document.getElementById("typed")) {
+        var typed = new Typed("#typed", {
+          stringsElement: "#typed-strings",
+          typeSpeed: 70,
+          backSpeed: 50,
+          backDelay: 200,
+          startDelay: 500,
+          loop: true,
+        });
+      }
+    </script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+    <script>
+      var myCarousel = document.querySelector("#carousel-testimonials");
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 2000, // 1 seconds
+      });
+    </script>
+  </body>
+</html>

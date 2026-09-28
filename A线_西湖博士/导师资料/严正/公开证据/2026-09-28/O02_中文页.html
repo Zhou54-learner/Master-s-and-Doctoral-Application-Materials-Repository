@@ -1,0 +1,799 @@
+<html lang="zh">
+  <head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!--对页面标题-->
+  <meta name="title" content="" />
+  <!--对页面的描述-->
+  <meta name="description" content="" />
+  <!--页面关键字-->
+  <meta name="keywords" content="" />
+  <title>严正博士 - 西湖大学</title>
+  <script>
+  window.nav = "走进西湖";
+  </script>
+  <script src="../images/facultyDetail.js"></script>
+  <link rel="icon" pre-href="$assetsPublicPathfavicon.ico"></head>
+
+<body>
+  <div class="seo_content">
+    <!-- 
+     此处填写seo优化代码
+     通常直接用 “置标” 填写需要被抓取到的服务端渲染内容
+     注：该区域不会显示在页面上
+     -->
+  </div>
+  <div class="body_container">
+    <html>
+<head>
+<link rel="stylesheet" href="" pre-href="$assetsPublicPathiconfont.css">
+<script src="/images/header.js"></script>
+</head>
+<body>
+<div id="headerEn" class="header"></div>
+  <script>
+    new header("#headerEn", {
+      headerNav: window.nav,
+      placeholder:"输入关键词搜索",
+      quickList: [
+        // {
+        //   text: "Faculty",
+        //   url: "#",
+        //   target: "_self",
+        // },
+        // {
+        //   text: "Students",
+        //   url: "#",
+        //   target: "_self",
+        // },
+        // {
+        //   text: "Staff",
+        //   url: "#",
+        //   target: "_self",
+        // },
+      ],
+      maskObj: {
+        
+        keywords: "Support Us",//当前点击文案（头部Support Us和尾部Giving不同）
+        title: "请联系：",
+        brief: "公共事务部",
+        list: [
+        
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586747778.png",
+            name: "电话",
+            text: "0571-86886861",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586894337.png",
+            name: "邮箱",
+            text: "media@westlake.edu.cn",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552587092891.png",
+            name: "传真",
+            text: "0571-88111699",
+          }
+          
+        
+        ]
+      
+      },
+      // 跳转到搜索页searchList
+      callback: (keywords) => {
+        console.log("home-keywords ", keywords);
+        window.location.href = "/others/search/?keywords=" + keywords;
+      },
+      homeObj: {
+    url: "https://en.westlake.edu.cn/",
+        target: "_blank",
+      },
+      chineseObj: {
+        url: "https://www.westlake.edu.cn/",
+        target: "_self",
+      },
+      quickLink: [
+      
+      {
+        text: "党群",
+        url: "https://dq.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "捐赠",
+        url: "https://wudf.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "湖心讲堂",
+        url: "https://huxin.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "求是西湖",
+        url: "https://qiushi.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "图书馆",
+        url: "https://www.westlake.edu.cn/academics/library/",
+        target: "_blank",
+      },
+      
+      {
+        text: "附属医院",
+        url: "https://www.hz-hospital.com/",
+        target: "_blank",
+      },
+      
+
+      ],
+      navList: [
+      
+        {
+          text: "走进西湖",
+          active: true,//需要加高亮的设置active:true;不需要的设置false，或者不设置
+          url: "#",
+          target: "_self",
+          imgUrl: "https://www.westlake.edu.cn/about/images/P020250928502674278558.jpg",
+          children: [
+          
+            {
+              text: "学校概况",
+              url: "https://www.westlake.edu.cn/about/facts_history/",
+              target: "_self",
+            },
+          
+            {
+              text: "校长寄语",
+              url: "https://www.westlake.edu.cn/about/message_from_president/",
+              target: "_self",
+            },
+          
+            {
+              text: "组织架构",
+              url: "https://www.westlake.edu.cn/about/leadership_organization/",
+              target: "_self",
+            },
+          
+            {
+              text: "导师团队",
+              url: "https://www.westlake.edu.cn/about/faculty/",
+              target: "_self",
+            },
+          
+            {
+              text: "合作交流",
+              url: "https://www.westlake.edu.cn/about/partnerships/",
+              target: "_self",
+            },
+          
+            {
+              text: "资料下载",
+              url: "https://www.westlake.edu.cn/about/VIS/",
+              target: "_self",
+            },
+          
+            {
+              text: "联系我们",
+              url: "https://www.westlake.edu.cn/about/contact_us/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "教育教学",
+          imgUrl: "https://www.westlake.edu.cn/academics/images/P020241230494630827541.jpeg",
+          children: [
+          
+            {
+              text: "本科生教育",
+              url: "https://www.westlake.edu.cn/academics/undergraduate_studies/",
+              target: "_self",
+            },
+          
+            {
+              text: "博士生教育",
+              url: "https://www.westlake.edu.cn/academics/graduate_studies/",
+              target: "_self",
+            },
+          
+          
+            {
+              text: "理学院",
+              url: "https://science.westlake.edu.cn/zh/",
+              target: "_blank",
+            },
+          
+            {
+              text: "工学院",
+              url: "https://engineering.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+            {
+              text: "生命科学学院",
+              url: "https://sls.westlake.edu.cn/About/Overview/",
+              target: "_blank",
+            },
+          
+            {
+              text: "医学院",
+              url: "https://medicine.westlake.edu.cn/About/",
+              target: "_blank",
+            },
+          
+            {
+              text: "西湖卓越学者计划",
+              url: "https://westlakefellows.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "教学日历",
+              url: "https://www.westlake.edu.cn/academics/academic_calendar/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "科学研究",
+          imgUrl: "https://www.westlake.edu.cn/research/images/P020250928391588094108.jpg",
+          children: [
+          
+            {
+              text: "科研进展",
+              url: "https://www.westlake.edu.cn/research/research_at_westlake/",
+              target: "_self",
+            },
+          
+            {
+              text: "创新平台",
+              url: "https://www.westlake.edu.cn/research/centers_institutes/",
+              target: "_self",
+            },
+          
+            {
+              text: "校级公共科研平台",
+              url: "https://www.westlake.edu.cn/research/research_facilities/",
+              target: "_self",
+            },
+          
+            {
+              text: "成果转化",
+              url: "https://www.westlake.edu.cn/research/innovation/",
+              target: "_self",
+            },
+          
+            {
+              text: "学术交流",
+              url: "https://www.westlake.edu.cn/research/academic_exchanges/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "招生与奖助",
+          imgUrl: "https://www.westlake.edu.cn/admissions/images/P020241230495205609325.jpg",
+          children: [
+          
+            {
+              text: "本科生招生",
+              url: "https://zh-ugadmissions.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "博士生招生",
+              url: "https://www.westlake.edu.cn/admissions/graduate/",
+              target: "_self",
+            },
+          
+          
+            {
+              text: "国际学生招生",
+              url: "https://en.westlake.edu.cn/admissions/international_students/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "短期项目",
+              url: "https://www.westlake.edu.cn/admissions/summer_sessions/",
+              target: "_self",
+            },
+          
+            {
+              text: "拟录取新生",
+              url: "https://www.westlake.edu.cn/admissions/admitted_students/",
+              target: "_self",
+            },
+          
+            {
+              text: "奖助体系",
+              url: "https://www.westlake.edu.cn/admissions/financial_aid/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "新闻与活动",
+          imgUrl: "https://www.westlake.edu.cn/news_events/images/P020250107627544696104.jpg",
+          children: [
+          
+            {
+              text: "西湖新闻",
+              url: "https://www.westlake.edu.cn/news_events/westlakenews/",
+              target: "_self",
+            },
+          
+            {
+              text: "西湖影像",
+              url: "https://www.westlake.edu.cn/news_events/gallery/",
+              target: "_self",
+            },
+          
+            {
+              text: "校园文化",
+              url: "https://www.westlake.edu.cn/news_events/thematic_activity/",
+              target: "_self",
+            },
+          
+            {
+              text: "活动预告",
+              url: "https://www.westlake.edu.cn/news_events/EventCalendars/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+        {
+          text: "校园生活",
+          imgUrl: "https://www.westlake.edu.cn/campus_life/images/P020241230495341467625.jpg",
+          children: [
+          
+            {
+              text: "云栖·云谷",
+              url: "https://www.westlake.edu.cn/campus_life/visit_westlake/",
+              target: "_self",
+            },
+          
+            {
+              text: "餐饮住宿",
+              url: "https://www.westlake.edu.cn/campus_life/housing_dining/",
+              target: "_self",
+            },
+          
+            {
+              text: "体育运动",
+              url: "https://www.westlake.edu.cn/campus_life/fitness_recreation/",
+              target: "_self",
+            },
+          
+            {
+              text: "社团活动",
+              url: "https://www.westlake.edu.cn/campus_life/student_groups_activities/",
+              target: "_self",
+            },
+          
+            {
+              text: "身心健康",
+              url: "https://www.westlake.edu.cn/campus_life/health_wellness/",
+              target: "_self",
+            },
+          
+            {
+              text: "西湖书院",
+              url: "https://www.westlake.edu.cn/campus_life/westlake_residential_college/",
+              target: "_self",
+            },
+          
+            {
+              text: "乐活杭州",
+              url: "https://www.westlake.edu.cn/campus_life/life_in_hangzhou/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "人才招聘",
+          imgUrl: "https://www.westlake.edu.cn/careers/images/P020241230495385122431.jpg",
+          children: [
+             {
+              text: "学术人才",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=学术人才",
+              target: "_blank",
+            },
+             {
+              text: "专职教学",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=专职教学",
+              target: "_blank",
+            },
+          
+            {
+              text: "平台支撑",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=86537",
+              target: "_blank",
+            },
+          
+            {
+              text: "教学辅助",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=85045",
+              target: "_blank",
+            },
+          
+          {
+              text: "科研团队",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=科研团队",
+              target: "_blank",
+            },
+            
+            {
+              text: "行政服务",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=86536",
+              target: "_blank",
+            },
+            
+            {
+              text: "博士后",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=博士后",
+              target: "_blank",
+            },
+           {
+              text: "更多岗位",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/",
+              target: "_blank",
+            }
+          ],
+        },
+      
+
+      
+        {
+          text: "师生入口",
+          imgUrl: "https://www.westlake.edu.cn/TeacherStudentEntrance/images/P020241231556861680164.jpg",
+          children: [
+          
+            {
+              text: "校园门户",
+              url: "https://my.westlake.edu.cn/",
+              target: "_self",
+            },
+          
+            {
+              text: "学校邮箱",
+              url: "https://mail.westlake.edu.cn",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      ],
+      mounted: function () {
+        var $el = $(this.$el);
+      },
+    });
+  </script>
+</body>
+
+</html>
+    <div id="app"></div>
+    <html lang="zh">
+<head>
+  <script src="/images/footer.js"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=5522" async="async" defer="defer"></script>
+<!-- <script id="_trs_ta_js" src="https://www.westlake.edu.cn/c/js/ta.js?mpid=5522" async="async" defer="defer"></script> -->
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJMXC8KQ5C"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-VJMXC8KQ5C'); </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?27ab2daf7ee5965ed3dc2b49f7ac67f5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="footer" class="footer"></div>
+  <script>
+    new footer("#footer", {
+      firstLine: "关注西湖大学",
+      maskObj: {
+      
+        keywords:"媒体接洽",//这里是打开mask弹窗的钥匙
+        title: "请联系：",
+        brief: "公共事务部",
+        list: [
+        
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586747778.png",
+            name: "电话",
+            text: "0571-86886861",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586894337.png",
+            name: "邮箱",
+            text: "media@westlake.edu.cn",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552587092891.png",
+            name: "传真",
+            text: "0571-88111699",
+          }
+          
+        
+        ]
+      
+      },
+      mediaObj: {
+      
+      },
+      iconList: [
+      
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552831551435.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552831680680.png",//移入时展示图标
+          url: "https://weibo.com/u/6535729991",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552832493827.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552832642257.png",//移入时展示图标
+          url: "#",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241230578673418134.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241230578673544879.png",//移入时展示图标
+          url: "https://twitter.com/Westlake_Uni/",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552828590082.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552828727988.png",//移入时展示图标
+          url: "https://www.instagram.com/westlake_univ/",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552829518161.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552829656122.png",//移入时展示图标
+          url: "https://www.facebook.com/WestlakeUni/",
+          target: "_self",
+        },
+      
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552830523875.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552830676779.png",//移入时展示图标
+          // url: "https://www.linkedin.com/school/westlakeuniversity/",
+          // target: "_self",
+          QRcodeUrl: "",
+        },
+      
+      
+      ],
+      schoolList: [
+        {
+          title: "走进西湖",
+          children: [
+            
+            {
+              text: "学校概况",
+              url: "https://www.westlake.edu.cn/about/facts_history/",
+              target: "_self",
+            },
+            
+            {
+              text: "教师团队",
+              url: "https://www.westlake.edu.cn/about/faculty/",
+              target: "_self",
+            },
+            
+            {
+              text: "校园地图",
+              url: "https://www.westlake.edu.cn/campus_life/visit_westlake/",
+              target: "_self",
+            },
+            
+          ]
+        },
+        {
+          title: "招生资讯",
+          children: [
+            
+            {
+              text: "本科生招生",
+              url: "https://zh-ugadmissions.westlake.edu.cn/",
+              target: "_self",
+            },
+            
+            {
+              text: "博士生招生",
+              url: "https://www.westlake.edu.cn/admissions/graduate/",
+              target: "_self",
+            },
+            
+            {
+              text: "短期项目",
+              url: "https://www.westlake.edu.cn/admissions/summer_sessions/",
+              target: "_self",
+            },
+            
+          ]
+        },
+       {
+          title: "联系我们",
+          children: [
+            
+            {
+              text: "捐赠通道",
+              url: "https://wudf.westlake.edu.cn/",
+              target: "_blank",
+            },
+            
+            
+            {
+              text: "招聘岗位",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/",
+              target: "_self",
+            },
+            
+            {
+              text: "媒体接洽",
+              url: "#",
+              target: "_self",
+            },
+            
+          ]
+        },
+      ],
+      campusList: [
+      {
+        title: "云谷校区",
+        children: [
+          "浙江省杭州市西湖区","墩余路600号","邮编：310030","邮箱：office@westlake.edu.cn"
+        ]
+      },
+        
+      {
+        title: "云栖校区",
+        children: [
+          "浙江省杭州市西湖区", " 石龙山街18号", "邮编：310024"," 邮箱：office@westlake.edu.cn"
+        ]
+      },
+      ],
+      copyRight: [
+        {
+          text: "浙ICP备18025489号",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+        {
+          text: "浙公安备33010602007514号",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+        {
+          text: "© 2019-2025 Westlake University. All Rights Reserved",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+      ],
+      right: {
+       title: "如有需要<br>请联系我们",
+        phone: "0571-88111600",
+        email: "office@westlake.edu.cn",
+        bgImgTop: window.assetsPublicPath + "footer_right_top.png",//右侧顶部背景图带滤镜 暂时不抛去
+        bgImg: window.assetsPublicPath + "footer_bottom_right.png",//右侧图片展示
+      }
+    });
+  </script>
+</body>
+
+</html>
+  </div>
+  <script>
+    new facultyDetail("#app", {
+      // 暂时不做活这张图片
+      bgUrl: window.assetsPublicPath + "faculty_detail_banner.png",
+      titleObj1: {
+        text: "走进西湖",
+        url: "https://www.westlake.edu.cn/about/",
+        target: "_self"
+      },
+      titleObj2: {
+        text: "导师团队",
+        url: "https://www.westlake.edu.cn/about/faculty/",
+        target: "_self"
+      },
+      personObj: {
+        // 3个共有字段
+        imgUrl: "./W020231120351256792576.jpg",
+        name: "严正博士",
+        post: "理学院",
+        // 新增
+		    // subject和lab 为about页面下的faculty-detail独有字段
+		    subject: "物理学,",
+        lab: "量子多体计算实验室",
+        // 新增
+		    // 1个共有字段
+        email: "zhengyan@westlake.edu.cn",
+		    // email右边那个字段的信息
+        bottomLabel: "网站",
+		    bottomUrl: "https:\/\/zheng-yan-group.github.io\/",//bottomUrl为空不显示email右边那个字段的信息
+        bottomTarget: "_self",
+		    msg: "“我见西湖多妩媚，料西湖见我应如是。竹杖芒鞋轻胜马，一蓑烟雨任平生。”",
+      },
+      videoObj: {
+        imgUrl: "",// imgUrl为空不显示
+        videoUrl: "./P020251202622244012270.mp4",//优先展示视频，没有展示封面图
+      },
+      //个人简介  标题文案抛出 内容开始
+      biographyTitle: "个人简介",
+      biographyStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin-top: 0;margin-bottom: 0;font-size: medium;white-space: normal;text-align: justify;text-indent: 32px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">严正，1990年生，浙江绍兴人。2013年获大连理工大学学士学位，2019年获得复旦大学理论物理博士学位。2019年至2023年在香港大学工作，历任博士后研究员和研究助理教授。2023年全职加入西湖大学，组建量子多体计算实验室，同年获得国家高层次青年人才项目资助。课题组主要开展量子多体理论和数值计算方向的研究，以及与之相关的量子模拟\/计算、量子材料交叉学科研究，比如<\/span><\/p><p style=\"margin-top: 0;margin-bottom: 0;margin-left: 24px;text-align: justify;text-indent: -24px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">1)<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">    <\/span><\/span><span style=\"font-family: 微软雅黑, sans-serif\">量子阻挫磁性: 自旋液体、新奇物相、临界行为等；<\/span><\/p><p style=\"margin-top: 0;margin-bottom: 0;margin-left: 24px;text-align: justify;text-indent: -24px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">2)<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">    <\/span><\/span><span style=\"font-family: 微软雅黑, sans-serif\">量子模拟和量子计算，测量诱导相变，开放系统等；<\/span><\/p><p style=\"margin-top: 0;margin-bottom: 0;margin-left: 24px;text-align: justify;text-indent: -24px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">3)<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">    <\/span><\/span><span style=\"font-family: 微软雅黑, sans-serif\">受限多体系统和晶格规范场，如量子dimer\/loop模型等；<\/span><\/p><p style=\"margin-top: 0;margin-bottom: 0;margin-left: 24px;text-align: justify;text-indent: -24px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">4)<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">    <\/span><\/span><span style=\"font-family: 微软雅黑, sans-serif\">量子多体纠缠，如纠缠熵、纠缠谱、无序算符等行为；<\/span><\/p><p style=\"margin-top: 0;margin-bottom: 0;margin-left: 24px;text-align: justify;text-indent: -24px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">5)<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">    <\/span><\/span><span style=\"font-family: 微软雅黑, sans-serif\">发展新的量子多体算法；<\/span><\/p><p style=\"margin-top: 0;margin-bottom: 0;font-size: medium;white-space: normal;text-align: justify;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">除了上述方向之外，课题组也乐意积极拓展量子多体相关的交叉学科。<\/span><\/p><p><br\/><\/p><\/div>",
+      // 年份和事件必须独立包裹在p标签内，且不可以有多余的p标签
+      historyStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p>2023-  <\/p><p>西湖大学，特聘研究员<\/p><p>2022-2023  <\/p><p>香港大学，研究助理教授<\/p><p>2019-2022  <\/p><p>香港大学，博士后<\/p><p>2013-2019  <\/p><p>复旦大学，博士<\/p><p>2009-2013       <\/p><p>大连理工大学，学士<\/p><\/div>",
+      researchTitle: "学术成果及研究方向", //标题文案抛出
+      researchStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin-right: 0;margin-left: 0;font-family: 宋体;white-space: normal;text-indent: 32px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">目前发表论文约60篇，大多数是Phys. Rev. B。<a name=\"OLE_LINK1\">我主要从事量子多体物理的理论和计算研究，发展了多项量子蒙卡算法，解决了一些极具挑战的多体计算难题并揭示了若干新奇物理，例如：<\/a><\/span><\/p><p style=\"margin-right: 0;margin-left: 0;font-family: 宋体;white-space: normal;text-indent: 32px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">1<\/span><span style=\"font-family: 微软雅黑, sans-serif\">）发明了sweeping cluster量子蒙卡，解决了quantum dimer\/loop model等纯规范场模型多年来的计算难题，该算法被国外数值方法教材以单独小节介绍；基于该算法，系统研究了冷原子和磁性体系中的演生规范场物理。比如，得到了同时含有奇、偶Z2自旋液体的里德堡阵列相图，发现了一直被认为是自旋液体的新型vison隐藏序等。<\/span><\/p><p style=\"margin-right: 0;margin-left: 0;font-family: 宋体;white-space: normal;text-indent: 32px;line-height: 28px\"><span style=\"font-family: 微软雅黑, sans-serif\">2<\/span><span style=\"font-family: 微软雅黑, sans-serif\">）提出了基于量子蒙卡和随机解析延拓提取多体纠缠谱的方案，解决了高维\/大尺寸系统纠缠谱的计算难题；结合此方案，给出了纠缠谱和能谱的一般关系，指出了约化密度矩阵路径积分上的虫洞效应是形成纠缠谱的根本机制，预言并证实了Li-Haldane猜想的适用范围等。<\/span><\/p><p style=\"margin-right: 0px; margin-left: 0px; font-family: 宋体; white-space: normal; text-indent: 32px; line-height: 28px;\"><span style=\"font-family: 微软雅黑, sans-serif\">3<\/span><span style=\"font-family: 微软雅黑, sans-serif\">）目前课题组正在大力发展的双组份重赋权退火计算框架，解决了量子多体系统中高效提取纠缠熵、纠缠负性、非对角信息、稳定熵等难题。为复杂系统计算提供了一个新的计算范式。这个框架极大地扩展了量子蒙卡算法的适用范围。<\/span><\/p><p style=\"margin-right: 0px; margin-left: 0px; font-family: 宋体; white-space: normal; text-indent: 32px; line-height: 28px;\"><span style=\"font-family: sans-serif;\">课题组将继续致力于以“算法的突破”带动“物理的突破”。<\/span><span style=\"font-family: sans-serif;\">欢迎志同道合的朋友们一起加入！<\/span><\/p><\/div>",
+      // 教授名字和学刊名用span标签 类名为name包裹 <span class='name'></span>
+      // 或者直接<span style='color:#333;font-weight:bold;'></span>写在标签内
+      representativeList: [
+        {
+          title: "代表论文",
+          content: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">1.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Detecting emergent continuous symmetry of criticality via subsystem&#39;s entanglement spectrum<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Bin-Bin Mao, Zhe Wang, Bin-Bin Chen, <strong>ZY<\/strong><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"><a href=\"https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/7j21-l3pg\">Phys. Rev. Lett. 136, 046401 (2026)<\/a><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">2.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Bipartite entanglement and surface criticality: The extra contribution of non-ordinary edge in entanglement<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Yanzhang Zhu, Zenan Liu, Zhe Wang, Yan-Cheng Wang, <strong>ZY<\/strong><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"><a href=\"https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/tkx5-kzhh\">Phys. Rev. Lett. 136, 046501 (2026)<\/a><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">3.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Addressing general measurements in quantum Monte Carlo<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Zhiyan Wang, Zenan Liu, Bin-Bin Mao, Zhe Wang, <strong>ZY<\/strong><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"><a href=\"https:\/\/www.nature.com\/articles\/s41467-025-67324-0\">Nat. Commun. 16, 5880 (2026)<\/a><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">4.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Double Supersolid Phase in a Bosonic t-J-V Model with Rydberg Atoms<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Kuangjie Chen, Yang Qi, <strong>ZY<\/strong>, Xiaopeng Li<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/fg7f-zvtt\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Phys. Rev. Lett. 135, 266003 (2025)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">5.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Evaluating many-body stabilizer R<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ényi entropy by sampling reduced Pauli strings: Singularities, volume law, and nonlocal magic,<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Yi-Ming Ding, Zhe Wang, and <strong>ZY<\/strong><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/journals.aps.org\/prxquantum\/abstract\/10.1103\/pyzr-jmvw\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">PRX Quantum 6, 030328 (2025)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">6.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Bipartite reweight-annealing algorithm of quantum Monte Carlo to extract large-scale data of entanglement entropy and its derivative,<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Zhe Wang, Zhiyan Wang, Yi-Ming Ding, Bin-Bin Mao, <strong>ZY<\/strong><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/www.nature.com\/articles\/s41467-025-61084-7\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Nat. Commun. 16, 5880 (2025)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">7.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Sampling reduced density matrix to extract fine levels of entanglement spectrum and restore entanglement Hamiltonian<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">，<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Bin-Bin Mao, Yi-Ming Ding, Zhe Wang, Shijie Hu, <strong>ZY<\/strong><\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/www.nature.com\/articles\/s41467-025-58058-0\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Nat. Commun. 16, 2880 (2025)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">8.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Measuring the boundary gapless state and criticality via disorder operator<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">，<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Zenan Liu, Rui-Zhen Huang, Yan-Cheng Wang, <strong>ZY<\/strong>, Dao-Xin Yao<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/PhysRevLett.132.206502\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Phys. Rev. Lett. 132, 206502 (2024)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 35px; text-indent: -26px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">9.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">   <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Emergent glassy behavior in a kagome Rydberg atom array,<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><strong><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ZY,<\/span><\/strong><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Yan-Cheng Wang, Rhine Samajdar, Subir Sachdev, Zi Yang Meng <\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/PhysRevLett.130.206501\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Phys. Rev. Lett. 130, 206501 (2023)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 35px; text-indent: -26px; line-height: 150%; font-size: 16px;\"><a name=\"OLE_LINK13\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">10.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Unlocking the general relationship between energy and entanglement spectra via the wormhole effect,<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><strong><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ZY<\/span><\/strong><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">, Zi Yang Meng, <\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/www.nature.com\/articles\/s41467-023-37756-7\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Nat. Commun.<strong><em> <\/em><\/strong>14, 2360 (2023)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 35px; text-indent: -26px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">11.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\">  <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Triangular lattice quantum dimer model with variable dimer density,<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><strong><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ZY<\/span><\/strong><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">,<\/span><span style=\"font-size: 13px;line-height: 20px\"> <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Rhine Samajdar, Yan-Cheng Wang, Subir Sachdev, Zi Yang Meng <\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/www.nature.com\/articles\/s41467-022-33431-5\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Nat. Commun. 13, 5799 (2022)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">12.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\"> <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Scaling of entanglement entropy at deconfined quantum criticality<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">J<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">iarui<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Zhao, Y<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">an-<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">C<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">heng<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Wang, <strong>ZY<\/strong>, M<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">eng<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Cheng, Z<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">i <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Y<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ang<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Meng<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/PhysRevLett.128.010601\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Phys<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">.<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Rev<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">.<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Lett<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">.<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> 128, 010601<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> (2022)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; text-indent: -24px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">13.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\"> <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Amplitude mode in quantum magnets via dimensional crossover<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">C<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">hengkang<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Zhou, <strong>ZY<\/strong>, H<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">an-<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Q<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ing<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Wu, K<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ai<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Sun, O<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">leg<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Starykh, Z<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">i <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Y<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ang<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Meng<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 33px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/PhysRevLett.126.227201\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Phys<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">.<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Rev<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">.<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Lett<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">.<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> 126, 227201<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> (2021)<\/span><\/a><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 31px; text-indent: -26px; line-height: 150%; font-size: 16px;\"><span style=\"font-size:13px;line-height:150%;font-family:宋体\">14.<span style=\"font-style: normal;font-variant-caps: normal;font-width: normal;font-size: 9px;line-height: normal;font-family: &#39;Times New Roman&#39;;font-size-adjust: none;font-kerning: auto;font-variant-alternates: normal;font-variant-ligatures: normal;font-variant-numeric: normal;font-variant-east-asian: normal;font-variant-position: normal;font-variant-emoji: normal;font-feature-settings: normal;font-optical-sizing: auto;font-variation-settings: normal\"> <\/span><\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Sweeping cluster algorithm for quantum spin systems with strong geometric restrictions,<\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 31px; white-space: normal; line-height: 22px; font-size: 16px;\"><strong><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ZY<\/span><\/strong><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">,<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> Y<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ongzheng <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Wu, C<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">henrong <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Liu, O<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">lav <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">F.<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Sylju<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: &#39;Times New Roman&#39;, serif\">å<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">sen, J<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">ie <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Lou, Y<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">an <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Chen <\/span><\/p><p class=\"MsoListParagraph\" style=\"margin-left: 31px; white-space: normal; line-height: 22px; font-size: 16px;\"><a href=\"https:\/\/journals.aps.org\/prb\/abstract\/10.1103\/PhysRevB.99.165135\"><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">Phys. Rev. B 99,<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">165135<\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\"> <\/span><span style=\"font-size: 13px;line-height: 20px;font-family: 宋体\">(2019)<\/span><\/a><\/p><\/div>",
+        },
+        {
+          title: "联系我们",
+          content: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin:0;text-indent:32px;line-height:28px\"><span style=\"font-family:&#39;微软雅黑&#39;,sans-serif;color:black\">电子邮箱：<\/span><a href=\"mailto:zhengyan@westlake.edu.cn\"><span style=\"font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif\">zhengyan@westlake.edu.cn<\/span><\/a><\/p><p style=\"margin:0;text-indent:28px;line-height:28px\"><span style=\"font-family:&#39;微软雅黑&#39;,sans-serif;color:#333333\">每年招收1-2名博士生，欢迎申请本组博士后！<\/span><\/p><p><br\/><\/p><\/div>",
+        },
+      ],
+      mounted: function () { },
+    });
+  </script>
+
+
+</body></html>

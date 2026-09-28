@@ -1,0 +1,24 @@
+{
+  "source_url": "https://omal.lab.westlake.edu.cn/Team/Ph_D__Students/Zhengjie_Wang_wzj.htm",
+  "checked_date": "2026-09-28",
+  "key": "S03_王正杰",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://omal.lab.westlake.edu.cn/Team/Ph_D__Students/Zhengjie_Wang_wzj.htm",
+  "sha256": "05b34a866b6eaae35dcf3b56674dfc352a1ba96dbf19f81458654281fbf08788",
+  "bytes": 5958,
+  "links": [
+    "https://www.westlake.edu.cn/",
+    "../../index.htm",
+    "../../News.htm",
+    "../../Research.htm",
+    "../../Publications.htm",
+    "../../Team.htm",
+    "../../Gallery.htm",
+    "../../JoinUs.jsp?urltype=tree.TreeTempUrl&wbtreeid=1018",
+    "javascript:history.go(-1);",
+    "mailto:wangzhengjie@westlake.edu.cn",
+    "https://beian.miit.gov.cn/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

@@ -1,0 +1,20 @@
+{
+  "source_url": "https://zdz.lab.westlake.edu.cn/en/openings/index.html",
+  "checked_date": "2026-09-28",
+  "key": "P03_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://zdz.lab.westlake.edu.cn/en/openings/index.html",
+  "sha256": "3d72efc080bffffffd1eafc428bd2ad4d5b0d868e8ef8565d46d85e1418a56c4",
+  "bytes": 40762,
+  "links": [
+    "../index.html",
+    "../research/index.html",
+    "../publications/index.html",
+    "../people/index.html",
+    "../openings/index.html",
+    "../../openings/index.html",
+    "mailto:zhangdanzhen@westlake.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

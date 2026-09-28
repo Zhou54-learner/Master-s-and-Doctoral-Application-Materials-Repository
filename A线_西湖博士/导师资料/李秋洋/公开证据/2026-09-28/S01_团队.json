@@ -1,0 +1,24 @@
+{
+  "source_url": "https://www.ultrafast-li.com/home-1",
+  "checked_date": "2026-09-28",
+  "key": "S01_团队",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://www.ultrafast-li.com/home-1",
+  "sha256": "8c4f2084d6fcf96e601334c0a8786915b2ba8b55593bd29febee4b931af154c1",
+  "bytes": 401492,
+  "links": [
+    "/cart",
+    "#page",
+    "/",
+    "/home-2",
+    "/research",
+    "/home-1",
+    "/publications",
+    "/joinus",
+    "/contact-me",
+    "/new-page",
+    "/s/CV_Qiuyang-Li.pdf"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

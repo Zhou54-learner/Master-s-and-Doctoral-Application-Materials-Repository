@@ -1,0 +1,22 @@
+﻿
+M3_lab
+Home
+People
+Publications and software
+Research
+News
+Opportunities
+Lectures
+Welcome
+Our group has the expertise, and in-house codes, on several areas of computational, physical and theoretical modelling of complex processes commonly found in Civil, Environmental and Mining Engineering.
+We follow a multi-physics, multi-scale approach for most of our research outputs. We aim to combine several physical layers (water physics, porous media physics, solid mechanics, etc) to produce models at the pore/grain scale. The behaviour at this scale is observed, and constitutive relations are derived for larger scales such as a field site. During this process, experiments and field observations are conducted and their data is compared with our modelling efforts for validation.
+The multi-scale, multi-physics modelling approach. Our research start with observations at the field scale,  followed by experiments and pore/grain-scale simulations which later feeds information for macroscopic models for the field scale. This approach ensures both predictability and scientific understanding.
+For micro-scale modelling we use computational tools such as the Discrete Element Method (DEM), Lattice Boltzmann Method (LBM), Discrete Fracture Networks (DFN) and Molecular Dynamics (MD). For upscaling the physics from the pore scale to the macro scale, continuum and statistical mechanics are often used. Finally, for large scale simulations, we have developed methods such as Material Point Method (MPM) and Smoothed Particle Hydrodynamics (SPH).
+Latest paper
+Guanxi Yan, Bo Liu, Thierry Bore, Sergio Andres Galindo Torres, Ling Li, Alexander Scheuermann. Advances in dynamic soil water retention behaviour and implications for vadose zone hydrology. Capillarity (2026).link
+Jiangjiang Wang, Lei Liu, Herbert E Huppert, Teng Man, Tilsa Aryeni, Ling Li, Sergio Andres Galindo‐Torres*.  Pore Size and Wettability Control Dissolution Trapping Regimes of CO2 in Nano Porous Media. Geophysical Research Letters (2026).link
+Zaohui Zhang, Zhuan Ge, Teng Man, Sergio Andres Galindo-Torres*. Microstructural development leading to rheological transition of granular suspensions. Computers and Geotechnics (2026).link
+Hangtong Li, Zhuan Ge, Jihao Liu and Sergio Andres Galindo-Torres*. Field-nanoconfinement coupling enhanced water desalination in carbon nanotubes. Physical Chemistry Chemical Physics (2026).link
+Teng Man, Zhongrong Wang, Herbert Huppert, Songkai Ren, Sergio A. Galindo-Torres*, Xudong Zhang, Annan Zhou. Propagation Scaling and Micromechanics of Buoyant Granular Column Collapses. Journal of Geophysical Research: Earth Surface (2026).link
+©2019 Westlake University 浙ICP备18025489号
+Institute of Engineering

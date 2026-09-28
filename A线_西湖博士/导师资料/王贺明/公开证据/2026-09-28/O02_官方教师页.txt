@@ -1,0 +1,34 @@
+Heming Wang, Ph.D. - Westlake University
+Heming Wang was born in Dalian, Liaoning Province. He is a gold medalist at the 13th Asian Physics Olympiad (APhO), 2012. He received a bachelor’s degree from School of Physics, Peking University in 2016 and a PhD degree from Applied Physics option, California Institute of Technology (Caltech) in 2021. After that, he has been a postdoctoral scholar at Caltech, University of California, Santa Barbara (UCSB) and Stanford University. He has joined Westlake University in 2025 as an Assistant Professor and the PI of the Non-Hermitian Dynamics and Devices Laboratory.
+2025
+Assistant Professor, Westlake University
+2023
+Postdoctoral researcher, Stanford
+2022
+Postdoctoral researcher, UCSB
+2021
+Postdoctoral researcher, Caltech
+Ph.D. degree, Caltech
+2016
+Bachelor’s degree, Peking University
+2012
+Gold medalist, 13th Asian Physics Olympiad (APhO)
+The law of conserved energy is the foundation of modern physics. However, it is extremely difficult to find a system in real life that conserves its energy. The motion of a swing eventually comes to a stop due to friction, and electric appliances need to be recharged when their stored electric energies run out. The synergy between losing and gaining energy in these systems leads to mind-boggling properties, which is the central topic of non-Hermitian physics.
+Based on research experiences in theory, simulation, experiment and nanofabrication, Heming has performed detailed and rigorous analysis on various non-Hermitian optical systems. Representative achievements include: 1, proposed the topological stability of edge states in one-dimensional periodic systems without symmetry protections, provided explicit formula for the associated topological invariants and generalized to non-Hermitian systems; 2, proposed and experimentally verified the equivalence of excess noise in exceptional-point sensors and the Petermann factor in laser physics, breaking the assumption that eigenvector variation does not contribute to noise properties and clarifying the longstanding problem of noise properties near the exceptional point in the literature; 3, formulated the dependency of laser frequency on intracavity power in laser-microcavity self-injection-locked systems with isolators removed, and explained the spontaneous formation of solitons that converts the random process of soliton generation into a deterministic process; 4, analytically determined and experimentally realized the soliton waveforms in coupled modes by providing a correspondence to Dirac equations in quantum field theories, which makes it possible to generate conventional soliton pulses in materials with normal dispersions.
+The Non-Hermitian Dynamics and Devices Laboratory will continue to focus on physical effects related to the energy gains and losses, conducting inderdisciplinary fundamental and applied research based on photonic, electronic, acoustic and mechanical systems. High-performance sensors and other potential applications will also be realized. Research directions include but are not limited to:
+· Noise properties and performance limitations of sensors;
+· Exceptional points and their geometric properties;
+· Non-Hermitian band structures and their topological properties;
+· Basic principles and mathematical foundations of non-Hermitian systems.
+1. Janet Zhong#, Heming Wang#, Alexander N. Poddubny, Shanhui Fan*. “Topological Nature of Edge States for One-Dimensional Systems without Symmetry Protection”. Phys. Rev. Lett. 135, 016601 (2025).
+2. Heming Wang, Janet Zhong, Shanhui Fan*. “Non-Hermitian photonic band winding and skin effects: a tutorial”. Adv. Opt. Photonics 16, 659 (2024).
+3. Zhiquan Yuan#, Maodong Gao#, Yan Yu#, Heming Wang#, Warren Jin#, Qing-Xin Ji, Avi Feshali, Mario Paniccia, John Bowers*, Kerry Vahala*. “Soliton pulse pairs at multiple colours in normal dispersion microresonators”. Nat. Photon. 17, 977 (2023).
+4. Warren Jin#, Qi-Fan Yang#, Lin Chang#, Boqiang Shen#, Heming Wang#, Mark A. Leal, Lue Wu, Avi Feshali, Mario Paniccia, Kerry J. Vahala*, John E. Bowers*. “Hertz-linewidth semiconductor lasers using CMOS-ready ultra-high-Q microresonators”. Nat. Photon. 15, 346 (2021).
+5. Heming Wang, Yu-Kun Lu, Lue Wu, Dong Yoon Oh, Boqiang Shen, Seung Hoon Lee, Kerry Vahala*. “Dirac solitons in optical microresonators”. Light Sci. Appl. 9, 205 (2020).
+6. Zhiquan Yuan#, Heming Wang#, Lue Wu#, Maodong Gao, Kerry Vahala*. “Linewidth enhancement factor in a microcavity Brillouin laser”. Optica 7, 1150 (2020).
+7. Boqiang Shen#, Lin Chang#, Junqiu Liu#, Heming Wang#, Qi-Fan Yang#, Chao Xiang, Rui Ning Wang, Jijun He, Tianyi Liu, Weiqiang Xie, Joel Guo, Dave Kinghorn, Lue Wu, Qing-Xin Ji, Tobias J. Kippenberg*, Kerry Vahala*, John E. Bowers*. “Integrated turnkey soliton microcombs”. Nature 582, 365 (2020).
+8. Heming Wang#, Yu-Hung Lai#, Zhiquan Yuan#, Myoung-Gyun Suh, Kerry Vahala*. “Petermann-factor sensitivity limit near an exceptional point in a Brillouin ring laser gyroscope”. Nat. Commun. 11, 1610 (2020).
+9. Qi-Fan Yang#, Boqiang Shen#, Heming Wang#, Minh Tran, Zhewei Zhang, Ki Youl Yang, Lue Wu, Chengying Bao, John Bowers, Amnon Yariv, Kerry Vahala*. “Vernier spectrometer using counterpropagating soliton microcombs”. Science 363, 965 (2019).
+10. Qi-Tao Cao#, Heming Wang#, Chun-Hua Dong#, Hui Jing, Rui-Shan Liu, Xi Chen, Li Ge, Qihuang Gong, Yun-Feng Xiao*. “Experimental Demonstration of Spontaneous Chirality in a Nonlinear Microresonator”. Phys. Rev. Lett. 118, 033901 (2017).
+Email: wangheming@westlake.edu.cn
+There are multiple openings for PhD students, postdocs, and research assistants in the Non-Hermitian Dynamics and Devices Laboratory. The lab focuses on physical effects related to the energy gains and losses, and conducts inderdisciplinary fundamental and applied research based on photonic, electronic, acoustic and mechanical systems. Candidates with relevant backgrounds in natural sciences or engineering are welcome to join us. Those interested can contact Dr. Heming Wang at the email listed above. The lab will offer resources and initiate research projects based on individual needs.

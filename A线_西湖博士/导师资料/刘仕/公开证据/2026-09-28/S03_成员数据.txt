@@ -1,0 +1,575 @@
+const teamMembers = [
+{
+id: 3,
+name: "柯昌明 Changming KE",
+avatar: "image_mine/kcm.jpg",
+position: "Research Scientist",
+email: "kechangming (at) westlake.edu.cn",
+education: [
+{
+period: "2020-2013",
+degree: "PhD",
+school: "University of Science and Technology of China"
+},
+{
+period: "2013-2009",
+degree: "B.S.",
+school: "Nanchang University"
+}
+]
+},
+{
+id: 8,
+name: "杨季元 Jiyuan YANG",
+avatar: "image_mine/yjy.jpg",
+position: "Postdoc",
+email: "yangjiyuan (at) westlake.edu.cn",
+research: "Ferroelectric phase transition based on deep MD, piezoelectricity investigation based on first principle calculations.",
+education: [
+{
+period: "2025-2020",
+degree: "PhD",
+school: "Westlake University"
+},
+{
+period: "2017-2013",
+degree: "B.S.",
+school: "Nanjing Normal University"
+}
+]
+},
+{
+id: 11,
+name: "陈艳艳 Yanyan CHEN",
+avatar: "image_mine/cyy.jpg",
+position: "Administrative Assistant",
+email: "chenyanyan (at) westlake.edu.cn",
+education: [
+{
+period: "2021-2017",
+degree: "M.S.",
+school: "Tianjin University"
+}
+]
+},
+{
+id: 13,
+name: "杨雨迪 Yudi YANG",
+avatar: "image_mine/yyd.jpg",
+position: "PhD Candidate",
+email: "yangyudi (at) westlake.edu.cn",
+education: [
+{
+period: "2021",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2021-2017",
+degree: "B.S.",
+school: "University of Toronto"
+}
+]
+},
+{
+id: 14,
+name: "朱天元 Tianyuan ZHU",
+avatar: "image_mine/zty.jpg",
+position: "Research Scientist",
+email: "zhutianyuan (at) westlake.edu.cn",
+education: [
+{
+period: "2021-2015",
+degree: "PhD",
+school: "Nanjing University"
+},
+{
+period: "2015-2013",
+degree: "M.S.",
+school: "Nanjing University"
+},
+{
+period: "2012-2008",
+degree: "B.S.",
+school: "Nanjing University"
+},
+]
+},
+{
+id: 15,
+name: "林子越 Ziyue LIN",
+avatar: "image_mine/lzy.jpg",
+position: "PhD Candidate",
+email: "linziyue (at) westlake.edu.cn",
+education: [
+{
+period: "2021",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2021-2018",
+degree: "M.S.",
+school: "Jilin University"
+},
+{
+period: "2018-2014",
+degree: "B.S.",
+school: "Jilin University"
+},
+]
+},
+{
+id: 16,
+name: "刘袁今生 Yuanjinsheng LIU",
+avatar: "image_mine/lyjs.jpg",
+position: "PhD Candidate",
+email: "liuyuanjinsheng (at) westlake.edu.cn",
+education: [
+{
+period: "2023",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2023-2020",
+degree: "M.S.",
+school: "China university of Geoscience，Beijing Master of Applied Statitics"
+},
+{
+period: "2020-2016",
+degree: "B.S.",
+school: "Wuhan institute of technology"
+},
+]
+},
+{
+id: 17,
+name: "陈祥楷 Xiangkai CHEN",
+avatar: "image_mine/cxk.jpg",
+position: "Postdoc",
+email: "chenxiangkai (at) westlake.edu.cn",
+education: [
+{
+period: "2023-2018",
+degree: "PhD",
+school: "University of Science and Technology Beijing"
+}
+]
+},
+{
+id: 18,
+name: "李德楠 Denan LI",
+avatar: "image_mine/ldn.jpg",
+position: "PhD Candidate",
+email: "lidenan (at) westlake.edu.cn",
+education: [
+{
+period: "2024",
+degree: "Phd Candidate",
+school: "Westlake University"
+},
+{
+period: "2024-2020",
+degree: "B.S.",
+school: "Ningbo University"
+}
+],
+social: [
+{
+name: "GitHub",
+url: "https://github.com/MoseyQAQ"
+},
+]
+},
+{
+id: 19,
+name: "余林涛 Lintao YU",
+avatar: "image_mine/ylt.jpg",
+position: "PhD Candidate",
+email: "yulintao (at) westlake.edu.cn",
+education: [
+{
+period: "2025",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2023-2019",
+degree: "B.S.",
+school: "Northeast Petroleum University"
+}
+],
+social: [
+{
+name: "ORCID",
+url: "https://orcid.org/0000-0002-9852-5993"
+},
+{
+name: "Personal Blog",
+url: "https://blog.enthalpy.space"
+},
+]
+},
+{
+id: 20,
+name: "樊迪 Di FAN",
+avatar: "image_mine/fd.jpg",
+position: "PhD Candidate",
+email: "fandi (at) westlake.edu.cn",
+education: [
+{
+period: "2025",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2024-2021",
+degree: "M.S.",
+school: "Beijing University of Chemical Technology"
+},
+{
+period: "2021-2017",
+degree: "B.S.",
+school: "Beijing University of Chemical Technology"
+}
+]
+},
+{
+id: 21,
+name: "Chris Ahart",
+avatar: "image_mine/chris.png",
+position: "Postdoc",
+email: "chris_ahart (at) westlake.edu.cn",
+research: "Computational modeling of electronic and structural dynamics at metal-ferroelectric interfaces.",
+education: [
+{
+period: "2022-2018",
+degree: "PhD",
+school: "University College London UK"
+},
+{
+period: "2018-2014",
+degree: "M.S.",
+school: "University of Nottingham UK"
+}
+],
+social: [
+{
+name: "",
+url: "https://chrisahart.github.io/"},
+]
+},
+{
+id: 22,
+name: "刁后北 Houbei DIAO",
+avatar: "image_mine/dhb.jpg",
+position: "PhD Candidate",
+email: "diaohoubei (at) westlake.edu.cn",
+education: [
+{
+period: "2025",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2025-2021",
+degree: "B.S.",
+school: "Northwest University"
+}
+]
+},
+{
+id: 24,
+name: "王世豪 Shihao WANG",
+avatar: "image_mine/wsh.jpg",
+position: "PhD Candidate",
+email: "wangshihao (at) westlake.edu.cn",
+education: [
+{
+period: "2025",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2025-2022",
+degree: "M.S.",
+school: "Beijing Institute of Technology"
+},
+{
+period: "2022-2018",
+degree: "B.S.",
+school: "North China University of Science and Technology"
+}
+]
+},
+{
+id: 25,
+name: "徐佳诚 Jiacheng XU",
+avatar: "image_mine/xjc.jpg",
+position: "PhD Candidate",
+email: "xujiacheng16 (at) westlake.edu.cn",
+education: [
+{
+period: "2026",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2026-2022",
+degree: "B.S.",
+school: "Soochow University"
+}
+]
+},
+{
+id: 26,
+name: "翟家辉 Jiahui ZHAI",
+avatar: "image_mine/zjh.png",
+position: "PhD Candidate",
+email: "zhaijiahui@westlake.edu.cn",
+education: [
+{
+period: "2026",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2025-2021",
+degree: "B.S.",
+school: "Xiamen University"
+}
+]
+},
+{
+id: 27,
+name: "景熙翔 Xixiang JING",
+avatar: "image_mine/jxx.png",
+position: "PhD Candidate",
+email: "jingxixiang@westlake.edu.cn ",
+education: [
+{
+period: "2026",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2026-2023",
+degree: "M.S.",
+school: "Northwestern Polytechnical University"
+},
+{
+period: "2023-2019",
+degree: "B.S.",
+school: "Taiyuan University of Technology"
+}
+]
+},
+];
+const teamAlumnus = [
+{
+id: 1,
+name: "黄佳玮 Jiawei HUANG",
+avatar: "image_mine/hjw.jpg",
+position: "PhD Candidate",
+email: "huangjiawei (at) westlake.edu.cn",
+education: [
+{
+period: "2018",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2014-2018",
+degree: "B.S.",
+school: "Wuhan University"
+}
+]
+},
+{
+id: 2,
+name: "段旭 Xu DUAN",
+avatar: "image_mine/dx.jpg",
+position: "PhD Candidate",
+email: "duanxu (at) westlake.edu.cn",
+research: "Multiferroic and functional materials with coupled order parameters based on DFT.",
+education: [
+{
+period: "2019",
+degree: "PhD Candidate",
+school: "Westlake University"
+}
+]
+},
+{
+id: 4,
+name: "白丽宜  Liyi BAI",
+avatar: "image_mine/bly.jpg",
+position: "Postdoc",
+email: "bailiyi (at) westlake.edu.cn",
+research: "Low-dimensional ferroelectric materials based on deep learning.
+Molecular simulation on the phase, structure and dynamics of hydration layer.
+Phase behavior in confined system.
+ab initio molecular dynamics on sum frequency generation spectroscopy of interfacial structure.",
+education: [
+{
+period: "2021-2015",
+degree: "PhD",
+school: "Pusan National University"
+}
+]
+},
+{
+id: 5,
+name: "马丽洋 Liyang MA",
+avatar: "image_mine/mly.jpg",
+position: "PhD Candidate",
+email: "maliyang (at) westlake.edu.cn",
+education: [
+{
+period: "2020",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2020-2016",
+degree: "B.S.",
+school: "Qingdao University"
+}
+]
+},
+{
+id: 6,
+name: "武静 Jing WU",
+avatar: "image_mine/wj.jpg",
+position: "PhD Candidate",
+email: "wujing81 (at) westlake.edu.cn",
+education: [
+{
+period: "2020",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2019-2016",
+degree: "M.S.",
+school: "Northwest University"
+},
+{
+period: "2016-2012",
+degree: "B.S.",
+school: "lnner Mongolia University of Science and Technology"
+},
+]
+},
+{
+id: 7,
+name: "钱庄 Zhuang QIAN",
+avatar: "image_mine/qz.jpg",
+position: "PhD Candidate",
+email: "qianzhuang (at) westlake.edu.cn",
+education: [
+{
+period: "2020",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2020-2017",
+degree: "M.S.",
+school: "Lanzhou University"
+},
+{
+period: "2017-2013",
+degree: "B.S.",
+school: "Lanzhou University"
+},
+]
+},
+{
+id: 9,
+name: "胡逸豪 Yihao HU",
+avatar: "image_mine/hyh.png",
+position: "PhD Candidate",
+email: "huyihao (at) westlake.edu.cn",
+education: [
+{
+period: "2020",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2020-2016",
+degree: "B.S.",
+school: "Zhejiang University"
+}
+],
+social: [
+{
+name: "ORCID",
+url: "https://orcid.org/0000-0001-7501-0682"
+},
+{
+name: "GitHub",
+url: "https://github.com/huiihao"
+}
+]
+},
+{
+id: 10,
+name: "喻祺晟 Qisheng YU",
+avatar: "image_mine/yqs.jpg",
+position: "PhD Candidate",
+email: "yuqisheng (at) westlake.edu.cn",
+education: [
+{
+period: "2021",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2021-2017",
+degree: "B.S.",
+school: "Zhejiang University"
+}
+]
+},
+{
+id: 12,
+name: "周文杰 Wenjie ZHOU",
+avatar: "image_mine/zwj.jpg",
+position: "PhD Candidate",
+email: "zhouwenjie (at) westlake.edu.cn",
+education: [
+{
+period: "2021",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2021-2017",
+degree: "B.S.",
+school: "Zhejiang University"
+}
+]
+},
+{
+id: 23,
+name: "张梦雨 Mengyu ZHANG",
+avatar: "image_mine/zmy.jpg",
+position: "PhD Candidate",
+email: "zhangmengyu (at) westlake.edu.cn",
+education: [
+{
+period: "2025",
+degree: "PhD Candidate",
+school: "Westlake University"
+},
+{
+period: "2025-2022",
+degree: "M.S.",
+school: "Shandong University"
+}
+]
+},
+];

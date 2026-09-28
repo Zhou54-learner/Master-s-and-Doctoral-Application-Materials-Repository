@@ -1,0 +1,19 @@
+{
+  "source_url": "https://fanowu.com/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://fanowu.com/",
+  "sha256": "b32b78dcf7c7df4225709ea621400708f8a59505e0fb54d437f90bac0f30b8e6",
+  "bytes": 11400,
+  "links": [
+    "/",
+    "/research",
+    "/people",
+    "/publications",
+    "/join",
+    "/news/phd-hiring-2027"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

@@ -1,0 +1,20 @@
+{
+  "source_url": "https://pengsy.lab.westlake.edu.cn/index.html",
+  "checked_date": "2026-09-28",
+  "key": "P02_主页正文",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://pengsy.lab.westlake.edu.cn/index.html",
+  "sha256": "b7abc63de634838e84fd595cf37a47719e33e3eaa543bd7c8a9222c0b0b8a698",
+  "bytes": 6939,
+  "links": [
+    "index.html",
+    "Research.html",
+    "Group.html",
+    "Publications.html",
+    "Opening.html",
+    "mailto:pengsiying@westlake.edu.cn",
+    "https://www.westlake.edu.cn/campuslife/yungu/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

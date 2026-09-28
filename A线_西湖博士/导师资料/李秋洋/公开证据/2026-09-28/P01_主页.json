@@ -1,0 +1,24 @@
+{
+  "source_url": "https://www.ultrafast-li.com/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://www.ultrafast-li.com/",
+  "sha256": "c1c3b014096382efc6bb6fc6eccb882990c3bcfced8849176d0bd632b2f1d372",
+  "bytes": 165286,
+  "links": [
+    "/cart",
+    "#page",
+    "/",
+    "/home-2",
+    "/research",
+    "/home-1",
+    "/publications",
+    "/joinus",
+    "/contact-me",
+    "/new-page",
+    "mailto:liqiuyang@westlake.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

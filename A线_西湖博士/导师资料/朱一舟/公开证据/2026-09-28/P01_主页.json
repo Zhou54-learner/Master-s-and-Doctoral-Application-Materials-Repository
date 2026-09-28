@@ -1,0 +1,15 @@
+{
+  "source_url": "https://zhuyizhou.github.io/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://zhuyizhou.github.io/",
+  "sha256": "720fc3155ea6f84fadacb54d7ead11518a1e0301e68ed80d7c3c4b0f9e044560",
+  "bytes": 13640,
+  "links": [
+    "https://www.westlake.edu.cn",
+    "home.html"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

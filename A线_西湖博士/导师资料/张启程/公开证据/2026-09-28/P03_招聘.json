@@ -1,0 +1,23 @@
+{
+  "source_url": "https://ne2.lab.westlake.edu.cn/Content_EN/Join_us.htm",
+  "checked_date": "2026-09-28",
+  "key": "P03_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://ne2.lab.westlake.edu.cn/Content_EN/Join_us.htm",
+  "sha256": "4046c59d882b17a98bf33a3d5a4149455e30cd9d0c3d40e936643c9783a97959",
+  "bytes": 13905,
+  "links": [
+    "../index.htm",
+    "../content_CN/home_CN.htm",
+    "Research.htm",
+    "Investigators.htm",
+    "Publications.htm",
+    "Gallery.htm",
+    "Join_us.htm",
+    "https://en.westlake.edu.cn/admissions_aid/phdprograms/",
+    "https://www.westlake.edu.cn/admissions_aid/graduate/",
+    "https://en.westlake.edu.cn/admissions_aid/short_term_programs/"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

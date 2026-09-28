@@ -1,0 +1,21 @@
+{
+  "source_url": "https://lgglab.com/shuaiyang-wei",
+  "checked_date": "2026-09-28",
+  "key": "S03_shuaiyang-wei",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://lgglab.com/shuaiyang-wei/",
+  "sha256": "da7d3077bda50f8c7322f7d4576400e7c09e04cd312364046b9871d1c1bbd252",
+  "bytes": 48489,
+  "links": [
+    "#content",
+    "https://lgglab.com/",
+    "https://lgglab.com/publications/",
+    "https://lgglab.com/research/",
+    "https://lgglab.com/people/",
+    "https://lgglab.com/album/",
+    "https://lgglab.com/job/",
+    "https://lgglab.com",
+    "https://liuguigeng.com"
+  ]
+}

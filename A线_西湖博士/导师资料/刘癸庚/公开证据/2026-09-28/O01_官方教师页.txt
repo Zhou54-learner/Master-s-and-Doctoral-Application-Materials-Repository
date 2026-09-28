@@ -1,0 +1,42 @@
+Gui-Geng Liu, Ph.D. - Westlake University
+Gui-Geng Liu completed his undergraduate studies in the Poling Class of Physics at Nankai University in 2017 and obtained his Ph.D. degree from the School of Physical and Mathematical Sciences at Nanyang Technological University in 2023. After completing his Ph.D., he continued his postdoctoral research at Nanyang Technological University. In 2024, he joined Westlake University full-time as an Assistant Professor (independent PI, doctoral supervisor) in the School of Engineering, and received funding from the National Overseas High-level Talent Youth Program. Dr. Liu has been awarded the Top-Grade Award of National Undergraduate Innovation and Entrepreneurship Training Program in 2017, the Outstanding Undergraduate Thesis in Tianjin in 2017, the Chinese Government Outstanding Self-Financed Student Scholarship in 2021, one of the Top 10 Optical Events with Social Influence in China in 2022, the Gold Medal of Material Research Society of Singapore in Physics in 2023, and the sole Winner of Graduate College Research Excellence Award of Nanyang Technological University in 2023, the Finalist Award of Rising Stars of Light in 2024, and 2024 Forbes China 30 Under 30.
+2024
+Assistant Professor, School of Engineering, Westlake University
+2023
+Ph.D. degree, Nanyang Technological University
+Postdoctoral researcher, Nanyang Technological University
+2022
+One of the Top 10 Optical Events with Social Influence in China
+2021
+The Chinese Government Outstanding Self-Financed Student Scholarship
+2017
+B.S. degree, Nankai University
+Outstanding Undergraduate Thesis
+The Liu Guigeng Laboratory at Westlake University is dedicated to fundamental and applied research in related fields such as topological photonics, non-Hermitian optics, terahertz optics, spatially structured light fields, photonic crystals, and metamaterials. It aims to explore novel physics across multiple optical scales (covering low-frequency circuits, microwaves, terahertz, infrared, and visible light) and, based on this, develop optical devices with novel functionalities, emphasizing a research path that equally values breakthroughs in mechanism, device realization, and practical application. The laboratory's primary research directions include, but are not limited to:
+(1) Topological states of matter and topological photonic/optoelectronic devices: Based on experimental platforms such as photonic crystals, metamaterials, on-chip microcavities, and circuits, we study the fundamental mechanisms of novel topological states and develop topological photonic/optoelectronic devices with new control mechanisms.
+(2) Non-Hermitian physics and non-Hermitian optical devices: Utilizing systems like optical microcavities, non-Hermitian circuits, superconducting devices, and metamaterials, we investigate exotic physical effects (e.g., exceptional points, bound states in the continuum) in open non-Hermitian systems and promote their applications in areas such as sensing and communications.
+(3) Terahertz chips and 6G communication technology: Based on systems like photonic crystals and metasurfaces, we develop novel terahertz photonic chips to achieve dynamic control of terahertz waves and promote their application in 6G communication scenarios.
+(4) Spatially structured light fields: We advance techniques for the generation, manipulation, and characterization of new types of spatially structured light fields, including spatiotemporal vortex beams and vector beams.
+(5) Research on other cutting-edge optical technologies: This includes exploration in interdisciplinary fields such as optical AI computing and advanced display technologies.
+Prior research achievements have been published as first/corresponding author in journals including Nature and Science. Introductions to several representative works are provided below:
+1. Construction of the first three-dimensional Chern insulator. The Chern insulator is one of the most fundamental and crucial topological states in the study of topological physics, and its experimental realization has always been a core issue. Previous studies had only achieved two-dimensional Chern insulators (such as the Quantum Anomalous Hall Effect), while three-dimensional Chern insulators had not been discovered. Dr. Liu and his collaborators used three-dimensional magnetic photonic crystals to successfully construct the first three-dimensional Chern insulator, advancing the study of Chern insulators into the three-dimensional realm. Furthermore, they extended the bulk-edge correspondence of Chern insulators, experimentally constructed a Chern vector to characterize the three-dimensional Chern insulator, and discovered complex topological surface waves such as knots and links. (Gui-Geng Liu, et al. Nature 609, 925 (2022))
+2. Construction of the first photonic axion insulator. Axions are theoretically predicted as potential components of dark matter, described by axion fields. Although axions have not yet been directly observed experimentally, they can manifest as quasiparticles in crystals. Dr. Liu and his collaborators simulated the axion field in photonic crystals, achieving the first photonic axion insulator and observing topological surface states characterized by a half-integer Chern number as well as chiral edge states generated by the axion field. (Gui-Geng Liu, et al. Science 387, 162 (2025))
+3. Comprehensive study of non-Hermitian localized states, band degeneracies, disorder-induced topological properties, and antichiral boundary states in non-reciprocal photonic systems. (Phys. Rev. Lett. 132, 113802 (2024); Phys. Rev. Lett. 129, 125502 (2022); Phys. Rev. Lett. 125, 133603 (2020); Phys. Rev. Lett. 125, 263603 (2020); Nat. Commun. 14, 1991 (2023); Nat. Commun. 11, 1873 (2020); Natl. Sci. Rev. 11, nwae121 (2024); Sci. Bull. 69, 2050 (2024); Light Sci. Appl. 9, 133 (2020))
+In addition to the above-mentioned work, Dr. Liu has made contributions in the fields of topological acoustics, non-Hermitian physics, structured optical fields, and liquid crystal metamaterials.
+(*corresponding author, #co-first author)
+1. Gui-Geng Liu, et al. Photonic axion insulator, Science 387, 162 (2025).
+2. Gui-Geng Liu, et al. Topological Chern vectors in three-dimensional photonic crystals, Nature 609, 925 (2022).
+3. Gui-Geng Liu, et al. Localization of chiral edge states by the non-Hermitian skin effect, Phys. Rev. Lett. 132, 113802 (2024).
+4. Gui-Geng Liu, et al. Topological Anderson insulator in disordered photonic crystals, Phys. Rev. Lett. 125, 133603 (2020).
+★ Featured in Physics & Editors’ Suggestion
+5. Gui-Geng Liu, et al. Observation of an unpaired photonic Dirac point, Nat. Commun. 11, 1873 (2020).
+6. Peiheng Zhou, Gui-Geng Liu*, et al. Realization of a quadrupole topological insulator phase in a gyromagnetic photonic crystal, Natl. Sci. Rev. 11, nwae121 (2024).
+7. Zhenxiao Zhu, …, Gui-Geng Liu*, et al. Brillouin Klein space and half-turn space in three-dimensional acoustic crystals, Sci. Bull. 69, 2050 (2024).
+8. Xiang Xi, …, Gui-Geng Liu*, et al. Topological antichiral surface states in a magnetic Weyl photonic crystal, Nat. Commun. 14, 1991 (2023).
+9. Linyun Yang, …, Gui-Geng Liu*, et al. Observation of Dirac hierarchy in three-dimensional acoustic topological insulators, Phys. Rev. Lett. 129, 125502 (2022).
+★ Editors’ Suggestion
+10. Peiheng Zhou, Gui-Geng Liu*, et al. Observation of photonic antichiral edge states, Phys. Rev. Lett. 125, 263603 (2020).
+11. Peiheng Zhou, Gui-Geng Liu#, et al. Photonic amorphous topological insulator, Light Sci. Appl. 9, 133 (2020).
+Email: liuguigeng@westlake.edu.cn
+We are currently recruiting members including postdoctoral researchers, PhD students, research assistants, and visiting scholars. The laboratory offers a competitive remuneration package, an open academic environment, and promising research projects. Prospective applicants are encouraged to contact Dr. Liu Guigeng directly at their earliest convenience.
+For more details, please visit the laboratory homepage: lgglab.com

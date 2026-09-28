@@ -1,0 +1,799 @@
+<html lang="zh">
+  <head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!--对页面标题-->
+  <meta name="title" content="" />
+  <!--对页面的描述-->
+  <meta name="description" content="" />
+  <!--页面关键字-->
+  <meta name="keywords" content="" />
+  <title>孔玮博士 - 西湖大学</title>
+  <script>
+  window.nav = "走进西湖";
+  </script>
+  <script src="../images/facultyDetail.js"></script>
+  <link rel="icon" pre-href="$assetsPublicPathfavicon.ico"></head>
+
+<body>
+  <div class="seo_content">
+    <!-- 
+     此处填写seo优化代码
+     通常直接用 “置标” 填写需要被抓取到的服务端渲染内容
+     注：该区域不会显示在页面上
+     -->
+  </div>
+  <div class="body_container">
+    <html>
+<head>
+<link rel="stylesheet" href="" pre-href="$assetsPublicPathiconfont.css">
+<script src="/images/header.js"></script>
+</head>
+<body>
+<div id="headerEn" class="header"></div>
+  <script>
+    new header("#headerEn", {
+      headerNav: window.nav,
+      placeholder:"输入关键词搜索",
+      quickList: [
+        // {
+        //   text: "Faculty",
+        //   url: "#",
+        //   target: "_self",
+        // },
+        // {
+        //   text: "Students",
+        //   url: "#",
+        //   target: "_self",
+        // },
+        // {
+        //   text: "Staff",
+        //   url: "#",
+        //   target: "_self",
+        // },
+      ],
+      maskObj: {
+        
+        keywords: "Support Us",//当前点击文案（头部Support Us和尾部Giving不同）
+        title: "请联系：",
+        brief: "公共事务部",
+        list: [
+        
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586747778.png",
+            name: "电话",
+            text: "0571-86886861",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586894337.png",
+            name: "邮箱",
+            text: "media@westlake.edu.cn",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552587092891.png",
+            name: "传真",
+            text: "0571-88111699",
+          }
+          
+        
+        ]
+      
+      },
+      // 跳转到搜索页searchList
+      callback: (keywords) => {
+        console.log("home-keywords ", keywords);
+        window.location.href = "/others/search/?keywords=" + keywords;
+      },
+      homeObj: {
+    url: "https://en.westlake.edu.cn/",
+        target: "_blank",
+      },
+      chineseObj: {
+        url: "https://www.westlake.edu.cn/",
+        target: "_self",
+      },
+      quickLink: [
+      
+      {
+        text: "党群",
+        url: "https://dq.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "捐赠",
+        url: "https://wudf.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "湖心讲堂",
+        url: "https://huxin.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "求是西湖",
+        url: "https://qiushi.westlake.edu.cn/",
+        target: "_blank",
+      },
+      
+      {
+        text: "图书馆",
+        url: "https://www.westlake.edu.cn/academics/library/",
+        target: "_blank",
+      },
+      
+      {
+        text: "附属医院",
+        url: "https://www.hz-hospital.com/",
+        target: "_blank",
+      },
+      
+
+      ],
+      navList: [
+      
+        {
+          text: "走进西湖",
+          active: true,//需要加高亮的设置active:true;不需要的设置false，或者不设置
+          url: "#",
+          target: "_self",
+          imgUrl: "https://www.westlake.edu.cn/about/images/P020250928502674278558.jpg",
+          children: [
+          
+            {
+              text: "学校概况",
+              url: "https://www.westlake.edu.cn/about/facts_history/",
+              target: "_self",
+            },
+          
+            {
+              text: "校长寄语",
+              url: "https://www.westlake.edu.cn/about/message_from_president/",
+              target: "_self",
+            },
+          
+            {
+              text: "组织架构",
+              url: "https://www.westlake.edu.cn/about/leadership_organization/",
+              target: "_self",
+            },
+          
+            {
+              text: "导师团队",
+              url: "https://www.westlake.edu.cn/about/faculty/",
+              target: "_self",
+            },
+          
+            {
+              text: "合作交流",
+              url: "https://www.westlake.edu.cn/about/partnerships/",
+              target: "_self",
+            },
+          
+            {
+              text: "资料下载",
+              url: "https://www.westlake.edu.cn/about/VIS/",
+              target: "_self",
+            },
+          
+            {
+              text: "联系我们",
+              url: "https://www.westlake.edu.cn/about/contact_us/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "教育教学",
+          imgUrl: "https://www.westlake.edu.cn/academics/images/P020241230494630827541.jpeg",
+          children: [
+          
+            {
+              text: "本科生教育",
+              url: "https://www.westlake.edu.cn/academics/undergraduate_studies/",
+              target: "_self",
+            },
+          
+            {
+              text: "博士生教育",
+              url: "https://www.westlake.edu.cn/academics/graduate_studies/",
+              target: "_self",
+            },
+          
+          
+            {
+              text: "理学院",
+              url: "https://science.westlake.edu.cn/zh/",
+              target: "_blank",
+            },
+          
+            {
+              text: "工学院",
+              url: "https://engineering.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+            {
+              text: "生命科学学院",
+              url: "https://sls.westlake.edu.cn/About/Overview/",
+              target: "_blank",
+            },
+          
+            {
+              text: "医学院",
+              url: "https://medicine.westlake.edu.cn/About/",
+              target: "_blank",
+            },
+          
+            {
+              text: "西湖卓越学者计划",
+              url: "https://westlakefellows.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "教学日历",
+              url: "https://www.westlake.edu.cn/academics/academic_calendar/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "科学研究",
+          imgUrl: "https://www.westlake.edu.cn/research/images/P020250928391588094108.jpg",
+          children: [
+          
+            {
+              text: "科研进展",
+              url: "https://www.westlake.edu.cn/research/research_at_westlake/",
+              target: "_self",
+            },
+          
+            {
+              text: "创新平台",
+              url: "https://www.westlake.edu.cn/research/centers_institutes/",
+              target: "_self",
+            },
+          
+            {
+              text: "校级公共科研平台",
+              url: "https://www.westlake.edu.cn/research/research_facilities/",
+              target: "_self",
+            },
+          
+            {
+              text: "成果转化",
+              url: "https://www.westlake.edu.cn/research/innovation/",
+              target: "_self",
+            },
+          
+            {
+              text: "学术交流",
+              url: "https://www.westlake.edu.cn/research/academic_exchanges/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "招生与奖助",
+          imgUrl: "https://www.westlake.edu.cn/admissions/images/P020241230495205609325.jpg",
+          children: [
+          
+            {
+              text: "本科生招生",
+              url: "https://zh-ugadmissions.westlake.edu.cn/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "博士生招生",
+              url: "https://www.westlake.edu.cn/admissions/graduate/",
+              target: "_self",
+            },
+          
+          
+            {
+              text: "国际学生招生",
+              url: "https://en.westlake.edu.cn/admissions/international_students/",
+              target: "_blank",
+            },
+          
+          
+            {
+              text: "短期项目",
+              url: "https://www.westlake.edu.cn/admissions/summer_sessions/",
+              target: "_self",
+            },
+          
+            {
+              text: "拟录取新生",
+              url: "https://www.westlake.edu.cn/admissions/admitted_students/",
+              target: "_self",
+            },
+          
+            {
+              text: "奖助体系",
+              url: "https://www.westlake.edu.cn/admissions/financial_aid/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "新闻与活动",
+          imgUrl: "https://www.westlake.edu.cn/news_events/images/P020250107627544696104.jpg",
+          children: [
+          
+            {
+              text: "西湖新闻",
+              url: "https://www.westlake.edu.cn/news_events/westlakenews/",
+              target: "_self",
+            },
+          
+            {
+              text: "西湖影像",
+              url: "https://www.westlake.edu.cn/news_events/gallery/",
+              target: "_self",
+            },
+          
+            {
+              text: "校园文化",
+              url: "https://www.westlake.edu.cn/news_events/thematic_activity/",
+              target: "_self",
+            },
+          
+            {
+              text: "活动预告",
+              url: "https://www.westlake.edu.cn/news_events/EventCalendars/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+        {
+          text: "校园生活",
+          imgUrl: "https://www.westlake.edu.cn/campus_life/images/P020241230495341467625.jpg",
+          children: [
+          
+            {
+              text: "云栖·云谷",
+              url: "https://www.westlake.edu.cn/campus_life/visit_westlake/",
+              target: "_self",
+            },
+          
+            {
+              text: "餐饮住宿",
+              url: "https://www.westlake.edu.cn/campus_life/housing_dining/",
+              target: "_self",
+            },
+          
+            {
+              text: "体育运动",
+              url: "https://www.westlake.edu.cn/campus_life/fitness_recreation/",
+              target: "_self",
+            },
+          
+            {
+              text: "社团活动",
+              url: "https://www.westlake.edu.cn/campus_life/student_groups_activities/",
+              target: "_self",
+            },
+          
+            {
+              text: "身心健康",
+              url: "https://www.westlake.edu.cn/campus_life/health_wellness/",
+              target: "_self",
+            },
+          
+            {
+              text: "西湖书院",
+              url: "https://www.westlake.edu.cn/campus_life/westlake_residential_college/",
+              target: "_self",
+            },
+          
+            {
+              text: "乐活杭州",
+              url: "https://www.westlake.edu.cn/campus_life/life_in_hangzhou/",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      
+        {
+          text: "人才招聘",
+          imgUrl: "https://www.westlake.edu.cn/careers/images/P020241230495385122431.jpg",
+          children: [
+             {
+              text: "学术人才",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=学术人才",
+              target: "_blank",
+            },
+             {
+              text: "专职教学",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=专职教学",
+              target: "_blank",
+            },
+          
+            {
+              text: "平台支撑",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=86537",
+              target: "_blank",
+            },
+          
+            {
+              text: "教学辅助",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=85045",
+              target: "_blank",
+            },
+          
+          {
+              text: "科研团队",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=科研团队",
+              target: "_blank",
+            },
+            
+            {
+              text: "行政服务",
+              url: "https://app.mokahr.com/social-recruitment/westlake/43525#/jobs?zhineng=86536",
+              target: "_blank",
+            },
+            
+            {
+              text: "博士后",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/?keywords=博士后",
+              target: "_blank",
+            },
+           {
+              text: "更多岗位",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/",
+              target: "_blank",
+            }
+          ],
+        },
+      
+
+      
+        {
+          text: "师生入口",
+          imgUrl: "https://www.westlake.edu.cn/TeacherStudentEntrance/images/P020241231556861680164.jpg",
+          children: [
+          
+            {
+              text: "校园门户",
+              url: "https://my.westlake.edu.cn/",
+              target: "_self",
+            },
+          
+            {
+              text: "学校邮箱",
+              url: "https://mail.westlake.edu.cn",
+              target: "_self",
+            },
+          
+          ],
+        },
+      
+      ],
+      mounted: function () {
+        var $el = $(this.$el);
+      },
+    });
+  </script>
+</body>
+
+</html>
+    <div id="app"></div>
+    <html lang="zh">
+<head>
+  <script src="/images/footer.js"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=5522" async="async" defer="defer"></script>
+<!-- <script id="_trs_ta_js" src="https://www.westlake.edu.cn/c/js/ta.js?mpid=5522" async="async" defer="defer"></script> -->
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJMXC8KQ5C"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-VJMXC8KQ5C'); </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?27ab2daf7ee5965ed3dc2b49f7ac67f5";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="footer" class="footer"></div>
+  <script>
+    new footer("#footer", {
+      firstLine: "关注西湖大学",
+      maskObj: {
+      
+        keywords:"媒体接洽",//这里是打开mask弹窗的钥匙
+        title: "请联系：",
+        brief: "公共事务部",
+        list: [
+        
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586747778.png",
+            name: "电话",
+            text: "0571-86886861",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552586894337.png",
+            name: "邮箱",
+            text: "media@westlake.edu.cn",
+          },
+          
+          
+          {
+            icon: "https://www.westlake.edu.cn/others/footer/202310/W020241028552587092891.png",
+            name: "传真",
+            text: "0571-88111699",
+          }
+          
+        
+        ]
+      
+      },
+      mediaObj: {
+      
+      },
+      iconList: [
+      
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552831551435.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552831680680.png",//移入时展示图标
+          url: "https://weibo.com/u/6535729991",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552832493827.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552832642257.png",//移入时展示图标
+          url: "#",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241230578673418134.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241230578673544879.png",//移入时展示图标
+          url: "https://twitter.com/Westlake_Uni/",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552828590082.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552828727988.png",//移入时展示图标
+          url: "https://www.instagram.com/westlake_univ/",
+          target: "_self",
+        },
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552829518161.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552829656122.png",//移入时展示图标
+          url: "https://www.facebook.com/WestlakeUni/",
+          target: "_self",
+        },
+      
+      
+        {
+          imgUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552830523875.png",
+          activeImngUrl: "https://www.westlake.edu.cn/others/footer/link_01/202309/W020241028552830676779.png",//移入时展示图标
+          // url: "https://www.linkedin.com/school/westlakeuniversity/",
+          // target: "_self",
+          QRcodeUrl: "",
+        },
+      
+      
+      ],
+      schoolList: [
+        {
+          title: "走进西湖",
+          children: [
+            
+            {
+              text: "学校概况",
+              url: "https://www.westlake.edu.cn/about/facts_history/",
+              target: "_self",
+            },
+            
+            {
+              text: "教师团队",
+              url: "https://www.westlake.edu.cn/about/faculty/",
+              target: "_self",
+            },
+            
+            {
+              text: "校园地图",
+              url: "https://www.westlake.edu.cn/campus_life/visit_westlake/",
+              target: "_self",
+            },
+            
+          ]
+        },
+        {
+          title: "招生资讯",
+          children: [
+            
+            {
+              text: "本科生招生",
+              url: "https://zh-ugadmissions.westlake.edu.cn/",
+              target: "_self",
+            },
+            
+            {
+              text: "博士生招生",
+              url: "https://www.westlake.edu.cn/admissions/graduate/",
+              target: "_self",
+            },
+            
+            {
+              text: "短期项目",
+              url: "https://www.westlake.edu.cn/admissions/summer_sessions/",
+              target: "_self",
+            },
+            
+          ]
+        },
+       {
+          title: "联系我们",
+          children: [
+            
+            {
+              text: "捐赠通道",
+              url: "https://wudf.westlake.edu.cn/",
+              target: "_blank",
+            },
+            
+            
+            {
+              text: "招聘岗位",
+              url: "https://www.westlake.edu.cn/careers/OpenPositions/",
+              target: "_self",
+            },
+            
+            {
+              text: "媒体接洽",
+              url: "#",
+              target: "_self",
+            },
+            
+          ]
+        },
+      ],
+      campusList: [
+      {
+        title: "云谷校区",
+        children: [
+          "浙江省杭州市西湖区","墩余路600号","邮编：310030","邮箱：office@westlake.edu.cn"
+        ]
+      },
+        
+      {
+        title: "云栖校区",
+        children: [
+          "浙江省杭州市西湖区", " 石龙山街18号", "邮编：310024"," 邮箱：office@westlake.edu.cn"
+        ]
+      },
+      ],
+      copyRight: [
+        {
+          text: "浙ICP备18025489号",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+        {
+          text: "浙公安备33010602007514号",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+        {
+          text: "© 2019-2025 Westlake University. All Rights Reserved",
+          url: "https://beian.miit.gov.cn/state/outPortal/loginPortal.action#/Integrated/index",
+          target: "_self",
+        },
+      ],
+      right: {
+       title: "如有需要<br>请联系我们",
+        phone: "0571-88111600",
+        email: "office@westlake.edu.cn",
+        bgImgTop: window.assetsPublicPath + "footer_right_top.png",//右侧顶部背景图带滤镜 暂时不抛去
+        bgImg: window.assetsPublicPath + "footer_bottom_right.png",//右侧图片展示
+      }
+    });
+  </script>
+</body>
+
+</html>
+  </div>
+  <script>
+    new facultyDetail("#app", {
+      // 暂时不做活这张图片
+      bgUrl: window.assetsPublicPath + "faculty_detail_banner.png",
+      titleObj1: {
+        text: "走进西湖",
+        url: "https://www.westlake.edu.cn/about/",
+        target: "_self"
+      },
+      titleObj2: {
+        text: "导师团队",
+        url: "https://www.westlake.edu.cn/about/faculty/",
+        target: "_self"
+      },
+      personObj: {
+        // 3个共有字段
+        imgUrl: "./W020210427502122255261.jpg",
+        name: "孔玮博士",
+        post: "工学院",
+        // 新增
+		    // subject和lab 为about页面下的faculty-detail独有字段
+		    subject: "材料科学与工程,电子科学与技术",
+        lab: "先进固态半导体实验室",
+        // 新增
+		    // 1个共有字段
+        email: "kongwei@westlake.edu.cn",
+		    // email右边那个字段的信息
+        bottomLabel: "网站",
+		    bottomUrl: "https:\/\/kong.lab.westlake.edu.cn\/",//bottomUrl为空不显示email右边那个字段的信息
+        bottomTarget: "_self",
+		    msg: "",
+      },
+      videoObj: {
+        imgUrl: "",// imgUrl为空不显示
+        videoUrl: "",//优先展示视频，没有展示封面图
+      },
+      //个人简介  标题文案抛出 内容开始
+      biographyTitle: "个人简介",
+      biographyStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin-top: 0px;text-wrap-mode: wrap\">　　孔玮博士2007年本科毕业于中山大学物理学院; 2016年于杜克大学电子工程系获博士学位，研究方向为III-V族化合物合成和器件制备；2016年至2020年在麻省理工学院机械工程系从事博士后研究，方向为低维材料及体材料异质结构，开拓了异质材料多功能集成的新研究方向。<\/p><p><br\/><\/p><\/div>",
+      // 年份和事件必须独立包裹在p标签内，且不可以有多余的p标签
+      historyStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p>2020<\/p><p>助理教授, 西湖大学<\/p><p>2016<\/p><p>博士后, 麻省理工学院<\/p><p>2016<\/p><p>博士，杜克大学<\/p><p>2007<\/p><p>学士，中山大学<\/p><\/div>",
+      researchTitle: "学术成果及研究方向", //标题文案抛出
+      researchStr: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin-top: 0px;text-wrap-mode: wrap\"><br\/><\/p><p style=\"text-wrap-mode: wrap\">实验室概况<\/p><p style=\"text-wrap-mode: wrap\">　　基于过去半个世纪的大量科研投入，硅基半导体材料的物理极限被充分发掘，现代电子器件的进一步发展受限于硅材料的本征性能及其单一功能，对下一代非硅半导体技术的研究是未来电子科技进步的基础和动力。本实验室主要从事下一代高性能晶体半导体材料合成、工艺开发以及器件应用研究。主要研究方向为：<\/p><p style=\"text-wrap-mode: wrap\">    （1）开发新型二维材料或超薄准二维材料，现阶段涉及III-V族氮化物、II-VI族氧化物，以及石墨烯、氮化硼、过渡金属硫化物；<\/p><p style=\"text-wrap-mode: wrap\">    （2）开发三维异质结构堆叠工艺，探索界面产生的包括力学、电学、光学、热学等物理现象；<\/p><p style=\"text-wrap-mode: wrap\">    （3）由此开发功能集成，可应用于集成电路和集成光学。<br\/><\/p><p style=\"text-wrap-mode: wrap;\">    本实验室研究致力于开拓超微型多功能集成芯片的新解决方案，并应用于人工智能、人机界面、物联网等未来场景。<\/p><\/div>",
+      // 教授名字和学刊名用span标签 类名为name包裹 <span class='name'></span>
+      // 或者直接<span style='color:#333;font-weight:bold;'></span>写在标签内
+      representativeList: [
+        {
+          title: "代表论文",
+          content: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web trs_word\"><p style=\"font-size: 16px; text-wrap-mode: wrap; text-align: justify; text-indent: 2em; margin-bottom: 0px; line-height: 1.75em;\"><span data-index=\"9\" style=\"font-family: &#39;times new roman&#39;\"><\/span><\/p><p style=\"margin: 0px; text-align: justify; vertical-align: baseline; text-indent: 0em; line-height: 1.75em;\"><span style=\"font-family: &quot;Times New Roman&quot;, serif; color: rgb(12, 12, 12);\">    <\/span><\/p><p><span style=\"color:black\">1. Yiyang Xu, Han Chen, Chen Ji, Huaze Zhu*, <strong>Wei Kong*<\/strong>, &quot;Layered Electromagnetic Shielding: From Mechanisms to Fabrication&quot;, <strong>Small Methods<\/strong>, 9, 12, e01727 (2025).<\/span><\/p><p><span style=\"color:black\">2. Jichuang Shen†, Xiang Xu†, Wenhao Li, Tong Jiang, Xuechun Sun, Han Chen, Chen Ji, Lida Yu, Jingnan Dong, Tongbo Wei, Huaze Zhu*, <strong>Wei Kong*<\/strong>, &quot;Wafer-Scale Dry-Transfer of Single-Crystalline Transition Metal Dichalcogenides&quot;, <strong>Advanced Materials<\/strong>, 37, 33, 2504223 (2025).<\/span><\/p><p><span style=\"color:black\">3. Jichuang Shen*, Huaze Zhu, Xuechun Sun, Han Chen, Chen Ji, Wenhao Li, and <strong>Wei Kong*<\/strong><\/span><span style=\"color:black\">， &quot;Van der Waals Assembly of Multilayer Twisted Transition Metal Dichalcogenides With Controllable Chirality&quot;, <strong>Advanced Functional Materials<\/strong>, 35, 41, 2504859 (2025).<\/span><\/p><p><span data-index=\"9\" style=\"text-indent: 0em; font-size: 16px; font-family: &quot;times new roman&quot;;\">4.Jichuang Shen†, Xiaopeng Xie†, Wenhao Li, Chaoyue Deng, Yaqing Ma, Han Chen, Huixia Fu, Fang-Sen Li, Bingkai Yuan, Chen Ji, Ruihua He*, Jiaqi Guan*, <\/span><span style=\"text-indent: 0em; font-size: 16px; font-family: &quot;times new roman&quot;;\"><strong>Wei Kong*<\/strong><\/span><span data-index=\"9\" style=\"text-indent: 0em; font-size: 16px; font-family: &quot;times new roman&quot;;\">, &quot;Metal-assisted vacuum transfer enabling in situvisualization of charge density waves inmonolayer MoS₂&quot;, <em><strong>Science Advances<\/strong><\/em>, 11, 13, eadr9753(2025).<\/span><\/p><p><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">5.Tong Jiang†, Hao Wang†, Huaze Zhu, Junwei Cao, Xiaoqing Huo, Zhiqing Yang, Junshuai Li, Yaqing Ma, Shengnan Zhang, Xiang Xu, <\/span><span style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\"><strong>Wei Kong*<\/strong><\/span><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">, &quot;Single‐Crystalline β-Ga₂O₃ Homoepitaxy on a Near Van der Waals Surface of (100) Substrate&quot;, <em><strong>Advanced Science<\/strong><\/em>, 12, 17, 2417436(2025).<\/span><\/p><p><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">6.Yu Xiao†, Yize Liu†, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin*, <\/span><span style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\"><strong>Wei Kong*<\/strong><\/span><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">, Gang Pan*, &quot;Bio-plausible reconfigurable spiking neuron for neuromorphic computing&quot;, <em><strong>Science Advances<\/strong><\/em>, 11, 6,  eadr6733 (2025).<\/span><\/p><p><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">7.Han Chen†, Chen Ji†, Yuxuan Chen†, Hongyu Hou, Wenhao Li, Jichuang Shen, Changhong Cao, Huaze Zhu*, Huashan Li*, <\/span><span style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\"><strong>Wei Kong*<\/strong><\/span><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">, &quot;Interfacial Atomic Mechanisms of Single‐Crystalline MoS₂ Epitaxy on Sapphire&quot;, <em><strong>Advanced Materials<\/strong><\/em>, 37, 11, 2414317(2025).<\/span><\/p><p><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">8.Zhefeng Lou†, Yingjie Zhao†, Zhihao Gong†, Ziye Zhu, Mengqi Wu, Tao Wang, Jialu Wang, Haoyu Qi, Huakun Zuo, Zhuokai Xu, Jichuang Shen, Zhiwei Wang, Lan Li, Shuigang Xu, <\/span><span style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\"><strong>Wei Kong<\/strong><\/span><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">, Wenbin Li*, Xiaorui Zheng*, Hua Wang*, Xiao Lin*, &quot;Phase engineering of giant second harmonic generation in Bi₂O₂Se &quot;, <em><strong>Advanced Materials<\/strong><\/em>, 37, 4, 2409887 (2024).<\/span><\/p><p><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">9.Wenhao Li, Jichuang Shen, Yaqing Ma, Xiang Xu, Han Chen, Lida Yu, Chen Ji, Menglin He, Kezhao Ma, Yiwei Duo, Li Wang, Tongbo Wei, Liping Shi, Muhong Wu, Kaihui Liu, Huaze Zhu*, and <\/span><span style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\"><strong>Wei Kong*<\/strong><\/span><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">. &quot;3D Crystal Construction by Single-Crystal 2D Material Supercell Multiplying&quot;, <em><strong>Advanced Science<\/strong><\/em>, 12, 2, 2411656 (2024).<\/span><\/p><p><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">10.Yitong Chen, Min Zhang, Dingwei Li, Yingjie Tang, Huihui Ren, Jiye Li, Kun Liang, Yan Wang, Liaoyong Wen, Wenbin Li, <\/span><span style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\"><strong>Wei Kong<\/strong><\/span><span data-index=\"9\" style=\"font-size: 16px; text-indent: 0em; font-family: &quot;times new roman&quot;;\">, Shi Liu, Hong Wang, Donglin Wang, Bowen Zhu*, &quot;Bidirectional synaptic phototransistor based on two-dimensional ferroelectric semiconductor for mixed color pattern recognition&quot;, <em><strong>ACS Nano<\/strong><\/em>, 17, 13, 12499-12509 (2023).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">11. <\/span><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">Hyunseok Kim, Yunpeng Liu, Kuangye, Celesta S. Chang, Dongchul Sung, Marx Akl, Kuan Qiao, Ki Seok Kim, Bo-In Park, Menglin Zhu, Jun Min Suh, Jekyung Kim, Junseok Jeong, Yongmin Baek, You Jin Ji, Sungsu Kang, Sangho Lee, Ne Myo Han, Chansoo Kim, Chanyeol Choi, Xinyuan Zhang, Hyeong-Kyu Choi, Yanming Zhang, Haozhe Wang, Lingping Kong, Nordin Noor Afeefah, Mohamed Nainar Mohamed Ansari, Jungwon Park, Kyusang Lee, Geun Young Yeom, Sungkyu Kim, Jinwoo Hwang, Jing Kong, Sang-Hoon Bae, Yunfeng Shi*, Suklyun Hong*, <\/span><strong style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-align: justify; text-indent: 0em;\">Wei Kong*<\/strong><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">&amp;Jeehwan Kim*. &quot;High-throughput manufacturing of epitaxial membranes from a single wafer by 2Dmaterials-based layer transfer process&quot;, <\/span><strong style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-align: justify; text-indent: 0em;\"><em>Nature Nanotechnology<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">, 18, 464–470 (2023). <\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">12. Yeongin Kim, Jun Min Suh, Jiho Shin, Yunpeng Liu, Hanwool Yeon, Kuan Qiao, Hyun S Kum, Chansoo Kim, Han Eol Lee, Chanyeol Choi, Hyunseok Kim, Doyoon Lee, Jaeyong Lee, Ji-Hoon Kang, Bo-In Park, Sungsu Kang, Jihoon Kim, Sungkyu Kim, Joshua A Perozek, Kejia Wang, Yongmo Park, Kumar Kishen, Lingping Kong, Tomás Palacios, Jungwon Park, Min-Chul Park, Hyung-jun Kim, Yun Seog Lee, Kyusang Lee, Sang-Hoon Bae, <\/span><strong style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-align: justify; text-indent: 0em;\">Wei Kong<\/strong><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">, Jiyeon Han*, Jeehwan Kim*. &quot;Chip-less wireless electronic skins by remote epitaxial freestanding compound semiconductors&quot;, <\/span><em style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-align: justify; text-indent: 0em;\"><strong>Science<\/strong><\/em><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">, 377, 859–864 (2022).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">13. Hyunseok Kim, Celesta S. Chang, Sangho Lee, Jie Jiang, Junseok Jeong, Minseong Park, Yuan Meng, Jongho Ji, Yeunwoo Kwon, Xuechun Sun, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><span style=\";text-indent: 0em\">Wei Kong*<\/span><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, Hyun S. Kum*, Sang-Hoon Bae*, Kyusang Lee*, Young Joon Hong*, Jian Shi*, and Jeehwan Kim*,  &quot;Remote epitaxy&quot;,<\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em> Nature Reviews Methods Primers<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, 2, 40 (2022).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">14. K. Qiao, Y. Liu, C. Kim, R. J. Molnar, T. Osadchy, W. Li, X. Sun, H. Li, R. L. Myers-Ward, D. Lee, S. Subramanian, H. Kim, K. Lu, J. A. Robinson, <\/span><strong style=\"text-align: justify; text-indent: 0em; font-family: &quot;Times New Roman&quot;, serif; font-size: 19px;\"><span style=\";font-family: &#39;times new roman&#39;;font-size: 16px\">W. Kong*<\/span><\/strong><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">, J. Kim*. Graphene Buffer Layer on SiC as a Release Layer for High-Quality Freestanding Semiconductor Membranes. <\/span><strong style=\"text-align: justify; text-indent: 0em; font-family: &quot;Times New Roman&quot;, serif; font-size: 19px;\"><em>Nano Lett.<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">, 21, 9, 4013–4020 (2021).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">15. H. Kum†, H. Lee†, S. Kim†, S. Lindemann†, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><span style=\";text-indent: 0em\">W. Kong<\/span><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, K. Qiao, P. Chen, S. Subramanian, L. Ranno, S. Seo, J. Irwin, S.-H. Bae, H. Li, K. Lee, M. S. Rzchowski, J. A. Robinson, B. Yildiz, C.-B. Eom, and J. Kim “Heterogeneous integration of freestanding epitaxial complex-oxide membranes”, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em>Nature<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\"> 578 75–81 (2020).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">16. S.-H. Bae, K. Lu, Y. Han, S. Kim, K. Qiao, C. Choi, Y. Nie, H. Kim, H. S Kum, P. Chen, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><span style=\";text-indent: 0em\">W. Kong<\/span><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, B.-S. Kang, C. Kim, J. Lee, Y. Baek, J. Shim, J. Park, M. Joo, D. A Muller, K. Lee, and J. Kim, “Graphene-assisted spontaneous relaxation towards dislocation-free heteroepitaxy”, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em>Nature Nanotechnology<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\"> 15, 272–276 (2020).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">17. <\/span><strong style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-align: justify; text-indent: 0em;\">W. Kong<\/strong><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">, S.-H. Bae, H. Kum, J. Kim, “Path towards graphene commercialization from lab to market”, <strong><em>Nature Nanotechnology<\/em><\/strong> 14 927-938 (2019).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">18. H. Kum, D. Lee, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><span style=\";text-indent: 0em\">W. Kong<\/span><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, Y. Kim, K. Lee, and J. Kim, “Epitaxial growth and layer-transfer techniques for heterogeneous integration of materials for electronic and photonic devices”, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em>Nature Electronics<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\"> 2 439–450 (2019).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">19. S.-H. Bae, H. Kum, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><span style=\";text-indent: 0em\">W. Kong<\/span><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, Y. Kim, C. Choi, B. Lee, P. Lin, and J. Kim, “Integration of bulk materials with two-dimensional materials for physical coupling and their applications”. <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em>Nature Materials<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\"> 18, 550–560 (2019).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">20. <\/span><strong style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-align: justify; text-indent: 0em;\">W. Kong<\/strong><strong style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-align: justify; text-indent: 0em;\">†<\/strong><span style=\"font-family: &quot;times new roman&quot;; font-size: 16px; text-indent: 0em;\">, H. Li†, K. Qiao†, Y. Kim, K. Lee, Y. Nie, D. Lee, T. Osadchy, R. J. Molnar, D. K. Gaskill, R. L. Myers-Ward, K. M. Daniels, Y. Zhang, S. Sundram, Y. Yu, S.-H. Bae, S. Rajan, Y. Shao-Horn, K. Cho, A. Ougazzaden, J. C. Grossman, and J. Kim, “Polarity governs atomic interaction through two-dimensional materials”. <strong><em>Nature Materials<\/em><\/strong> 17, pp. 999-1004 (2018).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">21. J. Shim†, S.-H. Bae†, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><span style=\";text-indent: 0em\">W. Kong<\/span>† (equal contributor)<\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, D. Lee, K. Qiao, D. Nezich, Y. J. Park, R. Zhao, S. Sundaram, X. Li, H. Yeon, C. Choi, H. Kum, R. Yue, G. Zhou, Y. Ou, K. Lee, J. Moodera, X. Zhao, J.-H. Ahn, C. Hinkle, A. Ougazzaden, and J. Kim, “Controlled crack propagation for atomic precision handling of wafer scale two dimensional materials”. <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em>Science<\/em><\/strong><em style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\">,<\/em><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\"> 362, pp. 665-670 (2018).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">22. Y. Kim, S. S. Cruz, Y. Song, B. O. Alawode, J. M. Johnson, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><span style=\";text-indent: 0em\">W. Kong<\/span><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, C. Heidelberger, C. Choi, K. Lee, S. Choi, E. A. Fitzgerald, A. M. Kolpak, J. Kong, J. Hwang, and J. Kim, “Remote epitaxy through graphene: Role of underlying substrates on van der Waals epitaxy”. <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em>Nature<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, 544 pp340 (2017).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">23. J. Shim, D.-H. Kang, Y. Kim, H. Kum, W. Kong, S.-H. Bae, I. Almansouri, K. Lee, J. -H. Park, and J. Kim, “Recent progress in Van der Waals (vdW) heterojunction-based electronic and optoelectronic devices”. <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em>Carbon<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\"> 133 78-89 (2018).<\/span><\/p><p><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">24. T.-J. Lu, M. Fanto, H. Choi, P. Thomas, J. Steidle, S. Mouradian, <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><span style=\";text-indent: 0em\">W. Kong<\/span><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, D. Zhu, H. Moon, K. Berggren, J. Kim, M. Soltani, S. Preble, and D. Englund, “An aluminum nitride integrated photonics platform for the ultraviolet to visible spectrum”. <\/span><strong style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px; text-align: justify;\"><em>Optical Express<\/em><\/strong><span style=\"font-family: &quot;times new roman&quot;; text-indent: 0em; font-size: 16px;\">, 26 (9), 11147-11160 (2018).<\/span><\/p><p><br\/><\/p><p><br\/><\/p><\/div>",
+        },
+        {
+          title: "联系我们",
+          content: "<div class=\"view TRS_UEDITOR trs_paper_default trs_web\"><p style=\"margin-top: 0px;text-wrap-mode: wrap\">　　电子邮箱：kongwei@westlake.edu.cn<\/p><p style=\"text-wrap-mode: wrap;\"><br\/>　　本实验室长期招聘博士研究生、博士后、研究员及研究助理。本实验室鼓励交叉学科和自由研究环境，欢迎对本课题组研究方向感兴趣，具有物理、化学、材料或器件背景的学生和博士后加入我们， 请通过电子邮件与本人联系并附上简历。<\/p><\/div>",
+        },
+      ],
+      mounted: function () { },
+    });
+  </script>
+
+
+</body></html>

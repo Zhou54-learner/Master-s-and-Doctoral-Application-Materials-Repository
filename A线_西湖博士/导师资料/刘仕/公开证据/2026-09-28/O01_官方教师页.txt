@@ -1,0 +1,26 @@
+Shi LIU, Ph.D. - Westlake University
+Shi Liu graduated in 2009 with a B.S. in Chemical Physics from the University of Science and Technology of China, before completing his Ph.D. from the University of Pennsylvania in 2015. Dr. Liu was offered a Carnegie Fellowship at the Carnegie Institution for Science in Washington, D.C., where he worked on multiscale simulations of defects in ferroelectrics and hybrid perovskites for photovoltaic applications. He received the American Physical Society Nicholas Metropolis Award in Computational Physics in 2017 and SEDD (Sensors and Electronic Device Directorate) Distinguished Fellowship at U.S. Army Research Laboratory in 2018. In June 2019, Dr. Liu joined the School of Science at Westlake University. In 2025, Dr. Liu was promoted to Associate Professor.
+2025-
+Associate Professor with tenure, Westlake University
+2019-2025
+Assistant Professor of Physics, Westlake University
+2018-2019
+Postdoc, U.S. Army Research Laboratory
+2015-2018
+Postdoc, Carnegie Institution for Science in Washington, D.C.
+2009-2015
+Ph.D. degree, University of Pennsylvania
+2005-2009
+B.S. degree, University of Science and Technology of China (USTC)
+The overarching theme of our research is to develop and apply predictive multiscale computational approach that combines formerly isolated methods to enable accurate and efficient estimations of materials properties at technologically relevant length/time scales.We comprehend the structure-property relationships of current state-of-the-art materials and then use these insights to guide the design of advanced materials. Research areas in our lab are in:
+1. Novel ferroelectrics for next-generation energy and information technology.
+2. Topological phases in condensed matter physics.
+3. Deep-learning-based large-scale modeling of complex oxides.
+1. Rui Lin†, Changming Ke†, Juner Chen, Shi Liu*, Jianhui Wang*, "Asymmetric donor-acceptor molecule-regulated core-shell-solvation electrolyte for high-voltage aqueous batteries", Joule, 6, 399–417 (2022) (Cover Article)
+2. Changming Ke, Jiawei Huang, Shi Liu*, "Two-dimensional ferroelectric metal for electrocatalysis", Materials Horizons, 8, 3387-3393 (2021)
+3. Xu Duan†, Jiawei Huang†, Bin Xu, Shi Liu*, "A two-dimensional multiferroic metal with voltage-tunable magnetization and metallicity", Materials Horizons, 8, 2316-2324 (2021)
+4. J. Liu*, S. Liu*, J. Yang, and L. Liu “Electric auxetic effect in piezoelectrics”, Phys. Rev. Lett., 125, 197601 (2020) (Editors’ Suggestion)
+5. S. Liu and R. E. Cohen, “Origin of negative longitudinal piezoelectric effect”, Phys. Rev. Lett., 119, 207601 (2017) (Editors’ Suggestion)
+6. S. Liu, I. Grinberg, and A. M. Rappe, “Intrinsic Ferroelectric Switching from First Principles”, Nature, 534, 360 (2016)
+7. S. Liu, Y. Kim, L. Z. Tan and A. M. Rappe, “Strain-Induced Ferroelectric Topological Insulator”, Nano. Lett., 16, 1663-1668 (2016)
+8. S. Liu, F. Zheng, N. Z. Koocher, H. Takenaka, F. Wang, and A. M. Rappe, “Ferroelectric Domain Wall Induced Band-Gap Reduction and Charge Separation in Organometal Halide Perovskites”, J. Phys. Chem. Lett., 6, 693 (2015)

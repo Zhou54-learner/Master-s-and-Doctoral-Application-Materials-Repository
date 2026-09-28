@@ -1,0 +1,23 @@
+{
+  "source_url": "https://ne2.lab.westlake.edu.cn/Content_EN/Investigators.htm",
+  "checked_date": "2026-09-28",
+  "key": "S01_团队",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://ne2.lab.westlake.edu.cn/Content_EN/Investigators.htm",
+  "sha256": "e615f2a5814bff23497817d91227ad15896e0db905596cfef1461271f4455d16",
+  "bytes": 22409,
+  "links": [
+    "../index.htm",
+    "../content_CN/home_CN.htm",
+    "Research.htm",
+    "Investigators.htm",
+    "Publications.htm",
+    "Gallery.htm",
+    "Join_us.htm",
+    "mailto:zhangqicheng@westlake.edu.cn",
+    "https://en.westlake.edu.cn/faculty/qicheng-zhang.html",
+    "https://www.westlake.edu.cn/faculty/qicheng-zhang.html"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

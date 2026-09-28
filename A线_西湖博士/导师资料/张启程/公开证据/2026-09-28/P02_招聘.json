@@ -1,0 +1,9 @@
+{
+  "source_url": "https://ne2.lab.westlake.edu.cn/Join_us.htm",
+  "checked_date": "2026-09-28",
+  "key": "P02_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 404,
+  "final_url": "https://ne2.lab.westlake.edu.cn/Join_us.htm",
+  "content_review": "失败/空壳/跳转，不能支持正文结论"
+}

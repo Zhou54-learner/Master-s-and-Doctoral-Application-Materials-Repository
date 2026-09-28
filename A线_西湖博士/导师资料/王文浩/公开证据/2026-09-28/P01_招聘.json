@@ -1,0 +1,12 @@
+{
+  "source_url": "https://wangwenhaolab.com/openings",
+  "checked_date": "2026-09-28",
+  "key": "P01_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://wangwenhaolab.com/openings",
+  "sha256": "9c97758a83fb58f29440d786d0e55c49f74bd061e0f384342e3a7c589a7be86d",
+  "bytes": 1446,
+  "links": [],
+  "content_review": "失败/空壳/跳转，不能支持正文结论"
+}

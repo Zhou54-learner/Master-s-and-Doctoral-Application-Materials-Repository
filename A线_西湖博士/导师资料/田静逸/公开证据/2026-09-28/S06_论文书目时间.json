@@ -1,0 +1,12 @@
+{
+  "source_url": "https://api.crossref.org/works?query.title=SFP-Net%20Scatter-feature-perception%20network%20for%20underwater%20image%20enhancement&rows=1",
+  "checked_date": "2026-09-28",
+  "key": "S06_论文书目时间",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://api.crossref.org/works?query.title=SFP-Net%20Scatter-feature-perception%20network%20for%20underwater%20image%20enhancement&rows=1",
+  "sha256": "2572fde5f6abe6f156385e4ce1c8c526d870f3797c340a1c022ba1c20083e324",
+  "bytes": 23603,
+  "links": [],
+  "content_review": "已保存，需按正文用途引用"
+}

@@ -1,0 +1,24 @@
+{
+  "source_url": "https://zdz.lab.westlake.edu.cn/en/index.html",
+  "checked_date": "2026-09-28",
+  "key": "P02_主页正文",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://zdz.lab.westlake.edu.cn/en/index.html",
+  "sha256": "b449ab31717d6b49e9101124936d8f9082893c04346cb82cae5482dac3425189",
+  "bytes": 23371,
+  "links": [
+    "./index.html",
+    "./research/index.html",
+    "./publications/index.html",
+    "./people/index.html",
+    "./openings/index.html",
+    "../index.html",
+    "./research/index.html#mxene",
+    "./research/index.html#spectroscopy",
+    "./research/index.html#wearable",
+    "https://doi.org/10.1038/s41586-025-09904-0",
+    "mailto:zhangdanzhen@westlake.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

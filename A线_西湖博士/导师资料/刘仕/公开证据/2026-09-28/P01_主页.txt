@@ -1,0 +1,24 @@
+﻿
+刘仕实验室
+Liu Theory Lab
+Welcome to Multiscale Materials Modeling Laboratory @Westlake University!
+We use computational modeling to study emergent phenomena in condensed matter physics and to address challenges in the areas of energy and information technology.
+DISCOVER
+RESEARCH
+The overarching theme of our research is to develop and apply predictive multiscale computational approach that combines formerly isolated methods to enable accurate and efficient estimations of materials properties at technologically relevant length/time scales.We comprehend the structure-property relationships of current state-of-the-art materials and then use these insights to guide the design of advanced materials. Research areas in our lab are in:
+Novel ferroelectrics for next-generation energy and information technology.
+Topological phases in condensed matter physics.
+Deep-learning-based large-scale modeling of complex oxides.
+Explanation of Website Background Image: The background image on our website provides a vivid representation of our lab's three primary research areas. We have developed a deep neural network-based classical force field, facilitating large-scale molecular dynamics simulations of the PbTiO3/SrTiO3 superlattice. PbTiO3 is a prototypical ferroelectric material possessing spontaneous electric polarization. Within this superlattice, PbTiO3's unit cells exhibit electric dipoles, leading to the emergence of vortex structures - topological configurations in real space. To enhance the visual appeal of this snapshot, we have artistically blended it with elements from Van Gogh's iconic masterpiece, "Starry Night," using a specialized AI algorithm.
+TEAM LEADER
+刘仕 Shi LIU, Ph.D.
+Email: liushi (at) westlake.edu.cn
+Principal Investigator
+Tenured Associate Professor
+School of Science, Westlake University
+Shi Liu graduated in 2009 with a B.S. in Chemical Physics from the University of Science and Technology of China, before completing his Ph.D. from the University of Pennsylvania in 2015. During the Ph.D. program, he worked under the direction of Professor Andrew M. Rappe, mainly focusing on computational condensed matter physics. Following completion of his Ph.D., Dr. Liu was offered a Carnegie Fellowship at the Carnegie Institution for Science in Washington, D.C., where he worked with Dr. Ronald E. Cohen on multiscale simulations of defects in ferroelectrics and hybrid perovskites for photovoltaic applications. He received the American Physical Society Nicholas Metropolis Award in Computational Physics in 2017 and SEDD (Sensors and Electronic Device Directorate) Distinguished Fellowship at U.S. Army Research Laboratory in 2018. In June 2019, Dr. Liu joined the School of Science at Westlake University.
+NEWS
+SELECTED PUBLICATIONS
+BOOK CHAPTER
+Our Team Members
+Our team members are our partners and we can not imagine a better future for our team without helping them reach their full potential.

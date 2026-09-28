@@ -1,0 +1,42 @@
+孔玮博士 - 西湖大学
+孔玮博士2007年本科毕业于中山大学物理学院; 2016年于杜克大学电子工程系获博士学位，研究方向为III-V族化合物合成和器件制备；2016年至2020年在麻省理工学院机械工程系从事博士后研究，方向为低维材料及体材料异质结构，开拓了异质材料多功能集成的新研究方向。
+2020
+助理教授, 西湖大学
+2016
+博士后, 麻省理工学院
+2016
+博士，杜克大学
+2007
+学士，中山大学
+实验室概况
+基于过去半个世纪的大量科研投入，硅基半导体材料的物理极限被充分发掘，现代电子器件的进一步发展受限于硅材料的本征性能及其单一功能，对下一代非硅半导体技术的研究是未来电子科技进步的基础和动力。本实验室主要从事下一代高性能晶体半导体材料合成、工艺开发以及器件应用研究。主要研究方向为：
+（1）开发新型二维材料或超薄准二维材料，现阶段涉及III-V族氮化物、II-VI族氧化物，以及石墨烯、氮化硼、过渡金属硫化物；
+（2）开发三维异质结构堆叠工艺，探索界面产生的包括力学、电学、光学、热学等物理现象；
+（3）由此开发功能集成，可应用于集成电路和集成光学。
+本实验室研究致力于开拓超微型多功能集成芯片的新解决方案，并应用于人工智能、人机界面、物联网等未来场景。
+1. Yiyang Xu, Han Chen, Chen Ji, Huaze Zhu*, Wei Kong*, "Layered Electromagnetic Shielding: From Mechanisms to Fabrication", Small Methods, 9, 12, e01727 (2025).
+2. Jichuang Shen†, Xiang Xu†, Wenhao Li, Tong Jiang, Xuechun Sun, Han Chen, Chen Ji, Lida Yu, Jingnan Dong, Tongbo Wei, Huaze Zhu*, Wei Kong*, "Wafer-Scale Dry-Transfer of Single-Crystalline Transition Metal Dichalcogenides", Advanced Materials, 37, 33, 2504223 (2025).
+3. Jichuang Shen*, Huaze Zhu, Xuechun Sun, Han Chen, Chen Ji, Wenhao Li, and Wei Kong*， "Van der Waals Assembly of Multilayer Twisted Transition Metal Dichalcogenides With Controllable Chirality", Advanced Functional Materials, 35, 41, 2504859 (2025).
+4.Jichuang Shen†, Xiaopeng Xie†, Wenhao Li, Chaoyue Deng, Yaqing Ma, Han Chen, Huixia Fu, Fang-Sen Li, Bingkai Yuan, Chen Ji, Ruihua He*, Jiaqi Guan*, Wei Kong*, "Metal-assisted vacuum transfer enabling in situvisualization of charge density waves inmonolayer MoS₂", Science Advances, 11, 13, eadr9753(2025).
+5.Tong Jiang†, Hao Wang†, Huaze Zhu, Junwei Cao, Xiaoqing Huo, Zhiqing Yang, Junshuai Li, Yaqing Ma, Shengnan Zhang, Xiang Xu, Wei Kong*, "Single‐Crystalline β-Ga₂O₃ Homoepitaxy on a Near Van der Waals Surface of (100) Substrate", Advanced Science, 12, 17, 2417436(2025).
+6.Yu Xiao†, Yize Liu†, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin*, Wei Kong*, Gang Pan*, "Bio-plausible reconfigurable spiking neuron for neuromorphic computing", Science Advances, 11, 6,  eadr6733 (2025).
+7.Han Chen†, Chen Ji†, Yuxuan Chen†, Hongyu Hou, Wenhao Li, Jichuang Shen, Changhong Cao, Huaze Zhu*, Huashan Li*, Wei Kong*, "Interfacial Atomic Mechanisms of Single‐Crystalline MoS₂ Epitaxy on Sapphire", Advanced Materials, 37, 11, 2414317(2025).
+8.Zhefeng Lou†, Yingjie Zhao†, Zhihao Gong†, Ziye Zhu, Mengqi Wu, Tao Wang, Jialu Wang, Haoyu Qi, Huakun Zuo, Zhuokai Xu, Jichuang Shen, Zhiwei Wang, Lan Li, Shuigang Xu, Wei Kong, Wenbin Li*, Xiaorui Zheng*, Hua Wang*, Xiao Lin*, "Phase engineering of giant second harmonic generation in Bi₂O₂Se ", Advanced Materials, 37, 4, 2409887 (2024).
+9.Wenhao Li, Jichuang Shen, Yaqing Ma, Xiang Xu, Han Chen, Lida Yu, Chen Ji, Menglin He, Kezhao Ma, Yiwei Duo, Li Wang, Tongbo Wei, Liping Shi, Muhong Wu, Kaihui Liu, Huaze Zhu*, and Wei Kong*. "3D Crystal Construction by Single-Crystal 2D Material Supercell Multiplying", Advanced Science, 12, 2, 2411656 (2024).
+10.Yitong Chen, Min Zhang, Dingwei Li, Yingjie Tang, Huihui Ren, Jiye Li, Kun Liang, Yan Wang, Liaoyong Wen, Wenbin Li, Wei Kong, Shi Liu, Hong Wang, Donglin Wang, Bowen Zhu*, "Bidirectional synaptic phototransistor based on two-dimensional ferroelectric semiconductor for mixed color pattern recognition", ACS Nano, 17, 13, 12499-12509 (2023).
+11. Hyunseok Kim, Yunpeng Liu, Kuangye, Celesta S. Chang, Dongchul Sung, Marx Akl, Kuan Qiao, Ki Seok Kim, Bo-In Park, Menglin Zhu, Jun Min Suh, Jekyung Kim, Junseok Jeong, Yongmin Baek, You Jin Ji, Sungsu Kang, Sangho Lee, Ne Myo Han, Chansoo Kim, Chanyeol Choi, Xinyuan Zhang, Hyeong-Kyu Choi, Yanming Zhang, Haozhe Wang, Lingping Kong, Nordin Noor Afeefah, Mohamed Nainar Mohamed Ansari, Jungwon Park, Kyusang Lee, Geun Young Yeom, Sungkyu Kim, Jinwoo Hwang, Jing Kong, Sang-Hoon Bae, Yunfeng Shi*, Suklyun Hong*, Wei Kong*&Jeehwan Kim*. "High-throughput manufacturing of epitaxial membranes from a single wafer by 2Dmaterials-based layer transfer process", Nature Nanotechnology, 18, 464–470 (2023).
+12. Yeongin Kim, Jun Min Suh, Jiho Shin, Yunpeng Liu, Hanwool Yeon, Kuan Qiao, Hyun S Kum, Chansoo Kim, Han Eol Lee, Chanyeol Choi, Hyunseok Kim, Doyoon Lee, Jaeyong Lee, Ji-Hoon Kang, Bo-In Park, Sungsu Kang, Jihoon Kim, Sungkyu Kim, Joshua A Perozek, Kejia Wang, Yongmo Park, Kumar Kishen, Lingping Kong, Tomás Palacios, Jungwon Park, Min-Chul Park, Hyung-jun Kim, Yun Seog Lee, Kyusang Lee, Sang-Hoon Bae, Wei Kong, Jiyeon Han*, Jeehwan Kim*. "Chip-less wireless electronic skins by remote epitaxial freestanding compound semiconductors", Science, 377, 859–864 (2022).
+13. Hyunseok Kim, Celesta S. Chang, Sangho Lee, Jie Jiang, Junseok Jeong, Minseong Park, Yuan Meng, Jongho Ji, Yeunwoo Kwon, Xuechun Sun, Wei Kong*, Hyun S. Kum*, Sang-Hoon Bae*, Kyusang Lee*, Young Joon Hong*, Jian Shi*, and Jeehwan Kim*,  "Remote epitaxy", Nature Reviews Methods Primers, 2, 40 (2022).
+14. K. Qiao, Y. Liu, C. Kim, R. J. Molnar, T. Osadchy, W. Li, X. Sun, H. Li, R. L. Myers-Ward, D. Lee, S. Subramanian, H. Kim, K. Lu, J. A. Robinson, W. Kong*, J. Kim*. Graphene Buffer Layer on SiC as a Release Layer for High-Quality Freestanding Semiconductor Membranes. Nano Lett., 21, 9, 4013–4020 (2021).
+15. H. Kum†, H. Lee†, S. Kim†, S. Lindemann†, W. Kong, K. Qiao, P. Chen, S. Subramanian, L. Ranno, S. Seo, J. Irwin, S.-H. Bae, H. Li, K. Lee, M. S. Rzchowski, J. A. Robinson, B. Yildiz, C.-B. Eom, and J. Kim “Heterogeneous integration of freestanding epitaxial complex-oxide membranes”, Nature 578 75–81 (2020).
+16. S.-H. Bae, K. Lu, Y. Han, S. Kim, K. Qiao, C. Choi, Y. Nie, H. Kim, H. S Kum, P. Chen, W. Kong, B.-S. Kang, C. Kim, J. Lee, Y. Baek, J. Shim, J. Park, M. Joo, D. A Muller, K. Lee, and J. Kim, “Graphene-assisted spontaneous relaxation towards dislocation-free heteroepitaxy”, Nature Nanotechnology 15, 272–276 (2020).
+17. W. Kong, S.-H. Bae, H. Kum, J. Kim, “Path towards graphene commercialization from lab to market”, Nature Nanotechnology 14 927-938 (2019).
+18. H. Kum, D. Lee, W. Kong, Y. Kim, K. Lee, and J. Kim, “Epitaxial growth and layer-transfer techniques for heterogeneous integration of materials for electronic and photonic devices”, Nature Electronics 2 439–450 (2019).
+19. S.-H. Bae, H. Kum, W. Kong, Y. Kim, C. Choi, B. Lee, P. Lin, and J. Kim, “Integration of bulk materials with two-dimensional materials for physical coupling and their applications”. Nature Materials 18, 550–560 (2019).
+20. W. Kong†, H. Li†, K. Qiao†, Y. Kim, K. Lee, Y. Nie, D. Lee, T. Osadchy, R. J. Molnar, D. K. Gaskill, R. L. Myers-Ward, K. M. Daniels, Y. Zhang, S. Sundram, Y. Yu, S.-H. Bae, S. Rajan, Y. Shao-Horn, K. Cho, A. Ougazzaden, J. C. Grossman, and J. Kim, “Polarity governs atomic interaction through two-dimensional materials”. Nature Materials 17, pp. 999-1004 (2018).
+21. J. Shim†, S.-H. Bae†, W. Kong† (equal contributor), D. Lee, K. Qiao, D. Nezich, Y. J. Park, R. Zhao, S. Sundaram, X. Li, H. Yeon, C. Choi, H. Kum, R. Yue, G. Zhou, Y. Ou, K. Lee, J. Moodera, X. Zhao, J.-H. Ahn, C. Hinkle, A. Ougazzaden, and J. Kim, “Controlled crack propagation for atomic precision handling of wafer scale two dimensional materials”. Science, 362, pp. 665-670 (2018).
+22. Y. Kim, S. S. Cruz, Y. Song, B. O. Alawode, J. M. Johnson, W. Kong, C. Heidelberger, C. Choi, K. Lee, S. Choi, E. A. Fitzgerald, A. M. Kolpak, J. Kong, J. Hwang, and J. Kim, “Remote epitaxy through graphene: Role of underlying substrates on van der Waals epitaxy”. Nature, 544 pp340 (2017).
+23. J. Shim, D.-H. Kang, Y. Kim, H. Kum, W. Kong, S.-H. Bae, I. Almansouri, K. Lee, J. -H. Park, and J. Kim, “Recent progress in Van der Waals (vdW) heterojunction-based electronic and optoelectronic devices”. Carbon 133 78-89 (2018).
+24. T.-J. Lu, M. Fanto, H. Choi, P. Thomas, J. Steidle, S. Mouradian, W. Kong, D. Zhu, H. Moon, K. Berggren, J. Kim, M. Soltani, S. Preble, and D. Englund, “An aluminum nitride integrated photonics platform for the ultraviolet to visible spectrum”. Optical Express, 26 (9), 11147-11160 (2018).
+电子邮箱：kongwei@westlake.edu.cn
+本实验室长期招聘博士研究生、博士后、研究员及研究助理。本实验室鼓励交叉学科和自由研究环境，欢迎对本课题组研究方向感兴趣，具有物理、化学、材料或器件背景的学生和博士后加入我们， 请通过电子邮件与本人联系并附上简历。

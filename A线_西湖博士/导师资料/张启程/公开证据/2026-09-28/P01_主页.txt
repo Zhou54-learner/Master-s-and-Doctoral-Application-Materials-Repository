@@ -1,0 +1,38 @@
+﻿
+Qicheng Zhang Lab
+Qicheng Zhang Lab
+中文版
+Research
+Investigators
+Publications
+Gallery
+Join Us
+The NE2 lab is interested in linking structures with functions, especially in ways they haven’t connected before, and developing novel devices from the discoveries. Specifically, one of our current topics is to develop integrated topological phononic systems for applications like miniaturized wireless communication and quantum information. To achieve such goals, we apply electrical engineering, nanotechnology, physics, and materials engineering methods.
+Our enthusiasm for research is driven by curiosity, the fun of exploration, and the need to improve our world. We also like to connect research with society through reach-out events.
+Geometrical phase: falling cats and edge modes
+Visualizing phonon edge mode using TMIM
+Simulated chiral edge states in piezomagnetic system
+Engineer domain walls in trilayer graphene
+Carbon nanotube sensor chip for "electronic nose"
+News
+2025-08-24 | Excited to welcome Jun and Zhen! They joined us as PhD candidates!
+2025-07-13 | Excited to welcome Zehua Yuan for visiting!
+2025-05-07 | Excited to welcome Xiaoyan! Xiaoyan joined us as a Research Assistant!
+2025-04-17 | Our perspective on the devices for integrated phononic circuits is online in Advanced Materials.
+2024-08-24 | Excited to welcome Jie, Danyang and Jiayi! They joined us as PhD candidates!
+2024-08-08 | Our collaborated work with University of Texas at Austin and University of Pennsylvania is online in Device.
+2024-07-29 | Excited to welcome Yuntian (Ivan) Hou for visiting!
+2024-07-22 | Excited to welcome Chenwei Wu for visiting!
+2024-07-08 | Excited to welcome Yi Xiong for visiting!
+2024-04-01 | Excited to welcome Jun and Jie! Jun joined us as a Research Assistant and Jie came to visit us!
+2023-12-01 | Excited to welcome Xinlong! He joined us as a Research Assistant!
+2023-10-10 | Excited to welcome Danyang! She joined us as a Research Assistant!
+2023-08-11 | Excited to welcome Yihang! She joined us as a PhD candidate!
+2023-06-28 | Qicheng has officially joined the Westlake University.
+2023-02-17 | Qicheng's paper on general duality and piezoactive phononic crystals appears in Nature Communications.
+2023-02-02 | The NE2 lab is under construction. We welcome new members including graduate students, postdoctoral researchers, research assistants and undergraduate students. Please see our page "Join Us" for more information! If you want to know more about our research, click the page "Research".
+2022-09-09 | A US patent on devices for phononic communications, co-invented by Qicheng, is filed.
+2022-04-12 | Qicheng was invited to give a talk in Cleland Lab [link] at the University of Chicago.
+2022-03-28 | Qicheng's paper on demonstrating GHz integrated phononic crystal with topological valley Hall effect appears in Nature Electronics.
+2021-11-13 | Qicheng was invited to give a talk at Columbia University Programmable Quantum Materials Zoom Seminars [link].
+@2023 QichengZhangLab/Site Credits

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="shared/common.js"></script>
+    <script>
+        LiuLabShared.writeHead({ title: "Resource - LIU's lab" });
+    </script>
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <script>
+        LiuLabShared.writePreloader();
+        LiuLabShared.writeNavigation();
+        LiuLabShared.writePageHeader("RESOURCE");
+        LiuLabShared.writeBreadcrumbs({ label: "RESOURCE", white: true });
+    </script>
+
+    <!-- Resource Styles -->
+    <style>
+        .swiper-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .swiper-pagination {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+        }
+
+        .card-text {
+            margin-top: 10px;
+            color: #333;
+            font-size: 1.1rem;
+            font-weight: normal;
+            text-align: center;
+        }
+
+        .resource-publications-popup {
+            max-width: 980px;
+            margin: 40px auto;
+            padding: 0;
+            background: transparent;
+        }
+
+        .resource-publications-card {
+            overflow: hidden;
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+        }
+
+        .resource-publications-popup .mfp-close {
+            color: #283a66;
+            opacity: 0.75;
+        }
+
+        .resource-publications-header {
+            padding: 28px 32px 18px;
+            border-bottom: 1px solid #eceff3;
+        }
+
+        .resource-publications-header h2 {
+            margin: 0;
+            color: #283a66;
+            font-size: 1.45rem;
+            line-height: 1.9rem;
+        }
+
+        .resource-publications-list {
+            max-height: min(68vh, 680px);
+            overflow-y: auto;
+            padding: 10px 32px 28px;
+        }
+
+        .resource-publication-item {
+            padding: 18px 0;
+            border-bottom: 1px solid #edf0f3;
+        }
+
+        .resource-publication-item:last-child {
+            border-bottom: 0;
+        }
+
+        .resource-publication-title {
+            margin: 0 0 0.45rem;
+            color: #283a66;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.45rem;
+        }
+
+        .resource-publication-title a {
+            color: #283a66;
+        }
+
+        .resource-publication-title a:hover {
+            color: #F89938;
+            text-decoration: none;
+        }
+
+        .resource-publication-meta {
+            margin: 0 0 0.65rem;
+            color: #5f625d;
+            font-size: 0.93rem;
+            line-height: 1.45rem;
+        }
+
+        .resource-publication-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+        }
+
+        .resource-publication-link {
+            display: inline-flex;
+            align-items: center;
+            min-height: 28px;
+            padding: 0.22rem 0.62rem;
+            border: 1px solid #e4e8ed;
+            border-radius: 4px;
+            background: #f8fafc;
+            color: #283a66;
+            font-size: 0.84rem;
+            font-weight: 700;
+            line-height: 1.2;
+            text-transform: capitalize;
+        }
+
+        .resource-publication-link:link,
+        .resource-publication-link:visited {
+            color: #283a66;
+        }
+
+        .resource-publication-link.resource-doi-link {
+            text-transform: uppercase;
+        }
+
+        .resource-publication-link:hover,
+        .resource-publication-link:focus {
+            border-color: #F89938;
+            background: #fff;
+            color: #F89938;
+            text-decoration: none;
+        }
+
+        @media (max-width: 767px) {
+            .resource-publications-popup {
+                margin: 24px 12px;
+            }
+
+            .resource-publications-header {
+                padding: 22px 20px 16px;
+            }
+
+            .resource-publications-header h2 {
+                font-size: 1.18rem;
+                line-height: 1.55rem;
+            }
+
+            .resource-publications-list {
+                max-height: 72vh;
+                padding: 8px 20px 22px;
+            }
+
+            .resource-publication-title {
+                font-size: 0.96rem;
+                line-height: 1.38rem;
+            }
+        }
+    </style>
+
+    <!-- Resource Notes -->
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="text-container" id="resource-notes-root"></div>
+        </div>
+    </div>
+
+    <!-- Resource Pictures -->
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="slider-1">
+                <div class="slider-container">
+                    <div class="swiper-container resource-slider">
+                        <div class="swiper-wrapper" id="resource-pictures-root"></div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        LiuLabShared.writeFooter();
+    </script>
+
+    <script>
+        LiuLabShared.writeCoreScripts({
+            beforeScripts: ["data/resource.js", "render/resource.js"]
+        });
+    </script>
+
+    <!-- Resource Slider -->
+    <script>
+        var swiper = new Swiper(".resource-slider", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            loop: true,
+            centeredSlides: true,
+            autoplay: false
+        });
+
+        $(document).ready(function() {
+            $(".popup-with-move-anim").magnificPopup({
+                type: "inline",
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: "auto",
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-slide-bottom"
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://pengsy.lab.westlake.edu.cn/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://pengsy.lab.westlake.edu.cn/",
+  "sha256": "95d911ed3dec007d2633522d3cc53372c9009b69be3e1bff9c4d82d06133d576",
+  "bytes": 683,
+  "links": [],
+  "content_review": "失败/空壳/跳转，不能支持正文结论"
+}

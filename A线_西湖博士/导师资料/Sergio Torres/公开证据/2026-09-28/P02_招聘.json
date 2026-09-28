@@ -1,0 +1,23 @@
+{
+  "source_url": "https://m3.westlake.edu.cn/index/opportunities.htm",
+  "checked_date": "2026-09-28",
+  "key": "P02_招聘",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://m3.westlake.edu.cn/index/opportunities.htm",
+  "sha256": "33304860aba7895fd5bdae8cd1bfb01cef9e99571a5ef0221dfe2d690d007691",
+  "bytes": 4769,
+  "links": [
+    "../index.htm",
+    "people.htm",
+    "publication.htm",
+    "research.htm",
+    "news.htm",
+    "opportunities.htm",
+    "lecture.htm",
+    "https://www.westlake.edu.cn/",
+    "http://beian.miit.gov.cn/state/outPortal/loginPortal.action",
+    "https://www.westlake.edu.cn/yxsz/gxy/xyjs.htm"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

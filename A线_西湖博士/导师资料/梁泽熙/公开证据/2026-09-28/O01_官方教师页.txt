@@ -1,0 +1,56 @@
+Zexi Liang, Ph.D. - Westlake University
+Dr. Zexi Liang was born in Beijing in 1992. He received his B.S. in Physics from Peking University in 2015 and his Ph.D. in Materials Science and Engineering from The University of Texas at Austin in 2021, where he worked with Prof. Donglei Fan. From 2021 to 2026, he was a postdoctoral researcher in the Department of Physics at Cornell University, working with Prof. Itai Cohen and Prof. Paul McEuen. He  joined the Department of Electronic and Information Engineering, School of Engineering, Westlake University, as an Assistant Professor in July 2026.
+2026
+Assistant Professor,  Westlake University
+2021
+Postdoctoral Researcher, Department of Physics, Cornell University
+2021
+Ph.D. in Materials Science and Engineering, The University of Texas at Austin
+2015
+B.S. in Physics, Peking University
+Dr. Liang’s research group focuses on small-scale robotics, intelligent microsystems, and microscopic self-assembly. The group integrates advanced small-scale manufacturing, precision fabrication, multimaterial heterogeneous integration, acoustic/optical/electrical/magnetic multiphysics micromanipulation, soft matter physics, microelectromechanical systems, robotic control, and the integration of miniature machines with integrated circuits. Over the past decades, microelectronic devices, micro/nanomotors, and miniature robots have made important progress in miniaturization and functionalization. However, achieving efficient actuation, controllable interactions, mechanical output, system integration, and embedded intelligence from the micro/nanoscale to the millimeter scale remains a central challenge. Dr. Liang’s research addresses this challenge by encoding geometry, materials, magnetism, and optoelectronic responses into miniature building blocks, and by using acoustic, optical, electrical, magnetic, and complex fluidic environments to achieve precise actuation, selective recognition, reconfigurable assembly, and collective control.
+From optoelectronic micromanipulation and micro/nanomotor research during his Ph.D. studies to magnetic microrobotics, information-encoded self-assembly, reconfigurable microsystems, and the integration of micro/nanoactuators with microelectronic chips during his postdoctoral research, Dr. Liang has focused on a central question: how small-scale machines can be manufactured, actuated, programmed, and integrated. His work has developed new methods and platforms for precise micromachine manipulation, collective behaviors, programmable interactions, error-correcting self-assembly, and heterogeneous system integration. His research findings have been published in prestigious international journals such as Science, Proceedings of the National Academy of Sciences of the United States of America, Nature Nanotechnology, Science Advances, Nature Communications, Advanced Materials, and ACS Nano.
+The Small-Scale Precision Robotics Laboratory aims to develop manufacturable, programmable, and integrated robotic systems at small scales for future robotics, microsystems, and healthcare engineering. The lab will study not only micro/nanoscale machines, but also broader miniature robotic platforms at the millimeter and sub-centimeter scales. Research directions include small-scale robotics and intelligent microsystems, advanced small-scale manufacturing, precision fabrication and multimaterial integration, magnetic/optical/electrical/acoustic multiphysics actuation and collective control, soft matter, active matter and living-system interfaces, and applications in biomedical micromanipulation, surgical robotic end-effectors, intelligent fibers and microcatheters, organoid interfaces, and distributed intelligent machines.
+See the full list of papers on Google Scholar:
+https://scholar.google.com/citations?user=hWH4TZsAAAAJ&hl=en
+∗ Equal contribution.
+1. Y. Huang, K. Xu, Z. Liang, H. Li, W. Zhu, D. Fan, Scalable, Non-Contact Determination of Electric Properties of Nanostructures via Electro-Rotation in Water Solution, Applied Physics Letters, 127, 18, 2025.
+https://doi.org/10.1063/5.0294850
+2. Z. Liang∗, M. Lim∗, Q. Zhu, F. Mottes, J. Kim, L. Guttieres, C. Smart, T. Pearson, C. Du, M. Brenner, P. McEuen, I. Cohen, Magnetic Decoupling as a Proofreading Strategy for High-Yield, Time-Efficient Microscale Self-Assembly, Proceedings of the National Academy of Sciences of the United States of America, 2025.
+https://doi.org/10.1073/pnas.2502361122
+3. C. Smart, T. Pearson, Z. Liang, M. Lim, M. Abdelrahman, F. Monticone, I. Cohen and P. McEuen, Magnetically programmed diffractive robotics, Science, 2024.
+https://doi.org/10.1126/science.adr2177
+4. Z. Liang∗, H. Joh∗, B. Lian, D. Fan, Light-Stimulated Micromotor Swarms in an Electric Field with Accurate Spatial, Temporal, and Mode Control, Science Advances, 2023.
+https://doi.org/10.1126/sciadv.adi9932
+5. H. Li, D. Teal, Z. Liang, H. Kwon, D. Huo, A. Jin, P. Fischer, D. Fan, Precise Electrokinetic Position and Three-Dimensional Orientation Control of a Nanowire Bioprobe in Solution, Nature Nanotechnology, 2023.
+https://doi.org/10.1038/s41565-023-01439-7
+6. X. Luo, W. Li, Z. Liang, Y. Liu, D. Fan, Portable Bulk-Water Disinfection by Live Capture of Bacteria with Divergently Branched Porous Graphite in Electric Fields, ACS Nano, 2023.
+https://doi.org/10.1021/acsnano.2c12229
+7. Z. Liang, J. He, C. Hu, X. Pu, H. Khani, L. Dai, D. Fan, A. Manthiram, Z.-L. Wang, Next-Generation Energy Harvesting and Storage Technologies for Robots Across All Scales, Advanced Intelligent Systems, 2022.
+https://doi.org/10.1002/aisy.202200045
+8. Z. Liang, D. Fan, Versatile Microparticle Propulsion System by Light-Guided Dielectrophoresis: Proposed Method and Theoretical Calculation, Journal of Applied Physics, 2021.
+https://doi.org/10.1063/5.0052117
+9. J. Guo∗, Z. Liang∗, Y. Huang, K. Kim, P. Vandeventer, D. Fan, Remarkable Acceleration of Biomolecules Enrichment and Detection with Rotationally Motorized Opto-plasmonic Microsensors and the Working Mechanism, ACS Nano, 2020.
+https://doi.org/10.1021/acsnano.0c05429
+10. Y. Huang, K. Yu, H. Li, K. Xu, Z. Liang, D. Walker, P. Ferreira, P. Fischer, D. Fan, Scalable Fabrication of Molybdenum Disulfide Nanostructures and their Assembly, Advanced Materials, 2020.
+https://doi.org/10.1002/adma.202003439
+11. Y. Huang, Z. Liang, M. Alsoraya, J. Guo, D. Fan, Light Gated Manipulation of Micro/Nanoparticles in Electric Fields, Advanced Intelligent Systems, 2020.
+https://doi.org/10.1002/aisy.201900127
+12. Z. Liang, D. Teal, D. Fan, Light Programmable Micro/Nanomotors with Optically Tunable In-Phase Electric Polarization, Nature Communications, 2019.
+https://doi.org/10.1038/s41467-019-13255-6
+13. Z. Liang, D. Fan, Visible-Light-Gated Reconfigurable Rotary Actuation of Electric Nanomotors, Science Advances, 2018.
+https://doi.org/10.1126/sciadv.aau0981
+14. K. Kim, J. Guo, Z. Liang, D. Fan, Artificial Micro/Nanomachines for Bioapplications: Biochemical Delivery and Diagnostic Sensing, Advanced Functional Materials, 2018.
+https://doi.org/10.1002/adfm.201705867
+15. C. Liu, Z. Wang, E. Li, Z. Liang, S. Chakravarty, X. Xu, A. X. Wang, R. T. Chen, D. Fan, Electrokinetic Manipulation Integrated Plasmonic-Photonic Hybrid Raman Nanosensors with Dually Enhanced Sensitivity, ACS Sensors, 2017.
+https://doi.org/10.1021/acssensors.6b00586
+16. K. Kim, Z. Liang, M. Liu, D. Fan, Biobased High-Performance Rotary Micromotors for Individually Reconfigurable Micromachine Arrays and Microfluidic Applications, ACS Applied Materials & Interfaces, 2017.
+https://doi.org/10.1021/acsami.6b13997
+17. K. Kim, J. Guo, Z. Liang, F. Zhu, D. Fan, Man-Made Rotary Nanomotors: A Review of Recent Developments, Nanoscale, 2016.
+https://doi.org/10.1039/C5NR08768F
+18. Z. Liang∗, Z. Tang∗, J. Li, R. Hu, D. Yu, Q. Zhao, Interaction Prolonged DNA Translocation through Solid-State Nanopores, Nanoscale, 2015.
+https://doi.org/10.1039/C5NR01954K
+19. Z. Tang∗, Z. Liang∗, B. Lu, J. Li, R. Hu, Q. Zhao, D. Yu, Gel Mesh as “Brake” to Slow Down DNA Translocation through Solid-State Nanopores, Nanoscale, 2015.
+https://doi.org/10.1039/C5NR03084F
+Email: liangzexi@westlake.edu.cn
+The Small-Scale Precision Robotics Laboratory is continuously recruiting research assistants, Ph.D. students, and postdoctoral fellows. We welcome applicants who are interested in small-scale robotics, intelligent microsystems, micro/nanofabrication, multiphysics micromanipulation, robotic control, and related interdisciplinary research areas. Candidates with backgrounds in electrical engineering, mechanical engineering, materials science and engineering, microelectronics, physics, biomedical engineering, or related fields are encouraged to send their CV to Dr. Zexi Liang at the email address above, together with a brief description of their research interests.

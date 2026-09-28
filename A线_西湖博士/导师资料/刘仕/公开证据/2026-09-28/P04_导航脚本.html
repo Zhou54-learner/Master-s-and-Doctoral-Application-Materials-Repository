@@ -1,0 +1,296 @@
+﻿(function(window, document) {
+    "use strict";
+
+    function write(html) {
+        document.write(html);
+    }
+
+    function attrs(attributes) {
+        return Object.keys(attributes || {}).map(function(key) {
+            var value = attributes[key];
+            if (value === true) {
+                return " " + key;
+            }
+            if (value === false || value === null || value === undefined) {
+                return "";
+            }
+            return " " + key + "=\"" + String(value).replace(/"/g, "&quot;") + "\"";
+        }).join("");
+    }
+
+    function linkTag(href) {
+        return "<link href=\"" + href + "\" rel=\"stylesheet\">";
+    }
+
+    function scriptTag(src, attributes) {
+        return "<script" + attrs(attributes) + " src=\"" + src + "\"><" + "/script>";
+    }
+
+    function writeHead(options) {
+        options = options || {};
+
+        var lines = [
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">",
+            "",
+            "    <!-- Metadata -->",
+            "    <meta name=\"description\" content=\"LIU's lab\">",
+            "    <meta name=\"author\" content=\"yhh\">",
+            "    <meta property=\"og:site_name\" content=\"\" />",
+            "    <meta property=\"og:site\" content=\"\" />",
+            "    <meta property=\"og:title\" content=\"\" />",
+            "    <meta property=\"og:description\" content=\"\" />",
+            "    <meta property=\"og:image\" content=\"\" />",
+            "    <meta property=\"og:url\" content=\"\" />",
+            "    <meta property=\"og:type\" content=\"article\" />",
+            "",
+            "    <title>" + options.title + "</title>",
+            "",
+            "    <!-- Styles -->",
+            "    " + linkTag("css_mine/1.css"),
+            "    " + linkTag("css_mine/2.css"),
+            "    " + linkTag("css/bootstrap.css"),
+            "    " + linkTag("css/fontawesome-all.css"),
+            "    " + linkTag("css/swiper.css"),
+            "    " + linkTag("css/magnific-popup.css"),
+            "    " + linkTag("css/styles.css")
+        ];
+
+        if (options.includeIonicons) {
+            lines.push("    " + linkTag("css/ionicons/css/ionicons.min.css"));
+        }
+
+        lines.push("    <link rel=\"icon\" href=\"images/liushilab.jpg\">");
+        write(lines.join("\n") + "\n");
+    }
+
+    function writePreloader() {
+        write([
+            "    <!-- Preloader -->",
+            "    <div class=\"spinner-wrapper\">",
+            "        <div class=\"spinner\">",
+            "            <div class=\"bounce1\"></div>",
+            "            <div class=\"bounce2\"></div>",
+            "            <div class=\"bounce3\"></div>",
+            "        </div>",
+            "    </div>",
+            ""
+        ].join("\n"));
+    }
+
+    function writeNavigation(options) {
+        options = options || {};
+
+        var isHome = options.variant === "home";
+        var logoHref = isHome ? "index.html" : "https://liutheory.westlake.edu.cn/";
+        var prefix = isHome ? "" : "index.html";
+        var homeText = isHome ? "HOME<span class=\"sr-only\">(current)</span>" : "HOME";
+        var joinText = isHome ? "Join Us" : "JoinUs";
+        var joinCurrent = isHome ? "" : "<span class=\"sr-only\">(current)</span>";
+
+        write([
+            "    <!-- Navigation -->",
+            "    <nav class=\"navbar navbar-expand-md navbar-dark navbar-custom fixed-top\">",
+            "        <a class=\"navbar-brand logo-image\" href=\"" + logoHref + "\"><img src=\"images/logo.svg\" alt=\"alternative\"></a>",
+            "",
+            "        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarsExampleDefault\" aria-controls=\"navbarsExampleDefault\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+            "            <span class=\"navbar-toggler-awesome fas fa-bars\"></span>",
+            "            <span class=\"navbar-toggler-awesome fas fa-times\"></span>",
+            "        </button>",
+            "",
+            "        <div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">",
+            "            <ul class=\"navbar-nav ml-auto\">",
+            "                <li class=\"nav-item\">",
+            "                    <a class=\"nav-link page-scroll\" href=\"" + prefix + "#header\">" + homeText + "</a>",
+            "                </li>",
+            "                <li class=\"nav-item\">",
+            "                    <a class=\"nav-link page-scroll\" href=\"" + prefix + "#research\">RESEARCH</a>",
+            "                </li>",
+            "                <li class=\"nav-item\">",
+            "                    <a class=\"nav-link page-scroll\" href=\"" + prefix + "#Leader\">LEADER</a>",
+            "                </li>",
+            "                <li class=\"nav-item\">",
+            "                    <a class=\"nav-link page-scroll\" href=\"" + prefix + "#news\">NEWS</a>",
+            "                </li>",
+            "                <li class=\"nav-item\">",
+            "                    <a class=\"nav-link page-scroll\" href=\"" + prefix + "#publications\">PUBLICATIONS</a>",
+            "                </li>",
+            "",
+            "                <li class=\"nav-item dropdown\">",
+            "                    <a class=\"nav-link dropdown-toggle page-scroll\" href=\"" + prefix + "#team\" id=\"navbarDropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">TEAM</a>",
+            "                    <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">",
+            "                        <a class=\"nav-link page-scroll\" href=\"join_us.html\"><span class=\"item-text\" style=\"color: #f89938\">" + joinText + "</span>" + joinCurrent + "</a>",
+            "                    </div>",
+            "                </li>",
+            "",
+            "                <li class=\"nav-item\">",
+            "                    <a class=\"nav-link page-scroll\" href=\"resource.html\">RESOURCE</a>",
+            "                </li>",
+            "                <li class=\"nav-item\">",
+            "                    <a class=\"nav-link page-scroll\" href=\"poster.html\">EVENTS</a>",
+            "                </li>",
+            "            </ul>",
+            "        </div>",
+            "    </nav>",
+            ""
+        ].join("\n"));
+    }
+
+    function writePageHeader(title) {
+        write([
+            "    <!-- Header -->",
+            "    <header id=\"header\" class=\"ex-header\">",
+            "        <div class=\"container\">",
+            "            <div class=\"row\">",
+            "                <div class=\"col-lg-12\">",
+            "                    <h1>" + title + "</h1>",
+            "                </div>",
+            "            </div>",
+            "        </div>",
+            "    </header>",
+            ""
+        ].join("\n"));
+    }
+
+    function writeBreadcrumbs(options) {
+        options = options || {};
+
+        var style = options.white ? " style=\"background-color: white;\"" : "";
+        var separatorTag = options.separatorTag || "i";
+
+        write([
+            "    <!-- Breadcrumbs -->",
+            "    <div class=\"ex-basic-1\"" + style + ">",
+            "        <div class=\"container\">",
+            "            <div class=\"row\">",
+            "                <div class=\"col-lg-12\">",
+            "                    <div class=\"breadcrumbs\">",
+            "                        <a href=\"https://liutheory.westlake.edu.cn/\">HOME</a><" + separatorTag + " class=\"fa fa-angle-double-right\"></" + separatorTag + "><span>" + options.label + "</span>",
+            "                    </div>",
+            "                </div>",
+            "            </div>",
+            "        </div>",
+            "    </div>",
+            ""
+        ].join("\n"));
+    }
+
+    function writeFooter(options) {
+        options = options || {};
+
+        var isHome = options.variant === "home";
+        var address = isHome ?
+            "Dunyu Road No.600, Sandun Town, Xihu District, Hangzhou, Zhejiang, China." :
+            "Shilongshan Road No.18, Cloud Town, Xihu District, Hangzhou, Zhejiang, China.";
+        var westlakeTarget = isHome ? " target=\"_blank\"" : "";
+        var copyright = isHome ?
+            "Copyright \u00A9 2020 developed by Yiihao HU" :
+            "Copyright \u00A9 2020 developed by yhh";
+
+        write([
+            "    <!-- Footer -->",
+            "    <div class=\"copyright\" style=\"background-color: #FFFFFF\">",
+            "        <div class=\"container\">",
+            "            <div class=\"col-lg-12\">",
+            "                <a href=\"https://www.westlake.edu.cn/\" target=\"_blank\"><img align=\"center\" width=\"10%\" src=\"image_mine/new_logo-wu.png\" alt=\"alternative\"></a>",
+            "            </div>",
+            "        </div>",
+            "    </div>",
+            "",
+            "    <div class=\"copyright\">",
+            "        <div class=\"container\">",
+            "            <div class=\"row\">",
+            "                <div class=\"col-lg-12\">",
+            isHome ?
+                "                    <p class=\"p-small\"><b><a href=\"https://www.westlake.edu.cn/\"" + westlakeTarget + ">Address: " + address + "</a></b><br>" + copyright + "</p>" :
+                "                    <p class=\"p-small\"><b><a href=\"https://www.westlake.edu.cn/\">Address: " + address + "</a></b></p>\n                    <p class=\"p-small\">" + copyright + "</p>",
+            "                </div>",
+            "            </div>",
+            "        </div>",
+            "    </div>",
+            ""
+        ].join("\n"));
+    }
+
+    function writeCarouselStyles() {
+        write([
+            "    <!-- Carousel Styles -->",
+            "    " + linkTag("js/owl-carousel/owl.carousel.css"),
+            "    " + linkTag("js/owl-carousel/owl.theme.css"),
+            "    " + linkTag("js/owl-carousel/owl.transitions.css"),
+            ""
+        ].join("\n"));
+    }
+
+    function writeScripts(scripts) {
+        write((scripts || []).map(function(src) {
+            return "    " + scriptTag(src);
+        }).join("\n") + "\n");
+    }
+
+    function writeCoreScripts(options) {
+        options = options || {};
+
+        var lines = [
+            "    <!-- Scripts -->",
+            "    " + scriptTag("js/jquery.min.js"),
+            "    " + scriptTag("js/popper.min.js"),
+            "    " + scriptTag("js/bootstrap.min.js"),
+            "    " + scriptTag("js/jquery.easing.min.js"),
+            "    " + scriptTag("js/swiper.min.js"),
+            "    " + scriptTag("js/jquery.magnific-popup.js"),
+            "    " + scriptTag("js/morphext.min.js"),
+            "    " + scriptTag("js/isotope.pkgd.min.js"),
+            "    " + scriptTag("js/validator.min.js")
+        ];
+
+        (options.beforeScripts || []).forEach(function(src) {
+            lines.push("    " + scriptTag(src));
+        });
+
+        lines.push("    " + scriptTag("js/scripts.js"));
+
+        (options.afterScripts || []).forEach(function(src) {
+            lines.push("    " + scriptTag(src));
+        });
+
+        write(lines.join("\n") + "\n");
+    }
+
+    function writeLegacyCarouselScripts(options) {
+        options = options || {};
+
+        var scripts = [];
+        if (options.includeJquery111) {
+            scripts.push("js/jquery-1.11.1.min.js");
+        }
+        scripts = scripts.concat([
+            "js/owl-carousel/owl.carousel.js",
+            "js/jquery.flexslider-min.js"
+        ]);
+        if (options.includeEasing) {
+            scripts.push("js/easing.js");
+        }
+        scripts = scripts.concat([
+            "js/jquery.easypiechart.js",
+            "js/jquery.appear.js",
+            "js/jquery.parallax-1.1.3.js",
+            "js/jquery.mixitup.min.js",
+            "js/custom.js"
+        ]);
+
+        writeScripts(scripts);
+    }
+
+    window.LiuLabShared = {
+        writeHead: writeHead,
+        writePreloader: writePreloader,
+        writeNavigation: writeNavigation,
+        writePageHeader: writePageHeader,
+        writeBreadcrumbs: writeBreadcrumbs,
+        writeFooter: writeFooter,
+        writeCarouselStyles: writeCarouselStyles,
+        writeCoreScripts: writeCoreScripts,
+        writeLegacyCarouselScripts: writeLegacyCarouselScripts,
+        writeScripts: writeScripts
+    };
+})(window, document);

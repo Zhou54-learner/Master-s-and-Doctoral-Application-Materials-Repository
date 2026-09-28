@@ -1,0 +1,22 @@
+Wenhao Wang, Ph.D. - Westlake University
+Wenhao Wang was born in 1995 in the city of Hengyang, Hunan Province. He received his B.Eng. degree from the College of Science, Beijing University of Chemical Technology in 2016. He obtained his Ph.D. in Physics from the University of Electronic Science and Technology of China in 2022, after which he joined the Division of Physics and Applied Physics, School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore, as a postdoctoral research fellow. In February 2026, He joined the School of Engineering, Westlake University, as a tenure-track Assistant Professor (Principal Investigator and Ph.D. supervisor).
+2026
+Assistant Professor, Westlake University
+2022
+Postdoctoral Research Fellow, Nanyang Technological University
+2022
+Ph.D. Degree, University of Electronic Science and Technology of China
+2016
+Bachelor of Engineering Degree, Beijing University of Chemical Technology
+Terahertz waves (0.1–10 THz), located between microwaves and infrared radiation, possess unique characteristics such as high bandwidth, non-ionizing radiation, strong penetrability, and molecular fingerprint spectra. These properties endow terahertz waves with tremendous potential in 6G and beyond communications, biomedical imaging, and materials science. Dr. Wenhao Wang has long been devoted to fundamental research in terahertz photonics and to advancing its practical applications in wireless communications and sensing. He has published 10 first-author papers in high-impact journals, including Nature, Nature Photonics, Light: Science & Applications, Nature Communications, and Advanced Materials, with a total of more than 30 SCI-indexed publications. His research achievements have been featured by IEEE Spectrum, Science Alert, MIT Technology Review, and other international media outlets.
+Looking ahead, Dr. Wang’s research group will continue to advance the field of terahertz photonics, including but not limited to:
+1.     Developing next-generation on-chip and wireless terahertz communication systems;
+2.     Designing reconfigurable multifunctional terahertz devices based on metasurfaces and photonic crystals;
+3.     Exploring ultrafast terahertz photonics in emerging materials.
+1. Wenhao Wang, Yi Ji Tan, Thomas CaiWei Tan, Abhishek Kumar, Prakash Pitchappa, Pascal Szriftgiser, Guillaume Ducournau, Ranjan Singh#. "On-chip topological beamformer for multi-link terahertz 6G to XG wireless". Nature, 2024, 632(8025): 522-527.
+2. Wenhao Wang, Yi Ji Tan, Pascal Szriftgiser, Guillaume Ducournau, Ranjan Singh#. "On-chip topological leaky-wave antenna for full-space terahertz wireless connectivity". Nature Photonics, 2026: 1-7.
+3. Wenhao Wang, Zhonglei Shen, Yi Ji Tan, Kaiji Chen, Ranjan Singh#. "On-chip topological edge state cavities". Light: Science & Applications, 2025, 14(1): 330.
+4. Wenhao Wang, Yogesh Kumar Srivastava, Thomas CaiWei Tan, Zhiming Wang#, Ranjan Singh#. "Brillouin zone folding driven bound states in the continuum". Nature Communications, 2023, 14(1): 2811.
+5. Wenhao Wang#, Ranjan Singh#. "Photo‐reconfigurable supercoupling induced transparency in on‐chip topological edge state cavities". Advanced Materials, 2026: e18858.
+Email: wangwenhao@westlake.edu.cn
+The Terahertz Photonics Lab at Westlake University is continuously recruiting Ph.D. students, postdoctoral researchers, and research assistants. We welcome outstanding students and early-career scholars with backgrounds in physics, electronics, materials science, or related fields who are interested in our research directions. Interested applicants are invited to contact Dr. Wenhao Wang with a CV and a cover letter.

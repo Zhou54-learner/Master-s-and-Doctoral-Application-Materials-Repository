@@ -1,0 +1,32 @@
+{
+  "source_url": "https://gu.lab.westlake.edu.cn/members.html",
+  "checked_date": "2026-09-28",
+  "key": "S01_成员",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://gu.lab.westlake.edu.cn/members.html",
+  "sha256": "c27b1b87e3ab5156a70a5064af1adf371fca9f79ef470138e294e08eb57ab8b0",
+  "bytes": 11456,
+  "links": [
+    "https://www.westlake.edu.cn",
+    "index.html",
+    "research.html",
+    "members.html",
+    "publications.html",
+    "events.html",
+    "gallery.html",
+    "resources.html",
+    "contact.html",
+    "https://www.westlake.edu.cn/faculty/bing-gu.html",
+    "formermembers.html",
+    "member-hl.html",
+    "member-xyj.html",
+    "members.html#li-xiang",
+    "member-lrx.html",
+    "member-zxt.html",
+    "member-sm.html",
+    "members.html#zhang-junzhe",
+    "members.html#hu-shuoyi"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

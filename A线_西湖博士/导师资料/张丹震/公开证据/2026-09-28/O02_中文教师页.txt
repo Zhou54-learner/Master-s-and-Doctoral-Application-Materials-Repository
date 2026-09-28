@@ -1,0 +1,24 @@
+张丹震博士 - 西湖大学
+张丹震，1997年生，山西长治人。2019年获清华大学工学学士学位，2024获美国德雷塞尔大学博士，师从Yury Gogotsi教授，随后在美国西北大学Querrey Simpson生物电子研究所（Querrey Simpson Institute for Bioelectronics）进行博士后研究，合作导师为John A. Rogers教授。曾获北京市优秀毕业生，清华大学优良毕业生，德雷塞尔优秀博士毕业生。将于2027年7月全职加入西湖大学，任特聘研究员、助理教授、博士生导师。
+2027
+助理教授，西湖大学
+2024
+博士后，美国西北大学
+2024
+博士，美国德雷塞尔大学
+2019
+学士，清华大学
+MXene 材料自发现以来，因其独特的二维层状结构、类金属高导电性、丰富且可调的表面官能团、良好的溶液加工性以及优异的机械柔韧性，在能源存储、电磁屏蔽、光电调控和柔性电子等领域展现出重要应用潜力。张丹震博士研究成果包括建立基于原位 UV–Vis 光谱的 MXene 电化学储能机制定量分析方法，实现 MXene 与微波相互作用的电化学动态调控，并拓展 MXene 在高效率全拉伸 OLED中的应用。已发表 SCI 论文 23 篇，其中第一作者或共同第一作者论文 7 篇，发表于 Nature、Nature Energy、Nature Nanotechnology、Materials Today 等期刊，并担任 ACS Nano、Energy Storage Materials 等期刊审稿人，现担任 Soft Science 客座编辑。
+1. Huanyu Zhou#, Hyun-Wook Kim#, Shin Jung Han#, Danzhen Zhang#, Woo Jin Jeong, Haomiao Yu, Youichi Tsuchiya, Bin Hu, June Huh, Teng Zhang, Seungyeon Cho, Joo Sung Kim, Dong-Hyeok Kim, Hyung Joong Yun, Jinwoo Park, Kyung Yeon Jang, Eojin Yoon, Amit Kumar Harit, Min-Jun Sung, Yooseong Ahn, Hao Chen, Qingsen Zeng, Chan-Yul Park, Kwan-Nyeong Kim, Landep Ayuningtias, Hoichang Yang, Jong Chan Kim, Yun-Hi Kim, Han Young Woo, Chihaya Adachi, Yury Gogotsi*, Tae-Woo Lee*. Exciplex-Enabled High-Efficiency Fully Stretchable OLEDs. Nature, 649, 604-601 (2026)
+2. Audrey Perju, Danzhen Zhang, Ruocun John Wang, Pierre‐Louis Taberna, Yury Gogotsi*, Patrice Simon*. Investigation of the charge storage mechanism in Ti3C2 MXene in water-in-salt electrolyte using operando techniques. Advanced Energy Materials, 15, 2405028 (2025).
+3. Tetiana Parker, Danzhen Zhang, David Bugallo, Kateryna Shevchuk, Marley Downes, Geetha Valurouthu, Alex Inman, Benjamin Chacon, Teng Zhang, Christopher E Shuck, Yong-Jie Hu, Yury Gogotsi*. Fourier-transform infrared spectral library of MXenes. Chemistry of Materials. 36, 8437-8446, (2024)
+4. Ahmad A Shamsabadi#, Hui Fang#, Danzhen Zhang, Anupma Thakur, Cindy Y Chen, Aixi Zhang, Haonan Wang, Babak Anasori, Masoud Soroush, Yury Gogotsi, Zahra Fakhraai. The Evolution of MXenes Conductivity and Optical Properties Upon Heating in Air. Small Methods, 2300568, (2023)
+5. Danzhen Zhang, Ruocun Wang, Xuehang Wang*, Yury Gogotsi*. In situ monitoring redox processes in energy storage using UV-Vis spectroscopy. Nature Energy, 8, 567-576, (2023). [Selected to publish a Research Briefing: UV–vis spectroscopy for monitoring oxidation state changes during electrochemical energy storage. Nature Energy 8, 565-566, (2023)]
+6. Meikang Han#, Danzhen Zhang#, Akash Singh#, Tetiana Hryhorchuk, Christopher Eugene Shuck, Teng Zhang, Lingyi Bi, Bernard McBride, Vivek B Shenoy*, Yury Gogotsi*. Versatility of Infrared properties of MXenes. Materials Today, 64, 31-39, (2023)
+7. Meikang Han#, Danzhen Zhang#, Christopher E Shuck, Bernard McBride, Teng Zhang, Ruocun Wang, Kateryna Shevchuk, Yury Gogotsi. Electrochemically modulated interaction of MXenes with microwaves. Nature Nanotechnology, 18, 373-379, (2023)
+8. Huanyu Zhou#, Shin Jung Han#, Hyeon‐Dong Lee#, Danzhen Zhang, Mark Anayee, Seung Hyeon Jo, Yury Gogotsi, Tae‐Woo Lee. Overcoming the Limitations of MXene Electrodes for Solution-Processed Optoelectronic Devices. Advanced Materials 34, e2206377, (2022)
+9. Adir Hazan, Barak Ratzker, Danzhen Zhang, Aviad Katiyi, Maxim Sokol, Yury Gogotsi*, Alina Karabchevsky*. MXene-Nanoflakes-Enabled All-Optical Nonlinear Activation Function for On-Chip Photonic Deep Neural Networks. Advanced Materials, e2210216, (2023)
+10. Danzhen Zhang, Deesha Shah, Alexandra Boltasseva*, Yury Gogotsi*. MXenes for Photonics. ACS Photonics, 9, 1108-1116, (2022)
+11. Danzhen Zhang, Chengyu Wen, John Brandon Mcclimon, Paul Masih Das, Qicheng Zhang, Grace A Leone, Srinivas V Mandyam, Marija Drndić, Alan T Charlie Johnson Jr*, Meng‐Qiang Zhao*. Rapid Growth of Monolayer MoSe2 Films for Large‐Area Electronics. Advanced Electronic Materials. 7, 2001219, (2021).
+电子邮箱：zhangdanzhen@westlake.edu.cn
+张丹震博士课题组未来将继续深耕于MXene材料的光/电化学/电学性质及其柔性器件的研究，包括但不限于：（1）MXene等二维材料的可控合成，（2）利用 MXene 的高电导率、电化学活性及可调表面化学，使其既可作为透明导电电极，也可作为电化学响应活性材料，实现基于MXene的从紫外到微波的全光谱调控（3）利用 MXene 的高电导率、高透光率与优异柔韧性，作为高性能透明导电电极或主要功能组分，构建柔性发光器件（LED）、光伏器件（太阳能电池）及生物电信号传感电极（EMG/ECG/EEG），探究其在智能衣物、人体运动监测等生物电子系统中的应用。

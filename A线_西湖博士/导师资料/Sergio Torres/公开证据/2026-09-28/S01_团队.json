@@ -1,0 +1,27 @@
+{
+  "source_url": "https://m3.westlake.edu.cn/index/people.htm",
+  "checked_date": "2026-09-28",
+  "key": "S01_团队",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://m3.westlake.edu.cn/index/people.htm",
+  "sha256": "2966a1f072f4800dc22ad4d3c38d52ec44fc8d07743f01d514a27a657b6609d1",
+  "bytes": 21700,
+  "links": [
+    "../index.htm",
+    "people.htm",
+    "publication.htm",
+    "research.htm",
+    "news.htm",
+    "opportunities.htm",
+    "lecture.htm",
+    "https://www.westlake.edu.cn/faculty/sergio-torres.html",
+    "https://www.westlake.edu.cn/academics/School_of_Engineering/About/Faculty/202006/t20200618_5967.shtml",
+    "https://www.researchgate.net/profile/Pei-Zhang-52",
+    "https://homepage.zjut.edu.cn/mt1/",
+    "https://www.westlake.edu.cn/",
+    "http://beian.miit.gov.cn/state/outPortal/loginPortal.action",
+    "https://www.westlake.edu.cn/yxsz/gxy/xyjs.htm"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

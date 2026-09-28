@@ -1,0 +1,19 @@
+const joinOpportunities = [
+{
+id: "phd",
+title: "PhD Opportunities",
+paragraphs: [
+"We always welcome self-motivated students joining us! The student’s research and academic background might be in one or more of following areas: physics, chemistry, materials science and engineering, and chemical engineering. Undergraduate and Master students are encouraged to contact Dr. Shi Liu to express his/her interest of pursuing a PhD degree at Westlake University.",
+"There will be open PhD positions in the Fall of 2026."
+],
+updated: "Updated on July, 9, 2025."
+},
+{
+id: "postdoc",
+title: "Postdoc Opportunities",
+paragraphs: [
+"There are no postdoctoral openings at this time. Please check back for future opportunities."
+],
+updated: "Updated on July, 9, 2025"
+}
+];

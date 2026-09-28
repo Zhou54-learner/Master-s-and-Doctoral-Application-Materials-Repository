@@ -1,0 +1,44 @@
+Qiuyang Li, Ph.D. - Westlake University
+Dr. Qiuyang Li was born in the city of Maanshan, Anhui Province. He received B.S. degree with honor of Materials Physics from University of Science and Technology of China in 2013. He received Ph.D. degree in Chemistry from Emory University (USA) in 2019 under the supervision of Prof. Tianquan (Tim) Lian, using transient absorption spectroscopy to study excitons in 2D nanocrystals. After graduation, Dr. Qiuyang Li joined Department of Chemistry, Columbia University (USA) as a MRSEC Postdoctoral Fellow working with Prof. Xiaoyang Zhu on angle-resolved photoemission spectroscopy and 2D materials. Later, he moved to Department of Physics, University of Michigan (USA) working with Prof. Hui Deng on light-matter interaction and cavity engineering of 2D materials. Dr. Qiuyang Li is an assistant professor at the School of Engineering, Westlake University, leading an independent research group to explore ultrafast spectroscopic research and cavity engineering of low-dimensional quantum materials.
+2026
+Assistant Professor, Westlake University
+2021
+Postdoctoral Research Fellow, University of Michigan (USA)
+2019
+Chinese Government Award for Outstanding Self-financed Students Abroad
+MRSEC Postdoctoral Fellow, Columbia University (USA)
+Ph.D., Emory University (USA)
+2018
+Quayle Senior Student Award, Emory University (USA)
+2015
+Osborne R. Quayle Fellowship, Emory University (USA)
+2013
+B.S. with honor, University of Science and Technology of China
+Dr. Qiuyang Li uses static and ultrafast spectroscopy (including but not limited to transient absorption/photoluminescence spectroscopy, angle-resolved photoemission spectroscopy, time-resolved Faraday rotation spectroscopy, confocal microscopy, etc.) to explore and manipulate photophysics, emerging properties, and new states of matter of low-dimensional quantum materials. He has published 47 papers in total, including 20 first-authored papers in top journals like Phys. Rev. Lett., Nature Communications, J. Am. Chem. Soc., ACS Nano, Nano Lett., Chem. Rev., and Acc. Chem. Res.
+Li Research Group focuses on interdisciplinary research involving ultrafast spectroscopy, condensed matter physics, and cavity engineering. The main research directions include: (1) cavity sensing and engineering of 2D moiré quantum matter; (2) ultrafast optical control and cavity engineering of collective behaviors and ordered states in low-dimensional quantum materials; (3) establishing, probing, and engineering of newly formed 2D van der Waals multiferroic materials.
+Representative Publications (#Equal contribution; *Corresponding author)
+1. Qiuyang Li, Xiaohan Wan, Senlei Li, Adam Alfrey, Wenhao Liu, Zixin Zhai, Wyatt Alpers, Yujie Yang, Irmina Wladyszewska, Christiano W. Beach, Liuyan Zhao, Bing Lv, Chunhui Rita Du, Kai Sun, Hui Deng*, “Twist Engineering of Anisotropic Excitonic and Optical Properties of a Two-Dimensional Magnetic Semiconductor”, Physical Review Letters 2025, 135, 156901.
+2. Qiuyang Li#, Xin Xie#, Adam Alfrey, Christiano W. Beach, Nicholas McLellan, Yang Lu, Jiaqi Hu, Wenhao Liu, Nikhil Dhale, Bing Lv, Liuyan Zhao, Kai Sun, Hui Deng*, “Two-Dimensional Magnetic Exciton-Polariton with Strongly Coupled Atomic and Photonic Anisotropies”, Physical Review Letters 2024, 133, 266901.
+3. Qiuyang Li*, Kaifeng Wu*, Haiming Zhu*, Ye Yang*, Sheng He, Tianquan Lian*, “Charge Transfer from Quantum Confined 0D, 1D and 2D Nanocrystals”, Chemical Reviews 2024, 124, 5695-5763.
+4. Qiuyang Li, Adam Alfrey, Jiaqi Hu, Nathanial Lydick, Eunice Paik, Bin Liu, Haiping Sun, Yang Lu, Ruoyu Wang, Stephen Forrest, Hui Deng*, “Macroscopic transition metal dichalcogenides monolayers with uniformly high optical quality”, Nature Communications 2023, 14, 1837.
+5. Qiuyang Li, Fengjiao Zhao, Chen Qu, Qiongyi Shang, Zihao Xu, Li Yu, Tianquan Lian*, “2D Morphology Enhances Light-driven H2 Generation Efficiency in CdS Nanoplatelet-Pt Heterostructure”, J. Am. Chem. Soc. 2018, 14, 11726-11734.
+6. Qiuyang Li, Tianquan Lian*, “Exciton Spatial Coherence and Optical Gain in Colloidal Two-Dimensional Cadmium Chalcogenide Nanoplatelets”, Accounts of Chemical Research 2019, 52, 2684-2693.
+7. Qiuyang Li, Sheng He, and Tianquan Lian*, “How Exciton and Single Carriers Block the Excitonic Transition in Two-Dimensional Cadmium Chalcogenide Nanoplatelets”, Nano Letters 2020, 20, 6162-6169.
+8. Qiuyang Li#, Yawei Yang#, Wenxiu Que, Tianquan Lian*, “Size- and Morphology-Dependent Auger Recombination in CsPbBr3 Perovskite Two-Dimensional Nanoplatelets and One-Dimensional Nanorods”, Nano Letters 2019, 19, 5620-5627.
+9. Qiuyang Li, Tianquan Lian*, “Area- and Thickness-Dependent Biexciton Auger Recombination in Colloidal CdSe Nanoplatelets: Breaking the Universal Volume Scaling Law”, Nano Letters 2017, 17, 3152-3158.
+10. Qiuyang Li, Zihao Xu, James McBride, Tianquan Lian*, “Low Threshold Multiexciton Optical Gain in Colloidal CdSe/CdTe Core/Crown Type-II Nanoplatelet Heterostructures”, ACS Nano 2017, 11, 2545-2553.
+11. Qiuyang Li, Kaifeng Wu, Jinquan Chen, Zheyuan Chen, James McBride, Tianquan Lian*, “Size-Independent Exciton Localization Efficiency in Colloidal CdSe/CdS Core/Crown Nanosheet Type-I Heterostructures”, ACS Nano 2016, 10, 3843-3851.
+12. Qiuyang Li, Boyang Zhou, James McBride, Tianquan Lian*, “Diffusive Transport of Cold and Hot Excitons in Colloidal CdSe/CdTe Core/Crown Nanoplatelet Heterstructures”, ACS Energy Letters 2017, 2, 174-181.
+13. Qiuyang Li, Tianquan Lian*, “A Model for Optical Gain Threshold in Colloidal CdSe Nanoplatelets”, Chemical Science 2018, 9, 728-734.
+14. Qiuyang Li, Qiliang Liu, Richard Schaller, Tianquan Lian*, “Reducing Optical Gain Threshold in Two-Dimensional CdSe Nanoplatelets by Giant Oscillator Strength Transition Effect”, J. Phys. Chem. Lett. 2019, 10, 1624-1632.
+15. Qiuyang Li, Tianquan Lian*, “Ultrafast Charge Separation in Two-Dimensional CsPbBr3 Perovskite Nanoplatelets”, J. Phys. Chem. Lett. 2019, 10, 566-573.
+16. Qiuyang Li, Tianquan Lian*, “Exciton Dissociation Dynamics and Light Driven H2 Generation in Colloidal 2D cadmium Chalcogenide Nanoplatelet Heterostructures”, Nano Research 2018, 11, 3031.
+17. Qiuyang Li, Fang Liu, Jake Russell, Xavier Roy, Xiaoyang Zhu*, “Strong Polaronic Effect in a Superatomic Two-Dimensional Semiconductor”, J. Chem. Phys. 2020, 152, 171101.
+18. Qiuyang Li, Lucas Huber, Colin Nuckolls, and Xiaoyang Zhu*, “Spin-Polarized Charge Separation in a Photoexcited Transition Metal Dichalcogenide Heterobilayer at Room Temperature”, J. Phys. Chem. C 2022, 126, 15795-15800.
+19. Xu Guo#, Qiuyang Li#, Yawei Liu, Tao Jin, Yubin Chen, Liejin Guo, and Tianquan Lian*, “Enhanced Light-Driven Charge Separation and H2 Generation Efficiency in WSe2 Nanosheet–Semiconductor Nanocrystal Heterostructures”, ACS Appl. Mater. Interfaces 2020, 12, 44769-44776.
+20. Qiuyang Li, Wenxing Yang, Tianquan Lian*, “Exciton Transport and Interfacial Charge Transfer in Semiconductor Nanocrystals and Heterostructures”, Springer Handbook of Inorganic Photochemistry, 2022, Chapter 33, 985-1012.
+Email: liqiuyang@westlake.edu.cn
+Li Research Group is currently recruiting graduate students, postdoctoral fellows, and undergraduate students:
+1. For graduate students：We welcome undergraduate students and master degree students who are interested in spectroscopy, low-dimensional quantum- or nano-materials, light-matter interaction, and cavity/photonic engineering to apply. Feel free to communicate with Dr. Qiuyang Li at liqiuyang@westlake.edu.cn and we are eager to hear from you!
+2. For postdocs: We welcome researchers who have (or will soon have) a PhD degree with research background of (including but not limited to) condensed matter physics, materials science, optics, physical chemistry, etc. to apply. The researchers with the below research backgrounds will be considered in priority: static/ultrafast spectroscopy, 2D van der Waals materials and devices (both photonic and electronic), low-dimensional nanomaterials (e.g., nanocrystals, 2D perovskites), LabView or Python for experimental setup control. Please feel free to send your CV and recommendation letters to liqiuyang@westlake.edu.cn. We will offer highly competitive salary and support compared to equivalent positions both domestically and internationally (details to be discussed in person).
+3. For undergraduate students: We welcome undergraduate students who are interested in spectroscopy, materials science, and optics to conduct research and do their internship in our group. Please feel free to contact Dr. Qiuyang Li.

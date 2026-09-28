@@ -1,0 +1,12 @@
+{
+  "source_url": "https://liutheory.westlake.edu.cn/data/join.js",
+  "checked_date": "2026-09-28",
+  "key": "P06_招聘正文数据",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://liutheory.westlake.edu.cn/data/join.js",
+  "sha256": "ebd4f9fc863f016fd369c3d154d230899d4d1b022d98f666bf3a002bb3f1ca5d",
+  "bytes": 896,
+  "links": [],
+  "content_review": "已保存，需按正文用途引用"
+}

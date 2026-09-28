@@ -1,0 +1,31 @@
+{
+  "source_url": "https://alien.westlake.edu.cn/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://alien.westlake.edu.cn/",
+  "sha256": "c82a96dff291b64d3095d9dec79dbd17ce93d385f28208a11d9bcd567a5ce1b7",
+  "bytes": 13751,
+  "links": [
+    "index.htm",
+    "Research.htm",
+    "Publications.htm",
+    "People.htm",
+    "News.htm",
+    "Join_Us.htm",
+    "Contact_Us.htm",
+    "PI.htm",
+    "info/1033/1102.htm",
+    "info/1033/1101.htm",
+    "info/1033/1094.htm",
+    "info/1033/1093.htm",
+    "info/1033/1092.htm",
+    "info/1033/1091.htm",
+    "info/1033/1073.htm",
+    "info/1033/1074.htm",
+    "info/1033/1016.htm",
+    "info/1033/1005.htm"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

@@ -1,0 +1,22 @@
+{
+  "source_url": "https://fanowu.com/join",
+  "checked_date": "2026-09-28",
+  "key": "P03_招聘细则",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://fanowu.com/join/",
+  "sha256": "c737a02a48511a9acc8ddfa6ec11936c92814696857eb191a45dc17ff5e4a56f",
+  "bytes": 15835,
+  "links": [
+    "/",
+    "/research",
+    "/people",
+    "/publications",
+    "/join",
+    "/join/postdoc",
+    "https://en.westlake.edu.cn/admissions/graduate/",
+    "https://www.westlake.edu.cn/admissions/graduate/?first=%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0&second=%E6%99%AE%E5%8D%9A%E7%94%9F",
+    "mailto:wufan@westlake.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

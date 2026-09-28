@@ -1,0 +1,19 @@
+{
+  "source_url": "https://2dmater.westlake.edu.cn/",
+  "checked_date": "2026-09-28",
+  "key": "P01_主页",
+  "scope": "公开网页；HTTP成功不等于内容有效；正文须人工核读",
+  "status": 200,
+  "final_url": "https://2dmater.westlake.edu.cn/",
+  "sha256": "52b7ad5db6ca9836ad2b82ef7fda5e4bc0e13f0d00765467bfc221e597c1fbe6",
+  "bytes": 76820,
+  "links": [
+    "https://2dmater.westlake.edu.cn/",
+    "https://2dmater.westlake.edu.cn/research/",
+    "https://2dmater.westlake.edu.cn/publications/",
+    "https://2dmater.westlake.edu.cn/people/",
+    "https://2dmater.westlake.edu.cn/join-us/",
+    "mailto:xushuigang@westlake.edu.cn"
+  ],
+  "content_review": "已保存，需按正文用途引用"
+}

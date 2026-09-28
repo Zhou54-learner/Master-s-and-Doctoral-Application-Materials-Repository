@@ -1,0 +1,26 @@
+Qian Song, Ph.D.（Affiliated） - Westlake University
+Dr. Song received his B.S. degree in Physics from Nanjing University in 2017 and his Ph.D. degree in Materials Science and Engineering from Massachusetts Institute of Technology (MIT) in 2024. From 2024 to 2025, he worked as a postdoctoral researcher in the Department of Physics at MIT. Since 2025, he has been a postdoctoral researcher in the Department of Physics at University of California, Berkeley. He will join Westlake University as an Assistant Professor in July 2027.
+2027
+Assistant Professor, Westlake University
+2026
+Postdoctoral Associate, University of California, Berkeley
+2025
+Postdoctoral Associate, Massachusetts Institute of Technology
+2024
+Ph.D. Degree, Massachusetts Institute of Technology
+2017
+Bachelor’s degree, Nanjing University
+The interplay among lattice, orbital, spin, and charge degrees of freedom in quantum materials gives rise to a rich landscape of emergent electronic phases, including unconventional magnetism, ferroelectricity, charge and spin density waves, superconductivity, etc. These correlated electronic states exhibit rich and exotic quantum phenomena at two-dimension, surfaces and interfaces, and confined systems.
+Our research group combines a suite of complementary experimental techniques—including crystal growth, optical spectroscopy, transport, and scanning probe microscopy—together with theoretical approaches such as symmetry analysis and numerical simulations, to investigate the microscopic mechanisms underlying these correlated electronic states. The group further explores their responses to external stimuli, including electric fields, magnetic fields, doping, and strain, with the goal of achieving precise control over electronic properties and functionalities.
+The unique physical properties of quantum materials provide exciting opportunities for next-generation information technologies, particularly in data storage and computing. These unconventional electronic phases may enable advanced functionalities such as ultrafast dynamics, high energy efficiency, robust endurance, highly sensitive readout, and compact integration. Our group designs novel device architectures, fabricates them at the nanoscale, and systematically evaluates their potential functionality.
+1. Q. Song*, S. Stavrić, P. Barone, A. Droghetti, D. S. Antonenko, J. WF. Venderbos, C. A Occhialini, B. Ilyas, E., N. Gedik, S-W. Cheong, R. M. Fernandes, S. Picozzi, R. Comin*. “Electrical switching of a p-wave magnet” Nature 642, 64-70 (2025).
+2. Q. Song, C. A. Occhialini, E. Ergeçen, B. Ilyas, D. Amoroso, P. Barone, J. Kapeghian, K. Watanabe, T. Taniguchi, A. S Botana, S. Picozzi, N. Gedik, R. Comin*.“Evidence for a single-layer van der Waals multiferroic” Nature 602, 601-605 (2022).
+3. Y. Tseng, C. A Occhialini, Q. Song, P. Barone, S. Patel, M. Shankar, R. Acevedo‐Esteves, J. Li, C. Nelson, S. Picozzi, R. Sutarto, R. Comin. “Shear‐Mediated Stabilization of Spin Spiral Order in Multiferroic NiI2” Adv. Matter. 37, 2417434 (2025).
+4. C. A. Occhialini, J. J. Sanchez, Q. Song, G. Fabbris, Y. Choi, J. Kim, P. J. Ryan, R. Comin*. “Spontaneous orbital polarization in the nematic phase of FeSe” Nat. Mater. 22, 985-991 (2023).
+5. L. GP. Martins, D. A. Ruiz-Tijerina, C. A. Occhialini, J. Park, Q. Song, A. Lu, P. Venezuela, L. G. Cançado, M. SC. Mazzoni, M. JS. Matos, J. Kong, R. Comin*. “Pressure tuning of minibands in MoS2/WSe2 heterostructures revealed by moiré phonons” Nat. Nanotechnol. 18, 1147-1153 (2023).
+Email: songqian@westlake.edu.cn
+The laboratory is currently recruiting PhD students and postdoctoral researchers. Our group fosters a research environment that values intellectual freedom, innovation, open collaboration, and active scientific exchange. We welcome outstanding students and young scholars with backgrounds in physics, electric engineering, materials science, and related disciplines to join us. Interested applicants are encouraged to contact us by email and include a curriculum vitae with their application.
+How to apply:
+1. Applications for a PhD program should be submitted online (For more information, please see Westlake University School of Science/Engineering Graduate Program). Prospective PhD students are welcome to contact us and make pre-application inquires. Please include your CV and transcript when reaching out.
+2. Applications for postdoc or research assistant positions should include a CV and a short research statement.
+Materials for PhD program inquires and postdoc/research assistant position applications should be sent directly to the email address above.

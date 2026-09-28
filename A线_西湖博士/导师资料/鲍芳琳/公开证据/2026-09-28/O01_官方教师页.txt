@@ -1,0 +1,36 @@
+Fanglin Bao, Ph.D. - Westlake University
+Fanglin Bao was born in Chun’an, Zhejiang. He graduated from Zhejiang University in 2011 with a bachelor’s degree in physics and in 2016 with a PhD in Optics. He visited The Chinese University of Hong Kong in 2012 as an exchange scholar. He worked at the South China Normal University as a postdoctoral scholar since 2016. He moved to Purdue University in 2019, as a postdoctoral scholar. He then became a research scientist at Purdue in 2021. He joined Westlake University in Jan. 2024 as an assistant professor.
+2024-
+Assistant professor，Westlake University
+2021-2024
+Research scientist，Purdue University
+2019-2021
+Postdoc，Purdue University
+2016-2019
+Postdoc，South China Normal University
+2016
+Ph.D. degree, Zhejiang University
+2011
+B.S. degree, Zhejiang University
+Dr. Fanglin Bao focused on quantum optical effects in his early career, such as the Casimir effect and the Super-Planckian effect.
+1. He worked out the renormalization of the Casimir energy in inhomogeneous systems and inhomogeneity-induced correction to the Casimir force；
+2. He proposed a novel mechanism of inhomogeneity-induced lateral Casimir force and predicted the Casimir transport effect. Casimir transport uses Casimir force to levitate and propel nanoparticles, like a nanoscale maglev；
+3. He studied the coupling of surface-plasmon-polariton and hyperbolic-phonon-polariton in graphene-hBN heterostructures and its influence in enhancing the near-field photon tunneling.
+Recently, Dr. Fanglin Bao focused more on quantum-inspired optical sensing and artificial intelligence (AI).
+1. He proposed and demonstrated Heat-Assisted Detection and Ranging (HADAR), where he explained and overcame the ghosting effect in traditional thermal imaging. HADAR was highlighted as a Nature cover article and was reported by Nature News & Views, Science News, Nature Photonics News & Views；
+2. He derived the classical information-theoretic bounds of HADAR-based AI, and he verified their effectiveness in analyzing AI performance in the tasks of HADAR detection and ranging；
+3. He generalized quantum-inspired imaging to constellations with an unknown number of stars and proposed the first adaptive quantum-inspired algorithms；
+4. He proposed adaptive photon-thresholding detection. As a smart detector, photon-thresholding detection bridges the common single-photon detection and the challenging photon-number-resolving detection.
+The main research interest of Prof. Fanglin Bao’s group is about AI physics, including using AI to help discover new physics, using physics laws and concepts to understand AI, classical and quantum limits of AI set by physics laws, physics-inspired machine learning, etc. Other research interests include HADAR, the gravity effect of quantum vacuum zero-point energy, etc.
+1.     Fanglin Bao (#), Xueji Wang, Shree Hari Sureshbabu, Liping Yang, Vaneet Aggarwal, Vishnu N. Boddeti and Zubin Jacob (*), Heat-Assisted Detection and Ranging. Nature 619, 743–748 (2023).(Cover article)
+2.     Fanglin Bao (#*), Hyunsoo Choi, Vaneet Agarwal, and Zubin Jacob (*), Quantum-accelerated imaging of N stars, Optics Letters 46, 3045-3048 (2021). (Editor’s Pick).
+3.     Fanglin Bao (#), Kezhang Shi, Guanjun Cao, Julian S. Evans, and Sailing He (*), Inhomogeneity-induced Casimir transport of nanoparticles, Physical Review Letters 121, 130401 (2018).
+4.     Kezhang Shi (#), Fanglin Bao (*), and Sailing He (*), Enhanced Near-Field Thermal Radiation Based on Multilayer Graphene-hBN Heterostructures, ACS Photonics 4, 971 (2017).
+5.     Fanglin Bao (#*), Leif Bauer, Adrian E. Rubio Lopez and Zubin Jacob (*), Photon discerner: adaptive quantum optical sensing near the shot noise limit, arXiv:2307.15141 [quant-ph].
+6.     Xueji Wang (#), Ziyi Yang, Fanglin Bao, Tyler Sentz, and Zubin Jacob (*), "Spinning metasurface stack for spectro-polarimetric thermal imaging," Optica 11, 73-80 (2024)
+7.     Adrian E. Rubio López (#), Ashwin K. Boddeti, Fanglin Bao, Hyunsoo Choi, and Zubin Jacob (*), Nonequilibrium Hanbury Brown-Twiss interferometry: Theory and application to binary stars, Physical Review Research, 5, 013057 (2023).
+8.     Jianwei Tang (#), Juan Xia (#), Maodong Fang (#), Fanglin Bao, Guanjun Cao, Jianqi Shen, Julian S. Evans, and Sailing He (*), Selective far-field addressing of coupled quantum dots in a plasmonic nanocavity, Nature Communications 9, 1705 (2018).
+9.     Fanglin Bao (#), Julian S. Evans, Maodong Fang, and Sailing He (*), Inhomogeneity-related cutoff dependence of the Casimir energy and stress, Physical Review A 93, 013824 (2016).
+10.  Fanglin Bao (#), Bin Luo, and Sailing He (*), First-order correction to the Casimir force within an inhomogeneous medium, Physical Review A 91, 063810 (2015).
+Email：baofanglin@westlake.edu.cn
+We have multiple openings for PhD students, postdoctoral scholars, and research assistants.

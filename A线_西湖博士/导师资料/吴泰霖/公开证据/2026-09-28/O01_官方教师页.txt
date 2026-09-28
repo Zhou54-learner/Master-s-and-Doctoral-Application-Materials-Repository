@@ -1,0 +1,35 @@
+Tailin Wu, Ph.D. - Westlake University
+TAILIN WU is born in 1989 in China. He received his Bachelor of Science degree from the School of Physics at Peking University in 2012. In 2019, he received his Ph.D in Physics degree from the Massachusetts Institute of Technology. His Ph.D. thesis focused on the theme of AI for Physics and Physics for AI. From 2020 to 2023, he conducted postdoctoral research in the Computer Science Department at Stanford University. He joined the School of Engineering at Westlake University full-time in the summer of 2023 and establish the AI for Scientific Simulation and Discovery Lab.
+2023
+Assistant Professor, School of Engineering, Westlake University
+2020
+Postdoctoral Researcher, Computer Science Department, Stanford University
+2019
+Ph.D. degree, Massachusetts Institute of Technology (MIT)
+2012
+Bachelor's degree, Peking University
+Dr. Tailin Wu's research focuses on the core and universal problems at the intersection of AI and scientific disciplines, including (1) development of machine learning methods for large-scale scientific simulations and scientific design (for fluid dynamics, mechanical engineering, materials science, life sciences), (2) development of machine learning methods for scientific discovery (for physics, life sciences), and (3) representation learning based on graph neural networks and information theory. Particularly noteworthy is that during his Ph.D. and postdoctoral work, Dr. Wu Tailin proposed a series of algorithms centered around deep learning surrogate models for scientific simulations, significantly accelerating simulation speeds by orders of magnitude in fields such as fluid mechanics and plasma physics, and addressing the core challenges of multi-scale, multi-resolution, and large-scale problems. To promote scientific discovery, he was the first to propose a series of algorithms centered around AI Physicist, capable of mimicking scientists' discovery of simple, universal physical laws and internal structures of systems. In the area of representation learning, Tailin's Graph Information Bottleneck significantly improved the robustness of graph representation learning.
+Tailin Wu's work is being used in large-scale simulations of fluids and materials, as well as in scientific discoveries in the fields of physics and astronomy. His work has been published in top machine learning conferences such as NeurIPS, ICLR, UAI, and leading physics journals such as Physical Review E, and has been covered by MIT Technology Review, among others. Dr. Tailin Wu also serves as a reviewer for international journals such as Proceedings of the National Academy of Sciences (PNAS), Nature Communications, Nature Machine Intelligence, Science Advances, and top machine learning conferences.
+1. Tailin Wu, Max Tegmark. “Toward an Artificial Intelligence Physicist for Unsupervised Learning.” Physical Review E, 2019, 100(3).
+★ Spotlight for PRE Machine Learning for Physics. Featured in MIT Technology Review.
+2. Tailin Wu*, Takashi Maruyama*, Long Wei*, Tao Zhang*, Yilun Du*, Gianluca Iaccarino, Jure Leskovec. “Compositional Generative Inverse Design”, ICLR 2024.
+★ Spotlight.
+3. Tailin Wu*, Takashi Maruyama*, Qingqing Zhao*, Gordon Wetzstein, Jure Leskovec. “Learning Controllable Adaptive Simulation for Multi-scale Physics.” ICLR 2023.
+★ Notable Top-25%.
+4. Tailin Wu, Takashi Maruyama, Jure Leskovec. “Learning to Accelerate Partial Differential Equations via Latent Global Evolution.” NeurIPS 2022.
+5. Tailin Wu*, Hongyu Ren*, Pan Li, Jure Leskovec. “Graph Information Bottleneck.” NeurIPS 2020.
+6. Tailin Wu, Megan Tjandrasuwita, Zhengxuan Wu, Xuelin Yang, Kevin Liu, Rok Sosic, Jure Leskovec. “ZeroC: A Neuro-Symbolic Model for Zero-shot Concept Recognition and Acquisition at Inference Time.” NeurIPS 2022.
+7. Tailin Wu, Ian Fischer. “Phase Transitions for the Information Bottleneck in Representation Learning.” ICLR 2020.
+8. Tailin Wu, Qinchen Wang, Yinan Zhang, Rex Ying, Kaidi Cao, Rok Sosic, Ridwan Jalali, Hassan Hamam, Marko Maucec, Jure Leskovec. “Learning Large-scale Subsurface Simulations with a Hybrid Graph Network Simulator.” SIGKDD 2022.
+9. Tailin Wu, Michael Sun, H.G. Jason Chou, Pranay Reddy Samala, Sithipont Cholsaipant, Sophia Kivelson, Jacqueline Yau, Zhitao Ying, E. Paulo Alves, Jure Leskovec, Frederico Fiuza. “Learning Efficient Hybrid Particle-continuum Representations of Non-equilibrium N-body Systems.”, NeurIPS 2022 AI for Science: Progress and Promises Workshop.
+10. Tailin Wu, Thomas Breuel, Michael Skuhersky, Jan Kautz. “Nonlinear Causal Discovery with Minimum Predictive Information Regularization.” ICML 2019 Time Series Workshop.
+★ Best Poster Award.
+11. Tailin Wu, Ian Fischer, Isaac L.Chuang, Max Tegmark. “Learnability for the Information Bottleneck”, Entropy, 2019, 21(10): 924.
+12. Guangwei Si, Tailin Wu, Qi Ouyang, Yuhai Tu. “Pathway-based Mean-field model for Escherichia coli Chemotaxis.” Physical Review Letters, 2012.07, 109(4): 048101-048105.
+13. Curtis G. Northcutt*, Tailin Wu*, Isaac L. Chuang. “Learning with Confident Examples. “Rank Pruning for Robust Classification with Noisy Labels.” UAI 2017.
+14. Silviu-Marian Udrescu, Andrew Tan, Jiahai Feng, Orisvaldo Neto, Tailin Wu, Max Tegmark. “AI Feynman 2.0: Pareto-optimal Symbolic Regression Exploiting Graph Modularity.” NeurIPS 2020 Oral.
+Email: wutailin@westlake.edu.cn
+Our research group carries out long-term work on core and universal problems at the intersection of AI + Science. Our main research directions include: (1) Developing machine learning algorithms (based on Graph Neural Networks and Diffusion Models) for large-scale, multi-scale scientific simulation (applied to fluid dynamics, materials, plasmas) and scientific design (protein design, materials design, mechanical design); (2) Developing machine learning algorithms (based on neuro-symbolic AI and foundation models) to discover universal rules and internal structures in scientific systems (applied to life sciences and physics); (3) Developing representation learning algorithms with high generalizability and robustness. For more information, please visit https://tailin.org/.
+We are currently hiring students with strong backgrounds in machine learning or natural sciences who have a keen interest in the above research directions. Positions available include postdoctoral fellows, doctoral students (see enrollment information), research assistants (2 years), and interns (minimum 3 months). Please refer to our recruitment article for details.
+Please send your CV to: wutailin@westlake.edu.cn. We look forward to your joining! Together, we solve important AI + Science problems at Westlake University!
+Tailin Wu and his group members

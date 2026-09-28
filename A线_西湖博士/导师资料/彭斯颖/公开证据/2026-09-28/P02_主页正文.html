@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanophotonic Materials Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Images/xihudaxue.png" alt="Westlake university">
+        <h1>Nanophotonics Materials Lab</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="Group.html">Group</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="Opening.html">Opening</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home-hero">
+            <div class="slider-flex">
+                <div id="group-slider-container" class="slider-container large-slider">
+                    <div id="group-slider" class="slider">
+                        <div class="slide"><img src="Images/group1.jpg" alt="Group Photo 1"></div>
+                        <div class="slide"><img src="Images/group2.jpg" alt="Group Photo 2"></div>
+                        <div class="slide"><img src="Images/group3.jpg" alt="Group Photo 3"></div>
+                        <div class="slide"><img src="Images/group4.jpg" alt="Group Photo 4"></div>
+                        <div class="slide"><img src="Images/group5.jpg" alt="Group Photo 5"></div>
+                        <div class="slide"><img src="Images/group6.png" alt="Group Photo 6"></div>
+                        <div class="slide"><img src="Images/group7.png" alt="Group Photo 7"></div>
+                    </div>
+                    <div id="group-dots" class="slider-dots">
+                        <div class="slider-dot active"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+                <div id="cover-slider-container" class="slider-container cover-slider">
+                    <div id="cover-slider" class="slider">
+                        <div class="slide"><img src="Images/nfengmian.jpg" alt="Journal Cover 1"></div>
+                        <div class="slide"><img src="Images/dfengmian.jpg" alt="Journal Cover 2"></div>
+                    </div>
+                    <div id="cover-dots" class="slider-dots">
+                        <div class="slider-dot active"></div>
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <h2>News</h2>
+            <ul class="news-list">
+                <li>
+                    <span class="news-icon">✨</span>
+                    丁佳渝，努尔比亚 获得2023-2024年度西湖大学苏武奖学金                </li>
+                <li>
+                    <span class="news-icon">✨</span>
+                    努尔比亚，焦钰洁 获得2023-2024年度浙江大学“五好研究生”荣誉称号                </li>
+                <li>
+                    <span class="news-icon">✨</span>
+                    努尔比亚 获得2023-2024年度西湖大学“社会责任奖”荣誉称号                </li>
+                <li>
+                    <span class="news-icon">✨</span>
+                    焦钰洁 获得2023-2024年度西湖大学“求知探索奖”荣誉称号   </li>
+                <li>
+                    <span class="news-icon">✨</span>
+                    丁佳渝 获得2023-2024年度西湖大学“文体艺术奖”荣誉称号  </li>
+            </ul>
+        </section>
+
+        <section class="welcome-section">
+            <div class="welcome-left">
+                <h2>Welcome to</h2>
+                <h1>Nanophotonic Materials Lab!</h1>
+            </div>
+            <div class="welcome-right">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <img src="Images/mail.jpg" alt="Contact us" />
+                    </div>
+                    <div>
+                        <a href="mailto:pengsiying@westlake.edu.cn" class="contact-link">Contact us</a>
+                        <br>
+                        <a href="https://www.westlake.edu.cn/campuslife/yungu/" target="_blank" class="contact-link">Westlake University, Yungu Campus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright ©2025 - 西湖大学工学院 彭斯颖课题组 版权所有。</p>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sliders = document.querySelectorAll('.slider-container');
+
+        sliders.forEach((sliderContainer) => {
+            const slider = sliderContainer.querySelector('.slider');
+            const slides = sliderContainer.querySelectorAll('.slide');
+            const dots = sliderContainer.querySelectorAll('.slider-dot');
+            const slideCount = slides.length;
+            let currentSlide = 0;
+            let slideInterval;
+
+            // Set the interval time (in milliseconds)
+            const intervalTime = 3500;
+
+            // Start the slider
+            startSlider();
+
+            // Add click event listeners to dots
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    goToSlide(index);
+                    resetInterval();
+                });
+            });
+
+            function startSlider() {
+                slideInterval = setInterval(() => {
+                    currentSlide = (currentSlide + 1) % slideCount;
+                    updateSlider();
+                }, intervalTime);
+            }
+
+            function resetInterval() {
+                clearInterval(slideInterval);
+                startSlider();
+            }
+
+            function goToSlide(slideIndex) {
+                currentSlide = slideIndex;
+                updateSlider();
+            }
+
+            function updateSlider() {
+                if (currentSlide >= slideCount) {
+                    currentSlide = 0;
+                }
+                slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentSlide);
+                });
+            }
+        });
+    });
+    </script>
+</body>
+</html>
