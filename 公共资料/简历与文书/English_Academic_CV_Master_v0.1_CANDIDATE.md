@@ -7,7 +7,7 @@ zhouzijing54@gmail.com
 Bachelor's Degree in Applied Physics  
 Self-calculated arithmetic average: **80.20/100*** | Major rank: **21/46**
 
-**Harbin Institute of Technology, Department of Economics** | Aug 2026 – Present  
+**Harbin Institute of Technology** | Aug 2026 – Present  
 Second Bachelor's Degree Program, currently enrolled
 
 ## RESEARCH INTERESTS
@@ -62,4 +62,4 @@ Project No. 202410213227 | Project Member | Supervisor: Prof. Jun Li
 
 ## Internal candidate note
 
-`CANDIDATE` only. This file is an English derivative of the current Chinese Master v1.4 content source and does not replace or modify the frozen Chinese CV. Before external use, verify page layout, official English naming conventions on the English transcript/degree documents when available, and whether a PI-specific one-page variant should adjust the Research Interests line without changing facts.
+`CANDIDATE` only. This file is an English derivative of the current Chinese Master v1.4 content source and does not replace or modify the frozen Chinese CV. The second bachelor's organizational unit/major is intentionally omitted until an official enrollment record establishes the exact formal wording. Before external use, verify page layout, official English naming conventions on the English transcript/degree documents when available, and whether a PI-specific one-page variant should adjust the Research Interests line without changing facts.
