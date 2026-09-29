@@ -1,21 +1,21 @@
 # F线项目 Tracker
 
 更新：2026-09-29
-状态：第一轮广扫后候选跟踪表。`CANDIDATE/HOLD/DROP` 为调研状态，不等于申请状态；本轮无 READY/SENT/SUBMITTED。
+状态：第二轮 F-1 主力层深查已完成第一批；`CANDIDATE/HOLD/DROP` 为调研状态，不等于申请状态；当前无 READY/SENT/SUBMITTED。
 
-> 2026-09-29新增：除 Funding Gate / Eligibility Gate 外，正式第二轮必须同时执行 `Geo/Security Gate`。详细规则见 [`政治与研究安全风险Gate.md`](政治与研究安全风险Gate.md)。加拿大 F003/F004/F005 由于 HIT 被列入加拿大 Named Research Organizations，当前均记 `PASS/HOLD`：HIT 历史学历本身不构成 STRAC admission ban，但需核 current affiliation、funding source 与 sensitive-technology research。澳洲 HDR 记 `PASS/HOLD`；德国/法国/意大利/奥地利/日本/新加坡目前无已核实的 HIT-specific blanket ban，不据此降桶，但具体敏感项目仍须查 export-control / research-security 条件。未来美国项目默认 `HOLD-HIGH`，先核 PP10043 / Entity List / visa / lab-access 风险。
+> 除 Funding Gate / Eligibility Gate 外，正式第二轮必须同时执行 `Geo/Security Gate`。详细规则见 [`政治与研究安全风险Gate.md`](政治与研究安全风险Gate.md)。加拿大 F003/F004/F005 由于 HIT 被列入加拿大 Named Research Organizations，当前均记 `PASS/HOLD`：HIT 历史学历本身不构成 STRAC admission ban，但需核 current affiliation、funding source 与 sensitive-technology research。澳洲 HDR 记 `PASS/HOLD`；德国/法国/意大利/奥地利/日本/新加坡目前无已核实的 HIT-specific blanket ban，不据此降桶，但具体敏感项目仍须查 export-control / research-security 条件。未来美国项目默认 `HOLD-HIGH`，先核 PP10043 / Entity List / visa / lab-access 风险。
 
 | ID | 项目 | 类型 | Funding Gate | Eligibility Gate | 当前桶 | 下一步 | 状态 |
 |---|---|---|---|---|---|---|---|
 | F001 | ISTA PhD 2027 | bachelor-entry PhD | PASS A | PASS | S | 查 physics/scicomp/materials groups + selection profile + project-level security restrictions | CANDIDATE |
 | F002 | OIST PhD 2027 | bachelor-entry PhD | PASS A | PASS | S | 查 6–10 个可迁移 research units + rotation fit + security restrictions | CANDIDATE |
-| F003 | UBC MSc Physics | funded thesis MSc | PASS A-like | PASS pending grade equivalency | P1 | 查 2027 deadline、PI consent、80.2/100 equivalency + STRAC/funding/current-affiliation | CANDIDATE |
-| F004 | McGill MSc Physics | funded thesis MSc | PASS A-like | HOLD grade equivalency | P1 | 查 China grade equivalency + potential supervisors + STRAC/funding/current-affiliation | CANDIDATE |
-| F005 | McMaster MSc Physics | funded thesis MSc | PASS A-like | PASS/HOLD supervisor fit | P1/P0 | 先查 active supervisors + rolling funding timing + STRAC/funding/current-affiliation | CANDIDATE |
-| F006 | Paderborn MSc Physics | low-tuition research MSc | PASS C | PASS | P0 | 查 specialization + thesis groups + living/HiWi + project security | CANDIDATE |
-| F007 | Greifswald MSc Physics | low-tuition research MSc | PASS C | PASS | P0 | 查 IPP/INP thesis routes + plasma/soft matter groups + project security | CANDIDATE |
-| F008 | Osnabrück MSc Physics | low-tuition research MSc | PASS C | PASS | P0 | 查 relevant groups + actual living budget + project security | CANDIDATE |
-| F009 | HHU Düsseldorf MSc Physics | low-tuition research MSc | PASS C | PASS | P0 | 查 plasma/soft matter/computational supervisors + project security | CANDIDATE |
+| F003 | UBC MSc Physics | funded thesis MSc | PASS A-like | **PASS borderline：HIT/211 使 80% 达制度最低附近** | **P1 academic-risk** | 查 2027 deadline、具体 PI、实际 selection profile；PI 级 STRAC/funding/current-affiliation | CANDIDATE |
+| F004 | McGill MSc Physics | funded thesis MSc | PASS A-like | **PASS/HOLD academic：制度可申但成绩无明显余量** | **P1 academic-risk** | 核 China/HIT conversion、potential supervisors、selection profile；PI 级 STRAC | CANDIDATE |
+| F005 | McMaster MSc Physics | funded thesis MSc | PASS A-like | **PASS/HOLD：最低 final-year B+，实际录取者通常 A-+** | **P1 academic-risk** | 计算 final-year/core-physics average；查 active supervisors、rolling funding timing、PI 级 STRAC | CANDIDATE |
+| F006 | Paderborn MSc Physics | low-tuition research MSc | PASS C | PASS | **P0** | 查 photonics/optoelectronics/materials thesis groups、HiWi/生活预算、master学生真实进组机制 | CANDIDATE |
+| F007 | Greifswald MSc Physics | low-tuition research MSc | PASS C | PASS | **P0 high-priority** | 深查 Andre Melzer / Ralf Schneider / Thomas Ihle；IPP/INP thesis access、HiWi/生活预算 | CANDIDATE |
+| F008 | Osnabrück MSc Physics | low-tuition research MSc | PASS C | PASS | **P0** | 深查 thin films/interfaces/statistical/ultrafast groups + living budget + thesis access | CANDIDATE |
+| F009 | HHU Düsseldorf MSc Physics | low-tuition research MSc | PASS C | PASS | **P0 high-priority** | 深查 complex plasma / theoretical soft matter / computational groups + thesis access | CANDIDATE |
 | F010 | Saarland MSc Physics | low-tuition research MSc | PASS C | PASS | P0 | 查 thesis research areas + cash budget + project security | CANDIDATE |
 | F011 | Jena MSc Photonics | low-tuition research MSc | PASS C | PASS | P1 | 查 2027 deadline + Abbe groups + scholarship/HiWi + project security | CANDIDATE |
 | F012 | Jena MSc Physics | low-tuition research MSc | PASS C | PASS/HOLD curriculum audit | P0/P1 | 对照 HIT transcript 核 physics/math credits + project security | CANDIDATE |
@@ -50,11 +50,21 @@
 
 ## 第二轮优先队列
 
-**F-1 funded MSc / probability layer**：F005 → F006 → F007 → F009 → F008 → F003 → F004。
+### F-1A｜德国 PI / thesis ecosystem
+**F007 Greifswald → F009 HHU → F006 Paderborn → F008 Osnabrück**。
 
-**F-2 bachelor-entry funded PhD**：F001 → F002 → F031 → F032 → F030 → F033 → F029。
+目标：不写套磁，先核具体组的 master thesis access、方法训练、近年题目、HiWi/assistant opportunity 与 PhD transition。
 
-**F-3 scholarship masters**：F025 → F021 → F022 → F026/F027/F028 → F023 → F019。
+### F-1B｜加拿大 applicant-specific gate
+**F005 McMaster → F003 UBC → F004 McGill**。
+
+目标：先用 applicant transcript 计算 final-year/core-physics average，再判断是否值得占正式申请名额；进入具体 PI 后逐项做 STRAC/federal-funding check。
+
+### F-2｜bachelor-entry funded PhD
+F001 → F002 → F031 → F032 → F030 → F033 → F029。
+
+### F-3｜conditional scholarship masters
+F025 → F021 → F022 → F026/F027/F028 → F023 → F019。
 
 ## Geo/Security Gate 当前特别处理
 
