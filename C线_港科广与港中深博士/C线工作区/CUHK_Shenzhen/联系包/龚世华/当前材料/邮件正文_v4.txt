@@ -4,7 +4,7 @@ I recently completed a B.S. in Applied Physics at Harbin Institute of Technology
 
 Working from an existing workflow in our group, I added design variables and geometric screening and automated simulation runs and reflection-data processing. Your work on fast numerical methods for frequency-domain Helmholtz and Maxwell problems, particularly in antenna simulation, therefore caught my attention as a natural next step from the problems I encountered at the application level.
 
-As a bachelor-entry applicant from applied physics, I do not yet claim research-level training in finite-element or domain-decomposition methods. What I can bring is hands-on experience with parameterized EM simulation and computational workflow automation, together with a clear motivation to move from using solvers toward understanding and eventually developing reliable numerical methods for wave problems.
+Entering directly from a bachelor’s degree in applied physics, my current strength is application-level EM simulation rather than numerical analysis. I can bring hands-on experience with parameterized EM simulation and computational workflow automation, while using doctoral training to build the mathematical and numerical foundations needed to move from using solvers toward understanding and eventually developing reliable methods for wave problems.
 
 Would you consider a student with this background for a Fall 2027 PhD project in your group? I have attached my CV, undergraduate transcript, and a short research statement and would welcome the opportunity to discuss my work and research interests.
 
