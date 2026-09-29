@@ -10,8 +10,6 @@ B.S. in Applied Physics, Aug. 2022 – Jun. 2026
 **Harbin Institute of Technology, Second Bachelor's Program in Economics**  
 Aug. 2026 – Present
 
-> Contact-version note: undergraduate average/rank are not highlighted on this CV; official transcript is submitted with the email/application when requested.
-
 ## Research Experience
 
 ### Undergraduate Thesis — Simulation and Optimization of Resistive-Film Microwave Absorber Structures
