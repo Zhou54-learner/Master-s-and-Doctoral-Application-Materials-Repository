@@ -1,171 +1,261 @@
 # CUHK-Shenzhen PhD｜PI 证据索引
 
 更新：2026-09-29  
-用途：为 `PI广筛池.md` 提供可追溯事实来源。事实与判断分离；正式联系前仍需二次核验 2027 名额、项目入口、funding 与学院审批规则。
+版本：v2。用途：为 `PI广筛池.md` 提供可追溯事实来源。**事实与判断分离**；正式联系前仍须二次核验 2027 名额、项目入口、funding 与学院审批规则。
 
-## 1. 龚世华 Shihua Gong｜P0
+## A. 主力与现实候选
 
-### 已核事实
-- CUHK-Shenzhen SSE Assistant Professor / Presidential Young Fellow。
-- 研究：scientific computing、numerical analysis、finite element、domain decomposition、preconditioning、frequency-domain wave equations、多物理场。
-- 2026 年学校公开招聘信息显示课题组仍在扩张，研究包含高频波散射、大规模科学计算、AI for CAE，并有国家/地方项目和企业合作、GPU/HPC 资源。
+### 1. 龚世华 Shihua Gong｜P0
+**事实**
+- Assistant Professor / Presidential Young Fellow。
+- scientific computing、numerical analysis、FEM、domain decomposition、preconditioning、frequency-domain wave equations。
+- 2026 学校公开招聘显示组仍扩张，研究包含高频波散射、大规模科学计算、AI for CAE。
 
-### 公开来源
-- Faculty：https://sse.cuhk.edu.cn/en/faculty/gongshihua
-- 2026 课题组招聘：https://www.cuhk.edu.cn/zh-hans/recruitment/17519
-- 个人主页：https://www.shihua-gong.org/
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/gongshihua
+- https://www.shihua-gong.org/
+- https://www.cuhk.edu.cn/zh-hans/recruitment/17519
 
-### 当前判断
-- **概率优先价值高。** 年轻组 + 活跃扩张 + frequency-domain wave 与本人 EM simulation 有技术桥梁。
-- **主要风险：** numerical PDE / FEM 数学门槛高；当前公开招聘更多证明组在扩张，不等于已核实 2027 PhD 名额。
-- 首封联系的核心问题：是否招 2027 Fall PhD，以及是否接受 physics + commercial solver / automation 作为 scientific computing 训练起点。
+**判断**：年轻组 + 频域波与 CST/EM 有直接桥梁；主要风险是 numerical PDE/FEM 数学门槛。
 
----
+### 2. 卓晓璐 Xiaolu Zhuo｜P0
+**事实**
+- plasmonics / nanophotonics。
+- 组页明确 MPhil / PhD positions opening；欢迎 materials/physics/chemistry；related research experience **preferred but not required**，并提到 EM simulation。
 
-## 2. 卓晓璐 Xiaolu Zhuo｜P0
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/zhuoxiaolu
+- https://myweb.cuhk.edu.cn/zhuoxiaolu/Home/MediaReport
 
-### 已核事实
-- Assistant Professor，Physics background。
-- Research：plasmonics、nanophotonics、bio-nanotechnology。
-- 组页明确写：MPhil / PhD positions opening；欢迎 materials / physics / chemistry 背景；related research experience **preferred but not required**。
-- 招聘页还将 electromagnetics simulations 列为相关经验之一。
+**判断**：对非顶配本科履历的柔性门槛信号很有价值；需确认是否有 simulation-heavy 课题。
 
-### 公开来源
-- Faculty：https://sse.cuhk.edu.cn/en/faculty/zhuoxiaolu
-- Lab / Join us：https://myweb.cuhk.edu.cn/zhuoxiaolu/Home/MediaReport
+### 3. 张耀静 Yaojing Zhang｜P0
+**事实**
+- integrated photonic chips、optical computing/sensing/communications。
+- 组员公开页有多条 bachelor→PhD：HIT、DUT、SDU 本科直接进入 PhD。
 
-### 当前判断
-- **对“非明星履历 applicant”很有价值的柔性门槛信号。**
-- 与本人 EM simulation 有连接，但组内实验/纳米材料成分较重；正式联系前需确认是否存在 simulation-heavy PhD topic。
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/zhangyaojing
+- https://myweb.cuhk.edu.cn/yaojingzhang/Home/MediaReport
 
----
+**判断**：本科直博友好度有直接实证，且已有 HIT 先例；但 integrated photonics 本身有竞争。
 
-## 3. 张耀静 Yaojing Zhang｜P0
+### 4. 颜骏 Jun Yan｜P0
+**事实**
+- organic electronics、device physics、modelling、photovoltaics。
+- 组页明确 recruiting students/postdocs；学生基本要求以 physics/materials/engineering + basic MATLAB/Python 为主；申请材料为 CV 与 publications **if any**。
 
-### 已核事实
-- 2024 后加入 CUHK-Shenzhen，Assistant Professor / Presidential Young Fellow。
-- Research：integrated photonic chips、optical computing、sensing、communications、2D materials。
-- 当前组员页存在多条 bachelor → PhD 直接路径：
-  - Zhenyu Wu：BS, Harbin Institute of Technology → PhD 2026 Fall；
-  - Tianyi Shi：BS, Dalian University of Technology → PhD 2026 Fall；
-  - Shutong Zeng：BS, Shandong University → PhD 2025 Fall。
-- 同组也有 master-entry 和 joint PhD，说明来源并非单一模式。
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/yanjun
+- https://myweb.cuhk.edu.cn/yanjun/Home/MediaReport
 
-### 公开来源
-- Faculty：https://sse.cuhk.edu.cn/en/faculty/zhangyaojing
-- Lab members：https://myweb.cuhk.edu.cn/yaojingzhang/Home/MediaReport
-- Research：https://myweb.cuhk.edu.cn/yaojingzhang/Home/ResearchDirection
+**判断**：学生门槛文案相对柔性，不要求本科已有强一作；方向跨度较大但 modelling 可迁移。
 
-### 当前判断
-- **本科直博友好度有直接实证，且已有 HIT 本科先例。**
-- Integrated photonics 本身并不冷门，所以竞争不会低；但相比纯明星组，仍值得列现实主力。
+### 5. 林和生 Hesheng Lin｜P0/P1
+**事实**
+- 2026 加入 CUHK-Shenzhen；PhD 来自 KU Leuven/IMEC，并有 TU Delft 与 Analog Devices 研发经历。
+- 研究 3D/2.5D integration、GaN、power delivery、design automation；强调 electrical/magnetic/thermal/mechanical multiphysics reliability。
+- 个人主页明确正在寻求 MPhil/PhD students 和 RAs。
 
----
+**来源**
+- https://myweb.cuhk.edu.cn/linhesheng
 
-## 4. 颜骏 Jun Yan｜P0
+**判断**：**新组 + 明确招人 + multiphysics** 是强概率 proxy；但 EE/power-system 工程属性明显，需把 CST/EM 仿真迁移讲清楚。
 
-### 已核事实
-- Assistant Professor / Presidential Young Fellow，2023 加入。
-- Research：organic electronics、device physics、modelling、photovoltaics。
-- 组页明确 recruiting students and postdocs。
-- 对 Master/PhD student 的 basic requirements：physics/materials/engineering 等背景；basic MATLAB/Python；英语与沟通；申请时附 CV 与 publications **if any**。
-- 顶级一作要求只针对 postdoc 文案，没有把学生申请强论文设成前置。
+### 6. 张大全 Daquan Zhang｜P0/P1
+**事实**
+- 2024-07 加入；研究 semiconductor nanomaterials、carrier dynamics、LEDs、photodetectors。
+- Lab 页面明确寻找 PhD/Postdoc/RA，接受 Semiconductor materials、Nanomaterials、Microelectronics、Physics、Chemistry、Engineering 等背景，并写明 successful applicants 有 full financial support。
+- 2025–2026 组内已有多名 PhD，活动持续更新。
 
-### 公开来源
-- Faculty：https://sse.cuhk.edu.cn/en/faculty/yanjun
-- Lab / positions：https://myweb.cuhk.edu.cn/yanjun/Home/MediaReport
-- Research：https://myweb.cuhk.edu.cn/yanjun/Home/ResearchDirection
+**来源**
+- https://sse.cuhk.edu.cn/en/teacher-search?academic%5B182%5D=182&page=2
+- https://myweb.cuhk.edu.cn/zhangdaquan
+- https://myweb.cuhk.edu.cn/zhangdaquan/Home/MediaReport
 
-### 当前判断
-- **概率友好信号明确：** 学生要求更偏基础、编程与研究动机，而不是本科阶段已有顶刊。
-- 与现有 microwave / EM 方向跨度较大，但 modelling + device physics 可形成可信迁移。
+**判断**：招生信号很强、Physics 背景明确可申请；但实验材料成分高，需确认 modelling/computation 占比。
 
----
+### 7. 管君 Jun Guan｜P0/P1
+**事实**
+- nanophotonics、nanolaser、metasurfaces、plasmonics。
+- 招生页公开：physics/applied physics/optics/materials/electronics 等；GPA 3.2/4.0 或平均分 80/100 以上；优先电磁与编程。
+- CV 要包含本科专业排名；英语申请阶段可暂不提供。
 
-## 5. 管君 Jun Guan｜P0/P1
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/guanjun
+- https://www.jun-guan.com/opening/
 
-### 已核事实
-- Assistant Professor / Presidential Young Fellow；research：nanophotonics、nanolaser、metasurfaces、plasmonics。
-- 招生页公开给出：physics / applied physics / optics / materials / electronics 等可申请；**GPA 3.2/4.0 或平均分 80/100 以上**。
-- 优先考虑电磁基础、编程能力、光学/微纳相关经验。
-- 申请材料要求 CV（含本科专业排名）、transcript、英语材料等；初审后视频面试，导师确认后再走学院审批。
-- 英语成绩申请阶段可暂不提供，正式入学前补齐。
+**判断**：本人 80.20 刚过公开线，方向适配但不是安全组。
 
-### 公开来源
-- Faculty：https://sse.cuhk.edu.cn/en/faculty/guanjun
-- Opening：https://www.jun-guan.com/opening/
+### 8. 蔡地丰 Difeng Cai｜P1
+**事实**
+- 2026-07 加入 CUHK-Shenzhen，Assistant Professor。
+- 研究 numerical linear algebra、PDE numerical methods、ML、uncertainty quantification、generative modelling；学校采访称应用包括 many-body simulations 与 large-scale ML algorithms。
 
-### 当前判断
-- 本人 80.20/100 **刚过公开门槛**，因此不能称为安全组；但专业/技能连接很好，而且申请规则透明。
-- 适合作为现实可投，而不是“保底”。
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/caidifeng
+- https://sse.cuhk.edu.cn/en/article/2346
 
----
+**判断**：新组容量是正 proxy，且方法训练价值高；但数学门槛高、尚无本地学生历史。
 
-## 6. 段俊明 Junming Duan｜P1
+### 9. 陈峰 Feng Chen｜P1
+**事实**
+- 2026-01 加入，Assistant Professor。
+- condensed-matter physics、strongly correlated systems、tensor networks；研究 quantum spin liquid、high-Tc、fractional quantum Hall 等数值问题。
 
-### 已核事实
-- TT Assistant Professor，2025 前后加入；B.Sc./Ph.D. Peking University，后续 EPFL + Humboldt postdoc。
-- Research：numerical methods for PDEs、fluid dynamics、high-order methods、reduced-order modelling、ML。
-- 2026 学校招聘显示组仍在扩张。
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/chenfeng
 
-### 公开来源
-- Faculty：https://sse.cuhk.edu.cn/en/faculty/duanjunming
-- PhD-program faculty page：https://sse-mphil-phd.cuhk.edu.cn/en/teacher/289
-- 2026 recruitment：https://www.cuhk.edu.cn/zh-hans/recruitment/17287
+**判断**：新组 + 纯物理路线是机会，但理论/张量网络 gap 大，不能因“新组”直接视为容易录。
 
-### 当前判断
-- 新组 + 数值方法训练价值高，但数学迁移成本明显；适合扩池，不宜只因“新组”高估录取概率。
+### 10. 杨先津 Xianjin Yang｜P1
+**事实**
+- Assistant Professor；加入前为 Caltech Computing and Mathematical Sciences postdoc，并曾在清华/BIMSA 做博士后。
+- scientific computing、numerical analysis、PDE、inverse problems、operator learning、Gaussian processes、ML for differential equations。
 
----
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/yangxianjin
+- https://yangx0e.github.io
 
-## 7. 李维棠 Weitang Li｜P1
+**判断**：长期 scientific-computing 方向高度合适，但 applicant 数学水平预计较强；属于“方向值得、概率需真实套磁验证”。
 
-### 已核事实
-- Assistant Professor / Presidential Young Fellow，2024-09 加入。
-- Research：quantum computation、tensor networks、molecule/material simulation；偏前沿 computational chemistry / materials。
+### 11. Jongho Park｜P1
+**事实**
+- Assistant Professor；2026 学校页面发布。
+- scientific computing、numerical analysis、mathematical optimization、mathematical imaging；研究 multilevel methods、mechanics/data science、neural-network multilevel training。
 
-### 公开来源
-- Faculty：https://sse.cuhk.edu.cn/en/faculty/liweitang
-- Group：https://weitangligroup.com/
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/jonghopark
 
-### 当前判断
-- 新组有 capacity 可能，但理论/量子/ML 标签会吸引较强 applicant；当前方法 gap 也较大。
-- 放在主力池后段，等待进一步学生画像与招生信息。
+**判断**：新/早期组是容量 proxy，但偏纯数值分析，需看是否接受 physics applicant。
 
----
+### 12. 王东 Dong Wang｜P1
+**事实**
+- Associate Professor / Assistant Dean。
+- computational fluid dynamics、computational material science、image processing、optimization、ML。
 
-## 8. 郑清彬 Qingbin Zheng｜P1
+**来源**
+- https://sse.cuhk.edu.cn/en/node/703
 
-### 已核事实
-- Associate Professor / Presidential Young Fellow。
-- Research：nanocarbon materials、interfaces、nanocomposites、molecular simulations 等。
+**判断**：方法栈非常适合 computational-research 迁移，但成熟度较高、招生容量未核，故不放 P0。
 
-### 公开来源
-- Faculty：https://sse.cuhk.edu.cn/en/faculty/zhengqingbin
-- Personal：https://myweb.cuhk.edu.cn/zhengqingbin
+### 13. 崔冰宇 Bingyu Cui｜P1/E
+**事实**
+- 2023-12 加入 TT Assistant Professor / Presidential Young Fellow。
+- soft condensed matter theory、statistical physics、chemical physics、strong light-matter interaction 等。
 
-### 当前判断
-- 与本人吸波材料 / materials background 可连接，也可走 molecular simulation 路线。
-- 组较成熟且实验成分高，不属于典型“新组缺人”；作为概率对冲而非首批第一位。
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/cuibingyu
 
----
+**判断**：物理主线且组龄较年轻；但理论数学要求高，现有 simulation workflow 利用率有限。
 
-## 9. 上行 / 冲刺候选
+### 14. 段俊明 Junming Duan｜P1
+**事实**
+- numerical PDE、fluid dynamics、high-order methods、reduced-order modelling、ML；新计算数学组。
 
-### 解碧野 Biye Xie
-- electromagnetic waves、micro/nano photonics、phononic crystals、topological photonics；与本人现有能力高度直接。
-- 因方向高度匹配、成果可见度较高，预计竞争也更明显；保留上行，不承担主路径。
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/duanjunming
+- https://junmingduan.github.io/
 
-### 张昭宇 Zhaoyu Zhang
-- photonics + AI-driven / inverse design，叙事非常顺，但组成熟度和可见度较高。
+**判断**：值得宽投，但数学迁移成本明显。
 
-### 周凯 Kai Zhou
-- AI for Science / physics with ML，长期方向强匹配；AI4Science 热门且组较新，现阶段本科直博历史样本不足。
+### 15. 李维棠 Weitang Li｜P1
+**事实**
+- 2024-09 加入；quantum computation、tensor networks、molecule/material simulation。
 
-## 10. 使用纪律
+**来源**
+- https://sse.cuhk.edu.cn/en/teacher-search?academic%5B181%5D=181&category=All&class_type=All&keywords=&page=3
+- https://weitangligroup.com/
 
-- P0/P1/S 是**申请资源分配标签**，不是导师质量排名。
-- 优先 `under-demanded but good`：年轻组、扩组、招生页面明确、学生来源宽、对强论文无硬前置。
-- 方向可迁移即可，不要求与本科毕设同题；但迁移不能大到本人长期不愿接受。
-- 强组少量试投，用来获取上行，不作为主要 offer 概率来源。
-- 真实回复将优先于网页 proxy，后续按回复率持续重排。
+**判断**：新组容量可能存在，但量子/理论 applicant pool 可能很强。
+
+### 16. 郑清彬 Qingbin Zheng｜P1
+**事实**
+- nanocarbon materials、interfaces/nanocomposites、molecular simulation。
+
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/zhengqingbin
+- https://myweb.cuhk.edu.cn/zhengqingbin
+
+**判断**：与吸波材料经历有连接，但组成熟、实验成分高，作为概率对冲。
+
+### 17. 权超禹 Chaoyu Quan｜P1/E
+**事实**
+- Assistant Professor / Presidential Young Fellow。
+- high-order stable numerical methods for PDEs、mathematical methods in quantum chemistry；已有 30+ 计算数学论文并主持多项项目。
+
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/quanchaoyu
+
+**判断**：计算物理/量化学的方法联系真实，但数学门槛与组成熟度都较高。
+
+### 18. 何东东 Dongdong He｜E
+**事实**
+- Associate Professor / Presidential Young Fellow；2017 加入。
+- numerical PDE、mathematical modelling/scientific computing、fluid mechanics/CFD。
+
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/hedongdong
+
+**判断**：方法合适但组成熟，缺乏“新组容量”优势；第三批对冲。
+
+### 19. 陈天凯 Tiankai Chen｜E/P1
+**事实**
+- atomically precise nanomaterials / nanochemistry，并将 AI 引入 nanoscience。
+- 个人主页仍显示“2025 update: positions for PhD students or research assistants still available”。
+
+**来源**
+- https://myweb.cuhk.edu.cn/chentiankai
+
+**判断**：有公开招生信号，但 2027 是否延续需刷新；化学/实验迁移较大。
+
+### 20. 田静 Tian Jing｜E
+**事实**
+- 2026 加入，Assistant Professor；PDE、two-phase flow，并发表 two-phase magnetohydrodynamics 工作。
+
+**来源**
+- https://sse.cuhk.edu.cn/en/faculty/jingtian
+
+**判断**：极新组是容量 proxy，但几乎纯数学 PDE，只有在接受较大方向迁移时宽投。
+
+## B. 上行候选
+
+### 21. 解碧野 Biye Xie｜S
+- condensed-matter physics、electromagnetic microwave manipulation、micro/nano photonics、phononic crystals。
+- 来源：https://sse.cuhk.edu.cn/en/faculty/xiebiye
+- **判断**：现有技能高度匹配，但组成果/方向显眼，预计竞争更高。
+
+### 22. 张昭宇 Zhaoyu Zhang｜S
+- photonic crystal / nanophotonics / AI-driven design；与 inverse design 叙事直接。
+- 来源：https://sse.cuhk.edu.cn/en/faculty/zhangzhaoyu
+- **判断**：高可见度强组，用于上行。
+
+### 23. 周凯 Kai Zhou｜S
+- AI for Science / physics with machine learning。
+- 来源：https://sse.cuhk.edu.cn/en/faculty/zhoukai
+- **判断**：长期方向高度匹配，但 AI4Science 热度高，当前本科直博历史样本不足。
+
+## C. 观察项 / 暂不升主力
+
+### 钱琦 Qi Qian
+- quantum transport、quantum materials/devices；PI 本人学术履历非常强。
+- 来源：https://sse.cuhk.edu.cn/en/faculty/qianqi
+- 预计 applicant pool 强，暂归 S/E 观察，不占概率主力名额。
+
+### 潘兴斌 Xingbin Pan
+- PDE、超导/液晶/电磁数学理论、nonlinear Maxwell / Maxwell-Stokes。
+- 来源：https://sse.cuhk.edu.cn/en/faculty/panxingbin
+- 概念上与 EM 有连接，但资深纯数学组，不符合“年轻扩组概率优先”。
+
+### 王向荣 Xiangrong Wang
+- condensed-matter theory、spintronics、topological states、electronic structure/transport。
+- 来源：https://sse.cuhk.edu.cn/en/faculty/wangxiangrong
+- 研究方向可以，但成熟资深组，不优先占流水线资源。
+
+## 使用纪律
+
+1. P0/P1/S/E 是**申请资源分配标签**，不是导师质量排名或录取率。
+2. 新组/扩组只是一项 proxy；若没有 2027 明确信号，邮件里必须用询问语气。
+3. 学生来源、Bachelor-entry 历史和公开招聘门槛优先于“研究关键词很匹配”。
+4. 强组只少量上行试投。
+5. 所有邮件必须用户逐封明确确认后才能发送。
