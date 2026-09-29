@@ -1,0 +1,32 @@
+{
+  "base_commit": "31a4908134cb1c18f4bfb7b9d4225789c5ee81cb",
+  "email_word_counts_including_signature": {
+    "许泽锋": 201,
+    "龚世华": 213
+  },
+  "statement_words": 144,
+  "pdfs": [
+    {
+      "path": "C线_港科广与港中深博士\\C线工作区\\公共联系材料\\对外PDF\\Zijing_Zhou_Academic_CV_2027_PhD_v3.pdf",
+      "sha256": "48b9a9f5a46deb32afb8b8eeeda714b014b759ca520e07ec04e787c164581c63",
+      "pages": 1,
+      "spare_height": 162.2958984375,
+      "scale": 1.0
+    },
+    {
+      "path": "C线_港科广与港中深博士\\C线工作区\\CUHK_Shenzhen\\联系包\\龚世华\\当前材料\\Zijing_Zhou_Short_Research_Statement_Gong_v1.pdf",
+      "sha256": "81b77f6196d268203ca77e088a6457fcce95fbdd03cc45a1419dc4af60666c9d",
+      "pages": 1,
+      "spare_height": 458.0,
+      "scale": 1.0
+    }
+  ],
+  "transcript": {
+    "path": "A线_西湖博士\\联系材料\\田静逸\\当前材料\\首封附件\\周子靖_本科成绩单.pdf",
+    "pages": 2,
+    "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19"
+  },
+  "visual_review": "PASS",
+  "state": "CANDIDATE / NOT SENT",
+  "hash_manifest": "审查记录/v3_20260929/文件清单与哈希.json"
+}

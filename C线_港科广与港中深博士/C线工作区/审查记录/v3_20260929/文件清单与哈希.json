@@ -1,0 +1,106 @@
+{
+  "status": "CANDIDATE / NOT SENT",
+  "generated_from_remote_commit": "31a4908134cb1c18f4bfb7b9d4225789c5ee81cb",
+  "visual_checks": [
+    "Zijing_Zhou_Academic_CV_2027_PhD_v3_1.png",
+    "Zijing_Zhou_Short_Research_Statement_Gong_v1_1.png",
+    "第一批中文审查包_v3_20260929_1.png",
+    "第一批中文审查包_v3_20260929_2.png",
+    "第一批中文审查包_v3_20260929_3.png",
+    "第一批中文审查包_v3_20260929_4.png",
+    "第一批中文审查包_v3_20260929_5.png"
+  ],
+  "visual_review": "PASS",
+  "files": [
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/公共联系材料/周子靖_英文AcademicCV_v3.md",
+      "bytes": 3011,
+      "sha256": "5c7814164e32f72b94edda8ed50ab439a23484cd91b463724f5759d3a7c29723"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/公共联系材料/周子靖_中文审查CV_v3.md",
+      "bytes": 2787,
+      "sha256": "eacc5900b82ccd68f5b0d92cbe70d9256a2a52aaf74027f0626ee7f952f40755"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/公共联系材料/对外PDF/Zijing_Zhou_Academic_CV_2027_PhD_v3.pdf",
+      "bytes": 103849,
+      "sha256": "48b9a9f5a46deb32afb8b8eeeda714b014b759ca520e07ec04e787c164581c63"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/HKUST_GZ/联系包/许泽锋/当前材料/第一封套磁邮件_许泽锋_v3_READY_REVIEW.md",
+      "bytes": 1876,
+      "sha256": "cd77503e34ddb615491f55ff05052fe418c3dfa855d019f0ec1c0835f4b9343d"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/HKUST_GZ/联系包/许泽锋/当前材料/邮件正文_v3.txt",
+      "bytes": 1450,
+      "sha256": "b7e712f4515e75d3bc317e262d346fd08431587d4b0de75d80cb58599ae926d9"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/HKUST_GZ/联系包/许泽锋/中文审查镜像/第一封套磁邮件_许泽锋_v3_中文审查.md",
+      "bytes": 1557,
+      "sha256": "fd73182fef8dbd932e756daf0a09b8c44e402a92a76cad8b7c177739547367a7"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/CUHK_Shenzhen/联系包/龚世华/当前材料/第一封套磁邮件_龚世华_v3_READY_REVIEW.md",
+      "bytes": 1975,
+      "sha256": "ad9a75d571539947a3051be46225fa3b8496a318eb2bb7dd38ac4b2bf0378eab"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/CUHK_Shenzhen/联系包/龚世华/当前材料/邮件正文_v3.txt",
+      "bytes": 1551,
+      "sha256": "6c4c20ab1160af7198b49e698715729358f94e3b00a45973f6cdc0aaf604363c"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/CUHK_Shenzhen/联系包/龚世华/当前材料/Short_Research_Statement_龚世华_v1.md",
+      "bytes": 1199,
+      "sha256": "ab300cef1bcdf1d6523b7d683f324060b3e3bf5be3977e1276e6cd2185db1685"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/CUHK_Shenzhen/联系包/龚世华/当前材料/Zijing_Zhou_Short_Research_Statement_Gong_v1.pdf",
+      "bytes": 66062,
+      "sha256": "81b77f6196d268203ca77e088a6457fcce95fbdd03cc45a1419dc4af60666c9d"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/CUHK_Shenzhen/联系包/龚世华/中文审查镜像/第一封套磁邮件_龚世华_v3_中文审查.md",
+      "bytes": 1722,
+      "sha256": "40538ade99e047e17e71d075b0306528661a4601dd1398d6ad7f3725c280200d"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/CUHK_Shenzhen/联系包/龚世华/中文审查镜像/简短研究陈述_龚世华_v1_中文审查.md",
+      "bytes": 1024,
+      "sha256": "466409150fbdb39c2a7b38111a674213ad58afc52c7f11c2ba32c654b697afb0"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/第一批中文审查包_v3_20260929.md",
+      "bytes": 8110,
+      "sha256": "723108d61958920a91561912107adff289a77b965e802d1ed9dc17bf06bf2752"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/第一批中文审查包_v3_20260929.pdf",
+      "bytes": 1813927,
+      "sha256": "cb39d8efc5934df1f8d7169accfbfa2f0827cde31fc6eda77600fe7ead47719f"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/第一批中文审查包_v3_20260929.html",
+      "bytes": 8377,
+      "sha256": "33d4935c35db77dcdf177d18db335c9ee01d49369009a5e6beaa63fd8bed5584"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/审查记录/v3_20260929/生成材料.py",
+      "bytes": 20514,
+      "sha256": "e657e69b908ce6bf5384f651c4f28c1c8c510cb89842958345e1af3b19b29042"
+    },
+    {
+      "path": "C线_港科广与港中深博士/C线工作区/审查记录/v3_20260929/生成检查.json",
+      "bytes": 1170,
+      "sha256": "e483d87665e094fa040eacbe3b7416db899555b52afb77d40ffe79d929eefb44"
+    },
+    {
+      "path": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/周子靖_本科成绩单.pdf",
+      "bytes": 640586,
+      "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19"
+    }
+  ]
+}
