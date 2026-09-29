@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-29",
+  "material_status": "READY",
+  "actual_contact_status": "READYING / NOT SENT",
+  "merge_commit": "da0d03e52f607083ee12f3bc47184d6ba98bc551",
+  "merged_at_beijing": "2026-09-29 09:33:07",
+  "body_unchanged": true,
+  "email_and_txt_identical": true,
+  "body_characters_including_signature_and_whitespace": 583,
+  "attachments": [
+    {
+      "path": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/周子靖_学术简历.pdf",
+      "pages": 1,
+      "bytes": 129083,
+      "sha256": "f82d1a6ded53ba382c05b7a9c6a3e3606c13d1d83b14b0ecf7b10684eb5566d1"
+    },
+    {
+      "path": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/周子靖_本科成绩单.pdf",
+      "pages": 2,
+      "bytes": 640586,
+      "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19"
+    },
+    {
+      "path": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/磁纳米合金与石墨烯复合吸波材料_2025.pdf",
+      "pages": 9,
+      "bytes": 2312663,
+      "sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480"
+    },
+    {
+      "path": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/二维尘埃等离子体晶格波特性研究_2025.pdf",
+      "pages": 10,
+      "bytes": 1910311,
+      "sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c"
+    }
+  ],
+  "total_attachment_bytes": 4992643,
+  "pdf_pages_rendered": 22,
+  "visual_checks": [
+    "CV one page; readable and no clipping",
+    "transcript both pages readable and complete"
+  ],
+  "cv_docx_pdf_paragraphs_matched": 37,
+  "protected_files_unchanged": 29,
+  "cv_editable_files_unchanged": true,
+  "moves": [
+    {
+      "source": "A线_西湖博士/联系材料/田静逸/当前材料/第一封套磁邮件_田静逸_v3_CANDIDATE.md",
+      "target": "A线_西湖博士/联系材料/田静逸/当前材料/历史版本/v3/第一封套磁邮件_田静逸_v3_CANDIDATE.md",
+      "bytes": 1835,
+      "sha256": "33bd502c46e483c4b312a82176d8357d6e39682f9c3f51613057131119ef2c1d"
+    },
+    {
+      "source": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件_待审阅/二维尘埃等离子体晶格波特性研究_2025.pdf",
+      "target": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/二维尘埃等离子体晶格波特性研究_2025.pdf",
+      "bytes": 1910311,
+      "sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c"
+    },
+    {
+      "source": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件_待审阅/周子靖_学术简历.pdf",
+      "target": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/周子靖_学术简历.pdf",
+      "bytes": 129083,
+      "sha256": "f82d1a6ded53ba382c05b7a9c6a3e3606c13d1d83b14b0ecf7b10684eb5566d1"
+    },
+    {
+      "source": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件_待审阅/周子靖_本科成绩单.pdf",
+      "target": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/周子靖_本科成绩单.pdf",
+      "bytes": 640586,
+      "sha256": "a8d938729f01b4f587946548b9cb7ee7348eb69a37a60a7e86588db50c8baf19"
+    },
+    {
+      "source": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件_待审阅/磁纳米合金与石墨烯复合吸波材料_2025.pdf",
+      "target": "A线_西湖博士/联系材料/田静逸/当前材料/首封附件/磁纳米合金与石墨烯复合吸波材料_2025.pdf",
+      "bytes": 2312663,
+      "sha256": "1b00581bfccdee38b78efb1bcd18e5a056126282212e28e8d0452ffca733d480"
+    }
+  ],
+  "ready_email_sha256": "aed3644c8a3338197087e9ac5ca2424eaa7f1b4699e4c1b082a86b4435851410",
+  "plain_body_sha256": "7cba5929246bfa8a800563b656dfd6dfcf1d5ec0d661bf0ffc85e7666474ed1d"
+}
