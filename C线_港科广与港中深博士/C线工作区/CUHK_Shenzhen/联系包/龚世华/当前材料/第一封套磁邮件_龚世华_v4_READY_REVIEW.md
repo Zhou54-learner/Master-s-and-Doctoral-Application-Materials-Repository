@@ -16,7 +16,7 @@ I recently completed a B.S. in Applied Physics at Harbin Institute of Technology
 
 Working from an existing workflow in our group, I added design variables and geometric screening and automated simulation runs and reflection-data processing. Your work on fast numerical methods for frequency-domain Helmholtz and Maxwell problems, particularly in antenna simulation, therefore caught my attention as a natural next step from the problems I encountered at the application level.
 
-As a bachelor-entry applicant from applied physics, I do not yet claim research-level training in finite-element or domain-decomposition methods. What I can bring is hands-on experience with parameterized EM simulation and computational workflow automation, together with a clear motivation to move from using solvers toward understanding and eventually developing reliable numerical methods for wave problems.
+Entering directly from a bachelor’s degree in applied physics, my current strength is application-level EM simulation rather than numerical analysis. I can bring hands-on experience with parameterized EM simulation and computational workflow automation, while using doctoral training to build the mathematical and numerical foundations needed to move from using solvers toward understanding and eventually developing reliable methods for wave problems.
 
 Would you consider a student with this background for a Fall 2027 PhD project in your group? I have attached my CV, undergraduate transcript, and a short research statement and would welcome the opportunity to discuss my work and research interests.
 
@@ -31,7 +31,7 @@ zhouzijing54@gmail.com
 
 - research hook：在频域商业电磁求解器上做真实项目后，对“solver interface 之下的 numerical layer”产生兴趣；并由模型比较意识到 modelling / computational choice 会影响可信响应。
 - PI-specific bridge：龚世华近期公开研究明确涉及天线电磁学中的 frequency-domain Helmholtz / time-harmonic Maxwell 问题及快速并行求解。
-- undergraduate positioning：明确不是 FEM / domain decomposition researcher，但已有应用级 EM simulation + automation 的真实计算经验，博士阶段目标是从 using solvers 走向 understanding / developing numerical methods。
+- undergraduate positioning：把本科阶段当前强项写成 application-level EM simulation，而不是用 defensive wording 罗列“不会什么”；博士阶段目标是补齐 mathematical / numerical foundations。
 - 不声称已有 numerical PDE、FEM solver development、preconditioning 或 HPC 研究经验。
 - 邮件与 Short Research Statement 配套；英文为唯一外发源，中文仅审阅。
 - 用户逐封批准后手动发送；不得代发或创建 Gmail 草稿。
