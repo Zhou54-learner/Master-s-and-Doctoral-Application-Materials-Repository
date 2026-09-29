@@ -1,0 +1,16 @@
+Dear Prof. Gong,
+
+My name is Zijing Zhou, and I graduated from the School of Physics at Harbin Institute of Technology with a B.S. in Applied Physics in June 2026. I am preparing to apply for PhD study for Fall 2027 at CUHK-Shenzhen and am writing to ask whether you expect to recruit PhD students in scientific computing for that intake.
+
+My undergraduate thesis focused on the simulation and optimization of resistive-film microwave absorber structures. Based on an existing Python–CST workflow in our group, I extended the parametric electromagnetic simulation and genetic-algorithm-based search, introduced additional geometric and sheet-resistance variables and constraint screening, automated solver invocation and reflection-response processing, and compared thin-film and Ohmic Sheet modelling approaches. I also used MATLAB for numerical analysis of two-dimensional dusty-plasma lattice-wave simulations in a collaborative research project.
+
+Through this work, I became increasingly interested not only in using commercial electromagnetic solvers, but also in the numerical methods underlying large-scale physical simulation. Your research on frequency-domain wave equations, finite-element and domain-decomposition methods, high-frequency scattering, and AI for CAE is therefore particularly interesting to me. I have not yet conducted formal research on numerical PDE methods or finite-element solver development, but I hope to build on my physics and simulation background and receive rigorous training in scientific computing during doctoral study.
+
+May I ask whether you would consider an Applied Physics applicant with my background for a Fall 2027 PhD project, particularly in frequency-domain wave simulation, high-frequency scattering, or related scientific-computing problems? I have attached my CV and undergraduate transcript for your reference and would be glad to provide further materials or discuss my previous work if helpful.
+
+Thank you very much for your time and consideration.
+
+Best regards,
+Zijing Zhou
+B.S. in Applied Physics, Harbin Institute of Technology
+zhouzijing54@gmail.com
