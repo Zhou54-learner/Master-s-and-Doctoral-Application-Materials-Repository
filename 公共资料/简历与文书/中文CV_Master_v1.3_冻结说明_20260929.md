@@ -1,9 +1,11 @@
 # 中文CV Master v1.3定稿
 
+> 后续更新：本人采纳Chat review并授权修改、合并，现行母版为[Master v1.4](中文CV_Master_v1.4_冻结说明_20260929.md)，仅简化论文栏目标题。本页保留v1.3冻结历史，PDF/Word已原字节归档。
+
 2026-09-29｜**READY，公共母版已冻结，未发送**
 
-- [正式PDF](对外PDF/周子靖_中文学术简历_Master_v1.3.pdf)
-- [正式Word](对外PDF/周子靖_中文学术简历_Master_v1.3.docx)
+- [正式PDF](对外PDF/历史版本/周子靖_中文学术简历_Master_v1.3.pdf)
+- [正式Word](对外PDF/历史版本/周子靖_中文学术简历_Master_v1.3.docx)
 - [整页预览](制作文件/Master_v1.3/正式母版预览_20260929.png)
 - [现行内容源v0.6 INTERNAL](周子靖_中文学术简历_v0.6_INTERNAL.md)
 
