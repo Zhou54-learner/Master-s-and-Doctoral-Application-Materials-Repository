@@ -1,0 +1,74 @@
+{
+  "status": "Master v1.3 CANDIDATE; not READY; not sent",
+  "word_export_pages": 1,
+  "pdf_pages": 1,
+  "page_pt": [
+    0.0,
+    0.0,
+    595.3200073242188,
+    841.9199829101562
+  ],
+  "template": "Master v1.2 Word; A4, original margins, Source Han Sans CN",
+  "body_font_pt": 10.5,
+  "body_leading_pt": 14,
+  "heading_pt": 11.5,
+  "doi_note_pt": 9,
+  "chemical_formula": "actual Word subscripts; smaller subscript glyphs are not body-size compression",
+  "docx_paragraphs_verified_in_pdf": 37,
+  "missing_paragraphs": [],
+  "source_lines_verified_in_docx": 34,
+  "missing_source_lines": [],
+  "clickable_links": [
+    "mailto:zhouzijing54@gmail.com",
+    "https://doi.org/10.20249/j.cnki.2096-5974.2025.01.011",
+    "https://doi.org/10.1360/SSPMA-2024-0393",
+    "https://doi.org/10.1021/acs.inorgchem.4c05411"
+  ],
+  "nonempty_text_bounds_pt": [
+    51.0,
+    37.07998275756836,
+    544.4200439453125,
+    758.4960327148438
+  ],
+  "author_bold_spans": [
+    "周子靖",
+    "周子靖",
+    "周子靖",
+    "Zijing Zhou"
+  ],
+  "baseline_files_unchanged": 17,
+  "score_sum": "7298.6",
+  "numeric_courses": 91,
+  "arithmetic_mean": "80.20439560439560439560439560",
+  "third_paper_authors": [
+    "Zeyang Zhang",
+    "Jun Li",
+    "Juan Cui",
+    "Zegeng Chen",
+    "Zhengyu Zhang",
+    "Nandong Deng",
+    "Yulin Zeng",
+    "Zijing Zhou",
+    "Zhongxiang Zhou"
+  ],
+  "third_paper_author_position": 8,
+  "personal_contribution_lines": 2,
+  "artifacts": [
+    {
+      "path": "公共资料/简历与文书/校对稿/周子靖_中文学术简历_Master_v1.3_CANDIDATE.docx",
+      "bytes": 40293,
+      "sha256": "ba55c7f4dc321d08006e80d175ee263e7a110688a4e33f0c1c6d54b916d770e3"
+    },
+    {
+      "path": "公共资料/简历与文书/校对稿/周子靖_中文学术简历_Master_v1.3_CANDIDATE.pdf",
+      "bytes": 130539,
+      "sha256": "b3eb209850de06b917f289a7310333532d6371f7ffedff4c6b4f6bc3de02ad23"
+    }
+  ],
+  "limitations": [
+    "local factual originals not independently verified online",
+    "ACS HTTP 403; bibliography checked with publisher-deposited Crossref metadata",
+    "original source code not rerun",
+    "candidate must be approved by user before READY"
+  ]
+}
