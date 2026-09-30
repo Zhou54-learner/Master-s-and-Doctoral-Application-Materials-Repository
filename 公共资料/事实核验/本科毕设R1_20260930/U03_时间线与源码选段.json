@@ -1,0 +1,1433 @@
+{
+  "note": "文件名时间为原机器命名时钟；Model.log为软件内部时钟，未推定时区；不使用文件mtime确定决策日期",
+  "log_summaries": [
+    {
+      "source": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/ga_log_ohmic_sheet_12x12.txt",
+      "rows": 128,
+      "project_name_time_min": "20260503_170248",
+      "project_name_time_max": "20260503_180515",
+      "rs_pairs_count": 113,
+      "rs_pairs_if_few": [
+        [
+          "100.994",
+          "38.648",
+          ""
+        ],
+        [
+          "101.743",
+          "43.777",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "index": "0",
+          "summary": "origin=best82_reference, p=13.1437, h=10.0791, Rs_x=142.198, Rs_y=38.599, X(kept=36, comp=2), Y(kept=79, comp=1)",
+          "score": "88.71869805302062",
+          "bandwidth": "13.120000000000001",
+          "coverage": "0.8200000000000001",
+          "min_rl": "-22.250532677864477",
+          "f_low": "4.88",
+          "f_high": "18.0",
+          "total_effective_bw": "13.200000000000001",
+          "mean_margin": "5.991411160970736",
+          "p": "13.1437",
+          "h": "10.0791",
+          "rs_x": "142.198",
+          "rs_y": "38.599",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_170248_5127.cst"
+        },
+        {
+          "iteration": "0",
+          "index": "1",
+          "summary": "origin=reference, p=13.1437, h=10.0791, Rs_x=142.198, Rs_y=38.599, X(kept=36, comp=2), Y(kept=79, comp=1)",
+          "score": "88.71869805302062",
+          "bandwidth": "13.120000000000001",
+          "coverage": "0.8200000000000001",
+          "min_rl": "-22.250532677864477",
+          "f_low": "4.88",
+          "f_high": "18.0",
+          "total_effective_bw": "13.200000000000001",
+          "mean_margin": "5.991411160970736",
+          "p": "13.1437",
+          "h": "10.0791",
+          "rs_x": "142.198",
+          "rs_y": "38.599",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_170248_5127.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/ga_log_ohmic_sheet_12x12.txt",
+      "rows": 70,
+      "project_name_time_min": "20260503_160211",
+      "project_name_time_max": "20260503_163510",
+      "rs_pairs_count": 60,
+      "rs_pairs_if_few": [
+        [
+          "101.142",
+          "49.192",
+          ""
+        ],
+        [
+          "102.994",
+          "60.258",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "index": "0",
+          "summary": "origin=lowfreq_12x12_base, p=13.514, h=10.5061, Rs_x=60.0, Rs_y=60.0, X(kept=33, comp=2), Y(kept=79, comp=1)",
+          "score": "39.13731721263199",
+          "bandwidth": "12.16",
+          "coverage": "0.76",
+          "min_rl": "-31.510573754399385",
+          "f_low": "5.12",
+          "f_high": "17.28",
+          "total_effective_bw": "12.24",
+          "p": "13.514",
+          "h": "10.5061",
+          "rs_x": "60.0",
+          "rs_y": "60.0",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_hf_compensation_ga\\temp\\temp_ohmic_sheet_20260503_160211_3455.cst"
+        },
+        {
+          "iteration": "0",
+          "index": "1",
+          "summary": "origin=reference_scan, p=13.514, h=10.2, Rs_x=60.0, Rs_y=60.0, X(kept=33, comp=2), Y(kept=79, comp=1)",
+          "score": "37.529722697830465",
+          "bandwidth": "11.920000000000002",
+          "coverage": "0.7450000000000001",
+          "min_rl": "-33.52408992768137",
+          "f_low": "5.28",
+          "f_high": "17.200000000000003",
+          "total_effective_bw": "12.0",
+          "p": "13.514",
+          "h": "10.2",
+          "rs_x": "60.0",
+          "rs_y": "60.0",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_hf_compensation_ga\\temp\\temp_ohmic_sheet_20260503_160253_7841.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_ph_micro_only_ga/ga_log_ohmic_sheet_9x9.txt",
+      "rows": 40,
+      "project_name_time_min": "20260503_000539",
+      "project_name_time_max": "20260503_001152",
+      "rs_pairs_count": 1,
+      "rs_pairs_if_few": [
+        [
+          "",
+          "",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "individual": "[0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1]",
+          "score": "13.347623925390783",
+          "bandwidth": "12.25870646766169",
+          "min_rl": "-35.60902500720081",
+          "p": "13.1292",
+          "h": "8.866",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "mask_y_seed": "[1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_9x9_ph_micro_only_ga\\temp\\temp_ohmic_sheet_20260503_000539_5773.cst"
+        },
+        {
+          "iteration": "0",
+          "individual": "[0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]",
+          "score": "13.28470280093295",
+          "bandwidth": "12.25870646766169",
+          "min_rl": "-32.24202733804354",
+          "p": "13.126",
+          "h": "8.866",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "mask_y_seed": "[1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_9x9_ph_micro_only_ga\\temp\\temp_ohmic_sheet_20260503_000559_7667.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/refine_log_ohmic_sheet_12x12.txt",
+      "rows": 112,
+      "project_name_time_min": "20260503_181517",
+      "project_name_time_max": "20260503_185051",
+      "rs_pairs_count": 98,
+      "rs_pairs_if_few": [
+        [
+          "126.9802",
+          "32.5768",
+          ""
+        ],
+        [
+          "128.9021",
+          "33.8322",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "index": "0",
+          "origin": "current_13p20GHz_reference",
+          "p": "13.1409",
+          "h": "10.0731",
+          "rs_x": "140.79",
+          "rs_y": "35.461",
+          "score": "54.33127778314418",
+          "bandwidth": "13.2",
+          "coverage": "0.825",
+          "f_low": "4.800000000000001",
+          "f_high": "18.0",
+          "min_rl": "-23.485406707040394",
+          "worst_44_48": "-8.519990767657506",
+          "mean_44_48": "-9.123366108014732",
+          "worst_hi": "-10.268263796888435",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_fixed_topology_lf_refine\\temp\\temp_ohmic_sheet_20260503_181517_7908.cst"
+        },
+        {
+          "iteration": "0",
+          "index": "1",
+          "origin": "manual_seed",
+          "p": "13.1409",
+          "h": "10.12",
+          "rs_x": "140.0",
+          "rs_y": "32.0",
+          "score": "40.94947653123488",
+          "bandwidth": "13.120000000000001",
+          "coverage": "0.8200000000000001",
+          "f_low": "4.88",
+          "f_high": "18.0",
+          "min_rl": "-22.7474553813989",
+          "worst_44_48": "-8.510638554398595",
+          "mean_44_48": "-9.056123473448677",
+          "worst_hi": "-10.25925536141543",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_fixed_topology_lf_refine\\temp\\temp_ohmic_sheet_20260503_181552_8744.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/ga_log_ohmic_sheet_9x9.txt",
+      "rows": 24,
+      "project_name_time_min": "20260502_232604",
+      "project_name_time_max": "20260502_233117",
+      "rs_pairs_count": 1,
+      "rs_pairs_if_few": [
+        [
+          "",
+          "",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "individual": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "score": "12.38840525805356",
+          "bandwidth": "11.462686567164178",
+          "min_rl": "-37.64261732091082",
+          "p": "13.1286",
+          "h": "8.8667",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "mask_y_seed": "[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_9x9_fixed_ph_ga\\temp\\temp_ohmic_sheet_20260502_232604_1552.cst"
+        },
+        {
+          "iteration": "0",
+          "individual": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "score": "11.928308682034654",
+          "bandwidth": "11.144278606965175",
+          "min_rl": "-27.334344363245812",
+          "p": "13.1286",
+          "h": "8.8667",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "mask_y_seed": "[1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_9x9_fixed_ph_ga\\temp\\temp_ohmic_sheet_20260502_232625_4367.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/ga_log_ohmic_sheet_9x9.txt",
+      "rows": 24,
+      "project_name_time_min": "20260502_233758",
+      "project_name_time_max": "20260502_234217",
+      "rs_pairs_count": 1,
+      "rs_pairs_if_few": [
+        [
+          "",
+          "",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "individual": "[0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "score": "12.388400869961888",
+          "bandwidth": "11.462686567164178",
+          "min_rl": "-37.64262637844527",
+          "p": "13.1286",
+          "h": "8.8667",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "mask_y_seed": "[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_9x9_fixed_ph_ga\\temp\\temp_ohmic_sheet_20260502_233758_8460.cst"
+        },
+        {
+          "iteration": "0",
+          "individual": "[0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "score": "12.353289941897177",
+          "bandwidth": "11.383084577114428",
+          "min_rl": "-42.619093929471525",
+          "p": "13.1286",
+          "h": "8.9048",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0]",
+          "mask_y_seed": "[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_9x9_fixed_ph_ga\\temp\\temp_ohmic_sheet_20260502_233819_7050.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/片阻1.1/ga_log_ohmic_sheet_6x6.txt",
+      "rows": 8,
+      "project_name_time_min": "20260502_222120",
+      "project_name_time_max": "20260502_222230",
+      "rs_pairs_count": 1,
+      "rs_pairs_if_few": [
+        [
+          "",
+          "",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "individual": "[1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0]",
+          "score": "11.705838181709913",
+          "bandwidth": "11.144278606965175",
+          "min_rl": "-25.916398719073722",
+          "p": "13.281",
+          "h": "8.8571",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 1, 1, 1]",
+          "mask_y_seed": "[1, 1, 1, 1, 0, 0, 1, 1, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_6x6_ga_stable\\temp\\temp_ohmic_sheet_20260502_222120_6579.cst"
+        },
+        {
+          "iteration": "0",
+          "individual": "[1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0]",
+          "score": "11.73087816934134",
+          "bandwidth": "11.144278606965175",
+          "min_rl": "-26.791105459893593",
+          "p": "13.281",
+          "h": "8.8571",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 1, 0, 1]",
+          "mask_y_seed": "[1, 1, 1, 1, 0, 0, 1, 1, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_6x6_ga_stable\\temp\\temp_ohmic_sheet_20260502_222138_3347.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_coverage85_ga/ga_log_ohmic_sheet_12x12.txt",
+      "rows": 40,
+      "project_name_time_min": "20260503_141544",
+      "project_name_time_max": "20260503_142650",
+      "rs_pairs_count": 1,
+      "rs_pairs_if_few": [
+        [
+          "",
+          "",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "individual": "[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0]",
+          "score": "14.015597541881341",
+          "bandwidth": "11.064676616915422",
+          "min_rl": "-21.33636957589733",
+          "p": "13.1778",
+          "h": "8.8571",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0]",
+          "mask_y_seed": "[1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_coverage85_ga\\temp\\temp_ohmic_sheet_20260503_141544_9918.cst"
+        },
+        {
+          "iteration": "0",
+          "individual": "[0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0]",
+          "score": "12.845986729927638",
+          "bandwidth": "10.189054726368159",
+          "min_rl": "-17.2219843720824",
+          "p": "13.1778",
+          "h": "8.8571",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0]",
+          "mask_y_seed": "[0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_coverage85_ga\\temp\\temp_ohmic_sheet_20260503_141612_4383.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/ga_log_ohmic_sheet_6x6.txt",
+      "rows": 80,
+      "project_name_time_min": "20260502_223249",
+      "project_name_time_max": "20260502_224326",
+      "rs_pairs_count": 1,
+      "rs_pairs_if_few": [
+        [
+          "",
+          "",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "individual": "[1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0]",
+          "score": "11.705838166013944",
+          "bandwidth": "11.144278606965175",
+          "min_rl": "-25.9164002522388",
+          "p": "13.281",
+          "h": "8.8571",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 1, 1, 1]",
+          "mask_y_seed": "[1, 1, 1, 1, 0, 0, 1, 1, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_6x6_ga_stable\\temp\\temp_ohmic_sheet_20260502_223249_7782.cst"
+        },
+        {
+          "iteration": "0",
+          "individual": "[1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0]",
+          "score": "11.635008074725466",
+          "bandwidth": "11.064676616915422",
+          "min_rl": "-26.19281285365393",
+          "p": "13.281",
+          "h": "8.8524",
+          "mask_x_seed": "[0, 0, 0, 0, 0, 0, 1, 1, 1]",
+          "mask_y_seed": "[1, 1, 1, 1, 0, 0, 1, 1, 0]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_6x6_ga_stable\\temp\\temp_ohmic_sheet_20260502_223307_9846.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/ga_log_ohmic_sheet_12x12.txt",
+      "rows": 40,
+      "project_name_time_min": "20260503_144133",
+      "project_name_time_max": "20260503_145311",
+      "rs_pairs_count": 1,
+      "rs_pairs_if_few": [
+        [
+          "",
+          "",
+          ""
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "individual": "[0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1]",
+          "template": "p=13.1714, h=8.854, template_type=0, y_frame_w=1, y_window_w=6, y_window_h=7, y_bridge_w=2, y_slot_type=0, x_strip_w=3, x_gap_w=4, x_end_load=2, x_vert_offset=1",
+          "score": "9.59285484807974",
+          "bandwidth": "5.520000000000001",
+          "coverage": "0.3450000000000001",
+          "min_rl": "-12.579454064818155",
+          "f_low": "11.040000000000001",
+          "f_high": "16.560000000000002",
+          "total_effective_bw": "5.6000000000000005",
+          "p": "13.1714",
+          "h": "8.854",
+          "mask_x_flatten": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+          "mask_y_flatten": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_template_coverage85_ga\\temp\\temp_ohmic_sheet_20260503_144133_1595.cst"
+        },
+        {
+          "iteration": "0",
+          "individual": "[1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1]",
+          "template": "p=14.0857, h=8.854, template_type=0, y_frame_w=2, y_window_w=6, y_window_h=7, y_bridge_w=2, y_slot_type=0, x_strip_w=3, x_gap_w=4, x_end_load=2, x_vert_offset=1",
+          "score": "1.7357112774559758",
+          "bandwidth": "3.200000000000001",
+          "coverage": "0.20000000000000007",
+          "min_rl": "-10.792703698753733",
+          "f_low": "11.68",
+          "f_high": "14.88",
+          "total_effective_bw": "3.2800000000000002",
+          "p": "14.0857",
+          "h": "8.854",
+          "mask_x_flatten": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+          "mask_y_flatten": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_template_coverage85_ga\\temp\\temp_ohmic_sheet_20260503_144204_1082.cst"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hybrid_coverage85_ga/ga_log_ohmic_sheet_12x12.txt",
+      "rows": 96,
+      "project_name_time_min": "20260503_150453",
+      "project_name_time_max": "20260503_154721",
+      "rs_pairs_count": 1,
+      "rs_pairs_if_few": [
+        [
+          "",
+          "",
+          "60.0"
+        ]
+      ],
+      "first_rows": [
+        {
+          "iteration": "0",
+          "index": "0",
+          "summary": "origin=upscaled_9x9_base, p=13.18, h=8.866, Rs=60.0, X(kept=32, comp=2), Y(kept=76, comp=1)",
+          "score": "31.94873249645696",
+          "bandwidth": "11.120000000000001",
+          "coverage": "0.6950000000000001",
+          "min_rl": "-28.53329314259035",
+          "f_low": "6.48",
+          "f_high": "17.6",
+          "total_effective_bw": "11.200000000000001",
+          "p": "13.18",
+          "h": "8.866",
+          "rs": "60.0",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_hybrid_coverage85_ga\\temp\\temp_ohmic_sheet_20260503_150453_8190.cst"
+        },
+        {
+          "iteration": "0",
+          "index": "1",
+          "summary": "origin=base_ph_scan, p=13.1746, h=9.4171, Rs=60.0, X(kept=32, comp=2), Y(kept=76, comp=1)",
+          "score": "37.35052116125242",
+          "bandwidth": "11.6",
+          "coverage": "0.725",
+          "min_rl": "-48.71197467891068",
+          "f_low": "5.92",
+          "f_high": "17.52",
+          "total_effective_bw": "11.68",
+          "p": "13.1746",
+          "h": "9.4171",
+          "rs": "60.0",
+          "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_hybrid_coverage85_ga\\temp\\temp_ohmic_sheet_20260503_150524_7308.cst"
+        }
+      ]
+    }
+  ],
+  "source_excerpts": [
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_hybrid_coverage85_ga_code.py",
+      "bytes": 149151,
+      "sha256": "0412c0b2dfa69235ded3f960b546ea97afd1fd2b1bbc46224ef718abf48d7a6a",
+      "scope": "指定范围静态详读",
+      "hits": [
+        {
+          "first": 2390,
+          "last": 2403,
+          "text": "2390: TOPOLOGY_N = 12\n2391: TARGET_TOTAL_BAND = 16.0\n2392: TARGET_COVERAGE = 0.85\n2393: TARGET_CONTIGUOUS_BW = TARGET_TOTAL_BAND * TARGET_COVERAGE\n2394: TARGET_LOW_EDGE = 18.0 - TARGET_CONTIGUOUS_BW\n2395: \n2396: # 第一轮建议保持 Rs = 60 Ω/sq。若之后仍不能明显提升，可改为 True。\n2397: OPTIMIZE_RS = False\n2398: RS_FIXED = 60.0\n2399: RS_MIN = 45.0\n2400: RS_MAX = 90.0\n2401: \n2402: # 以最终 9x9 p,h 为中心，但允许更大范围寻找低频下移。\n2403: P_MIN = 12.90"
+        },
+        {
+          "first": 2603,
+          "last": 2607,
+          "text": "2603: def random_rs():\n2604:     if not OPTIMIZE_RS:\n2605:         return RS_FIXED\n2606:     return round(random.uniform(RS_MIN, RS_MAX), 2)\n2607: "
+        },
+        {
+          "first": 2954,
+          "last": 2974,
+          "text": "2954: \n2955: \n2956: def configure_rs_for_individual(individual):\n2957:     \"\"\"If OPTIMIZE_RS=True, update the global Ohmic Sheet material settings.\"\"\"\n2958:     global FILM_X_SHEET_RESISTANCE, FILM_Y_SHEET_RESISTANCE, FILM_X_SHEET_NAME, FILM_Y_SHEET_NAME\n2959:     rs = float(individual.get(\"rs\", RS_FIXED)) if isinstance(individual, dict) else RS_FIXED\n2960:     if not OPTIMIZE_RS:\n2961:         rs = RS_FIXED\n2962:     FILM_X_SHEET_RESISTANCE = rs\n2963:     FILM_Y_SHEET_RESISTANCE = rs\n2964:     rs_name = str(round(rs, 2)).replace(\".\", \"p\")\n2965:     FILM_X_SHEET_NAME = f\"SMH188H_{rs_name}_OhmicSheet\"\n2966:     FILM_Y_SHEET_NAME = f\"SMH188H_{rs_name}_OhmicSheet\"\n2967: \n2968: \n2969: def run_cst(individual, film_model_type=None):\n2970:     if film_model_type is None:\n2971:         film_model_type = OPTIMIZATION_FILM_MODEL\n2972:     configure_rs_for_individual(individual)\n2973:     p, h, mask_x_seed, mask_y_seed = decode(individual)\n2974:     return run_cst_for_params("
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_hf_compensation_ga_code.py",
+      "bytes": 183014,
+      "sha256": "1b5536622b73bb69c84118864c4d20c19f11b444bc475fbe7030cc6cedb361b3",
+      "scope": "指定范围静态详读",
+      "hits": [
+        {
+          "first": 3354,
+          "last": 3392,
+          "text": "3354: \n3355: os.makedirs(SAVE_PATH, exist_ok=True)\n3356: os.makedirs(TEMP_DIR, exist_ok=True)\n3357: \n3358: RUN_MODE = \"optimize\"\n3359: OPTIMIZATION_FILM_MODEL = \"ohmic_sheet\"\n3360: TOPOLOGY_N = 12\n3361: TARGET_TOTAL_BAND = 16.0\n3362: REFERENCE_9X9_BW = 12.338308457711443\n3363: TARGET_85_BW = 13.6\n3364: \n3365: # 这一版允许 X/Y 分层方阻。它更像“高频补偿变量”，不是重新随机搜拓扑。\n3366: OPTIMIZE_RS_XY = True\n3367: RS_X_MIN = 35.0\n3368: RS_X_MAX = 160.0\n3369: RS_Y_MIN = 35.0\n3370: RS_Y_MAX = 105.0\n3371: \n3372: # 当前 12x12 低频增强结构的中心参数。范围略收窄，避免 h 过大导致高频端完全丢失。\n3373: P_MIN = 13.05\n3374: P_MAX = 13.95\n3375: H_MIN = 9.25\n3376: H_MAX = 10.65\n3377: \n3378: BASE_P_12 = 13.514\n3379: BASE_H_12 = 10.5061\n3380: BASE_RSX_12 = 60.0\n3381: BASE_RSY_12 = 60.0\n3382: \n3383: # 第一轮建议 14×8；如果稳定且有提升，可改为 18×10。\n3384: pop_size = 14\n3385: iterations = 8\n3386: p_m_start = 0.20\n3387: \n3388: # Y 膜固定；只允许 X 膜补偿微扰。\n3389: FIX_Y_MASK = True\n3390: OPTIMIZE_X_LOCAL = True\n3391: \n3392: # X 层局部补偿候选区域：基于现有 X 边界 + 中心/端部附近。"
+        },
+        {
+          "first": 3550,
+          "last": 3575,
+          "text": "3550: \n3551: def make_individual(p=None, h=None, rsx=None, rsy=None, mask_x=None, mask_y=None, origin=\"base\"):\n3552:     if p is None:\n3553:         p = random.uniform(P_MIN, P_MAX)\n3554:     if h is None:\n3555:         h = random.uniform(H_MIN, H_MAX)\n3556:     if rsx is None:\n3557:         rsx = random.uniform(RS_X_MIN, RS_X_MAX) if OPTIMIZE_RS_XY else BASE_RSX_12\n3558:     if rsy is None:\n3559:         rsy = random.uniform(RS_Y_MIN, RS_Y_MAX) if OPTIMIZE_RS_XY else BASE_RSY_12\n3560:     if mask_x is None:\n3561:         mask_x = LOWFREQ_X_MASK_12.copy()\n3562:     if mask_y is None:\n3563:         mask_y = LOWFREQ_Y_MASK_12.copy()\n3564:     mx, my = repair_masks(mask_x, mask_y)\n3565:     return {\n3566:         \"p\": round(float(max(P_MIN, min(P_MAX, p))), 4),\n3567:         \"h\": round(float(max(H_MIN, min(H_MAX, h))), 4),\n3568:         \"rsx\": round(float(max(RS_X_MIN, min(RS_X_MAX, rsx))), 3),\n3569:         \"rsy\": round(float(max(RS_Y_MIN, min(RS_Y_MAX, rsy))), 3),\n3570:         \"mask_x\": mx.astype(int).tolist(),\n3571:         \"mask_y\": my.astype(int).tolist(),\n3572:         \"origin\": origin,\n3573:     }\n3574: \n3575: "
+        },
+        {
+          "first": 3815,
+          "last": 3852,
+          "text": "3815:         mx[i, j] = 1 - mx[i, j]\n3816: \n3817:     mx = repair_x_mask(mx)\n3818: \n3819:     # p,h and Rs mutations\n3820:     child[\"p\"] = round(max(P_MIN, min(P_MAX, float(child[\"p\"]) + random.gauss(0, 0.09))), 4)\n3821:     child[\"h\"] = round(max(H_MIN, min(H_MAX, float(child[\"h\"]) + random.gauss(0, 0.13))), 4)\n3822: \n3823:     if OPTIMIZE_RS_XY:\n3824:         child[\"rsx\"] = round(max(RS_X_MIN, min(RS_X_MAX, float(child[\"rsx\"]) + random.gauss(0, 8.0))), 3)\n3825:         child[\"rsy\"] = round(max(RS_Y_MIN, min(RS_Y_MAX, float(child[\"rsy\"]) + random.gauss(0, 5.0))), 3)\n3826: \n3827:     child[\"mask_x\"] = mx.astype(int).tolist()\n3828:     child[\"mask_y\"] = LOWFREQ_Y_MASK_12.astype(int).tolist()\n3829:     child[\"origin\"] = origin\n3830:     return child\n3831: \n3832: \n3833: def make_ph_rs_variant(origin=\"ph_rs_scan\"):\n3834:     \"\"\"固定 X/Y 图案，只扫 p,h,Rs_x,Rs_y。\"\"\"\n3835:     p = random.uniform(P_MIN, P_MAX)\n3836:     h = random.uniform(H_MIN, H_MAX)\n3837: \n3838:     if OPTIMIZE_RS_XY:\n3839:         # 重点多试较高 Rs_x，用于高频阻抗补偿；Y 维持中等损耗。\n3840:         rsx = random.choice([\n3841:             random.uniform(45, 85),\n3842:             random.uniform(85, 130),\n3843:             random.uniform(120, RS_X_MAX),\n3844:         ])\n3845:         rsy = random.choice([\n3846:             random.uniform(40, 70),\n3847:             random.uniform(60, RS_Y_MAX),\n3848:         ])\n3849:     else:\n3850:         rsx, rsy = BASE_RSX_12, BASE_RSY_12\n3851: \n3852:     return make_individual("
+        },
+        {
+          "first": 3901,
+          "last": 3945,
+          "text": "3901:     )\n3902:     pop.append(base)\n3903: \n3904:     # 保留几个重要参照：原方阻、不同 h、不同方阻\n3905:     reference_settings = [\n3906:         (13.514, 10.20, 60, 60),\n3907:         (13.514, 9.90, 60, 60),\n3908:         (13.35, 10.10, 90, 60),\n3909:         (13.35, 9.80, 110, 60),\n3910:         (13.20, 10.00, 120, 55),\n3911:         (13.45, 9.70, 80, 70),\n3912:     ]\n3913:     for p, h, rsx, rsy in reference_settings:\n3914:         if len(pop) >= n:\n3915:             break\n3916:         pop.append(make_individual(p=p, h=h, rsx=rsx, rsy=rsy, mask_x=LOWFREQ_X_MASK_12, mask_y=LOWFREQ_Y_MASK_12, origin=\"reference_scan\"))\n3917: \n3918:     trial = 0\n3919:     while len(pop) < n and trial < RANDOM_INDIVIDUAL_MAX_TRIALS:\n3920:         trial += 1\n3921:         r = random.random()\n3922:         if r < 0.45:\n3923:             child = make_ph_rs_variant(origin=\"ph_rs_scan\")\n3924:         elif r < 0.75:\n3925:             parent = random.choice(pop)\n3926:             child = make_x_variant(parent, n_flips=random.randint(1, 6), origin=\"x_local_seed\")\n3927:         else:\n3928:             child = make_structured_x_compensation(origin=\"structured_seed\")\n3929: \n3930:         ok, reason, report = prefilter_individual(child)\n3931:         if ok and individual_key(child) not in [individual_key(x) for x in pop]:\n3932:             pop.append(child)\n3933: \n3934:     while len(pop) < n:\n3935:         pop.append(make_x_variant(base, n_flips=1, origin=\"fill_base\"))\n3936: \n3937:     return pop\n3938: \n3939: \n3940: def evaluate_individual(individual, generation=None, index=None):\n3941:     key = individual_key(individual)\n3942:     if key in cache:\n3943:         metrics, params, cst_file = cache[key]\n3944:         log_individual_trace(generation, index, \"cache_hit\", individual, metrics=metrics, cst_file=cst_file)\n3945:         return cache[key]"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_fixed_topology_lf_refine_code.py",
+      "bytes": 248832,
+      "sha256": "43881dee7868997da1e39cd3a77a0c3bc87de392e4f21575fd8266c8f5e4d75d",
+      "scope": "指定范围静态详读",
+      "hits": [
+        {
+          "first": 5474,
+          "last": 5588,
+          "text": "5474: # 12x12 fixed topology refinement:\n5475: #   - fix the current best 12x12 topology\n5476: #   - only optimize p, h, Rs_x, Rs_y\n5477: #   - objective focuses on pushing f_low from 4.80 GHz toward 4.4-4.6 GHz\n5478: #   - high-frequency edge must remain at ~18 GHz\n5479: # =========================================================\n5480: \n5481: SAVE_PATH = os.path.join(BASE_SAVE_PATH, \"ohmic_sheet_12x12_fixed_topology_lf_refine\")\n5482: TEMP_DIR = os.path.join(SAVE_PATH, \"temp\")\n5483: \n5484: BEST_CST = os.path.join(SAVE_PATH, \"best_design_ohmic_sheet_12x12.cst\")\n5485: LOG_FILE = os.path.join(SAVE_PATH, \"refine_log_ohmic_sheet_12x12.txt\")\n5486: BEST_RESULT_FILE = os.path.join(SAVE_PATH, \"best_result_ohmic_sheet_12x12.txt\")\n5487: ERROR_LOG_FILE = os.path.join(SAVE_PATH, \"error_log_ohmic_sheet_12x12.txt\")\n5488: BEST_S11_FILE = os.path.join(SAVE_PATH, \"best_s11_ohmic_sheet_12x12.txt\")\n5489: BEST_S11_PNG = os.path.join(SAVE_PATH, \"best_s11_ohmic_sheet_12x12.png\")\n5490: BEST_MASK_X_TXT = os.path.join(SAVE_PATH, \"fixed_mask_x_12x12.txt\")\n5491: BEST_MASK_Y_TXT = os.path.join(SAVE_PATH, \"fixed_mask_y_12x12.txt\")\n5492: BEST_MASK_PNG = os.path.join(SAVE_PATH, \"fixed_mask_xy_12x12.png\")\n5493: \n5494: os.makedirs(SAVE_PATH, exist_ok=True)\n5495: os.makedirs(TEMP_DIR, exist_ok=True)\n5496: \n5497: RUN_MODE = \"optimize\"\n5498: OPTIMIZATION_FILM_MODEL = \"ohmic_sheet\"\n5499: TOPOLOGY_N = 12\n5500: \n5501: REFERENCE_12X12_BW = 13.20\n5502: TARGET_85_BW = 13.60\n5503: TARGET_TOTAL_BAND = 16.0\n5504: \n5505: BASE_P_12 = 13.1409\n5506: BASE_H_12 = 10.0731\n5507: BASE_RSX_12 = 140.79\n5508: BASE_RSY_12 = 35.461\n5509: \n5510: P_MIN = 12.98\n5511: P_MAX = 13.28\n5512: H_MIN = 9.96\n5513: H_MAX = 10.34\n5514: RS_X_MIN = 105.0\n5515: RS_X_MAX = 205.0\n5516: RS_Y_MIN = 24.0\n5517: RS_Y_MAX = 48.0\n5518: \n5519: pop_size = 14\n5520: iterations = 8\n5521: p_m_start = 0.22\n5522: RANDOM_INDIVIDUAL_MAX_TRIALS = 800\n5523: \n5524: FIXED_X_MASK_12 = np.array([\n5525:     [0,0,0,0,0,0,0,0,0,0,0,0],\n5526:     [0,0,0,0,0,0,0,0,0,0,0,0],\n5527:     [0,0,0,0,0,0,0,0,0,0,0,0],\n5528:     [0,1,0,0,0,0,0,0,0,0,0,0],\n5529:     [1,1,1,1,1,0,0,0,1,1,1,1],\n5530:     [1,1,1,1,0,0,0,0,1,1,1,1],\n5531:     [1,1,1,1,0,0,0,0,0,1,1,1],\n5532:     [1,1,1,1,0,0,0,0,1,1,1,1],\n5533:     [0,0,0,0,0,0,0,1,1,0,0,0],\n5534:     [0,0,0,0,0,0,0,0,1,0,0,0],\n5535:     [0,0,0,0,0,0,0,0,0,0,0,0],\n5536:     [0,0,0,0,0,0,0,0,0,0,0,0],\n5537: ], dtype=int)\n5538: \n5539: FIXED_Y_MASK_12 = np.array([\n5540:     [1,1,1,1,1,1,1,1,1,1,1,1],\n5541:     [1,0,0,0,1,0,0,1,0,0,0,1],\n5542:     [1,0,0,0,1,0,0,1,0,0,0,1],\n5543:     [1,0,0,0,0,0,0,0,0,1,0,1],\n5544:     [1,1,1,1,1,0,0,0,1,1,1,1],\n5545:     [1,1,1,1,0,0,0,0,1,1,1,1],\n5546:     [1,1,1,1,0,0,0,0,1,1,1,1],\n5547:     [1,1,1,1,0,0,0,0,1,1,1,1],\n5548:     [1,0,0,0,0,0,0,0,0,0,0,1],\n5549:     [1,0,0,0,1,0,0,1,0,0,1,1],\n5550:     [1,0,0,0,1,0,0,1,0,0,0,1],\n5551:     [1,1,1,1,1,1,1,1,1,1,1,1],\n5552: ], dtype=int)\n5553: \n5554: \n5555: def ensure_array_mask(mask):\n5556:     return np.array(mask, dtype=int).reshape((TOPOLOGY_N, TOPOLOGY_N))\n5557: \n5558: \n5559: def flatten_mask(mask):\n5560:     return [int(v) for v in ensure_array_mask(mask).reshape(-1).tolist()]\n5561: \n5562: \n5563: def matrix_to_string(mask):\n5564:     m = ensure_array_mask(mask)\n5565:     return \"/\".join(\"\".join(str(int(v)) for v in row) for row in m)\n5566: \n5567: \n5568: def make_individual(p=None, h=None, rsx=None, rsy=None, origin=\"seed\"):\n5569:     if p is None:\n5570:         p = random.uniform(P_MIN, P_MAX)\n5571:     if h is None:\n5572:         h = random.uniform(H_MIN, H_MAX)\n5573:     if rsx is None:\n5574:         rsx = random.uniform(RS_X_MIN, RS_X_MAX)\n5575:     if rsy is None:\n5576:         rsy = random.uniform(RS_Y_MIN, RS_Y_MAX)\n5577: \n5578:     return {\n5579:         \"p\": round(float(max(P_MIN, min(P_MAX, p))), 5),\n5580:         \"h\": round(float(max(H_MIN, min(H_MAX, h))), 5),\n5581:         \"rsx\": round(float(max(RS_X_MIN, min(RS_X_MAX, rsx))), 4),\n5582:         \"rsy\": round(float(max(RS_Y_MIN, min(RS_Y_MAX, rsy))), 4),\n5583:         \"mask_x\": FIXED_X_MASK_12.astype(int).tolist(),\n5584:         \"mask_y\": FIXED_Y_MASK_12.astype(int).tolist(),\n5585:         \"origin\": origin,\n5586:     }\n5587: \n5588: "
+        },
+        {
+          "first": 5823,
+          "last": 5848,
+          "text": "5823:     return make_individual(p=p, h=h, rsx=rsx, rsy=rsy, origin=\"crossover\")\n5824: \n5825: \n5826: def initialize_population(n):\n5827:     pop = []\n5828:     pop.append(make_individual(p=BASE_P_12, h=BASE_H_12, rsx=BASE_RSX_12, rsy=BASE_RSY_12, origin=\"current_13p20GHz_reference\"))\n5829:     seed_list = [\n5830:         (13.1409, 10.1200, 140.0, 32.0),\n5831:         (13.1200, 10.1600, 150.0, 30.0),\n5832:         (13.0800, 10.1800, 165.0, 28.0),\n5833:         (13.0200, 10.2000, 180.0, 30.0),\n5834:         (13.1000, 10.0500, 175.0, 34.0),\n5835:         (13.0600, 10.0800, 195.0, 32.0),\n5836:         (13.1800, 10.0400, 155.0, 36.0),\n5837:         (13.0000, 10.1800, 180.0, 32.0),\n5838:         (13.1000, 9.9800, 160.0, 35.0),\n5839:     ]\n5840:     for p, h, rsx, rsy in seed_list:\n5841:         if len(pop) >= n:\n5842:             break\n5843:         pop.append(make_individual(p=p, h=h, rsx=rsx, rsy=rsy, origin=\"manual_seed\"))\n5844:     trial = 0\n5845:     while len(pop) < n and trial < RANDOM_INDIVIDUAL_MAX_TRIALS:\n5846:         trial += 1\n5847:         child = make_refined_random_seed(origin=\"random_refined_seed\")\n5848:         if individual_key(child) not in [individual_key(x) for x in pop]:"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_template_coverage85_ga_code.py",
+      "bytes": 111644,
+      "sha256": "cbb62b638544cbc14b3bbe69680c78190af5f733772b51a92371ef2310288372",
+      "scope": "指定范围静态详读",
+      "hits": [
+        {
+          "first": 55,
+          "last": 69,
+          "text": "55: # =========================\n56: # 真实结构固定参数（第一轮先固定一种工业膜）\n57: # =========================\n58: PET_ER = 3.1\n59: PET_TAND = 0.01\n60: \n61: FILM_X_NAME = \"SMH188H-60\"\n62: FILM_X_SHEET_RESISTANCE = 60.0\n63: SUBSTRATE_X_THICKNESS = 0.188\n64: \n65: FILM_Y_NAME = \"SMH188H-60\"\n66: FILM_Y_SHEET_RESISTANCE = 60.0\n67: SUBSTRATE_Y_THICKNESS = 0.188\n68: \n69: # 原薄实体膜模型使用的绘制厚度。"
+        },
+        {
+          "first": 73,
+          "last": 127,
+          "text": "73: \n74: # =========================\n75: # 12x12 表面 Ohmic Sheet 模板化拓扑优化设置\n76: # =========================\n77: link = \"\\n\"\n78: \n79: # 本版不再使用 84 bit 纯像素随机搜索，而是使用“物理模板参数化 GA”。\n80: # 目标：尽量把 2--18 GHz 内 RL<-10 dB 的连续有效带宽推向 85% 覆盖率。\n81: # 2--18 GHz 总宽度为 16 GHz，85% 对应 13.6 GHz。\n82: #\n83: # DNA 结构共 36 bit：\n84: #   0:6    -> p\n85: #   6:12   -> h\n86: #   12:14  -> template_type\n87: #   14:16  -> Y frame width\n88: #   16:19  -> Y central window width\n89: #   19:22  -> Y central window height\n90: #   22:24  -> Y bridge width\n91: #   24:27  -> Y slot type\n92: #   27:29  -> X strip width\n93: #   29:32  -> X central gap width\n94: #   32:34  -> X end loading type\n95: #   34:36  -> X vertical offset type\n96: #\n97: # 这样每个个体都对应一个物理上较合理的外框/窗口/桥接/条带图案，\n98: # 避免 12x12 完全随机图案空间过大和过碎图案导致的求解器卡顿。\n99: OPTIMIZE_P_H = True\n100: TOPOLOGY_N = 12\n101: SEED_N = 6\n102: SEED_BITS_PER_LAYER = SEED_N * SEED_N\n103: TEMPLATE_MODE = True\n104: dna_size = 36\n105: \n106: # 为降低吸收起始频率，需要适当放宽 p 和 h。\n107: # 如需更激进地冲击低频，可把 P_MAX 提到 15.0、H_MAX 提到 11.2，\n108: # 但建议先用当前范围跑通一轮。\n109: P_MIN = 13.00\n110: P_MAX = 14.80\n111: H_MIN = 8.40\n112: H_MAX = 11.00\n113: \n114: # 当前 9x9 Ohmic Sheet + p,h 微扰最优结果，用作模板初始化中心。\n115: FIXED_P = 13.18\n116: FIXED_H = 8.866\n117: \n118: # 这些 seed 变量仅用于兼容 fixed_best 等旧接口；模板优化时并不直接使用。\n119: # 真正的 X/Y 图案由 decode() 中的 build_x_mask_template/build_y_mask_template 生成。\n120: FIXED_MASK_X_SEED = [0] * (TOPOLOGY_N * TOPOLOGY_N)\n121: FIXED_MASK_Y_SEED = [0] * (TOPOLOGY_N * TOPOLOGY_N)\n122: \n123: # 默认先用中等规模测试。若能稳定跑完，可提高到 pop_size=10、iterations=8。\n124: pop_size = 8\n125: iterations = 5\n126: p_m_start = 0.08\n127: "
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/code工字形最终存档.txt",
+      "bytes": 55577,
+      "sha256": "f0c2c3d44dd69e3e468e210df1d4b134959b933da21246a7af2b570862450081",
+      "scope": "指定范围静态详读",
+      "hits": [
+        {
+          "first": 33,
+          "last": 52,
+          "text": "33: # 真实结构固定参数（第一轮先固定一种工业膜）\n34: # =========================\n35: PET_ER = 3.1\n36: PET_TAND = 0.01\n37: \n38: FILM_X_NAME = \"SMH188H-60\"\n39: FILM_X_SHEET_RESISTANCE = 60.0\n40: SUBSTRATE_X_THICKNESS = 0.188\n41: \n42: FILM_Y_NAME = \"SMH125H-80\"\n43: FILM_Y_SHEET_RESISTANCE = 80.0\n44: SUBSTRATE_Y_THICKNESS = 0.125\n45: \n46: # 电阻膜是单面覆膜，这里先按“无厚度片阻层”处理\n47: # 下面这个值只是给后续几何区分表面用，不代表真实厚度\n48: FILM_DRAW_THICKNESS = 0.02   # mm\n49: \n50: # =========================\n51: # 5个参数：p, w1, w2, h ,cap_ratio\n52: # 每个参数 6 bit，总共 30 bit"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 45576,
+      "sha256": "bb511e6d52612c47e0ce5d361fa7337696fba1787a0744757c0218c827728b79",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 22870,
+      "sha256": "56a1e7a5cf60bd05381ac2fe217f7f8a4ae5f58c0dda5b6c083e67d05cb5b4c8",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_160401_8913/Result/Model.log",
+      "bytes": 19832,
+      "sha256": "33540f339319666463ae8769324a0556d197ee07e465a2903c1bf68e201fe17f",
+      "scope": "对应候选历史求解日志的起止/网格等文本行",
+      "hits": [
+        {
+          "line": 1,
+          "text": "2026-05-03 16:04:02   In order to get an optimal performance, hyperthreading is ignored for parallel"
+        },
+        {
+          "line": 5,
+          "text": "2026-05-03 16:04:09   Units settings: "
+        },
+        {
+          "line": 12,
+          "text": "2026-05-03 16:04:09   Boundary conditions: "
+        },
+        {
+          "line": 28,
+          "text": "2026-05-03 16:04:09   Order settings: "
+        },
+        {
+          "line": 34,
+          "text": "2026-05-03 16:04:09   *** Warning ***"
+        },
+        {
+          "line": 36,
+          "text": "2026-05-03 16:04:09   The mesh adaptation has been deactivated. It is strongly recommended to enable the mesh adaptation for the tetrahedral "
+        },
+        {
+          "line": 37,
+          "text": "                      mesh unless the problem is very large."
+        },
+        {
+          "line": 40,
+          "text": "2026-05-03 16:04:09     Mesh time                :\t6 s"
+        },
+        {
+          "line": 44,
+          "text": "2026-05-03 16:04:09   "
+        },
+        {
+          "line": 46,
+          "text": "                      Frequency Domain Solver calculation cycle started"
+        },
+        {
+          "line": 49,
+          "text": "2026-05-03 16:04:09   Solver started at: 2026-05-03 16:04:09 +0800"
+        },
+        {
+          "line": 54,
+          "text": "                        Free disk space at solver start is 13 GB."
+        },
+        {
+          "line": 58,
+          "text": "2026-05-03 16:04:09   An iterative solver will be used first."
+        },
+        {
+          "line": 61,
+          "text": "2026-05-03 16:04:09     Calculation 1 (Frequency: 18 GHz, Theta: 0, Phi: 0)"
+        },
+        {
+          "line": 65,
+          "text": "2026-05-03 16:04:09   Performing block excitation with block size 2 and 6 threads.  More..."
+        },
+        {
+          "line": 68,
+          "text": "2026-05-03 16:04:11     Matrix setup time        :\t0 s"
+        },
+        {
+          "line": 70,
+          "text": "                        Number of mesh cells     :\t4368"
+        },
+        {
+          "line": 80,
+          "text": "2026-05-03 16:04:11     Stimulation port         :\tZmax"
+        },
+        {
+          "line": 88,
+          "text": "2026-05-03 16:04:11     Total time               :\t2 s"
+        },
+        {
+          "line": 91,
+          "text": "2026-05-03 16:04:11   "
+        },
+        {
+          "line": 94,
+          "text": "2026-05-03 16:04:11     Calculation 2 (Frequency: 2 GHz, Theta: 0, Phi: 0)"
+        },
+        {
+          "line": 98,
+          "text": "2026-05-03 16:04:12     Matrix setup time        :\t0 s"
+        },
+        {
+          "line": 100,
+          "text": "                        Number of mesh cells     :\t4368"
+        },
+        {
+          "line": 110,
+          "text": "2026-05-03 16:04:12     Stimulation port         :\tZmax"
+        },
+        {
+          "line": 118,
+          "text": "2026-05-03 16:04:12     Total time               :\t0 s"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_160616_5167/Result/Model.log",
+      "bytes": 19833,
+      "sha256": "d1fd6bd5aae3376079a4da024458b5ace60812703f881d339f18e519ae743583",
+      "scope": "对应候选历史求解日志的起止/网格等文本行",
+      "hits": [
+        {
+          "line": 1,
+          "text": "2026-05-03 16:06:16   In order to get an optimal performance, hyperthreading is ignored for parallel"
+        },
+        {
+          "line": 5,
+          "text": "2026-05-03 16:06:24   Units settings: "
+        },
+        {
+          "line": 12,
+          "text": "2026-05-03 16:06:24   Boundary conditions: "
+        },
+        {
+          "line": 28,
+          "text": "2026-05-03 16:06:24   Order settings: "
+        },
+        {
+          "line": 34,
+          "text": "2026-05-03 16:06:24   *** Warning ***"
+        },
+        {
+          "line": 36,
+          "text": "2026-05-03 16:06:24   The mesh adaptation has been deactivated. It is strongly recommended to enable the mesh adaptation for the tetrahedral "
+        },
+        {
+          "line": 37,
+          "text": "                      mesh unless the problem is very large."
+        },
+        {
+          "line": 40,
+          "text": "2026-05-03 16:06:24     Mesh time                :\t7 s"
+        },
+        {
+          "line": 44,
+          "text": "2026-05-03 16:06:24   "
+        },
+        {
+          "line": 46,
+          "text": "                      Frequency Domain Solver calculation cycle started"
+        },
+        {
+          "line": 49,
+          "text": "2026-05-03 16:06:24   Solver started at: 2026-05-03 16:06:24 +0800"
+        },
+        {
+          "line": 54,
+          "text": "                        Free disk space at solver start is 13 GB."
+        },
+        {
+          "line": 58,
+          "text": "2026-05-03 16:06:24   An iterative solver will be used first."
+        },
+        {
+          "line": 61,
+          "text": "2026-05-03 16:06:24     Calculation 1 (Frequency: 18 GHz, Theta: 0, Phi: 0)"
+        },
+        {
+          "line": 65,
+          "text": "2026-05-03 16:06:24   Performing block excitation with block size 2 and 6 threads.  More..."
+        },
+        {
+          "line": 68,
+          "text": "2026-05-03 16:06:26     Matrix setup time        :\t0 s"
+        },
+        {
+          "line": 70,
+          "text": "                        Number of mesh cells     :\t4643"
+        },
+        {
+          "line": 80,
+          "text": "2026-05-03 16:06:26     Stimulation port         :\tZmax"
+        },
+        {
+          "line": 88,
+          "text": "2026-05-03 16:06:26     Total time               :\t1 s"
+        },
+        {
+          "line": 91,
+          "text": "2026-05-03 16:06:26   "
+        },
+        {
+          "line": 94,
+          "text": "2026-05-03 16:06:26     Calculation 2 (Frequency: 2 GHz, Theta: 0, Phi: 0)"
+        },
+        {
+          "line": 98,
+          "text": "2026-05-03 16:06:26     Matrix setup time        :\t0 s"
+        },
+        {
+          "line": 100,
+          "text": "                        Number of mesh cells     :\t4643"
+        },
+        {
+          "line": 110,
+          "text": "2026-05-03 16:06:26     Stimulation port         :\tZmax"
+        },
+        {
+          "line": 118,
+          "text": "2026-05-03 16:06:26     Total time               :\t0 s"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_ph_micro_only_ga/ga_log_ohmic_sheet_9x9.txt",
+      "bytes": 14299,
+      "sha256": "cb08fe63befa8639b1975cb68ea167e0626f6ccf0d72ca2321845bfa6884a893",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/refine_log_ohmic_sheet_12x12.txt",
+      "bytes": 23598,
+      "sha256": "0882a7c0cb6188adb1b3232bf7fd952f97125ad8751afae27cfc6eab5413cd32",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/ga_log_ohmic_sheet_9x9.txt",
+      "bytes": 11269,
+      "sha256": "0ae61675c453caf50fbc69cd1df649f69ddf7788512a195761bb5cd5a6ed33cc",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/ga_log_ohmic_sheet_9x9.txt",
+      "bytes": 12132,
+      "sha256": "bec8e85d1a54fdc71b6f139bcb000d097eb04da76b2a0b38fa271acc36175c23",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/片阻1.1/ga_log_ohmic_sheet_6x6.txt",
+      "bytes": 2543,
+      "sha256": "718e1fc86f4569e63d62a40a9bb9589572647a795e306f86d0130e75f77da92b",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_coverage85_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 25611,
+      "sha256": "a55b9487aed8ac6c452b55c00c9339bf08a47963360a189293a3c158a119749a",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/ga_log_ohmic_sheet_6x6.txt",
+      "bytes": 24425,
+      "sha256": "21ece40c6a08b01df8edce078b884a9bbf0eeca22bdc83ef298f8e6893861b7d",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 54037,
+      "sha256": "ea3b42be8825fe3a34b65294399d60df924bf5890f1350450088f295ac645b0a",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hybrid_coverage85_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 28718,
+      "sha256": "5e41cf554bb156db61368f324e60f4e77ecb777d958e10b60b624639fda556cd",
+      "scope": "只读全部表行以定位工程名时间/片阻字段；未重算性能",
+      "hits": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2773,
+      "sha256": "3b28ab8415461b7f19e8c7f33a9f9b3f0fdce5580b38f6d8bd4b81a46f2e0966",
+      "scope": "保存摘要/错误原文只读",
+      "hits": [
+        {
+          "line": 1,
+          "text": "12x12 fixed-topology low-frequency-edge refinement result"
+        },
+        {
+          "line": 2,
+          "text": "Best score: 57.607454381572026"
+        },
+        {
+          "line": 3,
+          "text": "Best contiguous bandwidth( RL<-10 dB ): 13.2 GHz"
+        },
+        {
+          "line": 4,
+          "text": "Best coverage in 2-18 GHz: 82.5 %"
+        },
+        {
+          "line": 5,
+          "text": "Best low edge: 4.800000000000001 GHz"
+        },
+        {
+          "line": 6,
+          "text": "Best high edge: 18.0 GHz"
+        },
+        {
+          "line": 7,
+          "text": "Best min RL: -20.193035468923167 dB"
+        },
+        {
+          "line": 8,
+          "text": "Best total effective bandwidth estimate: 13.280000000000001 GHz"
+        },
+        {
+          "line": 9,
+          "text": "Best worst RL in 4.4-4.8 GHz: -8.747182197521008 dB"
+        },
+        {
+          "line": 10,
+          "text": "Best mean RL in 4.4-4.8 GHz: -9.34141087116866 dB"
+        },
+        {
+          "line": 11,
+          "text": "Best worst RL in 17.6-18.0 GHz: -10.328915409684171 dB"
+        },
+        {
+          "line": 12,
+          "text": "RL at 4.40 GHz: -8.747182197521008 dB"
+        },
+        {
+          "line": 13,
+          "text": "RL at 4.48 GHz: -9.041703211711487 dB"
+        },
+        {
+          "line": 14,
+          "text": "RL at 4.56 GHz: -9.339133746013022 dB"
+        },
+        {
+          "line": 15,
+          "text": "RL at 4.64 GHz: -9.638864990365445 dB"
+        },
+        {
+          "line": 16,
+          "text": "RL at 4.72 GHz: -9.940170210232328 dB"
+        },
+        {
+          "line": 17,
+          "text": "RL at 4.80 GHz: -10.242192565771543 dB"
+        },
+        {
+          "line": 18,
+          "text": "Best individual summary: origin=elite_local_1.0, p=13.0902, h=10.25072, Rs_x=156.5991, Rs_y=36.4988"
+        },
+        {
+          "line": 20,
+          "text": "Best CST file: F:\\biyesheji\\ohmic_sheet_12x12_fixed_topology_lf_refine\\best_design_ohmic_sheet_12x12.cst"
+        },
+        {
+          "line": 21,
+          "text": "Best S11 txt file: F:\\biyesheji\\ohmic_sheet_12x12_fixed_topology_lf_refine\\best_s11_ohmic_sheet_12x12.txt"
+        },
+        {
+          "line": 22,
+          "text": "Best S11 png file: F:\\biyesheji\\ohmic_sheet_12x12_fixed_topology_lf_refine\\best_s11_ohmic_sheet_12x12.png"
+        },
+        {
+          "line": 23,
+          "text": "Fixed X mask txt file: F:\\biyesheji\\ohmic_sheet_12x12_fixed_topology_lf_refine\\fixed_mask_x_12x12.txt"
+        },
+        {
+          "line": 24,
+          "text": "Fixed Y mask txt file: F:\\biyesheji\\ohmic_sheet_12x12_fixed_topology_lf_refine\\fixed_mask_y_12x12.txt"
+        },
+        {
+          "line": 25,
+          "text": "Fixed mask figure: F:\\biyesheji\\ohmic_sheet_12x12_fixed_topology_lf_refine\\fixed_mask_xy_12x12.png"
+        },
+        {
+          "line": 26,
+          "text": ""
+        },
+        {
+          "line": 27,
+          "text": "Fixed X mask compact:"
+        },
+        {
+          "line": 28,
+          "text": "000000000000/000000000000/000000000000/010000000000/111110001111/111100001111/111100000111/111100001111/000000011000/000000001000/000000000000/000000000000"
+        },
+        {
+          "line": 29,
+          "text": ""
+        },
+        {
+          "line": 30,
+          "text": "Fixed Y mask compact:"
+        },
+        {
+          "line": 31,
+          "text": "111111111111/100010010001/100010010001/100000000101/111110001111/111100001111/111100001111/111100001111/100000000001/100010010011/100010010001/111111111111"
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_quarter_symmetric_ga/error_log_quarter_symmetric_12x12.txt",
+      "bytes": 1482,
+      "sha256": "1a87293504300d8ba0bda2396e665c38a8a08899ba69afa649139958faefea16",
+      "scope": "保存摘要/错误原文只读",
+      "hits": [
+        {
+          "line": 1,
+          "text": ""
+        },
+        {
+          "line": 2,
+          "text": "================================================================================"
+        },
+        {
+          "line": 3,
+          "text": "generation=0, index=1"
+        },
+        {
+          "line": 4,
+          "text": "summary=origin=manual_seed_lowfreq, p=13.09271, h=10.10726, Rs_x=136.9204, Rs_y=30.188, QX=10, QY=21, X(kept=40, comp=2), Y(kept=84, comp=1)"
+        },
+        {
+          "line": 5,
+          "text": "RuntimeError(\"CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\\\nConnection closed.')\")"
+        },
+        {
+          "line": 6,
+          "text": "Traceback (most recent call last):"
+        },
+        {
+          "line": 7,
+          "text": "  File \"F:\\biyesheji\\code\\ohmic_sheet_12x12_quarter_symmetric_ga_code.py\", line 1794, in run_cst_for_params"
+        },
+        {
+          "line": 8,
+          "text": "    pj.model3d.run_solver()"
+        },
+        {
+          "line": 9,
+          "text": "RuntimeError: An error occurred while trying to execute run_solver:"
+        },
+        {
+          "line": 10,
+          "text": "Connection closed."
+        },
+        {
+          "line": 11,
+          "text": ""
+        },
+        {
+          "line": 12,
+          "text": "The above exception was the direct cause of the following exception:"
+        },
+        {
+          "line": 13,
+          "text": ""
+        },
+        {
+          "line": 14,
+          "text": "Traceback (most recent call last):"
+        },
+        {
+          "line": 15,
+          "text": "  File \"F:\\biyesheji\\code\\ohmic_sheet_12x12_quarter_symmetric_ga_code.py\", line 5995, in evaluate_individual"
+        },
+        {
+          "line": 16,
+          "text": "    result = run_cst(ind)"
+        },
+        {
+          "line": 17,
+          "text": "  File \"F:\\biyesheji\\code\\ohmic_sheet_12x12_quarter_symmetric_ga_code.py\", line 5760, in run_cst"
+        },
+        {
+          "line": 18,
+          "text": "    return run_cst_for_params(p=p, h=h, mask_x_seed=sx, mask_y_seed=sy, film_model_type=film_model_type)"
+        },
+        {
+          "line": 19,
+          "text": "  File \"F:\\biyesheji\\code\\ohmic_sheet_12x12_quarter_symmetric_ga_code.py\", line 1804, in run_cst_for_params"
+        },
+        {
+          "line": 20,
+          "text": "    raise RuntimeError("
+        },
+        {
+          "line": 21,
+          "text": "RuntimeError: CST run failed at stage='run_solver', film_model_type='ohmic_sheet'. Original error: RuntimeError('An error occurred while trying to execute run_solver:\\nConnection closed.')"
+        },
+        {
+          "line": 22,
+          "text": ""
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_160401_8913/Model/3D/ModelHistory.json",
+      "bytes": 195761,
+      "sha256": "4e5d55ab63e56c87646d9b3c90a83858296c0bc5fb905025cea91cded3ae2ecd",
+      "scope": "只读材料History确认片阻",
+      "hits": [
+        {
+          "history_index": 5,
+          "entry": {
+            "caption": "define material: ohmic sheet film x",
+            "version": "2025.1|34.0.1|20241028",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+              "With Material",
+              "     .Reset",
+              "     .Name \"SMH188H_X_90p0_OhmicSheet\"",
+              "     .Folder \"\"",
+              "     .Rho \"0\"",
+              "     .ThermalType \"Normal\"",
+              "     .ThermalConductivity \"0\"",
+              "     .SpecificHeat \"0\", \"J/K/kg\"",
+              "     .DynamicViscosity \"0\"",
+              "     .UseEmissivity \"True\"",
+              "     .Emissivity \"0\"",
+              "     .MetabolicRate \"0.0\"",
+              "     .VoxelConvection \"0.0\"",
+              "     .BloodFlow \"0\"",
+              "     .MechanicsType \"Unused\"",
+              "     .SolarRadiationAbsorptionType \"Opaque\"",
+              "     .Absorptance \"0.0\"",
+              "     .UseSemiTransparencyCalculator \"False\"",
+              "     .SolarRadTransmittance \"0.0\"",
+              "     .SolarRadReflectance \"0.0\"",
+              "     .SolarRadSpecimenThickness \"0.0\"",
+              "     .SolarRadRefractiveIndex \"1.0\"",
+              "     .SolarRadAbsorptionCoefficient \"0.0\"",
+              "     .IntrinsicCarrierDensityModel \"none\"",
+              "     .FrqType \"all\"",
+              "     .Type \"Lossy metal\"",
+              "     .MaterialUnit \"Frequency\", \"GHz\"",
+              "     .MaterialUnit \"Geometry\", \"mm\"",
+              "     .MaterialUnit \"Time\", \"ns\"",
+              "     .MaterialUnit \"Temperature\", \"degC\"",
+              "     .OhmicSheetImpedance \"90.0\", \"0\"",
+              "     .OhmicSheetFreq \"0\"",
+              "     .ReferenceCoordSystem \"Global\"",
+              "     .CoordSystemType \"Cartesian\"",
+              "     .NLAnisotropy \"False\"",
+              "     .NLAStackingFactor \"1\"",
+              "     .NLADirectionX \"1\"",
+              "     .NLADirectionY \"0\"",
+              "     .NLADirectionZ \"0\"",
+              "     .Colour \"0\", \"1\", \"1\"",
+              "     .Wireframe \"False\"",
+              "     .Reflection \"False\"",
+              "     .Allowoutline \"True\"",
+              "     .Transparentoutline \"False\"",
+              "     .Transparency \"0\"",
+              "     .Create",
+              "End With"
+            ]
+          }
+        },
+        {
+          "history_index": 6,
+          "entry": {
+            "caption": "define material: ohmic sheet film y",
+            "version": "2025.1|34.0.1|20241028",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+              "With Material",
+              "     .Reset",
+              "     .Name \"SMH188H_Y_60p0_OhmicSheet\"",
+              "     .Folder \"\"",
+              "     .Rho \"0\"",
+              "     .ThermalType \"Normal\"",
+              "     .ThermalConductivity \"0\"",
+              "     .SpecificHeat \"0\", \"J/K/kg\"",
+              "     .DynamicViscosity \"0\"",
+              "     .UseEmissivity \"True\"",
+              "     .Emissivity \"0\"",
+              "     .MetabolicRate \"0.0\"",
+              "     .VoxelConvection \"0.0\"",
+              "     .BloodFlow \"0\"",
+              "     .MechanicsType \"Unused\"",
+              "     .SolarRadiationAbsorptionType \"Opaque\"",
+              "     .Absorptance \"0.0\"",
+              "     .UseSemiTransparencyCalculator \"False\"",
+              "     .SolarRadTransmittance \"0.0\"",
+              "     .SolarRadReflectance \"0.0\"",
+              "     .SolarRadSpecimenThickness \"0.0\"",
+              "     .SolarRadRefractiveIndex \"1.0\"",
+              "     .SolarRadAbsorptionCoefficient \"0.0\"",
+              "     .IntrinsicCarrierDensityModel \"none\"",
+              "     .FrqType \"all\"",
+              "     .Type \"Lossy metal\"",
+              "     .MaterialUnit \"Frequency\", \"GHz\"",
+              "     .MaterialUnit \"Geometry\", \"mm\"",
+              "     .MaterialUnit \"Time\", \"ns\"",
+              "     .MaterialUnit \"Temperature\", \"degC\"",
+              "     .OhmicSheetImpedance \"60.0\", \"0\"",
+              "     .OhmicSheetFreq \"0\"",
+              "     .ReferenceCoordSystem \"Global\"",
+              "     .CoordSystemType \"Cartesian\"",
+              "     .NLAnisotropy \"False\"",
+              "     .NLAStackingFactor \"1\"",
+              "     .NLADirectionX \"1\"",
+              "     .NLADirectionY \"0\"",
+              "     .NLADirectionZ \"0\"",
+              "     .Colour \"0\", \"1\", \"1\"",
+              "     .Wireframe \"False\"",
+              "     .Reflection \"False\"",
+              "     .Allowoutline \"True\"",
+              "     .Transparentoutline \"False\"",
+              "     .Transparency \"0\"",
+              "     .Create",
+              "End With"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_160616_5167/Model/3D/ModelHistory.json",
+      "bytes": 201472,
+      "sha256": "53f36badacfef452322bdfca0307642ab4af45c62c752cf74d3096eb87ab717d",
+      "scope": "只读材料History确认片阻",
+      "hits": [
+        {
+          "history_index": 5,
+          "entry": {
+            "caption": "define material: ohmic sheet film x",
+            "version": "2025.1|34.0.1|20241028",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+              "With Material",
+              "     .Reset",
+              "     .Name \"SMH188H_X_151p09_OhmicSheet\"",
+              "     .Folder \"\"",
+              "     .Rho \"0\"",
+              "     .ThermalType \"Normal\"",
+              "     .ThermalConductivity \"0\"",
+              "     .SpecificHeat \"0\", \"J/K/kg\"",
+              "     .DynamicViscosity \"0\"",
+              "     .UseEmissivity \"True\"",
+              "     .Emissivity \"0\"",
+              "     .MetabolicRate \"0.0\"",
+              "     .VoxelConvection \"0.0\"",
+              "     .BloodFlow \"0\"",
+              "     .MechanicsType \"Unused\"",
+              "     .SolarRadiationAbsorptionType \"Opaque\"",
+              "     .Absorptance \"0.0\"",
+              "     .UseSemiTransparencyCalculator \"False\"",
+              "     .SolarRadTransmittance \"0.0\"",
+              "     .SolarRadReflectance \"0.0\"",
+              "     .SolarRadSpecimenThickness \"0.0\"",
+              "     .SolarRadRefractiveIndex \"1.0\"",
+              "     .SolarRadAbsorptionCoefficient \"0.0\"",
+              "     .IntrinsicCarrierDensityModel \"none\"",
+              "     .FrqType \"all\"",
+              "     .Type \"Lossy metal\"",
+              "     .MaterialUnit \"Frequency\", \"GHz\"",
+              "     .MaterialUnit \"Geometry\", \"mm\"",
+              "     .MaterialUnit \"Time\", \"ns\"",
+              "     .MaterialUnit \"Temperature\", \"degC\"",
+              "     .OhmicSheetImpedance \"151.094\", \"0\"",
+              "     .OhmicSheetFreq \"0\"",
+              "     .ReferenceCoordSystem \"Global\"",
+              "     .CoordSystemType \"Cartesian\"",
+              "     .NLAnisotropy \"False\"",
+              "     .NLAStackingFactor \"1\"",
+              "     .NLADirectionX \"1\"",
+              "     .NLADirectionY \"0\"",
+              "     .NLADirectionZ \"0\"",
+              "     .Colour \"0\", \"1\", \"1\"",
+              "     .Wireframe \"False\"",
+              "     .Reflection \"False\"",
+              "     .Allowoutline \"True\"",
+              "     .Transparentoutline \"False\"",
+              "     .Transparency \"0\"",
+              "     .Create",
+              "End With"
+            ]
+          }
+        },
+        {
+          "history_index": 6,
+          "entry": {
+            "caption": "define material: ohmic sheet film y",
+            "version": "2025.1|34.0.1|20241028",
+            "hidden": false,
+            "type": "vba",
+            "code": [
+              "With Material",
+              "     .Reset",
+              "     .Name \"SMH188H_Y_51p24_OhmicSheet\"",
+              "     .Folder \"\"",
+              "     .Rho \"0\"",
+              "     .ThermalType \"Normal\"",
+              "     .ThermalConductivity \"0\"",
+              "     .SpecificHeat \"0\", \"J/K/kg\"",
+              "     .DynamicViscosity \"0\"",
+              "     .UseEmissivity \"True\"",
+              "     .Emissivity \"0\"",
+              "     .MetabolicRate \"0.0\"",
+              "     .VoxelConvection \"0.0\"",
+              "     .BloodFlow \"0\"",
+              "     .MechanicsType \"Unused\"",
+              "     .SolarRadiationAbsorptionType \"Opaque\"",
+              "     .Absorptance \"0.0\"",
+              "     .UseSemiTransparencyCalculator \"False\"",
+              "     .SolarRadTransmittance \"0.0\"",
+              "     .SolarRadReflectance \"0.0\"",
+              "     .SolarRadSpecimenThickness \"0.0\"",
+              "     .SolarRadRefractiveIndex \"1.0\"",
+              "     .SolarRadAbsorptionCoefficient \"0.0\"",
+              "     .IntrinsicCarrierDensityModel \"none\"",
+              "     .FrqType \"all\"",
+              "     .Type \"Lossy metal\"",
+              "     .MaterialUnit \"Frequency\", \"GHz\"",
+              "     .MaterialUnit \"Geometry\", \"mm\"",
+              "     .MaterialUnit \"Time\", \"ns\"",
+              "     .MaterialUnit \"Temperature\", \"degC\"",
+              "     .OhmicSheetImpedance \"51.242\", \"0\"",
+              "     .OhmicSheetFreq \"0\"",
+              "     .ReferenceCoordSystem \"Global\"",
+              "     .CoordSystemType \"Cartesian\"",
+              "     .NLAnisotropy \"False\"",
+              "     .NLAStackingFactor \"1\"",
+              "     .NLADirectionX \"1\"",
+              "     .NLADirectionY \"0\"",
+              "     .NLADirectionZ \"0\"",
+              "     .Colour \"0\", \"1\", \"1\"",
+              "     .Wireframe \"False\"",
+              "     .Reflection \"False\"",
+              "     .Allowoutline \"True\"",
+              "     .Transparentoutline \"False\"",
+              "     .Transparency \"0\"",
+              "     .Create",
+              "End With"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期报告1.0.docx",
+      "bytes": 1048172,
+      "sha256": "48854e12538191d1ea8d56da4d3032ab156b36930ef054ffbb73c0f4a58b7cf4",
+      "scope": "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证",
+      "hits": [
+        {
+          "paragraph_or_slide": 26,
+          "text": "截至目前，已完成文献调研、真实模型建立、参数化编码、CST 自动建模与求解、遗传算法优化流程搭建、低自由度图案筛选以及 6×6 像素拓扑图案优化，并得到满足中期指标的阶段最优解；样品制备、拱形架测试、偏振与斜入射稳定性分析以及 RCS 评估尚未完成，较开题报告中的原始时间表略有滞后，但总体研究主线未偏离，且关键中期性能目标已实现，因此论文（设计）工作总体上按预定内容推进，进度基本可控。"
+        },
+        {
+          "paragraph_or_slide": 86,
+          "text": "同时，结合前期在 CST 中对 Ohmic Sheet/片阻层建模方式的探索，后续将继续尝试把当前等效薄层电阻膜模型迁移到更严格的片阻层模型，以对比不同建模方式对结果的影响，提升论文工作的严谨性。在此基础上，根据任务书要求进一步推进样品制备方案、测试流程和 RCS 评估思路，为结题前的实验验证和应用分析做好准备。"
+        },
+        {
+          "paragraph_or_slide": 104,
+          "text": "1. 真实工艺模型建立后，前期示例模型的部分代码和参数范围不再适用，导致建模、调试和结果对比工作量明显增加。虽然这一模型更正保证了研究方向的正确性，但也压缩了中期之前可用于实验验证的时间。"
+        },
+        {
+          "paragraph_or_slide": 107,
+          "text": "4. 按照开题报告和任务书，中后期还需完成样品制备、微波暗室测试、偏振和斜入射分析以及 RCS 评估等工作。相较于已经取得的仿真结果，这部分工作尚未展开，后续时间安排需要更加紧凑。"
+        }
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文三稿.docx",
+      "bytes": 7363903,
+      "sha256": "21dc52ba33d71d91b2abb5be4cfbc95aad4e405578fa88f6187267e381f8e0ac",
+      "scope": "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证",
+      "hits": [
+        {
+          "paragraph_or_slide": 393,
+          "text": "　　本文仍存在一些不足。首先，研究主要基于数值仿真，尚未完成样品加工和实测验证；其次，遗传算法计算成本较高，搜索结果仍可能受初始模板和参数范围影响；最后，最终结构的 82.5% 覆盖率距离 85% 目标仍有一定差距。后续可进一步研究多层片阻结构、连续阻值分布、代理模型优化和加工误差鲁棒性，以进一步提高宽频吸收性能和工程可实现性。"
+        }
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pptx",
+      "bytes": 14442975,
+      "sha256": "f4317609bb9908a8efcca74829d0b211fb7d0c7057e3636b522d2ec8d0949caf",
+      "scope": "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词",
+      "hits": [
+        {
+          "paragraph_or_slide": 17,
+          "text": "ppt/slides/slide17.xml: ［1］VESELAGO V G. The electrodynamics of substances with simultaneously negative values of ε and μ［J］. Soviet Physics Uspekhi, 1968, 10(4): 509-514. / ［2］PENDRY J B, HOLDEN A J, ROBBINS D J, et al. Magnetism from conductors and enhanced nonlinear phenomena［J］. IEEE Transactions on Microwave Theory and Techniques, 1999, 47(11): 2075-2084. / ［3］SMITH D R, PADILLA W J, VIER D C, et al. Composite medium with simultaneously negative permeability and permittivity［J］. Physical Review Letters, 2000, 84(18): 4184-4187. / ［4］SHELBY R A, SMITH D R, SCHULTZ S. Experimental verification of a negative index of refraction［J］. Science, 2001, 292(5514): 77-79. / ［5］LANDY N I, SAJUYIGBE S, MOCK J J, et al. Perfect metamaterial absorber［J］. Physical Review Letters, 2008, 100(20): 207402. / ［6］TAO H, LANDY N I, BINGHAM C M, et al. A metamaterial absorber for the terahertz regime: design, fabrication and characterization［J］. Optics Express, 2008, 16(10): 7181-7188. / ［7］WATTS C M, LIU X, PADILLA W J. Metamaterial electromagnetic wave absorbers［J］. Advanced Materials, 2012, 24(23): OP98-OP120. / ［8］DING F, CUI Y, GE X, et al. Ultra-broadband microwave metamaterial absorber［J］. Applied Physics Letters, 2012, 100(10): 103506. / ［9］XU H X, WANG G M, QI M Q, et al. Triple-band polarization-insensitive wide-angle ultra-miniature metamaterial transmission line absorber［J］. Physical Review B, 2012, 86(20): 205104. / ［10］CHEN H T. Interference theory of metamaterial perfect absorbers［J］. Optics Express, 2012, 20(7): 7165-7172. / ［11］YOO M, LIM S. Polarization-independent and ultrawideband metamaterial absorber using a hexagonal artificial impedance surface and a resistive sheet［J］. IEEE Transactions on Antennas and Propagation, 2014, 62(5): 2652-2658. / ［12］KAZEMZADEH A, KARIMI A. Broadband microwave absorber using resistive frequency selective surfaces［J］. Progress In Electromagnetics Research, 2016, 155: 169-179. / ［13］LIU X, STARR T, STARR A F, et al. Infrared spatial and frequency selective metamaterial with near-unity absorbance［J］. Physical Review Letters, 2010, 104(20): 207403. / ［14］WANG G, et al. Bistable tunable microwave absorber based on carbon resistive films and curved structures［J］. Composites Science and Technology, 2024. / ［15］SONG Z, et al. Origami-inspired optically transparent broadband tunable microwave absorber based on ITO-PET resistive films［J］. Advanced Optical Materials, 2024. / ［16］ANJALI M, et al. Flexible metamaterial microwave absorbers based on nano-polymer composites［J］. Materials Today Communications, 2024. / ［17］KIM K, et al. Frequency- and bandwidth-reconfigurable metamaterial microwave absorber using shape memory materials［J］. Advanced Engineering Materials, 2024. / ［18］KANG J, et al. Flexible metamaterial with compatible visible, infrared and microwave multispectral camouflage performance［J］. Advanced Functional Materials, 2023. / ［19］GOLDBERG D E. Genetic algorithms in search, optimization, and machine learning［M］. Reading, Mass.: Addison-Wesley, 1989. / ［20］Dassault Systèmes. CST Studio Suite 2025 documentation［CP/OL］. Vélizy-Villacoublay: Dassault Systèmes, 2025［2026-05-09］. Dassault Systèmes Documentation. /  / References"
+        }
+      ]
+    }
+  ],
+  "fixed_refine_masks_equal_final": {
+    "x": true,
+    "y": true
+  }
+}

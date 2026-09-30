@@ -1,0 +1,806 @@
+{
+  "read_date": "2026-09-30",
+  "branch_base": "e818d78",
+  "scope": "只读证据；清单包含定位/读表/详读等不同深度，不能视为所有文件全文审查",
+  "files": [
+    {
+      "path": "F:/biyesheji/code/base.txt",
+      "bytes": 464,
+      "sha256": "9ab763a946f5ad12776d438c4fea68e789f76f99fba537422104d64add8b5129",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/base.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/code01-05存档.txt",
+      "bytes": 48380,
+      "sha256": "5049e52301acfb01ac290aaa4c7d537dace718ff271418200d8aeb04996e84e3",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code01-05存档.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/code06-07存档.txt",
+      "bytes": 48622,
+      "sha256": "c777e1a9c1846336b63c25b940327c70f1147e05a90080f2c757a2cce913ff14",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code06-07存档.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/code09存档.txt",
+      "bytes": 48636,
+      "sha256": "7b0b12dcb01ba27b3c409168af4412b144610f8317cf0217f7e472a515214194",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code09存档.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/code_run_v2.py",
+      "bytes": 61544,
+      "sha256": "4c1d80d3b5bcd12ec04df0d487d902599ddf16b1e5aecb7241a546e0ea674ecc",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code_run_v2.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/code工字形最终存档.txt",
+      "bytes": 55577,
+      "sha256": "f0c2c3d44dd69e3e468e210df1d4b134959b933da21246a7af2b570862450081",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code工字形最终存档.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/code拓扑12.89最终存档.txt",
+      "bytes": 60365,
+      "sha256": "9464b60ec8b4510ef302e8bc6619c279442f6fc99053c36d0603c2b4b577f8c3",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code拓扑12.89最终存档.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/code条带存档.txt",
+      "bytes": 54709,
+      "sha256": "b26e004f4f5b2f6c3a08c75b2c82ca5f975aaa9cf2e0fb4883d8749e3a7229d9",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code条带存档.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_12x12_fixed_topology_lf_refine_code.py",
+      "bytes": 248832,
+      "sha256": "43881dee7868997da1e39cd3a77a0c3bc87de392e4f21575fd8266c8f5e4d75d",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_fixed_topology_lf_refine_code.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_12x12_hf_compensation_ga_code.py",
+      "bytes": 183014,
+      "sha256": "1b5536622b73bb69c84118864c4d20c19f11b444bc475fbe7030cc6cedb361b3",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_hf_compensation_ga_code.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_12x12_hybrid_coverage85_ga_code.py",
+      "bytes": 149151,
+      "sha256": "0412c0b2dfa69235ded3f960b546ea97afd1fd2b1bbc46224ef718abf48d7a6a",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_hybrid_coverage85_ga_code.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+      "bytes": 226507,
+      "sha256": "844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/ohmic_sheet_12x12_multitemplate_topology_ga_code.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_12x12_quarter_symmetric_ga_code.py",
+      "bytes": 259774,
+      "sha256": "6b31f4e4ec84e4d58b1bba9526146fd53ba322c9adaba15d632d1ffeabb09cdd",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_quarter_symmetric_ga_code.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_12x12_template_coverage85_ga_code.py",
+      "bytes": 111644,
+      "sha256": "cbb62b638544cbc14b3bbe69680c78190af5f733772b51a92371ef2310288372",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_template_coverage85_ga_code.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_6x6_ga_stable_code.py",
+      "bytes": 98265,
+      "sha256": "4a479ac5dacca039ebda686e0469ad796f09e07e52c4f54fe1ad345224240e33",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_6x6_ga_stable_code.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_9x9_best_recheck.py",
+      "bytes": 99429,
+      "sha256": "bae46ecca55ce72c7cbfe92f65029a7b66721963778ca540c52ff08259d96e9c",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_9x9_best_recheck.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_9x9_fixed_ph_ga_code.py",
+      "bytes": 99413,
+      "sha256": "6b39e310b3a048615df4d7ad14deba1916afc9fdb494fffda438d66bf992cc51",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_9x9_fixed_ph_ga_code.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/ohmic_sheet_9x9_ph_micro_only_ga.py",
+      "bytes": 100539,
+      "sha256": "61d088cf4b1ad641002013763eb7babb652b47d1cee3c2cb2dcd5f3c97abfc19",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_9x9_ph_micro_only_ga.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/run_optimizer.py",
+      "bytes": 25746,
+      "sha256": "8074e06ff5e2a1221e1997e4e0826263aebcedadad74d4bfde1615995ba19aa1",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/run_optimizer.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/test_cst.py",
+      "bytes": 317,
+      "sha256": "2312e7499ce82c34031644d93577e47805f03e1ed12a5c7c7ac6c7cf4db63c9c",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/test_cst.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/test_ohmic_sheet_assign.py",
+      "bytes": 1767,
+      "sha256": "769c080bb2d5faecd97ad6239101c0c8c3e47492fc8230638e4a48c590cab80c",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/test_ohmic_sheet_assign.py"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/code/临时代码文件.txt",
+      "bytes": 60365,
+      "sha256": "9464b60ec8b4510ef302e8bc6619c279442f6fc99053c36d0603c2b4b577f8c3",
+      "role": "历史代码或命令备忘",
+      "read_scope": "AST/文本静态定位；详读范围见阅读清单，未执行或导入",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/临时代码文件.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12.cst",
+      "bytes": 109236,
+      "sha256": "a1d145af24db946b04d74e2c07d5ffc069511a9914fb1cdfcbf1dc53074b0174",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真模型/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12.cst"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_mask_xy_12x12.png",
+      "bytes": 85533,
+      "sha256": "cc1a0d8d2cd9c2930404e4e986e5f2b9559f62c55772bcb76a2ca16c52c61597",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/图件/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_mask_xy_12x12.png"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_mask_x_12x12.txt",
+      "bytes": 300,
+      "sha256": "0f488ec8c3ad31acc65266ddd565c1dd93f0a47857686ee039ee93155047b1f6",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hf_compensation_ga/best_mask_x_12x12.txt",
+        "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_mask_x_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_mask_y_12x12.txt",
+      "bytes": 300,
+      "sha256": "22528181083bd2c7cd3db2562603d7c0c2c360dc057250abe76617360346dea4",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hf_compensation_ga/best_mask_y_12x12.txt",
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hybrid_coverage85_ga/best_mask_y_12x12.txt",
+        "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_mask_y_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2457,
+      "sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_s11_ohmic_sheet_12x12.png",
+      "bytes": 104098,
+      "sha256": "295fdb8b0d8f4235e3ef4608ee56824bbc43db701f74f9ab908e1b2bba49f484",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/图件/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_s11_ohmic_sheet_12x12.png"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_s11_ohmic_sheet_12x12.txt",
+      "bytes": 9649,
+      "sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_s11_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 45576,
+      "sha256": "bb511e6d52612c47e0ce5d361fa7337696fba1787a0744757c0218c827728b79",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/ga_log_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/individual_trace_ohmic_sheet_12x12.txt",
+      "bytes": 177594,
+      "sha256": "a2aa0f5d4aa9d41ad559721b00a8f216b650ed3051b9d2abee22fa02b03c32f2",
+      "role": "最终保存产物",
+      "read_scope": "TXT内容与表结构读取；PNG另见视觉阅读清单；CST仅哈希/格式识别，未打开",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/individual_trace_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/branch1_surface_ohmic_sheet_comparison_v6/ohmic_sheet/fixed_best_ohmic_sheet_result.txt",
+      "bytes": 600,
+      "sha256": "5e8dd90f8c187f7b88bd3851303d701e5d13836afd4d24c4673dac835a29688f",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/branch1_surface_ohmic_sheet_comparison_v6/ohmic_sheet/fixed_best_ohmic_sheet_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/branch1_surface_ohmic_sheet_comparison_v6/thin_solid/fixed_best_thin_solid_result.txt",
+      "bytes": 592,
+      "sha256": "f1fe937f4f1c2692401d5cd0e2d95b305df14d32d491d326478032e3e69729e4",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/branch1_surface_ohmic_sheet_comparison_v6/thin_solid/fixed_best_thin_solid_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_12x12_coverage85_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 968,
+      "sha256": "5399a60c2c874c76f7f86c69be5b34cefd256fc8abbf547441294d8797fb9db0",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_coverage85_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2773,
+      "sha256": "3b28ab8415461b7f19e8c7f33a9f9b3f0fdce5580b38f6d8bd4b81a46f2e0966",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_fixed_topology_lf_refine/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2353,
+      "sha256": "8e851947e86919cba6c2819380e1e714ea47e1afb28315cd4d780eb28feaa39b",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hf_compensation_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_12x12_hybrid_coverage85_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2317,
+      "sha256": "3d91c96f8819236627b89d450b9c8df0a5279dbb72fbf6dfc289477d5f74f313",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hybrid_coverage85_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_12x12_quarter_symmetric_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 3201,
+      "sha256": "06bcc992376c35929f097c7c084cd07586b75960de41830e7bb5222f769701f1",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_quarter_symmetric_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 1842,
+      "sha256": "52a0e4a7fe072bf0d61b208838fb08517864a59fca3ffc37d90c7217ba5d969c",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/best_result_ohmic_sheet_6x6.txt",
+      "bytes": 621,
+      "sha256": "99b1a0241cb502466ca9f3ee3d12e61b20175c383ca3d20acb11815118c80a9c",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_6x6_ga_stable/best_result_ohmic_sheet_6x6.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/片阻1.1/best_result_ohmic_sheet_6x6.txt",
+      "bytes": 619,
+      "sha256": "c4950d806986f779df9a17a6f0049fe1b0a42d2dea7c4befabc63c1760994a22",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_6x6_ga_stable/片阻1.1/best_result_ohmic_sheet_6x6.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_9x9_best_122587_recheck/fixed_best_ohmic_sheet_check/fixed_best_ohmic_sheet_result.txt",
+      "bytes": 770,
+      "sha256": "b369800ea351098ff11a754c3bdffaff71e386c49554581f72f49cf2f89afb91",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_9x9_best_122587_recheck/fixed_best_ohmic_sheet_check/fixed_best_ohmic_sheet_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/best_result_ohmic_sheet_9x9.txt",
+      "bytes": 818,
+      "sha256": "80405bc25381ebaa8f071e9d63541171d1f0aaa5bbb4720dc8e8c81694902c4e",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/best_result_ohmic_sheet_9x9.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/best_result_ohmic_sheet_9x9.txt",
+      "bytes": 781,
+      "sha256": "7277020a7f3dfb9a5af06386821ff6e78eaa5e8f214b102e2d26da0fe1ca0d59",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/best_result_ohmic_sheet_9x9.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/ohmic_sheet_9x9_ph_micro_only_ga/best_result_ohmic_sheet_9x9.txt",
+      "bytes": 679,
+      "sha256": "f346992ff4ea44a26747e5f75f37cb2b4b524d54c0cbb092410e3d7086e0e701",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_9x9_ph_micro_only_ga/best_result_ohmic_sheet_9x9.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/02基本/best_result.txt",
+      "bytes": 282,
+      "sha256": "1cccd90d5840ffe0bac0087dd3bc2d9cb0f0cf953c860a509182ab52cd5aefa1",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/02基本/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/03/best_result.txt",
+      "bytes": 281,
+      "sha256": "1bef36882c8d51febfed682a79138b2f59a408f7a33da3e0c6704b97160cd172",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/03/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/04/best_result.txt",
+      "bytes": 282,
+      "sha256": "c6fe7c4b5b4125563c2c9c398e92af3337c27fcaf1edb2edb3980bee2fd56ff1",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/04/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/05/best_result.txt",
+      "bytes": 278,
+      "sha256": "5b5235eea8f6988bb9c173e4971eba0e98992cff06e8fae0556b90c202b1f789",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/05/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/06非等厚/best_result.txt",
+      "bytes": 323,
+      "sha256": "1c87742c2a21b8c3543c4f59aca983d40f25eeca20f9a6d26bc2b0096378b1d5",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/06非等厚/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/07/best_result.txt",
+      "bytes": 323,
+      "sha256": "cc44490765f4e145ec7f0890d38d40dd2f56bc9a04ce9e37b16cdbbea5dd6e99",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/07/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/08非等厚-非等高/best_result.txt",
+      "bytes": 352,
+      "sha256": "ac25ed0bae48e3286bcd300ff61e809dc2c05eeed13b3fcef5d67aba1c6ccd9c",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/08非等厚-非等高/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/09非等厚-非等高-非等长/best_result.txt",
+      "bytes": 382,
+      "sha256": "27467ed72550b430410d4cebb1197e198921515fb09efcf40c0c77440b4f66a1",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/09非等厚-非等高-非等长/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/10中心叠加/best_result.txt",
+      "bytes": 381,
+      "sha256": "9d5484520c1de0d20528a16ba45b02ab1afd4191eb876c113716430a0c30e3a7",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/10中心叠加/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/01/11四边中心立柱/best_result.txt",
+      "bytes": 380,
+      "sha256": "456bd7b19bcdf999dbc186ebce1cf97c8831d1561202d3cd61aea57737aa55eb",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/01/11四边中心立柱/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/02基本-40条带/best_result.txt",
+      "bytes": 310,
+      "sha256": "1884a8c0446038157907783183cd2dac7477c8ff893ab4bbe635deeda04867e8",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/02基本-40条带/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/03基本-60条带1/best_result.txt",
+      "bytes": 304,
+      "sha256": "a1abda81bb3c626cf286931db062003f20e99fe26f4d0dfa27ac906496522abe",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/03基本-60条带1/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/04基本-80条带/best_result.txt",
+      "bytes": 310,
+      "sha256": "a157a28e479cb6a9ad94883c401013de3ab1213f8f8b5179e7a5dd2560a690fd",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/04基本-80条带/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/05基本-60条带2/best_result.txt",
+      "bytes": 322,
+      "sha256": "2f745ee48fe41fbf0a485895f3b4496cd243790d1fb5f36a48f0b6b2d23a0127",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/05基本-60条带2/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/06基本-60条带3/best_result.txt",
+      "bytes": 322,
+      "sha256": "a3299f3fddc15a347c8ff4d50e251acb00efe027442e353e96e173f9e30300c5",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/06基本-60条带3/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/07基本-60工字1/best_result.txt",
+      "bytes": 325,
+      "sha256": "cc5aefe936132f8265184bf7c7b434a60d9921f9637bd50adae1b12ac86d6ec8",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/07基本-60工字1/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/08基本-60工字2/best_result.txt",
+      "bytes": 323,
+      "sha256": "d728e434c2a619a15b442bb4ce989be2fbbad93a03ade373115d21112bae653f",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/08基本-60工字2/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/09基本-60工字3.1/best_result.txt",
+      "bytes": 362,
+      "sha256": "55db046280b2bed5a4f74c77d81b6e79be60f85a9c6fd8111dcd56542c28849d",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/09基本-60工字3.1/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/10基本-60工字3.2/best_result.txt",
+      "bytes": 361,
+      "sha256": "8c56a8638497cb30c87da97d7b15804ea2e2bfcfb600bdaf3306af13bde5eafb",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/10基本-60工字3.2/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/11基本-60工字4/best_result.txt",
+      "bytes": 378,
+      "sha256": "35fd3c8fb5f0d4c4087cb5f8b0ee90d365be8b6228f019ec470c86b2ea93c58c",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/11基本-60工字4/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/12基本-60_80工字/best_result.txt",
+      "bytes": 362,
+      "sha256": "f14031d507c2cfa3fc89a79cf65787952e64aaf0862931c9aaa58184b2e6e63f",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/12基本-60_80工字/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/13基本-60-拓扑1.1/best_result.txt",
+      "bytes": 403,
+      "sha256": "57848e0016ed528190065f197cb9e2b21133582fe4ecef9a313fedb45e230101",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/13基本-60-拓扑1.1/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_result.txt",
+      "bytes": 493,
+      "sha256": "8cdd4bb9920e60b4f607caa4ac1a4303cf2dafe23644b86c2df4c879cdd0bd37",
+      "role": "历史分支结果摘要",
+      "read_scope": "读取参数、带宽、最小反射与文件指向；未重新计算性能",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/数据存档/14基本-60-拓扑1.2/best_result.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/error_log.txt",
+      "bytes": 6829,
+      "sha256": "591a8784112e2e6be87fe4620425141d858b652c4170f0b6ccde61bd87e9a7ff",
+      "role": "历史对照/失败证据",
+      "read_scope": "文本读取",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/error_log.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/branch1_surface_ohmic_sheet_comparison_v6/comparison_summary.txt",
+      "bytes": 1237,
+      "sha256": "ca47b6c2fce7c586f62d48835a2fe037209fec8370853f8f5bda8a736dc20dfa",
+      "role": "历史对照/失败证据",
+      "read_scope": "文本读取",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/branch1_surface_ohmic_sheet_comparison_v6/comparison_summary.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/branch1_surface_ohmic_sheet_comparison_v6/comparison_overlay_data.txt",
+      "bytes": 11419,
+      "sha256": "fc15294db8d8a233a6b7885eb0b4e6fe23f71516f3d21207481abcd774377a3b",
+      "role": "历史对照/失败证据",
+      "read_scope": "文本读取",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/branch1_surface_ohmic_sheet_comparison_v6/comparison_overlay_data.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/branch1_surface_ohmic_sheet_comparison_v6/thin_solid/fixed_best_thin_solid_s11.txt",
+      "bytes": 9663,
+      "sha256": "52da2397e1a229a6616325cf2fed6239d613c06b824f1a01047efb372c825ff5",
+      "role": "历史曲线",
+      "read_scope": "读取表头、样本行、文件哈希；本轮未重绘或重算带宽",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/branch1_surface_ohmic_sheet_comparison_v6/thin_solid/fixed_best_thin_solid_s11.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/branch1_surface_ohmic_sheet_comparison_v6/ohmic_sheet/fixed_best_ohmic_sheet_s11.txt",
+      "bytes": 9622,
+      "sha256": "4aef89af56a8ec561222ec1c8f37eafcb58cd4e0d8708f9ca2f02f96fede68bc",
+      "role": "历史曲线",
+      "read_scope": "读取表头、样本行、文件哈希；本轮未重绘或重算带宽",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/branch1_surface_ohmic_sheet_comparison_v6/ohmic_sheet/fixed_best_ohmic_sheet_s11.txt"
+      ]
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12/Model/3D/ModelHistory.json",
+      "bytes": 208440,
+      "sha256": "2e0e13de15d5125878eee891ca1961d67a2679448ebccc5cb78ee3d0e51a663f",
+      "role": "原始CST伴随文本",
+      "read_scope": "解析历史配置、模型参数或求解日志；不调用CST",
+      "identical_repo_snapshots": []
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12/Model/Parameters.json",
+      "bytes": 386,
+      "sha256": "134affbbed106316f09062961808f8341acc0dda84a8d715c64c6cb877300034",
+      "role": "原始CST伴随文本",
+      "read_scope": "解析历史配置、模型参数或求解日志；不调用CST",
+      "identical_repo_snapshots": []
+    },
+    {
+      "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12/Result/Model.log",
+      "bytes": 25745,
+      "sha256": "a84261ea6fae649fc4d25537364692dd5fbf1535affaef37f69655fe49b0515c",
+      "role": "原始CST伴随文本",
+      "read_scope": "解析历史配置、模型参数或求解日志；不调用CST",
+      "identical_repo_snapshots": []
+    },
+    {
+      "path": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院.pdf",
+      "bytes": 4626340,
+      "sha256": "3e630eba9001bfed451efba271af1c2af6a97534a3f21c45fc3b04c8888f77fd",
+      "role": "论文与图件关联",
+      "read_scope": "PDF重点第3–6章及核心图表；脚本图件映射/已知配套代码；旧讲稿为待审历史表达",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院.pdf"
+      ]
+    },
+    {
+      "path": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+      "bytes": 226507,
+      "sha256": "844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72",
+      "role": "论文与图件关联",
+      "read_scope": "PDF重点第3–6章及核心图表；脚本图件映射/已知配套代码；旧讲稿为待审历史表达",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/ohmic_sheet_12x12_multitemplate_topology_ga_code.py"
+      ]
+    },
+    {
+      "path": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/build_defense_ppt_v2.py",
+      "bytes": 29550,
+      "sha256": "e87bd4ee10d237c0c23da37a88e85b9b5526a2e1f78db562ba283c37e42b3ff3",
+      "role": "论文与图件关联",
+      "read_scope": "PDF重点第3–6章及核心图表；脚本图件映射/已知配套代码；旧讲稿为待审历史表达",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/build_defense_ppt_v2.py"
+      ]
+    },
+    {
+      "path": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/defense_speech_chinese.md",
+      "bytes": 7607,
+      "sha256": "ce189aefb72655c7442d6d2deb013f5c2bfd991305ca435a13a8c9c95d43ca8d",
+      "role": "论文与图件关联",
+      "read_scope": "PDF重点第3–6章及核心图表；脚本图件映射/已知配套代码；旧讲稿为待审历史表达",
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/defense_speech_chinese.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "nature": "原模型历史选段，非新建模型",
+  "blocks": [
+    {
+      "source": "F:/biyesheji/test/Model/3D/ModelHistory.json",
+      "zero_based_index": 1,
+      "block": {
+        "caption": "create ohmic sheet material",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Material",
+          "    .Reset",
+          "    .Name \"TEST_OHMIC_SHEET\"",
+          "    .Folder \"\"",
+          "    .Type \"Ohmic Sheet\"",
+          "    .Colour \"1\", \"0\", \"0\"",
+          "    .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/test/Model/3D/ModelHistory.json",
+      "zero_based_index": 4,
+      "block": {
+        "caption": "create test rectangle curve",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Rectangle",
+          "    .Reset",
+          "    .Name \"rect1\"",
+          "    .Curve \"curve1\"",
+          "    .Xrange \"-5\", \"5\"",
+          "    .Yrange \"-5\", \"5\"",
+          "    .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/test/Model/3D/ModelHistory.json",
+      "zero_based_index": 6,
+      "block": {
+        "caption": "define facefromcovercurve: face1",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Face",
+          "     .Reset ",
+          "     .Name \"face1\" ",
+          "     .Type \"CoverCurve\" ",
+          "     .Curve \"curve1:rect1\" ",
+          "     .DeleteCurve \"True\" ",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/01/02基本/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 0,
+      "block": {
+        "caption": "use template: FSS, Metamaterial - Unit Cell_3.cfg",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "'set the units",
+          "With Units",
+          "    .Geometry \"mm\"",
+          "    .Frequency \"GHz\"",
+          "    .Voltage \"V\"",
+          "    .Resistance \"Ohm\"",
+          "    .Inductance \"H\"",
+          "    .TemperatureUnit  \"Kelvin\"",
+          "    .Time \"ns\"",
+          "    .Current \"A\"",
+          "    .Conductance \"Siemens\"",
+          "    .Capacitance \"F\"",
+          "End With",
+          "",
+          "'----------------------------------------------------------------------------",
+          "",
+          "'set the frequency range",
+          "Solver.FrequencyRange \"2\", \"18\"",
+          "",
+          "'----------------------------------------------------------------------------",
+          "",
+          "Plot.DrawBox True",
+          "",
+          "With Background",
+          "     .Type \"Normal\"",
+          "     .Epsilon \"1.0\"",
+          "     .Mu \"1.0\"",
+          "     .Rho \"1.204\"",
+          "     .ThermalType \"Normal\"",
+          "     .ThermalConductivity \"0.026\"",
+          "      .SpecificHeat \"1005\", \"J/K/kg\"",
+          "     .XminSpace \"0.0\"",
+          "     .XmaxSpace \"0.0\"",
+          "     .YminSpace \"0.0\"",
+          "     .YmaxSpace \"0.0\"",
+          "     .ZminSpace \"0.0\"",
+          "     .ZmaxSpace \"0.0\"",
+          "End With",
+          "",
+          "' define Floquet port boundaries",
+          "",
+          "With FloquetPort",
+          "     .Reset",
+          "     .SetDialogTheta \"0\"",
+          "     .SetDialogPhi \"0\"",
+          "     .SetSortCode \"+beta/pw\"",
+          "     .SetCustomizedListFlag \"False\"",
+          "     .Port \"Zmin\"",
+          "     .SetNumberOfModesConsidered \"2\"",
+          "     .Port \"Zmax\"",
+          "     .SetNumberOfModesConsidered \"2\"",
+          "End With",
+          "",
+          "MakeSureParameterExists \"theta\", \"0\"",
+          "SetParameterDescription \"theta\", \"spherical angle of incident plane wave\"",
+          "MakeSureParameterExists \"phi\", \"0\"",
+          "SetParameterDescription \"phi\", \"spherical angle of incident plane wave\"",
+          "",
+          "' define boundaries, the open boundaries define floquet port",
+          "",
+          "With Boundary",
+          "     .Xmin \"unit cell\"",
+          "     .Xmax \"unit cell\"",
+          "     .Ymin \"unit cell\"",
+          "     .Ymax \"unit cell\"",
+          "     .Zmin \"expanded open\"",
+          "     .Zmax \"expanded open\"",
+          "     .Xsymmetry \"none\"",
+          "     .Ysymmetry \"none\"",
+          "     .Zsymmetry \"none\"",
+          "     .XPeriodicShift \"0.0\"",
+          "     .YPeriodicShift \"0.0\"",
+          "     .ZPeriodicShift \"0.0\"",
+          "     .PeriodicUseConstantAngles \"False\"",
+          "     .SetPeriodicBoundaryAngles \"theta\", \"phi\"",
+          "     .SetPeriodicBoundaryAnglesDirection \"inward\"",
+          "     .UnitCellFitToBoundingBox \"True\"",
+          "     .UnitCellDs1 \"0.0\"",
+          "     .UnitCellDs2 \"0.0\"",
+          "     .UnitCellAngle \"90.0\"",
+          "End With",
+          "",
+          "' set tet mesh as default",
+          "",
+          "With Mesh",
+          "     .MeshType \"Tetrahedral\"",
+          "End With",
+          "",
+          "' FD solver excitation with incoming plane wave at Zmax",
+          "",
+          "With FDSolver",
+          "     .Reset",
+          "     .Stimulation \"List\", \"List\"",
+          "     .ResetExcitationList",
+          "     .AddToExcitationList \"Zmax\", \"TE(0,0);TM(0,0)\"",
+          "     .LowFrequencyStabilization \"False\"",
+          "End With",
+          "",
+          "'----------------------------------------------------------------------------",
+          "",
+          "With MeshSettings",
+          "     .SetMeshType \"Tet\"",
+          "     .Set \"Version\", 1%",
+          "End With",
+          "",
+          "With Mesh",
+          "     .MeshType \"Tetrahedral\"",
+          "End With",
+          "",
+          "'set the solver type",
+          "ChangeSolverType(\"HF Frequency Domain\")",
+          "",
+          "'----------------------------------------------------------------------------"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/01/02基本/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 3,
+      "block": {
+        "caption": "define brick: film1",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"film1\"",
+          "     .Component \"component1\"",
+          "     .Material \"GAOSHANG\"",
+          "     .Xrange \"-6.127\", \"6.127\"",
+          "     .Yrange \"-0.4635\", \"0.4635\"",
+          "     .Zrange \"0\", \"5.1429\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/01/02基本/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 4,
+      "block": {
+        "caption": "define brick: film2",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"film2\"",
+          "     .Component \"component1\"",
+          "     .Material \"GAOSHANG\"",
+          "     .Xrange \"-0.4635\", \"0.4635\"",
+          "     .Yrange \"-6.127\", \"6.127\"",
+          "     .Zrange \"0\", \"5.1429\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/01/02基本/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 5,
+      "block": {
+        "caption": "define grounded boundaries",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Boundary",
+          "     .Xmin \"unit cell\"",
+          "     .Xmax \"unit cell\"",
+          "     .Ymin \"unit cell\"",
+          "     .Ymax \"unit cell\"",
+          "     .Zmin \"electric\"",
+          "     .Zmax \"expanded open\"",
+          "     .Xsymmetry \"none\"",
+          "     .Ysymmetry \"none\"",
+          "     .Zsymmetry \"none\"",
+          "     .ApplyInAllDirections \"False\"",
+          "     .OpenAddSpaceFactor \"0.5\"",
+          "     .XPeriodicShift \"0.0\"",
+          "     .YPeriodicShift \"0.0\"",
+          "     .ZPeriodicShift \"0.0\"",
+          "     .PeriodicUseConstantAngles \"False\"",
+          "     .SetPeriodicBoundaryAngles \"theta\", \"phi\"",
+          "     .SetPeriodicBoundaryAnglesDirection \"inward\"",
+          "     .UnitCellFitToBoundingBox \"True\"",
+          "     .UnitCellDs1 \"0.0\"",
+          "     .UnitCellDs2 \"0.0\"",
+          "     .UnitCellAngle \"90.0\"",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/02基本-40条带/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 1,
+      "block": {
+        "caption": "define material: PET",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Material",
+          "     .Reset",
+          "     .Name \"PET\"",
+          "     .Folder \"\"",
+          "     .Type \"Normal\"",
+          "     .Epsilon \"3.1\"",
+          "     .Mu \"1.0\"",
+          "     .Sigma \"0\"",
+          "     .TanD \"0.01\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/02基本-40条带/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 2,
+      "block": {
+        "caption": "define material: resistive film",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Material",
+          "     .Reset",
+          "     .Name \"SMH125H-40\"",
+          "     .Folder \"\"",
+          "     .Type \"Normal\"",
+          "     .Epsilon \"1.0\"",
+          "     .Mu \"1.0\"",
+          "     .Sigma \"1250.0\"",
+          "     .TanD \"0.0\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/02基本-40条带/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 4,
+      "block": {
+        "caption": "define brick: pet_x",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"pet_x\"",
+          "     .Component \"component1\"",
+          "     .Material \"PET\"",
+          "     .Xrange \"-5.31745\", \"5.31745\"",
+          "     .Yrange \"-0.0625\", \"0.0625\"",
+          "     .Zrange \"0\", \"7.3333\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/02基本-40条带/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 5,
+      "block": {
+        "caption": "define brick: pet_y",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"pet_y\"",
+          "     .Component \"component1\"",
+          "     .Material \"PET\"",
+          "     .Xrange \"-0.0625\", \"0.0625\"",
+          "     .Yrange \"-5.31745\", \"5.31745\"",
+          "     .Zrange \"0\", \"7.3333\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/02基本-40条带/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 6,
+      "block": {
+        "caption": "define brick: film_x_full",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"film_x_full\"",
+          "     .Component \"component1\"",
+          "     .Material \"SMH125H-40\"",
+          "     .Xrange \"-5.31745\", \"5.31745\"",
+          "     .Yrange \"0.0625\", \"0.0825\"",
+          "     .Zrange \"0\", \"7.3333\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/02基本-40条带/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 7,
+      "block": {
+        "caption": "define brick: film_y_full",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"film_y_full\"",
+          "     .Component \"component1\"",
+          "     .Material \"SMH125H-40\"",
+          "     .Xrange \"0.0625\", \"0.0825\"",
+          "     .Yrange \"-5.31745\", \"5.31745\"",
+          "     .Zrange \"0\", \"7.3333\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/02基本-40条带/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 13,
+      "block": {
+        "caption": "define grounded boundaries",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Boundary",
+          "     .Xmin \"unit cell\"",
+          "     .Xmax \"unit cell\"",
+          "     .Ymin \"unit cell\"",
+          "     .Ymax \"unit cell\"",
+          "     .Zmin \"electric\"",
+          "     .Zmax \"expanded open\"",
+          "     .Xsymmetry \"none\"",
+          "     .Ysymmetry \"none\"",
+          "     .Zsymmetry \"none\"",
+          "     .ApplyInAllDirections \"False\"",
+          "     .OpenAddSpaceFactor \"0.5\"",
+          "     .XPeriodicShift \"0.0\"",
+          "     .YPeriodicShift \"0.0\"",
+          "     .ZPeriodicShift \"0.0\"",
+          "     .PeriodicUseConstantAngles \"False\"",
+          "     .SetPeriodicBoundaryAngles \"theta\", \"phi\"",
+          "     .SetPeriodicBoundaryAnglesDirection \"inward\"",
+          "     .UnitCellFitToBoundingBox \"True\"",
+          "     .UnitCellDs1 \"0.0\"",
+          "     .UnitCellDs2 \"0.0\"",
+          "     .UnitCellAngle \"90.0\"",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 1,
+      "block": {
+        "caption": "define material: PET",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Material",
+          "     .Reset",
+          "     .Name \"PET\"",
+          "     .Folder \"\"",
+          "     .Type \"Normal\"",
+          "     .Epsilon \"3.1\"",
+          "     .Mu \"1.0\"",
+          "     .Sigma \"0\"",
+          "     .TanD \"0.01\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 2,
+      "block": {
+        "caption": "define material: resistive film x",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Material",
+          "     .Reset",
+          "     .Name \"SMH188H-60\"",
+          "     .Folder \"\"",
+          "     .Type \"Normal\"",
+          "     .Epsilon \"1.0\"",
+          "     .Mu \"1.0\"",
+          "     .Sigma \"833.3333333333333\"",
+          "     .TanD \"0.0\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 3,
+      "block": {
+        "caption": "define material: resistive film y",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Material",
+          "     .Reset",
+          "     .Name \"SMH188H-60\"",
+          "     .Folder \"\"",
+          "     .Type \"Normal\"",
+          "     .Epsilon \"1.0\"",
+          "     .Mu \"1.0\"",
+          "     .Sigma \"833.3333333333333\"",
+          "     .TanD \"0.0\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 5,
+      "block": {
+        "caption": "define brick: pet_x",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"pet_x\"",
+          "     .Component \"component1\"",
+          "     .Material \"PET\"",
+          "     .Xrange \"-6.6405\", \"6.6405\"",
+          "     .Yrange \"-0.094\", \"0.094\"",
+          "     .Zrange \"0\", \"8.8571\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 6,
+      "block": {
+        "caption": "define brick: pet_y",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"pet_y\"",
+          "     .Component \"component1\"",
+          "     .Material \"PET\"",
+          "     .Xrange \"-0.094\", \"0.094\"",
+          "     .Yrange \"-6.6405\", \"6.6405\"",
+          "     .Zrange \"0\", \"8.8571\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 7,
+      "block": {
+        "caption": "define brick: film_x_full",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"film_x_full\"",
+          "     .Component \"component1\"",
+          "     .Material \"SMH188H-60\"",
+          "     .Xrange \"-6.6405\", \"6.6405\"",
+          "     .Yrange \"0.094\", \"0.114\"",
+          "     .Zrange \"0\", \"8.8571\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 8,
+      "block": {
+        "caption": "define brick: film_y_full",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Brick",
+          "     .Reset",
+          "     .Name \"film_y_full\"",
+          "     .Component \"component1\"",
+          "     .Material \"SMH188H-60\"",
+          "     .Xrange \"0.094\", \"0.114\"",
+          "     .Yrange \"-6.6405\", \"6.6405\"",
+          "     .Zrange \"0\", \"8.8571\"",
+          "     .Create",
+          "End With"
+        ]
+      }
+    },
+    {
+      "source": "F:/biyesheji/数据存档/14基本-60-拓扑1.2/best_design/Model/3D/ModelHistory.json",
+      "zero_based_index": 81,
+      "block": {
+        "caption": "define grounded boundaries",
+        "version": "2025.1|34.0.1|20241028",
+        "hidden": false,
+        "type": "vba",
+        "code": [
+          "With Boundary",
+          "     .Xmin \"unit cell\"",
+          "     .Xmax \"unit cell\"",
+          "     .Ymin \"unit cell\"",
+          "     .Ymax \"unit cell\"",
+          "     .Zmin \"electric\"",
+          "     .Zmax \"expanded open\"",
+          "     .Xsymmetry \"none\"",
+          "     .Ysymmetry \"none\"",
+          "     .Zsymmetry \"none\"",
+          "     .ApplyInAllDirections \"False\"",
+          "     .OpenAddSpaceFactor \"0.5\"",
+          "     .XPeriodicShift \"0.0\"",
+          "     .YPeriodicShift \"0.0\"",
+          "     .ZPeriodicShift \"0.0\"",
+          "     .PeriodicUseConstantAngles \"False\"",
+          "     .SetPeriodicBoundaryAngles \"theta\", \"phi\"",
+          "     .SetPeriodicBoundaryAnglesDirection \"inward\"",
+          "     .UnitCellFitToBoundingBox \"True\"",
+          "     .UnitCellDs1 \"0.0\"",
+          "     .UnitCellDs2 \"0.0\"",
+          "     .UnitCellAngle \"90.0\"",
+          "End With"
+        ]
+      }
+    }
+  ]
+}

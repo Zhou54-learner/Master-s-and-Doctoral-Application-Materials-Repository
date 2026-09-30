@@ -1,0 +1,72 @@
+{
+  "nature": "R1历史记录计数与字串对应，不是重运行或性能复算",
+  "log_rows": 128,
+  "generation_counts": {
+    "0": 16,
+    "1": 16,
+    "2": 16,
+    "3": 16,
+    "4": 16,
+    "5": 16,
+    "6": 16,
+    "7": 16
+  },
+  "trace_status_counts": {
+    "start_cst": 113,
+    "finished_cst": 113,
+    "cache_hit": 15
+  },
+  "distinct_finished_mask_pairs": 62,
+  "winner_log_row": {
+    "iteration": "7",
+    "index": "6",
+    "summary": "origin=crossover, p=13.1409, h=10.0731, Rs_x=140.79, Rs_y=35.461, X(kept=36, comp=2), Y(kept=79, comp=1)",
+    "score": "89.63868001716894",
+    "bandwidth": "13.2",
+    "coverage": "0.825",
+    "min_rl": "-23.485400435875423",
+    "f_low": "4.800000000000001",
+    "f_high": "18.0",
+    "total_effective_bw": "13.280000000000001",
+    "mean_margin": "5.4479553754385295",
+    "p": "13.1409",
+    "h": "10.0731",
+    "rs_x": "140.79",
+    "rs_y": "35.461",
+    "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979.cst"
+  },
+  "seed_trace": {
+    "gen": "0",
+    "idx": "0",
+    "status": "start_cst",
+    "reason": "ok",
+    "summary": "origin=best82_reference, p=13.1437, h=10.0791, Rs_x=142.198, Rs_y=38.599, X(kept=36, comp=2), Y(kept=79, comp=1)",
+    "mask_x": "000000000000/000000000000/000000000000/010000000000/111110001111/111100001111/111100000111/111100001111/000000011000/000000001000/000000000000/000000000000",
+    "mask_y": "111111111111/100010010001/100010010001/100000000101/111110001111/111100001111/111100001111/111100001111/100000000001/100010010011/100010010001/111111111111",
+    "x_report": "{'kept': 36, 'isolated': 0, 'components': 2}",
+    "y_report": "{'kept': 79, 'isolated': 0, 'components': 1}",
+    "total_kept": "115",
+    "cst_file": ""
+  },
+  "winner_trace": {
+    "gen": "7",
+    "idx": "6",
+    "status": "finished_cst",
+    "reason": "ok",
+    "summary": "origin=crossover, p=13.1409, h=10.0731, Rs_x=140.79, Rs_y=35.461, X(kept=36, comp=2), Y(kept=79, comp=1)",
+    "mask_x": "000000000000/000000000000/000000000000/010000000000/111110001111/111100001111/111100000111/111100001111/000000011000/000000001000/000000000000/000000000000",
+    "mask_y": "111111111111/100010010001/100010010001/100000000101/111110001111/111100001111/111100001111/111100001111/100000000001/100010010011/100010010001/111111111111",
+    "x_report": "{'kept': 36, 'isolated': 0, 'components': 2}",
+    "y_report": "{'kept': 79, 'isolated': 0, 'components': 1}",
+    "total_kept": "115",
+    "cst_file": "F:\\biyesheji\\ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979.cst",
+    "score": "89.63868001716894",
+    "bandwidth": "13.2",
+    "coverage": "0.825",
+    "min_rl": "-23.485400435875423",
+    "f_low": "4.800000000000001",
+    "f_high": "18.0"
+  },
+  "same_x_mask_as_seed": true,
+  "same_y_mask_as_seed": true
+}

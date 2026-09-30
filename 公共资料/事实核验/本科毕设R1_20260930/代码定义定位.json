@@ -1,0 +1,7210 @@
+[
+  {
+    "file": "base.txt",
+    "static_parse_error": {
+      "line": 1,
+      "message": "invalid syntax"
+    }
+  },
+  {
+    "file": "code01-05存档.txt",
+    "lines": 580,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 50,
+        "end": 167
+      },
+      {
+        "name": "gaoshang",
+        "start": 173,
+        "end": 176
+      },
+      {
+        "name": "newc",
+        "start": 182,
+        "end": 185
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 191,
+        "end": 218
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 221,
+        "end": 272
+      },
+      {
+        "name": "create_cross",
+        "start": 275,
+        "end": 302
+      },
+      {
+        "name": "reconnect_de",
+        "start": 308,
+        "end": 313
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 316,
+        "end": 322
+      },
+      {
+        "name": "decode",
+        "start": 325,
+        "end": 337
+      },
+      {
+        "name": "extract_metrics",
+        "start": 340,
+        "end": 380
+      },
+      {
+        "name": "run_cst",
+        "start": 383,
+        "end": 415
+      },
+      {
+        "name": "initialize_population",
+        "start": 418,
+        "end": 424
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 427,
+        "end": 446
+      },
+      {
+        "name": "evaluate_population",
+        "start": 449,
+        "end": 458
+      },
+      {
+        "name": "select_parent",
+        "start": 461,
+        "end": 475
+      },
+      {
+        "name": "crossover",
+        "start": 478,
+        "end": 481
+      },
+      {
+        "name": "mutate",
+        "start": 484,
+        "end": 491
+      },
+      {
+        "name": "make_new_population",
+        "start": 494,
+        "end": 507
+      },
+      {
+        "name": "write_best_result",
+        "start": 510,
+        "end": 517
+      },
+      {
+        "name": "optimize",
+        "start": 520,
+        "end": 576
+      }
+    ]
+  },
+  {
+    "file": "code06-07存档.txt",
+    "lines": 583,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 52,
+        "end": 169
+      },
+      {
+        "name": "gaoshang",
+        "start": 175,
+        "end": 178
+      },
+      {
+        "name": "newc",
+        "start": 184,
+        "end": 187
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 193,
+        "end": 220
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 223,
+        "end": 274
+      },
+      {
+        "name": "create_cross_asymmetric",
+        "start": 277,
+        "end": 304
+      },
+      {
+        "name": "reconnect_de",
+        "start": 310,
+        "end": 315
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 318,
+        "end": 324
+      },
+      {
+        "name": "decode",
+        "start": 327,
+        "end": 342
+      },
+      {
+        "name": "extract_metrics",
+        "start": 345,
+        "end": 384
+      },
+      {
+        "name": "run_cst",
+        "start": 387,
+        "end": 418
+      },
+      {
+        "name": "initialize_population",
+        "start": 421,
+        "end": 427
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 430,
+        "end": 449
+      },
+      {
+        "name": "evaluate_population",
+        "start": 452,
+        "end": 461
+      },
+      {
+        "name": "select_parent",
+        "start": 464,
+        "end": 478
+      },
+      {
+        "name": "crossover",
+        "start": 481,
+        "end": 484
+      },
+      {
+        "name": "mutate",
+        "start": 487,
+        "end": 494
+      },
+      {
+        "name": "make_new_population",
+        "start": 497,
+        "end": 510
+      },
+      {
+        "name": "write_best_result",
+        "start": 513,
+        "end": 520
+      },
+      {
+        "name": "optimize",
+        "start": 523,
+        "end": 579
+      }
+    ]
+  },
+  {
+    "file": "code09存档.txt",
+    "lines": 591,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 52,
+        "end": 169
+      },
+      {
+        "name": "gaoshang",
+        "start": 175,
+        "end": 178
+      },
+      {
+        "name": "newc",
+        "start": 184,
+        "end": 187
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 193,
+        "end": 220
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 223,
+        "end": 274
+      },
+      {
+        "name": "create_cross_asymmetric_length_height",
+        "start": 277,
+        "end": 304
+      },
+      {
+        "name": "reconnect_de",
+        "start": 309,
+        "end": 314
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 317,
+        "end": 323
+      },
+      {
+        "name": "decode",
+        "start": 326,
+        "end": 350
+      },
+      {
+        "name": "extract_metrics",
+        "start": 352,
+        "end": 391
+      },
+      {
+        "name": "run_cst",
+        "start": 394,
+        "end": 427
+      },
+      {
+        "name": "initialize_population",
+        "start": 429,
+        "end": 435
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 438,
+        "end": 457
+      },
+      {
+        "name": "evaluate_population",
+        "start": 460,
+        "end": 469
+      },
+      {
+        "name": "select_parent",
+        "start": 472,
+        "end": 486
+      },
+      {
+        "name": "crossover",
+        "start": 489,
+        "end": 492
+      },
+      {
+        "name": "mutate",
+        "start": 495,
+        "end": 502
+      },
+      {
+        "name": "make_new_population",
+        "start": 505,
+        "end": 518
+      },
+      {
+        "name": "write_best_result",
+        "start": 521,
+        "end": 528
+      },
+      {
+        "name": "optimize",
+        "start": 531,
+        "end": 587
+      }
+    ]
+  },
+  {
+    "file": "code_run_v2.py",
+    "lines": 1101,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 82,
+        "end": 199
+      },
+      {
+        "name": "create_pet_material",
+        "start": 203,
+        "end": 217
+      },
+      {
+        "name": "create_resistive_sheet_material",
+        "start": 220,
+        "end": 255
+      },
+      {
+        "name": "gaoshang",
+        "start": 260,
+        "end": 263
+      },
+      {
+        "name": "newc",
+        "start": 269,
+        "end": 272
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 276,
+        "end": 306
+      },
+      {
+        "name": "add_rectangle_sheet",
+        "start": 310,
+        "end": 338
+      },
+      {
+        "name": "_merge_runs_in_row",
+        "start": 342,
+        "end": 353
+      },
+      {
+        "name": "create_full_cover_sheet_x",
+        "start": 356,
+        "end": 370
+      },
+      {
+        "name": "create_full_cover_sheet_y",
+        "start": 372,
+        "end": 386
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 390,
+        "end": 468
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 473,
+        "end": 500
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 503,
+        "end": 554
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 557,
+        "end": 646
+      },
+      {
+        "name": "reconnect_de",
+        "start": 651,
+        "end": 656
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 659,
+        "end": 665
+      },
+      {
+        "name": "decode",
+        "start": 668,
+        "end": 685
+      },
+      {
+        "name": "expand_seed_to_6x6",
+        "start": 688,
+        "end": 705
+      },
+      {
+        "name": "etch_mask_x_6x6",
+        "start": 708,
+        "end": 746
+      },
+      {
+        "name": "etch_mask_y_6x6",
+        "start": 749,
+        "end": 787
+      },
+      {
+        "name": "extract_metrics",
+        "start": 790,
+        "end": 829
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 831,
+        "end": 857
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 860,
+        "end": 873
+      },
+      {
+        "name": "run_cst",
+        "start": 875,
+        "end": 917
+      },
+      {
+        "name": "initialize_population",
+        "start": 919,
+        "end": 925
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 928,
+        "end": 947
+      },
+      {
+        "name": "evaluate_population",
+        "start": 950,
+        "end": 959
+      },
+      {
+        "name": "select_parent",
+        "start": 962,
+        "end": 976
+      },
+      {
+        "name": "crossover",
+        "start": 979,
+        "end": 982
+      },
+      {
+        "name": "mutate",
+        "start": 985,
+        "end": 992
+      },
+      {
+        "name": "make_new_population",
+        "start": 995,
+        "end": 1008
+      },
+      {
+        "name": "write_best_result",
+        "start": 1011,
+        "end": 1020
+      },
+      {
+        "name": "run_single_test",
+        "start": 1022,
+        "end": 1036
+      },
+      {
+        "name": "optimize",
+        "start": 1039,
+        "end": 1097
+      }
+    ]
+  },
+  {
+    "file": "code工字形最终存档.txt",
+    "lines": 878,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 69,
+        "end": 186
+      },
+      {
+        "name": "create_pet_material",
+        "start": 190,
+        "end": 204
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 207,
+        "end": 241
+      },
+      {
+        "name": "gaoshang",
+        "start": 246,
+        "end": 249
+      },
+      {
+        "name": "newc",
+        "start": 255,
+        "end": 258
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 262,
+        "end": 292
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 296,
+        "end": 329
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 333,
+        "end": 411
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 416,
+        "end": 443
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 446,
+        "end": 497
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 500,
+        "end": 589
+      },
+      {
+        "name": "reconnect_de",
+        "start": 594,
+        "end": 599
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 602,
+        "end": 608
+      },
+      {
+        "name": "decode",
+        "start": 611,
+        "end": 633
+      },
+      {
+        "name": "extract_metrics",
+        "start": 635,
+        "end": 674
+      },
+      {
+        "name": "run_cst",
+        "start": 677,
+        "end": 714
+      },
+      {
+        "name": "initialize_population",
+        "start": 716,
+        "end": 722
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 725,
+        "end": 744
+      },
+      {
+        "name": "evaluate_population",
+        "start": 747,
+        "end": 756
+      },
+      {
+        "name": "select_parent",
+        "start": 759,
+        "end": 773
+      },
+      {
+        "name": "crossover",
+        "start": 776,
+        "end": 779
+      },
+      {
+        "name": "mutate",
+        "start": 782,
+        "end": 789
+      },
+      {
+        "name": "make_new_population",
+        "start": 792,
+        "end": 805
+      },
+      {
+        "name": "write_best_result",
+        "start": 808,
+        "end": 815
+      },
+      {
+        "name": "optimize",
+        "start": 818,
+        "end": 874
+      }
+    ]
+  },
+  {
+    "file": "code拓扑12.89最终存档.txt",
+    "lines": 1032,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 73,
+        "end": 190
+      },
+      {
+        "name": "create_pet_material",
+        "start": 194,
+        "end": 208
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 211,
+        "end": 245
+      },
+      {
+        "name": "gaoshang",
+        "start": 250,
+        "end": 253
+      },
+      {
+        "name": "newc",
+        "start": 259,
+        "end": 262
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 266,
+        "end": 296
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 300,
+        "end": 333
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 337,
+        "end": 415
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 420,
+        "end": 447
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 450,
+        "end": 501
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 504,
+        "end": 593
+      },
+      {
+        "name": "reconnect_de",
+        "start": 598,
+        "end": 603
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 606,
+        "end": 612
+      },
+      {
+        "name": "decode",
+        "start": 615,
+        "end": 632
+      },
+      {
+        "name": "expand_seed_to_6x6",
+        "start": 635,
+        "end": 652
+      },
+      {
+        "name": "etch_mask_x_6x6",
+        "start": 655,
+        "end": 693
+      },
+      {
+        "name": "etch_mask_y_6x6",
+        "start": 696,
+        "end": 734
+      },
+      {
+        "name": "extract_metrics",
+        "start": 737,
+        "end": 776
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 778,
+        "end": 804
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 807,
+        "end": 820
+      },
+      {
+        "name": "run_cst",
+        "start": 822,
+        "end": 865
+      },
+      {
+        "name": "initialize_population",
+        "start": 867,
+        "end": 873
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 876,
+        "end": 895
+      },
+      {
+        "name": "evaluate_population",
+        "start": 898,
+        "end": 907
+      },
+      {
+        "name": "select_parent",
+        "start": 910,
+        "end": 924
+      },
+      {
+        "name": "crossover",
+        "start": 927,
+        "end": 930
+      },
+      {
+        "name": "mutate",
+        "start": 933,
+        "end": 940
+      },
+      {
+        "name": "make_new_population",
+        "start": 943,
+        "end": 956
+      },
+      {
+        "name": "write_best_result",
+        "start": 959,
+        "end": 968
+      },
+      {
+        "name": "optimize",
+        "start": 970,
+        "end": 1028
+      }
+    ]
+  },
+  {
+    "file": "code条带存档.txt",
+    "lines": 845,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 65,
+        "end": 182
+      },
+      {
+        "name": "create_pet_material",
+        "start": 186,
+        "end": 200
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 203,
+        "end": 222
+      },
+      {
+        "name": "gaoshang",
+        "start": 227,
+        "end": 230
+      },
+      {
+        "name": "newc",
+        "start": 236,
+        "end": 239
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 243,
+        "end": 274
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 278,
+        "end": 310
+      },
+      {
+        "name": "etch_to_center_bands",
+        "start": 314,
+        "end": 382
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 387,
+        "end": 414
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 417,
+        "end": 468
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 471,
+        "end": 560
+      },
+      {
+        "name": "reconnect_de",
+        "start": 565,
+        "end": 570
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 573,
+        "end": 579
+      },
+      {
+        "name": "decode",
+        "start": 582,
+        "end": 600
+      },
+      {
+        "name": "extract_metrics",
+        "start": 602,
+        "end": 641
+      },
+      {
+        "name": "run_cst",
+        "start": 644,
+        "end": 681
+      },
+      {
+        "name": "initialize_population",
+        "start": 683,
+        "end": 689
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 692,
+        "end": 711
+      },
+      {
+        "name": "evaluate_population",
+        "start": 714,
+        "end": 723
+      },
+      {
+        "name": "select_parent",
+        "start": 726,
+        "end": 740
+      },
+      {
+        "name": "crossover",
+        "start": 743,
+        "end": 746
+      },
+      {
+        "name": "mutate",
+        "start": 749,
+        "end": 756
+      },
+      {
+        "name": "make_new_population",
+        "start": 759,
+        "end": 772
+      },
+      {
+        "name": "write_best_result",
+        "start": 775,
+        "end": 782
+      },
+      {
+        "name": "optimize",
+        "start": 785,
+        "end": 841
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_12x12_fixed_topology_lf_refine_code.py",
+    "lines": 6028,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 228,
+        "end": 345
+      },
+      {
+        "name": "create_pet_material",
+        "start": 349,
+        "end": 363
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 366,
+        "end": 400
+      },
+      {
+        "name": "_append_error_log",
+        "start": 407,
+        "end": 413
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 416,
+        "end": 423
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 426,
+        "end": 439
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 442,
+        "end": 485
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 488,
+        "end": 549
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 552,
+        "end": 563
+      },
+      {
+        "name": "gaoshang",
+        "start": 568,
+        "end": 571
+      },
+      {
+        "name": "newc",
+        "start": 577,
+        "end": 580
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 584,
+        "end": 614
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 618,
+        "end": 651
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 655,
+        "end": 733
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 738,
+        "end": 765
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 768,
+        "end": 819
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 822,
+        "end": 911
+      },
+      {
+        "name": "reconnect_de",
+        "start": 916,
+        "end": 921
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 924,
+        "end": 930
+      },
+      {
+        "name": "bits_to_int",
+        "start": 933,
+        "end": 934
+      },
+      {
+        "name": "clamp_int",
+        "start": 937,
+        "end": 938
+      },
+      {
+        "name": "build_y_mask_template",
+        "start": 941,
+        "end": 1029
+      },
+      {
+        "name": "build_x_mask_template",
+        "start": 1032,
+        "end": 1096
+      },
+      {
+        "name": "flatten_mask",
+        "start": 1099,
+        "end": 1100
+      },
+      {
+        "name": "template_params_from_individual",
+        "start": 1103,
+        "end": 1137
+      },
+      {
+        "name": "decode",
+        "start": 1140,
+        "end": 1158
+      },
+      {
+        "name": "expand_seed_to_mask",
+        "start": 1161,
+        "end": 1183
+      },
+      {
+        "name": "template_summary",
+        "start": 1186,
+        "end": 1191
+      },
+      {
+        "name": "bitstring",
+        "start": 1193,
+        "end": 1194
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 1197,
+        "end": 1198
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 1201,
+        "end": 1218
+      },
+      {
+        "name": "count_connected_components",
+        "start": 1221,
+        "end": 1242
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1245,
+        "end": 1253
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1256,
+        "end": 1302
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1305,
+        "end": 1336
+      },
+      {
+        "name": "etch_mask_x_12x12",
+        "start": 1339,
+        "end": 1377
+      },
+      {
+        "name": "etch_mask_y_12x12",
+        "start": 1380,
+        "end": 1418
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1425,
+        "end": 1436
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1439,
+        "end": 1447
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1450,
+        "end": 1462
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1465,
+        "end": 1494
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1497,
+        "end": 1526
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1529,
+        "end": 1563
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1566,
+        "end": 1576
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 1579,
+        "end": 1591
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1594,
+        "end": 1685
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1688,
+        "end": 1714
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1717,
+        "end": 1730
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1733,
+        "end": 1739
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1742,
+        "end": 1744
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1747,
+        "end": 1814
+      },
+      {
+        "name": "run_cst",
+        "start": 1817,
+        "end": 1829
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1832,
+        "end": 1833
+      },
+      {
+        "name": "encode_template_params_to_individual",
+        "start": 1836,
+        "end": 1877
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1880,
+        "end": 1882
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1884,
+        "end": 1889
+      },
+      {
+        "name": "initialize_population",
+        "start": 1892,
+        "end": 1942
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1945,
+        "end": 1986
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1989,
+        "end": 2000
+      },
+      {
+        "name": "select_parent",
+        "start": 2003,
+        "end": 2017
+      },
+      {
+        "name": "crossover",
+        "start": 2020,
+        "end": 2024
+      },
+      {
+        "name": "mutate",
+        "start": 2027,
+        "end": 2034
+      },
+      {
+        "name": "make_new_population",
+        "start": 2037,
+        "end": 2069
+      },
+      {
+        "name": "write_best_result",
+        "start": 2072,
+        "end": 2086
+      },
+      {
+        "name": "optimize",
+        "start": 2088,
+        "end": 2148
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 2156,
+        "end": 2194
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 2200,
+        "end": 2209
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 2212,
+        "end": 2223
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 2226,
+        "end": 2252
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 2255,
+        "end": 2343
+      },
+      {
+        "name": "seed5_to_mask9",
+        "start": 2458,
+        "end": 2464
+      },
+      {
+        "name": "upscale_9x9_to_12x12",
+        "start": 2471,
+        "end": 2487
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 2494,
+        "end": 2495
+      },
+      {
+        "name": "flatten_mask",
+        "start": 2498,
+        "end": 2500
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 2503,
+        "end": 2505
+      },
+      {
+        "name": "boundary_positions",
+        "start": 2508,
+        "end": 2526
+      },
+      {
+        "name": "repair_masks",
+        "start": 2533,
+        "end": 2587
+      },
+      {
+        "name": "random_ph_around_base",
+        "start": 2590,
+        "end": 2600
+      },
+      {
+        "name": "random_rs",
+        "start": 2603,
+        "end": 2606
+      },
+      {
+        "name": "make_individual",
+        "start": 2609,
+        "end": 2628
+      },
+      {
+        "name": "clone_individual",
+        "start": 2631,
+        "end": 2639
+      },
+      {
+        "name": "individual_key",
+        "start": 2642,
+        "end": 2651
+      },
+      {
+        "name": "bitstring",
+        "start": 2654,
+        "end": 2659
+      },
+      {
+        "name": "template_summary",
+        "start": 2662,
+        "end": 2675
+      },
+      {
+        "name": "decode",
+        "start": 2678,
+        "end": 2703
+      },
+      {
+        "name": "make_local_variant",
+        "start": 2706,
+        "end": 2743
+      },
+      {
+        "name": "make_template_variant",
+        "start": 2746,
+        "end": 2764
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 2767,
+        "end": 2772
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 2775,
+        "end": 2809
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 2812,
+        "end": 2844
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 2847,
+        "end": 2859
+      },
+      {
+        "name": "extract_metrics",
+        "start": 2862,
+        "end": 2953
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 2956,
+        "end": 2966
+      },
+      {
+        "name": "run_cst",
+        "start": 2969,
+        "end": 2980
+      },
+      {
+        "name": "initialize_population",
+        "start": 2983,
+        "end": 3029
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3032,
+        "end": 3072
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3075,
+        "end": 3084
+      },
+      {
+        "name": "select_parent",
+        "start": 3087,
+        "end": 3098
+      },
+      {
+        "name": "crossover",
+        "start": 3101,
+        "end": 3131
+      },
+      {
+        "name": "mutate",
+        "start": 3134,
+        "end": 3148
+      },
+      {
+        "name": "make_new_population",
+        "start": 3151,
+        "end": 3185
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 3188,
+        "end": 3192
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 3195,
+        "end": 3218
+      },
+      {
+        "name": "write_best_result",
+        "start": 3221,
+        "end": 3242
+      },
+      {
+        "name": "optimize",
+        "start": 3245,
+        "end": 3322
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 3438,
+        "end": 3439
+      },
+      {
+        "name": "flatten_mask",
+        "start": 3442,
+        "end": 3444
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 3447,
+        "end": 3449
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 3452,
+        "end": 3458
+      },
+      {
+        "name": "x_candidate_positions",
+        "start": 3461,
+        "end": 3492
+      },
+      {
+        "name": "repair_x_mask",
+        "start": 3498,
+        "end": 3530
+      },
+      {
+        "name": "repair_y_mask",
+        "start": 3533,
+        "end": 3540
+      },
+      {
+        "name": "repair_masks",
+        "start": 3543,
+        "end": 3548
+      },
+      {
+        "name": "make_individual",
+        "start": 3551,
+        "end": 3573
+      },
+      {
+        "name": "clone_individual",
+        "start": 3576,
+        "end": 3585
+      },
+      {
+        "name": "individual_key",
+        "start": 3588,
+        "end": 3596
+      },
+      {
+        "name": "bitstring",
+        "start": 3599,
+        "end": 3607
+      },
+      {
+        "name": "template_summary",
+        "start": 3610,
+        "end": 3621
+      },
+      {
+        "name": "decode",
+        "start": 3624,
+        "end": 3632
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 3635,
+        "end": 3666
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 3669,
+        "end": 3680
+      },
+      {
+        "name": "run_cst",
+        "start": 3683,
+        "end": 3694
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 3697,
+        "end": 3709
+      },
+      {
+        "name": "extract_metrics",
+        "start": 3712,
+        "end": 3793
+      },
+      {
+        "name": "make_x_variant",
+        "start": 3796,
+        "end": 3830
+      },
+      {
+        "name": "make_ph_rs_variant",
+        "start": 3833,
+        "end": 3856
+      },
+      {
+        "name": "make_structured_x_compensation",
+        "start": 3859,
+        "end": 3891
+      },
+      {
+        "name": "initialize_population",
+        "start": 3894,
+        "end": 3937
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3940,
+        "end": 3976
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3979,
+        "end": 3988
+      },
+      {
+        "name": "select_parent",
+        "start": 3991,
+        "end": 4002
+      },
+      {
+        "name": "crossover",
+        "start": 4005,
+        "end": 4027
+      },
+      {
+        "name": "mutate",
+        "start": 4030,
+        "end": 4042
+      },
+      {
+        "name": "make_new_population",
+        "start": 4045,
+        "end": 4083
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 4086,
+        "end": 4118
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 4121,
+        "end": 4125
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 4128,
+        "end": 4150
+      },
+      {
+        "name": "write_best_result",
+        "start": 4153,
+        "end": 4174
+      },
+      {
+        "name": "optimize",
+        "start": 4177,
+        "end": 4252
+      },
+      {
+        "name": "_boundary_positions",
+        "start": 4410,
+        "end": 4424
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 4441,
+        "end": 4442
+      },
+      {
+        "name": "flatten_mask",
+        "start": 4445,
+        "end": 4446
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 4449,
+        "end": 4451
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 4454,
+        "end": 4460
+      },
+      {
+        "name": "remove_isolated_pixels",
+        "start": 4463,
+        "end": 4477
+      },
+      {
+        "name": "repair_x_mask",
+        "start": 4480,
+        "end": 4498
+      },
+      {
+        "name": "repair_y_mask",
+        "start": 4501,
+        "end": 4530
+      },
+      {
+        "name": "repair_masks",
+        "start": 4533,
+        "end": 4534
+      },
+      {
+        "name": "make_individual",
+        "start": 4537,
+        "end": 4568
+      },
+      {
+        "name": "clone_individual",
+        "start": 4571,
+        "end": 4580
+      },
+      {
+        "name": "individual_key",
+        "start": 4583,
+        "end": 4591
+      },
+      {
+        "name": "bitstring",
+        "start": 4594,
+        "end": 4602
+      },
+      {
+        "name": "template_summary",
+        "start": 4605,
+        "end": 4616
+      },
+      {
+        "name": "decode",
+        "start": 4619,
+        "end": 4627
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 4630,
+        "end": 4666
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 4669,
+        "end": 4679
+      },
+      {
+        "name": "run_cst",
+        "start": 4682,
+        "end": 4693
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 4696,
+        "end": 4708
+      },
+      {
+        "name": "extract_metrics",
+        "start": 4711,
+        "end": 4803
+      },
+      {
+        "name": "random_ph_rs_near_best",
+        "start": 4809,
+        "end": 4827
+      },
+      {
+        "name": "point_flip",
+        "start": 4830,
+        "end": 4846
+      },
+      {
+        "name": "block_mutation",
+        "start": 4849,
+        "end": 4874
+      },
+      {
+        "name": "edge_grow_shrink",
+        "start": 4877,
+        "end": 4916
+      },
+      {
+        "name": "bridge_or_slot_mutation",
+        "start": 4919,
+        "end": 4955
+      },
+      {
+        "name": "apply_random_topology_mutations",
+        "start": 4958,
+        "end": 4980
+      },
+      {
+        "name": "mutate_params",
+        "start": 4983,
+        "end": 4990
+      },
+      {
+        "name": "make_best82_seed",
+        "start": 4996,
+        "end": 5000
+      },
+      {
+        "name": "make_ph_rs_seed",
+        "start": 5003,
+        "end": 5005
+      },
+      {
+        "name": "make_lowfreq_template",
+        "start": 5008,
+        "end": 5029
+      },
+      {
+        "name": "make_hf_template",
+        "start": 5032,
+        "end": 5055
+      },
+      {
+        "name": "make_bridge_template",
+        "start": 5058,
+        "end": 5082
+      },
+      {
+        "name": "make_random_multitemplate_seed",
+        "start": 5085,
+        "end": 5093
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 5099,
+        "end": 5131
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 5134,
+        "end": 5172
+      },
+      {
+        "name": "evaluate_population",
+        "start": 5175,
+        "end": 5184
+      },
+      {
+        "name": "select_parent",
+        "start": 5187,
+        "end": 5198
+      },
+      {
+        "name": "crossover",
+        "start": 5201,
+        "end": 5226
+      },
+      {
+        "name": "mutate",
+        "start": 5229,
+        "end": 5238
+      },
+      {
+        "name": "initialize_population",
+        "start": 5241,
+        "end": 5281
+      },
+      {
+        "name": "make_new_population",
+        "start": 5284,
+        "end": 5327
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 5330,
+        "end": 5334
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 5337,
+        "end": 5359
+      },
+      {
+        "name": "write_best_result",
+        "start": 5362,
+        "end": 5384
+      },
+      {
+        "name": "optimize",
+        "start": 5387,
+        "end": 5464
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 5555,
+        "end": 5556
+      },
+      {
+        "name": "flatten_mask",
+        "start": 5559,
+        "end": 5560
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 5563,
+        "end": 5565
+      },
+      {
+        "name": "make_individual",
+        "start": 5568,
+        "end": 5586
+      },
+      {
+        "name": "clone_individual",
+        "start": 5589,
+        "end": 5590
+      },
+      {
+        "name": "individual_key",
+        "start": 5593,
+        "end": 5594
+      },
+      {
+        "name": "bitstring",
+        "start": 5597,
+        "end": 5600
+      },
+      {
+        "name": "template_summary",
+        "start": 5603,
+        "end": 5606
+      },
+      {
+        "name": "decode",
+        "start": 5609,
+        "end": 5612
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 5615,
+        "end": 5624
+      },
+      {
+        "name": "run_cst",
+        "start": 5627,
+        "end": 5632
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 5635,
+        "end": 5647
+      },
+      {
+        "name": "_interp_rl",
+        "start": 5650,
+        "end": 5651
+      },
+      {
+        "name": "extract_metrics",
+        "start": 5654,
+        "end": 5750
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 5753,
+        "end": 5771
+      },
+      {
+        "name": "evaluate_population",
+        "start": 5774,
+        "end": 5782
+      },
+      {
+        "name": "select_parent",
+        "start": 5785,
+        "end": 5796
+      },
+      {
+        "name": "make_refined_random_seed",
+        "start": 5799,
+        "end": 5804
+      },
+      {
+        "name": "mutate_params",
+        "start": 5807,
+        "end": 5814
+      },
+      {
+        "name": "crossover",
+        "start": 5817,
+        "end": 5823
+      },
+      {
+        "name": "initialize_population",
+        "start": 5826,
+        "end": 5850
+      },
+      {
+        "name": "make_new_population",
+        "start": 5853,
+        "end": 5876
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 5879,
+        "end": 5883
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 5886,
+        "end": 5904
+      },
+      {
+        "name": "write_best_result",
+        "start": 5907,
+        "end": 5933
+      },
+      {
+        "name": "optimize",
+        "start": 5936,
+        "end": 6013
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_12x12_hf_compensation_ga_code.py",
+    "lines": 4267,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 228,
+        "end": 345
+      },
+      {
+        "name": "create_pet_material",
+        "start": 349,
+        "end": 363
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 366,
+        "end": 400
+      },
+      {
+        "name": "_append_error_log",
+        "start": 407,
+        "end": 413
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 416,
+        "end": 423
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 426,
+        "end": 439
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 442,
+        "end": 485
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 488,
+        "end": 549
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 552,
+        "end": 563
+      },
+      {
+        "name": "gaoshang",
+        "start": 568,
+        "end": 571
+      },
+      {
+        "name": "newc",
+        "start": 577,
+        "end": 580
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 584,
+        "end": 614
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 618,
+        "end": 651
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 655,
+        "end": 733
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 738,
+        "end": 765
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 768,
+        "end": 819
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 822,
+        "end": 911
+      },
+      {
+        "name": "reconnect_de",
+        "start": 916,
+        "end": 921
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 924,
+        "end": 930
+      },
+      {
+        "name": "bits_to_int",
+        "start": 933,
+        "end": 934
+      },
+      {
+        "name": "clamp_int",
+        "start": 937,
+        "end": 938
+      },
+      {
+        "name": "build_y_mask_template",
+        "start": 941,
+        "end": 1029
+      },
+      {
+        "name": "build_x_mask_template",
+        "start": 1032,
+        "end": 1096
+      },
+      {
+        "name": "flatten_mask",
+        "start": 1099,
+        "end": 1100
+      },
+      {
+        "name": "template_params_from_individual",
+        "start": 1103,
+        "end": 1137
+      },
+      {
+        "name": "decode",
+        "start": 1140,
+        "end": 1158
+      },
+      {
+        "name": "expand_seed_to_mask",
+        "start": 1161,
+        "end": 1183
+      },
+      {
+        "name": "template_summary",
+        "start": 1186,
+        "end": 1191
+      },
+      {
+        "name": "bitstring",
+        "start": 1193,
+        "end": 1194
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 1197,
+        "end": 1198
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 1201,
+        "end": 1218
+      },
+      {
+        "name": "count_connected_components",
+        "start": 1221,
+        "end": 1242
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1245,
+        "end": 1253
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1256,
+        "end": 1302
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1305,
+        "end": 1336
+      },
+      {
+        "name": "etch_mask_x_12x12",
+        "start": 1339,
+        "end": 1377
+      },
+      {
+        "name": "etch_mask_y_12x12",
+        "start": 1380,
+        "end": 1418
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1425,
+        "end": 1436
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1439,
+        "end": 1447
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1450,
+        "end": 1462
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1465,
+        "end": 1494
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1497,
+        "end": 1526
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1529,
+        "end": 1563
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1566,
+        "end": 1576
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 1579,
+        "end": 1591
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1594,
+        "end": 1685
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1688,
+        "end": 1714
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1717,
+        "end": 1730
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1733,
+        "end": 1739
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1742,
+        "end": 1744
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1747,
+        "end": 1814
+      },
+      {
+        "name": "run_cst",
+        "start": 1817,
+        "end": 1829
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1832,
+        "end": 1833
+      },
+      {
+        "name": "encode_template_params_to_individual",
+        "start": 1836,
+        "end": 1877
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1880,
+        "end": 1882
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1884,
+        "end": 1889
+      },
+      {
+        "name": "initialize_population",
+        "start": 1892,
+        "end": 1942
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1945,
+        "end": 1986
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1989,
+        "end": 2000
+      },
+      {
+        "name": "select_parent",
+        "start": 2003,
+        "end": 2017
+      },
+      {
+        "name": "crossover",
+        "start": 2020,
+        "end": 2024
+      },
+      {
+        "name": "mutate",
+        "start": 2027,
+        "end": 2034
+      },
+      {
+        "name": "make_new_population",
+        "start": 2037,
+        "end": 2069
+      },
+      {
+        "name": "write_best_result",
+        "start": 2072,
+        "end": 2086
+      },
+      {
+        "name": "optimize",
+        "start": 2088,
+        "end": 2148
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 2156,
+        "end": 2194
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 2200,
+        "end": 2209
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 2212,
+        "end": 2223
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 2226,
+        "end": 2252
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 2255,
+        "end": 2343
+      },
+      {
+        "name": "seed5_to_mask9",
+        "start": 2458,
+        "end": 2464
+      },
+      {
+        "name": "upscale_9x9_to_12x12",
+        "start": 2471,
+        "end": 2487
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 2494,
+        "end": 2495
+      },
+      {
+        "name": "flatten_mask",
+        "start": 2498,
+        "end": 2500
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 2503,
+        "end": 2505
+      },
+      {
+        "name": "boundary_positions",
+        "start": 2508,
+        "end": 2526
+      },
+      {
+        "name": "repair_masks",
+        "start": 2533,
+        "end": 2587
+      },
+      {
+        "name": "random_ph_around_base",
+        "start": 2590,
+        "end": 2600
+      },
+      {
+        "name": "random_rs",
+        "start": 2603,
+        "end": 2606
+      },
+      {
+        "name": "make_individual",
+        "start": 2609,
+        "end": 2628
+      },
+      {
+        "name": "clone_individual",
+        "start": 2631,
+        "end": 2639
+      },
+      {
+        "name": "individual_key",
+        "start": 2642,
+        "end": 2651
+      },
+      {
+        "name": "bitstring",
+        "start": 2654,
+        "end": 2659
+      },
+      {
+        "name": "template_summary",
+        "start": 2662,
+        "end": 2675
+      },
+      {
+        "name": "decode",
+        "start": 2678,
+        "end": 2703
+      },
+      {
+        "name": "make_local_variant",
+        "start": 2706,
+        "end": 2743
+      },
+      {
+        "name": "make_template_variant",
+        "start": 2746,
+        "end": 2764
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 2767,
+        "end": 2772
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 2775,
+        "end": 2809
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 2812,
+        "end": 2844
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 2847,
+        "end": 2859
+      },
+      {
+        "name": "extract_metrics",
+        "start": 2862,
+        "end": 2953
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 2956,
+        "end": 2966
+      },
+      {
+        "name": "run_cst",
+        "start": 2969,
+        "end": 2980
+      },
+      {
+        "name": "initialize_population",
+        "start": 2983,
+        "end": 3029
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3032,
+        "end": 3072
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3075,
+        "end": 3084
+      },
+      {
+        "name": "select_parent",
+        "start": 3087,
+        "end": 3098
+      },
+      {
+        "name": "crossover",
+        "start": 3101,
+        "end": 3131
+      },
+      {
+        "name": "mutate",
+        "start": 3134,
+        "end": 3148
+      },
+      {
+        "name": "make_new_population",
+        "start": 3151,
+        "end": 3185
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 3188,
+        "end": 3192
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 3195,
+        "end": 3218
+      },
+      {
+        "name": "write_best_result",
+        "start": 3221,
+        "end": 3242
+      },
+      {
+        "name": "optimize",
+        "start": 3245,
+        "end": 3322
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 3438,
+        "end": 3439
+      },
+      {
+        "name": "flatten_mask",
+        "start": 3442,
+        "end": 3444
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 3447,
+        "end": 3449
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 3452,
+        "end": 3458
+      },
+      {
+        "name": "x_candidate_positions",
+        "start": 3461,
+        "end": 3492
+      },
+      {
+        "name": "repair_x_mask",
+        "start": 3498,
+        "end": 3530
+      },
+      {
+        "name": "repair_y_mask",
+        "start": 3533,
+        "end": 3540
+      },
+      {
+        "name": "repair_masks",
+        "start": 3543,
+        "end": 3548
+      },
+      {
+        "name": "make_individual",
+        "start": 3551,
+        "end": 3573
+      },
+      {
+        "name": "clone_individual",
+        "start": 3576,
+        "end": 3585
+      },
+      {
+        "name": "individual_key",
+        "start": 3588,
+        "end": 3596
+      },
+      {
+        "name": "bitstring",
+        "start": 3599,
+        "end": 3607
+      },
+      {
+        "name": "template_summary",
+        "start": 3610,
+        "end": 3621
+      },
+      {
+        "name": "decode",
+        "start": 3624,
+        "end": 3632
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 3635,
+        "end": 3666
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 3669,
+        "end": 3680
+      },
+      {
+        "name": "run_cst",
+        "start": 3683,
+        "end": 3694
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 3697,
+        "end": 3709
+      },
+      {
+        "name": "extract_metrics",
+        "start": 3712,
+        "end": 3793
+      },
+      {
+        "name": "make_x_variant",
+        "start": 3796,
+        "end": 3830
+      },
+      {
+        "name": "make_ph_rs_variant",
+        "start": 3833,
+        "end": 3856
+      },
+      {
+        "name": "make_structured_x_compensation",
+        "start": 3859,
+        "end": 3891
+      },
+      {
+        "name": "initialize_population",
+        "start": 3894,
+        "end": 3937
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3940,
+        "end": 3976
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3979,
+        "end": 3988
+      },
+      {
+        "name": "select_parent",
+        "start": 3991,
+        "end": 4002
+      },
+      {
+        "name": "crossover",
+        "start": 4005,
+        "end": 4027
+      },
+      {
+        "name": "mutate",
+        "start": 4030,
+        "end": 4042
+      },
+      {
+        "name": "make_new_population",
+        "start": 4045,
+        "end": 4083
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 4086,
+        "end": 4118
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 4121,
+        "end": 4125
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 4128,
+        "end": 4150
+      },
+      {
+        "name": "write_best_result",
+        "start": 4153,
+        "end": 4174
+      },
+      {
+        "name": "optimize",
+        "start": 4177,
+        "end": 4252
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_12x12_hybrid_coverage85_ga_code.py",
+    "lines": 3337,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 228,
+        "end": 345
+      },
+      {
+        "name": "create_pet_material",
+        "start": 349,
+        "end": 363
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 366,
+        "end": 400
+      },
+      {
+        "name": "_append_error_log",
+        "start": 407,
+        "end": 413
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 416,
+        "end": 423
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 426,
+        "end": 439
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 442,
+        "end": 485
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 488,
+        "end": 549
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 552,
+        "end": 563
+      },
+      {
+        "name": "gaoshang",
+        "start": 568,
+        "end": 571
+      },
+      {
+        "name": "newc",
+        "start": 577,
+        "end": 580
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 584,
+        "end": 614
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 618,
+        "end": 651
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 655,
+        "end": 733
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 738,
+        "end": 765
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 768,
+        "end": 819
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 822,
+        "end": 911
+      },
+      {
+        "name": "reconnect_de",
+        "start": 916,
+        "end": 921
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 924,
+        "end": 930
+      },
+      {
+        "name": "bits_to_int",
+        "start": 933,
+        "end": 934
+      },
+      {
+        "name": "clamp_int",
+        "start": 937,
+        "end": 938
+      },
+      {
+        "name": "build_y_mask_template",
+        "start": 941,
+        "end": 1029
+      },
+      {
+        "name": "build_x_mask_template",
+        "start": 1032,
+        "end": 1096
+      },
+      {
+        "name": "flatten_mask",
+        "start": 1099,
+        "end": 1100
+      },
+      {
+        "name": "template_params_from_individual",
+        "start": 1103,
+        "end": 1137
+      },
+      {
+        "name": "decode",
+        "start": 1140,
+        "end": 1158
+      },
+      {
+        "name": "expand_seed_to_mask",
+        "start": 1161,
+        "end": 1183
+      },
+      {
+        "name": "template_summary",
+        "start": 1186,
+        "end": 1191
+      },
+      {
+        "name": "bitstring",
+        "start": 1193,
+        "end": 1194
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 1197,
+        "end": 1198
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 1201,
+        "end": 1218
+      },
+      {
+        "name": "count_connected_components",
+        "start": 1221,
+        "end": 1242
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1245,
+        "end": 1253
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1256,
+        "end": 1302
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1305,
+        "end": 1336
+      },
+      {
+        "name": "etch_mask_x_12x12",
+        "start": 1339,
+        "end": 1377
+      },
+      {
+        "name": "etch_mask_y_12x12",
+        "start": 1380,
+        "end": 1418
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1425,
+        "end": 1436
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1439,
+        "end": 1447
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1450,
+        "end": 1462
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1465,
+        "end": 1494
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1497,
+        "end": 1526
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1529,
+        "end": 1563
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1566,
+        "end": 1576
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 1579,
+        "end": 1591
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1594,
+        "end": 1685
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1688,
+        "end": 1714
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1717,
+        "end": 1730
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1733,
+        "end": 1739
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1742,
+        "end": 1744
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1747,
+        "end": 1814
+      },
+      {
+        "name": "run_cst",
+        "start": 1817,
+        "end": 1829
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1832,
+        "end": 1833
+      },
+      {
+        "name": "encode_template_params_to_individual",
+        "start": 1836,
+        "end": 1877
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1880,
+        "end": 1882
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1884,
+        "end": 1889
+      },
+      {
+        "name": "initialize_population",
+        "start": 1892,
+        "end": 1942
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1945,
+        "end": 1986
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1989,
+        "end": 2000
+      },
+      {
+        "name": "select_parent",
+        "start": 2003,
+        "end": 2017
+      },
+      {
+        "name": "crossover",
+        "start": 2020,
+        "end": 2024
+      },
+      {
+        "name": "mutate",
+        "start": 2027,
+        "end": 2034
+      },
+      {
+        "name": "make_new_population",
+        "start": 2037,
+        "end": 2069
+      },
+      {
+        "name": "write_best_result",
+        "start": 2072,
+        "end": 2086
+      },
+      {
+        "name": "optimize",
+        "start": 2088,
+        "end": 2148
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 2156,
+        "end": 2194
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 2200,
+        "end": 2209
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 2212,
+        "end": 2223
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 2226,
+        "end": 2252
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 2255,
+        "end": 2343
+      },
+      {
+        "name": "seed5_to_mask9",
+        "start": 2458,
+        "end": 2464
+      },
+      {
+        "name": "upscale_9x9_to_12x12",
+        "start": 2471,
+        "end": 2487
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 2494,
+        "end": 2495
+      },
+      {
+        "name": "flatten_mask",
+        "start": 2498,
+        "end": 2500
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 2503,
+        "end": 2505
+      },
+      {
+        "name": "boundary_positions",
+        "start": 2508,
+        "end": 2526
+      },
+      {
+        "name": "repair_masks",
+        "start": 2533,
+        "end": 2587
+      },
+      {
+        "name": "random_ph_around_base",
+        "start": 2590,
+        "end": 2600
+      },
+      {
+        "name": "random_rs",
+        "start": 2603,
+        "end": 2606
+      },
+      {
+        "name": "make_individual",
+        "start": 2609,
+        "end": 2628
+      },
+      {
+        "name": "clone_individual",
+        "start": 2631,
+        "end": 2639
+      },
+      {
+        "name": "individual_key",
+        "start": 2642,
+        "end": 2651
+      },
+      {
+        "name": "bitstring",
+        "start": 2654,
+        "end": 2659
+      },
+      {
+        "name": "template_summary",
+        "start": 2662,
+        "end": 2675
+      },
+      {
+        "name": "decode",
+        "start": 2678,
+        "end": 2703
+      },
+      {
+        "name": "make_local_variant",
+        "start": 2706,
+        "end": 2743
+      },
+      {
+        "name": "make_template_variant",
+        "start": 2746,
+        "end": 2764
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 2767,
+        "end": 2772
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 2775,
+        "end": 2809
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 2812,
+        "end": 2844
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 2847,
+        "end": 2859
+      },
+      {
+        "name": "extract_metrics",
+        "start": 2862,
+        "end": 2953
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 2956,
+        "end": 2966
+      },
+      {
+        "name": "run_cst",
+        "start": 2969,
+        "end": 2980
+      },
+      {
+        "name": "initialize_population",
+        "start": 2983,
+        "end": 3029
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3032,
+        "end": 3072
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3075,
+        "end": 3084
+      },
+      {
+        "name": "select_parent",
+        "start": 3087,
+        "end": 3098
+      },
+      {
+        "name": "crossover",
+        "start": 3101,
+        "end": 3131
+      },
+      {
+        "name": "mutate",
+        "start": 3134,
+        "end": 3148
+      },
+      {
+        "name": "make_new_population",
+        "start": 3151,
+        "end": 3185
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 3188,
+        "end": 3192
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 3195,
+        "end": 3218
+      },
+      {
+        "name": "write_best_result",
+        "start": 3221,
+        "end": 3242
+      },
+      {
+        "name": "optimize",
+        "start": 3245,
+        "end": 3322
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+    "lines": 5479,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 228,
+        "end": 345
+      },
+      {
+        "name": "create_pet_material",
+        "start": 349,
+        "end": 363
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 366,
+        "end": 400
+      },
+      {
+        "name": "_append_error_log",
+        "start": 407,
+        "end": 413
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 416,
+        "end": 423
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 426,
+        "end": 439
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 442,
+        "end": 485
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 488,
+        "end": 549
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 552,
+        "end": 563
+      },
+      {
+        "name": "gaoshang",
+        "start": 568,
+        "end": 571
+      },
+      {
+        "name": "newc",
+        "start": 577,
+        "end": 580
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 584,
+        "end": 614
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 618,
+        "end": 651
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 655,
+        "end": 733
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 738,
+        "end": 765
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 768,
+        "end": 819
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 822,
+        "end": 911
+      },
+      {
+        "name": "reconnect_de",
+        "start": 916,
+        "end": 921
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 924,
+        "end": 930
+      },
+      {
+        "name": "bits_to_int",
+        "start": 933,
+        "end": 934
+      },
+      {
+        "name": "clamp_int",
+        "start": 937,
+        "end": 938
+      },
+      {
+        "name": "build_y_mask_template",
+        "start": 941,
+        "end": 1029
+      },
+      {
+        "name": "build_x_mask_template",
+        "start": 1032,
+        "end": 1096
+      },
+      {
+        "name": "flatten_mask",
+        "start": 1099,
+        "end": 1100
+      },
+      {
+        "name": "template_params_from_individual",
+        "start": 1103,
+        "end": 1137
+      },
+      {
+        "name": "decode",
+        "start": 1140,
+        "end": 1158
+      },
+      {
+        "name": "expand_seed_to_mask",
+        "start": 1161,
+        "end": 1183
+      },
+      {
+        "name": "template_summary",
+        "start": 1186,
+        "end": 1191
+      },
+      {
+        "name": "bitstring",
+        "start": 1193,
+        "end": 1194
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 1197,
+        "end": 1198
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 1201,
+        "end": 1218
+      },
+      {
+        "name": "count_connected_components",
+        "start": 1221,
+        "end": 1242
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1245,
+        "end": 1253
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1256,
+        "end": 1302
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1305,
+        "end": 1336
+      },
+      {
+        "name": "etch_mask_x_12x12",
+        "start": 1339,
+        "end": 1377
+      },
+      {
+        "name": "etch_mask_y_12x12",
+        "start": 1380,
+        "end": 1418
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1425,
+        "end": 1436
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1439,
+        "end": 1447
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1450,
+        "end": 1462
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1465,
+        "end": 1494
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1497,
+        "end": 1526
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1529,
+        "end": 1563
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1566,
+        "end": 1576
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 1579,
+        "end": 1591
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1594,
+        "end": 1685
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1688,
+        "end": 1714
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1717,
+        "end": 1730
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1733,
+        "end": 1739
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1742,
+        "end": 1744
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1747,
+        "end": 1814
+      },
+      {
+        "name": "run_cst",
+        "start": 1817,
+        "end": 1829
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1832,
+        "end": 1833
+      },
+      {
+        "name": "encode_template_params_to_individual",
+        "start": 1836,
+        "end": 1877
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1880,
+        "end": 1882
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1884,
+        "end": 1889
+      },
+      {
+        "name": "initialize_population",
+        "start": 1892,
+        "end": 1942
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1945,
+        "end": 1986
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1989,
+        "end": 2000
+      },
+      {
+        "name": "select_parent",
+        "start": 2003,
+        "end": 2017
+      },
+      {
+        "name": "crossover",
+        "start": 2020,
+        "end": 2024
+      },
+      {
+        "name": "mutate",
+        "start": 2027,
+        "end": 2034
+      },
+      {
+        "name": "make_new_population",
+        "start": 2037,
+        "end": 2069
+      },
+      {
+        "name": "write_best_result",
+        "start": 2072,
+        "end": 2086
+      },
+      {
+        "name": "optimize",
+        "start": 2088,
+        "end": 2148
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 2156,
+        "end": 2194
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 2200,
+        "end": 2209
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 2212,
+        "end": 2223
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 2226,
+        "end": 2252
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 2255,
+        "end": 2343
+      },
+      {
+        "name": "seed5_to_mask9",
+        "start": 2458,
+        "end": 2464
+      },
+      {
+        "name": "upscale_9x9_to_12x12",
+        "start": 2471,
+        "end": 2487
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 2494,
+        "end": 2495
+      },
+      {
+        "name": "flatten_mask",
+        "start": 2498,
+        "end": 2500
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 2503,
+        "end": 2505
+      },
+      {
+        "name": "boundary_positions",
+        "start": 2508,
+        "end": 2526
+      },
+      {
+        "name": "repair_masks",
+        "start": 2533,
+        "end": 2587
+      },
+      {
+        "name": "random_ph_around_base",
+        "start": 2590,
+        "end": 2600
+      },
+      {
+        "name": "random_rs",
+        "start": 2603,
+        "end": 2606
+      },
+      {
+        "name": "make_individual",
+        "start": 2609,
+        "end": 2628
+      },
+      {
+        "name": "clone_individual",
+        "start": 2631,
+        "end": 2639
+      },
+      {
+        "name": "individual_key",
+        "start": 2642,
+        "end": 2651
+      },
+      {
+        "name": "bitstring",
+        "start": 2654,
+        "end": 2659
+      },
+      {
+        "name": "template_summary",
+        "start": 2662,
+        "end": 2675
+      },
+      {
+        "name": "decode",
+        "start": 2678,
+        "end": 2703
+      },
+      {
+        "name": "make_local_variant",
+        "start": 2706,
+        "end": 2743
+      },
+      {
+        "name": "make_template_variant",
+        "start": 2746,
+        "end": 2764
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 2767,
+        "end": 2772
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 2775,
+        "end": 2809
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 2812,
+        "end": 2844
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 2847,
+        "end": 2859
+      },
+      {
+        "name": "extract_metrics",
+        "start": 2862,
+        "end": 2953
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 2956,
+        "end": 2966
+      },
+      {
+        "name": "run_cst",
+        "start": 2969,
+        "end": 2980
+      },
+      {
+        "name": "initialize_population",
+        "start": 2983,
+        "end": 3029
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3032,
+        "end": 3072
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3075,
+        "end": 3084
+      },
+      {
+        "name": "select_parent",
+        "start": 3087,
+        "end": 3098
+      },
+      {
+        "name": "crossover",
+        "start": 3101,
+        "end": 3131
+      },
+      {
+        "name": "mutate",
+        "start": 3134,
+        "end": 3148
+      },
+      {
+        "name": "make_new_population",
+        "start": 3151,
+        "end": 3185
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 3188,
+        "end": 3192
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 3195,
+        "end": 3218
+      },
+      {
+        "name": "write_best_result",
+        "start": 3221,
+        "end": 3242
+      },
+      {
+        "name": "optimize",
+        "start": 3245,
+        "end": 3322
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 3438,
+        "end": 3439
+      },
+      {
+        "name": "flatten_mask",
+        "start": 3442,
+        "end": 3444
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 3447,
+        "end": 3449
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 3452,
+        "end": 3458
+      },
+      {
+        "name": "x_candidate_positions",
+        "start": 3461,
+        "end": 3492
+      },
+      {
+        "name": "repair_x_mask",
+        "start": 3498,
+        "end": 3530
+      },
+      {
+        "name": "repair_y_mask",
+        "start": 3533,
+        "end": 3540
+      },
+      {
+        "name": "repair_masks",
+        "start": 3543,
+        "end": 3548
+      },
+      {
+        "name": "make_individual",
+        "start": 3551,
+        "end": 3573
+      },
+      {
+        "name": "clone_individual",
+        "start": 3576,
+        "end": 3585
+      },
+      {
+        "name": "individual_key",
+        "start": 3588,
+        "end": 3596
+      },
+      {
+        "name": "bitstring",
+        "start": 3599,
+        "end": 3607
+      },
+      {
+        "name": "template_summary",
+        "start": 3610,
+        "end": 3621
+      },
+      {
+        "name": "decode",
+        "start": 3624,
+        "end": 3632
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 3635,
+        "end": 3666
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 3669,
+        "end": 3680
+      },
+      {
+        "name": "run_cst",
+        "start": 3683,
+        "end": 3694
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 3697,
+        "end": 3709
+      },
+      {
+        "name": "extract_metrics",
+        "start": 3712,
+        "end": 3793
+      },
+      {
+        "name": "make_x_variant",
+        "start": 3796,
+        "end": 3830
+      },
+      {
+        "name": "make_ph_rs_variant",
+        "start": 3833,
+        "end": 3856
+      },
+      {
+        "name": "make_structured_x_compensation",
+        "start": 3859,
+        "end": 3891
+      },
+      {
+        "name": "initialize_population",
+        "start": 3894,
+        "end": 3937
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3940,
+        "end": 3976
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3979,
+        "end": 3988
+      },
+      {
+        "name": "select_parent",
+        "start": 3991,
+        "end": 4002
+      },
+      {
+        "name": "crossover",
+        "start": 4005,
+        "end": 4027
+      },
+      {
+        "name": "mutate",
+        "start": 4030,
+        "end": 4042
+      },
+      {
+        "name": "make_new_population",
+        "start": 4045,
+        "end": 4083
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 4086,
+        "end": 4118
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 4121,
+        "end": 4125
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 4128,
+        "end": 4150
+      },
+      {
+        "name": "write_best_result",
+        "start": 4153,
+        "end": 4174
+      },
+      {
+        "name": "optimize",
+        "start": 4177,
+        "end": 4252
+      },
+      {
+        "name": "_boundary_positions",
+        "start": 4410,
+        "end": 4424
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 4441,
+        "end": 4442
+      },
+      {
+        "name": "flatten_mask",
+        "start": 4445,
+        "end": 4446
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 4449,
+        "end": 4451
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 4454,
+        "end": 4460
+      },
+      {
+        "name": "remove_isolated_pixels",
+        "start": 4463,
+        "end": 4477
+      },
+      {
+        "name": "repair_x_mask",
+        "start": 4480,
+        "end": 4498
+      },
+      {
+        "name": "repair_y_mask",
+        "start": 4501,
+        "end": 4530
+      },
+      {
+        "name": "repair_masks",
+        "start": 4533,
+        "end": 4534
+      },
+      {
+        "name": "make_individual",
+        "start": 4537,
+        "end": 4568
+      },
+      {
+        "name": "clone_individual",
+        "start": 4571,
+        "end": 4580
+      },
+      {
+        "name": "individual_key",
+        "start": 4583,
+        "end": 4591
+      },
+      {
+        "name": "bitstring",
+        "start": 4594,
+        "end": 4602
+      },
+      {
+        "name": "template_summary",
+        "start": 4605,
+        "end": 4616
+      },
+      {
+        "name": "decode",
+        "start": 4619,
+        "end": 4627
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 4630,
+        "end": 4666
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 4669,
+        "end": 4679
+      },
+      {
+        "name": "run_cst",
+        "start": 4682,
+        "end": 4693
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 4696,
+        "end": 4708
+      },
+      {
+        "name": "extract_metrics",
+        "start": 4711,
+        "end": 4803
+      },
+      {
+        "name": "random_ph_rs_near_best",
+        "start": 4809,
+        "end": 4827
+      },
+      {
+        "name": "point_flip",
+        "start": 4830,
+        "end": 4846
+      },
+      {
+        "name": "block_mutation",
+        "start": 4849,
+        "end": 4874
+      },
+      {
+        "name": "edge_grow_shrink",
+        "start": 4877,
+        "end": 4916
+      },
+      {
+        "name": "bridge_or_slot_mutation",
+        "start": 4919,
+        "end": 4955
+      },
+      {
+        "name": "apply_random_topology_mutations",
+        "start": 4958,
+        "end": 4980
+      },
+      {
+        "name": "mutate_params",
+        "start": 4983,
+        "end": 4990
+      },
+      {
+        "name": "make_best82_seed",
+        "start": 4996,
+        "end": 5000
+      },
+      {
+        "name": "make_ph_rs_seed",
+        "start": 5003,
+        "end": 5005
+      },
+      {
+        "name": "make_lowfreq_template",
+        "start": 5008,
+        "end": 5029
+      },
+      {
+        "name": "make_hf_template",
+        "start": 5032,
+        "end": 5055
+      },
+      {
+        "name": "make_bridge_template",
+        "start": 5058,
+        "end": 5082
+      },
+      {
+        "name": "make_random_multitemplate_seed",
+        "start": 5085,
+        "end": 5093
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 5099,
+        "end": 5131
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 5134,
+        "end": 5172
+      },
+      {
+        "name": "evaluate_population",
+        "start": 5175,
+        "end": 5184
+      },
+      {
+        "name": "select_parent",
+        "start": 5187,
+        "end": 5198
+      },
+      {
+        "name": "crossover",
+        "start": 5201,
+        "end": 5226
+      },
+      {
+        "name": "mutate",
+        "start": 5229,
+        "end": 5238
+      },
+      {
+        "name": "initialize_population",
+        "start": 5241,
+        "end": 5281
+      },
+      {
+        "name": "make_new_population",
+        "start": 5284,
+        "end": 5327
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 5330,
+        "end": 5334
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 5337,
+        "end": 5359
+      },
+      {
+        "name": "write_best_result",
+        "start": 5362,
+        "end": 5384
+      },
+      {
+        "name": "optimize",
+        "start": 5387,
+        "end": 5464
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_12x12_quarter_symmetric_ga_code.py",
+    "lines": 6194,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 228,
+        "end": 345
+      },
+      {
+        "name": "create_pet_material",
+        "start": 349,
+        "end": 363
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 366,
+        "end": 400
+      },
+      {
+        "name": "_append_error_log",
+        "start": 407,
+        "end": 413
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 416,
+        "end": 423
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 426,
+        "end": 439
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 442,
+        "end": 485
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 488,
+        "end": 549
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 552,
+        "end": 563
+      },
+      {
+        "name": "gaoshang",
+        "start": 568,
+        "end": 571
+      },
+      {
+        "name": "newc",
+        "start": 577,
+        "end": 580
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 584,
+        "end": 614
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 618,
+        "end": 651
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 655,
+        "end": 733
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 738,
+        "end": 765
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 768,
+        "end": 819
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 822,
+        "end": 911
+      },
+      {
+        "name": "reconnect_de",
+        "start": 916,
+        "end": 921
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 924,
+        "end": 930
+      },
+      {
+        "name": "bits_to_int",
+        "start": 933,
+        "end": 934
+      },
+      {
+        "name": "clamp_int",
+        "start": 937,
+        "end": 938
+      },
+      {
+        "name": "build_y_mask_template",
+        "start": 941,
+        "end": 1029
+      },
+      {
+        "name": "build_x_mask_template",
+        "start": 1032,
+        "end": 1096
+      },
+      {
+        "name": "flatten_mask",
+        "start": 1099,
+        "end": 1100
+      },
+      {
+        "name": "template_params_from_individual",
+        "start": 1103,
+        "end": 1137
+      },
+      {
+        "name": "decode",
+        "start": 1140,
+        "end": 1158
+      },
+      {
+        "name": "expand_seed_to_mask",
+        "start": 1161,
+        "end": 1183
+      },
+      {
+        "name": "template_summary",
+        "start": 1186,
+        "end": 1191
+      },
+      {
+        "name": "bitstring",
+        "start": 1193,
+        "end": 1194
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 1197,
+        "end": 1198
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 1201,
+        "end": 1218
+      },
+      {
+        "name": "count_connected_components",
+        "start": 1221,
+        "end": 1242
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1245,
+        "end": 1253
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1256,
+        "end": 1302
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1305,
+        "end": 1336
+      },
+      {
+        "name": "etch_mask_x_12x12",
+        "start": 1339,
+        "end": 1377
+      },
+      {
+        "name": "etch_mask_y_12x12",
+        "start": 1380,
+        "end": 1418
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1425,
+        "end": 1436
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1439,
+        "end": 1447
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1450,
+        "end": 1462
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1465,
+        "end": 1494
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1497,
+        "end": 1526
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1529,
+        "end": 1563
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1566,
+        "end": 1576
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 1579,
+        "end": 1591
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1594,
+        "end": 1685
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1688,
+        "end": 1714
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1717,
+        "end": 1730
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1733,
+        "end": 1739
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1742,
+        "end": 1744
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1747,
+        "end": 1814
+      },
+      {
+        "name": "run_cst",
+        "start": 1817,
+        "end": 1829
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1832,
+        "end": 1833
+      },
+      {
+        "name": "encode_template_params_to_individual",
+        "start": 1836,
+        "end": 1877
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1880,
+        "end": 1882
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1884,
+        "end": 1889
+      },
+      {
+        "name": "initialize_population",
+        "start": 1892,
+        "end": 1942
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1945,
+        "end": 1986
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1989,
+        "end": 2000
+      },
+      {
+        "name": "select_parent",
+        "start": 2003,
+        "end": 2017
+      },
+      {
+        "name": "crossover",
+        "start": 2020,
+        "end": 2024
+      },
+      {
+        "name": "mutate",
+        "start": 2027,
+        "end": 2034
+      },
+      {
+        "name": "make_new_population",
+        "start": 2037,
+        "end": 2069
+      },
+      {
+        "name": "write_best_result",
+        "start": 2072,
+        "end": 2086
+      },
+      {
+        "name": "optimize",
+        "start": 2088,
+        "end": 2148
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 2156,
+        "end": 2194
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 2200,
+        "end": 2209
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 2212,
+        "end": 2223
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 2226,
+        "end": 2252
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 2255,
+        "end": 2343
+      },
+      {
+        "name": "seed5_to_mask9",
+        "start": 2458,
+        "end": 2464
+      },
+      {
+        "name": "upscale_9x9_to_12x12",
+        "start": 2471,
+        "end": 2487
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 2494,
+        "end": 2495
+      },
+      {
+        "name": "flatten_mask",
+        "start": 2498,
+        "end": 2500
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 2503,
+        "end": 2505
+      },
+      {
+        "name": "boundary_positions",
+        "start": 2508,
+        "end": 2526
+      },
+      {
+        "name": "repair_masks",
+        "start": 2533,
+        "end": 2587
+      },
+      {
+        "name": "random_ph_around_base",
+        "start": 2590,
+        "end": 2600
+      },
+      {
+        "name": "random_rs",
+        "start": 2603,
+        "end": 2606
+      },
+      {
+        "name": "make_individual",
+        "start": 2609,
+        "end": 2628
+      },
+      {
+        "name": "clone_individual",
+        "start": 2631,
+        "end": 2639
+      },
+      {
+        "name": "individual_key",
+        "start": 2642,
+        "end": 2651
+      },
+      {
+        "name": "bitstring",
+        "start": 2654,
+        "end": 2659
+      },
+      {
+        "name": "template_summary",
+        "start": 2662,
+        "end": 2675
+      },
+      {
+        "name": "decode",
+        "start": 2678,
+        "end": 2703
+      },
+      {
+        "name": "make_local_variant",
+        "start": 2706,
+        "end": 2743
+      },
+      {
+        "name": "make_template_variant",
+        "start": 2746,
+        "end": 2764
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 2767,
+        "end": 2772
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 2775,
+        "end": 2809
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 2812,
+        "end": 2844
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 2847,
+        "end": 2859
+      },
+      {
+        "name": "extract_metrics",
+        "start": 2862,
+        "end": 2953
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 2956,
+        "end": 2966
+      },
+      {
+        "name": "run_cst",
+        "start": 2969,
+        "end": 2980
+      },
+      {
+        "name": "initialize_population",
+        "start": 2983,
+        "end": 3029
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3032,
+        "end": 3072
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3075,
+        "end": 3084
+      },
+      {
+        "name": "select_parent",
+        "start": 3087,
+        "end": 3098
+      },
+      {
+        "name": "crossover",
+        "start": 3101,
+        "end": 3131
+      },
+      {
+        "name": "mutate",
+        "start": 3134,
+        "end": 3148
+      },
+      {
+        "name": "make_new_population",
+        "start": 3151,
+        "end": 3185
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 3188,
+        "end": 3192
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 3195,
+        "end": 3218
+      },
+      {
+        "name": "write_best_result",
+        "start": 3221,
+        "end": 3242
+      },
+      {
+        "name": "optimize",
+        "start": 3245,
+        "end": 3322
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 3438,
+        "end": 3439
+      },
+      {
+        "name": "flatten_mask",
+        "start": 3442,
+        "end": 3444
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 3447,
+        "end": 3449
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 3452,
+        "end": 3458
+      },
+      {
+        "name": "x_candidate_positions",
+        "start": 3461,
+        "end": 3492
+      },
+      {
+        "name": "repair_x_mask",
+        "start": 3498,
+        "end": 3530
+      },
+      {
+        "name": "repair_y_mask",
+        "start": 3533,
+        "end": 3540
+      },
+      {
+        "name": "repair_masks",
+        "start": 3543,
+        "end": 3548
+      },
+      {
+        "name": "make_individual",
+        "start": 3551,
+        "end": 3573
+      },
+      {
+        "name": "clone_individual",
+        "start": 3576,
+        "end": 3585
+      },
+      {
+        "name": "individual_key",
+        "start": 3588,
+        "end": 3596
+      },
+      {
+        "name": "bitstring",
+        "start": 3599,
+        "end": 3607
+      },
+      {
+        "name": "template_summary",
+        "start": 3610,
+        "end": 3621
+      },
+      {
+        "name": "decode",
+        "start": 3624,
+        "end": 3632
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 3635,
+        "end": 3666
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 3669,
+        "end": 3680
+      },
+      {
+        "name": "run_cst",
+        "start": 3683,
+        "end": 3694
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 3697,
+        "end": 3709
+      },
+      {
+        "name": "extract_metrics",
+        "start": 3712,
+        "end": 3793
+      },
+      {
+        "name": "make_x_variant",
+        "start": 3796,
+        "end": 3830
+      },
+      {
+        "name": "make_ph_rs_variant",
+        "start": 3833,
+        "end": 3856
+      },
+      {
+        "name": "make_structured_x_compensation",
+        "start": 3859,
+        "end": 3891
+      },
+      {
+        "name": "initialize_population",
+        "start": 3894,
+        "end": 3937
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 3940,
+        "end": 3976
+      },
+      {
+        "name": "evaluate_population",
+        "start": 3979,
+        "end": 3988
+      },
+      {
+        "name": "select_parent",
+        "start": 3991,
+        "end": 4002
+      },
+      {
+        "name": "crossover",
+        "start": 4005,
+        "end": 4027
+      },
+      {
+        "name": "mutate",
+        "start": 4030,
+        "end": 4042
+      },
+      {
+        "name": "make_new_population",
+        "start": 4045,
+        "end": 4083
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 4086,
+        "end": 4118
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 4121,
+        "end": 4125
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 4128,
+        "end": 4150
+      },
+      {
+        "name": "write_best_result",
+        "start": 4153,
+        "end": 4174
+      },
+      {
+        "name": "optimize",
+        "start": 4177,
+        "end": 4252
+      },
+      {
+        "name": "_boundary_positions",
+        "start": 4410,
+        "end": 4424
+      },
+      {
+        "name": "ensure_array_mask",
+        "start": 4441,
+        "end": 4442
+      },
+      {
+        "name": "flatten_mask",
+        "start": 4445,
+        "end": 4446
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 4449,
+        "end": 4451
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 4454,
+        "end": 4460
+      },
+      {
+        "name": "remove_isolated_pixels",
+        "start": 4463,
+        "end": 4477
+      },
+      {
+        "name": "repair_x_mask",
+        "start": 4480,
+        "end": 4498
+      },
+      {
+        "name": "repair_y_mask",
+        "start": 4501,
+        "end": 4530
+      },
+      {
+        "name": "repair_masks",
+        "start": 4533,
+        "end": 4534
+      },
+      {
+        "name": "make_individual",
+        "start": 4537,
+        "end": 4568
+      },
+      {
+        "name": "clone_individual",
+        "start": 4571,
+        "end": 4580
+      },
+      {
+        "name": "individual_key",
+        "start": 4583,
+        "end": 4591
+      },
+      {
+        "name": "bitstring",
+        "start": 4594,
+        "end": 4602
+      },
+      {
+        "name": "template_summary",
+        "start": 4605,
+        "end": 4616
+      },
+      {
+        "name": "decode",
+        "start": 4619,
+        "end": 4627
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 4630,
+        "end": 4666
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 4669,
+        "end": 4679
+      },
+      {
+        "name": "run_cst",
+        "start": 4682,
+        "end": 4693
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 4696,
+        "end": 4708
+      },
+      {
+        "name": "extract_metrics",
+        "start": 4711,
+        "end": 4803
+      },
+      {
+        "name": "random_ph_rs_near_best",
+        "start": 4809,
+        "end": 4827
+      },
+      {
+        "name": "point_flip",
+        "start": 4830,
+        "end": 4846
+      },
+      {
+        "name": "block_mutation",
+        "start": 4849,
+        "end": 4874
+      },
+      {
+        "name": "edge_grow_shrink",
+        "start": 4877,
+        "end": 4916
+      },
+      {
+        "name": "bridge_or_slot_mutation",
+        "start": 4919,
+        "end": 4955
+      },
+      {
+        "name": "apply_random_topology_mutations",
+        "start": 4958,
+        "end": 4980
+      },
+      {
+        "name": "mutate_params",
+        "start": 4983,
+        "end": 4990
+      },
+      {
+        "name": "make_best82_seed",
+        "start": 4996,
+        "end": 5000
+      },
+      {
+        "name": "make_ph_rs_seed",
+        "start": 5003,
+        "end": 5005
+      },
+      {
+        "name": "make_lowfreq_template",
+        "start": 5008,
+        "end": 5029
+      },
+      {
+        "name": "make_hf_template",
+        "start": 5032,
+        "end": 5055
+      },
+      {
+        "name": "make_bridge_template",
+        "start": 5058,
+        "end": 5082
+      },
+      {
+        "name": "make_random_multitemplate_seed",
+        "start": 5085,
+        "end": 5093
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 5099,
+        "end": 5131
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 5134,
+        "end": 5172
+      },
+      {
+        "name": "evaluate_population",
+        "start": 5175,
+        "end": 5184
+      },
+      {
+        "name": "select_parent",
+        "start": 5187,
+        "end": 5198
+      },
+      {
+        "name": "crossover",
+        "start": 5201,
+        "end": 5226
+      },
+      {
+        "name": "mutate",
+        "start": 5229,
+        "end": 5238
+      },
+      {
+        "name": "initialize_population",
+        "start": 5241,
+        "end": 5281
+      },
+      {
+        "name": "make_new_population",
+        "start": 5284,
+        "end": 5327
+      },
+      {
+        "name": "save_mask_txt",
+        "start": 5330,
+        "end": 5334
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 5337,
+        "end": 5359
+      },
+      {
+        "name": "write_best_result",
+        "start": 5362,
+        "end": 5384
+      },
+      {
+        "name": "optimize",
+        "start": 5387,
+        "end": 5464
+      },
+      {
+        "name": "qarr",
+        "start": 5572,
+        "end": 5573
+      },
+      {
+        "name": "marr",
+        "start": 5576,
+        "end": 5577
+      },
+      {
+        "name": "quarter_to_full",
+        "start": 5580,
+        "end": 5583
+      },
+      {
+        "name": "flatten_mask",
+        "start": 5586,
+        "end": 5587
+      },
+      {
+        "name": "flatten_q",
+        "start": 5590,
+        "end": 5591
+      },
+      {
+        "name": "matrix_to_string",
+        "start": 5594,
+        "end": 5596
+      },
+      {
+        "name": "mask_quality",
+        "start": 5599,
+        "end": 5605
+      },
+      {
+        "name": "remove_isolated_by_full",
+        "start": 5608,
+        "end": 5626
+      },
+      {
+        "name": "repair_qx",
+        "start": 5629,
+        "end": 5648
+      },
+      {
+        "name": "repair_qy",
+        "start": 5651,
+        "end": 5678
+      },
+      {
+        "name": "repair",
+        "start": 5681,
+        "end": 5682
+      },
+      {
+        "name": "make_individual",
+        "start": 5685,
+        "end": 5701
+      },
+      {
+        "name": "clone_individual",
+        "start": 5704,
+        "end": 5706
+      },
+      {
+        "name": "individual_key",
+        "start": 5709,
+        "end": 5710
+      },
+      {
+        "name": "bitstring",
+        "start": 5713,
+        "end": 5716
+      },
+      {
+        "name": "template_summary",
+        "start": 5719,
+        "end": 5725
+      },
+      {
+        "name": "decode",
+        "start": 5728,
+        "end": 5730
+      },
+      {
+        "name": "prefilter",
+        "start": 5733,
+        "end": 5744
+      },
+      {
+        "name": "configure_rs_for_individual",
+        "start": 5747,
+        "end": 5753
+      },
+      {
+        "name": "run_cst",
+        "start": 5756,
+        "end": 5760
+      },
+      {
+        "name": "_find_intervals",
+        "start": 5763,
+        "end": 5772
+      },
+      {
+        "name": "_interp",
+        "start": 5775,
+        "end": 5776
+      },
+      {
+        "name": "extract_metrics",
+        "start": 5779,
+        "end": 5827
+      },
+      {
+        "name": "random_phrs",
+        "start": 5830,
+        "end": 5833
+      },
+      {
+        "name": "mutate_params",
+        "start": 5836,
+        "end": 5843
+      },
+      {
+        "name": "point_flip",
+        "start": 5846,
+        "end": 5856
+      },
+      {
+        "name": "block_mut",
+        "start": 5859,
+        "end": 5870
+      },
+      {
+        "name": "bridge_slot",
+        "start": 5873,
+        "end": 5892
+      },
+      {
+        "name": "topo_mut",
+        "start": 5895,
+        "end": 5904
+      },
+      {
+        "name": "seed_current",
+        "start": 5907,
+        "end": 5908
+      },
+      {
+        "name": "seed_lowfreq",
+        "start": 5911,
+        "end": 5919
+      },
+      {
+        "name": "seed_hf",
+        "start": 5922,
+        "end": 5931
+      },
+      {
+        "name": "seed_bridge",
+        "start": 5934,
+        "end": 5940
+      },
+      {
+        "name": "seed_sparse",
+        "start": 5943,
+        "end": 5949
+      },
+      {
+        "name": "random_template",
+        "start": 5952,
+        "end": 5958
+      },
+      {
+        "name": "initialize_population",
+        "start": 5961,
+        "end": 5983
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 5986,
+        "end": 6004
+      },
+      {
+        "name": "evaluate_population",
+        "start": 6007,
+        "end": 6014
+      },
+      {
+        "name": "select_parent",
+        "start": 6017,
+        "end": 6024
+      },
+      {
+        "name": "crossover",
+        "start": 6027,
+        "end": 6040
+      },
+      {
+        "name": "mutate",
+        "start": 6043,
+        "end": 6047
+      },
+      {
+        "name": "make_new_population",
+        "start": 6050,
+        "end": 6071
+      },
+      {
+        "name": "save_txt",
+        "start": 6074,
+        "end": 6077
+      },
+      {
+        "name": "export_mask_figure",
+        "start": 6080,
+        "end": 6089
+      },
+      {
+        "name": "export_quarter_figure",
+        "start": 6092,
+        "end": 6101
+      },
+      {
+        "name": "cleanup_temp",
+        "start": 6104,
+        "end": 6111
+      },
+      {
+        "name": "write_best",
+        "start": 6114,
+        "end": 6136
+      },
+      {
+        "name": "optimize",
+        "start": 6139,
+        "end": 6179
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_12x12_template_coverage85_ga_code.py",
+    "lines": 2354,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 228,
+        "end": 345
+      },
+      {
+        "name": "create_pet_material",
+        "start": 349,
+        "end": 363
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 366,
+        "end": 400
+      },
+      {
+        "name": "_append_error_log",
+        "start": 407,
+        "end": 413
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 416,
+        "end": 423
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 426,
+        "end": 439
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 442,
+        "end": 485
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 488,
+        "end": 549
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 552,
+        "end": 563
+      },
+      {
+        "name": "gaoshang",
+        "start": 568,
+        "end": 571
+      },
+      {
+        "name": "newc",
+        "start": 577,
+        "end": 580
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 584,
+        "end": 614
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 618,
+        "end": 651
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 655,
+        "end": 733
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 738,
+        "end": 765
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 768,
+        "end": 819
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 822,
+        "end": 911
+      },
+      {
+        "name": "reconnect_de",
+        "start": 916,
+        "end": 921
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 924,
+        "end": 930
+      },
+      {
+        "name": "bits_to_int",
+        "start": 933,
+        "end": 934
+      },
+      {
+        "name": "clamp_int",
+        "start": 937,
+        "end": 938
+      },
+      {
+        "name": "build_y_mask_template",
+        "start": 941,
+        "end": 1029
+      },
+      {
+        "name": "build_x_mask_template",
+        "start": 1032,
+        "end": 1096
+      },
+      {
+        "name": "flatten_mask",
+        "start": 1099,
+        "end": 1100
+      },
+      {
+        "name": "template_params_from_individual",
+        "start": 1103,
+        "end": 1137
+      },
+      {
+        "name": "decode",
+        "start": 1140,
+        "end": 1158
+      },
+      {
+        "name": "expand_seed_to_mask",
+        "start": 1161,
+        "end": 1183
+      },
+      {
+        "name": "template_summary",
+        "start": 1186,
+        "end": 1191
+      },
+      {
+        "name": "bitstring",
+        "start": 1193,
+        "end": 1194
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 1197,
+        "end": 1198
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 1201,
+        "end": 1218
+      },
+      {
+        "name": "count_connected_components",
+        "start": 1221,
+        "end": 1242
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1245,
+        "end": 1253
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1256,
+        "end": 1302
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1305,
+        "end": 1336
+      },
+      {
+        "name": "etch_mask_x_12x12",
+        "start": 1339,
+        "end": 1377
+      },
+      {
+        "name": "etch_mask_y_12x12",
+        "start": 1380,
+        "end": 1418
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1425,
+        "end": 1436
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1439,
+        "end": 1447
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1450,
+        "end": 1462
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1465,
+        "end": 1494
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1497,
+        "end": 1526
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1529,
+        "end": 1563
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1566,
+        "end": 1576
+      },
+      {
+        "name": "_find_effective_intervals",
+        "start": 1579,
+        "end": 1591
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1594,
+        "end": 1685
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1688,
+        "end": 1714
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1717,
+        "end": 1730
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1733,
+        "end": 1739
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1742,
+        "end": 1744
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1747,
+        "end": 1814
+      },
+      {
+        "name": "run_cst",
+        "start": 1817,
+        "end": 1829
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1832,
+        "end": 1833
+      },
+      {
+        "name": "encode_template_params_to_individual",
+        "start": 1836,
+        "end": 1877
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1880,
+        "end": 1882
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1884,
+        "end": 1889
+      },
+      {
+        "name": "initialize_population",
+        "start": 1892,
+        "end": 1942
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1945,
+        "end": 1986
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1989,
+        "end": 2000
+      },
+      {
+        "name": "select_parent",
+        "start": 2003,
+        "end": 2017
+      },
+      {
+        "name": "crossover",
+        "start": 2020,
+        "end": 2024
+      },
+      {
+        "name": "mutate",
+        "start": 2027,
+        "end": 2034
+      },
+      {
+        "name": "make_new_population",
+        "start": 2037,
+        "end": 2069
+      },
+      {
+        "name": "write_best_result",
+        "start": 2072,
+        "end": 2086
+      },
+      {
+        "name": "optimize",
+        "start": 2088,
+        "end": 2148
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 2156,
+        "end": 2194
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 2200,
+        "end": 2209
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 2212,
+        "end": 2223
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 2226,
+        "end": 2252
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 2255,
+        "end": 2343
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_6x6_ga_stable_code.py",
+    "lines": 2000,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 198,
+        "end": 315
+      },
+      {
+        "name": "create_pet_material",
+        "start": 319,
+        "end": 333
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 336,
+        "end": 370
+      },
+      {
+        "name": "_append_error_log",
+        "start": 377,
+        "end": 383
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 386,
+        "end": 393
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 396,
+        "end": 409
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 412,
+        "end": 455
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 458,
+        "end": 519
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 522,
+        "end": 533
+      },
+      {
+        "name": "gaoshang",
+        "start": 538,
+        "end": 541
+      },
+      {
+        "name": "newc",
+        "start": 547,
+        "end": 550
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 554,
+        "end": 584
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 588,
+        "end": 621
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 625,
+        "end": 703
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 708,
+        "end": 735
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 738,
+        "end": 789
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 792,
+        "end": 881
+      },
+      {
+        "name": "reconnect_de",
+        "start": 886,
+        "end": 891
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 894,
+        "end": 900
+      },
+      {
+        "name": "decode",
+        "start": 903,
+        "end": 920
+      },
+      {
+        "name": "expand_seed_to_6x6",
+        "start": 923,
+        "end": 940
+      },
+      {
+        "name": "bitstring",
+        "start": 943,
+        "end": 944
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 947,
+        "end": 948
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 951,
+        "end": 968
+      },
+      {
+        "name": "count_connected_components",
+        "start": 971,
+        "end": 992
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 995,
+        "end": 1003
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1006,
+        "end": 1052
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1055,
+        "end": 1086
+      },
+      {
+        "name": "etch_mask_x_6x6",
+        "start": 1089,
+        "end": 1127
+      },
+      {
+        "name": "etch_mask_y_6x6",
+        "start": 1130,
+        "end": 1168
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1175,
+        "end": 1186
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1189,
+        "end": 1197
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1200,
+        "end": 1212
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1215,
+        "end": 1244
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1247,
+        "end": 1276
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1279,
+        "end": 1316
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1319,
+        "end": 1330
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1333,
+        "end": 1372
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1374,
+        "end": 1400
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1403,
+        "end": 1416
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1419,
+        "end": 1425
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1428,
+        "end": 1430
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1433,
+        "end": 1500
+      },
+      {
+        "name": "run_cst",
+        "start": 1503,
+        "end": 1515
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1518,
+        "end": 1519
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1522,
+        "end": 1534
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1537,
+        "end": 1542
+      },
+      {
+        "name": "initialize_population",
+        "start": 1545,
+        "end": 1595
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1598,
+        "end": 1639
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1642,
+        "end": 1653
+      },
+      {
+        "name": "select_parent",
+        "start": 1656,
+        "end": 1670
+      },
+      {
+        "name": "crossover",
+        "start": 1673,
+        "end": 1677
+      },
+      {
+        "name": "mutate",
+        "start": 1680,
+        "end": 1687
+      },
+      {
+        "name": "make_new_population",
+        "start": 1690,
+        "end": 1722
+      },
+      {
+        "name": "write_best_result",
+        "start": 1725,
+        "end": 1734
+      },
+      {
+        "name": "optimize",
+        "start": 1736,
+        "end": 1794
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 1802,
+        "end": 1840
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 1846,
+        "end": 1855
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 1858,
+        "end": 1869
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 1872,
+        "end": 1898
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 1901,
+        "end": 1989
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_9x9_best_recheck.py",
+    "lines": 2030,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 218,
+        "end": 335
+      },
+      {
+        "name": "create_pet_material",
+        "start": 339,
+        "end": 353
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 356,
+        "end": 390
+      },
+      {
+        "name": "_append_error_log",
+        "start": 397,
+        "end": 403
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 406,
+        "end": 413
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 416,
+        "end": 429
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 432,
+        "end": 475
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 478,
+        "end": 539
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 542,
+        "end": 553
+      },
+      {
+        "name": "gaoshang",
+        "start": 558,
+        "end": 561
+      },
+      {
+        "name": "newc",
+        "start": 567,
+        "end": 570
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 574,
+        "end": 604
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 608,
+        "end": 641
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 645,
+        "end": 723
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 728,
+        "end": 755
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 758,
+        "end": 809
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 812,
+        "end": 901
+      },
+      {
+        "name": "reconnect_de",
+        "start": 906,
+        "end": 911
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 914,
+        "end": 920
+      },
+      {
+        "name": "decode",
+        "start": 923,
+        "end": 953
+      },
+      {
+        "name": "expand_seed_to_9x9",
+        "start": 956,
+        "end": 968
+      },
+      {
+        "name": "bitstring",
+        "start": 971,
+        "end": 972
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 975,
+        "end": 976
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 979,
+        "end": 996
+      },
+      {
+        "name": "count_connected_components",
+        "start": 999,
+        "end": 1020
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1023,
+        "end": 1031
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1034,
+        "end": 1080
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1083,
+        "end": 1114
+      },
+      {
+        "name": "etch_mask_x_9x9",
+        "start": 1117,
+        "end": 1155
+      },
+      {
+        "name": "etch_mask_y_9x9",
+        "start": 1158,
+        "end": 1196
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1203,
+        "end": 1214
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1217,
+        "end": 1225
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1228,
+        "end": 1240
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1243,
+        "end": 1272
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1275,
+        "end": 1304
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1307,
+        "end": 1341
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1344,
+        "end": 1354
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1357,
+        "end": 1396
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1398,
+        "end": 1424
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1427,
+        "end": 1440
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1443,
+        "end": 1449
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1452,
+        "end": 1454
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1457,
+        "end": 1524
+      },
+      {
+        "name": "run_cst",
+        "start": 1527,
+        "end": 1539
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1542,
+        "end": 1543
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1546,
+        "end": 1564
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1567,
+        "end": 1572
+      },
+      {
+        "name": "initialize_population",
+        "start": 1575,
+        "end": 1625
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1628,
+        "end": 1669
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1672,
+        "end": 1683
+      },
+      {
+        "name": "select_parent",
+        "start": 1686,
+        "end": 1700
+      },
+      {
+        "name": "crossover",
+        "start": 1703,
+        "end": 1707
+      },
+      {
+        "name": "mutate",
+        "start": 1710,
+        "end": 1717
+      },
+      {
+        "name": "make_new_population",
+        "start": 1720,
+        "end": 1752
+      },
+      {
+        "name": "write_best_result",
+        "start": 1755,
+        "end": 1764
+      },
+      {
+        "name": "optimize",
+        "start": 1766,
+        "end": 1824
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 1832,
+        "end": 1870
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 1876,
+        "end": 1885
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 1888,
+        "end": 1899
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 1902,
+        "end": 1928
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 1931,
+        "end": 2019
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_9x9_fixed_ph_ga_code.py",
+    "lines": 2030,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 218,
+        "end": 335
+      },
+      {
+        "name": "create_pet_material",
+        "start": 339,
+        "end": 353
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 356,
+        "end": 390
+      },
+      {
+        "name": "_append_error_log",
+        "start": 397,
+        "end": 403
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 406,
+        "end": 413
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 416,
+        "end": 429
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 432,
+        "end": 475
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 478,
+        "end": 539
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 542,
+        "end": 553
+      },
+      {
+        "name": "gaoshang",
+        "start": 558,
+        "end": 561
+      },
+      {
+        "name": "newc",
+        "start": 567,
+        "end": 570
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 574,
+        "end": 604
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 608,
+        "end": 641
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 645,
+        "end": 723
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 728,
+        "end": 755
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 758,
+        "end": 809
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 812,
+        "end": 901
+      },
+      {
+        "name": "reconnect_de",
+        "start": 906,
+        "end": 911
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 914,
+        "end": 920
+      },
+      {
+        "name": "decode",
+        "start": 923,
+        "end": 953
+      },
+      {
+        "name": "expand_seed_to_9x9",
+        "start": 956,
+        "end": 968
+      },
+      {
+        "name": "bitstring",
+        "start": 971,
+        "end": 972
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 975,
+        "end": 976
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 979,
+        "end": 996
+      },
+      {
+        "name": "count_connected_components",
+        "start": 999,
+        "end": 1020
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1023,
+        "end": 1031
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1034,
+        "end": 1080
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1083,
+        "end": 1114
+      },
+      {
+        "name": "etch_mask_x_9x9",
+        "start": 1117,
+        "end": 1155
+      },
+      {
+        "name": "etch_mask_y_9x9",
+        "start": 1158,
+        "end": 1196
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1203,
+        "end": 1214
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1217,
+        "end": 1225
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1228,
+        "end": 1240
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1243,
+        "end": 1272
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1275,
+        "end": 1304
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1307,
+        "end": 1341
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1344,
+        "end": 1354
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1357,
+        "end": 1396
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1398,
+        "end": 1424
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1427,
+        "end": 1440
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1443,
+        "end": 1449
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1452,
+        "end": 1454
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1457,
+        "end": 1524
+      },
+      {
+        "name": "run_cst",
+        "start": 1527,
+        "end": 1539
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1542,
+        "end": 1543
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1546,
+        "end": 1564
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1567,
+        "end": 1572
+      },
+      {
+        "name": "initialize_population",
+        "start": 1575,
+        "end": 1625
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1628,
+        "end": 1669
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1672,
+        "end": 1683
+      },
+      {
+        "name": "select_parent",
+        "start": 1686,
+        "end": 1700
+      },
+      {
+        "name": "crossover",
+        "start": 1703,
+        "end": 1707
+      },
+      {
+        "name": "mutate",
+        "start": 1710,
+        "end": 1717
+      },
+      {
+        "name": "make_new_population",
+        "start": 1720,
+        "end": 1752
+      },
+      {
+        "name": "write_best_result",
+        "start": 1755,
+        "end": 1764
+      },
+      {
+        "name": "optimize",
+        "start": 1766,
+        "end": 1824
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 1832,
+        "end": 1870
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 1876,
+        "end": 1885
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 1888,
+        "end": 1899
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 1902,
+        "end": 1928
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 1931,
+        "end": 2019
+      }
+    ]
+  },
+  {
+    "file": "ohmic_sheet_9x9_ph_micro_only_ga.py",
+    "lines": 2073,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 225,
+        "end": 342
+      },
+      {
+        "name": "create_pet_material",
+        "start": 346,
+        "end": 360
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 363,
+        "end": 397
+      },
+      {
+        "name": "_append_error_log",
+        "start": 404,
+        "end": 410
+      },
+      {
+        "name": "_replace_material_name_in_history",
+        "start": 413,
+        "end": 420
+      },
+      {
+        "name": "_try_create_material_from_external_history",
+        "start": 423,
+        "end": 436
+      },
+      {
+        "name": "_candidate_ohmic_material_commands",
+        "start": 439,
+        "end": 482
+      },
+      {
+        "name": "_create_ohmic_sheet_material_one",
+        "start": 485,
+        "end": 546
+      },
+      {
+        "name": "create_ohmic_sheet_material",
+        "start": 549,
+        "end": 560
+      },
+      {
+        "name": "gaoshang",
+        "start": 565,
+        "end": 568
+      },
+      {
+        "name": "newc",
+        "start": 574,
+        "end": 577
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 581,
+        "end": 611
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 615,
+        "end": 648
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 652,
+        "end": 730
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 735,
+        "end": 762
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 765,
+        "end": 816
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 819,
+        "end": 908
+      },
+      {
+        "name": "reconnect_de",
+        "start": 913,
+        "end": 918
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 921,
+        "end": 927
+      },
+      {
+        "name": "decode",
+        "start": 930,
+        "end": 979
+      },
+      {
+        "name": "expand_seed_to_9x9",
+        "start": 981,
+        "end": 993
+      },
+      {
+        "name": "bitstring",
+        "start": 996,
+        "end": 997
+      },
+      {
+        "name": "mask_to_compact_string",
+        "start": 1000,
+        "end": 1001
+      },
+      {
+        "name": "count_isolated_pixels",
+        "start": 1004,
+        "end": 1021
+      },
+      {
+        "name": "count_connected_components",
+        "start": 1024,
+        "end": 1045
+      },
+      {
+        "name": "mask_quality_report",
+        "start": 1048,
+        "end": 1056
+      },
+      {
+        "name": "prefilter_individual",
+        "start": 1059,
+        "end": 1105
+      },
+      {
+        "name": "log_individual_trace",
+        "start": 1108,
+        "end": 1139
+      },
+      {
+        "name": "etch_mask_x_9x9",
+        "start": 1142,
+        "end": 1180
+      },
+      {
+        "name": "etch_mask_y_9x9",
+        "start": 1183,
+        "end": 1221
+      },
+      {
+        "name": "_add_sheet_to_meshgroup_if_needed",
+        "start": 1228,
+        "end": 1239
+      },
+      {
+        "name": "_delete_helper_solid",
+        "start": 1242,
+        "end": 1250
+      },
+      {
+        "name": "_create_ohmic_sheet_from_helper_face",
+        "start": 1253,
+        "end": 1265
+      },
+      {
+        "name": "create_surface_sheet_pixel_x",
+        "start": 1268,
+        "end": 1297
+      },
+      {
+        "name": "create_surface_sheet_pixel_y",
+        "start": 1300,
+        "end": 1329
+      },
+      {
+        "name": "create_patterned_ohmic_sheet_film",
+        "start": 1332,
+        "end": 1366
+      },
+      {
+        "name": "build_resistive_film_by_model_type",
+        "start": 1369,
+        "end": 1379
+      },
+      {
+        "name": "extract_metrics",
+        "start": 1382,
+        "end": 1421
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 1423,
+        "end": 1449
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 1452,
+        "end": 1465
+      },
+      {
+        "name": "remove_file_if_exists",
+        "start": 1468,
+        "end": 1474
+      },
+      {
+        "name": "make_run_tag",
+        "start": 1477,
+        "end": 1479
+      },
+      {
+        "name": "run_cst_for_params",
+        "start": 1482,
+        "end": 1549
+      },
+      {
+        "name": "run_cst",
+        "start": 1552,
+        "end": 1564
+      },
+      {
+        "name": "int_to_bits",
+        "start": 1567,
+        "end": 1568
+      },
+      {
+        "name": "encode_params_to_individual",
+        "start": 1571,
+        "end": 1608
+      },
+      {
+        "name": "perturb_individual",
+        "start": 1610,
+        "end": 1615
+      },
+      {
+        "name": "initialize_population",
+        "start": 1618,
+        "end": 1668
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 1671,
+        "end": 1712
+      },
+      {
+        "name": "evaluate_population",
+        "start": 1715,
+        "end": 1726
+      },
+      {
+        "name": "select_parent",
+        "start": 1729,
+        "end": 1743
+      },
+      {
+        "name": "crossover",
+        "start": 1746,
+        "end": 1750
+      },
+      {
+        "name": "mutate",
+        "start": 1753,
+        "end": 1760
+      },
+      {
+        "name": "make_new_population",
+        "start": 1763,
+        "end": 1795
+      },
+      {
+        "name": "write_best_result",
+        "start": 1798,
+        "end": 1807
+      },
+      {
+        "name": "optimize",
+        "start": 1809,
+        "end": 1867
+      },
+      {
+        "name": "run_fixed_best_ohmic_sheet_once",
+        "start": 1875,
+        "end": 1913
+      },
+      {
+        "name": "write_single_run_result",
+        "start": 1919,
+        "end": 1928
+      },
+      {
+        "name": "read_exported_s11_txt",
+        "start": 1931,
+        "end": 1942
+      },
+      {
+        "name": "export_comparison_overlay",
+        "start": 1945,
+        "end": 1971
+      },
+      {
+        "name": "compare_fixed_best_structure",
+        "start": 1974,
+        "end": 2062
+      }
+    ]
+  },
+  {
+    "file": "run_optimizer.py",
+    "lines": 848,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 70,
+        "end": 187
+      },
+      {
+        "name": "create_pet_material",
+        "start": 191,
+        "end": 205
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 208,
+        "end": 242
+      },
+      {
+        "name": "newc",
+        "start": 247,
+        "end": 250
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 254,
+        "end": 284
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 288,
+        "end": 321
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 327,
+        "end": 354
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 357,
+        "end": 408
+      },
+      {
+        "name": "reconnect_de",
+        "start": 414,
+        "end": 419
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 422,
+        "end": 428
+      },
+      {
+        "name": "decode",
+        "start": 431,
+        "end": 448
+      },
+      {
+        "name": "expand_seed_to_6x6",
+        "start": 451,
+        "end": 468
+      },
+      {
+        "name": "etch_mask_x_6x6",
+        "start": 471,
+        "end": 509
+      },
+      {
+        "name": "etch_mask_y_6x6",
+        "start": 512,
+        "end": 550
+      },
+      {
+        "name": "extract_metrics",
+        "start": 553,
+        "end": 592
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 594,
+        "end": 620
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 623,
+        "end": 636
+      },
+      {
+        "name": "run_cst",
+        "start": 638,
+        "end": 681
+      },
+      {
+        "name": "initialize_population",
+        "start": 683,
+        "end": 689
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 692,
+        "end": 711
+      },
+      {
+        "name": "evaluate_population",
+        "start": 714,
+        "end": 723
+      },
+      {
+        "name": "select_parent",
+        "start": 726,
+        "end": 740
+      },
+      {
+        "name": "crossover",
+        "start": 743,
+        "end": 746
+      },
+      {
+        "name": "mutate",
+        "start": 749,
+        "end": 756
+      },
+      {
+        "name": "make_new_population",
+        "start": 759,
+        "end": 772
+      },
+      {
+        "name": "write_best_result",
+        "start": 775,
+        "end": 784
+      },
+      {
+        "name": "optimize",
+        "start": 786,
+        "end": 844
+      }
+    ]
+  },
+  {
+    "file": "test_cst.py",
+    "lines": 18,
+    "definitions": []
+  },
+  {
+    "file": "test_ohmic_sheet_assign.py",
+    "static_parse_error": {
+      "line": 39,
+      "message": "invalid syntax"
+    }
+  },
+  {
+    "file": "临时代码文件.txt",
+    "lines": 1032,
+    "definitions": [
+      {
+        "name": "Type",
+        "start": 73,
+        "end": 190
+      },
+      {
+        "name": "create_pet_material",
+        "start": 194,
+        "end": 208
+      },
+      {
+        "name": "create_resistive_film_material",
+        "start": 211,
+        "end": 245
+      },
+      {
+        "name": "gaoshang",
+        "start": 250,
+        "end": 253
+      },
+      {
+        "name": "newc",
+        "start": 259,
+        "end": 262
+      },
+      {
+        "name": "create_pet_cross_substrates",
+        "start": 266,
+        "end": 296
+      },
+      {
+        "name": "create_full_cover_film",
+        "start": 300,
+        "end": 333
+      },
+      {
+        "name": "etch_to_I_shape_fixedcaps",
+        "start": 337,
+        "end": 415
+      },
+      {
+        "name": "set_ground_boundary",
+        "start": 420,
+        "end": 447
+      },
+      {
+        "name": "set_fast_solver",
+        "start": 450,
+        "end": 501
+      },
+      {
+        "name": "create_cross_with_endcaps",
+        "start": 504,
+        "end": 593
+      },
+      {
+        "name": "reconnect_de",
+        "start": 598,
+        "end": 603
+      },
+      {
+        "name": "safe_new_mws",
+        "start": 606,
+        "end": 612
+      },
+      {
+        "name": "decode",
+        "start": 615,
+        "end": 632
+      },
+      {
+        "name": "expand_seed_to_6x6",
+        "start": 635,
+        "end": 652
+      },
+      {
+        "name": "etch_mask_x_6x6",
+        "start": 655,
+        "end": 693
+      },
+      {
+        "name": "etch_mask_y_6x6",
+        "start": 696,
+        "end": 734
+      },
+      {
+        "name": "extract_metrics",
+        "start": 737,
+        "end": 776
+      },
+      {
+        "name": "export_s11_plot",
+        "start": 778,
+        "end": 804
+      },
+      {
+        "name": "export_s11_curve",
+        "start": 807,
+        "end": 820
+      },
+      {
+        "name": "run_cst",
+        "start": 822,
+        "end": 865
+      },
+      {
+        "name": "initialize_population",
+        "start": 867,
+        "end": 873
+      },
+      {
+        "name": "evaluate_individual",
+        "start": 876,
+        "end": 895
+      },
+      {
+        "name": "evaluate_population",
+        "start": 898,
+        "end": 907
+      },
+      {
+        "name": "select_parent",
+        "start": 910,
+        "end": 924
+      },
+      {
+        "name": "crossover",
+        "start": 927,
+        "end": 930
+      },
+      {
+        "name": "mutate",
+        "start": 933,
+        "end": 940
+      },
+      {
+        "name": "make_new_population",
+        "start": 943,
+        "end": 956
+      },
+      {
+        "name": "write_best_result",
+        "start": 959,
+        "end": 968
+      },
+      {
+        "name": "optimize",
+        "start": 970,
+        "end": 1028
+      }
+    ]
+  }
+]
