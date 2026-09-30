@@ -1,0 +1,999 @@
+{
+  "date": "2026-09-30",
+  "scope": "R1只读；关键词扫描与指定段落详读分列，无原程序执行，未进行所有原件全文认证",
+  "files": [
+    {
+      "source": "F:/biyesheji/code/code_run_v2.py",
+      "bytes": 61544,
+      "sha256": "4c1d80d3b5bcd12ec04df0d487d902599ddf16b1e5aecb7241a546e0ea674ecc",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code_run_v2.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_fixed_topology_lf_refine_code.py",
+      "bytes": 248832,
+      "sha256": "43881dee7868997da1e39cd3a77a0c3bc87de392e4f21575fd8266c8f5e4d75d",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入",
+        "指定范围静态详读"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_fixed_topology_lf_refine_code.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_hf_compensation_ga_code.py",
+      "bytes": 183014,
+      "sha256": "1b5536622b73bb69c84118864c4d20c19f11b444bc475fbe7030cc6cedb361b3",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入",
+        "指定范围静态详读"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_hf_compensation_ga_code.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_hybrid_coverage85_ga_code.py",
+      "bytes": 149151,
+      "sha256": "0412c0b2dfa69235ded3f960b546ea97afd1fd2b1bbc46224ef718abf48d7a6a",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入",
+        "指定范围静态详读"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_hybrid_coverage85_ga_code.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+      "bytes": 226507,
+      "sha256": "844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/ohmic_sheet_12x12_multitemplate_topology_ga_code.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_quarter_symmetric_ga_code.py",
+      "bytes": 259774,
+      "sha256": "6b31f4e4ec84e4d58b1bba9526146fd53ba322c9adaba15d632d1ffeabb09cdd",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_quarter_symmetric_ga_code.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_12x12_template_coverage85_ga_code.py",
+      "bytes": 111644,
+      "sha256": "cbb62b638544cbc14b3bbe69680c78190af5f733772b51a92371ef2310288372",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入",
+        "指定范围静态详读"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_12x12_template_coverage85_ga_code.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_6x6_ga_stable_code.py",
+      "bytes": 98265,
+      "sha256": "4a479ac5dacca039ebda686e0469ad796f09e07e52c4f54fe1ad345224240e33",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_6x6_ga_stable_code.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_9x9_best_recheck.py",
+      "bytes": 99429,
+      "sha256": "bae46ecca55ce72c7cbfe92f65029a7b66721963778ca540c52ff08259d96e9c",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_9x9_best_recheck.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_9x9_fixed_ph_ga_code.py",
+      "bytes": 99413,
+      "sha256": "6b39e310b3a048615df4d7ad14deba1916afc9fdb494fffda438d66bf992cc51",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_9x9_fixed_ph_ga_code.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/ohmic_sheet_9x9_ph_micro_only_ga.py",
+      "bytes": 100539,
+      "sha256": "61d088cf4b1ad641002013763eb7babb652b47d1cee3c2cb2dcd5f3c97abfc19",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/ohmic_sheet_9x9_ph_micro_only_ga.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/run_optimizer.py",
+      "bytes": 25746,
+      "sha256": "8074e06ff5e2a1221e1997e4e0826263aebcedadad74d4bfde1615995ba19aa1",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/run_optimizer.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/test_cst.py",
+      "bytes": 317,
+      "sha256": "2312e7499ce82c34031644d93577e47805f03e1ed12a5c7c7ac6c7cf4db63c9c",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/test_cst.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/test_ohmic_sheet_assign.py",
+      "bytes": 1767,
+      "sha256": "769c080bb2d5faecd97ad6239101c0c8c3e47492fc8230638e4a48c590cab80c",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/test_ohmic_sheet_assign.py"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/base.txt",
+      "bytes": 464,
+      "sha256": "9ab763a946f5ad12776d438c4fea68e789f76f99fba537422104d64add8b5129",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/base.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/code01-05存档.txt",
+      "bytes": 48380,
+      "sha256": "5049e52301acfb01ac290aaa4c7d537dace718ff271418200d8aeb04996e84e3",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code01-05存档.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/code06-07存档.txt",
+      "bytes": 48622,
+      "sha256": "c777e1a9c1846336b63c25b940327c70f1147e05a90080f2c757a2cce913ff14",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code06-07存档.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/code09存档.txt",
+      "bytes": 48636,
+      "sha256": "7b0b12dcb01ba27b3c409168af4412b144610f8317cf0217f7e472a515214194",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code09存档.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/code工字形最终存档.txt",
+      "bytes": 55577,
+      "sha256": "f0c2c3d44dd69e3e468e210df1d4b134959b933da21246a7af2b570862450081",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入",
+        "指定范围静态详读"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code工字形最终存档.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/code拓扑12.89最终存档.txt",
+      "bytes": 60365,
+      "sha256": "9464b60ec8b4510ef302e8bc6619c279442f6fc99053c36d0603c2b4b577f8c3",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code拓扑12.89最终存档.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/code条带存档.txt",
+      "bytes": 54709,
+      "sha256": "b26e004f4f5b2f6c3a08c75b2c82ca5f975aaa9cf2e0fb4883d8749e3a7229d9",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/code条带存档.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/code/临时代码文件.txt",
+      "bytes": 60365,
+      "sha256": "9464b60ec8b4510ef302e8bc6619c279442f6fc99053c36d0603c2b4b577f8c3",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真代码/来源待确认/原始工程/code/临时代码文件.txt"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/联合算法.txt",
+      "bytes": 6862,
+      "sha256": "1b4af524d9e5ad252ad2abcc6ad4e8cbae75bdf11ce776d170f2a82aeece3c1e",
+      "read_scopes": [
+        "脚本只读关键词定位，未执行或导入"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/联合算法.txt"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx",
+      "bytes": 956666,
+      "sha256": "685b65a185f2ef73415ebfa79525a78cf85ebdfe3e6df521c813bacf3633cc61",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期报告1.0.docx",
+      "bytes": 1048172,
+      "sha256": "48854e12538191d1ea8d56da4d3032ab156b36930ef054ffbb73c0f4a58b7cf4",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期报告1.0.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期报告模板.docx",
+      "bytes": 132036,
+      "sha256": "b984179f6f4ebcdc4161864ba763f4bd9f59e52c84c216f4f7f4d2681d76ce63",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期报告模板.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期答辩.pptx",
+      "bytes": 1219572,
+      "sha256": "e01ac46337b256bfa964d7ac80706c41bdf04d78c44a5c0754e888ebc493a925",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期答辩.pptx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期答辩记录.docx",
+      "bytes": 15410,
+      "sha256": "bb2f2c681c4e9f5b3c2cbf17bb9776a80a11c3c55cad7424ba67790bd1b9c28e",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期答辩记录.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期讲稿.docx",
+      "bytes": 20021,
+      "sha256": "cae63de02197e46eed61668b5176ddb42d0aa4dabd549761ad76436c110d8622",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期讲稿.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/周子靖-2022112550-开题报告.docx",
+      "bytes": 12749223,
+      "sha256": "41a94f79d40a86ed6936abbbf595fde82734aac642e7dc53aa6e9f12607a013f",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/开题/周子靖-2022112550-开题报告.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/周子靖-2022112550-开题报告（英）.docx",
+      "bytes": 12746188,
+      "sha256": "0ef86500ba0ccb37b35d16f3e0a60c2d4b3441c76a1f532e1400082e8ec8fae7",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/开题/周子靖-2022112550-开题报告（英）.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/周子靖任务书.docx",
+      "bytes": 18024,
+      "sha256": "f83963c12cd35d57b417638f0953588dffeefab2879b48ca6d7c45e37a1f4a07",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/开题/周子靖任务书.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/开题报告模板.docx",
+      "bytes": 132718,
+      "sha256": "3db1971a005a0bb32c10298236f21f77a798e489de87a77f8a4a740b2f8f4e0f",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/开题/开题报告模板.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/开题讲稿(2).docx",
+      "bytes": 21827,
+      "sha256": "dcdb1107751f14c220762ab68f67af108cc65bb78f0724b61e78a47ac49eb0c3",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/开题/开题讲稿(2).docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/开题讲稿.docx",
+      "bytes": 24041,
+      "sha256": "af0cd5263c2498bbd08ef0c5381abf215c7bb7638229b565b205d4b160ea9d4b",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/开题/开题讲稿.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/开题讲稿（英）.docx",
+      "bytes": 21168,
+      "sha256": "57896d3fe77fe9f717f511f1fdc4c36c54e88805f9a2405e860c724648b071bb",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/开题/开题讲稿（英）.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx",
+      "bytes": 6665486,
+      "sha256": "2e0ee751f7c6362f1360e304458dadbc94928ebe344770b0b0edf90f75e92549",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/s11_experiment_reference_guide.docx",
+      "bytes": 2112307,
+      "sha256": "eda0c316c119ba4ff726d3635656e4d795b93a8604e62b90443b2de2ede5621e",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/s11_experiment_reference_guide.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/摘要.docx",
+      "bytes": 12593,
+      "sha256": "165fd9d8320310fffa10da89f9e7b71801fc6f558efdb3e1b7af79a166012cd1",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/摘要.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文三稿.docx",
+      "bytes": 7363903,
+      "sha256": "21dc52ba33d71d91b2abb5be4cfbc95aad4e405578fa88f6187267e381f8e0ac",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业论文三稿.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文三稿2.0.docx",
+      "bytes": 7472605,
+      "sha256": "b9a2ab65a7b38c046c082fbaec02664e1c3cf3fef15e494311132bf808506c4c",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业论文三稿2.0.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文二稿5.0.docx",
+      "bytes": 2378475,
+      "sha256": "88a32999488b039cfe57f8ed1fd58624815fce247cbedea1657d626bf59506af",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业论文二稿5.0.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文终稿5.0.docx",
+      "bytes": 23979345,
+      "sha256": "4973c75065a60ee74e75acc1f2d3b5c3d0db0702d11896df5c11b94fe7143a82",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业论文终稿5.0.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业设计初稿1.0.docx",
+      "bytes": 3650636,
+      "sha256": "cc6be5b2d0e7d368fcc7b2dbb9392a000e0a7ee253678af2f061673f4321c955",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业设计初稿1.0.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业设计初稿2.0.docx",
+      "bytes": 7357944,
+      "sha256": "67bfe2df6911948a6bb208316ac2cc6051d12b645031223099fd33255d2943c7",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业设计初稿2.0.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业设计初稿3.0.docx",
+      "bytes": 6664121,
+      "sha256": "b27c95e60431e9e5d8d8f66e821b72e40fae5bc3d9c517af6f0dcaca1211ed8f",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业设计初稿3.0.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第1章  绪论.docx",
+      "bytes": 16742,
+      "sha256": "55832da3afcf5def43fd60166e16f7645040246f0a028397b0406e943d8930bd",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第1章  绪论.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第2章  电阻膜超材料吸波理论基础.docx",
+      "bytes": 21489,
+      "sha256": "413010fe2fd7903e089ff8901e9f66ceafb7ba50635246b54b47589b851c6f7b",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第2章  电阻膜超材料吸波理论基础.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第3章  电阻膜超材料吸波单元建模.docx",
+      "bytes": 33536,
+      "sha256": "4ba27c6161d4151acd063f9b07ac43afa881120a486853eef4059b8eb9576b67",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第3章  电阻膜超材料吸波单元建模.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第4章 CST-Python联合仿真与遗传算法优化方法.docx",
+      "bytes": 19688,
+      "sha256": "b503b8e0aae65ed9ddf0047a036331128ebb1280de3be9d125fd09d8a40217a4",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第4章 CST-Python联合仿真与遗传算法优化方法.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第5章 .docx",
+      "bytes": 1585949,
+      "sha256": "3242a0d1a516e1d63ba5f266f9844d218230d54a2a0086a58cf93d4fa0a3281b",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第5章 .docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第6章 最终12x12结构吸波性能与机理分析.docx",
+      "bytes": 5918130,
+      "sha256": "e0d678c6f82206d9e6effae53dbf912a4f208382a3a7bf55fe9ea8b56a9d4986",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第6章 最终12x12结构吸波性能与机理分析.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第7章 结论.docx",
+      "bytes": 13801,
+      "sha256": "4360fe614979b1575be590ee745466f85b50ea3d354102f5de68c2ed2c9997cb",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第7章 结论.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第三章_LaTeX表格整理.docx",
+      "bytes": 39096,
+      "sha256": "815aa1232717a4a0a894af9a6f08be24573621b50c2d53aecbcfcf691fd2519f",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第三章_LaTeX表格整理.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第四章_精简表格.docx",
+      "bytes": 38594,
+      "sha256": "563661ad0b83068379be2480a0d19095ad31df88db536a619e6c52568085ae0e",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/第四章_精简表格.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/答辩PPT模板defense.pptx",
+      "bytes": 1316948,
+      "sha256": "e0bfcf804166123f3df99dae6bd5eee69b56f45688ae4ab99d72293bdf7a4c55",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/答辩PPT模板defense.pptx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院-孟庆鑫.docx",
+      "bytes": 24210256,
+      "sha256": "a37fff056eaa684ae7bd25dbc9b069c7641fb80a3b3f112d0b4a36ae2b728eec",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院-孟庆鑫.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION.docx",
+      "bytes": 24215498,
+      "sha256": "48da4f3472ecb3ec0ac3b691bb2e047ac12915b6df099bc97e5e1eaaf69a1012",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pptx",
+      "bytes": 14442975,
+      "sha256": "f4317609bb9908a8efcca74829d0b211fb7d0c7057e3636b522d2ec8d0949caf",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pptx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/defense_speech_chinese.md",
+      "bytes": 7607,
+      "sha256": "ce189aefb72655c7442d6d2deb013f5c2bfd991305ca435a13a8c9c95d43ca8d",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/defense_speech_chinese.md"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/defense_speech_english.md",
+      "bytes": 6487,
+      "sha256": "b5ecaebf7557df3478dd31cb76da027d359ed3f0f72212f2d9ba9b25f917795a",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/defense_speech_english.md"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/FQW-2022112550-周子靖Zhou Zijing.docx",
+      "bytes": 23317895,
+      "sha256": "66022ad2621a2c24cef72560e3fdb05f5b7411c68fc74d280096e65f5d6679a9",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/FQW-2022112550-周子靖Zhou Zijing.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/毕业论文终稿5.0_格式修订版.docx",
+      "bytes": 23979309,
+      "sha256": "260723ee31fa3ad9b1316027fc5ca0a94b35d8ba96a1f8e14aa333df13ed405f",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/毕业论文终稿5.0_格式修订版.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/毕业论文终稿5.0_英文正文版.docx",
+      "bytes": 23326409,
+      "sha256": "11fb9d6c694c06a4649bb9f3712f5be2539636cb23e33573fa84b4ccc608b740",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/毕业论文终稿5.0_英文正文版.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/答辩PPT模板Template_2.pptx",
+      "bytes": 451321,
+      "sha256": "cf1388e8a788db370f95caa47b7a11a283d9904c88c5b31701e11b21bc29cbf9",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证；终稿补检英文实验/制造关键词"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/答辩PPT模板Template_2.pptx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/英文稿精修/第1章en.docx",
+      "bytes": 16791,
+      "sha256": "368144e9f749d38184018f0f486500a92b14fb05b50e280c2d623086286b1a6f",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/英文稿精修/第1章en.docx"
+      ]
+    },
+    {
+      "source": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/附录4  参考文献著录规则说明.docx",
+      "bytes": 31718,
+      "sha256": "ad91fcebefd6d6421ca2911a0bc032dc3852376c408433d363dcf5389727a2bb",
+      "read_scopes": [
+        "只读Office XML或Markdown，制造/实验决策关键词；非全文真实性认证"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/原始文档/毕业设计原件/结题/附录4  参考文献著录规则说明.docx"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_quarter_symmetric_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 3201,
+      "sha256": "06bcc992376c35929f097c7c084cd07586b75960de41830e7bb5222f769701f1",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_quarter_symmetric_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_quarter_symmetric_ga/ga_log_quarter_symmetric_12x12.txt",
+      "bytes": 151,
+      "sha256": "200123fac8f8e6b7b7dfc7cc843bd806b6ac2eb3127618b3017805e26e2bef7c",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_quarter_symmetric_ga/ga_log_quarter_symmetric_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_quarter_symmetric_ga/error_log_quarter_symmetric_12x12.txt",
+      "bytes": 1482,
+      "sha256": "1a87293504300d8ba0bda2396e665c38a8a08899ba69afa649139958faefea16",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位",
+        "保存摘要/错误原文只读"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_quarter_symmetric_ga/error_log_quarter_symmetric_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 45576,
+      "sha256": "bb511e6d52612c47e0ce5d361fa7337696fba1787a0744757c0218c827728b79",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位",
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/ga_log_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2457,
+      "sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 22870,
+      "sha256": "56a1e7a5cf60bd05381ac2fe217f7f8a4ae5f58c0dda5b6c083e67d05cb5b4c8",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位",
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hf_compensation_ga/ga_log_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2353,
+      "sha256": "8e851947e86919cba6c2819380e1e714ea47e1afb28315cd4d780eb28feaa39b",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hf_compensation_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/error_log_ohmic_sheet_12x12.txt",
+      "bytes": 95571,
+      "sha256": "58e560f28b0870380835426174ae88fe974facce9fbbb1b1d84380486d26e38a",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_fixed_topology_lf_refine/error_log_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2773,
+      "sha256": "3b28ab8415461b7f19e8c7f33a9f9b3f0fdce5580b38f6d8bd4b81a46f2e0966",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位",
+        "保存摘要/错误原文只读"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_fixed_topology_lf_refine/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hybrid_coverage85_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 28718,
+      "sha256": "5e41cf554bb156db61368f324e60f4e77ecb777d958e10b60b624639fda556cd",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位",
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hybrid_coverage85_ga/ga_log_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hybrid_coverage85_ga/best_result_ohmic_sheet_12x12.txt",
+      "bytes": 2317,
+      "sha256": "3d91c96f8819236627b89d450b9c8df0a5279dbb72fbf6dfc289477d5f74f313",
+      "read_scopes": [
+        "历史结果/日志片阻字段、表头及前几行只读定位"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_hybrid_coverage85_ga/best_result_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_160401_8913/Result/Model.log",
+      "bytes": 19832,
+      "sha256": "33540f339319666463ae8769324a0556d197ee07e465a2903c1bf68e201fe17f",
+      "read_scopes": [
+        "对应候选历史求解日志的起止/网格等文本行"
+      ],
+      "identical_repo_snapshots": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_160616_5167/Result/Model.log",
+      "bytes": 19833,
+      "sha256": "d1fd6bd5aae3376079a4da024458b5ace60812703f881d339f18e519ae743583",
+      "read_scopes": [
+        "对应候选历史求解日志的起止/网格等文本行"
+      ],
+      "identical_repo_snapshots": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_ph_micro_only_ga/ga_log_ohmic_sheet_9x9.txt",
+      "bytes": 14299,
+      "sha256": "cb08fe63befa8639b1975cb68ea167e0626f6ccf0d72ca2321845bfa6884a893",
+      "read_scopes": [
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_9x9_ph_micro_only_ga/ga_log_ohmic_sheet_9x9.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_fixed_topology_lf_refine/refine_log_ohmic_sheet_12x12.txt",
+      "bytes": 23598,
+      "sha256": "0882a7c0cb6188adb1b3232bf7fd952f97125ad8751afae27cfc6eab5413cd32",
+      "read_scopes": [
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_fixed_topology_lf_refine/refine_log_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/ga_log_ohmic_sheet_9x9.txt",
+      "bytes": 11269,
+      "sha256": "0ae61675c453caf50fbc69cd1df649f69ddf7788512a195761bb5cd5a6ed33cc",
+      "read_scopes": [
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_9x9_fixed_ph_ga/9×9非ph联合1/ga_log_ohmic_sheet_9x9.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/ga_log_ohmic_sheet_9x9.txt",
+      "bytes": 12132,
+      "sha256": "bec8e85d1a54fdc71b6f139bcb000d097eb04da76b2a0b38fa271acc36175c23",
+      "read_scopes": [
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_9x9_fixed_ph_ga/9×9ph联合1/ga_log_ohmic_sheet_9x9.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/片阻1.1/ga_log_ohmic_sheet_6x6.txt",
+      "bytes": 2543,
+      "sha256": "718e1fc86f4569e63d62a40a9bb9589572647a795e306f86d0130e75f77da92b",
+      "read_scopes": [
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_6x6_ga_stable/片阻1.1/ga_log_ohmic_sheet_6x6.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_coverage85_ga/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 25611,
+      "sha256": "a55b9487aed8ac6c452b55c00c9339bf08a47963360a189293a3c158a119749a",
+      "read_scopes": [
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_coverage85_ga/ga_log_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/ga_log_ohmic_sheet_6x6.txt",
+      "bytes": 24425,
+      "sha256": "21ece40c6a08b01df8edce078b884a9bbf0eeca22bdc83ef298f8e6893861b7d",
+      "read_scopes": [
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_6x6_ga_stable/ga_log_ohmic_sheet_6x6.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/ga_log_ohmic_sheet_12x12.txt",
+      "bytes": 54037,
+      "sha256": "ea3b42be8825fe3a34b65294399d60df924bf5890f1350450088f295ac645b0a",
+      "read_scopes": [
+        "只读全部表行以定位工程名时间/片阻字段；未重算性能"
+      ],
+      "identical_repo_snapshots": [
+        "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_12x12_template_coverage85_ga/第一轮调试/ga_log_ohmic_sheet_12x12.txt"
+      ]
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_160401_8913/Model/3D/ModelHistory.json",
+      "bytes": 195761,
+      "sha256": "4e5d55ab63e56c87646d9b3c90a83858296c0bc5fb905025cea91cded3ae2ecd",
+      "read_scopes": [
+        "只读材料History确认片阻"
+      ],
+      "identical_repo_snapshots": []
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_12x12_hf_compensation_ga/temp/temp_ohmic_sheet_20260503_160616_5167/Model/3D/ModelHistory.json",
+      "bytes": 201472,
+      "sha256": "53f36badacfef452322bdfca0307642ab4af45c62c752cf74d3096eb87ab717d",
+      "read_scopes": [
+        "只读材料History确认片阻"
+      ],
+      "identical_repo_snapshots": []
+    }
+  ]
+}
