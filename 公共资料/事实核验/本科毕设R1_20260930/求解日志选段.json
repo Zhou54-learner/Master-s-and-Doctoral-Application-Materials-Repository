@@ -1,0 +1,737 @@
+{
+  "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.log",
+  "lines": [
+    {
+      "line": 1,
+      "text": "2026-05-03 23:10:21   In order to get an optimal performance, hyperthreading is ignored for parallel"
+    },
+    {
+      "line": 2,
+      "text": "                      computations."
+    },
+    {
+      "line": 3,
+      "text": ""
+    },
+    {
+      "line": 4,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 5,
+      "text": "2026-05-03 23:10:28   Units settings: "
+    },
+    {
+      "line": 6,
+      "text": ""
+    },
+    {
+      "line": 7,
+      "text": "                        Dimensions: mm"
+    },
+    {
+      "line": 8,
+      "text": "                        Frequency:  GHz"
+    },
+    {
+      "line": 9,
+      "text": "                        Time:       ns"
+    },
+    {
+      "line": 10,
+      "text": ""
+    },
+    {
+      "line": 11,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 12,
+      "text": "2026-05-03 23:10:28   Boundary conditions: "
+    },
+    {
+      "line": 13,
+      "text": ""
+    },
+    {
+      "line": 14,
+      "text": "                        YZsymmetry: none"
+    },
+    {
+      "line": 15,
+      "text": "                        XZsymmetry: none"
+    },
+    {
+      "line": 16,
+      "text": "                        XYsymmetry: none"
+    },
+    {
+      "line": 17,
+      "text": ""
+    },
+    {
+      "line": 18,
+      "text": "                        Xmin: unit cell"
+    },
+    {
+      "line": 19,
+      "text": "                        Xmax: unit cell"
+    },
+    {
+      "line": 20,
+      "text": ""
+    },
+    {
+      "line": 21,
+      "text": "                        Ymin: unit cell"
+    },
+    {
+      "line": 22,
+      "text": "                        Ymax: unit cell"
+    },
+    {
+      "line": 23,
+      "text": ""
+    },
+    {
+      "line": 24,
+      "text": "                        Zmin: electric"
+    },
+    {
+      "line": 25,
+      "text": "                        Zmax: expanded open"
+    },
+    {
+      "line": 26,
+      "text": ""
+    },
+    {
+      "line": 27,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 28,
+      "text": "2026-05-03 23:10:28   Order settings: "
+    },
+    {
+      "line": 29,
+      "text": ""
+    },
+    {
+      "line": 30,
+      "text": "                        Solver order   : 2nd (constant)"
+    },
+    {
+      "line": 31,
+      "text": "                        Curved elements: up to order 3 (automatic)"
+    },
+    {
+      "line": 32,
+      "text": ""
+    },
+    {
+      "line": 33,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 34,
+      "text": "2026-05-03 23:10:28     Mesh time                :\t6 s"
+    },
+    {
+      "line": 35,
+      "text": ""
+    },
+    {
+      "line": 36,
+      "text": ""
+    },
+    {
+      "line": 37,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 38,
+      "text": "2026-05-03 23:10:28   "
+    },
+    {
+      "line": 39,
+      "text": "                      ================================================================================"
+    },
+    {
+      "line": 40,
+      "text": "                      Frequency Domain Solver calculation cycle started"
+    },
+    {
+      "line": 41,
+      "text": ""
+    },
+    {
+      "line": 42,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 43,
+      "text": "2026-05-03 23:10:28   Solver started at: 2026-05-03 23:10:28 +0800"
+    },
+    {
+      "line": 44,
+      "text": ""
+    },
+    {
+      "line": 45,
+      "text": "                        Module:  Frequency Domain: S-Parameter (Win 64)"
+    },
+    {
+      "line": 46,
+      "text": "                        Version: 2025.1 Release from 2024-10-28 (change 1339251)"
+    },
+    {
+      "line": 47,
+      "text": ""
+    },
+    {
+      "line": 48,
+      "text": "                        Free disk space at solver start is 297 GB."
+    },
+    {
+      "line": 49,
+      "text": ""
+    },
+    {
+      "line": 50,
+      "text": ""
+    },
+    {
+      "line": 51,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 52,
+      "text": "2026-05-03 23:10:28   An iterative solver will be used first."
+    },
+    {
+      "line": 53,
+      "text": ""
+    },
+    {
+      "line": 54,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 55,
+      "text": "2026-05-03 23:10:28   Please consider improving the initial mesh.  More..."
+    },
+    {
+      "line": 56,
+      "text": ""
+    },
+    {
+      "line": 57,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 58,
+      "text": "2026-05-03 23:10:28   The wavelength based mesh refinement has been applied to 0.4% of all mesh edges."
+    },
+    {
+      "line": 59,
+      "text": ""
+    },
+    {
+      "line": 60,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 61,
+      "text": "2026-05-03 23:10:28     Calculation 1 of 1 (Frequency: 18 GHz, Theta: 0, Phi: 0)"
+    },
+    {
+      "line": 62,
+      "text": ""
+    },
+    {
+      "line": 63,
+      "text": ""
+    },
+    {
+      "line": 64,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 65,
+      "text": "2026-05-03 23:10:29   Adaptive mesh refinement pass 1"
+    },
+    {
+      "line": 66,
+      "text": ""
+    },
+    {
+      "line": 67,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 68,
+      "text": "2026-05-03 23:10:29   Performing block excitation with block size 2 and 6 threads.  More..."
+    },
+    {
+      "line": 69,
+      "text": ""
+    },
+    {
+      "line": 70,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 71,
+      "text": "2026-05-03 23:10:31     Matrix setup time        :\t0 s"
+    },
+    {
+      "line": 72,
+      "text": "                        Degrees of freedom       :\t35272"
+    },
+    {
+      "line": 73,
+      "text": "                        Number of mesh cells     :\t5462"
+    },
+    {
+      "line": 74,
+      "text": ""
+    },
+    {
+      "line": 75,
+      "text": "                        Stimulation port         :\tZmax"
+    },
+    {
+      "line": 76,
+      "text": "                        Mode number              :\t1"
+    },
+    {
+      "line": 77,
+      "text": "                        Accuracy                 :\t9.91969e-05"
+    },
+    {
+      "line": 78,
+      "text": "                        Iterations               :\t34"
+    },
+    {
+      "line": 79,
+      "text": "                        Solver time              :\t1 s"
+    },
+    {
+      "line": 80,
+      "text": ""
+    },
+    {
+      "line": 81,
+      "text": ""
+    },
+    {
+      "line": 82,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 83,
+      "text": "2026-05-03 23:10:31     Stimulation port         :\tZmax"
+    },
+    {
+      "line": 84,
+      "text": "                        Mode number              :\t2"
+    },
+    {
+      "line": 85,
+      "text": "                        Accuracy                 :\t9.27769e-05"
+    },
+    {
+      "line": 86,
+      "text": "                        Iterations               :\t45"
+    },
+    {
+      "line": 87,
+      "text": "                        Solver time              :\t1 s"
+    },
+    {
+      "line": 88,
+      "text": ""
+    },
+    {
+      "line": 89,
+      "text": ""
+    },
+    {
+      "line": 90,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 91,
+      "text": "2026-05-03 23:10:31   5% of all mesh edges seem to be longer than expected. The adaptive mesh refinement's growth limitation will therefore "
+    },
+    {
+      "line": 92,
+      "text": "                      use 7348 instead of 4923 mesh cells as a reference."
+    },
+    {
+      "line": 93,
+      "text": ""
+    },
+    {
+      "line": 94,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 95,
+      "text": "2026-05-03 23:10:31   The quality of some tetrahedrons is low.  More..."
+    },
+    {
+      "line": 96,
+      "text": ""
+    },
+    {
+      "line": 97,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 98,
+      "text": "2026-05-03 23:10:31   103 splits (33%) had to be ignored during refinement because of mesh quality reasons."
+    },
+    {
+      "line": 99,
+      "text": ""
+    },
+    {
+      "line": 100,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 101,
+      "text": "2026-05-03 23:10:31   Adaptive mesh refinement pass 2"
+    },
+    {
+      "line": 102,
+      "text": ""
+    },
+    {
+      "line": 103,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 104,
+      "text": "2026-05-03 23:10:34     Matrix setup time        :\t0 s"
+    },
+    {
+      "line": 105,
+      "text": "                        Degrees of freedom       :\t42666"
+    },
+    {
+      "line": 106,
+      "text": "                        Number of mesh cells     :\t6621"
+    },
+    {
+      "line": 107,
+      "text": ""
+    },
+    {
+      "line": 108,
+      "text": "                        Stimulation port         :\tZmax"
+    },
+    {
+      "line": 109,
+      "text": "                        Mode number              :\t1"
+    },
+    {
+      "line": 110,
+      "text": "                        Accuracy                 :\t7.85179e-05"
+    },
+    {
+      "line": 111,
+      "text": "                        Iterations               :\t44"
+    },
+    {
+      "line": 112,
+      "text": "                        Solver time              :\t2 s"
+    },
+    {
+      "line": 113,
+      "text": ""
+    },
+    {
+      "line": 114,
+      "text": ""
+    },
+    {
+      "line": 115,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 116,
+      "text": "2026-05-03 23:10:34     Stimulation port         :\tZmax"
+    },
+    {
+      "line": 117,
+      "text": "                        Mode number              :\t2"
+    },
+    {
+      "line": 118,
+      "text": "                        Accuracy                 :\t8.59094e-05"
+    },
+    {
+      "line": 119,
+      "text": "                        Iterations               :\t53"
+    },
+    {
+      "line": 120,
+      "text": "                        Solver time              :\t2 s"
+    },
+    {
+      "line": 121,
+      "text": ""
+    },
+    {
+      "line": 122,
+      "text": ""
+    },
+    {
+      "line": 123,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 124,
+      "text": "2026-05-03 23:10:34     Delta calculation        "
+    },
+    {
+      "line": 125,
+      "text": "2026-05-03 23:10:34     All S-Parameters         :\t0.0019609"
+    },
+    {
+      "line": 126,
+      "text": "2026-05-03 23:10:34   "
+    },
+    {
+      "line": 127,
+      "text": ""
+    },
+    {
+      "line": 128,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 129,
+      "text": "2026-05-03 23:10:34   The quality of some tetrahedrons is low.  More..."
+    },
+    {
+      "line": 130,
+      "text": ""
+    },
+    {
+      "line": 131,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 132,
+      "text": "2026-05-03 23:10:34   78 splits (33%) had to be ignored during refinement because of mesh quality reasons."
+    },
+    {
+      "line": 133,
+      "text": ""
+    },
+    {
+      "line": 134,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 135,
+      "text": "2026-05-03 23:10:34   Adaptive mesh refinement pass 3"
+    },
+    {
+      "line": 136,
+      "text": ""
+    },
+    {
+      "line": 137,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 138,
+      "text": "2026-05-03 23:10:37     Matrix setup time        :\t0 s"
+    },
+    {
+      "line": 139,
+      "text": "                        Degrees of freedom       :\t47698"
+    },
+    {
+      "line": 140,
+      "text": "                        Number of mesh cells     :\t7408"
+    },
+    {
+      "line": 141,
+      "text": ""
+    },
+    {
+      "line": 142,
+      "text": "                        Stimulation port         :\tZmax"
+    },
+    {
+      "line": 143,
+      "text": "                        Mode number              :\t1"
+    },
+    {
+      "line": 144,
+      "text": "                        Accuracy                 :\t9.74915e-05"
+    },
+    {
+      "line": 145,
+      "text": "                        Iterations               :\t38"
+    },
+    {
+      "line": 146,
+      "text": "                        Solver time              :\t2 s"
+    },
+    {
+      "line": 147,
+      "text": ""
+    },
+    {
+      "line": 148,
+      "text": ""
+    },
+    {
+      "line": 149,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 150,
+      "text": "2026-05-03 23:10:37     Stimulation port         :\tZmax"
+    },
+    {
+      "line": 151,
+      "text": "                        Mode number              :\t2"
+    },
+    {
+      "line": 152,
+      "text": "                        Accuracy                 :\t9.68924e-05"
+    },
+    {
+      "line": 153,
+      "text": "                        Iterations               :\t55"
+    },
+    {
+      "line": 154,
+      "text": "                        Solver time              :\t2 s"
+    },
+    {
+      "line": 155,
+      "text": ""
+    },
+    {
+      "line": 156,
+      "text": ""
+    },
+    {
+      "line": 157,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 158,
+      "text": "2026-05-03 23:10:37     Delta calculation        "
+    },
+    {
+      "line": 159,
+      "text": "2026-05-03 23:10:37     All S-Parameters         :\t0.000580563"
+    },
+    {
+      "line": 160,
+      "text": "2026-05-03 23:10:37   "
+    },
+    {
+      "line": 161,
+      "text": ""
+    },
+    {
+      "line": 162,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 163,
+      "text": "2026-05-03 23:10:37   Mesh adaptation terminated because the desired accuracy limit is reached."
+    },
+    {
+      "line": 164,
+      "text": ""
+    },
+    {
+      "line": 165,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 166,
+      "text": "2026-05-03 23:10:37     Total time               :\t8 s"
+    },
+    {
+      "line": 469,
+      "text": "2026-05-03 23:10:49   "
+    },
+    {
+      "line": 470,
+      "text": ""
+    },
+    {
+      "line": 471,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 472,
+      "text": "2026-05-03 23:10:49   Finished the general purpose interpolative broadband frequency sweep:"
+    },
+    {
+      "line": 473,
+      "text": "                      All broadband sweep convergence criteria have been satisfied after"
+    },
+    {
+      "line": 474,
+      "text": "                      calculating 11 frequency samples:"
+    },
+    {
+      "line": 475,
+      "text": ""
+    },
+    {
+      "line": 476,
+      "text": "                        Broadband sweep error threshold value :  0.02 (All S-Parameters) "
+    },
+    {
+      "line": 477,
+      "text": "                        Number of error criterion checks      :  2 (All S-Parameters) "
+    },
+    {
+      "line": 478,
+      "text": "                        Minimum number of samples             :  3"
+    },
+    {
+      "line": 479,
+      "text": "                        Number of data samples, linear        :  201"
+    },
+    {
+      "line": 480,
+      "text": ""
+    },
+    {
+      "line": 481,
+      "text": "                      ------------------------------------------------------------------------------"
+    },
+    {
+      "line": 482,
+      "text": "2026-05-03 23:10:49     Number of mesh cells     :\t7408"
+    },
+    {
+      "line": 483,
+      "text": "                        Degrees of freedom       :\t47044"
+    },
+    {
+      "line": 484,
+      "text": "                        Total Solver Time        :\t26 s"
+    },
+    {
+      "line": 485,
+      "text": "                        Free disk space          :\t297 GB"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-30",
+  "scope": "R1只读补充",
+  "files": [
+    {
+      "source": "本人本轮指定的E盘微信附件目录/2026-01/新建文本文档.txt（账户目录不重复公开）",
+      "copy": "科研准备/本科毕设/参考代码/学长首次交付_用户确认_20260930/新建文本文档.txt",
+      "bytes": 49024,
+      "sha256": "2ec2e41cb7e8b64101b77743c98f0c14a0c4341a21cd23bd33bb1ef493244d9e",
+      "identity_checked": true,
+      "read_scope": "全流程静态阅读，长频散表不逐点物性核验，未执行",
+      "ownership": "本人确认师兄原始GA参考"
+    },
+    {
+      "source": "F:/biyesheji/ohmic_sheet_6x6_ga_stable/片阻1.1/原6×6图案 Ohmic Sheet 验证 best_s11_ohmic_sheet_6x6.txt",
+      "copy": "科研准备/本科毕设/仿真结果/原始工程/ohmic_sheet_6x6_ga_stable/片阻1.1/原6×6图案 Ohmic Sheet 验证 best_s11_ohmic_sheet_6x6.txt",
+      "bytes": 9609,
+      "sha256": "0310b236495aead295e0b6707e8cb44b542d8d64718d0f63987967d624af76a8",
+      "identity_checked": true,
+      "read_scope": "表头、样本行、第157行与摘要/日志对照；未重算性能"
+    }
+  ]
+}
