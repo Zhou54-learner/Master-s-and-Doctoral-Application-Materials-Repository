@@ -1,0 +1,32 @@
+[
+  {
+    "D_over_p": 2,
+    "zero": 0.0,
+    "ninety": 1.0,
+    "max_error_vs_sine": 0.01190496032753452
+  },
+  {
+    "D_over_p": 3,
+    "zero": 0.0,
+    "ninety": 1.0,
+    "max_error_vs_sine": 0.00532090118051376
+  },
+  {
+    "D_over_p": 10,
+    "zero": 0.0,
+    "ninety": 1.0,
+    "max_error_vs_sine": 0.00048088437228788194
+  },
+  {
+    "D_over_p": 30,
+    "zero": 0.0,
+    "ninety": 1.0,
+    "max_error_vs_sine": 5.345235137621529e-05
+  },
+  {
+    "D_over_p": 100,
+    "zero": 0.0,
+    "ninety": 1.0,
+    "max_error_vs_sine": 4.8109236123750065e-06
+  }
+]
