@@ -1,0 +1,69 @@
+{
+  "record_prefix_preserved": true,
+  "original_record_bytes": 8941,
+  "original_record_sha256": "633d4b6ffaf031e99d7026b8f0a4979fd38d2d9e8984996f93326611badc2240",
+  "date": "2026-10-04",
+  "scope": "current teaching only; no historical research execution",
+  "files": [
+    {
+      "source_filename": "block2_electric_flux.png",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学可视化/Block2_Maxwell能量账/block2_electric_flux.png",
+      "bytes": 49243,
+      "sha256": "f4612677550f6d73e7d8c2960ee187f0b38b42304b1d436da76ecc7ac7362fd1"
+    },
+    {
+      "source_filename": "block2_polarization_divergence.png",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学可视化/Block2_Maxwell能量账/block2_polarization_divergence.png",
+      "bytes": 49260,
+      "sha256": "05f06b712b8ae73f38ab98106dc4689c390a9dbd43cfeb58424285ae710a3a91"
+    },
+    {
+      "source_filename": "block2_magnetic_flux.png",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学可视化/Block2_Maxwell能量账/block2_magnetic_flux.png",
+      "bytes": 53896,
+      "sha256": "ec1f4942b3955b5f545dc84baf0d5e83dae779f5f62fc10d50442cdbc9fbda59"
+    },
+    {
+      "source_filename": "block2_faraday_circulation.png",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学可视化/Block2_Maxwell能量账/block2_faraday_circulation.png",
+      "bytes": 69738,
+      "sha256": "94945ee970ed0d6ee0868ed9b6a5d039b9d12e343ef2f297c1efb0445355bcde"
+    },
+    {
+      "source_filename": "block2_curl_rectangles.png",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学可视化/Block2_Maxwell能量账/block2_curl_rectangles.png",
+      "bytes": 70464,
+      "sha256": "8df667546eae52af03d48bc8617f9d09ffc8a411445c9ed395a4b50e878d5d9b"
+    },
+    {
+      "source_filename": "block2_displacement_current.png",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学可视化/Block2_Maxwell能量账/block2_displacement_current.png",
+      "bytes": 49420,
+      "sha256": "63c7f5d27606fd5381deac0206de649e744e69de382f88d0ad74f0d9aa294f6d"
+    },
+    {
+      "source_filename": "block2_volume_energy.png",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学可视化/Block2_Maxwell能量账/block2_volume_energy.png",
+      "bytes": 67408,
+      "sha256": "22b28113bd19d36c3aa333fa35184485da2a879606766e92ba7ede09baaa733a"
+    },
+    {
+      "source_filename": "block2_project_balance.png",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学可视化/Block2_Maxwell能量账/block2_project_balance.png",
+      "bytes": 95375,
+      "sha256": "2d1902e3f1c07db97f4468a30578ccc620ac46a2a9991d316524208078898f3b"
+    },
+    {
+      "source_filename": "codex-clipboard-2f73c273-2264-432e-8eb0-37109d170431.jpg",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学附件/Block2_20261003_20261004/01_电场点乘.jpg",
+      "bytes": 2813612,
+      "sha256": "0601501e1540013dd613d971f92ab56c72fd18c04fbaf6cd4a39a1eea611e781"
+    },
+    {
+      "source_filename": "codex-clipboard-4f5290da-0a8a-43bb-9d80-a722e16d6461.jpg",
+      "destination": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/教学附件/Block2_20261003_20261004/02_两条旋度方程合并.jpg",
+      "bytes": 2885666,
+      "sha256": "4b9f13c93ee5e4ada8a0a79aa1901d74243e06ccb777d40bec3043532740c6da"
+    }
+  ]
+}
