@@ -1,0 +1,13 @@
+{
+  "exact_xlsx_images": 41,
+  "xlsx_images": 41,
+  "crop_pairs": 41,
+  "crop_mae_range_8bit": [
+    0.01190076857632454,
+    0.06385262662079683
+  ],
+  "same_file_exact_time_trajectory_pairs": 58,
+  "separate_exact_time_trajectory_pairs": 19,
+  "separate_pairs": 19,
+  "interpretation": "Identity checks only; they do not identify the human simulation operator or prove the paper image came from a particular saved executable version."
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "time_fig": "F072",
+    "trajectory_fig": "F073",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 2.220446049250313e-16
+  },
+  {
+    "time_fig": "F074",
+    "trajectory_fig": "F075",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 1.1102230246251565e-16
+  },
+  {
+    "time_fig": "F076",
+    "trajectory_fig": "F077",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 4.440892098500626e-16
+  },
+  {
+    "time_fig": "F078",
+    "trajectory_fig": "F079",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 4.440892098500626e-16
+  },
+  {
+    "time_fig": "F080",
+    "trajectory_fig": "F081",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 2.220446049250313e-16
+  },
+  {
+    "time_fig": "F082",
+    "trajectory_fig": "F083",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 1.1102230246251565e-16
+  },
+  {
+    "time_fig": "F085",
+    "trajectory_fig": "F086",
+    "exact_xy_match": true,
+    "n": 1000,
+    "tfirst": 5.005,
+    "tlast": 10.0,
+    "dt": 0.004999999999999893,
+    "polar_radius_max_error_vs_atan2": 0.0
+  },
+  {
+    "time_fig": "F087",
+    "trajectory_fig": "F088",
+    "exact_xy_match": true,
+    "n": 1000,
+    "tfirst": 5.005,
+    "tlast": 10.0,
+    "dt": 0.004999999999999893,
+    "polar_radius_max_error_vs_atan2": 0.0
+  },
+  {
+    "time_fig": "F089",
+    "trajectory_fig": "F090",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 0.0
+  },
+  {
+    "time_fig": "F091",
+    "trajectory_fig": "F092",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 0.0
+  },
+  {
+    "time_fig": "F093",
+    "trajectory_fig": "F094",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 4.440892098500626e-16
+  },
+  {
+    "time_fig": "F095",
+    "trajectory_fig": "F096",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 4.440892098500626e-16
+  },
+  {
+    "time_fig": "F097",
+    "trajectory_fig": "F098",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 2.220446049250313e-16
+  },
+  {
+    "time_fig": "F099",
+    "trajectory_fig": "F100",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 1.1102230246251565e-16
+  },
+  {
+    "time_fig": "F101",
+    "trajectory_fig": "F102",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 4.440892098500626e-16
+  },
+  {
+    "time_fig": "F107",
+    "trajectory_fig": "F108",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 4.440892098500626e-16
+  },
+  {
+    "time_fig": "F109",
+    "trajectory_fig": "F110",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 2.220446049250313e-16
+  },
+  {
+    "time_fig": "F111",
+    "trajectory_fig": "F112",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 2.220446049250313e-16
+  },
+  {
+    "time_fig": "F113",
+    "trajectory_fig": "F114",
+    "exact_xy_match": true,
+    "n": 500,
+    "tfirst": 5.01,
+    "tlast": 10.0,
+    "dt": 0.009999999999999787,
+    "polar_radius_max_error_vs_atan2": 2.220446049250313e-16
+  }
+]

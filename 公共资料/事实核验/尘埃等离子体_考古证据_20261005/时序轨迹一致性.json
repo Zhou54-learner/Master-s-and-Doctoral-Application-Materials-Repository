@@ -1,0 +1,466 @@
+[
+  {
+    "id": "F001",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F002",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F003",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F004",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F005",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F006",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F007",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F008",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F009",
+    "n": 15001,
+    "dt": 0.001,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F010",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F011",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F012",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F013",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F014",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F015",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F016",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F017",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F018",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F019",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F020",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F021",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F022",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F023",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F024",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F025",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F026",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F027",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F028",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F029",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F030",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F031",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F032",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F033",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F034",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F035",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F036",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F037",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F038",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F039",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F040",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F041",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F042",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F043",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F044",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F045",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F046",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F047",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F048",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F049",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F050",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F051",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F052",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F053",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F054",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F055",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F056",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F057",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  },
+  {
+    "id": "F058",
+    "n": 1501,
+    "dt": 0.01,
+    "tfirst": 0.0,
+    "tlast": 15.0,
+    "trajectory_equals_time_series": true
+  }
+]

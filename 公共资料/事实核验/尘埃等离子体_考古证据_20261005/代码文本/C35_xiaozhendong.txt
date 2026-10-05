@@ -1,0 +1,16 @@
+syms x
+%参数取值
+a=0.6*10^(-6);k=9510;q=7280*1.6*10^(-19);m=6.13*10^(-13);
+%写出势能
+f(x)=(q*q*exp(-k*(a+x))/(a+x))+(q*q*exp(-k*(a-x))/(a-x))+(2*q*q*exp(-k*(sqrt(x*x+a*a+a*x)))/(sqrt(x*x+a*a+a*x)))+(2*q*q*exp(-k*(sqrt(x*x+a*a-a*x)))/(sqrt(x*x+a*a-a*x)));
+%求二阶导
+c=diff(f(x),x,2);
+%带入x=0
+cr=vpa(subs(c,x,0));
+%频率
+niu=sqrt(cr/m);
+niu = double(niu)
+%周期
+t=1/niu;
+T = double(t)
+

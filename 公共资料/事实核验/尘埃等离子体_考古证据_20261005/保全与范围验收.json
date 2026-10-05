@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-05",
+  "source_files_checked": 364,
+  "source_sha_changes": [],
+  "source_mtime_changes": [],
+  "markdown_links_checked": 170,
+  "broken_links": [],
+  "audit_python_syntax": "PASS",
+  "json_parse": "PASS",
+  "tracked_pptx_checked_against_HEAD": 8,
+  "pptx_changed": [],
+  "no_simulation_executed": true,
+  "archives_added_to_commit": false,
+  "parameter_substitution_C39": {
+    "D_m": 9.13609445414177e-05,
+    "a_over_D": 1.9702073014185897
+  },
+  "scope_note": "Uncommitted undergraduate-thesis and other concurrent-task files are excluded by explicit path selection."
+}

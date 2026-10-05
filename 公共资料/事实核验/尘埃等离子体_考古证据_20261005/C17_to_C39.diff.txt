@@ -1,0 +1,53 @@
+--- C17_main.txt
++++ C39_main.txt
+@@ -64,7 +64,7 @@
+     end
+ end 
+ 
+- %分析偏振特性
++%分析偏振特性
+ time = tc+dt:dt:tz;
+ figure;
+ subplot(2, 1, 1);
+@@ -87,12 +87,33 @@
+ polarplot(theta); % 绘制偏振图
+ % 绘制李萨如图
+ figure;
+-plot(tesx1, tesy1);
+-set(gca,'FontSize',10)
+-xlabel('X Displacement');
+-ylabel('Y Displacement');
+-set_axis_length('x', 2*10^(-5)) 
+-set_axis_length('y', 2*10^(-5)) 
+-title('Lissajous Figure of Particle Motion');
++plot(tesx1, tesy1,'LineWidth',1,'Color','b');
++set(gca,'FontSize',12)
++xlabel('X/m','FontSize',12,'FontName','Arial Unicode MS');
++ylabel('Y/m','FontSize',12,'FontName','Arial Unicode MS');
++set_axis_length('x', 1.8*10^(-5)) 
++set_axis_length('y', 1.8*10^(-5)) 
++title('Lissajous Figure of Particle Motion','FontSize',10,'FontName','Arial Unicode MS');
+ axis square
+-grid on;
++%axis off;  % 隐藏坐标轴
++grid on;  % 网格线
++% 隐藏坐标轴上的度量值
++%set(gca, 'XTick', [], 'YTick', []);
++
++% 隐藏坐标轴的名称
++%xlabel('');
++%ylabel('');
++
++% 隐藏图表的标题
++title('');
++
++%保存图像到指定路径
++%指定文件夹和文件名
++%foldera = 'E:\2024\data figure\data figure x tc-5\square fig line_L(jpg)';%替换为你要保存的路径
++%filenamea = '47,55.jpg';% 文件名及格式
++
++%将完整路径与文件名结合
++%fullpath = fullfile(foldera, filenamea);
++
++%保存图像并指定分辨率为 600 DPI
++%exportgraphics(gcf, fullpath, 'Resolution', 600);

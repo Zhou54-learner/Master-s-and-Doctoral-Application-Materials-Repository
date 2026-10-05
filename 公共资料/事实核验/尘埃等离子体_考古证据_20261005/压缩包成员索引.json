@@ -1,0 +1,2046 @@
+[
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）.zip",
+    "member": "fyfl.m",
+    "size": 237,
+    "sha256": "8e62cdaf96ca8eaef4bb4421be3e7eda9560aee347272c8b67aa39d62fac1bd0",
+    "zip_time_no_timezone": "(2024, 7, 19, 12, 35, 42)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）.zip",
+    "member": "main.mlx",
+    "size": 24949,
+    "sha256": "8415cc265b49b3aa1fbeb581801f69b4e0cd8e00d9ec6900aef95e6b5c28ac99",
+    "zip_time_no_timezone": "(2024, 8, 9, 16, 53, 48)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）.zip",
+    "member": "vxnn.m",
+    "size": 577,
+    "sha256": "24227fffee47164de5f2d7f607719afe5d45c9ba4772737ef9026549c59f6f94",
+    "zip_time_no_timezone": "(2024, 8, 3, 19, 42, 34)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）.zip",
+    "member": "vynn.m",
+    "size": 577,
+    "sha256": "38d8ea2318b5a699a5876e47f05d445baf91242fdf5e65ce5b58fabaff62826c",
+    "zip_time_no_timezone": "(2024, 8, 3, 19, 42, 34)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）.zip",
+    "member": "xlg.m",
+    "size": 1532,
+    "sha256": "22f835455b6a62f8b707d8adae143affbf07dcd58672398a3e182b0ee8bc6077",
+    "zip_time_no_timezone": "(2024, 8, 2, 17, 22, 20)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）.zip",
+    "member": "fxfl.m",
+    "size": 240,
+    "sha256": "56a981ddd67681778c34ead4b389306d003dfd39f5cc8fa3b24497df84b17660",
+    "zip_time_no_timezone": "(2024, 7, 19, 12, 35, 42)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "member": "代码（偏振）去前段/fxfl.m",
+    "size": 240,
+    "sha256": "56a981ddd67681778c34ead4b389306d003dfd39f5cc8fa3b24497df84b17660",
+    "zip_time_no_timezone": "(2024, 7, 19, 12, 35, 42)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "member": "代码（偏振）去前段/fyfl.m",
+    "size": 237,
+    "sha256": "8e62cdaf96ca8eaef4bb4421be3e7eda9560aee347272c8b67aa39d62fac1bd0",
+    "zip_time_no_timezone": "(2024, 7, 19, 12, 35, 42)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "member": "代码（偏振）去前段/main.mlx",
+    "size": 68711,
+    "sha256": "bcca32883e29a399b08254cab892863462346b9268e6bae6471d2d57700f8716",
+    "zip_time_no_timezone": "(2024, 8, 18, 23, 13, 34)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "member": "代码（偏振）去前段/set_axis_length.mlx",
+    "size": 3468,
+    "sha256": "46b32d0edb5ae07ef6651f61065acf43b74f10e7cff4b5b87651b2bfeca0f83e",
+    "zip_time_no_timezone": "(2024, 8, 18, 17, 52, 10)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "member": "代码（偏振）去前段/vxnn.m",
+    "size": 577,
+    "sha256": "24227fffee47164de5f2d7f607719afe5d45c9ba4772737ef9026549c59f6f94",
+    "zip_time_no_timezone": "(2024, 8, 3, 19, 42, 34)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "member": "代码（偏振）去前段/vynn.m",
+    "size": 577,
+    "sha256": "38d8ea2318b5a699a5876e47f05d445baf91242fdf5e65ce5b58fabaff62826c",
+    "zip_time_no_timezone": "(2024, 8, 3, 19, 42, 34)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "member": "代码（偏振）去前段/xlg.m",
+    "size": 1532,
+    "sha256": "22f835455b6a62f8b707d8adae143affbf07dcd58672398a3e182b0ee8bc6077",
+    "zip_time_no_timezone": "(2024, 8, 2, 17, 22, 20)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（对称偏振）.zip",
+    "member": "代码（偏振）/fxfl.m",
+    "size": 240,
+    "sha256": "56a981ddd67681778c34ead4b389306d003dfd39f5cc8fa3b24497df84b17660",
+    "zip_time_no_timezone": "(2024, 7, 19, 12, 35, 42)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（对称偏振）.zip",
+    "member": "代码（偏振）/fyfl.m",
+    "size": 237,
+    "sha256": "8e62cdaf96ca8eaef4bb4421be3e7eda9560aee347272c8b67aa39d62fac1bd0",
+    "zip_time_no_timezone": "(2024, 7, 19, 12, 35, 42)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（对称偏振）.zip",
+    "member": "代码（偏振）/main.mlx",
+    "size": 28831,
+    "sha256": "eb479e8d0992e79ea61efa7ced256b1609c7a1ee8a99ee7804b0eb8ae68415af",
+    "zip_time_no_timezone": "(2024, 8, 4, 13, 52, 40)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（对称偏振）.zip",
+    "member": "代码（偏振）/vxnn.m",
+    "size": 577,
+    "sha256": "24227fffee47164de5f2d7f607719afe5d45c9ba4772737ef9026549c59f6f94",
+    "zip_time_no_timezone": "(2024, 8, 3, 19, 42, 34)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（对称偏振）.zip",
+    "member": "代码（偏振）/vynn.m",
+    "size": 577,
+    "sha256": "38d8ea2318b5a699a5876e47f05d445baf91242fdf5e65ce5b58fabaff62826c",
+    "zip_time_no_timezone": "(2024, 8, 3, 19, 42, 34)"
+  },
+  {
+    "archive": "E:/2024/yxy组代码/代码存档/代码（对称偏振）.zip",
+    "member": "代码（偏振）/xlg.m",
+    "size": 1532,
+    "sha256": "22f835455b6a62f8b707d8adae143affbf07dcd58672398a3e182b0ee8bc6077",
+    "zip_time_no_timezone": "(2024, 8, 2, 17, 22, 20)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure 60°/data figure 60°.zip",
+    "member": "data figure 60°/60(48,48).fig",
+    "size": 155437,
+    "sha256": "0a516625ea14760c9acf43fa7d89af7b1ec23033a7774257107a4a53477e0b32",
+    "zip_time_no_timezone": "(2024, 8, 4, 11, 41, 2)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure 60°/data figure 60°.zip",
+    "member": "data figure 60°/60(49,49).fig",
+    "size": 156868,
+    "sha256": "ba5d42d6a7f619af3d153441b7f2be607cb04032fbc99077f46a36b226407f69",
+    "zip_time_no_timezone": "(2024, 8, 4, 11, 45, 52)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure 60°/data figure 60°.zip",
+    "member": "data figure 60°/60(50,50).fig",
+    "size": 157379,
+    "sha256": "8b18ce45e9a0947169e66e8f96efe32ffd7dcbddf3e310ff803f9c85b96f10c3",
+    "zip_time_no_timezone": "(2024, 8, 4, 11, 49, 16)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure 60°/data figure 60°.zip",
+    "member": "data figure 60°/60(51,51).fig",
+    "size": 167337,
+    "sha256": "bec85ef9afdf4734e4eddcc3c30a6654a99d5bb54a0025220dba4e691dcf64cf",
+    "zip_time_no_timezone": "(2024, 8, 4, 11, 37, 8)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure 60°/data figure 60°.zip",
+    "member": "data figure 60°/60(52,52).fig",
+    "size": 157956,
+    "sha256": "2861206ea7a1f1d015ab81b880f7c3701cbeaa4927b74ad82a19c722cb7bd44f",
+    "zip_time_no_timezone": "(2024, 8, 4, 12, 0, 52)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure 60°/data figure 60°.zip",
+    "member": "data figure 60°/60(53,53).fig",
+    "size": 157804,
+    "sha256": "e7dc9dd03cc3a9e3169a564123d44bb4e3cdef323209fdfeeb356b964e92ce23",
+    "zip_time_no_timezone": "(2024, 8, 4, 12, 5, 58)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure 60°/data figure 60°.zip",
+    "member": "data figure 60°/60(54,54).fig",
+    "size": 156852,
+    "sha256": "9fb68aa23cd29bdf1a6ce5d479ee47ca27ab4bc8d9cf001070b5730752aa9370",
+    "zip_time_no_timezone": "(2024, 8, 4, 12, 8, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/47,47.jpg",
+    "size": 79945,
+    "sha256": "6180cd44e02be67d2ddeb69035b200ee71a84db4d6338fed449bc28c26b13afc",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/47,49.jpg",
+    "size": 76850,
+    "sha256": "7b7594d5e21f427e939748a637e426284415fcce2a63b241e0542e9a0a7ce1c8",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/47,51.jpg",
+    "size": 75299,
+    "sha256": "fc91bd2e73f5cc45b4de07cd90d41e6b9c5ed91d69ffa9704c1cf16ce32c86cf",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/47,53.jpg",
+    "size": 76821,
+    "sha256": "70a744b6b7f368ead1a3022ec5eaa8cf31fe6a7a9fd08e43ebbe2bf63a262ec2",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/47,55.jpg",
+    "size": 79990,
+    "sha256": "7a0abd1ca1edc2b106733ffb375e3d39a2dedb3878ffbe0306c2bf587084488f",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/48,48.jpg",
+    "size": 76486,
+    "sha256": "b60f72abdd3bab1e653632d5ed4be5f8d2b62bb4e28d366ac286722b977de0b2",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/48,50.jpg",
+    "size": 77741,
+    "sha256": "c36e7f0e12fbf26c01a75d06d259b160be766b83011b41eda144fb1e37a0b445",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/48,52.jpg",
+    "size": 77819,
+    "sha256": "ead2d7b234f28f01712062549ce3107b4464ccbd5a89c30ff74c2e648adc5f8d",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/48,54.jpg",
+    "size": 76389,
+    "sha256": "31d708858f58f5e1762e922e855ef291fa57e14aaf73bac0c0bd4d07209980c8",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/49,47.jpg",
+    "size": 81555,
+    "sha256": "83a81e06e9dbd6f8c062689edfc7a6e07dd708af115ad817a2b990c03c9a437b",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/49,49.jpg",
+    "size": 87046,
+    "sha256": "bf23511c0cd1e1410c4ede1a4a4afbc7e3601a58d252b78f1df4511111b8c026",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/49,51.jpg",
+    "size": 76864,
+    "sha256": "6d111ca60b3652e754eb76b3d3d6e17358c6500661354e2350c0729097de1c3b",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/49,53.jpg",
+    "size": 87320,
+    "sha256": "9edcdfe2ea5e36eb84a0e8ccb053862bc0071773a71848187395dc18455b3d60",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/49,55.jpg",
+    "size": 81503,
+    "sha256": "d7701c4de7cb7dd17983249dad641d6acb2edd94c1aa48f5809c4101f10a10bb",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/50,48.jpg",
+    "size": 81203,
+    "sha256": "4445230126660d698ecad502e09f3909b17d315ce867e25268b77dd287dd81c8",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/50,50.jpg",
+    "size": 78390,
+    "sha256": "89733478cd23ea865a691bced8f52e30e5de32b17157835bcdb589bdc8d77c28",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/50,52.jpg",
+    "size": 78279,
+    "sha256": "471f5942ff20a41df2b5d574362e570b7fc7a46b582f458e437f02a231389002",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/50,54.jpg",
+    "size": 81076,
+    "sha256": "e919928abba7aa57c5953497c5ce3de5aee56476ef5ff4b66fd9856deb356fae",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/51,47.jpg",
+    "size": 76533,
+    "sha256": "3d8a92d1a5f77f8707e10ab277a1566acea7c8e7a8a5e6262df3a49ff2c9bb88",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/51,49.jpg",
+    "size": 79960,
+    "sha256": "edb0d11b2ce52535656fe5986f715da2bff2c674699c511b12e08e02b09dfc2b",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/51,51.jpg",
+    "size": 83812,
+    "sha256": "7ef027dac6c646cfe05fc5e205674358451005ee7a3c894397ded29fd98301e9",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/51,53.jpg",
+    "size": 79953,
+    "sha256": "0ecf5d01d8bd79b9a459bd869aea41cbb31bb73e530ce251d335c16e79407e07",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/51,55.jpg",
+    "size": 76507,
+    "sha256": "dd04625587fc27a2256d7b249d4cc1fff87e8c9c1a8b135181614d05f24dc50c",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/52,48.jpg",
+    "size": 81078,
+    "sha256": "ec9adbb5f544873d69f9a586d3592cc19d277189b23b6c0a855505c8d07cb761",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/52,50.jpg",
+    "size": 78337,
+    "sha256": "6ad23314ec55aaeb0f4faeee03aa7a289ffcf38fab578c16e6a1362193e66d4f",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/52,52.jpg",
+    "size": 78382,
+    "sha256": "88b9a90bad9857c7bb632f1fc0ed47af7b2fb351614c6095ac3a57bf92f47eac",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/52,54.jpg",
+    "size": 81238,
+    "sha256": "64dfdbde17a76dbd9a474cacc413b8f6895663c6f0ac11e0fa9aa53d8eb703a5",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/53,47.jpg",
+    "size": 81399,
+    "sha256": "0b783a99203799413cb5ba2dbcdb855381c825ca593df0c66599fe60223f50e9",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/53,49.jpg",
+    "size": 87381,
+    "sha256": "7bb1a64c7c78c6d1eab5540ae38523e0e8d4c14cffc66eb5429c14e391b626b8",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/53,51.jpg",
+    "size": 76901,
+    "sha256": "07f219a0b098bdf973f1551ceda430411f353968b33a4d89886659619805fe5b",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/53,53.jpg",
+    "size": 87069,
+    "sha256": "f081a98c4253be1e4c87970f456560a8014f3e58e6d6a2793b6235493afe978b",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/53,55.jpg",
+    "size": 81520,
+    "sha256": "6cfb88396eb0621d1f7f3b198aa0a34274a9d8a78d16ed743abc5b4039025999",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/54,48.jpg",
+    "size": 76252,
+    "sha256": "b7e87920ca78196d7fd43d7a277ac860ac160191eefa6a63a296fba9c7a8d9b2",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/54,50.jpg",
+    "size": 77730,
+    "sha256": "e7e089a52baba3cac5ea9bb3da5888062735441c2dd4512ad24e828dcd388135",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/54,52.jpg",
+    "size": 77801,
+    "sha256": "7e79899ab8821544afc7c5a77804a5f89c81acad74f69962db87a50f1d1a5da4",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/54,54.jpg",
+    "size": 76433,
+    "sha256": "afd1ada886ed240a5f7d5709b57e6fb8dc8b39a865a1c025bad567dd44d5ad07",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/55,47.jpg",
+    "size": 80012,
+    "sha256": "d21b0c88859c99580e00b813db4f0448247b55840b499830ed718fc5ddcdc43c",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/55,49.jpg",
+    "size": 76618,
+    "sha256": "33c328f85911e1f8f97e9022634ddddac08faeca0e49023c821a7a10baa513b2",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/55,51.jpg",
+    "size": 75394,
+    "sha256": "eb376cf878e43418474d725e2386369cf066f4a1258310d41d7294ffcbbbb3b9",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/55,53.jpg",
+    "size": 76726,
+    "sha256": "8c82fa88ee5d32d6c8d36491c043ef1db08c9e03590c5ebfdf1f865198d97c3e",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "member": "no line/55,55.jpg",
+    "size": 79856,
+    "sha256": "455f12999836074dadad6d7e1a00a563bf5e7d42ae0d9f4e30103a28c6760dc2",
+    "zip_time_no_timezone": "(2024, 8, 24, 19, 24, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/47,47.jpg",
+    "size": 26414,
+    "sha256": "2af636d25b64a00686856d910fbc5151182c554c923b1569865688dc92fd61c6",
+    "zip_time_no_timezone": "(2024, 8, 18, 23, 14, 22)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/47,49.jpg",
+    "size": 26069,
+    "sha256": "f26d03f8063eef5a83dc293205b5d157a0920ac95c71cab507c17a6e4ec84a37",
+    "zip_time_no_timezone": "(2024, 8, 18, 23, 9, 44)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/47,51.jpg",
+    "size": 25151,
+    "sha256": "92498046493f7bf1efee309b27ed0e53d8bb5d63432a4a796774a126edf7834f",
+    "zip_time_no_timezone": "(2024, 8, 18, 23, 4, 44)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/47,53.jpg",
+    "size": 25953,
+    "sha256": "91230f004d416dd83f608e0e0017e1dbb02da7c979320c6a7111205575c2aefd",
+    "zip_time_no_timezone": "(2024, 8, 18, 23, 0, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/47,55.jpg",
+    "size": 26318,
+    "sha256": "58bb5c1fe255c90b2d124dabf71d7758999adddffea069758fdb69a43fd15478",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 55, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/48,48.jpg",
+    "size": 26033,
+    "sha256": "89467c69eee3b4208425ae668f5554487b277921ec5dfafdf9de2d96e3a0508a",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 38, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/48,50.jpg",
+    "size": 25148,
+    "sha256": "900b3377afc18954037e2a5eb2a80f8334c3562158226e709c36235efca3dea0",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 42, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/48,52.jpg",
+    "size": 25059,
+    "sha256": "512aaa1a2fffc5dd09adbb1991af110f3a9c9c6e820d9e2a7a21c50c1194fd37",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 46, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/48,54.jpg",
+    "size": 25578,
+    "sha256": "d866b3c197f5e96f0996d00834d843be0a9abef3f3f84f6d95177af1ff041522",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 51, 44)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/49,47.jpg",
+    "size": 25882,
+    "sha256": "c045eccfe7615a402b16aaecaa113c54086c486b60a6d93787f7589a405f30a6",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 34, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/49,49.jpg",
+    "size": 27115,
+    "sha256": "52e244c948d5371b7eed432158d52fcda6b3646eef47726a2f22d8131618661d",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 28, 40)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/49,51.jpg",
+    "size": 25221,
+    "sha256": "d6f6fa4cdb78b7dcfa9dabe1c480630c19810f2615779645865f88d48b9e75fd",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 24, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/49,53.jpg",
+    "size": 27171,
+    "sha256": "c643e6c470c0588ae6aa5587065c2afe37d798d410cd47cb8cb3a4f99e09027b",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 19, 8)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/49,55.jpg",
+    "size": 25825,
+    "sha256": "4e2d7828a79e3a8e02c1b515fa7ae3fa36e5c978730235307d584186cf63fc6f",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 13, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/50,48.jpg",
+    "size": 25650,
+    "sha256": "559577bef265a5cd18d5fc648dee81ac093e146ef9996e7d3889a9dd0e0907ac",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 56, 0)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/50,50.jpg",
+    "size": 25458,
+    "sha256": "45b4ca785775f6c553a0dacace240ff13978c2d8412c98e94766c96ac1df586f",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 0, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/50,52.jpg",
+    "size": 24995,
+    "sha256": "98aa7d7b137be3b40f0e6981458c25d93e8b27bfa431d5ae026d5efa00d615e7",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 4, 52)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/50,54.jpg",
+    "size": 25072,
+    "sha256": "14e7f32c46b5d59130dedd748c94e5ee3d4d49394d1f4d6c89bb618ce720e5b9",
+    "zip_time_no_timezone": "(2024, 8, 18, 22, 8, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/51,47.jpg",
+    "size": 24876,
+    "sha256": "001e273119129baf41d1d967fc5f11b5c680ed44fbc957c0c33b82310775345e",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 51, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/51,49.jpg",
+    "size": 23763,
+    "sha256": "bd653e111b2d23598bb156285160c180d37115a3ddbe90ca00121e54b3c603fd",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 46, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/51,51.jpg",
+    "size": 22987,
+    "sha256": "fa3b97facde90e4fdfaf762e6e4acf30c55a4b2242e2c2a18ca65ef105e70979",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 42, 4)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/51,53.jpg",
+    "size": 23702,
+    "sha256": "92d551cb7769001ded804c8458b4e7e770127c0e5de00c598c959ae855dea04a",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 37, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/51,55.jpg",
+    "size": 23506,
+    "sha256": "1266c97b19a5992986f24e7db42296764444bb2b4aa64354189d7b2cd071b277",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 33, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/52,48.jpg",
+    "size": 26774,
+    "sha256": "a6fbe647e2b20dff7b49cc61e20eb88c149141d27a77619d512d7358f57b955a",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 16, 52)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/52,50.jpg",
+    "size": 25875,
+    "sha256": "e5f2463b74a1c9a4b5f79c4a7fefcd6d144a0cb1ee55f0dd13535e5fd110cac0",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 21, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/52,52.jpg",
+    "size": 25405,
+    "sha256": "469e9b8e767528346f1fe23f5049af66ad964cfaf290d537de46a8012076d322",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 25, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/52,54.jpg",
+    "size": 26159,
+    "sha256": "6ab9546b5e2b42baddf59be2efda0369bcfe6769a20d2a8bbc65816aca4ce1a6",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 29, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/53,47.jpg",
+    "size": 26997,
+    "sha256": "800002aac17da74aeb412eabcd31f2aaae6b815d5c2a0f8e08ecfd7050ec755c",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 12, 22)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/53,49.jpg",
+    "size": 27530,
+    "sha256": "3c5e0211cdae8091657701972adabb87f7b29b184222e363f2a096685f721743",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 7, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/53,51.jpg",
+    "size": 25767,
+    "sha256": "46be4067b2879d0c7672528933d49a8221db25ede43c7f04558fcfec6af64965",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 3, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/53,53.jpg",
+    "size": 27668,
+    "sha256": "56f3ba02c32c04ca4913c382a049d8ef5ce2e2becba0ea6da9781059838df266",
+    "zip_time_no_timezone": "(2024, 8, 18, 21, 0, 12)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/53,55.jpg",
+    "size": 26945,
+    "sha256": "568e2ffdd8804fd7f26b6f9a9897bd27b2aa9d3b98694cdf642818f44af91683",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 55, 30)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/54,48.jpg",
+    "size": 26278,
+    "sha256": "ddacff0a5b7e217bbc61f35d134c63c876745b605d58edc9b9b63ae3be5c930f",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 43, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/54,50.jpg",
+    "size": 25302,
+    "sha256": "dd55d5cd3530dd39cc40d5ae735ee2554f181e7258d36ec0e6300f316766c858",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 48, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/54,52.jpg",
+    "size": 25242,
+    "sha256": "d6b0a7bd65f662ffc152697c8c16d37725b5738f18005500fd622e6af03bbd70",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 50, 40)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/54,54.jpg",
+    "size": 25837,
+    "sha256": "2db392ab74f20c59cd3d2bfbf9525fb85e9d880f05985dc96820cd71ab675b24",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 52, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/55,47.jpg",
+    "size": 26761,
+    "sha256": "1699867caed367cccbb4ee80301338cdd1c320022a93354c8bb1ad802dfe67d2",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 40, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/55,49.jpg",
+    "size": 26436,
+    "sha256": "9bf8634c2967f3f71dfa9a6ec9e5abb6ef4e5d93a5ce13a304f40d2453a0c4b3",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 37, 58)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/55,51.jpg",
+    "size": 25602,
+    "sha256": "046c464402ab116010b6173b34e5e82d073282d6351cfe7440e7fa4f8d3119b0",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 35, 30)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/55,53.jpg",
+    "size": 26331,
+    "sha256": "58a7564821215ab83edcecffe85400cefcde88d8c5d20342a23b2afaeaa96a16",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 33, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "member": "square fig(jpg)/55,55.jpg",
+    "size": 26711,
+    "sha256": "c3e7a118e01f326936e58b045e237322099e5a1946b801bc13805538e70ceeb1",
+    "zip_time_no_timezone": "(2024, 8, 18, 20, 29, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/47,47.jpg",
+    "size": 287693,
+    "sha256": "1f514288e106ec6e2301355c9d742456fa4b8a4b795ca900bb8faaf51a6a151c",
+    "zip_time_no_timezone": "(2024, 8, 20, 23, 12, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/47,49.jpg",
+    "size": 275647,
+    "sha256": "a470557c0625f0a19cd0379432489ed5cec7dbccb3183e6fb64607ad9f11ed29",
+    "zip_time_no_timezone": "(2024, 8, 20, 23, 9, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/47,51.jpg",
+    "size": 256498,
+    "sha256": "83fb5d58d6f12116615e2c7d9f75f75be641f6bfe854aa49766fa4a342db7e2e",
+    "zip_time_no_timezone": "(2024, 8, 20, 23, 6, 0)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/47,53.jpg",
+    "size": 274014,
+    "sha256": "ad0364758c3ec62e6f7b6507709fbd928d1122c839b21ac92eec65f971f9d9fc",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 59, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/47,55.jpg",
+    "size": 287005,
+    "sha256": "4422fa2e1efd07a055d80a7e15314cdcad45aa7deb0fb68f5fd8a826f9f38c65",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 55, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/48,48.jpg",
+    "size": 279239,
+    "sha256": "0f877e1b8cf2c46ab11e14d9fbfe5aa55e1de561c6fe4b5f0d0b0464c94d6fbe",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 34, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/48,50.jpg",
+    "size": 280194,
+    "sha256": "5b20b7324edcdbcd02468021fb6a12158e91467fc1c9c2054079df581a26fe75",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 41, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/48,52.jpg",
+    "size": 270857,
+    "sha256": "525007150e5e6943117272deec1cd7152fd75209f4a032bb7c200b545714b2dd",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 46, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/48,54.jpg",
+    "size": 279228,
+    "sha256": "c980bbf3de2cc789b8bf02c6819677a3087e1ea13127273f5e52cec13a4f925e",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 51, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/49,47.jpg",
+    "size": 286577,
+    "sha256": "e3bd4409c7cdbf48ad9c5d545af215fd7f37e5f3e6626907eed89f6a53184cdf",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 29, 52)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/49,49.jpg",
+    "size": 291647,
+    "sha256": "a5aac26a00ca73e7d0bdb9ea6da39d6c5544c3a107645d70ca60081fb1843f75",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 23, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/49,51.jpg",
+    "size": 259870,
+    "sha256": "6fd62e972aeb49980d5a89519d389ed1cd08cf7cb2f54514bf7fba9cfec3e459",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 17, 8)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/49,53.jpg",
+    "size": 287453,
+    "sha256": "3b166e70263d58e316040f15e7c892486eb2704133af4a5e1c8a0b058493e9b2",
+    "zip_time_no_timezone": "(2024, 8, 20, 22, 2, 4)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/49,55.jpg",
+    "size": 282084,
+    "sha256": "d0fe2bacc80c4b101fe45956581d7df24b7689feccd22789b173ff75ebee5a7d",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 57, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/50,48.jpg",
+    "size": 275693,
+    "sha256": "9ea738892f2dd2da6ce962d479697c94b4749f6cb4711406b28d2a6e8211cc3f",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 29, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/50,50.jpg",
+    "size": 271992,
+    "sha256": "2b9bf677bc1a3b5fbac07c6cd3c68d5749ebea4f8185dfb5a2ce7379dbd3ca61",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 34, 20)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/50,52.jpg",
+    "size": 270337,
+    "sha256": "28ed8cdf6e3789915a03802aec640f35f655398fcae65eebe4a315a97b3a5321",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 39, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/50,54.jpg",
+    "size": 275588,
+    "sha256": "7a2ac1f4a199eee04fc1d9bc69c8ce3c3f4e479195996e894f2821e4c8684fef",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 49, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/51,47.jpg",
+    "size": 258985,
+    "sha256": "5628bb2f3e5fd497f4602c45c4b6a4bf5cc39bacd0c002eeff0d4c6719c04ff1",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 23, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/51,49.jpg",
+    "size": 255157,
+    "sha256": "71978d3e3517579a8294791e7137f885662acc58bd61fd74e4e85fb8e2b2d5df",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 14, 28)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/51,51.jpg",
+    "size": 248705,
+    "sha256": "cc1928b424666ecb4993521907651ac691393cba29003a7412eebc5af9a558cf",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 8, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/51,53.jpg",
+    "size": 251885,
+    "sha256": "a9526f846063bf32cf93ee9e15aabdd1dbec3c7c7061f71a4632196786a1a190",
+    "zip_time_no_timezone": "(2024, 8, 20, 21, 1, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/51,55.jpg",
+    "size": 255894,
+    "sha256": "b24cacbe24b00dc7eb8077927d3b8796a4cf038dd9b471e5a35a27325a690ec0",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 55, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/52,48.jpg",
+    "size": 278270,
+    "sha256": "cd24160ea5d964d140f845553bbe65cf560e4b5eadbaa4da540d43582c307775",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 28, 12)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/52,50.jpg",
+    "size": 267340,
+    "sha256": "bd5506aea9384bbfaa889bddbd4e55d893a58ef07673519b53196d6724b484ab",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 33, 42)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/52,52.jpg",
+    "size": 262597,
+    "sha256": "3c8daa00fe87fe6b1ab010574eba1ae30c377b5380dce377652891e27941c478",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 38, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/52,54.jpg",
+    "size": 279352,
+    "sha256": "649236801f95684daec6a8377fa444d105dfc5d8c6b1d5324c22f1281c7c6a00",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 46, 28)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/53,47.jpg",
+    "size": 290526,
+    "sha256": "c606999db6d4f9243b81e9ea2397e3891dbd6616d54031a305566ce8740469db",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 23, 12)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/53,49.jpg",
+    "size": 287280,
+    "sha256": "383f76cd61bf777f2dd91cf74b2a4404dd41b5d537a4241b5a401497afe2696d",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 15, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/53,51.jpg",
+    "size": 266241,
+    "sha256": "46b50e347240dec677f5da9e7a20072151085d3d46e7a120e62c66d9adb02a8a",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 9, 22)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/53,53.jpg",
+    "size": 287663,
+    "sha256": "69490439f658e131c7a53a94cace3be8c66433fea73a6cc856df8a45c413baaf",
+    "zip_time_no_timezone": "(2024, 8, 20, 20, 1, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/53,55.jpg",
+    "size": 287588,
+    "sha256": "a3b3bce39ed7e6100a0ef4ab0d59407fda7e9408998ed8ee29db2a55e577dbf3",
+    "zip_time_no_timezone": "(2024, 8, 20, 19, 52, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/54,48.jpg",
+    "size": 275293,
+    "sha256": "51130a316fcc70f1880396c6355faf675ab90f55b92330188f9e58c8e14ce4c9",
+    "zip_time_no_timezone": "(2024, 8, 20, 19, 30, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/54,50.jpg",
+    "size": 265368,
+    "sha256": "62997262d154d134d05ec28f87a8e1a054c984cdd007d2320af1df5976e3efcf",
+    "zip_time_no_timezone": "(2024, 8, 20, 19, 35, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/54,52.jpg",
+    "size": 262999,
+    "sha256": "f384d968656ed050bf95876a477d247c811fe6d8020a7443301add51edbf513f",
+    "zip_time_no_timezone": "(2024, 8, 20, 19, 41, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/54,54.jpg",
+    "size": 269450,
+    "sha256": "3ee45543f65f58b75f76d2964b095fadc377d5aa3a571b7a39ce73bba141835d",
+    "zip_time_no_timezone": "(2024, 8, 20, 19, 47, 20)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/55,47.jpg",
+    "size": 290168,
+    "sha256": "29104dff4e570cdd23c7ab6983a3e6aefde389a49007fa4f1ef5899ea975c49f",
+    "zip_time_no_timezone": "(2024, 8, 20, 19, 23, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/55,49.jpg",
+    "size": 286867,
+    "sha256": "4b1883fd04db96fa209bdef48cf3328c83198e7f3c3fd72dc927863046cb627b",
+    "zip_time_no_timezone": "(2024, 8, 20, 19, 18, 16)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/55,51.jpg",
+    "size": 265768,
+    "sha256": "9e1b87b61fb71c5f550d08e6ade1cc4d95b45bcdb2d5afaf9ce0aee81cfb79c9",
+    "zip_time_no_timezone": "(2024, 8, 20, 19, 13, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/55,53.jpg",
+    "size": 284956,
+    "sha256": "40b90258549adbe2c217d80f2fd61958bc6bebdc1ec30d5f56eb06a9bff69ead",
+    "zip_time_no_timezone": "(2024, 8, 20, 18, 41, 6)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "member": "square fig 7(jpg)/55,55.jpg",
+    "size": 284832,
+    "sha256": "7e35bfcfcb29c369c81a9501e1d232bed2bd9a147fb9d3bc944cff8608ed0d8f",
+    "zip_time_no_timezone": "(2024, 8, 20, 18, 56, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/47,47.jpg",
+    "size": 107849,
+    "sha256": "0d1ffd0920fba6877af8cb418fce011d69cea9e0e4068365966be19c76da9eac",
+    "zip_time_no_timezone": "(2024, 8, 24, 16, 8, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/47,49.jpg",
+    "size": 103504,
+    "sha256": "4f363294d7243a0eea99846b5fb23dda04f494fefbf37aab7767aceb7a2291f3",
+    "zip_time_no_timezone": "(2024, 8, 24, 16, 13, 58)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/47,51.jpg",
+    "size": 103717,
+    "sha256": "7e3619a8ef8123b99fed961b85577c7994179f39c12807fda9510275d8f4ce2b",
+    "zip_time_no_timezone": "(2024, 8, 24, 16, 18, 56)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/47,53.jpg",
+    "size": 103541,
+    "sha256": "89b9e477ebe1051614b82613ed5b9d9714a0d25e849d69d58bf2986a2d565b8a",
+    "zip_time_no_timezone": "(2024, 8, 24, 16, 24, 8)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/47,55.jpg",
+    "size": 108064,
+    "sha256": "b47013a92f163ba325bf8b8ab416786b02e4d74d3196a9746b6d4b41aec58bce",
+    "zip_time_no_timezone": "(2024, 8, 24, 16, 31, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/48,48.jpg",
+    "size": 107455,
+    "sha256": "c3bb90f976526cb1f965791044f7add50c70bc661ee9ac524fc778bc0d1afb36",
+    "zip_time_no_timezone": "(2024, 8, 24, 16, 2, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/48,50.jpg",
+    "size": 108544,
+    "sha256": "cd98b4e2d95fa7650802edc0b7659e9560f7131025f874d60a33cbf08b4fa5a1",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 57, 56)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/48,52.jpg",
+    "size": 108586,
+    "sha256": "b71d75bb6b2e0af3cba5f0e8e58dc1570998f0c39e22567f41f8e3f4543938d9",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 52, 42)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/48,54.jpg",
+    "size": 106612,
+    "sha256": "737cea5026a0205a68d6c2857b9e99f5985ae64b0b9a6f8918f7b2be18fcfaf9",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 47, 22)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/49,47.jpg",
+    "size": 110127,
+    "sha256": "a59d7205c848530706d071027027b17edbfa834fe24ee6a75976c7aff4874018",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 24, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/49,49.jpg",
+    "size": 119459,
+    "sha256": "79b81b5184c304873c06abf873deae28412131269e669d27b849ba31a2455208",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 29, 22)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/49,51.jpg",
+    "size": 106179,
+    "sha256": "0e0632d9bc8affcfa184214820588daa96e51822aaece96483317994bead8ff1",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 34, 42)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/49,53.jpg",
+    "size": 120124,
+    "sha256": "7dce28544167146086336550ebb828bb09773eb09f62c40d5c20b62f0212b745",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 39, 8)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/49,55.jpg",
+    "size": 109826,
+    "sha256": "6d45d08fac6a3215729f3a2423f3db96d87e7a2bd6e5fbd0ea7af0a1ba6fe54b",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 42, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/50,48.jpg",
+    "size": 113485,
+    "sha256": "19eb0a4b3b4cca9a5a22d67e97940affac8ab90b9881a00a0be1919d7a44ba07",
+    "zip_time_no_timezone": "(2024, 8, 24, 12, 56, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/50,50.jpg",
+    "size": 108970,
+    "sha256": "c0397275a46dd14e937d706723ca19bce6d77084e091ffa50e2dbb333cffad42",
+    "zip_time_no_timezone": "(2024, 8, 24, 14, 57, 12)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/50,52.jpg",
+    "size": 108659,
+    "sha256": "07017cb7af61ce5393743d9ddbb2b6daf77ac78d01d8a4e8f150175bd169b075",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 0, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/50,54.jpg",
+    "size": 113084,
+    "sha256": "95b505ffc5513637c09bde044abf08565f7c22d5468a1c20b861693d203d66ff",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 8, 42)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/51,47.jpg",
+    "size": 105335,
+    "sha256": "0dee6d023690a565742eb6f15607f54d296349777ab81dbb00b2832958372116",
+    "zip_time_no_timezone": "(2024, 8, 24, 12, 53, 40)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/51,49.jpg",
+    "size": 109454,
+    "sha256": "2f363a04ae89e9915dba43315ae589738fe3962cd51db8683c0426eccc2eacf5",
+    "zip_time_no_timezone": "(2024, 8, 24, 11, 44, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/51,51.jpg",
+    "size": 114390,
+    "sha256": "8e672aa7910d9292aa9ced035ea17060797f2445b6cc2b86c67a2250e631162b",
+    "zip_time_no_timezone": "(2024, 8, 24, 11, 35, 58)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/51,53.jpg",
+    "size": 109579,
+    "sha256": "3e8d07d196c3762161291d2d10106a45f7959c65a86587267def81fcf939e6b8",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 19, 28)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/51,55.jpg",
+    "size": 105314,
+    "sha256": "9a947c3316fda65d4b817291470912b0fbd96f982f960c0709ae13bf371762c6",
+    "zip_time_no_timezone": "(2024, 8, 24, 15, 14, 56)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/52,48.jpg",
+    "size": 113145,
+    "sha256": "c56cd4cb4e5e1aa42e840e2494d4677cb45146cfcdedde9136d26aa1ba4a5dff",
+    "zip_time_no_timezone": "(2024, 8, 24, 11, 2, 52)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/52,50.jpg",
+    "size": 108811,
+    "sha256": "17819daf18a8d60f73d9c0ea8da5b7dd261b3f998757c467d0508fc45ae73862",
+    "zip_time_no_timezone": "(2024, 8, 24, 11, 7, 4)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/52,52.jpg",
+    "size": 108993,
+    "sha256": "c28d2048098a0f5e5e0f293c4222434ab2008044f87342d2ea73db87af0bfa61",
+    "zip_time_no_timezone": "(2024, 8, 24, 11, 9, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/52,54.jpg",
+    "size": 113233,
+    "sha256": "828e4854278f2642bd1e3c706af46217162ba11055196e3142d7d28b3b4741b8",
+    "zip_time_no_timezone": "(2024, 8, 24, 11, 14, 16)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/53,47.jpg",
+    "size": 109820,
+    "sha256": "862bd36e3b57f4e63a9a48c43619a70154ca96b87fc7126dde90b2087657d514",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 57, 20)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/53,49.jpg",
+    "size": 120088,
+    "sha256": "f389df2740716e59a3bd651f36e3be21840f85bf52fb81a22127ee9422a41832",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 54, 28)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/53,51.jpg",
+    "size": 105937,
+    "sha256": "a0047ef5878bb7818dfdb24ba6e013cd5fca7d390b68eca83b7e1e74b8d76a6d",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 50, 0)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/53,53.jpg",
+    "size": 119647,
+    "sha256": "4e6f4b8dfb4bfc58e3466cd84cedfbc08ef798b0ea14305ded9faa8dfb8e4166",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 42, 58)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/53,55.jpg",
+    "size": 110088,
+    "sha256": "dfb21241099dc6c71aa9e3279b6f0426eb12e01d020ada308b419f66472d674a",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 38, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/54,48.jpg",
+    "size": 107096,
+    "sha256": "622c07300f9675b7480e3085f9d7cc38d2765934d55cac8ffaff4624d80a2190",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 20, 22)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/54,50.jpg",
+    "size": 108523,
+    "sha256": "dfef6babceb1ff452cb5cf170704c225d594f6c28a5af44088bb480a38a82a1e",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 25, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/54,52.jpg",
+    "size": 108565,
+    "sha256": "bc892e9ae6607070adc903b2439a81455924ee6cc477deaf7adf48f21298a27b",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 29, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/54,54.jpg",
+    "size": 106663,
+    "sha256": "1907191240a98b842edee0242a1a0d0fde794731911f30c0f2af45a827f4e4a4",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 34, 12)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/55,47.jpg",
+    "size": 108126,
+    "sha256": "3fe45b7630d64e7321dce56308472082fde54f9af2b5acc63bf2476e1cf8737e",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 16, 12)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/55,49.jpg",
+    "size": 103348,
+    "sha256": "e7b6f2f8b117544399c09e8fbf273e47d65f0568fc2f012dd70eeb0bd6ae498d",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 10, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/55,51.jpg",
+    "size": 103774,
+    "sha256": "c8deef7012d040bc65ab00797e0408e2a02f81ad1c6b435a0513197537c316e8",
+    "zip_time_no_timezone": "(2024, 8, 24, 10, 6, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/55,53.jpg",
+    "size": 103349,
+    "sha256": "5d34f7c865a67a2a614e42be3a56ee06b3dca45d33794142fccf3d97b8cdf7f9",
+    "zip_time_no_timezone": "(2024, 8, 24, 9, 59, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "member": "square fig line_L(jpg)/55,55.jpg",
+    "size": 107838,
+    "sha256": "8231fbd0248829eae90ceb8c8e7e456ed47327a0b5a0ee5f4062f40277f49681",
+    "zip_time_no_timezone": "(2024, 8, 24, 9, 55, 58)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/47,47.svg",
+    "size": 102423,
+    "sha256": "45f4fdd7465c0ea1040183d77b1a4c260d329944771315f8d1c1482554c2041e",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 5, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/47,49.svg",
+    "size": 95845,
+    "sha256": "45583adb26d36c7010295482705182616b061a4f1107e8c4bbf09793dce593b8",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 11, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/47,51.svg",
+    "size": 87787,
+    "sha256": "8e2ea8a3675a4c547e86918d605be43dcfc8f8495167c6faf3929744fc93fb19",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 16, 40)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/47,53.svg",
+    "size": 94996,
+    "sha256": "f955fe5e14669e0812f322000ddc4c400bfaf59b9f343dfcb99d5775903d6a04",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 23, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/47,55.svg",
+    "size": 101623,
+    "sha256": "e46ec3da63ab3210daa5cf291fcf5c5fd7ec604a40b5d0c8b3c4ad20653a50bd",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 28, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/48,48.svg",
+    "size": 91383,
+    "sha256": "90f6c3cb26fcdd030c5da9be0bfa4bb8d37a28b13bb303a31e914b4da5b01558",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 48, 28)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/48,50.svg",
+    "size": 90166,
+    "sha256": "c95a0bc97624320ab12c6b6e33cd4c9c42faeb837b00c08f3f5643c0cf49a1be",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 42, 6)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/48,52.svg",
+    "size": 89443,
+    "sha256": "ef956e6a4ea93e3a8d5e204e9314d85bb7b1e5ab100b6ffac988ff682c6f64c9",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 37, 16)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/48,54.svg",
+    "size": 90576,
+    "sha256": "9086d0081ec26297d6081d62d191c0cfc6f142ff17097e51bfc1439bf0edacb2",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 32, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/49,47.svg",
+    "size": 100491,
+    "sha256": "e1041916e5eef41ae2f0e29195bc94b37f7339ab7855a8079a5900172768ed80",
+    "zip_time_no_timezone": "(2024, 8, 21, 9, 55, 0)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/49,49.svg",
+    "size": 93879,
+    "sha256": "b5f776600100ab45397cb9525e404fb710fb17b6a17addecfbdac8d9f22e27ae",
+    "zip_time_no_timezone": "(2024, 8, 21, 10, 5, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/49,51.svg",
+    "size": 85893,
+    "sha256": "995f853aea8b373762afbf0a340328c5cc925c2102c51c50a5900b943bf9f031",
+    "zip_time_no_timezone": "(2024, 8, 21, 10, 14, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/49,55.svg",
+    "size": 99731,
+    "sha256": "5756be38d869a6324bc86769d9cdb251e7e50dd80077d16562f309dde074e72b",
+    "zip_time_no_timezone": "(2024, 8, 21, 10, 31, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/49.53.svg",
+    "size": 93023,
+    "sha256": "0a55fa7ef77a574adbce91066134045d930fd25001c9e75e2460eca06b5e1406",
+    "zip_time_no_timezone": "(2024, 8, 21, 10, 24, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/50,48.svg",
+    "size": 91577,
+    "sha256": "7dbd755aabd37ab044b4cfa054a86944e1dc16bb780e3c38871530063d88a371",
+    "zip_time_no_timezone": "(2024, 8, 21, 11, 0, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/50,50.svg",
+    "size": 90177,
+    "sha256": "3e5e997e0e10b42ac12f53b036615d0dc21a3023ad11a977fac40938735bb86e",
+    "zip_time_no_timezone": "(2024, 8, 21, 10, 57, 2)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/50,52.svg",
+    "size": 89502,
+    "sha256": "284b01409d635e0bc4be9a76a9e3d520d485cfffa1a7850c41ea9e9cfa1fb80c",
+    "zip_time_no_timezone": "(2024, 8, 21, 10, 50, 56)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/50,54.svg",
+    "size": 90792,
+    "sha256": "b89acb626febd97fcd09ff58f0936ac271d58f6f5ec2dcf75ab461eef0774ff1",
+    "zip_time_no_timezone": "(2024, 8, 21, 10, 39, 4)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/51,47.svg",
+    "size": 89707,
+    "sha256": "181039fa1f9c3895fff88ccf31d70f78166e10506cd4a2d1c697b2bd84f8476b",
+    "zip_time_no_timezone": "(2024, 8, 21, 11, 5, 30)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/51,49.svg",
+    "size": 83127,
+    "sha256": "0f7bfde708bb0e8860641f85b1128dfb052828666d4fb755e5bcdae1be5ee618",
+    "zip_time_no_timezone": "(2024, 8, 21, 11, 12, 16)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/51,51.svg",
+    "size": 73575,
+    "sha256": "fd90b4f5dd900d9c643480807928300fe9710529834d7ce27ae60e4d7e2ee13c",
+    "zip_time_no_timezone": "(2024, 8, 21, 11, 16, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/51,53.svg",
+    "size": 82197,
+    "sha256": "852a48bd748c8f5ee36f37088d5172f4b37da0e9921956cbdfcd8bafef428019",
+    "zip_time_no_timezone": "(2024, 8, 21, 11, 23, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/51,55.svg",
+    "size": 88860,
+    "sha256": "175b0a4c402f098360e767f38cfb088c5310d31261f2185d50df0d2044eca001",
+    "zip_time_no_timezone": "(2024, 8, 21, 11, 31, 40)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/52,48.svg",
+    "size": 92383,
+    "sha256": "86d80e0422e4c1d99a2181f7cd89371bff2b555d0a9476f5beb20ed2a60b963a",
+    "zip_time_no_timezone": "(2024, 8, 21, 14, 51, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/52,50.svg",
+    "size": 90973,
+    "sha256": "b76b7018310da0e0710017524b690bd5524ee78bdb2bf0c16eb8dbecf9dd545e",
+    "zip_time_no_timezone": "(2024, 8, 21, 14, 31, 8)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/52,52.svg",
+    "size": 90293,
+    "sha256": "668972c0b9bf5dc311f25003d12a3cd6c5e3a6674f109cd1ccfa2864c16e6d18",
+    "zip_time_no_timezone": "(2024, 8, 21, 14, 19, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/52,54.svg",
+    "size": 91598,
+    "sha256": "65e769e79b173aee691fc74ff76042e27b2f3e418a5db9145efa335b44409d56",
+    "zip_time_no_timezone": "(2024, 8, 21, 14, 16, 2)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/53,47.svg",
+    "size": 101314,
+    "sha256": "cdf7d492b7aaa9e765ab008ae20a81c95ae91dc2f18e65590ab2dc7e12b655b3",
+    "zip_time_no_timezone": "(2024, 8, 21, 14, 56, 0)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/53,51.svg",
+    "size": 86715,
+    "sha256": "a6e04c7fe793c76a33f41ef9fbad6de3a724af07653db5ea385864757532c4ad",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 10, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/53,53.svg",
+    "size": 93846,
+    "sha256": "cb47de20021b6ca4f2101bf317e73cc4dedb5bbf4e7236893f9979e7d3de3f1e",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 14, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/53,55.svg",
+    "size": 100554,
+    "sha256": "76ea2a4ecc63c8b3ba5225564c779c276572194b31fa8fd5a5ca5d3828a9ccf7",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 17, 44)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/54,48.svg",
+    "size": 92136,
+    "sha256": "5df0a7c1e8b53a6688d4dece5057c7c4b76a375125f64e072071553ffb3a7517",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 46, 40)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/54,50.svg",
+    "size": 90919,
+    "sha256": "da371e0a46dc7b78de46da22227022b5f734f0316b7e9f1df2dc29646f201a22",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 36, 42)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/54,52.svg",
+    "size": 90196,
+    "sha256": "cbe1fb13abc547406df378d8e4b3cb6ad1109c7c0135181d507b7cd173d2494f",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 25, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/54,54.svg",
+    "size": 91329,
+    "sha256": "99ca163d6d3457a0d6cf184fcd3bb3c314250195952c90c8d67ce3f51a1bebba",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 30, 6)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/55,47.svg",
+    "size": 103302,
+    "sha256": "79bf98b0260457ee371834fefd7aa50fd3de13589c91b44647a42f362ebea12e",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 51, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/55,49.svg",
+    "size": 96724,
+    "sha256": "5f4b547730b9bb9140ecc8aec2697beac4beb7211f59c51340195d0bad28af92",
+    "zip_time_no_timezone": "(2024, 8, 21, 15, 56, 0)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/55,51.svg",
+    "size": 88647,
+    "sha256": "2191867db54e7010a5ab1682553efef451247f9b93d720b6fa1f581b38b21fa9",
+    "zip_time_no_timezone": "(2024, 8, 21, 16, 0, 56)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/55,53.svg",
+    "size": 95875,
+    "sha256": "fd889baf48989d3502f21219910f0931df89bc0656b9d20b90c45a545fa12301",
+    "zip_time_no_timezone": "(2024, 8, 21, 16, 11, 2)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "member": "square fig(svg)/55,55.svg",
+    "size": 102502,
+    "sha256": "ea4be80aeac70163432d6206db1503335347d2afb60cbcec92221a85e7a7947f",
+    "zip_time_no_timezone": "(2024, 8, 20, 18, 22, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/QQ_1723601598735.png",
+    "size": 320425,
+    "sha256": "a13bfbd48fa905f423be985e1282dee2d5ba6712b9aba4cbe9b2d5223df58511",
+    "zip_time_no_timezone": "(2024, 8, 14, 10, 13, 20)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(47,47).fig",
+    "size": 45309,
+    "sha256": "fc7eaefbb6b8b7b4c55b897ef1751f711ae63a96219fae8179b74aecd88766eb",
+    "zip_time_no_timezone": "(2024, 8, 13, 23, 41, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(47,49).fig",
+    "size": 50008,
+    "sha256": "bde5e18dc639cc5ee6aeed04f8e870fe6549eec1792a6d4736588c15973f642b",
+    "zip_time_no_timezone": "(2024, 8, 13, 23, 47, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(47,51).fig",
+    "size": 46013,
+    "sha256": "31dbddf0a30e7200a3d7813f921b3a49bc152ce4088b296111d99db553f79ec1",
+    "zip_time_no_timezone": "(2024, 8, 13, 23, 50, 52)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(47,53).fig",
+    "size": 49958,
+    "sha256": "1b61bd8077e2d1693e73ee613b6dd05c887c5bb23f4ca6f026d1df82b6b1a2e0",
+    "zip_time_no_timezone": "(2024, 8, 13, 23, 54, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(47,55).fig",
+    "size": 45514,
+    "sha256": "ef13ee8dd9af1b9261c07515843824a965637428e28db287a705efa5ecb6a8b1",
+    "zip_time_no_timezone": "(2024, 8, 14, 0, 4, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(48,48).fig",
+    "size": 48212,
+    "sha256": "5b9a59d2303d05295d06079ec1f2bc69db960b0b470513993e5b4cf1528e85c4",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 52, 22)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(48,50).fig",
+    "size": 46209,
+    "sha256": "98b699d05ea1ac84e6eaa6f724ef0bdc76c6575f466621308d0ea5efd3a2beb8",
+    "zip_time_no_timezone": "(2024, 8, 12, 17, 1, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(48,52).fig",
+    "size": 45628,
+    "sha256": "1c89b7e850e6638b6294d7b0c01dae0a9c21d78801288d0ce670ec69b35f8e5e",
+    "zip_time_no_timezone": "(2024, 8, 12, 17, 8, 14)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(48,54).fig",
+    "size": 45613,
+    "sha256": "d1feed77d8dff2e20110794e259117d0e632b98f7b5d923697ef6b90fce0b658",
+    "zip_time_no_timezone": "(2024, 8, 12, 17, 12, 4)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(49,47).fig",
+    "size": 46520,
+    "sha256": "8be3d26ab96cd3135af927465db9c17c5c7fa4e55e69b3c96b4b111566d79f8f",
+    "zip_time_no_timezone": "(2024, 8, 12, 17, 15, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(49,49).fig",
+    "size": 46722,
+    "sha256": "d0a2dc3ddcc850612e0c82a8a3854fa995a28efe577c438f1778e315cd915667",
+    "zip_time_no_timezone": "(2024, 8, 12, 17, 30, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(49,51) t=20-30.fig",
+    "size": 71742,
+    "sha256": "8ba22d88bf01582f95d72752b498eff091c109ad7715198e3dfbbf5544a98b79",
+    "zip_time_no_timezone": "(2024, 8, 12, 18, 48, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(49,51).fig",
+    "size": 46354,
+    "sha256": "824ed74df91c41ce839e6c3670efbc7a9e932b0e89e6fe59bdac54876d59dc32",
+    "zip_time_no_timezone": "(2024, 8, 12, 18, 6, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(49,53) xy.fig",
+    "size": 86113,
+    "sha256": "35cfaa75b2afd35159af95d940adb85d40b0efa5418f019d1fbef9d89ceaf161",
+    "zip_time_no_timezone": "(2024, 8, 12, 18, 58, 0)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(49,53).fig",
+    "size": 45620,
+    "sha256": "69d4a68875b6b10310fb666103485aff12808c60fb35a93db068ec14819dd16e",
+    "zip_time_no_timezone": "(2024, 8, 12, 18, 56, 42)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(49,55) xy.fig",
+    "size": 87039,
+    "sha256": "4ab7f98c8200383c025a5e00f0eb22c163274d3e8c0590b350cf436355d76224",
+    "zip_time_no_timezone": "(2024, 8, 12, 19, 3, 54)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(49,55).fig",
+    "size": 45995,
+    "sha256": "a6c454065dfcb2f1a4783c6964b2cf3651c8b1a84e0fe0dbd476cb9103179994",
+    "zip_time_no_timezone": "(2024, 8, 12, 19, 3, 30)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(50,48) xy.fig",
+    "size": 85533,
+    "sha256": "514d75a51be64c00857c24d2b46835563a7f8de3870e959fad1ba41e1b9756b2",
+    "zip_time_no_timezone": "(2024, 8, 12, 19, 19, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(50,48).fig",
+    "size": 44824,
+    "sha256": "abb75f109be34a04459cf16f54d6faeeb3ded66ec9cbaaeba66aa7787f4264ea",
+    "zip_time_no_timezone": "(2024, 8, 12, 19, 19, 8)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(50,50) xy.fig",
+    "size": 85336,
+    "sha256": "8c936b74cd9a3462b0542aa92d8f2f9a699e64caac4be9994d09db1294f58272",
+    "zip_time_no_timezone": "(2024, 8, 12, 20, 15, 52)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(50,50).fig",
+    "size": 46647,
+    "sha256": "eb2d91a990723facb461a0d8b202d83873fe1efbe857ebada834c612ff2e48ec",
+    "zip_time_no_timezone": "(2024, 8, 12, 20, 15, 34)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(50,52) xy.fig",
+    "size": 85541,
+    "sha256": "efa4f6872455c60af081d9fc5309b2a232b132a9397da0e166e7018d60cbd44b",
+    "zip_time_no_timezone": "(2024, 8, 12, 20, 38, 30)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(50,52).fig",
+    "size": 46630,
+    "sha256": "ef8d455c5da401c1e2de16bda65d57fa3721f7d3905b53815eca04c50264c81c",
+    "zip_time_no_timezone": "(2024, 8, 12, 20, 38, 4)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(50,54) xy.fig",
+    "size": 85453,
+    "sha256": "a0659528d1ec959b97c9ca51ecf57cfe481fd3325be15211a1dd9d5a2e8f2251",
+    "zip_time_no_timezone": "(2024, 8, 12, 20, 44, 40)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(50,54).fig",
+    "size": 45299,
+    "sha256": "ed4fa85089138ee53b32e8ccfed33ba7bb2c1b3dabf8331adab77ae83950c1f0",
+    "zip_time_no_timezone": "(2024, 8, 12, 20, 44, 18)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,47).fig",
+    "size": 46627,
+    "sha256": "d5ed65a5c07a3c6d994d0475a9caf2d985411ef3649dbf2f3c2b1dc7307853b6",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 51, 38)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,49)(乱) xy.fig",
+    "size": 110718,
+    "sha256": "bfc3859ec8e886271e60ff671ddb6270b6dd109b10b02dd127c333fa55cdb3c6",
+    "zip_time_no_timezone": "(2024, 8, 12, 23, 13, 56)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,49)(乱).fig",
+    "size": 62608,
+    "sha256": "646b6b78e76e1b3288a0b2251691109c0f5ad6b89f112bbd7051d6c465b3c6a0",
+    "zip_time_no_timezone": "(2024, 8, 12, 23, 13, 28)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,51) xy.fig",
+    "size": 122132,
+    "sha256": "889ef558724c90a3778ba1682c068aee411eea127bff31ec7245d5794ba6b68e",
+    "zip_time_no_timezone": "(2024, 8, 13, 19, 20, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,51).fig",
+    "size": 63007,
+    "sha256": "2618630815733d2d6830845feaab1be61f18d7b17587688536eb563c46f48ae3",
+    "zip_time_no_timezone": "(2024, 8, 13, 19, 20, 4)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,53) xy.fig",
+    "size": 90199,
+    "sha256": "2476e18d4d2e3139b6ce15313c8ab1117556d83a0d00c21f05fc1a8731e66f9e",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 47, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,53).fig",
+    "size": 46721,
+    "sha256": "168c3b55fb12ce15a9dd89b69e8694f58d4073c162c607d6636a0c6ee0742471",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 47, 28)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,55) xy.fig",
+    "size": 90141,
+    "sha256": "730cfa28adaf31f08c29ed1f986189cf3421b4f7dacd32ed4a01ec43326741c0",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 39, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(51,55).fig",
+    "size": 46870,
+    "sha256": "f5dd2b10f8eac4eb56139ba5b43bbbde2c5dfc5f6f3ad172bc154c06196d14c2",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 39, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(52,48) xy.fig",
+    "size": 85559,
+    "sha256": "7e46c9dd35c819e6f2ea7c524c5f3db9d2895562546b64cb6de441ee42986d7d",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 14, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(52,48).fig",
+    "size": 45924,
+    "sha256": "4ef776810886f2321f4648ad785f53b13457ebcd627cd8e10161281c67fec0cd",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 14, 12)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(52,50) xy.fig",
+    "size": 85547,
+    "sha256": "33f7b8d1f6594993b67ea0f5887ba8610ee3cf83422d3b3655cd0b8bc6e65704",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 18, 32)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(52,50).fig",
+    "size": 46656,
+    "sha256": "3759b61d95a0955e805454066f959b920034747e00287dc9e3d3d8f04ac0bb38",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 18, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(52,52) xy.fig",
+    "size": 86312,
+    "sha256": "173ae3e9dadf7bf47055a1798f08906a5526b14b852c54db6360dd1255732bdf",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 23, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(52,52).fig",
+    "size": 46687,
+    "sha256": "ef68cee60df18e67263e0e7cfe1cac871491f647a6489be72778f5ac9d02cefd",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 23, 28)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(52,54) xy.fig",
+    "size": 85549,
+    "sha256": "762afacb0682a666fa5738c01346d4414c69ae0aef871b4e61d076fc5e089cf0",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 31, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(52,54).fig",
+    "size": 44770,
+    "sha256": "f7cf0c77b5878ae42687ba7b3103fa1e4d79cff588a08e8e1069eac0b1203e2f",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 31, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(53,47) xy.fig",
+    "size": 85353,
+    "sha256": "8c2c6e340bec1c2d2cdbfb8caa73ba49212a289ca15298b4ac3b808c4ccddada",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 4, 30)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(53,47).fig",
+    "size": 46484,
+    "sha256": "4996edb85b5274613eee090ef5bc95c68ece0cdefcb0656ce7028c96cbd6aeb6",
+    "zip_time_no_timezone": "(2024, 8, 13, 21, 4, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(53,49).fig",
+    "size": 46287,
+    "sha256": "411d230b20db23732097795ff1b505163eba53299d3f173b6a7ab988454c9812",
+    "zip_time_no_timezone": "(2024, 8, 13, 22, 52, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(53,51).fig",
+    "size": 46049,
+    "sha256": "3248c66120d8edb49e5fc6432463e42c7aed63c6541d82bf385d4eebc629c7ef",
+    "zip_time_no_timezone": "(2024, 8, 13, 23, 4, 26)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(53,53).fig",
+    "size": 45641,
+    "sha256": "6eb8adbecf36756283435cf8ce56e0a2f7292f0bbafc220aed5e38529cd4fbe2",
+    "zip_time_no_timezone": "(2024, 8, 13, 23, 15, 58)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(53,55).fig",
+    "size": 46021,
+    "sha256": "543e1cc9550ff96ca875e04e8c8b9c5125e6c3230337c56799a1e865b0c0ece8",
+    "zip_time_no_timezone": "(2024, 8, 13, 23, 29, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(54,48) xy.fig",
+    "size": 85181,
+    "sha256": "dab9f5ed0c8ccdefc640e0909028c79c151b0718aacdc99782d79960a7e4247f",
+    "zip_time_no_timezone": "(2024, 8, 13, 20, 55, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(54,48).fig",
+    "size": 45446,
+    "sha256": "25bcfd88cf51598827adbf1d8d1c5759f73a9493e708f0749470b3508817d2e4",
+    "zip_time_no_timezone": "(2024, 8, 13, 20, 55, 30)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(54,50) xy.fig",
+    "size": 86953,
+    "sha256": "6d43f311dcfda23fc6c2f48f2e380e77e2e289daebc0d6d5b188fbb4083b89b3",
+    "zip_time_no_timezone": "(2024, 8, 13, 20, 44, 24)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(54,50).fig",
+    "size": 45539,
+    "sha256": "d9b71d43d6f3b1aba4ffe4049ac6798994dc5a4690b44433d8b047e4e236ff44",
+    "zip_time_no_timezone": "(2024, 8, 13, 20, 43, 58)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(54,52) xy.fig",
+    "size": 85243,
+    "sha256": "124934f9075c7ca4f83bbec5d06bbfb6efdfbd0ed2da52ef0e5487e83aff21f2",
+    "zip_time_no_timezone": "(2024, 8, 13, 20, 36, 36)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(54,52).fig",
+    "size": 45697,
+    "sha256": "b1aced58ac45b33fcda8f750fcba07d2cfeef7c3dba0c58035b332b45a4aa71c",
+    "zip_time_no_timezone": "(2024, 8, 13, 20, 36, 10)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(54,54) xy.fig",
+    "size": 85166,
+    "sha256": "fb1b70d570946c225846fe9db34bbd6d2f8ac53cda1520cd6e41b2cb6743b068",
+    "zip_time_no_timezone": "(2024, 8, 13, 20, 32, 46)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(54,54).fig",
+    "size": 45217,
+    "sha256": "b2f09bc53a5e5f97b836ef2d0229cf9624ebec02cc8b11839c1e1dc35025c83b",
+    "zip_time_no_timezone": "(2024, 8, 13, 20, 32, 22)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(55,47).fig",
+    "size": 45265,
+    "sha256": "a6bfda728087fef57a8cdce57a0379a8ddf56fa4a149712202a06a079e542dce",
+    "zip_time_no_timezone": "(2024, 8, 14, 9, 36, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(55,49).fig",
+    "size": 49884,
+    "sha256": "9f65449422c7ea39994a297923d65196a24ece1a7c0a1f222397141e9e96674a",
+    "zip_time_no_timezone": "(2024, 8, 14, 9, 42, 48)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(55,51).fig",
+    "size": 45998,
+    "sha256": "20119d571047a03e5f8333c761cfba84a15a6346bc26b28b1f926f12f6832794",
+    "zip_time_no_timezone": "(2024, 8, 14, 10, 2, 50)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(55,53).fig",
+    "size": 46058,
+    "sha256": "31ae0968fe6b516bcd33e12e8c85a3979e7ac5b1a12463cc89d6d25ed631857e",
+    "zip_time_no_timezone": "(2024, 8, 14, 10, 8, 2)"
+  },
+  {
+    "archive": "E:/2024/data figure/data figure x tc-5.zip",
+    "member": "data figure x tc-5/x(55,55).fig",
+    "size": 45284,
+    "sha256": "f945168488083613d9442797f07dcbdbf41db7193494eee99f8b2d0a3fb8fa4e",
+    "zip_time_no_timezone": "(2024, 8, 14, 10, 12, 12)"
+  }
+]
