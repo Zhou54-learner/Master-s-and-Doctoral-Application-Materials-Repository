@@ -1,0 +1,1392 @@
+{
+  "nature": "2026-10-05素材静态对应核查；仅解析既有文本/图件，无新求解，无新图",
+  "x": {
+    "kept": 36,
+    "history_geometry_matches_all_cells": true,
+    "existing_svg_unfolded_mask_ids_match": true,
+    "source_hashes": {
+      "repo": "0f488ec8c3ad31acc65266ddd565c1dd93f0a47857686ee039ee93155047b1f6",
+      "external": "0f488ec8c3ad31acc65266ddd565c1dd93f0a47857686ee039ee93155047b1f6",
+      "project_sheet": "0f488ec8c3ad31acc65266ddd565c1dd93f0a47857686ee039ee93155047b1f6"
+    }
+  },
+  "y": {
+    "kept": 79,
+    "history_geometry_matches_all_cells": true,
+    "existing_svg_unfolded_mask_ids_match": true,
+    "source_hashes": {
+      "repo": "22528181083bd2c7cd3db2562603d7c0c2c360dc057250abe76617360346dea4",
+      "external": "22528181083bd2c7cd3db2562603d7c0c2c360dc057250abe76617360346dea4",
+      "project_sheet": "22528181083bd2c7cd3db2562603d7c0c2c360dc057250abe76617360346dea4"
+    }
+  },
+  "curve": {
+    "rows": 201,
+    "interval": [
+      2.0,
+      18.0
+    ],
+    "step": 0.08000000000000007,
+    "longest_threshold_segment": [
+      4.800000000000001,
+      18.0
+    ],
+    "endpoint_span": 13.2,
+    "threshold": "<= -10 dB",
+    "near_edge": [
+      [
+        4.720000000000001,
+        -9.733259311536782
+      ],
+      [
+        4.800000000000001,
+        -10.04259112461038
+      ],
+      [
+        18.0,
+        -10.268263431085252
+      ]
+    ],
+    "min": [
+      14.24,
+      -23.485400435875423
+    ],
+    "existing_project_sheet_data_all_201_rows_equal": true
+  },
+  "model_history": {
+    "path": "F:/biyesheji/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12/Model/3D/ModelHistory.json",
+    "sha256": "2e0e13de15d5125878eee891ca1961d67a2679448ebccc5cb78ee3d0e51a663f",
+    "blocks": 358,
+    "verified_indices": "7-351: 36 X + 79 Y helper/create/delete triplets; 352 boundary; 2-6 PET and materials",
+    "screenshot_capture_project_and_time": "UNKNOWN; manuscript attribution + visible Y topology support final-family association, not proof of runtime binding"
+  },
+  "census": {
+    "image_occurrences": 1193,
+    "distinct_image_hashes": 193,
+    "image_occurrences_by_root": {
+      "0": 597,
+      "1": 77,
+      "2": 519
+    },
+    "external_only_image_hashes": 0,
+    "containers_by_root": {
+      "0": 62,
+      "1": 3,
+      "2": 59
+    },
+    "scope_note": "Image files and DOCX/PPTX media; PDFs registered as containers, selected project figures/pages rendered separately. Does not count PDF embedded images as exhaustive pixel audit."
+  },
+  "candidates": [
+    {
+      "id": "C01",
+      "title": "最终阶段 CST 原始三维视图",
+      "recommendation": "主选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/results/最终版素材/3D.png",
+          "bytes": 293392,
+          "sha256": "b4d3784cc300927978a10ef2c2d95ea2fdbfb16abccd56a7e224218acd569885",
+          "pixels": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig6_2_final_3d_model.png",
+          "bytes": 293392,
+          "sha256": "b4d3784cc300927978a10ef2c2d95ea2fdbfb16abccd56a7e224218acd569885",
+          "pixels": [
+            1920,
+            1080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "最终素材中的正交俯视／底视方向图",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/results/最终版素材/3D_bottom.png",
+          "bytes": 59337,
+          "sha256": "d8430567d8b74aec04dbb7b16a0e82ed6777bc11ace55301e149bd723af382ed",
+          "pixels": [
+            1920,
+            1080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "Y向膜的CST正视图",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/results/3D_Y.png",
+          "bytes": 27560,
+          "sha256": "5976288a5e90407d3df73ea68c4d310edc116e26b8be8aaa03cd4bbbc5f4d4ac",
+          "pixels": [
+            1920,
+            1080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "论文图3-2：已加标注的CST外观图",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig3_2_cst_model.png",
+          "bytes": 1193534,
+          "sha256": "bf2d3082b0b872bcfd9d396c4d8c731c5bd8491dc84bd7ec0270a34b76add20e",
+          "pixels": [
+            1448,
+            1086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "论文图3-3：几何／边界总示意",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig3_3_geometry_boundary.png",
+          "bytes": 1472076,
+          "sha256": "47bd82437281300f4fed133de618aca10633352e1a1fa863ff8c122633f5f158",
+          "pixels": [
+            1448,
+            1086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "论文图3-1：彩色结构概念图",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig3_1_design_concept.png",
+          "bytes": 1302571,
+          "sha256": "3f5160056d02a4260b8c71c24bcd198960945b1d0de70c6e8fce959dae6e9788",
+          "pixels": [
+            1448,
+            1086
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "现成的最终掩码结构＋双膜展开图",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "A线_西湖博士/联系材料/刘癸庚/制作文件/项目页/第四版/图件/geometry.svg",
+          "bytes": 68060,
+          "sha256": "25d92e0a360a11d5872c92505f8350152197a630c0b50aae29e6acde0e125300"
+        },
+        {
+          "path": "A线_西湖博士/联系材料/刘癸庚/制作文件/项目页/第四版/图件/geometry.pdf",
+          "bytes": 23094,
+          "sha256": "87c351374c955ea0e09cd00c2330f9d35277b539c84a59ecb858e52c1401d556"
+        },
+        {
+          "path": "A线_西湖博士/联系材料/刘癸庚/制作文件/项目页/第四版/图件/geometry.png",
+          "bytes": 88239,
+          "sha256": "689bdc67d26fd362ffe7c97055aa39660986860f41c596df0dd73ed4762f1a20",
+          "pixels": [
+            1431,
+            542
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "早期简单十字模型三视图PDF",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/structure/structure_3d.pdf",
+          "bytes": 130313,
+          "sha256": "5766d2827b5bb3aeab2a1a4601448eec61c7d1330e6f6b8106d9c883a65b76e6"
+        },
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/structure/structure_top.pdf",
+          "bytes": 133116,
+          "sha256": "ee774fdb23250282f98d9a573359e75f39e2d336087c74bd4889a7f5b7568ff7"
+        },
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/structure/structure_side.pdf",
+          "bytes": 60991,
+          "sha256": "09839e7114734c5917c7c0b18222de241c60760308d5807ab29fe4593a55de3d"
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "无PEC早期学习阶段截图",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/中期/结果/01（4×4）noPEC/01-12.75-1.35-4.52.png",
+          "bytes": 123192,
+          "sha256": "9f5db350e450519a571da3af12317f8c78f3e1591642a6b0e01aab4047285db9",
+          "pixels": [
+            960,
+            1032
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "条带模板三维截图",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/structure/条带.png",
+          "bytes": 186342,
+          "sha256": "b0d6b8009d7dbce0b4278310860a585879d0475ad855f6a3e9b1e9c43c3e961e",
+          "pixels": [
+            890,
+            642
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/数据存档/14基本-60-拓扑1.2/条带.png",
+          "bytes": 144715,
+          "sha256": "cfbd7b69d624253184686f17c698ffd4cb7a0bb40c494b8c0d34d4794ea2aeb8",
+          "pixels": [
+            786,
+            619
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "工字模板三维截图",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/structure/工字.png",
+          "bytes": 151584,
+          "sha256": "105ac5ee96fb7f99707f2da5e1ea4187aa1bf899bceceff6b67312235c57d082",
+          "pixels": [
+            688,
+            636
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/数据存档/14基本-60-拓扑1.2/工字.png",
+          "bytes": 157292,
+          "sha256": "4b3e75b928cc4215714934e4cfacd93c0430a2491be5334cb0acab2b2a14a16c",
+          "pixels": [
+            733,
+            628
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "title": "6×6条带＋阶梯窗口母型",
+      "recommendation": "主选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/数据存档/14基本-60-拓扑1.2/电阻膜图案.png",
+          "bytes": 111300,
+          "sha256": "e9e7cc9594a95499c2c233a5e7c870a6c1fff4f082faaf9127b374f43f98eb2e",
+          "pixels": [
+            3301,
+            1849
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "6×6母型的三维视图",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/数据存档/14基本-60-拓扑1.2/侧视图.png",
+          "bytes": 161498,
+          "sha256": "997403d0b6b84db7c16a7e7d28f254638f4fe14373836fa9a45a05f13e5dcc7c",
+          "pixels": [
+            697,
+            617
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "title": "拓扑1.1的俯视＋6×6方案示意",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/数据存档/13基本-60-拓扑1.1/current_design_schematic.png",
+          "bytes": 131895,
+          "sha256": "000920dd6f669dec32cc8d84565dc0517b36d8a0d3077b3dd01c15d22d45b9fb",
+          "pixels": [
+            1929,
+            1431
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "title": "9×9两张独立膜图案",
+      "recommendation": "主选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/results/9×9ph/final_9x9_x_pattern_paper.png",
+          "bytes": 135938,
+          "sha256": "8fd9720c179ec4a8f9dea6c13ca33941d7b9793b360d0a1afa7244a94591e8da",
+          "pixels": [
+            2287,
+            2566
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/results/9×9ph/final_9x9_y_pattern_paper.png",
+          "bytes": 134687,
+          "sha256": "a3067d014bc39f791a6d825aa81c2557357e4e20717451fc3755f685ab99ad9b",
+          "pixels": [
+            2287,
+            2566
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "title": "12×12 hybrid：仍固定公共片阻",
+      "recommendation": "主选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/ohmic_sheet_12x12_hybrid_coverage85_ga/best_mask_xy_12x12.png",
+          "bytes": 73113,
+          "sha256": "110327f68115405d667698e5b720cd5ed362207bfd180bfcd11dfa66e82ee32f",
+          "pixels": [
+            2306,
+            1234
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "title": "12×12 hf：连续双片阻阶段",
+      "recommendation": "主选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/ohmic_sheet_12x12_hf_compensation_ga/best_mask_xy_12x12.png",
+          "bytes": 85364,
+          "sha256": "70a6ec846ad717d131ab0a295029064711b0eed5d9ce16f71ab12c8cbfd36e56",
+          "pixels": [
+            2337,
+            1234
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "title": "最终原始X/Y掩码图",
+      "recommendation": "主选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_mask_xy_12x12.png",
+          "bytes": 85533,
+          "sha256": "cc1a0d8d2cd9c2930404e4e986e5f2b9559f62c55772bcb76a2ca16c52c61597",
+          "pixels": [
+            2380,
+            1234
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "title": "论文排版的最终图案",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig5_7_final_topology.png",
+          "bytes": 97157,
+          "sha256": "9018b4850aa53bb61a0de4b973659a84e2776b7dad77bc8c39d97878409791a7",
+          "pixels": [
+            2652,
+            1274
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "title": "最终之后的四分之一镜像分支",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/ohmic_sheet_12x12_quarter_symmetric_ga/best_mask_xy_12x12.png",
+          "bytes": 84480,
+          "sha256": "c28a87d4338efa31b17bc03fceadf71ea1cfe07663eb99640ce8c863ad7cee04",
+          "pixels": [
+            2397,
+            1234
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/ohmic_sheet_12x12_quarter_symmetric_ga/best_quarter_xy_6x6.png",
+          "bytes": 60116,
+          "sha256": "3fe20850ac41f34d7ffffaa3138ad12d8e977d15a465d46597e1a592c4327266",
+          "pixels": [
+            1689,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "title": "固定最终图案的低频精修分支",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/ohmic_sheet_12x12_fixed_topology_lf_refine/fixed_mask_xy_12x12.png",
+          "bytes": 78619,
+          "sha256": "ef072035daf1a36382f9adf84d4b5962df70fd870d7dd9dec74c408fbb1e5da6",
+          "pixels": [
+            2306,
+            1234
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/ohmic_sheet_12x12_fixed_topology_lf_refine/best_s11_ohmic_sheet_12x12.png",
+          "bytes": 114410,
+          "sha256": "c6ae7d2cddf04c77bb62ee8fe8fa1a5a73b544a4af8ce7abb789977552226256",
+          "pixels": [
+            2400,
+            1500
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "title": "最终原始2–18 GHz同模反射曲线",
+      "recommendation": "主选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_s11_ohmic_sheet_12x12.png",
+          "bytes": 104098,
+          "sha256": "295fdb8b0d8f4235e3ef4608ee56824bbc43db701f74f9ab908e1b2bba49f484",
+          "pixels": [
+            2400,
+            1500
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_s11_ohmic_sheet_12x12.txt",
+          "bytes": 9649,
+          "sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04"
+        },
+        {
+          "path": "科研准备/本科毕设/仿真结果/原始工程/最终结果ohmic_sheet_12x12_multitemplate_topology_ga/best_result_ohmic_sheet_12x12.txt",
+          "bytes": 2457,
+          "sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81"
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "title": "论文图5-9的最终曲线",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig5_9_final_rl_curve.png",
+          "bytes": 109307,
+          "sha256": "b6b3cf56d20e628c40a253fc730132d965eb0a7fc8ff254a5cc45f0db745aa0e",
+          "pixels": [
+            2080,
+            1248
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "title": "现有项目页的可编辑反射曲线",
+      "recommendation": "主选",
+      "files": [
+        {
+          "path": "A线_西湖博士/联系材料/刘癸庚/制作文件/项目页/第四版/图件/reflection.svg",
+          "bytes": 9277,
+          "sha256": "a3e5f6ae2123a627c54f0d233778ba7234148cd21a71fd115eae02b09bdd1c42"
+        },
+        {
+          "path": "A线_西湖博士/联系材料/刘癸庚/制作文件/项目页/第四版/图件/reflection.pdf",
+          "bytes": 33131,
+          "sha256": "845ab8897606f950b47ec784155d784c39eb28b4be1ea8e28a0f1b60952ed937"
+        },
+        {
+          "path": "A线_西湖博士/联系材料/刘癸庚/制作文件/项目页/第四版/图件/reflection.png",
+          "bytes": 52773,
+          "sha256": "f06370f010a23b886c0121a898032c50eae42878507deb467a0fe85abefc10a7",
+          "pixels": [
+            1284,
+            624
+          ]
+        },
+        {
+          "path": "A线_西湖博士/联系材料/刘癸庚/制作文件/项目页/第四版/数据/reflection_archived.tsv",
+          "bytes": 9649,
+          "sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04"
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "title": "论文多阶段反射叠图和性能柱图",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig5_10_stage_curves.png",
+          "bytes": 344752,
+          "sha256": "1e846e23031a2a9eb74d8309a31b5fe8511ad81511b0d77a5126d9003900f535",
+          "pixels": [
+            2444,
+            1404
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig5_11_bandwidth_comparison.png",
+          "bytes": 113784,
+          "sha256": "a0c142ba9868b7a5c2915a1c011a68686809cc139d2dd65431076fc5126417b9",
+          "pixels": [
+            2236,
+            1248
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig5_12_coverage_comparison.png",
+          "bytes": 116897,
+          "sha256": "291762955c3d10f16f594fccc66c7bc97ce219fe8e30ee6114ba7b5f5f2688fe",
+          "pixels": [
+            2236,
+            1248
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig5_13_min_rl_comparison.png",
+          "bytes": 107831,
+          "sha256": "06d265c66a00330d3ec5bdc8b0410b73679bd9584bae575ad63645398df0fe89",
+          "pixels": [
+            2236,
+            1248
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "title": "环形分辨率演化示意",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig4_3_resolution_expansion.png",
+          "bytes": 622885,
+          "sha256": "cb846bc12f4b75bbc0abd2dbe7e9aae5e5e6e87ebfb40eb81527f686eee5d0bf",
+          "pixels": [
+            884,
+            594
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "title": "最终电／磁／损耗场图组",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/report_figures/results/最终版素材/e-field (f=8.8) [Zmax(1)].png",
+          "bytes": 707697,
+          "sha256": "567bcc94cd51513ca7a83c8c7918eeb023d0f8abb05dd43c781a905a6b1432f4",
+          "pixels": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig6_7_hfield_12p0.png",
+          "bytes": 1002853,
+          "sha256": "119ac0d52119350b29702eccd9fd5ffe130b91068757ac71bab1870788aca399",
+          "pixels": [
+            1920,
+            1080
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig6_11_loss_15p5.png",
+          "bytes": 126825,
+          "sha256": "7365fa26f0f2f59f5241659fe5b63a25ff15ec0b5093574fc42145ba1b1de5db",
+          "pixels": [
+            1920,
+            1080
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "title": "早期稿的“实验／示例曲线”",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/s11_experiment_reference_guide.docx",
+          "bytes": 2112307,
+          "sha256": "eda0c316c119ba4ff726d3635656e4d795b93a8604e62b90443b2de2ede5621e"
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业设计初稿1.0.docx",
+          "bytes": 3650636,
+          "sha256": "cc6be5b2d0e7d368fcc7b2dbb9392a000e0a7ee253678af2f061673f4321c955"
+        }
+      ]
+    },
+    {
+      "id": "C29",
+      "title": "历史中期答辩整套PPT",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期答辩.pptx",
+          "bytes": 1219572,
+          "sha256": "e01ac46337b256bfa964d7ac80706c41bdf04d78c44a5c0754e888ebc493a925"
+        }
+      ]
+    },
+    {
+      "id": "C30",
+      "title": "历史终稿答辩PPT／PDF",
+      "recommendation": "备选",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pptx",
+          "bytes": 14442975,
+          "sha256": "f4317609bb9908a8efcca74829d0b211fb7d0c7057e3636b522d2ec8d0949caf"
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pdf",
+          "bytes": 1920189,
+          "sha256": "d2f3ff745a61a5b9d26e1d802c5e6bc0c4857b14f96079ab87d895950f5fef9f"
+        }
+      ]
+    },
+    {
+      "id": "C31",
+      "title": "材料横截面／产品表",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig3_5_resistive_film_cross_section.png",
+          "bytes": 932790,
+          "sha256": "0757cc1d15008340f2cdac5928c8a8a71a00a3883eca6833555130a02a42d0b2",
+          "pixels": [
+            1448,
+            1086
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/原始文档/材料参考/ITO导电膜产品资料表_本人提供_20260930.jpg",
+          "bytes": 572205,
+          "sha256": "d127332c22559e9f3ef42c21ce04a48c00f57121a39695f4c489ba74bd506ad7",
+          "pixels": [
+            1440,
+            1440
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C32",
+      "title": "旧薄实体与Ohmic模型对照",
+      "recommendation": "不建议使用",
+      "files": [
+        {
+          "path": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/_ppt_assets_resistive_film/fig3_4_model_curve_comparison.png",
+          "bytes": 1024403,
+          "sha256": "42f50b306ca65f4f80379f4746513cb35dfdab8a6274b515eef026220024a154",
+          "pixels": [
+            1448,
+            1086
+          ]
+        },
+        {
+          "path": "科研准备/本科毕设/图件/原始工程/branch1_surface_ohmic_sheet_comparison_v6/comparison_overlay_RL.png",
+          "bytes": 176857,
+          "sha256": "db10b60eef0bac6aeab7cfbfbe7c9ecd99b093dcf1ff54dca9a929423959d001",
+          "pixels": [
+            2400,
+            1500
+          ]
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx",
+      "sha256": "685b65a185f2ef73415ebfa79525a78cf85ebdfe3e6df521c813bacf3633cc61",
+      "media_count": 8
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+      "sha256": "6e401c8474012021450137e5a789de2778c75d2da9ab7a880861c8f155673e59",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期报告1.0.docx",
+      "sha256": "48854e12538191d1ea8d56da4d3032ab156b36930ef054ffbb73c0f4a58b7cf4",
+      "media_count": 8
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期报告模板.docx",
+      "sha256": "b984179f6f4ebcdc4161864ba763f4bd9f59e52c84c216f4f7f4d2681d76ce63",
+      "media_count": 2
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期答辩.pptx",
+      "sha256": "e01ac46337b256bfa964d7ac80706c41bdf04d78c44a5c0754e888ebc493a925",
+      "media_count": 9
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期答辩记录.docx",
+      "sha256": "bb2f2c681c4e9f5b3c2cbf17bb9776a80a11c3c55cad7424ba67790bd1b9c28e",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/中期/中期讲稿.docx",
+      "sha256": "cae63de02197e46eed61668b5176ddb42d0aa4dabd549761ad76436c110d8622",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/其他组/基于磁性材料的吸波超材料设计及其性能研究_周维 (1).pdf",
+      "sha256": "d176b1bac231b2d785d587677830454be6332618a35debb5993804af11cc5db3",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/其他组/基于超材料的红外和微波兼容隐身结构及其特性研究_杨昌.pdf",
+      "sha256": "e0e6408462d0d1d9292d49e7620bd019eaf0baabb77070c4f3572f6c5e4cf83d",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/其他组/宽带广角透明吸波体设计及其雷达_红外隐身应用研究_闵萍萍 (2).pdf",
+      "sha256": "4305da8a26109ef31475c1f54d0ebdfe4a8604faec09b28cf7b3460d01b3107a",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+      "sha256": "1368f0ee91a9acbf4bd53ad263e4c96a3f5e23dd95e5949eae4d749fe013fefc",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption（PPT）.pdf",
+      "sha256": "365a604be2a8e4bf92732c478626881f7782854dd8b1f6733c1bde6ef6d9e3aa",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/周子靖-2022112550-开题报告.docx",
+      "sha256": "41a94f79d40a86ed6936abbbf595fde82734aac642e7dc53aa6e9f12607a013f",
+      "media_count": 8
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/周子靖-2022112550-开题报告（英）.docx",
+      "sha256": "0ef86500ba0ccb37b35d16f3e0a60c2d4b3441c76a1f532e1400082e8ec8fae7",
+      "media_count": 8
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/周子靖任务书.docx",
+      "sha256": "f83963c12cd35d57b417638f0953588dffeefab2879b48ca6d7c45e37a1f4a07",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/开题报告模板.docx",
+      "sha256": "3db1971a005a0bb32c10298236f21f77a798e489de87a77f8a4a740b2f8f4e0f",
+      "media_count": 2
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/开题讲稿(2).docx",
+      "sha256": "dcdb1107751f14c220762ab68f67af108cc65bb78f0724b61e78a47ac49eb0c3",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/开题讲稿.docx",
+      "sha256": "af0cd5263c2498bbd08ef0c5381abf215c7bb7638229b565b205d4b160ea9d4b",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/开题讲稿（英）.docx",
+      "sha256": "57896d3fe77fe9f717f511f1fdc4c36c54e88805f9a2405e860c724648b071bb",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/沈振宇 微波频段吸波超材料的电磁传输特性及损耗机理研究.pdf",
+      "sha256": "f872a23eb7732bbe53e68e3d74831d70bd1eb789e2104eca3c0496d71088e7eb",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/硕士学位论文-李禧龙-22S011037最终版.pdf",
+      "sha256": "6408cc21e738d3944019e869082db4aa5f3b43fc49abde1bb7e87f8687966eba",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/开题/邢文文 宽带超材料吸波器的制备及其电磁特性研究.pdf",
+      "sha256": "fb92f08826c83566b4451a309c0bd1e6c58cb8cff017798e76e5db8edab7ed51",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx",
+      "sha256": "2e0ee751f7c6362f1360e304458dadbc94928ebe344770b0b0edf90f75e92549",
+      "media_count": 20
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+      "sha256": "c87e747560f049aa978844fa1e03d976ec9bbc8de529171de26b63d87026b3ed",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/s11_experiment_reference_guide.docx",
+      "sha256": "eda0c316c119ba4ff726d3635656e4d795b93a8604e62b90443b2de2ede5621e",
+      "media_count": 2
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/摘要.docx",
+      "sha256": "165fd9d8320310fffa10da89f9e7b71801fc6f558efdb3e1b7af79a166012cd1",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业论文三稿.docx",
+      "sha256": "21dc52ba33d71d91b2abb5be4cfbc95aad4e405578fa88f6187267e381f8e0ac",
+      "media_count": 20
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业论文三稿2.0.docx",
+      "sha256": "b9a2ab65a7b38c046c082fbaec02664e1c3cf3fef15e494311132bf808506c4c",
+      "media_count": 21
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业论文二稿5.0.docx",
+      "sha256": "88a32999488b039cfe57f8ed1fd58624815fce247cbedea1657d626bf59506af",
+      "media_count": 9
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业论文终稿5.0.docx",
+      "sha256": "4973c75065a60ee74e75acc1f2d3b5c3d0db0702d11896df5c11b94fe7143a82",
+      "media_count": 37
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业设计初稿1.0.docx",
+      "sha256": "cc6be5b2d0e7d368fcc7b2dbb9392a000e0a7ee253678af2f061673f4321c955",
+      "media_count": 11
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业设计初稿2.0.docx",
+      "sha256": "67bfe2df6911948a6bb208316ac2cc6051d12b645031223099fd33255d2943c7",
+      "media_count": 20
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/毕业设计初稿3.0.docx",
+      "sha256": "b27c95e60431e9e5d8d8f66e821b72e40fae5bc3d9c517af6f0dcaca1211ed8f",
+      "media_count": 20
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第1章  绪论.docx",
+      "sha256": "55832da3afcf5def43fd60166e16f7645040246f0a028397b0406e943d8930bd",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第2章  电阻膜超材料吸波理论基础.docx",
+      "sha256": "413010fe2fd7903e089ff8901e9f66ceafb7ba50635246b54b47589b851c6f7b",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第3章  电阻膜超材料吸波单元建模.docx",
+      "sha256": "4ba27c6161d4151acd063f9b07ac43afa881120a486853eef4059b8eb9576b67",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第4章 CST-Python联合仿真与遗传算法优化方法.docx",
+      "sha256": "b503b8e0aae65ed9ddf0047a036331128ebb1280de3be9d125fd09d8a40217a4",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第5章 .docx",
+      "sha256": "3242a0d1a516e1d63ba5f266f9844d218230d54a2a0086a58cf93d4fa0a3281b",
+      "media_count": 13
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第6章 最终12x12结构吸波性能与机理分析.docx",
+      "sha256": "e0d678c6f82206d9e6effae53dbf912a4f208382a3a7bf55fe9ea8b56a9d4986",
+      "media_count": 11
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第7章 结论.docx",
+      "sha256": "4360fe614979b1575be590ee745466f85b50ea3d354102f5de68c2ed2c9997cb",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第三章_LaTeX表格整理.docx",
+      "sha256": "815aa1232717a4a0a894af9a6f08be24573621b50c2d53aecbcfcf691fd2519f",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/第四章_精简表格.docx",
+      "sha256": "563661ad0b83068379be2480a0d19095ad31df88db536a619e6c52568085ae0e",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/答辩PPT模板defense.pptx",
+      "sha256": "e0bfcf804166123f3df99dae6bd5eee69b56f45688ae4ab99d72293bdf7a4c55",
+      "media_count": 19
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院-孟庆鑫.docx",
+      "sha256": "a37fff056eaa684ae7bd25dbc9b069c7641fb80a3b3f112d0b4a36ae2b728eec",
+      "media_count": 39
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院-孟庆鑫.pdf",
+      "sha256": "3e630eba9001bfed451efba271af1c2af6a97534a3f21c45fc3b04c8888f77fd",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院.pdf",
+      "sha256": "3e630eba9001bfed451efba271af1c2af6a97534a3f21c45fc3b04c8888f77fd",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION.docx",
+      "sha256": "48da4f3472ecb3ec0ac3b691bb2e047ac12915b6df099bc97e5e1eaaf69a1012",
+      "media_count": 40
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION.pdf",
+      "sha256": "0d6031e070c0258dc14dda6a80a1276ee4b61e69a5f399c5318e0174c838897c",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pdf",
+      "sha256": "d2f3ff745a61a5b9d26e1d802c5e6bc0c4857b14f96079ab87d895950f5fef9f",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pptx",
+      "sha256": "f4317609bb9908a8efcca74829d0b211fb7d0c7057e3636b522d2ec8d0949caf",
+      "media_count": 26
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/defense_speech_english.pdf",
+      "sha256": "819a635a2d9981250ab5aac1e14c424d1110344cc5845a2acaad22283f81e90d",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/FQW-2022112550-周子靖Zhou Zijing.docx",
+      "sha256": "66022ad2621a2c24cef72560e3fdb05f5b7411c68fc74d280096e65f5d6679a9",
+      "media_count": 37
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/FQW-2022112550-周子靖Zhou Zijing.pdf",
+      "sha256": "6afd61e393b394baa0532c78671780035a65cb8cd2ce75e4391fead312ebd55d",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/毕业论文终稿5.0_格式修订版.docx",
+      "sha256": "260723ee31fa3ad9b1316027fc5ca0a94b35d8ba96a1f8e14aa333df13ed405f",
+      "media_count": 37
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/毕业论文终稿5.0_英文正文版.docx",
+      "sha256": "11fb9d6c694c06a4649bb9f3712f5be2539636cb23e33573fa84b4ccc608b740",
+      "media_count": 38
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/答辩PPT模板Template_2.pptx",
+      "sha256": "cf1388e8a788db370f95caa47b7a11a283d9904c88c5b31701e11b21bc29cbf9",
+      "media_count": 6
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/终稿/附件2：2024年中国国际大学生创新大赛培育项目结题验收书1.3(1).docx",
+      "sha256": "ddb6ab73cd6ac2dc40be27233286d9742267f178add1d559c847dfb94433bbed",
+      "media_count": 1
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/英文稿精修/第1章en.docx",
+      "sha256": "368144e9f749d38184018f0f486500a92b14fb05b50e280c2d623086286b1a6f",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/原始文档/毕业设计原件/结题/附录4  参考文献著录规则说明.docx",
+      "sha256": "ad91fcebefd6d6421ca2911a0bc032dc3852376c408433d363dcf5389727a2bb",
+      "media_count": 0
+    },
+    {
+      "location": "科研准备/本科毕设/图件/原始工程/report_figures/structure/structure_3d.pdf",
+      "sha256": "5766d2827b5bb3aeab2a1a4601448eec61c7d1330e6f6b8106d9c883a65b76e6",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/图件/原始工程/report_figures/structure/structure_side.pdf",
+      "sha256": "09839e7114734c5917c7c0b18222de241c60760308d5807ab29fe4593a55de3d",
+      "type": "pdf"
+    },
+    {
+      "location": "科研准备/本科毕设/图件/原始工程/report_figures/structure/structure_top.pdf",
+      "sha256": "ee774fdb23250282f98d9a573359e75f39e2d336087c74bd4889a7f5b7568ff7",
+      "type": "pdf"
+    },
+    {
+      "location": "F:/biyesheji/report_figures/structure/structure_3d.pdf",
+      "sha256": "5766d2827b5bb3aeab2a1a4601448eec61c7d1330e6f6b8106d9c883a65b76e6",
+      "type": "pdf"
+    },
+    {
+      "location": "F:/biyesheji/report_figures/structure/structure_side.pdf",
+      "sha256": "09839e7114734c5917c7c0b18222de241c60760308d5807ab29fe4593a55de3d",
+      "type": "pdf"
+    },
+    {
+      "location": "F:/biyesheji/report_figures/structure/structure_top.pdf",
+      "sha256": "ee774fdb23250282f98d9a573359e75f39e2d336087c74bd4889a7f5b7568ff7",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx",
+      "sha256": "685b65a185f2ef73415ebfa79525a78cf85ebdfe3e6df521c813bacf3633cc61",
+      "media_count": 8
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+      "sha256": "6e401c8474012021450137e5a789de2778c75d2da9ab7a880861c8f155673e59",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期报告1.0.docx",
+      "sha256": "48854e12538191d1ea8d56da4d3032ab156b36930ef054ffbb73c0f4a58b7cf4",
+      "media_count": 8
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期报告模板.docx",
+      "sha256": "b984179f6f4ebcdc4161864ba763f4bd9f59e52c84c216f4f7f4d2681d76ce63",
+      "media_count": 2
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期答辩.pptx",
+      "sha256": "e01ac46337b256bfa964d7ac80706c41bdf04d78c44a5c0754e888ebc493a925",
+      "media_count": 9
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期答辩记录.docx",
+      "sha256": "bb2f2c681c4e9f5b3c2cbf17bb9776a80a11c3c55cad7424ba67790bd1b9c28e",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/中期/中期讲稿.docx",
+      "sha256": "cae63de02197e46eed61668b5176ddb42d0aa4dabd549761ad76436c110d8622",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/其他组/基于磁性材料的吸波超材料设计及其性能研究_周维 (1).pdf",
+      "sha256": "d176b1bac231b2d785d587677830454be6332618a35debb5993804af11cc5db3",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/其他组/基于超材料的红外和微波兼容隐身结构及其特性研究_杨昌.pdf",
+      "sha256": "e0e6408462d0d1d9292d49e7620bd019eaf0baabb77070c4f3572f6c5e4cf83d",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/其他组/宽带广角透明吸波体设计及其雷达_红外隐身应用研究_闵萍萍 (2).pdf",
+      "sha256": "4305da8a26109ef31475c1f54d0ebdfe4a8604faec09b28cf7b3460d01b3107a",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+      "sha256": "1368f0ee91a9acbf4bd53ad263e4c96a3f5e23dd95e5949eae4d749fe013fefc",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption（PPT）.pdf",
+      "sha256": "365a604be2a8e4bf92732c478626881f7782854dd8b1f6733c1bde6ef6d9e3aa",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/周子靖-2022112550-开题报告.docx",
+      "sha256": "41a94f79d40a86ed6936abbbf595fde82734aac642e7dc53aa6e9f12607a013f",
+      "media_count": 8
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/周子靖-2022112550-开题报告（英）.docx",
+      "sha256": "0ef86500ba0ccb37b35d16f3e0a60c2d4b3441c76a1f532e1400082e8ec8fae7",
+      "media_count": 8
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/周子靖任务书.docx",
+      "sha256": "f83963c12cd35d57b417638f0953588dffeefab2879b48ca6d7c45e37a1f4a07",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/开题报告模板.docx",
+      "sha256": "3db1971a005a0bb32c10298236f21f77a798e489de87a77f8a4a740b2f8f4e0f",
+      "media_count": 2
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/开题讲稿(2).docx",
+      "sha256": "dcdb1107751f14c220762ab68f67af108cc65bb78f0724b61e78a47ac49eb0c3",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/开题讲稿.docx",
+      "sha256": "af0cd5263c2498bbd08ef0c5381abf215c7bb7638229b565b205d4b160ea9d4b",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/开题讲稿（英）.docx",
+      "sha256": "57896d3fe77fe9f717f511f1fdc4c36c54e88805f9a2405e860c724648b071bb",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/沈振宇 微波频段吸波超材料的电磁传输特性及损耗机理研究.pdf",
+      "sha256": "f872a23eb7732bbe53e68e3d74831d70bd1eb789e2104eca3c0496d71088e7eb",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/硕士学位论文-李禧龙-22S011037最终版.pdf",
+      "sha256": "6408cc21e738d3944019e869082db4aa5f3b43fc49abde1bb7e87f8687966eba",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/开题/邢文文 宽带超材料吸波器的制备及其电磁特性研究.pdf",
+      "sha256": "fb92f08826c83566b4451a309c0bd1e6c58cb8cff017798e76e5db8edab7ed51",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.docx",
+      "sha256": "2e0ee751f7c6362f1360e304458dadbc94928ebe344770b0b0edf90f75e92549",
+      "media_count": 20
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/2022112550-周子靖-Resistive Film-Based Metamaterial Structure Design for Enhanced Broadband Microwave Absorption.pdf",
+      "sha256": "c87e747560f049aa978844fa1e03d976ec9bbc8de529171de26b63d87026b3ed",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/s11_experiment_reference_guide.docx",
+      "sha256": "eda0c316c119ba4ff726d3635656e4d795b93a8604e62b90443b2de2ede5621e",
+      "media_count": 2
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/摘要.docx",
+      "sha256": "165fd9d8320310fffa10da89f9e7b71801fc6f558efdb3e1b7af79a166012cd1",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文三稿.docx",
+      "sha256": "21dc52ba33d71d91b2abb5be4cfbc95aad4e405578fa88f6187267e381f8e0ac",
+      "media_count": 20
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文三稿2.0.docx",
+      "sha256": "b9a2ab65a7b38c046c082fbaec02664e1c3cf3fef15e494311132bf808506c4c",
+      "media_count": 21
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文二稿5.0.docx",
+      "sha256": "88a32999488b039cfe57f8ed1fd58624815fce247cbedea1657d626bf59506af",
+      "media_count": 9
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业论文终稿5.0.docx",
+      "sha256": "4973c75065a60ee74e75acc1f2d3b5c3d0db0702d11896df5c11b94fe7143a82",
+      "media_count": 37
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业设计初稿1.0.docx",
+      "sha256": "cc6be5b2d0e7d368fcc7b2dbb9392a000e0a7ee253678af2f061673f4321c955",
+      "media_count": 11
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业设计初稿2.0.docx",
+      "sha256": "67bfe2df6911948a6bb208316ac2cc6051d12b645031223099fd33255d2943c7",
+      "media_count": 20
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/毕业设计初稿3.0.docx",
+      "sha256": "b27c95e60431e9e5d8d8f66e821b72e40fae5bc3d9c517af6f0dcaca1211ed8f",
+      "media_count": 20
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第1章  绪论.docx",
+      "sha256": "55832da3afcf5def43fd60166e16f7645040246f0a028397b0406e943d8930bd",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第2章  电阻膜超材料吸波理论基础.docx",
+      "sha256": "413010fe2fd7903e089ff8901e9f66ceafb7ba50635246b54b47589b851c6f7b",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第3章  电阻膜超材料吸波单元建模.docx",
+      "sha256": "4ba27c6161d4151acd063f9b07ac43afa881120a486853eef4059b8eb9576b67",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第4章 CST-Python联合仿真与遗传算法优化方法.docx",
+      "sha256": "b503b8e0aae65ed9ddf0047a036331128ebb1280de3be9d125fd09d8a40217a4",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第5章 .docx",
+      "sha256": "3242a0d1a516e1d63ba5f266f9844d218230d54a2a0086a58cf93d4fa0a3281b",
+      "media_count": 13
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第6章 最终12x12结构吸波性能与机理分析.docx",
+      "sha256": "e0d678c6f82206d9e6effae53dbf912a4f208382a3a7bf55fe9ea8b56a9d4986",
+      "media_count": 11
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第7章 结论.docx",
+      "sha256": "4360fe614979b1575be590ee745466f85b50ea3d354102f5de68c2ed2c9997cb",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第三章_LaTeX表格整理.docx",
+      "sha256": "815aa1232717a4a0a894af9a6f08be24573621b50c2d53aecbcfcf691fd2519f",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/第四章_精简表格.docx",
+      "sha256": "563661ad0b83068379be2480a0d19095ad31df88db536a619e6c52568085ae0e",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/答辩PPT模板defense.pptx",
+      "sha256": "e0bfcf804166123f3df99dae6bd5eee69b56f45688ae4ab99d72293bdf7a4c55",
+      "media_count": 19
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院-孟庆鑫.docx",
+      "sha256": "a37fff056eaa684ae7bd25dbc9b069c7641fb80a3b3f112d0b4a36ae2b728eec",
+      "media_count": 39
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院-孟庆鑫.pdf",
+      "sha256": "3e630eba9001bfed451efba271af1c2af6a97534a3f21c45fc3b04c8888f77fd",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院.pdf",
+      "sha256": "3e630eba9001bfed451efba271af1c2af6a97534a3f21c45fc3b04c8888f77fd",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION.docx",
+      "sha256": "48da4f3472ecb3ec0ac3b691bb2e047ac12915b6df099bc97e5e1eaaf69a1012",
+      "media_count": 40
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION.pdf",
+      "sha256": "0d6031e070c0258dc14dda6a80a1276ee4b61e69a5f399c5318e0174c838897c",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pdf",
+      "sha256": "d2f3ff745a61a5b9d26e1d802c5e6bc0c4857b14f96079ab87d895950f5fef9f",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/2022112550_ZhouZijing_Thesis_Defense_PPT.pptx",
+      "sha256": "f4317609bb9908a8efcca74829d0b211fb7d0c7057e3636b522d2ec8d0949caf",
+      "media_count": 26
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/defense_speech_english.pdf",
+      "sha256": "819a635a2d9981250ab5aac1e14c424d1110344cc5845a2acaad22283f81e90d",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/FQW-2022112550-周子靖Zhou Zijing.docx",
+      "sha256": "66022ad2621a2c24cef72560e3fdb05f5b7411c68fc74d280096e65f5d6679a9",
+      "media_count": 37
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/FQW-2022112550-周子靖Zhou Zijing.pdf",
+      "sha256": "6afd61e393b394baa0532c78671780035a65cb8cd2ce75e4391fead312ebd55d",
+      "type": "pdf"
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/毕业论文终稿5.0_格式修订版.docx",
+      "sha256": "260723ee31fa3ad9b1316027fc5ca0a94b35d8ba96a1f8e14aa333df13ed405f",
+      "media_count": 37
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/毕业论文终稿5.0_英文正文版.docx",
+      "sha256": "11fb9d6c694c06a4649bb9f3712f5be2539636cb23e33573fa84b4ccc608b740",
+      "media_count": 38
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/答辩PPT模板Template_2.pptx",
+      "sha256": "cf1388e8a788db370f95caa47b7a11a283d9904c88c5b31701e11b21bc29cbf9",
+      "media_count": 6
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/终稿/附件2：2024年中国国际大学生创新大赛培育项目结题验收书1.3(1).docx",
+      "sha256": "ddb6ab73cd6ac2dc40be27233286d9742267f178add1d559c847dfb94433bbed",
+      "media_count": 1
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/英文稿精修/第1章en.docx",
+      "sha256": "368144e9f749d38184018f0f486500a92b14fb05b50e280c2d623086286b1a6f",
+      "media_count": 0
+    },
+    {
+      "location": "E:/360MoveData/Users/zzj/OneDrive/桌面/毕业设计/结题/附录4  参考文献著录规则说明.docx",
+      "sha256": "ad91fcebefd6d6421ca2911a0bc032dc3852376c408433d363dcf5389727a2bb",
+      "media_count": 0
+    }
+  ],
+  "external_container_hashes_all_found_in_repo": true,
+  "read_only": {
+    "executed_original_scripts": false,
+    "launched_CST_or_solver": false,
+    "new_scientific_images": false,
+    "final_ppt_created": false,
+    "note": "Only temporary contact sheets and existing PDF page renders used for inspection."
+  },
+  "acceptance": {
+    "candidate_count": 32,
+    "rank_counts": {
+      "主选": 8,
+      "备选": 12,
+      "不建议使用": 12
+    },
+    "broken_file_links": 0,
+    "original_files_rehashed": 381,
+    "original_hash_changes": 0,
+    "source_image_occurrences": 1193,
+    "existing_uncommitted_public_files_excluded": true
+  }
+}
