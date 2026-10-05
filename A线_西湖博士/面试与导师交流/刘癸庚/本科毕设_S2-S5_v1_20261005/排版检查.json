@@ -1,0 +1,14 @@
+{
+  "renderer": "Microsoft PowerPoint 16.0",
+  "slides": 4,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "text_overflow": [],
+  "out_of_canvas": [],
+  "notes_slides": 4,
+  "readme_links_ok": true,
+  "source_hashes_reverified": true,
+  "visual_review": "S2-S5 actual PowerPoint exports visually inspected; corrected S4 legend spacing."
+}
