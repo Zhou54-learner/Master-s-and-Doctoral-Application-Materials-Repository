@@ -1,0 +1,129 @@
+{
+  "roots": [
+    "E:/2022",
+    "E:/2023",
+    "E:/2024",
+    "E:/QQ Files",
+    "E:/xwechat_files",
+    "F:/OneDrive",
+    "C:/Users/zzj/Documents",
+    "C:/Users/zzj/Desktop",
+    "C:/Users/zzj/Downloads",
+    "E:/Autosave",
+    "E:/Backup",
+    "E:/Unsaved"
+  ],
+  "counts": {
+    ".pptx": 69,
+    ".py": 24,
+    ".docx": 421,
+    ".m": 19,
+    ".mlx": 12
+  },
+  "hits": [
+    {
+      "path": "E:/QQ Files/毕业论文.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/2024/yxy组代码/代码/FFT.mlx",
+      "matched_members": [
+        "matlab/document.xml"
+      ]
+    },
+    {
+      "path": "E:/2023/traindata/数据处理/pitchtest.m",
+      "matched_members": [
+        "text"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/migrate/File/2025-07/二维尘埃等离子体晶格波色散关系研究.pptx",
+      "matched_members": [
+        "ppt/slides/slide5.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/migrate/File/2025-03/项目申请书1(2).docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/migrate/File/2025-03/项目申请书.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/migrate/File/2025-03/背景意义问题挑战2.0.pptx",
+      "matched_members": [
+        "ppt/slides/slide7.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/migrate/File/2025-03/空间站申请书-杨肖易 v3.0.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/migrate/File/2025-02/附件2：主赛道创意组项目介绍模板.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/migrate/File/2025-02/主赛道创意组项目介绍.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/file/2025-03/项目申请书1(2).docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/file/2025-03/项目申请书.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/file/2025-03/背景意义问题挑战1.0.pptx",
+      "matched_members": [
+        "ppt/slides/slide7.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/file/2025-03/空间站申请书-杨肖易 v3.0.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/file/2025-02/附件2：主赛道创意组项目介绍模板.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/xwechat_files/wxid_8vm0magettzt32_b62f/msg/file/2025-02/主赛道创意组项目介绍.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    },
+    {
+      "path": "E:/QQ Files/Chat/Tencent Files/1439037249/FileRecv/附件5：哈尔滨工业大学中国国际大学生创新大赛主赛道团队项目申报书——龙之鸣——基于波纹管发音的新型乐器.docx",
+      "matched_members": [
+        "word/document.xml"
+      ]
+    }
+  ],
+  "errors": [],
+  "stderr": ""
+}
