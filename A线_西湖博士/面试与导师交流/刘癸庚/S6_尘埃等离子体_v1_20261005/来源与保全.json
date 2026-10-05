@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-05",
+  "sources": [
+    {
+      "path": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/1725198103735.jpg",
+      "bytes": 15296,
+      "sha256": "57639b8d84809a510df0722cb73885b78f85935808f05c5997d972356699e052"
+    },
+    {
+      "path": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/53,53.jpg",
+      "bytes": 87069,
+      "sha256": "f081a98c4253be1e4c87970f456560a8014f3e58e6d6a2793b6235493afe978b"
+    },
+    {
+      "path": "公共资料/事实核验/尘埃等离子体_历史贡献与代码考古_20261005.md",
+      "bytes": 44324,
+      "sha256": "eebb64dfd1c5d7acdba5416c6fbbaa0a40618e473920eb302b4b362e31e624fe"
+    },
+    {
+      "path": "科研准备/晶格波研究/论文/论文2.pdf",
+      "bytes": 1910311,
+      "sha256": "fed0ef389d4317ab8bc86963aa83b3de85efe1092109218dab181c9f95321f1c"
+    }
+  ],
+  "reference_files": [
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/patch_manifest.json",
+      "bytes": 1941,
+      "sha256": "bbc05964925f1d29c6180ee477f27c78f46ea93f194b8c8002436282006acebf"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/README.md",
+      "bytes": 662,
+      "sha256": "8cfba37f59e51ad06018fb67a33f96f346e977daabe097a42fd4b38c4775452d"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/v2.1文案修改记录.md",
+      "bytes": 2198,
+      "sha256": "35fbc71ea6c7038118cf2588af45e7c47ad59d18c58bc3891c78597f0a238ac8"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/排版检查.json",
+      "bytes": 129,
+      "sha256": "44ee95ed9895ff5789bf8c7313abb489a6600827b78e6d51b18da86b6e910651"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/本科毕设_S2-S5_v2.1.pdf",
+      "bytes": 408355,
+      "sha256": "af093e0b5c75c40043bc15ce0b821ca700d0d84f2ed4a822274395d3fccf982b"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/本科毕设_S2-S5_v2.1.pptx",
+      "bytes": 212593,
+      "sha256": "8ab1e24a90cb6bbefd7021fde820ffcf5583d926958cf7f8c967ac9d4931f913"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S2.png",
+      "bytes": 429042,
+      "sha256": "8432eca388bee8fc3978e33e14072fbbf7b6da4375c41f8e88465721eb214033"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S3.png",
+      "bytes": 239722,
+      "sha256": "4ddc6bb4c0c5676335d64fb03094c765becf507af810ad2d82ce62c4ee910dea"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S4.png",
+      "bytes": 167463,
+      "sha256": "b2ae83d690a1235eb882f6fc68700d385e49c62f730e9e49be90fca0c6ace27c"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S5.png",
+      "bytes": 177591,
+      "sha256": "6231fea0f4c80f7d1320ce11f4d0e3baa08f1a6efc2cc21f1d47731aefc25723"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/四页总览.png",
+      "bytes": 566693,
+      "sha256": "5ad9065c40a9ff909030e4096b56c17e21bbc7ff304959ff1959fd5453f207af"
+    }
+  ],
+  "original_size_px": [
+    691,
+    692
+  ],
+  "image_operation": "original JPEG bytes embedded; no crop, stretch, recolour, or redraw"
+}
