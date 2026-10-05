@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "吸波设计：场、散射与耗散的自洽联系",
+    "locale": "zh-CN",
+    "quality_profile": "showcase",
+    "animation": "none",
+    "legend": {
+      "mode": "hidden"
+    },
+    "viewBox": [
+      720,
+      346
+    ]
+  },
+  "lanes": [
+    {
+      "id": "problem",
+      "label": "物理问题的定义"
+    },
+    {
+      "id": "response",
+      "label": "同一稳态解的观测"
+    }
+  ],
+  "mainPath": [
+    "parameters",
+    "conditions",
+    "local",
+    "sources"
+  ],
+  "nodes": [
+    {
+      "id": "parameters",
+      "lane": "problem",
+      "col": 0,
+      "type": "frontend",
+      "label": "结构与材料",
+      "sublabel": "周期 高度 图案 片阻",
+      "width": 92
+    },
+    {
+      "id": "conditions",
+      "lane": "problem",
+      "col": 2,
+      "type": "backend",
+      "label": "边界与本构",
+      "sublabel": "传播相位 · 周期 · PEC",
+      "width": 120
+    },
+    {
+      "id": "local",
+      "lane": "problem",
+      "col": 4,
+      "type": "backend",
+      "label": "局部总场",
+      "sublabel": "E、H 驱动材料响应",
+      "width": 120
+    },
+    {
+      "id": "sources",
+      "lane": "response",
+      "col": 4,
+      "type": "messagebus",
+      "label": "电流与极化",
+      "sublabel": "膜 · PET · PEC · 邻胞",
+      "width": 120
+    },
+    {
+      "id": "scattered",
+      "lane": "response",
+      "col": 2,
+      "type": "messagebus",
+      "label": "新的散射场",
+      "sublabel": "与入射场相干叠加",
+      "width": 120
+    },
+    {
+      "id": "observables",
+      "lane": "response",
+      "col": 0,
+      "type": "backend",
+      "label": "反射与能量账",
+      "sublabel": "阻抗 · 耗散 · 全通道",
+      "width": 92
+    }
+  ],
+  "edges": [
+    {
+      "from": "parameters",
+      "to": "conditions"
+    },
+    {
+      "from": "conditions",
+      "to": "local"
+    },
+    {
+      "from": "local",
+      "to": "sources",
+      "route": "straight"
+    },
+    {
+      "from": "sources",
+      "to": "scattered"
+    },
+    {
+      "from": "scattered",
+      "to": "local",
+      "label": "反馈",
+      "role": "return",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "bottom"
+    },
+    {
+      "from": "scattered",
+      "to": "observables"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "一般电磁图像",
+      "items": [
+        "箭头表示物理依赖，不是先后执行步骤",
+        "CST 求解自洽的频域 Maxwell 边值问题"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "保存结果",
+      "items": [
+        "4.80–18.00 GHz：指定同模低反射采样段",
+        "13.20 GHz 为端点跨度，非已验证总吸收带宽"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "仍需验证",
+      "items": [
+        "零阶正交偏振 · 端口功率归一化 · 耗散积分",
+        "独立网格与频率检查；具体宽带机理尚未闭合"
+      ]
+    }
+  ]
+}
