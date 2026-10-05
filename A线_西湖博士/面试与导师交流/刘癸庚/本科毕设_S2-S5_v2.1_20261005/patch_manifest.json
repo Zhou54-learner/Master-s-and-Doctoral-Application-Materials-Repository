@@ -1,0 +1,51 @@
+{
+  "source": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/本科毕设_S2-S5_v2.pptx",
+  "target": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/本科毕设_S2-S5_v2.1.pptx",
+  "visible_text_replacements": {
+    "ppt/slides/slide1.xml": {
+      "想在 2–18 GHz 内，让反射尽量低": {
+        "new": "目标：在 2–18 GHz 内探索宽带低反射结构",
+        "count": 1
+      }
+    },
+    "ppt/slides/slide2.xml": {
+      "周期 p：横向尺度、单元之间的相互作用": {
+        "new": "周期 p：横向尺度、周期条件和单元之间的相互作用",
+        "count": 1
+      },
+      "高度 h：PEC 返回场的相位会变": {
+        "new": "高度 h：PEC 返回场相位、内部场分布",
+        "count": 1
+      },
+      "片阻：同样的局部电场，电流有多大？": {
+        "new": "片阻：局部电场和表面电流是什么关系？",
+        "count": 1
+      },
+      "Rₛ,ₓ、Rₛ,ᵧ 改变局部 Eₜ 与 K 的关系": {
+        "new": "Rₛ,ₓ、Rₛ,ᵧ 改变局部 Eₜ–K 关系",
+        "count": 1
+      }
+    },
+    "ppt/slides/slide3.xml": {
+      "把仿真跑通": {
+        "new": "找出有效尺度",
+        "count": 1
+      },
+      "那时也在学": {
+        "new": "同时把 CST / Python",
+        "count": 1
+      },
+      "CST / Python，": {
+        "new": "参数化仿真跑通",
+        "count": 1
+      },
+      "这组图案不错，保留下来再做细一点": {
+        "new": "这组图案表现更好，就沿着它继续细化",
+        "count": 1
+      }
+    }
+  },
+  "removed_visible_line": "S4 left small text: 算力得省着用。",
+  "source_sha256": "2c373e44f919c5eb054f3d9945df46db125da3fd83f25ce35da465ee6b2b82fc",
+  "target_sha256": "8ab1e24a90cb6bbefd7021fde820ffcf5583d926958cf7f8c967ac9d4931f913"
+}
