@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "date": "2026-10-05",
+  "candidates": [
+    {
+      "slide": "S0",
+      "one_page_pptx": true,
+      "one_page_pdf": true,
+      "complete_notes_exact_match": true,
+      "editable_text_objects": 8,
+      "sha256_pptx": "4f9a470a579a97b9a7ca731822486ddc72df484a4f8bb000e3244d3ffc15e8c7",
+      "sha256_pdf": "cae627680e502b8b715b8bfe220a8ab3c3c1f9310471637ac439eb8a833ae9a4"
+    },
+    {
+      "slide": "S1",
+      "one_page_pptx": true,
+      "one_page_pdf": true,
+      "complete_notes_exact_match": true,
+      "editable_text_objects": 19,
+      "sha256_pptx": "a786e1581aa145603826bf0afce3385f7271e513c7404e02fa0937a8f35a77d2",
+      "sha256_pdf": "7a4742438f7df5f889eb3865d7fc60c27ab0234244ad9b31ca3fd993b1126529"
+    },
+    {
+      "slide": "S10",
+      "one_page_pptx": true,
+      "one_page_pdf": true,
+      "complete_notes_exact_match": true,
+      "editable_text_objects": 9,
+      "sha256_pptx": "75df8d3211a60a70b4ac98538b0f8b55a2aafc348abd6d88750cd7749ed4ac0c",
+      "sha256_pdf": "3aa83d1181c9bace86e8a7f33b54a7d52f05cb3247a6348d139bd23da21a0ca5"
+    },
+    {
+      "slide": "S11",
+      "one_page_pptx": true,
+      "one_page_pdf": true,
+      "complete_notes_exact_match": true,
+      "editable_text_objects": 7,
+      "sha256_pptx": "1df3d785e6560a7b776c93d05ed9b33ee7d7d0276499b48433c4fa63da9107c5",
+      "sha256_pdf": "54d537c972de1ca08bd4d7252677d4a8d7f5ee985f2f5c0292c400463771e0c7"
+    },
+    {
+      "slide": "S12",
+      "one_page_pptx": true,
+      "one_page_pdf": true,
+      "complete_notes_exact_match": true,
+      "editable_text_objects": 18,
+      "sha256_pptx": "c40093aeb788857825e23103fdc49cef9bac33a112200ac8230202a1e02565cb",
+      "sha256_pdf": "95206df9460a9de58a364970f0055071dc3ddf2df0de60d57c687c6f9d5bb9e1"
+    },
+    {
+      "slide": "S13",
+      "one_page_pptx": true,
+      "one_page_pdf": true,
+      "complete_notes_exact_match": true,
+      "editable_text_objects": 15,
+      "sha256_pptx": "a2cd3efa93bda129859d6ffcd056cc567fd49f9248df9f00f102b9dacebd9be7",
+      "sha256_pdf": "2260504be8c7bbb7820648c76d1cc6f43645e49a7b437666c2e4f719b1f64273"
+    }
+  ],
+  "preserved_files": 140,
+  "prior_candidate_files": 120,
+  "local_links_checked": 137,
+  "old_candidate_files_changed": 0,
+  "full_deck_created": false,
+  "scope": "INTERNAL / v1 CANDIDATE"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "O01",
+    "url": "https://en.westlake.edu.cn/faculty/guigeng-liu.html",
+    "final_url": "https://en.westlake.edu.cn/faculty/guigeng-liu.html",
+    "status": 200,
+    "access_date": "2026-10-05",
+    "sha256": "20df548bc47cb159ab627015b7ac12969108f62539fcd32082d28318132f6271",
+    "bytes": 74426,
+    "excerpts": [],
+    "evidence_type": "University official page",
+    "static_script_field": {
+      "field": "personObj.lab",
+      "value": "Laboratory of Complex Waves and Fields",
+      "method": "Read literal data only; no JavaScript execution."
+    }
+  },
+  {
+    "id": "P01",
+    "url": "https://www.liuguigeng.com/",
+    "final_url": "https://www.liuguigeng.com/",
+    "status": 200,
+    "access_date": "2026-10-05",
+    "sha256": "415a9c1d39cd4c465e4392ab2b2b07c49320341d41b13d209833c5f983736c3b",
+    "bytes": 35492,
+    "excerpts": [
+      {
+        "term": "topological photonics",
+        "excerpt": "topological photonics"
+      },
+      {
+        "term": "non-Hermitian optics",
+        "excerpt": "non-Hermitian optics"
+      }
+    ],
+    "evidence_type": "Lab/PI self-description"
+  }
+]

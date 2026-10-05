@@ -1,0 +1,39 @@
+{
+  "operation": "Contact sheets of actual PowerPoint exports. Uniform proportional downsampling only; no merged PPT.",
+  "existing_s2_source": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S2.png",
+  "existing_s2_sha256": "8432eca388bee8fc3978e33e14072fbbf7b6da4375c41f8e88465721eb214033",
+  "files": [
+    {
+      "file": "预览/S1-S2_衔接审阅.png",
+      "size": [
+        3840,
+        1240
+      ],
+      "sha256": "b8db4b4346aea27e07fdfd2597287bcafbc32de3476695f743aa696de7115870"
+    },
+    {
+      "file": "预览/S10-S11_双页审阅.png",
+      "size": [
+        3840,
+        1240
+      ],
+      "sha256": "2bc04085d5291333f24afab56a3c619a3fef510a876161c6a0db052d17ec94a2"
+    },
+    {
+      "file": "预览/S10-S13_联合审阅.png",
+      "size": [
+        3840,
+        2490
+      ],
+      "sha256": "47f4b6e9fbd27e5c2fa5c1aaf4090bdd134a42ae09c137fcb0e7085fc864e04c"
+    },
+    {
+      "file": "预览/S12-S13_双页审阅.png",
+      "size": [
+        3840,
+        1240
+      ],
+      "sha256": "85b053f768ffa7b007cdc94adc26da091c6ba64a1aa5799360477b9da9d96a1d"
+    }
+  ]
+}
