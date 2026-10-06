@@ -1,0 +1,266 @@
+{
+  "renderer": "Microsoft PowerPoint 16.0",
+  "pptx_sha256": "3cc80542f216961b6ee2c0eb1944312e5a3722997c1ee45b1cfd681836239a6f",
+  "frames": [
+    "S8"
+  ],
+  "slides": 1,
+  "text_overflow": [],
+  "outside_canvas": [],
+  "notes": [
+    {
+      "frame": "S8",
+      "exact_match": true,
+      "source": "speaker_notes.md"
+    }
+  ],
+  "shapes": [
+    {
+      "frame": "S8",
+      "name": "section",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        17.280000686645508,
+        288.0,
+        20.15999984741211
+      ],
+      "text": "个人探索",
+      "bound_pt": [
+        47.25,
+        14.305039405822754
+      ],
+      "available_pt": [
+        288.0,
+        20.15999984741211
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "candidate",
+      "type": 17,
+      "rect_pt": [
+        612.0,
+        19.440000534057617,
+        309.6000061035156,
+        18.719999313354492
+      ],
+      "text": "INTERNAL / v3 CANDIDATE",
+      "bound_pt": [
+        127.75,
+        12.350000381469727
+      ],
+      "available_pt": [
+        309.6000061035156,
+        18.719999313354492
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "title",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        46.79999923706055,
+        882.0,
+        50.400001525878906
+      ],
+      "text": "从一个突然冒出来的想法，到一套协作方法",
+      "bound_pt": [
+        540.3750610351562,
+        36.4050407409668
+      ],
+      "available_pt": [
+        882.0,
+        50.400001525878906
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "historical_agent_full_application",
+      "type": 13,
+      "rect_pt": [
+        39.599998474121094,
+        96.4800033569336,
+        676.7999877929688,
+        420.8241882324219
+      ]
+    },
+    {
+      "frame": "S8",
+      "name": "demo_label",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        165.60000610351562,
+        182.8800048828125,
+        28.799999237060547
+      ],
+      "text": "从想法到 Demo",
+      "bound_pt": [
+        121.75,
+        20.805038452148438
+      ],
+      "available_pt": [
+        182.8800048828125,
+        28.799999237060547
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "demo_detail",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        208.0800018310547,
+        182.8800048828125,
+        69.83999633789062
+      ],
+      "text": "Codex 大幅降低\r实现门槛",
+      "bound_pt": [
+        137.1250457763672,
+        48.89503860473633
+      ],
+      "available_pt": [
+        182.8800048828125,
+        69.83999633789062
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "complex_label",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        322.55999755859375,
+        182.8800048828125,
+        28.799999237060547
+      ],
+      "text": "项目复杂以后",
+      "bound_pt": [
+        100.75,
+        20.805038452148438
+      ],
+      "available_pt": [
+        182.8800048828125,
+        28.799999237060547
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "division_detail",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        363.6000061035156,
+        182.8800048828125,
+        27.360000610351562
+      ],
+      "text": "分角色 · 分窗口 · 分证据",
+      "bound_pt": [
+        148.0,
+        17.555038452148438
+      ],
+      "available_pt": [
+        182.8800048828125,
+        27.360000610351562
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "human_decision",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        403.20001220703125,
+        182.8800048828125,
+        66.23999786376953
+      ],
+      "text": "人负责目标、边界\r与最终裁决",
+      "bound_pt": [
+        141.0,
+        46.16999816894531
+      ],
+      "available_pt": [
+        182.8800048828125,
+        66.23999786376953
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "source_footer",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        523.4400024414062,
+        828.0,
+        12.960000038146973
+      ],
+      "text": "Physics Learning Assistant · 本人历史原型；协作方法在后续迭代与复盘中形成",
+      "bound_pt": [
+        302.25,
+        11.055039405822754
+      ],
+      "available_pt": [
+        828.0,
+        12.960000038146973
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "slide_number",
+      "type": 17,
+      "rect_pt": [
+        874.7999877929688,
+        519.1199951171875,
+        46.79999923706055,
+        20.15999984741211
+      ],
+      "text": "S8",
+      "bound_pt": [
+        19.75,
+        16.899999618530273
+      ],
+      "available_pt": [
+        46.79999923706055,
+        20.15999984741211
+      ],
+      "font": "Microsoft YaHei"
+    }
+  ],
+  "pptx_unchanged_after_export": true,
+  "images": [
+    {
+      "frame": "S8",
+      "name": "historical_agent_full_application",
+      "pixels": [
+        1322,
+        822
+      ],
+      "aspect_relative_error": 7.727816275782118e-08,
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "source_checks": [
+    {
+      "source": "公共资料/事实核验/个人探索_20261004/素材/S02_物理学习助手.png",
+      "original_hash_match": true,
+      "crop_pixels_identical": true,
+      "embedded_bytes_identical": true
+    }
+  ]
+}
