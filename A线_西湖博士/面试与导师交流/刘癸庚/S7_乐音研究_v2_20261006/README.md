@@ -43,6 +43,8 @@
 
 原件、v1、S0–S6、S8–S13均未修改。474份既有PI文件、3份无关公共资料、1,366份历史原件哈希保持。另有1份接手时已经打开且未提交的FULL_DRAFT PPTX在本轮期间发生保存变化，原因未独立确认；本轮工具只打开两个S7候选，未编辑、回退、覆盖或提交该完整稿，保全记录保留前后哈希而不声称全部一致。只更新A线工作台接续信息。PR #15保持OPEN / no auto-merge，不合并main、不发送材料、不改变联系事件。
 
+**分支同步补记：** 首次推送时远端已新增六次S3–S5口述更新（至`03ea41f`）。已原样接入同一分支的4份讲稿文件，未改写其内容、未替换任何PPT页面；[同步保全](检查证据/同期远端更新保全.json)核对其字节与远端一致。因此最终统计为470份既有PI文件仍与接手相同、4份完整保持同期远端版本、1份已打开完整稿的并发保存例外。上文474为同步前验收快照。相对最新远端，本轮差异仍仅S7目录与A线工作台，没有合并main。
+
 ## 制作源与重现
 
 设计决策：[figure-plan](制作源/figure-plan.md)。制作：[build_slides.py](制作源/build_slides.py)；实际导出：[render_check.py](制作源/render_check.py)；检索与原生图件查看：[inspect_assets.py](制作源/inspect_assets.py)、[render_historical_figs.m](制作源/render_historical_figs.m)、[render_excel.py](制作源/render_excel.py)；保全：[validate_final.py](制作源/validate_final.py)。

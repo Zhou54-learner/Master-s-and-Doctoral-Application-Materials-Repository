@@ -20,6 +20,10 @@ pi=check(base['existing_pi']);other=check(base['unrelated'])
 # baseline and disclose its mismatch; only this explicit document is excepted.
 concurrent_path=(OUT.parent/'FULL_DRAFT_v0.1_20261006/刘癸庚交流_INTERNAL_FULL_DRAFT_v0.1_20261006.pptx').as_posix()
 concurrent=[r for r in pi if not r['unchanged'] and r['path']==concurrent_path]
+sync_file=OUT/'检查证据/同期远端更新保全.json'
+synced=json.loads(sync_file.read_text(encoding='utf8'))['files'] if sync_file.exists() else []
+synced_unchanged={r['path'] for r in synced if Path(r['path']).exists() and sha(Path(r['path']))==r['remote_sha256']}
+assert len(synced_unchanged)==len(synced),'An explicitly synchronized remote file changed after sync'
 for r in concurrent:
  p=Path(r['path']);r.update(current=rec(p),baseline=next(b for b in base['existing_pi'] if b['path']==r['path']),note='Already modified and open at handoff; changed during work. Cause not independently established. S7 tools never open/edit this deck. Preserved current bytes; excluded from commit.')
 hist=[]
@@ -60,7 +64,7 @@ for p in OUT.rglob('*.md'):
   if q and not target_path.exists() and target_path!=(OUT/'检查证据/最终保全与复现.json').resolve():broken.append(dict(file=p.relative_to(OUT).as_posix(),target=target))
 reports=json.loads((OUT/'检查证据/PowerPoint实际渲染检查.json').read_text(encoding='utf8'))
 sizes={p.name:list(Image.open(p).size) for p in (OUT/'预览').glob('*.png')}
-result=dict(existing_pi_files=pi,unrelated_files=other,historical_baseline=preserved,current_historical_files=current,concurrent_workspace_changes=concurrent,historical_crop_pixel_exact=crop_ok,rebuild=regen,broken_local_links=broken,pdfs=pdfs,preview_sizes=sizes,summary=dict(pi_count=len(pi),pi_unchanged=sum(r['unchanged'] for r in pi),unrelated_count=len(other),historical_count=len(preserved),current_history_count=len(current),all_preserved=all(r['unchanged'] for r in pi+other+preserved+current),protected_files_preserved=all(r['unchanged'] or r['path']==concurrent_path for r in pi+other+preserved+current),concurrent_changes=len(concurrent),rebuild_same=all(not r['changed_package_members'] for r in regen),text_overflow=sum(len(r['text_overflow']) for r in reports),outside=sum(len(r['outside_canvas']) for r in reports),notes_all_match=all(r['notes_match'] for r in reports)))
+result=dict(existing_pi_files=pi,unrelated_files=other,historical_baseline=preserved,current_historical_files=current,concurrent_workspace_changes=concurrent,synchronized_remote_files=synced,historical_crop_pixel_exact=crop_ok,rebuild=regen,broken_local_links=broken,pdfs=pdfs,preview_sizes=sizes,summary=dict(pi_count=len(pi),pi_unchanged=sum(r['unchanged'] for r in pi),remote_updates_preserved=len(synced_unchanged),unrelated_count=len(other),historical_count=len(preserved),current_history_count=len(current),all_preserved=all(r['unchanged'] for r in pi+other+preserved+current),protected_files_preserved=all(r['unchanged'] or r['path']==concurrent_path or r['path'] in synced_unchanged for r in pi+other+preserved+current),concurrent_changes=len(concurrent),rebuild_same=all(not r['changed_package_members'] for r in regen),text_overflow=sum(len(r['text_overflow']) for r in reports),outside=sum(len(r['outside_canvas']) for r in reports),notes_all_match=all(r['notes_match'] for r in reports)))
 dump(OUT/'检查证据/最终保全与复现.json',result)
 print(json.dumps(result['summary'],ensure_ascii=False));print('broken links:',broken)
 assert result['summary']['protected_files_preserved'] and result['summary']['rebuild_same'] and crop_ok and not broken

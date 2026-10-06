@@ -1,0 +1,31 @@
+{
+  "before_sync": "31bf0da",
+  "upstream_commit": "03ea41f66ba46b9e901af35742ce243b6e27df28",
+  "reason": "First push rejected because same branch advanced independently; retained six remote commits through a same-branch merge, never main. S7 delta relative to upstream remains its candidate folder and A workbench only.",
+  "files": [
+    {
+      "path": "F:/1A硕博申请/A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/逐页备注/04_S3.md",
+      "remote_sha256": "33f291ee4c30e6c0cf70d2b08e2cdd6e99c7f13e72512327948ebd0a25d23433",
+      "remote_commit": "03ea41f66ba46b9e901af35742ce243b6e27df28",
+      "task_action": "Read and preserve exact upstream content; no S7-authored edits."
+    },
+    {
+      "path": "F:/1A硕博申请/A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/逐页备注/05_S4.md",
+      "remote_sha256": "1b49cc94ca8a78631f6b50961ca173bb36c25c6797877c359dc0d25c6fda2703",
+      "remote_commit": "03ea41f66ba46b9e901af35742ce243b6e27df28",
+      "task_action": "Read and preserve exact upstream content; no S7-authored edits."
+    },
+    {
+      "path": "F:/1A硕博申请/A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/逐页备注/06_S5.md",
+      "remote_sha256": "7928f07a076aab9bc4b462d4f973bd037cd739ea478dbd2582d92a811a645e0f",
+      "remote_commit": "03ea41f66ba46b9e901af35742ce243b6e27df28",
+      "task_action": "Read and preserve exact upstream content; no S7-authored edits."
+    },
+    {
+      "path": "F:/1A硕博申请/A线_西湖博士/面试与导师交流/刘癸庚/完整讲稿_当前版本合并版_v2_20261006.md",
+      "remote_sha256": "6ac1ab7ecb918e990ed5de06888b4de24fd46e7a2f8aae72f3ea7ddb2503f27b",
+      "remote_commit": "03ea41f66ba46b9e901af35742ce243b6e27df28",
+      "task_action": "Read and preserve exact upstream content; no S7-authored edits."
+    }
+  ]
+}
