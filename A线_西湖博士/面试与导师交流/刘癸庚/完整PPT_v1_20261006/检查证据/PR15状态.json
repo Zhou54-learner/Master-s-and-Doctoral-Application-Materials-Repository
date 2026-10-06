@@ -1,0 +1,11 @@
+{
+  "autoMergeRequest": null,
+  "baseRefName": "main",
+  "headRefName": "chatgpt/liu-interview-plan-20261004",
+  "headRefOid": "da91bed323a63d2d273d2c3bebc2e8555ebc524f",
+  "number": 15,
+  "state": "OPEN",
+  "url": "https://github.com/Zhou54-learner/Master-s-and-Doctoral-Application-Materials-Repository/pull/15",
+  "checked_at": "2026-10-06T17:27:13.817220+08:00",
+  "scope": "只读核验；本轮不合并 main、不发送材料"
+}

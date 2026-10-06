@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "source_head": "da91bed323a63d2d273d2c3bebc2e8555ebc524f",
+  "source_files_match_HEAD": true,
+  "physical_slides": 15,
+  "logical_themes": 14,
+  "slide_size_emu": [
+    12191999,
+    6858000
+  ],
+  "objects": 270,
+  "slides_without_visible_edits": 10,
+  "status_edit_count": 6,
+  "speaker_notes_exact_matches": 15,
+  "script": "完整讲稿_最新合并版_v3_20261006.md",
+  "script_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+  "shared_template_sources": 10,
+  "independently_preserved_template_sources": 1,
+  "pptx_sha256": "fec4a31bb2b8b8bba45cd3fe2c8812907805076319dfa696fa8a4b16ff0f7248",
+  "package_status_marker_hits": []
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "comparison": "archived_vs_current_source_pdf",
+    "differing_pixels": 2544,
+    "fraction": 0.0012268518518518518,
+    "mean_absolute_channel_difference_0_255": 0.050605709876543205,
+    "difference_bbox": [
+      584,
+      104,
+      1473,
+      1053
+    ]
+  },
+  {
+    "comparison": "current_source_vs_merged_pdf",
+    "differing_pixels": 0,
+    "fraction": 0.0,
+    "mean_absolute_channel_difference_0_255": 0.0,
+    "difference_bbox": null
+  },
+  {
+    "comparison": "archived_vs_merged_pdf",
+    "differing_pixels": 2544,
+    "fraction": 0.0012268518518518518,
+    "mean_absolute_channel_difference_0_255": 0.050605709876543205,
+    "difference_bbox": [
+      584,
+      104,
+      1473,
+      1053
+    ]
+  }
+]

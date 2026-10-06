@@ -1,0 +1,185 @@
+[
+  {
+    "page": 1,
+    "logical": "S0",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S0_封面_v1_20261005\\S0_封面_v1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": false,
+    "difference_bbox": [
+      132,
+      21,
+      922,
+      526
+    ],
+    "expected_status_redaction": true,
+    "same_extracted_text": false
+  },
+  {
+    "page": 2,
+    "logical": "S1",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S1_个人背景_v2_20261006\\S1_个人背景_v2.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": false,
+    "difference_bbox": [
+      797,
+      21,
+      922,
+      31
+    ],
+    "expected_status_redaction": true,
+    "same_extracted_text": false
+  },
+  {
+    "page": 3,
+    "logical": "S2",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\本科毕设_S2-S5_正式版_v0.1_20261006\\本科毕设_S2-S5_正式版_v0.1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  },
+  {
+    "page": 4,
+    "logical": "S3",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\本科毕设_S2-S5_正式版_v0.1_20261006\\本科毕设_S2-S5_正式版_v0.1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  },
+  {
+    "page": 5,
+    "logical": "S4",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\本科毕设_S2-S5_正式版_v0.1_20261006\\本科毕设_S2-S5_正式版_v0.1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  },
+  {
+    "page": 6,
+    "logical": "S5",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\本科毕设_S2-S5_正式版_v0.1_20261006\\本科毕设_S2-S5_正式版_v0.1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  },
+  {
+    "page": 7,
+    "logical": "S6",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S6_尘埃等离子体_v1_20261005\\S6_尘埃等离子体_v1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  },
+  {
+    "page": 8,
+    "logical": "S7",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S7_乐音研究_v2_20261006\\S7_乐音研究_v2_A_历史资产优先.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": false,
+    "difference_bbox": [
+      292,
+      51,
+      737,
+      527
+    ],
+    "expected_status_redaction": false,
+    "same_extracted_text": true,
+    "current_source_pdf": "检查证据/S7_当轮PowerPoint重新导出.pdf",
+    "current_source_pdf_pixels_identical": true,
+    "current_source_pdf_text_identical": true
+  },
+  {
+    "page": 9,
+    "logical": "S8",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S8_项目AI协作_v3.1_20261006\\S8_项目AI协作_v3.1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": false,
+    "difference_bbox": [
+      789,
+      22,
+      922,
+      32
+    ],
+    "expected_status_redaction": true,
+    "same_extracted_text": false
+  },
+  {
+    "page": 10,
+    "logical": "S9-A",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S9_个人AI外骨骼_v3.1_20261006\\S9_个人AI外骨骼_v3.1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": false,
+    "difference_bbox": [
+      789,
+      22,
+      922,
+      32
+    ],
+    "expected_status_redaction": true,
+    "same_extracted_text": false
+  },
+  {
+    "page": 11,
+    "logical": "S9-B",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S9_个人AI外骨骼_v3.1_20261006\\S9_个人AI外骨骼_v3.1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": false,
+    "difference_bbox": [
+      789,
+      22,
+      922,
+      32
+    ],
+    "expected_status_redaction": true,
+    "same_extracted_text": false
+  },
+  {
+    "page": 12,
+    "logical": "S10",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S10_反思_v2_20261006\\S10_反思_v2.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  },
+  {
+    "page": 13,
+    "logical": "S11",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S11_表达_v2_20261006\\S11_表达_v2.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  },
+  {
+    "page": 14,
+    "logical": "S12",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S12_WhyPhD_v2.1_20261006\\S12_WhyPhD_v2.1.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  },
+  {
+    "page": 15,
+    "logical": "S13",
+    "source_pdf": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S13_WhyLiu_v2_20261006\\S13_WhyLiu_v2.pdf",
+    "same_size": true,
+    "pdf_pixels_identical": true,
+    "difference_bbox": null,
+    "expected_status_redaction": false,
+    "same_extracted_text": true
+  }
+]

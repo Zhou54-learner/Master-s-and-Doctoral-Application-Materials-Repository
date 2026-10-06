@@ -1,0 +1,17 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "libraries": {
+    "python-pptx": "1.0.2",
+    "lxml": "6.1.3",
+    "Pillow": "12.3.0",
+    "pywin32": "311",
+    "PyMuPDF": "1.28.2"
+  },
+  "renderer": "Microsoft PowerPoint 16.0",
+  "source_head": "da91bed323a63d2d273d2c3bebc2e8555ebc524f",
+  "branch": "chatgpt/liu-interview-plan-20261004",
+  "main_head_before_delivery": "b1ee4349584d7049310bc8ae0fcbe11eaa1d175d",
+  "workflow": "merge_lossless.py → render_and_check.py → finalize_delivery.py",
+  "source_policy": "只读来源；输出到独立新目录；已交付版本拒绝覆盖",
+  "workspace_dependency_tool": "当前工具目录未提供 load_workspace_dependencies；复用已安装本地依赖，无新增安装"
+}

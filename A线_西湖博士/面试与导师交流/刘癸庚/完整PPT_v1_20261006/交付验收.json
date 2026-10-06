@@ -1,0 +1,354 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 738,
+  "slide_xml_identical_unredacted": 10,
+  "status_redaction_pages": [
+    "S0",
+    "S1",
+    "S8",
+    "S9-A",
+    "S9-B"
+  ],
+  "visual_relationship_targets_byte_identical": 44,
+  "missing_package_targets": [],
+  "duplicate_relationship_ids": [],
+  "notes_checks": [
+    {
+      "page": 1,
+      "logical": "S0",
+      "source_slide_xml_identical": false,
+      "status_text_removed": true,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 87,
+      "notes_sha256": "8a2f7e54f99f36e7ffa4344978bbf8ae124aba430738ea5f8fae6a381b6f203d"
+    },
+    {
+      "page": 2,
+      "logical": "S1",
+      "source_slide_xml_identical": false,
+      "status_text_removed": true,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 209,
+      "notes_sha256": "fee6b83ead58aaef8821eb430b61300394f2c5ce737aa20b5d73b7642c5d1fca"
+    },
+    {
+      "page": 3,
+      "logical": "S2",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 702,
+      "notes_sha256": "d6fb55b77c18324c3daf6c2fa05704fbde9a15851133db83ed601b27e38853dc"
+    },
+    {
+      "page": 4,
+      "logical": "S3",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 569,
+      "notes_sha256": "beb2517457a31604f73025d3602b87de16f8c077f7882d188a2b419264f8c102"
+    },
+    {
+      "page": 5,
+      "logical": "S4",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 1062,
+      "notes_sha256": "f537cddfebab938fb11feca086e5e5f5b2f163b0e22825aedd06466c66fb6245"
+    },
+    {
+      "page": 6,
+      "logical": "S5",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 898,
+      "notes_sha256": "d7af8aaa2b42f97dee72ba0ae73b918ee8afeede4ee7e68062cbb03b62d4b306"
+    },
+    {
+      "page": 7,
+      "logical": "S6",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 596,
+      "notes_sha256": "50fd2632885ea873edbb4885ccc7480534795bca5434aeb2ad256dcbec3700d5"
+    },
+    {
+      "page": 8,
+      "logical": "S7",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 927,
+      "notes_sha256": "590595bb54d6c0fb3871bc5d4d80e1cea5520a9154355bdc783e3464c3396d5c"
+    },
+    {
+      "page": 9,
+      "logical": "S8",
+      "source_slide_xml_identical": false,
+      "status_text_removed": true,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 1750,
+      "notes_sha256": "edfe34980d181ac46e316c1dc33d558df328789b51e7762869bc6871d8f97b70"
+    },
+    {
+      "page": 10,
+      "logical": "S9-A",
+      "source_slide_xml_identical": false,
+      "status_text_removed": true,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 928,
+      "notes_sha256": "c4311124d01edb06f2c8c90cf0348e29097d109957351b2e2b37ccdb87687cae"
+    },
+    {
+      "page": 11,
+      "logical": "S9-B",
+      "source_slide_xml_identical": false,
+      "status_text_removed": true,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 733,
+      "notes_sha256": "abeb7e7fd212b3720c72d66bf9e48bec286a54acd62c862ad41340499f7076fd"
+    },
+    {
+      "page": 12,
+      "logical": "S10",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 506,
+      "notes_sha256": "6558690a10b3264f280b372e209862f33d9bc420e103151c83482fcb7860dfba"
+    },
+    {
+      "page": 13,
+      "logical": "S11",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 649,
+      "notes_sha256": "10870f793fa46d3756e3442f4ca37d9ff17e14be5bb747b5c6abaeec7c21e6f4"
+    },
+    {
+      "page": 14,
+      "logical": "S12",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 1239,
+      "notes_sha256": "12f1c0a4c070516ada1b5907cb5324e212bdf2725c14098565548fbb747320ef"
+    },
+    {
+      "page": 15,
+      "logical": "S13",
+      "source_slide_xml_identical": true,
+      "status_text_removed": false,
+      "notes_exact_match_external_file": true,
+      "specified_script_verbatim": true,
+      "notes_chars": 705,
+      "notes_sha256": "5e4f5dd82cf905cde3e49bfa81868225fb6fa5457fd5f7033ec1fe50cd546106"
+    }
+  ],
+  "status_marker_hits": [],
+  "external_media": [],
+  "png_files": [
+    {
+      "path": "预览/01_S0_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "57c0696886f49481f018bb41e3a28217e0a1b29300ff46227dcf558c28658215"
+    },
+    {
+      "path": "预览/01_S0_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "d930562dad6870fee5c534caeb7a6358c9e345efe46a7048e11aeef036f2dbcb"
+    },
+    {
+      "path": "预览/02_S1_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8c95543cb06d88cc594a9f5e3140802a905415790e28bf436a8e9ff594e77422"
+    },
+    {
+      "path": "预览/02_S1_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "9fb79621977ff477061ce038a0a2bfb28be918473402ba77b4e586bb2c71a2b3"
+    },
+    {
+      "path": "预览/03_S2_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "538f9a207509bebcda8fd775b37827b31edb37a0f08078ba1a35c794ff5b3545"
+    },
+    {
+      "path": "预览/03_S2_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "c9b4f3b46272f08357d3e2d0dc60b91bf8ebb2e1bcecb1f3a37ebf3643fe2ca2"
+    },
+    {
+      "path": "预览/04_S3_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "4b0bb5800aaeeb6979825ef6867d858fe10723912c788893d696c18e7e34d587"
+    },
+    {
+      "path": "预览/04_S3_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "c2650c4bc6236600482533161c59875d48b06d7230e47fd6256bfb201e4775ab"
+    },
+    {
+      "path": "预览/05_S4_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "74106e4585d31d3a476918ab60905611d17e099666d8dc1413151cb1f50cafb7"
+    },
+    {
+      "path": "预览/05_S4_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "d344e0e5fa0491a9a816eded0a845cace25b15d4cd42839b4d4a2acf6f6d3e0a"
+    },
+    {
+      "path": "预览/06_S5_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "68df476014852a49d55b9f3b9ae0f6b5394f05d0a6306b1bf789757a86b99da4"
+    },
+    {
+      "path": "预览/06_S5_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "c8430d7f6da7c5d2fb0574ef220558bcfd561e541ecb34e4a4b7dd2f77d6803e"
+    },
+    {
+      "path": "预览/07_S6_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "63067fbc61a0108187654d41e93e26c24b1e29115b1098cf31fb96ad39c06638"
+    },
+    {
+      "path": "预览/07_S6_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "af85e6cd3953f63b434ca10bb6c6838f63c8ec4228cea4bf9b5538b03e989764"
+    },
+    {
+      "path": "预览/08_S7_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "60af7cf31c1c7ad30a917ad1e6e5530cd1716d5aa86368347b644736219e6a0d"
+    },
+    {
+      "path": "预览/08_S7_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "5bbfa55490790b32da1165714b1c4b6d1e9a891926a50b9f6f300f82cbbe8a30"
+    },
+    {
+      "path": "预览/09_S8_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "375b454a108cd6b2877625e2b731c13cccc7bc5694a69a519ff34bc3e96e22da"
+    },
+    {
+      "path": "预览/09_S8_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "87c2ffa8ea147d4ad8aac29c5eb7910bb27bbdbe704329e76e150d50fe3b2f82"
+    },
+    {
+      "path": "预览/10_S9-A_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a0744759e05737ab99497f664d165f79792a1968fb4fce694ffa9cf899ce89f7"
+    },
+    {
+      "path": "预览/10_S9-A_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "1fe97255a6d1769bf8f71082353f194f3b9a47996e1ee3c1b51111e840151cef"
+    },
+    {
+      "path": "预览/11_S9-B_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "591481724db0e403e0ff159853fc14f47d7df8958dbcdb5159579b21c047d846"
+    },
+    {
+      "path": "预览/11_S9-B_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "1e476987a3baef59ff27db692b36ea637ba2e03a9bec49dda533d311895ae06f"
+    },
+    {
+      "path": "预览/12_S10_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772"
+    },
+    {
+      "path": "预览/12_S10_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "cdcf04ebd773b9d64abf285dec277c133e954046a03cba0c4bcd5de3d68f3d5a"
+    },
+    {
+      "path": "预览/13_S11_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "21e37ef452e515813820640d3055ee55217293c676162830490680383a1f6160"
+    },
+    {
+      "path": "预览/13_S11_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "26fe5e4a4ad2b66f7ba559ae6891402fbb145489eace25b3d4f57c84b08d873e"
+    },
+    {
+      "path": "预览/14_S12_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b67c9fb90093632fe1999531dec748e2c25565e60f6e53063ca090e598211114"
+    },
+    {
+      "path": "预览/14_S12_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "f0663e035759c457f7eb795725790b03dad707a0f857b1f95b12d3bce2dfe8cb"
+    },
+    {
+      "path": "预览/15_S13_1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "64155cbd3ee2f6ab0c9b0d6ca1f6bdf6d0dc797375c3db567821131b8b709be6"
+    },
+    {
+      "path": "预览/15_S13_3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "2f262ae6c282946d480bba10e5e4f5646b2282d5b1f294d26a0b34ce5faecd73"
+    }
+  ],
+  "pdf_pages_pixel_identical_to_source_pdfs_unredacted": 10,
+  "pptx_sha256": "fec4a31bb2b8b8bba45cd3fe2c8812907805076319dfa696fa8a4b16ff0f7248",
+  "pdf_sha256": "4d60abbd81480cd3ccbfa4201d9ba8b0fdab9c7bbbcfe96ffe44b4fbf2d38a8b"
+}
