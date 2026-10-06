@@ -1,0 +1,37 @@
+[
+  {
+    "order": 1,
+    "label": "S7A · 既有 v2 A，原样引用",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v2_20261006/预览/S7_v2_A_1920x1080.png",
+    "sha256": "45176c24539ea5fbf30354b9bdaaf5e4a1458f7c590e07fa1ac0110e9c0f3053",
+    "operation": "Read only the existing actual PowerPoint PNG. No other slide or notes modified."
+  },
+  {
+    "order": 2,
+    "label": "S8 v3.1 · 从想法到协作方法",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目AI协作_v3.1_20261006/预览/S8_1920x1080.png",
+    "sha256": "fb512045c7371234c9d4e84c0bd367cd098350c19daa3c7f3383dcd87dbbc1c9",
+    "operation": "Read only the existing actual PowerPoint PNG. No other slide or notes modified."
+  },
+  {
+    "order": 3,
+    "label": "S9-A v3.1 · 长期状态 / 系统状态",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_个人AI外骨骼_v3.1_20261006/预览/S9-A_1920x1080.png",
+    "sha256": "e8b2b87fc5d7339bf639c4032605b6cc435766d9e7ffe65e345716402dce7704",
+    "operation": "Read only the existing actual PowerPoint PNG. No other slide or notes modified."
+  },
+  {
+    "order": 4,
+    "label": "S9-B v3.1 · 学习动作后的协议接续",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_个人AI外骨骼_v3.1_20261006/预览/S9-B_1920x1080.png",
+    "sha256": "fd058582cd48eb345bf57825a38c74a2b3cc20a27dcd5792c3cd1487d6bb46a3",
+    "operation": "Read only the existing actual PowerPoint PNG. No other slide or notes modified."
+  },
+  {
+    "order": 5,
+    "label": "S10 · 既有 v2 A，Agent Native 首篇",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+    "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772",
+    "operation": "Read only the existing actual PowerPoint PNG. No other slide or notes modified."
+  }
+]

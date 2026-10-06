@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "date": "2026-10-06",
+  "frames": [
+    {
+      "frame": "S9-A",
+      "native_textboxes": 12,
+      "images": 1,
+      "font": "Microsoft YaHei",
+      "notes_exact": true,
+      "original_v2_image_bytes_identical": true,
+      "original_v2_placement_identical": true,
+      "preview_sizes": [
+        [
+          3840,
+          2160
+        ],
+        [
+          1920,
+          1080
+        ]
+      ],
+      "powerpoint_application_version": "16.0",
+      "pdf_producer": "Microsoft® PowerPoint® 适用于 Microsoft 365\r",
+      "pptx_sha256": "5f538b2acdd7acd56098ee1aa04131fd4221c0b7b051bea371b5f05755628023"
+    },
+    {
+      "frame": "S9-B",
+      "native_textboxes": 16,
+      "images": 1,
+      "font": "Microsoft YaHei",
+      "notes_exact": true,
+      "original_v2_image_bytes_identical": true,
+      "original_v2_placement_identical": true,
+      "preview_sizes": [
+        [
+          3840,
+          2160
+        ],
+        [
+          1920,
+          1080
+        ]
+      ],
+      "powerpoint_application_version": "16.0",
+      "pdf_producer": "Microsoft® PowerPoint® 适用于 Microsoft 365\r",
+      "pptx_sha256": "5f538b2acdd7acd56098ee1aa04131fd4221c0b7b051bea371b5f05755628023"
+    }
+  ],
+  "sequence": {
+    "frame_count": 5,
+    "vertical_original_pixels_identical": true,
+    "sources_sha256_match": true
+  },
+  "markdown_links_checked": 27,
+  "broken_links": [],
+  "limits": [
+    "No applicant rehearsal or live screen-share test.",
+    "Not an independent human UAT or product-efficacy validation."
+  ]
+}
