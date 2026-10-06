@@ -1,0 +1,97 @@
+[
+  {
+    "path": "PowerPoint导出汇总.json",
+    "bytes": 784,
+    "sha256": "1507032da5526b8cb1b70ed41275caffd74b6526dcec872916419df34632603d"
+  },
+  {
+    "path": "PowerPoint排版检查.json",
+    "bytes": 10764,
+    "sha256": "a46d5dcdd59f37ed3b85295b84eebbe68a4b758db432427e16afde98eb385721"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4763,
+    "sha256": "09243610d8f64489bc67a2f425ed61d392943a23e305e48f7c3337d0ccff5c93"
+  },
+  {
+    "path": "S1_个人背景_v2.pdf",
+    "bytes": 74509,
+    "sha256": "8505c666b7223d728aa7f5445cd113aa9594a3e99bd00d2298c99d8a718e95d4"
+  },
+  {
+    "path": "S1_个人背景_v2.pptx",
+    "bytes": 35209,
+    "sha256": "9358f4be76366ef32c16c2bff51eda245508a5e3ebe853fdf1a24ba58287f25a"
+  },
+  {
+    "path": "交付检查.json",
+    "bytes": 626,
+    "sha256": "9301d377a564680ae730736179cdd68a7d4e0852067d5dd623345a976ffff1fa"
+  },
+  {
+    "path": "人工视觉检查.md",
+    "bytes": 1446,
+    "sha256": "1208437098d0060bcb294356c63707a17e22a0c5f462809252ff06934c0f14ad"
+  },
+  {
+    "path": "保全检查.json",
+    "bytes": 58151,
+    "sha256": "5c174aedf3ffca6095b466fad5f17cce11ec12d7f3567b3a636bbbb1c602c4f2"
+  },
+  {
+    "path": "制作前保全基线.json",
+    "bytes": 88191,
+    "sha256": "09f2043569925733323288bd43a3ebb9ba01c233c80dd92c247d06817ecbad88"
+  },
+  {
+    "path": "制作源/build_slide.py",
+    "bytes": 4443,
+    "sha256": "683f7ea8c770b3f6f7e18e889a98a50c14001dda56226d230e9f8c75c75951ee"
+  },
+  {
+    "path": "制作源/preserve_inputs.py",
+    "bytes": 1857,
+    "sha256": "8cc70eadd38ec3cd27acfbdb7e53fa41d54830b12e83cc6a543498722c0ab2df"
+  },
+  {
+    "path": "制作源/render_check.py",
+    "bytes": 6756,
+    "sha256": "74a6e2162bbcfee25d0561a59ea7e330bd402091e1eba12ca9f89cc23a3a74f3"
+  },
+  {
+    "path": "制作源/validate_delivery.py",
+    "bytes": 6133,
+    "sha256": "fefa31c7d50164d6468a8f3bd3caf6f1e52afa7b5100e01f15a6929eab81176c"
+  },
+  {
+    "path": "本页备注.md",
+    "bytes": 667,
+    "sha256": "97d067464a5bfa42ab5fb5c66453226b8422449ebed1000db703f561c798e9f9"
+  },
+  {
+    "path": "连续审阅来源.json",
+    "bytes": 1473,
+    "sha256": "371627837120529f2f6cae260d31dccc976567a8ac518b4c925ac1c5eb651ae4"
+  },
+  {
+    "path": "预览/S0-S2_连续审阅_横向.png",
+    "bytes": 1240184,
+    "sha256": "4e9c6859ec08acf1a395b69e3fefc4797071cbdf7d2ef058d60da2708dd6042f"
+  },
+  {
+    "path": "预览/S0-S2_连续审阅_纵向.png",
+    "bytes": 1209213,
+    "sha256": "fa5588fc06b816a96b9eac1913b47277379f3fe8816238f952deee3badb7c7a3"
+  },
+  {
+    "path": "预览/S1_1920x1080.png",
+    "bytes": 52819,
+    "sha256": "e044e7f07a6f68de0772f6ed56868e8078d3a33af918c566bf75e71e4cf30ca8"
+  },
+  {
+    "path": "预览/S1_3840x2160.png",
+    "bytes": 118601,
+    "sha256": "eb819cd5505573e560adf9d55224ca7b4a11cb0bba08af0694d4a33f656b5a19"
+  }
+]

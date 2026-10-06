@@ -1,0 +1,1458 @@
+{
+  "checked_files": 363,
+  "unchanged_files": 363,
+  "checks": [
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_完整讲稿_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations一页布局预览_20261004.html",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations一页布局预览_20261004.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations叙事与设计语言_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations逐页预览_v2_20261004.html",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations逐页预览_v2_图片/01_乐音研究.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations逐页预览_v2_图片/02_物理学习Agent.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations逐页预览_v2_图片/03a_知识地图.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations逐页预览_v2_图片/03b_执行驾驶舱.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations逐页预览_v2_图片/04_公众号.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations逐页预览_v2_图片/05_个人艺术网页.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations页面设计_20261004.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Personal_Explorations页面设计_v2_20261004.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/PI与课题组研究地图.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/S0_封面_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/S0_封面_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/预览/S0_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/预览/S0_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S11_反思与表达双页设计_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_v2制作指令_20261006.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/PowerPoint渲染汇总.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/交付验收.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/人工目视审阅.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/候选目录.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/制作前保全基线.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/制作源/archive_supplement.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/制作源/build_v2.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/制作源/prepare_sources.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/制作源/record_official_sources.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/制作源/render_v2.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/制作源/validate_delivery.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/制作源/write_docs.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/预览/S10-S13_联合审阅_v2.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/预览/S10_A-B_裁切审阅_v2.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/预览/S11-S12_衔接_v2.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/预览/S9-S13_连续审阅_v2.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/预览/S9B-S10_衔接_v2.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_联合审阅_v2_20261006/预览来源.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10-S13_重构提案_v2_20261006.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/S10_反思_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/S10_反思_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/派生素材/S03_真实文章条目局部.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/预览/S10_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v1_20261005/预览/S10_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2_图片索引.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2_排版检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2_方案B.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2_方案B.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2_方案B_图片索引.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2_方案B_排版检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/派生素材/A_首篇完整条目.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/派生素材/B_两条文章上下文.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/派生素材/B_首篇标题局部.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10-B_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10-B_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/S11_表达_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/S11_表达_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/派生素材/S08_第三板块主视觉局部.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/预览/S11_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v1_20261005/预览/S11_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/S11_表达_v2.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/S11_表达_v2.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/S11_表达_v2_图片索引.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/S11_表达_v2_排版检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/派生素材/无用清净梦_完整首页.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/预览/S11_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/预览/S11_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/S12_WhyPhD_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/S12_WhyPhD_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/预览/S12_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v1_20261005/预览/S12_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/S12_WhyPhD_v2.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/S12_WhyPhD_v2.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/S12_WhyPhD_v2_图片索引.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/S12_WhyPhD_v2_排版检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/预览/S12_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/预览/S12_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/S13_WhyLiu_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/S13_WhyLiu_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/公开来源/O01.html",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/公开来源/P01.html",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/公开来源/来源记录.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/制作源/archive_official_sources.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/官方来源记录.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/预览/S13_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v1_20261005/预览/S13_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/S13_WhyLiu_v2.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/S13_WhyLiu_v2.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/S13_WhyLiu_v2_图片索引.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/S13_WhyLiu_v2_排版检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/官方来源/liu_lab.html",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/官方来源/westlake_faculty_核验摘录.txt",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/官方来源/westlake_physics_核验摘录.txt",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/官方来源/来源记录.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/官方来源记录.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/预览/S13_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/预览/S13_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyWestlake-Liu_最终口述_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyWestlake-Liu_精修建议_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/S1_个人背景_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/S1_个人背景_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/交付文件清单.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/制作源/config.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/预览/S1_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v1_20261005/预览/S1_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/S6_尘埃等离子体_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/S6_尘埃等离子体_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/制作源/render_check.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/派生素材/53_53_原图裁白边.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/预览/S4-S6_风格对照.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/预览/S6_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/预览/S6_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/S7_乐音研究_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/S7_乐音研究_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/制作源/render_check.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/派生素材/2re_1秒原始截帧.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/派生素材/2re_1秒现场裁切.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/派生素材/M01_仅裁窗口工具栏.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/预览/S4-S7_风格对照.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/预览/S7_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v1_20261005/预览/S7_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8-S9_人AI协作双页联动设计_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/S8_项目级AI协作_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/S8_项目级AI协作_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/交付核验.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/制作源/build_pair.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/制作源/render_pair.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/制作源/validate_delivery.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/双页联动审阅.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/派生素材/S02_仅裁窗口标题栏.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/预览/S7-S9_三页叙事对照_A.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/预览/S7-S9_三页叙事对照_B.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/预览/S8_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/预览/S8_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/S9_长期AI协作_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/S9_长期AI协作_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/制作源/build_slide.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/制作源/render_check.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/排版与保全检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/本页备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/来源与保全.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/派生素材/S05_执行驾驶舱局部.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/派生素材/S06_知识地图局部.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/派生素材说明.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/预览/S9-A_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/预览/S9-A_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/预览/S9-B_1920x1080.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/预览/S9-B_3840x2160.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Why_PhD母稿_用户原文_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/WhyPhD与WhyWestlake-Liu双页设计_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Work独立审查任务_20261004.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/Work独立建议_20261004.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/准备总控与新会话接续_20260930.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/刘癸庚交流_三日冲刺执行计划_20261004.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/总链图.html",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/总链图.visual-check.1440x900.dark.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/总链图.visual-check.1440x900.light.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/总链图.visual-check.2048x1320.dark.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/总链图.visual-check.2048x1320.light.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/总链图.visual-check.html",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/总链图.visual-check.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/总链图.workflow.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/检查页面.mjs",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/验收/总览_1440_浅色.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/验收/总览_2048_深色.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/验收/手机_390_浅色.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/验收/能量账_1440_深色.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/验收/输入阻抗_1440_浅色.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/验收/页面验收.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/吸波物理复习图_20261005/验收记录.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/完整主线与明日问答训练框架_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/完整讲稿_当前定稿内容合并版_v1_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/定制映射与PPT微调.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/PowerPoint渲染汇总.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/人工视觉检查.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/候选目录.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/制作前保全基线.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/制作源/document_delivery.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/制作源/prepare_candidates.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/制作源/render_candidates.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/制作源/slide_builder.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/制作源/validate_delivery.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/最终交付核验.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/预览/S1-S2_衔接审阅.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/预览/S10-S11_双页审阅.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/预览/S10-S13_联合审阅.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/预览/S12-S13_双页审阅.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/新增候选页_联合审阅_v1_20261005/预览来源.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/最终页_WhyPhD-WhyLiu_叙事设计_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_PPT视觉素材核验_20261005.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_PPT视觉素材筛选_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_PPT视觉素材索引_20261005.csv",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/制作源/build_deck.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/制作源/render_check.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/口述稿与备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/排版检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/本科毕设_S2-S5_v1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/本科毕设_S2-S5_v1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C01_原坐标轴.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C01_结构裁切.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C12_X.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C12_Y.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C15_X.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C15_Y.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C16_X.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C16_Y.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C18_X.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/派生素材/C18_Y.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/素材来源与派生记录.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/预览/S2.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/预览/S3.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/预览/S4.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/预览/S5.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v1_20261005/预览/四页总览.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/patch_manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/v2.1文案修改记录.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/排版检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/本科毕设_S2-S5_v2.1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/本科毕设_S2-S5_v2.1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S2.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S3.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S4.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S5.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/四页总览.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/v1→v2修改说明.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/v1保全基线.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/制作源/build_deck.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/制作源/render_check.py",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/口述稿与备注.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/排版检查.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/本科毕设_S2-S5_v2.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/本科毕设_S2-S5_v2.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C01_原坐标轴.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C01_结构裁切.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C07_既有结构示意.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C12_X.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C12_Y.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C15_X.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C15_Y.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C16_X.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C16_Y.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C18_X.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/派生素材/C18_Y.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/素材来源与派生记录.json",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/预览/S2.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/预览/S3.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/预览/S4.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/预览/S5.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2_20261005/预览/四页总览.png",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5口述母稿_v2_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5口述母稿_v3_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_吸波物理图像与设计自由度_20261005.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_研究定位与物理主线_20261004.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/毕设R1衔接建议_20260930.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/相关概念与研究逻辑.md",
+      "unchanged": true
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/面试冲刺总方案_20261004.md",
+      "unchanged": true
+    },
+    {
+      "path": "公共资料/面试与导师交流中心/公共主干/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "公共资料/面试与导师交流中心/公共主干/项目重建/本科毕设/13_实际工作梳理与研究叙事底稿.md",
+      "unchanged": true
+    }
+  ]
+}

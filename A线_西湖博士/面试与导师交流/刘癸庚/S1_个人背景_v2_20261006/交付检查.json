@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "date": "2026-10-06",
+  "s1_required_texts_match": true,
+  "s1_banned_labels_found": [],
+  "s1_sequence_correct": true,
+  "s1_project_font_sizes_pt": [
+    27.0,
+    22.0,
+    20.0,
+    17.5
+  ],
+  "s1_notes_verbatim": true,
+  "s12_changed_parts": [
+    "ppt/slides/slide1.xml"
+  ],
+  "s12_exactly_one_string": true,
+  "s12_original_notes_unchanged": true,
+  "s12_pixels_outside_target_unchanged": true,
+  "preserved_files": 363,
+  "broken_local_links": [],
+  "boundary": "Candidate only; no merged deck; no main merge; no sending. Existing slides and unrelated work unchanged."
+}

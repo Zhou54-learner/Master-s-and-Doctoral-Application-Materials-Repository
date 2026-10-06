@@ -1,0 +1,43 @@
+{
+  "comparison": "PowerPoint 16.0 PNGs: v2 vs one-string v2.1",
+  "records": [
+    {
+      "pixels": [
+        1920,
+        1080
+      ],
+      "actual_changed_bbox": [
+        592,
+        743,
+        832,
+        782
+      ],
+      "allowed_textbox_bbox": [
+        110,
+        732,
+        1791,
+        878
+      ],
+      "all_pixels_outside_textbox_identical": true
+    },
+    {
+      "pixels": [
+        3840,
+        2160
+      ],
+      "actual_changed_bbox": [
+        1185,
+        1487,
+        1664,
+        1565
+      ],
+      "allowed_textbox_bbox": [
+        222,
+        1466,
+        3581,
+        1755
+      ],
+      "all_pixels_outside_textbox_identical": true
+    }
+  ]
+}

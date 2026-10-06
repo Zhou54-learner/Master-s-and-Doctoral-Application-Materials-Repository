@@ -1,0 +1,15 @@
+{
+  "source": "S12_WhyPhD_v2_20261006/S12_WhyPhD_v2.pptx",
+  "source_sha256": "d6fe92d4cb61ad56cadd660b69fe711a368671d5be5d20600dcd8aa9446ccfe3",
+  "output": "S12_WhyPhD_v2.1.pptx",
+  "output_sha256": "dcc6e5c731a327ea120523c3a96114fbeff627104a07e60962d1168883a1d7f2",
+  "changed_parts": [
+    "ppt/slides/slide1.xml"
+  ],
+  "exact_replacement_only": true,
+  "old": "但做得越多，我越觉得自己真正缺的是理论深度和专业判断。",
+  "new": "但做得越多，我越觉得自己还需要补的是理论深度和专业判断。",
+  "notes_identical": true,
+  "all_other_xml_parts_and_resources_identical": true,
+  "unchanged": "Existing newline, shape names, geometry, typefaces, font sizes, colors, all other slide text, embedded notes, theme and metadata."
+}
