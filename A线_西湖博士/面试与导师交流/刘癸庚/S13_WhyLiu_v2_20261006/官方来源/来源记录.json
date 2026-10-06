@@ -1,0 +1,48 @@
+[
+  {
+    "key": "westlake_physics",
+    "url": "https://physics.westlake.edu.cn/programs/graduate_program/",
+    "status": 403,
+    "verified_date": "2026-10-06",
+    "verification_method": "Official Physics graduate-program page; browser search index reported crawled last week.",
+    "supporting_excerpt": "物理学专业博士研究生教育采用定导招生培养模式。",
+    "file": "westlake_physics_核验摘录.txt",
+    "bytes": 341,
+    "sha256": "10a8eadefdc37ef44532edf35fe101dce08e453d1c9de97b7246b49cdd87d7f5"
+  },
+  {
+    "key": "liu_lab",
+    "url": "https://www.liuguigeng.com/",
+    "final_url": "https://www.liuguigeng.com/",
+    "status": 200,
+    "retrieved_utc": "2026-10-06T02:53:17.663357+00:00",
+    "file": "liu_lab.html",
+    "bytes": 35526,
+    "sha256": "b80a9e541c50c9840956b9e4bc0fe2a8790c2b1e61dc7a20967f309eb1c8cc72",
+    "exact_contexts": {
+      "mechanism": [
+        "s, terahertz, infrared, and visible light) and, based on this, develop optical devices with novel functionalities, emphasizing a research path that equally values breakthroughs in mechanism, device realization, and practical application.</p> <p><img decoding=\"async\" src=\"http://www.liuguigeng.com/wp-content/uploads/2025/03/Science压缩版-scaled.jpg\" alt=\"\"/><img fetchpriority=\"high\" decodin"
+      ],
+      "non-Hermitian": [
+        "fy;\">Welcome to the Liu Gui-Geng Research Group at Westlake University! Our group is dedicated to fundamental and applied research in related fields such as topological photonics, non-Hermitian optics, terahertz optics, spatially structured light fields, photonic crystals, and metamaterials. It aims to explore novel physics across multiple optical scales (covering low-frequency circuits, mi"
+      ],
+      "Topological": [
+        "tyle=\"text-align: justify;\">Welcome to the Liu Gui-Geng Research Group at Westlake University! Our group is dedicated to fundamental and applied research in related fields such as topological photonics, non-Hermitian optics, terahertz optics, spatially structured light fields, photonic crystals, and metamaterials. It aims to explore novel physics across multiple optical scales (covering l"
+      ],
+      "metamaterials": [
+        "fundamental and applied research in related fields such as topological photonics, non-Hermitian optics, terahertz optics, spatially structured light fields, photonic crystals, and metamaterials. It aims to explore novel physics across multiple optical scales (covering low-frequency circuits, microwaves, terahertz, infrared, and visible light) and, based on this, develop optical devices with"
+      ]
+    }
+  },
+  {
+    "key": "westlake_faculty",
+    "url": "https://en.westlake.edu.cn/faculty/guigeng-liu.html",
+    "status": 403,
+    "verified_date": "2026-10-06",
+    "verification_method": "Official faculty page; browser search index reported crawled last week.",
+    "supporting_excerpt": "Laboratory of Complex Waves and Fields",
+    "file": "westlake_faculty_核验摘录.txt",
+    "bytes": 286,
+    "sha256": "2948a015ca9dc794ce6562f165fa6d145a5f543c5d3cbd15497d7c850d486a45"
+  }
+]

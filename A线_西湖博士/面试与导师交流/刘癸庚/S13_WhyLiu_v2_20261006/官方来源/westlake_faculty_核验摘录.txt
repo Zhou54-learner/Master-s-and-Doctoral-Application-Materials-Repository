@@ -1,0 +1,5 @@
+URL: https://en.westlake.edu.cn/faculty/guigeng-liu.html
+Verified: 2026-10-06
+Method: Official faculty page; browser search index reported crawled last week.
+Direct HTTP: 403; not represented as a successful raw download.
+Supporting excerpt: Laboratory of Complex Waves and Fields

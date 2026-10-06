@@ -1,0 +1,25 @@
+[
+  {
+    "source": "公共资料/事实核验/个人探索_20261006/素材/公众号首篇文章_用户补图_20261006.jpg",
+    "source_sha256": "4d6c19bee841a2a83eddca7b63ae2063523ef9dd31f757e9ccb87e61f243fc43",
+    "source_pixels": [
+      1133,
+      2453
+    ],
+    "crop_box": [
+      22,
+      1396,
+      1110,
+      2228
+    ],
+    "output": "派生素材/A_首篇完整条目.png",
+    "pixels": [
+      1088,
+      832
+    ],
+    "sha256": "194224ba3a6df0c7f7150dcf8b61e66bb57a623d59d0f90e458f67b138364b30",
+    "reason": "Keeps full first-article card: account identity, relative date, cover with GPT dialogue marker and complete title.",
+    "operation": "Lossless rectangular crop of decoded source pixels; no redrawing, synthesis, retouching or sharpening.",
+    "shape_name": "first_article"
+  }
+]

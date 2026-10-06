@@ -1,0 +1,90 @@
+{
+  "status": "INTERNAL / v2 CANDIDATE",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3241,
+      "sha256": "373e2d534f75cd9d164710991f5e9f9f0b8f1f03af377a48071b19aceae2bd61"
+    },
+    {
+      "path": "S13_WhyLiu_v2.pdf",
+      "bytes": 53944,
+      "sha256": "8503e496337fdfc9f44b48f34024aa148a72b0aae188fd6238e88118c30183a0"
+    },
+    {
+      "path": "S13_WhyLiu_v2.pptx",
+      "bytes": 35774,
+      "sha256": "6cece23059900bcb3c76aed265ed9b34c0e7a65af71881390642d2030ee15080"
+    },
+    {
+      "path": "S13_WhyLiu_v2_图片索引.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "S13_WhyLiu_v2_排版检查.json",
+      "bytes": 6189,
+      "sha256": "9a32ceac48e3a2ebb3d5aeea4d270e7d39b4144d517130106c928fd2413e6aec"
+    },
+    {
+      "path": "制作源/build_slide.py",
+      "bytes": 327,
+      "sha256": "e3506e623bb852ea946283ca8326748acc3aeeda9a44167e9db3ecd10f6ddf27"
+    },
+    {
+      "path": "制作源/config.json",
+      "bytes": 50,
+      "sha256": "422e7bfac828250b0324facd77200ee01ae96177e9cb6395b100a098cbdfe6be"
+    },
+    {
+      "path": "官方来源/liu_lab.html",
+      "bytes": 35526,
+      "sha256": "b80a9e541c50c9840956b9e4bc0fe2a8790c2b1e61dc7a20967f309eb1c8cc72"
+    },
+    {
+      "path": "官方来源/westlake_faculty_核验摘录.txt",
+      "bytes": 286,
+      "sha256": "2948a015ca9dc794ce6562f165fa6d145a5f543c5d3cbd15497d7c850d486a45"
+    },
+    {
+      "path": "官方来源/westlake_physics_核验摘录.txt",
+      "bytes": 341,
+      "sha256": "10a8eadefdc37ef44532edf35fe101dce08e453d1c9de97b7246b49cdd87d7f5"
+    },
+    {
+      "path": "官方来源/来源记录.json",
+      "bytes": 3173,
+      "sha256": "8895cf0a1e60d1eec6d51ae28d78a9955c4b95b86bc522f6e012b5081fa280f3"
+    },
+    {
+      "path": "官方来源记录.md",
+      "bytes": 1915,
+      "sha256": "145037844e6844adb4614745863ea73f3cec7ec731ffc8e5ddb5d314771f8270"
+    },
+    {
+      "path": "本页备注.md",
+      "bytes": 2599,
+      "sha256": "25153b3f9d60010eb741d48a575b1d1b96a18bc0d79c8810c8a1e835b7c1fba8"
+    },
+    {
+      "path": "来源与保全.json",
+      "bytes": 58584,
+      "sha256": "83d1f2c7b4033c755db1b83219d71ac20e7d1ed7a516079f51678147061b174e"
+    },
+    {
+      "path": "派生素材说明.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "预览/S13_1920x1080.png",
+      "bytes": 36370,
+      "sha256": "64155cbd3ee2f6ab0c9b0d6ca1f6bdf6d0dc797375c3db567821131b8b709be6"
+    },
+    {
+      "path": "预览/S13_3840x2160.png",
+      "bytes": 82851,
+      "sha256": "2f262ae6c282946d480bba10e5e4f5646b2282d5b1f294d26a0b34ce5faecd73"
+    }
+  ]
+}

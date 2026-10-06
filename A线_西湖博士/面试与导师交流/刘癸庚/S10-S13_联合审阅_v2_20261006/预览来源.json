@@ -1,0 +1,114 @@
+{
+  "operation": "Contact sheets of actual PowerPoint PNGs; proportional resizing only; no merged deck.",
+  "logical_slides": 5,
+  "frames": 6,
+  "existing_s9": "Both existing S9 frames read only.",
+  "sources": [
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+      "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/预览/S11_1920x1080.png",
+      "sha256": "21e37ef452e515813820640d3055ee55217293c676162830490680383a1f6160"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/预览/S12_1920x1080.png",
+      "sha256": "d6824fa27f7a9a7b0a0ae1d075aa6eaec54591e47943fc59ffab4eb41e46613c"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/预览/S13_1920x1080.png",
+      "sha256": "64155cbd3ee2f6ab0c9b0d6ca1f6bdf6d0dc797375c3db567821131b8b709be6"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+      "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10-B_1920x1080.png",
+      "sha256": "28e747ebfb54a3922d3fc5f00491c0db1af2fdef0426429e0a9103461053e0b2"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/预览/S9-A_1920x1080.png",
+      "sha256": "965f8d97a722f87d30fd8f3b1ed2e8b1abf6b0f414d90fe23b43c77431f0ee95"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/预览/S9-B_1920x1080.png",
+      "sha256": "353f86f8022b28dba6de2c9a4312e4ce7a08e3b9cc1bcb64530948a1205fc815"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+      "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/预览/S11_1920x1080.png",
+      "sha256": "21e37ef452e515813820640d3055ee55217293c676162830490680383a1f6160"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/预览/S12_1920x1080.png",
+      "sha256": "d6824fa27f7a9a7b0a0ae1d075aa6eaec54591e47943fc59ffab4eb41e46613c"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/预览/S13_1920x1080.png",
+      "sha256": "64155cbd3ee2f6ab0c9b0d6ca1f6bdf6d0dc797375c3db567821131b8b709be6"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/预览/S9-B_1920x1080.png",
+      "sha256": "353f86f8022b28dba6de2c9a4312e4ce7a08e3b9cc1bcb64530948a1205fc815"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+      "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/预览/S11_1920x1080.png",
+      "sha256": "21e37ef452e515813820640d3055ee55217293c676162830490680383a1f6160"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/预览/S12_1920x1080.png",
+      "sha256": "d6824fa27f7a9a7b0a0ae1d075aa6eaec54591e47943fc59ffab4eb41e46613c"
+    }
+  ],
+  "files": [
+    {
+      "path": "预览/S10-S13_联合审阅_v2.png",
+      "size": [
+        3840,
+        2450
+      ],
+      "sha256": "d3bfaa929d6915b4e006d09dcd8cfb31e5d5b86108dea1aa5caf10b1002126fe"
+    },
+    {
+      "path": "预览/S10_A-B_裁切审阅_v2.png",
+      "size": [
+        3840,
+        1225
+      ],
+      "sha256": "0a6ce661db7f44c6f4ba5370f1d63e8c56e349a8dda9da350f5392905b68104f"
+    },
+    {
+      "path": "预览/S11-S12_衔接_v2.png",
+      "size": [
+        3840,
+        1225
+      ],
+      "sha256": "d2b5ab5cd3b62a405f0cbc862a1e2745d41c7eab0271216449359ea4c98b1078"
+    },
+    {
+      "path": "预览/S9-S13_连续审阅_v2.png",
+      "size": [
+        3840,
+        1640
+      ],
+      "sha256": "34ebbe72586f0cdcedf841f3dbe54966d83ba180ce34fb87f43702b3129ddd2a"
+    },
+    {
+      "path": "预览/S9B-S10_衔接_v2.png",
+      "size": [
+        3840,
+        1225
+      ],
+      "sha256": "4c154828affc8cf84157cc5e698a08324fcde2c398927820d98e8a8718453d86"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+URL: https://physics.westlake.edu.cn/programs/graduate_program/
+Verified: 2026-10-06
+Method: Official Physics graduate-program page; browser search index reported crawled last week.
+Direct HTTP: 403; not represented as a successful raw download.
+Supporting excerpt: 物理学专业博士研究生教育采用定导招生培养模式。

@@ -1,0 +1,41 @@
+{
+  "status": "INTERNAL / v2 CANDIDATE",
+  "presentations": [
+    {
+      "slide": "S10",
+      "variant": "S10",
+      "pptx": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2.pptx",
+      "notes_exact": true
+    },
+    {
+      "slide": "S10",
+      "variant": "S10-B",
+      "pptx": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/S10_反思_v2_方案B.pptx",
+      "notes_exact": true
+    },
+    {
+      "slide": "S11",
+      "variant": "S11",
+      "pptx": "A线_西湖博士/面试与导师交流/刘癸庚/S11_表达_v2_20261006/S11_表达_v2.pptx",
+      "notes_exact": true
+    },
+    {
+      "slide": "S12",
+      "variant": "S12",
+      "pptx": "A线_西湖博士/面试与导师交流/刘癸庚/S12_WhyPhD_v2_20261006/S12_WhyPhD_v2.pptx",
+      "notes_exact": true
+    },
+    {
+      "slide": "S13",
+      "variant": "S13",
+      "pptx": "A线_西湖博士/面试与导师交流/刘癸庚/S13_WhyLiu_v2_20261006/S13_WhyLiu_v2.pptx",
+      "notes_exact": true
+    }
+  ],
+  "unchanged_existing_files": 242,
+  "relative_links_checked": 85,
+  "manifest_files_checked": 89,
+  "all_checks_passed": true,
+  "actual_projection_tested": false,
+  "no_full_deck_created": true
+}

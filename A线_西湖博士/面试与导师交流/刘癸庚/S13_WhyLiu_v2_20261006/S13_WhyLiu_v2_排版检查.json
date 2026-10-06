@@ -1,0 +1,286 @@
+{
+  "renderer": "Microsoft PowerPoint 16.0",
+  "slides": 1,
+  "pdf_pages": 1,
+  "logical_slide": "S13",
+  "variant": "S13",
+  "pptx_unchanged_by_readonly_render": true,
+  "export_sizes": [
+    {
+      "size": [
+        3840,
+        2160
+      ],
+      "expected": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "expected": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "text_overflow": [],
+  "shapes_outside_canvas": [],
+  "notes_complete": true,
+  "whyphd_original_verbatim": null,
+  "image_checks": [],
+  "shapes": [
+    {
+      "name": "section",
+      "rect_pt": [
+        39.599998474121094,
+        17.280000686645508,
+        720.0,
+        18.719999313354492
+      ],
+      "text": "下一阶段",
+      "text_bound_pt": [
+        47.25,
+        14.305039405822754
+      ],
+      "available_pt": [
+        720.0,
+        18.719999313354492
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 11.0
+    },
+    {
+      "name": "title",
+      "rect_pt": [
+        39.599998474121094,
+        46.79999923706055,
+        882.0,
+        51.84000015258789
+      ],
+      "text": "我接下来更想把物理问题做深",
+      "text_bound_pt": [
+        372.3750305175781,
+        36.4050407409668
+      ],
+      "available_pt": [
+        882.0,
+        51.84000015258789
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 28.0
+    },
+    {
+      "name": "footer_rule",
+      "rect_pt": [
+        39.599998474121094,
+        506.8800048828125,
+        882.0,
+        0.0
+      ]
+    },
+    {
+      "name": "slide_number",
+      "rect_pt": [
+        875.52001953125,
+        510.4800109863281,
+        46.79999923706055,
+        25.920000076293945
+      ],
+      "text": "S13",
+      "text_bound_pt": [
+        32.0,
+        19.5
+      ],
+      "available_pt": [
+        46.79999923706055,
+        25.920000076293945
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 15.0
+    },
+    {
+      "name": "experience",
+      "rect_pt": [
+        57.599998474121094,
+        130.32000732421875,
+        842.4000244140625,
+        34.560001373291016
+      ],
+      "text": "电磁仿真 / 周期结构 / 数值优化",
+      "text_bound_pt": [
+        272.3750305175781,
+        24.705039978027344
+      ],
+      "available_pt": [
+        842.4000244140625,
+        34.560001373291016
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 19.0
+    },
+    {
+      "name": "step1",
+      "rect_pt": [
+        60.47999954223633,
+        177.83999633789062,
+        36.0,
+        23.040000915527344
+      ],
+      "text": "↓",
+      "text_bound_pt": [
+        12.75,
+        20.805038452148438
+      ],
+      "available_pt": [
+        36.0,
+        23.040000915527344
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 16.0
+    },
+    {
+      "name": "question",
+      "rect_pt": [
+        56.15999984741211,
+        213.83999633789062,
+        842.4000244140625,
+        54.0
+      ],
+      "text": "为什么会出现这样的响应？",
+      "text_bound_pt": [
+        368.8750305175781,
+        38.99504089355469
+      ],
+      "available_pt": [
+        842.4000244140625,
+        54.0
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 30.0
+    },
+    {
+      "name": "step2",
+      "rect_pt": [
+        60.47999954223633,
+        277.9200134277344,
+        36.0,
+        23.040000915527344
+      ],
+      "text": "↓",
+      "text_bound_pt": [
+        12.75,
+        20.805038452148438
+      ],
+      "available_pt": [
+        36.0,
+        23.040000915527344
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 16.0
+    },
+    {
+      "name": "physics_questions",
+      "rect_pt": [
+        57.599998474121094,
+        311.0400085449219,
+        842.4000244140625,
+        38.880001068115234
+      ],
+      "text": "模式 · 边界 · 损耗 · 可靠性",
+      "text_bound_pt": [
+        270.75,
+        29.905038833618164
+      ],
+      "available_pt": [
+        842.4000244140625,
+        38.880001068115234
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 23.0
+    },
+    {
+      "name": "step3",
+      "rect_pt": [
+        60.47999954223633,
+        360.7200012207031,
+        36.0,
+        23.040000915527344
+      ],
+      "text": "↓",
+      "text_bound_pt": [
+        12.75,
+        20.805038452148438
+      ],
+      "available_pt": [
+        36.0,
+        23.040000915527344
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 16.0
+    },
+    {
+      "name": "lab",
+      "rect_pt": [
+        57.599998474121094,
+        393.1199951171875,
+        842.4000244140625,
+        36.720001220703125
+      ],
+      "text": "Complex Waves and Fields",
+      "text_bound_pt": [
+        286.4800109863281,
+        28.600000381469727
+      ],
+      "available_pt": [
+        842.4000244140625,
+        36.720001220703125
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 22.0
+    },
+    {
+      "name": "learning_boundary",
+      "rect_pt": [
+        59.040000915527344,
+        445.67999267578125,
+        828.0,
+        23.760000228881836
+      ],
+      "text": "topology / non-Hermitian：希望系统学习",
+      "text_bound_pt": [
+        275.8599853515625,
+        18.200000762939453
+      ],
+      "available_pt": [
+        828.0,
+        23.760000228881836
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 14.0
+    },
+    {
+      "name": "westlake",
+      "rect_pt": [
+        41.039920806884766,
+        514.7999877929688,
+        828.0,
+        16.559999465942383
+      ],
+      "text": "Westlake Physics · 定导培养",
+      "text_bound_pt": [
+        118.62503814697266,
+        11.699999809265137
+      ],
+      "available_pt": [
+        828.0,
+        16.559999465942383
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 9.0
+    }
+  ]
+}

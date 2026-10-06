@@ -1,0 +1,25 @@
+[
+  {
+    "source": "公共资料/事实核验/个人探索_20261006/素材/个人艺术网页首页_用户补图_20261006.png",
+    "source_sha256": "c9343585254591cd5642e225a7be8706393ad52576d5f09cab0684edc892484d",
+    "source_pixels": [
+      1919,
+      989
+    ],
+    "crop_box": [
+      0,
+      0,
+      1919,
+      989
+    ],
+    "output": "派生素材/无用清净梦_完整首页.png",
+    "pixels": [
+      1919,
+      989
+    ],
+    "sha256": "1a42a9a9a90ed2ed7c3d76ab3cb44883bc4fbd6c1f70d6239f29062a6174e7b8",
+    "reason": "Full user-supplied homepage screenshot, including browser, site identity, introduction and both entrances. No reconstruction.",
+    "operation": "Lossless rectangular crop of decoded source pixels; no redrawing, synthesis, retouching or sharpening.",
+    "shape_name": "homepage"
+  }
+]

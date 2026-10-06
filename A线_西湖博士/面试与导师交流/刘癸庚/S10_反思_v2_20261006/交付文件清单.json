@@ -1,0 +1,110 @@
+{
+  "status": "INTERNAL / v2 CANDIDATE",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3810,
+      "sha256": "18b85668fd688e8c27a6dbb2ee85b18b20e131f2121a4add8603d49bb240f8eb"
+    },
+    {
+      "path": "S10_反思_v2.pdf",
+      "bytes": 113002,
+      "sha256": "1c282ed3108122567fbb081ec759db4e5ed0fee0abdd74a8e8c3654b5ab44575"
+    },
+    {
+      "path": "S10_反思_v2.pptx",
+      "bytes": 491333,
+      "sha256": "5acb13fb87b21c5a422ad05ce3ddaae41397949bdf534f8b4484ca7b67e2b9bc"
+    },
+    {
+      "path": "S10_反思_v2_图片索引.json",
+      "bytes": 838,
+      "sha256": "0e10779f03fcc71cfa313c886a2760d99112517963709f4f04188d5512fd4df8"
+    },
+    {
+      "path": "S10_反思_v2_排版检查.json",
+      "bytes": 3466,
+      "sha256": "bd579cb3ea22698a1025a14850966195514ca961cd6833b919c4ecad8babb860"
+    },
+    {
+      "path": "S10_反思_v2_方案B.pdf",
+      "bytes": 138257,
+      "sha256": "3744ecfd1733262f1fee44bd9b7c1e4fd47cec69cf12c360d1818b37ae061c2a"
+    },
+    {
+      "path": "S10_反思_v2_方案B.pptx",
+      "bytes": 1178401,
+      "sha256": "0e188655e02a9a19efe8284a4a4517b0d578c00cbf6d95acb2829fa1ad671c4c"
+    },
+    {
+      "path": "S10_反思_v2_方案B_图片索引.json",
+      "bytes": 1634,
+      "sha256": "0512d97a39b1b5ad710265ce6fc63990fcacbb69d307f8f0518bf37f155fb461"
+    },
+    {
+      "path": "S10_反思_v2_方案B_排版检查.json",
+      "bytes": 4337,
+      "sha256": "3d272afd15fcf793efa35e8fcfe1b20efbedac623d0823319d36955f28cae258"
+    },
+    {
+      "path": "制作源/build_slide.py",
+      "bytes": 327,
+      "sha256": "d4ca852ef03e694b3a2e47bf132a367fe7fa3df8f61622a82c697ccab188f071"
+    },
+    {
+      "path": "制作源/config.json",
+      "bytes": 50,
+      "sha256": "4cc0e311161dae70261a66b983787c1b8ad9ea54d636704f1b3c936e9d7bcd88"
+    },
+    {
+      "path": "本页备注.md",
+      "bytes": 1425,
+      "sha256": "4570d54a9d8e18c2f06ed0374d35e156f6a2f51fcb1a47ce900d2065d3f17ec2"
+    },
+    {
+      "path": "来源与保全.json",
+      "bytes": 58584,
+      "sha256": "83d1f2c7b4033c755db1b83219d71ac20e7d1ed7a516079f51678147061b174e"
+    },
+    {
+      "path": "派生素材/A_首篇完整条目.png",
+      "bytes": 459719,
+      "sha256": "194224ba3a6df0c7f7150dcf8b61e66bb57a623d59d0f90e458f67b138364b30"
+    },
+    {
+      "path": "派生素材/B_两条文章上下文.png",
+      "bytes": 1123414,
+      "sha256": "f6213d2303ed5dae8db64368c3763bf9e3ded8f53ff4f69727bbd5283f83199c"
+    },
+    {
+      "path": "派生素材/B_首篇标题局部.png",
+      "bytes": 27116,
+      "sha256": "1c18e3f7191753ddcb8b883d502e279f15b0b5bac44963028c4c98a0d0fd7034"
+    },
+    {
+      "path": "派生素材说明.json",
+      "bytes": 2363,
+      "sha256": "d2f11691c76a48fce1ac9b33cd4054daa8e5b247d65f0d16ecff4bc750e8f99c"
+    },
+    {
+      "path": "预览/S10-B_1920x1080.png",
+      "bytes": 482456,
+      "sha256": "28e747ebfb54a3922d3fc5f00491c0db1af2fdef0426429e0a9103461053e0b2"
+    },
+    {
+      "path": "预览/S10-B_3840x2160.png",
+      "bytes": 1635128,
+      "sha256": "ac59a3040135674ed00bc64db673e08e8204433af2f26b283f67e4e29a620069"
+    },
+    {
+      "path": "预览/S10_1920x1080.png",
+      "bytes": 613130,
+      "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772"
+    },
+    {
+      "path": "预览/S10_3840x2160.png",
+      "bytes": 1916963,
+      "sha256": "cdcf04ebd773b9d64abf285dec277c133e954046a03cba0c4bcd5de3d68f3d5a"
+    }
+  ]
+}

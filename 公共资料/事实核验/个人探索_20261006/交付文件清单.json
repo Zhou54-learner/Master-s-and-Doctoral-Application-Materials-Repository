@@ -1,0 +1,45 @@
+{
+  "status": "INTERNAL / EVIDENCE",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 233,
+      "sha256": "d2b4bde88d783ce22f63773418257bfdfccf90ea3a6a28f5248855c9b45d66b7"
+    },
+    {
+      "path": "本人补充素材核验.json",
+      "bytes": 1154,
+      "sha256": "79ed52295b8240504bab4e69e93113b17ac733acc1d2645105e5bd109e363aa1"
+    },
+    {
+      "path": "来源与恢复核验.json",
+      "bytes": 2846,
+      "sha256": "be4ffd58be50beaa4c2e8b807d812676ab7927738274bc177f0946eb9384187f"
+    },
+    {
+      "path": "核验记录.md",
+      "bytes": 3179,
+      "sha256": "08a49ac6c09e01639673ee3776d16129fd6487872c9a131b0612f357790cdcb1"
+    },
+    {
+      "path": "素材/AgentNative_文章封面原图_用户提供.png",
+      "bytes": 1680069,
+      "sha256": "a17828aa09991bb062eda68f82cd348dccdd3618f7deaaa1df9bc40d72ec076b"
+    },
+    {
+      "path": "素材/个人艺术网页首页_workcopy600.jpg",
+      "bytes": 6913,
+      "sha256": "dc64d64a816fe7178e11d0ae52465a94c1e8208bdc3bb6c6015cd8672abff325"
+    },
+    {
+      "path": "素材/个人艺术网页首页_用户补图_20261006.png",
+      "bytes": 1744747,
+      "sha256": "c9343585254591cd5642e225a7be8706393ad52576d5f09cab0684edc892484d"
+    },
+    {
+      "path": "素材/公众号首篇文章_用户补图_20261006.jpg",
+      "bytes": 707151,
+      "sha256": "4d6c19bee841a2a83eddca7b63ae2063523ef9dd31f757e9ccb87e61f243fc43"
+    }
+  ]
+}

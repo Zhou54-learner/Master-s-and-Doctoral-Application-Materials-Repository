@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-06",
+  "attachment": {
+    "source": "C:\\Users\\zzj\\AppData\\Local\\Temp\\codex-clipboard-5368a3e1-ba9c-4ec9-bea9-a42e6e173e18.jpg",
+    "copy": "公共资料/事实核验/个人探索_20261006/素材/公众号首篇文章_用户补图_20261006.jpg",
+    "bytes": 707151,
+    "sha256": "4d6c19bee841a2a83eddca7b63ae2063523ef9dd31f757e9ccb87e61f243fc43",
+    "pixels": [
+      1133,
+      2453
+    ],
+    "operation": "Original bytes copied; no image edits."
+  },
+  "homepage": {
+    "source_pack": "公共资料/面试与导师交流中心/公共主干/面试素材/Personal_Explorations_20261004",
+    "parts": [
+      {
+        "path": "公共资料/面试与导师交流中心/公共主干/面试素材/Personal_Explorations_20261004/packed/part01.b64",
+        "bytes": 15000,
+        "sha256": "c856f8ddc3d7c49c19a54414bad13ec5ee1dc47afcc1008239973c7fd37f0333"
+      },
+      {
+        "path": "公共资料/面试与导师交流中心/公共主干/面试素材/Personal_Explorations_20261004/packed/part02.b64",
+        "bytes": 19999,
+        "sha256": "4980d3eceb26735826b87c1129c8ef4a19d6763622d04ec41423a9cbfe8e6eee"
+      },
+      {
+        "path": "公共资料/面试与导师交流中心/公共主干/面试素材/Personal_Explorations_20261004/packed/part03.b64",
+        "bytes": 19999,
+        "sha256": "950fc0758a5c92f2625b9bed83ec9edf3d6ba629cdde01ab5cfd6f42b6820af9"
+      },
+      {
+        "path": "公共资料/面试与导师交流中心/公共主干/面试素材/Personal_Explorations_20261004/packed/part04.b64",
+        "bytes": 19999,
+        "sha256": "c2fe5bc91868aa04c90898c0b9d344d7ae7c318ac3556760867817a2d7e009a5"
+      }
+    ],
+    "whole_archive_status": "NOT RECONSTRUCTABLE: 74997 Base64 chars, length modulo 4 is 1; original ZIP SHA cannot be verified.",
+    "expected_whole_zip_sha256": "70f1a46f4b91207f4eb81f301624eacc7c6b7cd1ada66aa7f44dd068d793169b",
+    "method": "Read part04 only, discard first 3 chars to align complete Base64 groups; decode remaining fragment. Extract one complete raw-deflate member. Compare local header and central-directory sizes and CRC32. Never execute legacy recovery script.",
+    "fragment_local_header_offset": 793,
+    "member": "images/07_personal_site_uselessdream.jpg",
+    "compressed_bytes": 5970,
+    "uncompressed_bytes": 6913,
+    "crc32": "6f334642",
+    "local_crc_matches": true,
+    "central_crc_matches": true,
+    "output": "公共资料/事实核验/个人探索_20261006/素材/个人艺术网页首页_workcopy600.jpg",
+    "output_sha256": "dc64d64a816fe7178e11d0ae52465a94c1e8208bdc3bb6c6015cd8672abff325",
+    "pixels": [
+      600,
+      309
+    ],
+    "quality": "Legacy 600 px compressed workcopy; no high-resolution original recovered; no synthetic upscaling."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "status": "INTERNAL / v2 CANDIDATE",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3131,
+      "sha256": "1982ba191a5f33ffeaeba29ebc16b9cea7b4decf1eda7d992357044b335bab6d"
+    },
+    {
+      "path": "S11_表达_v2.pdf",
+      "bytes": 116939,
+      "sha256": "2fc40a5d3f0555dce9bd01fd0b13700c3d170974adf428e2d831d5aa135bee93"
+    },
+    {
+      "path": "S11_表达_v2.pptx",
+      "bytes": 1366842,
+      "sha256": "76fd4943f8dfcb2f8c49c407c544fc418ed5ddecf52af85b05ea139c447d1530"
+    },
+    {
+      "path": "S11_表达_v2_图片索引.json",
+      "bytes": 849,
+      "sha256": "d1fece84ded09de669b5ca04a255db5ffab7cf0d607d835d9e7efd4ca1885f39"
+    },
+    {
+      "path": "S11_表达_v2_排版检查.json",
+      "bytes": 3438,
+      "sha256": "fccc0056d408747d0bbf3c870c1b7bd9dfe890f3e589e3dab0d063cc95e540d2"
+    },
+    {
+      "path": "制作源/build_slide.py",
+      "bytes": 327,
+      "sha256": "2a597de7a8b1bd749280134b1b6920f731772f09057aef3a1e5579f63d5403ad"
+    },
+    {
+      "path": "制作源/config.json",
+      "bytes": 50,
+      "sha256": "5618070e7eeb8a376b19b05eea41136273f7f7d3d3b4d7d188c8a328e701708d"
+    },
+    {
+      "path": "本页备注.md",
+      "bytes": 1402,
+      "sha256": "da565a27a510131c42ce93a2dabfc2c96af744361c9328fb4cd65b74530c3afb"
+    },
+    {
+      "path": "来源与保全.json",
+      "bytes": 58584,
+      "sha256": "83d1f2c7b4033c755db1b83219d71ac20e7d1ed7a516079f51678147061b174e"
+    },
+    {
+      "path": "派生素材/无用清净梦_完整首页.png",
+      "bytes": 1332262,
+      "sha256": "1a42a9a9a90ed2ed7c3d76ab3cb44883bc4fbd6c1f70d6239f29062a6174e7b8"
+    },
+    {
+      "path": "派生素材说明.json",
+      "bytes": 818,
+      "sha256": "f391d4551579bffd8f57b222c594aae80b56dc8fcb3f7c99f85e848d7c3ad827"
+    },
+    {
+      "path": "预览/S11_1920x1080.png",
+      "bytes": 1099802,
+      "sha256": "21e37ef452e515813820640d3055ee55217293c676162830490680383a1f6160"
+    },
+    {
+      "path": "预览/S11_3840x2160.png",
+      "bytes": 3886807,
+      "sha256": "26fe5e4a4ad2b66f7ba559ae6891402fbb145489eace25b3d4f57c84b08d873e"
+    }
+  ]
+}
