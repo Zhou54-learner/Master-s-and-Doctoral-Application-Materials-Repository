@@ -1,0 +1,22 @@
+Title:           第一次比较系统地和 AI 一起做一个项目
+Subject:         S8 | INTERNAL / v2 CANDIDATE
+Keywords:
+Author:          Zijing Zhou
+Creator:         Microsoft® PowerPoint® 适用于 Microsoft 365
+Producer:        Microsoft® PowerPoint® 适用于 Microsoft 365
+CreationDate:    Tue Oct  6 14:18:38 2026 中国标准时间
+ModDate:         Tue Oct  6 14:18:38 2026 中国标准时间
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       960 x 540 pts
+Page rot:        0
+File size:       130935 bytes
+Optimized:       no
+PDF version:     1.7

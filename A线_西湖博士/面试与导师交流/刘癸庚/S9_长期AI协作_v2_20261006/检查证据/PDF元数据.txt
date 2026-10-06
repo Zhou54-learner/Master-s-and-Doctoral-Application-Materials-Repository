@@ -1,0 +1,22 @@
+Title:           后来，我想让这种协作不要每次都从零开始
+Subject:         S9 A/B | INTERNAL / v2 CANDIDATE | 2026-10-06
+Keywords:
+Author:          Zijing Zhou
+Creator:         Microsoft® PowerPoint® 适用于 Microsoft 365
+Producer:        Microsoft® PowerPoint® 适用于 Microsoft 365
+CreationDate:    Tue Oct  6 14:19:57 2026 中国标准时间
+ModDate:         Tue Oct  6 14:19:57 2026 中国标准时间
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           2
+Encrypted:       no
+Page size:       960 x 540 pts
+Page rot:        0
+File size:       229375 bytes
+Optimized:       no
+PDF version:     1.7

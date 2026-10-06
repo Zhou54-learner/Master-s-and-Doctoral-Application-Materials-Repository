@@ -1,0 +1,15 @@
+{
+  "status": "INTERNAL / v2 CANDIDATE",
+  "slide_count": 1,
+  "native_editable_textboxes": 9,
+  "screenshot_count": 1,
+  "notes_exact_match": true,
+  "out_of_bounds": [],
+  "screenshot_crop_pixel_equal": true,
+  "screenshot_aspect_ratio_error": 7.727816275782118e-08,
+  "prohibited_visible_labels": [],
+  "font": "Microsoft YaHei",
+  "powerpoint_render_status": "Pending centralized PowerPoint 16.0 export and actual render inspection.",
+  "notes_characters": 391,
+  "pptx_sha256": "084c77119a7576cf5ed8660f4ec957cd6e37f5ed57c754b831571b6847a1ccea"
+}

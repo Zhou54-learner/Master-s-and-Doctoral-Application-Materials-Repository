@@ -1,0 +1,245 @@
+{
+  "renderer": "Microsoft PowerPoint 16.0",
+  "pptx_sha256": "084c77119a7576cf5ed8660f4ec957cd6e37f5ed57c754b831571b6847a1ccea",
+  "frames": [
+    "S8"
+  ],
+  "slides": 1,
+  "text_overflow": [],
+  "outside_canvas": [],
+  "notes": [
+    {
+      "frame": "S8",
+      "exact_match": true,
+      "source": "本页备注.md"
+    }
+  ],
+  "shapes": [
+    {
+      "frame": "S8",
+      "name": "section",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        17.280000686645508,
+        288.0,
+        17.280000686645508
+      ],
+      "text": "个人探索",
+      "bound_pt": [
+        47.25,
+        14.995038986206055
+      ],
+      "available_pt": [
+        288.0,
+        17.280000686645508
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "status",
+      "type": 17,
+      "rect_pt": [
+        511.20001220703125,
+        19.440000534057617,
+        410.3999938964844,
+        15.84000015258789
+      ],
+      "text": "INTERNAL / v2 CANDIDATE",
+      "bound_pt": [
+        127.75495910644531,
+        12.949999809265137
+      ],
+      "available_pt": [
+        410.3999938964844,
+        15.84000015258789
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "title",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        46.79999923706055,
+        882.0,
+        46.08000183105469
+      ],
+      "text": "第一次比较系统地和 AI 一起做一个项目",
+      "bound_pt": [
+        503.5050354003906,
+        38.1650390625
+      ],
+      "available_pt": [
+        882.0,
+        46.08000183105469
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "historical_agent_full_application",
+      "type": 13,
+      "rect_pt": [
+        39.599998474121094,
+        96.4800033569336,
+        676.7999877929688,
+        420.8241882324219
+      ]
+    },
+    {
+      "frame": "S8",
+      "name": "my_role_label",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        165.60000610351562,
+        182.8800048828125,
+        25.200000762939453
+      ],
+      "text": "我负责",
+      "bound_pt": [
+        49.50503921508789,
+        20.445039749145508
+      ],
+      "available_pt": [
+        182.8800048828125,
+        25.200000762939453
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "my_role",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        205.1999969482422,
+        182.8800048828125,
+        66.23999786376953
+      ],
+      "text": "目标 · 拆任务\r看结果 · 决定下一步",
+      "bound_pt": [
+        164.50503540039062,
+        51.535037994384766
+      ],
+      "available_pt": [
+        182.8800048828125,
+        66.23999786376953
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "retrospect_label",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        322.55999755859375,
+        182.8800048828125,
+        25.200000762939453
+      ],
+      "text": "做完以后再看",
+      "bound_pt": [
+        94.5,
+        20.445039749145508
+      ],
+      "available_pt": [
+        182.8800048828125,
+        25.200000762939453
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "retrospect",
+      "type": 17,
+      "rect_pt": [
+        738.0,
+        362.1600036621094,
+        182.8800048828125,
+        66.95999908447266
+      ],
+      "text": "过度设计\r重复造轮子",
+      "bound_pt": [
+        100.62999725341797,
+        54.400001525878906
+      ],
+      "available_pt": [
+        182.8800048828125,
+        66.95999908447266
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "source_footer",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        523.4400024414062,
+        828.0,
+        12.960000038146973
+      ],
+      "text": "本人历史原型截图 S02 · 协作过程与复盘依本人确认",
+      "bound_pt": [
+        196.8800048828125,
+        11.59000015258789
+      ],
+      "available_pt": [
+        828.0,
+        12.960000038146973
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "frame": "S8",
+      "name": "slide_number",
+      "type": 17,
+      "rect_pt": [
+        874.7999877929688,
+        519.1199951171875,
+        46.79999923706055,
+        18.0
+      ],
+      "text": "S8",
+      "bound_pt": [
+        19.75,
+        17.71504020690918
+      ],
+      "available_pt": [
+        46.79999923706055,
+        18.0
+      ],
+      "font": "Microsoft YaHei"
+    }
+  ],
+  "pptx_unchanged_after_export": true,
+  "images": [
+    {
+      "frame": "S8",
+      "name": "historical_agent_full_application",
+      "pixels": [
+        1322,
+        822
+      ],
+      "aspect_relative_error": 7.727816275782118e-08,
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "source_checks": [
+    {
+      "source": "公共资料/事实核验/个人探索_20261004/素材/S02_物理学习助手.png",
+      "original_hash_match": true,
+      "crop_pixels_identical": true,
+      "embedded_bytes_identical": true
+    }
+  ]
+}
