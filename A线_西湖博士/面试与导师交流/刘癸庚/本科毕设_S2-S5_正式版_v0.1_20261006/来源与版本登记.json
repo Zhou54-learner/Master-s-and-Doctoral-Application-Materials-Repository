@@ -1,0 +1,88 @@
+{
+  "status": "INTERNAL / FORMAL v0.1",
+  "source": "A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/刘癸庚交流_INTERNAL_FULL_DRAFT_v0.1_20261006.pptx",
+  "source_sha256": "6348b631283d6452ea32ef7426e7e129f8e8ddeb8754dfc84516a77383a545fb",
+  "source_is_current_working_copy": true,
+  "selected_source_pages": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "excluded_pages": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "rows": [
+    {
+      "page": 1,
+      "logical": "S2",
+      "source_full_draft": "A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/刘癸庚交流_INTERNAL_FULL_DRAFT_v0.1_20261006.pptx",
+      "source_full_draft_sha256": "6348b631283d6452ea32ef7426e7e129f8e8ddeb8754dfc84516a77383a545fb",
+      "source_page": 3,
+      "source_slide_xml_sha256": "2956060b782b66bbdd18b094c8f3098bece4c4378066d3c4e72751fb10923e17",
+      "output_slide_xml_sha256": "2956060b782b66bbdd18b094c8f3098bece4c4378066d3c4e72751fb10923e17",
+      "source_notes_xml_sha256": "07165dc013a915c7033091ce0dfc7efe8cdaa3a11467fcb94120c7bebd7cabbf",
+      "output_notes_xml_sha256": "07165dc013a915c7033091ce0dfc7efe8cdaa3a11467fcb94120c7bebd7cabbf",
+      "slide_xml_byte_identical": true,
+      "notes_xml_byte_identical": true,
+      "object_count": 23,
+      "notes_chars": 951
+    },
+    {
+      "page": 2,
+      "logical": "S3",
+      "source_full_draft": "A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/刘癸庚交流_INTERNAL_FULL_DRAFT_v0.1_20261006.pptx",
+      "source_full_draft_sha256": "6348b631283d6452ea32ef7426e7e129f8e8ddeb8754dfc84516a77383a545fb",
+      "source_page": 4,
+      "source_slide_xml_sha256": "27550b3ecc6207b63d5686e1c4bce1ec696f0c0201904ff657a9d96149bcce44",
+      "output_slide_xml_sha256": "27550b3ecc6207b63d5686e1c4bce1ec696f0c0201904ff657a9d96149bcce44",
+      "source_notes_xml_sha256": "2f32fc46dab46fab7700ada70d38a2187eb8e990b99d5a51912c634229abaa35",
+      "output_notes_xml_sha256": "2f32fc46dab46fab7700ada70d38a2187eb8e990b99d5a51912c634229abaa35",
+      "slide_xml_byte_identical": true,
+      "notes_xml_byte_identical": true,
+      "object_count": 20,
+      "notes_chars": 928
+    },
+    {
+      "page": 3,
+      "logical": "S4",
+      "source_full_draft": "A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/刘癸庚交流_INTERNAL_FULL_DRAFT_v0.1_20261006.pptx",
+      "source_full_draft_sha256": "6348b631283d6452ea32ef7426e7e129f8e8ddeb8754dfc84516a77383a545fb",
+      "source_page": 5,
+      "source_slide_xml_sha256": "7bcfbe56b53aa3e56f275c5596c2c15e5a6d08354905b4f54f08eb0b5269bf43",
+      "output_slide_xml_sha256": "7bcfbe56b53aa3e56f275c5596c2c15e5a6d08354905b4f54f08eb0b5269bf43",
+      "source_notes_xml_sha256": "12cf3d4fa4f34ae96adfafdb6a90fd7098a5b265713e986669ff7d8e79ead87c",
+      "output_notes_xml_sha256": "12cf3d4fa4f34ae96adfafdb6a90fd7098a5b265713e986669ff7d8e79ead87c",
+      "slide_xml_byte_identical": true,
+      "notes_xml_byte_identical": true,
+      "object_count": 33,
+      "notes_chars": 1792
+    },
+    {
+      "page": 4,
+      "logical": "S5",
+      "source_full_draft": "A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/刘癸庚交流_INTERNAL_FULL_DRAFT_v0.1_20261006.pptx",
+      "source_full_draft_sha256": "6348b631283d6452ea32ef7426e7e129f8e8ddeb8754dfc84516a77383a545fb",
+      "source_page": 6,
+      "source_slide_xml_sha256": "1f56892386fa3f36b29cd5fcb7547e4107c85043e766f3ec74bcb3941d2ae086",
+      "output_slide_xml_sha256": "1f56892386fa3f36b29cd5fcb7547e4107c85043e766f3ec74bcb3941d2ae086",
+      "source_notes_xml_sha256": "de8b81f83214f5a412b290d3143a014453e1f637baa505817fa16ccfd3037f85",
+      "output_notes_xml_sha256": "de8b81f83214f5a412b290d3143a014453e1f637baa505817fa16ccfd3037f85",
+      "slide_xml_byte_identical": true,
+      "notes_xml_byte_identical": true,
+      "object_count": 45,
+      "notes_chars": 1926
+    }
+  ],
+  "method": "OPC package extraction only; selected slide and notes XML copied byte-for-byte; no slide redraw or source modification."
+}

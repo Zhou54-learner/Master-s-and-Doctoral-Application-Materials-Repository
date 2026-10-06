@@ -1,0 +1,2633 @@
+{
+  "status": "INTERNAL / FORMAL v0.1",
+  "source_full_draft": "A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/刘癸庚交流_INTERNAL_FULL_DRAFT_v0.1_20261006.pptx",
+  "source_full_draft_sha256": "6348b631283d6452ea32ef7426e7e129f8e8ddeb8754dfc84516a77383a545fb",
+  "formal_pptx": "本科毕设_S2-S5_正式版_v0.1.pptx",
+  "formal_pptx_sha256": "f839352dfb0a551db14521ea7abb8f602f819c1fcf232da94f9f4239c6f44bf3",
+  "formal_pdf": "本科毕设_S2-S5_正式版_v0.1.pdf",
+  "formal_pdf_sha256": "a66996c95ce873fae70939f5ca7f928b52a7b247217194f9b566f7b21f1128a4",
+  "slides": [
+    {
+      "page": 1,
+      "logical": "S2",
+      "source_page": 3,
+      "object_count": 23,
+      "notes_chars": 951,
+      "source_slide_xml_sha256": "2956060b782b66bbdd18b094c8f3098bece4c4378066d3c4e72751fb10923e17",
+      "formal_slide_xml_sha256": "2956060b782b66bbdd18b094c8f3098bece4c4378066d3c4e72751fb10923e17",
+      "source_notes_xml_sha256": "07165dc013a915c7033091ce0dfc7efe8cdaa3a11467fcb94120c7bebd7cabbf",
+      "formal_notes_xml_sha256": "07165dc013a915c7033091ce0dfc7efe8cdaa3a11467fcb94120c7bebd7cabbf"
+    },
+    {
+      "page": 2,
+      "logical": "S3",
+      "source_page": 4,
+      "object_count": 20,
+      "notes_chars": 928,
+      "source_slide_xml_sha256": "27550b3ecc6207b63d5686e1c4bce1ec696f0c0201904ff657a9d96149bcce44",
+      "formal_slide_xml_sha256": "27550b3ecc6207b63d5686e1c4bce1ec696f0c0201904ff657a9d96149bcce44",
+      "source_notes_xml_sha256": "2f32fc46dab46fab7700ada70d38a2187eb8e990b99d5a51912c634229abaa35",
+      "formal_notes_xml_sha256": "2f32fc46dab46fab7700ada70d38a2187eb8e990b99d5a51912c634229abaa35"
+    },
+    {
+      "page": 3,
+      "logical": "S4",
+      "source_page": 5,
+      "object_count": 33,
+      "notes_chars": 1792,
+      "source_slide_xml_sha256": "7bcfbe56b53aa3e56f275c5596c2c15e5a6d08354905b4f54f08eb0b5269bf43",
+      "formal_slide_xml_sha256": "7bcfbe56b53aa3e56f275c5596c2c15e5a6d08354905b4f54f08eb0b5269bf43",
+      "source_notes_xml_sha256": "12cf3d4fa4f34ae96adfafdb6a90fd7098a5b265713e986669ff7d8e79ead87c",
+      "formal_notes_xml_sha256": "12cf3d4fa4f34ae96adfafdb6a90fd7098a5b265713e986669ff7d8e79ead87c"
+    },
+    {
+      "page": 4,
+      "logical": "S5",
+      "source_page": 6,
+      "object_count": 45,
+      "notes_chars": 1926,
+      "source_slide_xml_sha256": "1f56892386fa3f36b29cd5fcb7547e4107c85043e766f3ec74bcb3941d2ae086",
+      "formal_slide_xml_sha256": "1f56892386fa3f36b29cd5fcb7547e4107c85043e766f3ec74bcb3941d2ae086",
+      "source_notes_xml_sha256": "de8b81f83214f5a412b290d3143a014453e1f637baa505817fa16ccfd3037f85",
+      "formal_notes_xml_sha256": "de8b81f83214f5a412b290d3143a014453e1f637baa505817fa16ccfd3037f85"
+    }
+  ],
+  "powerpoint_check": {
+    "status": "PASS",
+    "renderer": "Microsoft PowerPoint 16.0",
+    "source_full_draft": "A线_西湖博士/面试与导师交流/刘癸庚/FULL_DRAFT_v0.1_20261006/刘癸庚交流_INTERNAL_FULL_DRAFT_v0.1_20261006.pptx",
+    "source_full_draft_sha256": "6348b631283d6452ea32ef7426e7e129f8e8ddeb8754dfc84516a77383a545fb",
+    "target_pptx_sha256_before": "f839352dfb0a551db14521ea7abb8f602f819c1fcf232da94f9f4239c6f44bf3",
+    "target_pptx_sha256_after": "f839352dfb0a551db14521ea7abb8f602f819c1fcf232da94f9f4239c6f44bf3",
+    "pptx_unchanged_by_render": true,
+    "physical_slides": 4,
+    "slide_size_pt": [
+      960.0,
+      540.0
+    ],
+    "pdf_pages": [
+      {
+        "page": 1,
+        "size_pt": [
+          960.0,
+          540.0
+        ],
+        "text_chars": 174,
+        "fonts": [
+          "BCDEEE+MicrosoftYaHei",
+          "BCDFEE+MicrosoftYaHei-Bold",
+          "BCDGEE+MicrosoftYaHei-Bold",
+          "BCDHEE+MicrosoftYaHei"
+        ]
+      },
+      {
+        "page": 2,
+        "size_pt": [
+          960.0,
+          540.0
+        ],
+        "text_chars": 167,
+        "fonts": [
+          "BCDEEE+MicrosoftYaHei",
+          "BCDFEE+MicrosoftYaHei-Bold",
+          "BCDGEE+MicrosoftYaHei-Bold",
+          "BCDHEE+MicrosoftYaHei",
+          "BCDIEE+CambriaMath",
+          "BCDJEE+ArialMT"
+        ]
+      },
+      {
+        "page": 3,
+        "size_pt": [
+          960.0,
+          540.0
+        ],
+        "text_chars": 269,
+        "fonts": [
+          "BCDEEE+MicrosoftYaHei",
+          "BCDFEE+MicrosoftYaHei-Bold",
+          "BCDGEE+MicrosoftYaHei-Bold",
+          "BCDHEE+MicrosoftYaHei",
+          "BCDIEE+CambriaMath"
+        ]
+      },
+      {
+        "page": 4,
+        "size_pt": [
+          960.0,
+          540.0
+        ],
+        "text_chars": 255,
+        "fonts": [
+          "BCDEEE+MicrosoftYaHei",
+          "BCDFEE+MicrosoftYaHei-Bold",
+          "BCDGEE+MicrosoftYaHei-Bold",
+          "BCDHEE+MicrosoftYaHei"
+        ]
+      }
+    ],
+    "slides": [
+      {
+        "shapes": [
+          {
+            "name": "TextBox 1",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              17.280000686645508,
+              720.0,
+              14.739999771118164
+            ],
+            "text": "本科毕设",
+            "text_bound_pt": [
+              47.25,
+              13.710000038146973
+            ],
+            "available_pt": [
+              720.0,
+              14.739999771118164
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 11.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 2",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              46.79999923706055,
+              880.5599975585938,
+              50.400001525878906
+            ],
+            "text": "我的毕业设计：三维周期电阻膜吸波结构",
+            "text_bound_pt": [
+              548.8750610351562,
+              37.375038146972656
+            ],
+            "available_pt": [
+              880.5599975585938,
+              50.400001525878906
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 30.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 3",
+            "type": 9,
+            "rect_pt": [
+              39.599998474121094,
+              506.8800048828125,
+              882.0,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 5",
+            "type": 17,
+            "rect_pt": [
+              875.52001953125,
+              510.4800109863281,
+              46.79999923706055,
+              23.760000228881836
+            ],
+            "text": "S2",
+            "text_bound_pt": [
+              22.75,
+              18.690000534057617
+            ],
+            "available_pt": [
+              46.79999923706055,
+              23.760000228881836
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 6",
+            "type": 17,
+            "rect_pt": [
+              38.15999984741211,
+              92.82669067382812,
+              849.5999755859375,
+              29.479999542236328
+            ],
+            "text": "目标：在 2–18 GHz 内探索宽带低反射结构",
+            "text_bound_pt": [
+              428.75,
+              27.4150390625
+            ],
+            "available_pt": [
+              849.5999755859375,
+              29.479999542236328
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 22.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 7",
+            "type": 13,
+            "rect_pt": [
+              123.42362213134766,
+              131.1647186279297,
+              419.8022766113281,
+              339.8399963378906
+            ]
+          },
+          {
+            "name": "TextBox 8",
+            "type": 17,
+            "rect_pt": [
+              19.68000030517578,
+              166.1527557373047,
+              92.87999725341797,
+              47.07527542114258
+            ],
+            "text": "两组膜\r竖直正交",
+            "text_bound_pt": [
+              77.37503814697266,
+              46.619998931884766
+            ],
+            "available_pt": [
+              92.87999725341797,
+              47.07527542114258
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 18.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 9",
+            "type": 9,
+            "rect_pt": [
+              98.63992309570312,
+              191.82000732421875,
+              225.91062927246094,
+              58.87543487548828
+            ]
+          },
+          {
+            "name": "TextBox 10",
+            "type": 17,
+            "rect_pt": [
+              19.68000030517578,
+              287.26544189453125,
+              105.12000274658203,
+              53.279998779296875
+            ],
+            "text": "PET 支撑\r表面为电阻层",
+            "text_bound_pt": [
+              100.75,
+              41.445037841796875
+            ],
+            "available_pt": [
+              105.12000274658203,
+              53.279998779296875
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 16.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 11",
+            "type": 9,
+            "rect_pt": [
+              101.5199203491211,
+              302.8826904296875,
+              136.55999755859375,
+              33.15999984741211
+            ]
+          },
+          {
+            "name": "TextBox 12",
+            "type": 17,
+            "rect_pt": [
+              19.68000030517578,
+              409.31268310546875,
+              108.0,
+              28.799999237060547
+            ],
+            "text": "XY 周期",
+            "text_bound_pt": [
+              69.25,
+              22.43000030517578
+            ],
+            "available_pt": [
+              108.0,
+              28.799999237060547
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 18.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 13",
+            "type": 9,
+            "rect_pt": [
+              107.68944549560547,
+              415.44000244140625,
+              77.35054779052734,
+              8.272677421569824
+            ]
+          },
+          {
+            "name": "TextBox 14",
+            "type": 17,
+            "rect_pt": [
+              406.9200134277344,
+              150.42906188964844,
+              96.23992156982422,
+              20.134723663330078
+            ],
+            "text": "正入射沿 −z",
+            "text_bound_pt": [
+              93.25,
+              19.940000534057617
+            ],
+            "available_pt": [
+              96.23992156982422,
+              20.134723663330078
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 16.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 15",
+            "type": 9,
+            "rect_pt": [
+              467.3777160644531,
+              170.56378173828125,
+              0.0,
+              59.040000915527344
+            ]
+          },
+          {
+            "name": "Picture 16",
+            "type": 13,
+            "rect_pt": [
+              489.91070556640625,
+              417.61944580078125,
+              53.3151969909668,
+              50.77629852294922
+            ]
+          },
+          {
+            "name": "TextBox 17",
+            "type": 17,
+            "rect_pt": [
+              254.16000366210938,
+              480.832763671875,
+              176.38543701171875,
+              18.872520446777344
+            ],
+            "text": "底部设为 PEC 理想电边界",
+            "text_bound_pt": [
+              175.8750457763672,
+              18.690000534057617
+            ],
+            "available_pt": [
+              176.38543701171875,
+              18.872520446777344
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 18",
+            "type": 17,
+            "rect_pt": [
+              632.159912109375,
+              168.47999572753906,
+              285.8399963378906,
+              25.459999084472656
+            ],
+            "text": "两张膜的图案",
+            "text_bound_pt": [
+              119.62503814697266,
+              23.68000030517578
+            ],
+            "available_pt": [
+              285.8399963378906,
+              25.459999084472656
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 19.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 19",
+            "type": 17,
+            "rect_pt": [
+              638.639892578125,
+              208.0800018310547,
+              105.12000274658203,
+              21.440000534057617
+            ],
+            "text": "X",
+            "text_bound_pt": [
+              15.125039100646973,
+              19.940000534057617
+            ],
+            "available_pt": [
+              105.12000274658203,
+              21.440000534057617
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 16.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 20",
+            "type": 13,
+            "rect_pt": [
+              638.639892578125,
+              234.8325958251953,
+              105.12000274658203,
+              104.89464569091797
+            ]
+          },
+          {
+            "name": "TextBox 21",
+            "type": 17,
+            "rect_pt": [
+              782.6400146484375,
+              208.0800018310547,
+              105.12000274658203,
+              21.440000534057617
+            ],
+            "text": "Y",
+            "text_bound_pt": [
+              14.374960899353027,
+              19.940000534057617
+            ],
+            "available_pt": [
+              105.12000274658203,
+              21.440000534057617
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 16.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 22",
+            "type": 13,
+            "rect_pt": [
+              782.6400146484375,
+              234.72000122070312,
+              105.12000274658203,
+              105.12000274658203
+            ]
+          },
+          {
+            "name": "TextBox 23",
+            "type": 17,
+            "rect_pt": [
+              637.919921875,
+              353.5199890136719,
+              279.3599853515625,
+              36.0
+            ],
+            "text": "黑：保留电阻层　白：去除电阻层\r原矩阵行序；PET没有随白区挖空",
+            "text_bound_pt": [
+              183.5,
+              31.085039138793945
+            ],
+            "available_pt": [
+              279.3599853515625,
+              36.0
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 24",
+            "type": 17,
+            "rect_pt": [
+              602.0894775390625,
+              400.6565246582031,
+              318.070556640625,
+              71.83984375
+            ],
+            "text": "反射要少 → 阻抗匹配\r能量耗散在电阻膜中 → 欧姆耗散",
+            "text_bound_pt": [
+              312.75,
+              71.1450424194336
+            ],
+            "available_pt": [
+              318.070556640625,
+              71.83984375
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 21.0,
+            "font_far_east": "Microsoft YaHei"
+          }
+        ],
+        "text_overflow": [],
+        "objects_outside": [],
+        "page": 1,
+        "logical": "S2",
+        "source_page": 3,
+        "notes_exact_match": true,
+        "source_render_pixel_identical": true,
+        "source_render_difference_bbox": null
+      },
+      {
+        "shapes": [
+          {
+            "name": "TextBox 1",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              17.280000686645508,
+              720.0,
+              14.739999771118164
+            ],
+            "text": "本科毕设",
+            "text_bound_pt": [
+              47.25,
+              13.710000038146973
+            ],
+            "available_pt": [
+              720.0,
+              14.739999771118164
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 11.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 2",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              46.79999923706055,
+              880.5599975585938,
+              50.400001525878906
+            ],
+            "text": "这些参数分别在改变什么？",
+            "text_bound_pt": [
+              368.8750305175781,
+              37.375038146972656
+            ],
+            "available_pt": [
+              880.5599975585938,
+              50.400001525878906
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 30.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 3",
+            "type": 9,
+            "rect_pt": [
+              39.599998474121094,
+              506.8800048828125,
+              882.0,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 5",
+            "type": 17,
+            "rect_pt": [
+              875.52001953125,
+              510.4800109863281,
+              46.79999923706055,
+              23.760000228881836
+            ],
+            "text": "S3",
+            "text_bound_pt": [
+              22.75,
+              18.690000534057617
+            ],
+            "available_pt": [
+              46.79999923706055,
+              23.760000228881836
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 6",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              89.0164566040039,
+              856.7999877929688,
+              22.780000686645508
+            ],
+            "text": "这是我现在对这些参数的理解。",
+            "text_bound_pt": [
+              243.0,
+              21.185039520263672
+            ],
+            "available_pt": [
+              856.7999877929688,
+              22.780000686645508
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 17.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 7",
+            "type": 13,
+            "rect_pt": [
+              88.48731994628906,
+              152.55535888671875,
+              302.3999938964844,
+              245.0374755859375
+            ]
+          },
+          {
+            "name": "Connector 8",
+            "type": 9,
+            "rect_pt": [
+              320.2218017578125,
+              170.599365234375,
+              0.0,
+              124.78842163085938
+            ]
+          },
+          {
+            "name": "Connector 9",
+            "type": 9,
+            "rect_pt": [
+              312.1162109375,
+              170.599365234375,
+              13.093622207641602,
+              0.0
+            ]
+          },
+          {
+            "name": "Connector 10",
+            "type": 9,
+            "rect_pt": [
+              312.1162109375,
+              295.5082702636719,
+              13.093622207641602,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 11",
+            "type": 17,
+            "rect_pt": [
+              328.08984375,
+              215.49172973632812,
+              21.600000381469727,
+              28.139999389648438
+            ],
+            "text": "h",
+            "text_bound_pt": [
+              19.75,
+              26.1650390625
+            ],
+            "available_pt": [
+              21.600000381469727,
+              28.139999389648438
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 21.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 12",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              122.99172973632812,
+              426.239990234375,
+              28.139999389648438
+            ],
+            "text": "高度 h：PEC 返回场相位、内部场分布",
+            "text_bound_pt": [
+              366.1250305175781,
+              26.1650390625
+            ],
+            "available_pt": [
+              426.239990234375,
+              28.139999389648438
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 21.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 13",
+            "type": 17,
+            "rect_pt": [
+              39.2400016784668,
+              415.6368408203125,
+              446.3999938964844,
+              25.459999084472656
+            ],
+            "text": "周期 p：横向尺度、周期条件和单元之间的相互作用",
+            "text_bound_pt": [
+              441.8750305175781,
+              23.68000030517578
+            ],
+            "available_pt": [
+              446.3999938964844,
+              25.459999084472656
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 19.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 15",
+            "type": 17,
+            "rect_pt": [
+              509.70794677734375,
+              121.7353515625,
+              390.9599914550781,
+              30.81999969482422
+            ],
+            "text": "图案：电流从哪里走？",
+            "text_bound_pt": [
+              236.8750457763672,
+              28.65999984741211
+            ],
+            "available_pt": [
+              390.9599914550781,
+              30.81999969482422
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 23.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 16",
+            "type": 17,
+            "rect_pt": [
+              520.5079345703125,
+              163.495361328125,
+              112.31999969482422,
+              20.100000381469727
+            ],
+            "text": "X",
+            "text_bound_pt": [
+              14.125039100646973,
+              18.690000534057617
+            ],
+            "available_pt": [
+              112.31999969482422,
+              20.100000381469727
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 17",
+            "type": 13,
+            "rect_pt": [
+              520.5079345703125,
+              188.09567260742188,
+              112.31999969482422,
+              112.07921600341797
+            ]
+          },
+          {
+            "name": "TextBox 18",
+            "type": 17,
+            "rect_pt": [
+              665.9479370117188,
+              163.495361328125,
+              112.31999969482422,
+              20.100000381469727
+            ],
+            "text": "Y",
+            "text_bound_pt": [
+              13.5,
+              18.690000534057617
+            ],
+            "available_pt": [
+              112.31999969482422,
+              20.100000381469727
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 19",
+            "type": 13,
+            "rect_pt": [
+              665.9479370117188,
+              187.97535705566406,
+              112.31999969482422,
+              112.31999969482422
+            ]
+          },
+          {
+            "name": "TextBox 20",
+            "type": 17,
+            "rect_pt": [
+              511.14794921875,
+              313.2553405761719,
+              390.239990234375,
+              21.391889572143555
+            ],
+            "text": "哪里积累电荷，局部场也会跟着变",
+            "text_bound_pt": [
+              260.0,
+              21.185039520263672
+            ],
+            "available_pt": [
+              390.239990234375,
+              21.391889572143555
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 17.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 21",
+            "type": 17,
+            "rect_pt": [
+              509.70794677734375,
+              362.1600036621094,
+              392.3999938964844,
+              28.799999237060547
+            ],
+            "text": "片阻：局部电场和表面电流是什么关系？",
+            "text_bound_pt": [
+              366.0,
+              24.920000076293945
+            ],
+            "available_pt": [
+              392.3999938964844,
+              28.799999237060547
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 20.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 22",
+            "type": 17,
+            "rect_pt": [
+              511.14794921875,
+              401.760009765625,
+              390.9599914550781,
+              44.46503829956055
+            ],
+            "text": "Rₛ,ₓ、Rₛ,ᵧ 改变局部 Eₜ–K 关系\r电流变了，散射和耗散也会变",
+            "text_bound_pt": [
+              226.0,
+              44.035037994384766
+            ],
+            "available_pt": [
+              390.9599914550781,
+              44.46503829956055
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 17.0,
+            "font_far_east": "Microsoft YaHei"
+          }
+        ],
+        "text_overflow": [],
+        "objects_outside": [],
+        "page": 2,
+        "logical": "S3",
+        "source_page": 4,
+        "notes_exact_match": true,
+        "source_render_pixel_identical": true,
+        "source_render_difference_bbox": null
+      },
+      {
+        "shapes": [
+          {
+            "name": "TextBox 1",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              17.280000686645508,
+              720.0,
+              14.739999771118164
+            ],
+            "text": "本科毕设",
+            "text_bound_pt": [
+              47.25,
+              13.710000038146973
+            ],
+            "available_pt": [
+              720.0,
+              14.739999771118164
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 11.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 2",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              46.79999923706055,
+              880.5599975585938,
+              37.7400016784668
+            ],
+            "text": "我如何决定下一步优化什么？",
+            "text_bound_pt": [
+              398.8750305175781,
+              37.375038146972656
+            ],
+            "available_pt": [
+              880.5599975585938,
+              37.7400016784668
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 30.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 3",
+            "type": 9,
+            "rect_pt": [
+              39.599998474121094,
+              506.8800048828125,
+              882.0,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 5",
+            "type": 17,
+            "rect_pt": [
+              858.2643432617188,
+              509.4399108886719,
+              46.79999923706055,
+              23.760000228881836
+            ],
+            "text": "S4",
+            "text_bound_pt": [
+              22.75,
+              18.690000534057617
+            ],
+            "available_pt": [
+              46.79999923706055,
+              23.760000228881836
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 6",
+            "type": 17,
+            "rect_pt": [
+              41.7599983215332,
+              111.5999984741211,
+              177.1199951171875,
+              57.599998474121094
+            ],
+            "text": "先调周期、高度，\r找出有效尺度",
+            "text_bound_pt": [
+              174.25,
+              54.38999938964844
+            ],
+            "available_pt": [
+              177.1199951171875,
+              57.599998474121094
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 21.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 7",
+            "type": 17,
+            "rect_pt": [
+              41.7599983215332,
+              188.63999938964844,
+              159.1199951171875,
+              68.33999633789062
+            ],
+            "text": "同时把 CST / Python\r参数化仿真跑通",
+            "text_bound_pt": [
+              124.0,
+              66.88504028320312
+            ],
+            "available_pt": [
+              159.1199951171875,
+              68.33999633789062
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 17.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 8",
+            "type": 17,
+            "rect_pt": [
+              40.68000030517578,
+              276.0765380859375,
+              161.27999877929688,
+              95.92771911621094
+            ],
+            "text": "再调尺寸，\r提升效果出现瓶颈\r\r开始加图案",
+            "text_bound_pt": [
+              149.3750457763672,
+              95.0
+            ],
+            "available_pt": [
+              161.27999877929688,
+              95.92771911621094
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 18.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 10",
+            "type": 17,
+            "rect_pt": [
+              223.52842712402344,
+              111.5999984741211,
+              472.3443298339844,
+              26.420551300048828
+            ],
+            "text": "找到表现更好的结构后，再沿着这个思路继续细化",
+            "text_bound_pt": [
+              468.25,
+              26.1650390625
+            ],
+            "available_pt": [
+              472.3443298339844,
+              26.420551300048828
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 21.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 11",
+            "type": 17,
+            "rect_pt": [
+              234.0,
+              154.0800018310547,
+              431.2799987792969,
+              18.872520446777344
+            ],
+            "text": "X 中央条带 + Y「纺锤形」阶梯镂空",
+            "text_bound_pt": [
+              242.75,
+              18.690000534057617
+            ],
+            "available_pt": [
+              431.2799987792969,
+              18.872520446777344
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 12",
+            "type": 17,
+            "rect_pt": [
+              249.83999633789062,
+              196.55999755859375,
+              97.19999694824219,
+              26.799999237060547
+            ],
+            "text": "6×6",
+            "text_bound_pt": [
+              46.0,
+              24.920000076293945
+            ],
+            "available_pt": [
+              97.19999694824219,
+              26.799999237060547
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 20.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 13",
+            "type": 13,
+            "rect_pt": [
+              249.83999633789062,
+              231.87315368652344,
+              97.19999694824219,
+              97.13362121582031
+            ]
+          },
+          {
+            "name": "Picture 14",
+            "type": 13,
+            "rect_pt": [
+              249.9063720703125,
+              347.760009765625,
+              97.0671615600586,
+              97.19999694824219
+            ]
+          },
+          {
+            "name": "Connector 15",
+            "type": 9,
+            "rect_pt": [
+              356.3999938964844,
+              337.67999267578125,
+              25.200000762939453,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 16",
+            "type": 17,
+            "rect_pt": [
+              394.55999755859375,
+              196.55999755859375,
+              97.19999694824219,
+              26.799999237060547
+            ],
+            "text": "9×9",
+            "text_bound_pt": [
+              46.0,
+              24.920000076293945
+            ],
+            "available_pt": [
+              97.19999694824219,
+              26.799999237060547
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 20.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 17",
+            "type": 13,
+            "rect_pt": [
+              394.6086730957031,
+              231.83999633789062,
+              97.10260009765625,
+              97.19999694824219
+            ]
+          },
+          {
+            "name": "Picture 18",
+            "type": 13,
+            "rect_pt": [
+              394.6086730957031,
+              347.760009765625,
+              97.10260009765625,
+              97.19999694824219
+            ]
+          },
+          {
+            "name": "Connector 19",
+            "type": 9,
+            "rect_pt": [
+              501.1199951171875,
+              337.67999267578125,
+              25.200000762939453,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 20",
+            "type": 17,
+            "rect_pt": [
+              539.280029296875,
+              196.55999755859375,
+              97.19999694824219,
+              26.799999237060547
+            ],
+            "text": "12×12",
+            "text_bound_pt": [
+              70.75,
+              24.920000076293945
+            ],
+            "available_pt": [
+              97.19999694824219,
+              26.799999237060547
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 20.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 21",
+            "type": 13,
+            "rect_pt": [
+              539.3843383789062,
+              231.83999633789062,
+              96.99118041992188,
+              97.19999694824219
+            ]
+          },
+          {
+            "name": "Picture 22",
+            "type": 13,
+            "rect_pt": [
+              539.280029296875,
+              347.8121337890625,
+              97.19999694824219,
+              97.09567260742188
+            ]
+          },
+          {
+            "name": "TextBox 23",
+            "type": 17,
+            "rect_pt": [
+              216.72000122070312,
+              270.7200012207031,
+              22.31999969482422,
+              21.600000381469727
+            ],
+            "text": "X",
+            "text_bound_pt": [
+              15.125039100646973,
+              19.940000534057617
+            ],
+            "available_pt": [
+              22.31999969482422,
+              21.600000381469727
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 16.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 24",
+            "type": 17,
+            "rect_pt": [
+              216.72000122070312,
+              386.6400146484375,
+              22.31999969482422,
+              21.600000381469727
+            ],
+            "text": "Y",
+            "text_bound_pt": [
+              14.375039100646973,
+              19.940000534057617
+            ],
+            "available_pt": [
+              22.31999969482422,
+              21.600000381469727
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 16.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 25",
+            "type": 17,
+            "rect_pt": [
+              250.55999755859375,
+              456.4800109863281,
+              414.7200012207031,
+              13.84385871887207
+            ],
+            "text": "蓝/黑：保留电阻层；灰/白：去除。均为原矩阵行序。",
+            "text_bound_pt": [
+              265.75,
+              13.710000038146973
+            ],
+            "available_pt": [
+              414.7200012207031,
+              13.84385871887207
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 11.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 26",
+            "type": 17,
+            "rect_pt": [
+              721.4400024414062,
+              110.55992126464844,
+              198.72000122070312,
+              54.921180725097656
+            ],
+            "text": "再加细，\r还是试试片阻？",
+            "text_bound_pt": [
+              153.25,
+              54.38999938964844
+            ],
+            "available_pt": [
+              198.72000122070312,
+              54.921180725097656
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 21.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 27",
+            "type": 17,
+            "rect_pt": [
+              707.0643310546875,
+              190.47991943359375,
+              198.72000122070312,
+              18.872520446777344
+            ],
+            "text": "（细化电脑遭不住）",
+            "text_bound_pt": [
+              139.5,
+              18.690000534057617
+            ],
+            "available_pt": [
+              198.72000122070312,
+              18.872520446777344
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 28",
+            "type": 17,
+            "rect_pt": [
+              738.7443237304688,
+              235.8399200439453,
+              155.52000427246094,
+              33.16582489013672
+            ],
+            "text": " 𝑹 𝒔,𝒙  ,  𝑹 𝒔,𝒚 ",
+            "text_bound_pt": [
+              104.53504180908203,
+              32.84503936767578
+            ],
+            "available_pt": [
+              155.52000427246094,
+              33.16582489013672
+            ],
+            "font_name": "",
+            "font_size_pt": 23.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 29",
+            "type": 13,
+            "rect_pt": [
+              718.5843505859375,
+              295.6832275390625,
+              77.76000213623047,
+              77.59330749511719
+            ]
+          },
+          {
+            "name": "Picture 30",
+            "type": 13,
+            "rect_pt": [
+              817.2243041992188,
+              295.59991455078125,
+              77.76000213623047,
+              77.76000213623047
+            ]
+          },
+          {
+            "name": "TextBox 31",
+            "type": 17,
+            "rect_pt": [
+              718.5843505859375,
+              273.9999084472656,
+              77.76000213623047,
+              18.760000228881836
+            ],
+            "text": "X",
+            "text_bound_pt": [
+              13.124960899353027,
+              17.445039749145508
+            ],
+            "available_pt": [
+              77.76000213623047,
+              18.760000228881836
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 14.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 32",
+            "type": 17,
+            "rect_pt": [
+              817.2243041992188,
+              273.9999084472656,
+              77.76000213623047,
+              18.760000228881836
+            ],
+            "text": "Y",
+            "text_bound_pt": [
+              12.624960899353027,
+              17.445039749145508
+            ],
+            "available_pt": [
+              77.76000213623047,
+              18.760000228881836
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 14.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 33",
+            "type": 17,
+            "rect_pt": [
+              705.6243286132812,
+              394.23992919921875,
+              200.16000366210938,
+              67.53819274902344
+            ],
+            "text": "从固定商品参数，\r转向允许基于当前片阻的小区间做扫描",
+            "text_bound_pt": [
+              187.0,
+              66.88504028320312
+            ],
+            "available_pt": [
+              200.16000366210938,
+              67.53819274902344
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 17.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 35",
+            "type": 9,
+            "rect_pt": [
+              172.0034637451172,
+              337.67999267578125,
+              44.71653366088867,
+              0.0
+            ]
+          },
+          {
+            "name": "Connector 36",
+            "type": 9,
+            "rect_pt": [
+              647.280029296875,
+              336.9599914550781,
+              34.560001373291016,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 37",
+            "type": 17,
+            "rect_pt": [
+              42.47999954223633,
+              486.0,
+              869.760009765625,
+              17.615432739257812
+            ],
+            "text": "工作流：GA 提候选 → Python 组织仿真 → CST 求解",
+            "text_bound_pt": [
+              336.1650390625,
+              17.445039749145508
+            ],
+            "available_pt": [
+              869.760009765625,
+              17.615432739257812
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 14.0,
+            "font_far_east": "Microsoft YaHei"
+          }
+        ],
+        "text_overflow": [],
+        "objects_outside": [],
+        "page": 3,
+        "logical": "S4",
+        "source_page": 5,
+        "notes_exact_match": true,
+        "source_render_pixel_identical": true,
+        "source_render_difference_bbox": null
+      },
+      {
+        "shapes": [
+          {
+            "name": "TextBox 1",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              17.280000686645508,
+              720.0,
+              14.739999771118164
+            ],
+            "text": "本科毕设",
+            "text_bound_pt": [
+              47.25,
+              13.710000038146973
+            ],
+            "available_pt": [
+              720.0,
+              14.739999771118164
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 11.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 2",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              46.79999923706055,
+              880.5599975585938,
+              50.400001525878906
+            ],
+            "text": "最终结果：做到了什么，还缺什么？",
+            "text_bound_pt": [
+              488.8750305175781,
+              37.375038146972656
+            ],
+            "available_pt": [
+              880.5599975585938,
+              50.400001525878906
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 30.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 3",
+            "type": 9,
+            "rect_pt": [
+              39.599998474121094,
+              506.8800048828125,
+              882.0,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 5",
+            "type": 17,
+            "rect_pt": [
+              875.52001953125,
+              510.4800109863281,
+              46.79999923706055,
+              23.760000228881836
+            ],
+            "text": "S5",
+            "text_bound_pt": [
+              22.75,
+              18.690000534057617
+            ],
+            "available_pt": [
+              46.79999923706055,
+              23.760000228881836
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 6",
+            "type": 17,
+            "rect_pt": [
+              41.7599983215332,
+              91.42354583740234,
+              554.4000244140625,
+              48.2400016784668
+            ],
+            "text": "4.80–18.00 GHz",
+            "text_bound_pt": [
+              292.8750305175781,
+              44.855037689208984
+            ],
+            "available_pt": [
+              554.4000244140625,
+              48.2400016784668
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 36.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 7",
+            "type": 17,
+            "rect_pt": [
+              39.599998474121094,
+              143.553466796875,
+              568.7999877929688,
+              26.799999237060547
+            ],
+            "text": "指定同模反射 ≤ −10 dB 的连续采样区间",
+            "text_bound_pt": [
+              367.8750305175781,
+              24.920000076293945
+            ],
+            "available_pt": [
+              568.7999877929688,
+              26.799999237060547
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 20.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 8",
+            "type": 17,
+            "rect_pt": [
+              650.159912109375,
+              110.16000366210938,
+              272.8800048828125,
+              43.20000076293945
+            ],
+            "text": "13.20 GHz",
+            "text_bound_pt": [
+              169.0,
+              38.630001068115234
+            ],
+            "available_pt": [
+              272.8800048828125,
+              43.20000076293945
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 31.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 9",
+            "type": 17,
+            "rect_pt": [
+              652.3200073242188,
+              156.24000549316406,
+              268.55999755859375,
+              24.479999542236328
+            ],
+            "text": "端点跨度",
+            "text_bound_pt": [
+              77.37503814697266,
+              22.43000030517578
+            ],
+            "available_pt": [
+              268.55999755859375,
+              24.479999542236328
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 18.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 10",
+            "type": 9,
+            "rect_pt": [
+              74.16000366210938,
+              218.16000366210938,
+              514.7999877929688,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 11",
+            "type": 17,
+            "rect_pt": [
+              37.439998626708984,
+              209.51992797851562,
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "text": "0",
+            "text_bound_pt": [
+              10.5,
+              14.955039024353027
+            ],
+            "available_pt": [
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 12",
+            "type": 9,
+            "rect_pt": [
+              74.16000366210938,
+              258.0479431152344,
+              514.7999877929688,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 13",
+            "type": 17,
+            "rect_pt": [
+              37.439998626708984,
+              249.407958984375,
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "text": "−5",
+            "text_bound_pt": [
+              19.37495994567871,
+              14.955039024353027
+            ],
+            "available_pt": [
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 14",
+            "type": 9,
+            "rect_pt": [
+              74.16000366210938,
+              297.93597412109375,
+              514.7999877929688,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 15",
+            "type": 17,
+            "rect_pt": [
+              37.439998626708984,
+              289.2959899902344,
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "text": "−10",
+            "text_bound_pt": [
+              26.37495994567871,
+              14.955039024353027
+            ],
+            "available_pt": [
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 16",
+            "type": 9,
+            "rect_pt": [
+              74.16000366210938,
+              337.8239440917969,
+              514.7999877929688,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 17",
+            "type": 17,
+            "rect_pt": [
+              37.439998626708984,
+              329.1839294433594,
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "text": "−15",
+            "text_bound_pt": [
+              26.37495994567871,
+              14.955039024353027
+            ],
+            "available_pt": [
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 18",
+            "type": 9,
+            "rect_pt": [
+              74.16000366210938,
+              377.71197509765625,
+              514.7999877929688,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 19",
+            "type": 17,
+            "rect_pt": [
+              37.439998626708984,
+              369.07196044921875,
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "text": "−20",
+            "text_bound_pt": [
+              26.37495994567871,
+              14.955039024353027
+            ],
+            "available_pt": [
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 20",
+            "type": 9,
+            "rect_pt": [
+              74.16000366210938,
+              417.6000061035156,
+              514.7999877929688,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 21",
+            "type": 17,
+            "rect_pt": [
+              37.439998626708984,
+              408.9599914550781,
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "text": "−25",
+            "text_bound_pt": [
+              26.37495994567871,
+              14.955039024353027
+            ],
+            "available_pt": [
+              28.799999237060547,
+              16.559999465942383
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 22",
+            "type": 17,
+            "rect_pt": [
+              58.31999969482422,
+              425.5199890136719,
+              31.68000030517578,
+              18.0
+            ],
+            "text": "2",
+            "text_bound_pt": [
+              10.5,
+              14.955039024353027
+            ],
+            "available_pt": [
+              31.68000030517578,
+              18.0
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 23",
+            "type": 17,
+            "rect_pt": [
+              187.01992797851562,
+              425.5199890136719,
+              31.68000030517578,
+              18.0
+            ],
+            "text": "6",
+            "text_bound_pt": [
+              10.5,
+              14.955039024353027
+            ],
+            "available_pt": [
+              31.68000030517578,
+              18.0
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 24",
+            "type": 17,
+            "rect_pt": [
+              315.7200012207031,
+              425.5199890136719,
+              31.68000030517578,
+              18.0
+            ],
+            "text": "10",
+            "text_bound_pt": [
+              17.5,
+              14.955039024353027
+            ],
+            "available_pt": [
+              31.68000030517578,
+              18.0
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 25",
+            "type": 17,
+            "rect_pt": [
+              444.4200134277344,
+              425.5199890136719,
+              31.68000030517578,
+              18.0
+            ],
+            "text": "14",
+            "text_bound_pt": [
+              17.5,
+              14.955039024353027
+            ],
+            "available_pt": [
+              31.68000030517578,
+              18.0
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 26",
+            "type": 17,
+            "rect_pt": [
+              573.1199951171875,
+              425.5199890136719,
+              31.68000030517578,
+              18.0
+            ],
+            "text": "18",
+            "text_bound_pt": [
+              17.5,
+              14.955039024353027
+            ],
+            "available_pt": [
+              31.68000030517578,
+              18.0
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Connector 27",
+            "type": 9,
+            "rect_pt": [
+              74.16000366210938,
+              297.93597412109375,
+              514.7999877929688,
+              0.0
+            ]
+          },
+          {
+            "name": "TextBox 28",
+            "type": 17,
+            "rect_pt": [
+              78.4800033569336,
+              274.1759948730469,
+              95.04000091552734,
+              20.15999984741211
+            ],
+            "text": "−10 dB",
+            "text_bound_pt": [
+              49.125038146972656,
+              16.195039749145508
+            ],
+            "available_pt": [
+              95.04000091552734,
+              20.15999984741211
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 13.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "C22_original_201_samples",
+            "type": 5,
+            "rect_pt": [
+              74.16000366210938,
+              233.92645263671875,
+              514.7999877929688,
+              171.59063720703125
+            ]
+          },
+          {
+            "name": "Connector 30",
+            "type": 9,
+            "rect_pt": [
+              164.25,
+              218.16000366210938,
+              0.0,
+              199.44000244140625
+            ]
+          },
+          {
+            "name": "Oval 31",
+            "type": 1,
+            "rect_pt": [
+              161.08197021484375,
+              295.10772705078125,
+              6.335984230041504,
+              6.335984230041504
+            ]
+          },
+          {
+            "name": "Oval 32",
+            "type": 1,
+            "rect_pt": [
+              585.7919921875,
+              296.90802001953125,
+              6.335984230041504,
+              6.335984230041504
+            ]
+          },
+          {
+            "name": "TextBox 33",
+            "type": 17,
+            "rect_pt": [
+              74.16000366210938,
+              192.24000549316406,
+              403.9200134277344,
+              19.440000534057617
+            ],
+            "text": "指定同模反射 / dB",
+            "text_bound_pt": [
+              120.12503814697266,
+              17.445039749145508
+            ],
+            "available_pt": [
+              403.9200134277344,
+              19.440000534057617
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 14.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 34",
+            "type": 17,
+            "rect_pt": [
+              465.8399963378906,
+              192.24000549316406,
+              125.27999877929688,
+              19.440000534057617
+            ],
+            "text": "18.00：扫描上限",
+            "text_bound_pt": [
+              94.37496185302734,
+              14.955039024353027
+            ],
+            "available_pt": [
+              125.27999877929688,
+              19.440000534057617
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 35",
+            "type": 17,
+            "rect_pt": [
+              131.0399932861328,
+              444.9599914550781,
+              175.67999267578125,
+              19.440000534057617
+            ],
+            "text": "4.80：首个连续通过点",
+            "text_bound_pt": [
+              123.37503814697266,
+              14.955039024353027
+            ],
+            "available_pt": [
+              175.67999267578125,
+              19.440000534057617
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 12.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 36",
+            "type": 17,
+            "rect_pt": [
+              469.44000244140625,
+              444.9599914550781,
+              122.4000015258789,
+              19.440000534057617
+            ],
+            "text": "频率 / GHz",
+            "text_bound_pt": [
+              69.12496185302734,
+              16.195039749145508
+            ],
+            "available_pt": [
+              122.4000015258789,
+              19.440000534057617
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 13.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 37",
+            "type": 17,
+            "rect_pt": [
+              43.20000076293945,
+              468.0,
+              570.9600219726562,
+              22.31999969482422
+            ],
+            "text": "保存扫描 2–18 GHz · 201点 · 间隔0.08 GHz",
+            "text_bound_pt": [
+              299.0,
+              18.690000534057617
+            ],
+            "available_pt": [
+              570.9600219726562,
+              22.31999969482422
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 15.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 38",
+            "type": 17,
+            "rect_pt": [
+              652.3200073242188,
+              205.1999969482422,
+              65.5199966430664,
+              18.0
+            ],
+            "text": "X",
+            "text_bound_pt": [
+              12.25,
+              16.195039749145508
+            ],
+            "available_pt": [
+              65.5199966430664,
+              18.0
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 13.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 39",
+            "type": 13,
+            "rect_pt": [
+              652.3200073242188,
+              229.75015258789062,
+              65.5199966430664,
+              65.37952423095703
+            ]
+          },
+          {
+            "name": "TextBox 40",
+            "type": 17,
+            "rect_pt": [
+              738.0,
+              205.1999969482422,
+              65.5199966430664,
+              18.0
+            ],
+            "text": "Y",
+            "text_bound_pt": [
+              11.75,
+              16.195039749145508
+            ],
+            "available_pt": [
+              65.5199966430664,
+              18.0
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 13.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "Picture 41",
+            "type": 13,
+            "rect_pt": [
+              738.0,
+              229.67999267578125,
+              65.5199966430664,
+              65.5199966430664
+            ]
+          },
+          {
+            "name": "Picture 42",
+            "type": 13,
+            "rect_pt": [
+              826.5599975585938,
+              220.45709228515625,
+              92.16000366210938,
+              74.60566711425781
+            ]
+          },
+          {
+            "name": "TextBox 43",
+            "type": 17,
+            "rect_pt": [
+              650.159912109375,
+              321.8399963378906,
+              272.8800048828125,
+              28.799999237060547
+            ],
+            "text": "如果现在继续，我会先做：",
+            "text_bound_pt": [
+              221.3750457763672,
+              22.43000030517578
+            ],
+            "available_pt": [
+              272.8800048828125,
+              28.799999237060547
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 18.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 44",
+            "type": 17,
+            "rect_pt": [
+              650.159912109375,
+              362.8145751953125,
+              264.2397766113281,
+              21.391889572143555
+            ],
+            "text": "把开放传播通道的功率算清楚",
+            "text_bound_pt": [
+              226.0,
+              21.185039520263672
+            ],
+            "available_pt": [
+              264.2397766113281,
+              21.391889572143555
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 17.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 45",
+            "type": 17,
+            "rect_pt": [
+              650.159912109375,
+              406.69598388671875,
+              264.239990234375,
+              26.639999389648438
+            ],
+            "text": "检查网格和数值收敛",
+            "text_bound_pt": [
+              158.0,
+              21.185039520263672
+            ],
+            "available_pt": [
+              264.239990234375,
+              26.639999389648438
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 17.0,
+            "font_far_east": "Microsoft YaHei"
+          },
+          {
+            "name": "TextBox 46",
+            "type": 17,
+            "rect_pt": [
+              650.159912109375,
+              450.7200012207031,
+              292.4072570800781,
+              20.134723663330078
+            ],
+            "text": "结果可靠后再解释为什么会有宽带响应",
+            "text_bound_pt": [
+              276.75,
+              19.940000534057617
+            ],
+            "available_pt": [
+              292.4072570800781,
+              20.134723663330078
+            ],
+            "font_name": "Microsoft YaHei",
+            "font_size_pt": 16.0,
+            "font_far_east": "Microsoft YaHei"
+          }
+        ],
+        "text_overflow": [],
+        "objects_outside": [],
+        "page": 4,
+        "logical": "S5",
+        "source_page": 6,
+        "notes_exact_match": true,
+        "source_render_pixel_identical": true,
+        "source_render_difference_bbox": null
+      }
+    ],
+    "images": [
+      {
+        "page": 1,
+        "name": "Picture 7",
+        "native_px": [
+          840,
+          680
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 1.6549838055546218e-07,
+        "pass": true
+      },
+      {
+        "page": 1,
+        "name": "Picture 16",
+        "native_px": [
+          105,
+          100
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 1.550726592913776e-06,
+        "pass": true
+      },
+      {
+        "page": 1,
+        "name": "Picture 20",
+        "native_px": [
+          933,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 1.593039358205317e-07,
+        "pass": true
+      },
+      {
+        "page": 1,
+        "name": "Picture 22",
+        "native_px": [
+          931,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 0.0,
+        "pass": true
+      },
+      {
+        "page": 2,
+        "name": "Picture 7",
+        "native_px": [
+          485,
+          393
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 1.8551543701228468e-07,
+        "pass": true
+      },
+      {
+        "page": 2,
+        "name": "Picture 17",
+        "native_px": [
+          933,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 1.4005625481594564e-07,
+        "pass": true
+      },
+      {
+        "page": 2,
+        "name": "Picture 19",
+        "native_px": [
+          931,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 0.0,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "name": "Picture 13",
+        "native_px": [
+          1465,
+          1464
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 3.0710158216429306e-07,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "name": "Picture 14",
+        "native_px": [
+          1462,
+          1464
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 4.920345588743658e-07,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "name": "Picture 17",
+        "native_px": [
+          1994,
+          1996
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 6.987684808557049e-08,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "name": "Picture 18",
+        "native_px": [
+          1994,
+          1996
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 6.987684808557049e-08,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "name": "Picture 21",
+        "native_px": [
+          929,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 1.1510342090570447e-07,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "name": "Picture 22",
+        "native_px": [
+          932,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 4.00256449539782e-07,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "name": "Picture 29",
+        "native_px": [
+          933,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 6.199622282210271e-08,
+        "pass": true
+      },
+      {
+        "page": 3,
+        "name": "Picture 30",
+        "native_px": [
+          931,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 0.0,
+        "pass": true
+      },
+      {
+        "page": 4,
+        "name": "Picture 39",
+        "native_px": [
+          933,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 3.4078210742194415e-07,
+        "pass": true
+      },
+      {
+        "page": 4,
+        "name": "Picture 41",
+        "native_px": [
+          931,
+          931
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 0.0,
+        "pass": true
+      },
+      {
+        "page": 4,
+        "name": "Picture 42",
+        "native_px": [
+          840,
+          680
+        ],
+        "crop": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "relative_ratio_error": 6.030959325276086e-07,
+        "pass": true
+      }
+    ],
+    "text_overflow_count": 0,
+    "objects_outside_count": 0,
+    "notes_matches": 4,
+    "source_render_pixel_identical": 4,
+    "image_ratio_failures": 0,
+    "pdf_sha256": "a66996c95ce873fae70939f5ca7f928b52a7b247217194f9b566f7b21f1128a4",
+    "checked_at": "2026-10-06T14:39:45.262564+08:00"
+  }
+}
