@@ -1,0 +1,137 @@
+[
+  {
+    "page": 1,
+    "logical": "S0",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "8a2f7e54f99f36e7ffa4344978bbf8ae124aba430738ea5f8fae6a381b6f203d",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 2,
+    "logical": "S1",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "fee6b83ead58aaef8821eb430b61300394f2c5ce737aa20b5d73b7642c5d1fca",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 3,
+    "logical": "S2",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "d6fb55b77c18324c3daf6c2fa05704fbde9a15851133db83ed601b27e38853dc",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 4,
+    "logical": "S3",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "beb2517457a31604f73025d3602b87de16f8c077f7882d188a2b419264f8c102",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 5,
+    "logical": "S4",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "f537cddfebab938fb11feca086e5e5f5b2f163b0e22825aedd06466c66fb6245",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 6,
+    "logical": "S5",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "d7af8aaa2b42f97dee72ba0ae73b918ee8afeede4ee7e68062cbb03b62d4b306",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 7,
+    "logical": "S6",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "50fd2632885ea873edbb4885ccc7480534795bca5434aeb2ad256dcbec3700d5",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 8,
+    "logical": "S7",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "590595bb54d6c0fb3871bc5d4d80e1cea5520a9154355bdc783e3464c3396d5c",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 9,
+    "logical": "S8",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "edfe34980d181ac46e316c1dc33d558df328789b51e7762869bc6871d8f97b70",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 10,
+    "logical": "S9-A",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "c4311124d01edb06f2c8c90cf0348e29097d109957351b2e2b37ccdb87687cae",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 11,
+    "logical": "S9-B",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "abeb7e7fd212b3720c72d66bf9e48bec286a54acd62c862ad41340499f7076fd",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 12,
+    "logical": "S10",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "6558690a10b3264f280b372e209862f33d9bc420e103151c83482fcb7860dfba",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 13,
+    "logical": "S11",
+    "page_source": "本人微调后的完整 PPT v1",
+    "notes_source": "本人微调后的完整 PPT v1，原样保留",
+    "notes_sha256": "10870f793fa46d3756e3442f4ca37d9ff17e14be5bb747b5c6abaeec7c21e6f4",
+    "slide_xml_unchanged": true,
+    "notes_xml_unchanged": true
+  },
+  {
+    "page": 14,
+    "logical": "S12",
+    "page_source": "本轮用户指定文案",
+    "notes_source": "完整讲稿_完整母稿_v5_20261006.md，S12章节全文",
+    "notes_sha256": "c53dcccccd1c5e9cc78669e70b2f59f6b7226f1413397672c6e93f5826fbbd77",
+    "slide_xml_unchanged": false,
+    "notes_xml_unchanged": false
+  },
+  {
+    "page": 15,
+    "logical": "S13",
+    "page_source": "本轮用户指定文案",
+    "notes_source": "完整讲稿_完整母稿_v5_20261006.md，S13章节全文",
+    "notes_sha256": "44f27f4651de3bfdd8ceb365de6ba6da757d00e1d755e4bfec1c16dc371d71f5",
+    "slide_xml_unchanged": false,
+    "notes_xml_unchanged": false
+  }
+]
