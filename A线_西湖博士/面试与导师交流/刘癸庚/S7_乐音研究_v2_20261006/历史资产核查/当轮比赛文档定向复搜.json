@@ -1,0 +1,28 @@
+{
+  "count": 494,
+  "hits": [
+    {
+      "path": "E:/QQ Files/Chat/Tencent Files/1439037249/FileRecv/附件5：哈尔滨工业大学中国国际大学生创新大赛主赛道团队项目申报书——龙之鸣——基于波纹管发音的新型乐器.docx",
+      "sha256": "bf983f4b60efe1038d5a89a60968c571e617b2f4a64423e050f80877f14779b7",
+      "hits": [
+        "word/document.xml"
+      ],
+      "media": []
+    }
+  ],
+  "roots": [
+    "E:/2022",
+    "E:/2023",
+    "E:/2024",
+    "E:/QQ Files",
+    "E:/xwechat_files",
+    "F:/OneDrive",
+    "C:/Users/zzj/Documents",
+    "C:/Users/zzj/Desktop",
+    "C:/Users/zzj/Downloads",
+    "E:/Autosave",
+    "E:/Backup",
+    "E:/Unsaved"
+  ],
+  "scope": "Targeted content search; not a deleted-file recovery."
+}
