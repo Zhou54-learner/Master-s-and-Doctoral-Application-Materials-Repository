@@ -1,0 +1,7238 @@
+{
+  "renderer": "Microsoft PowerPoint 16.0",
+  "opened_in_real_powerpoint": true,
+  "checked_at": "2026-10-06T11:27:57.153014+08:00",
+  "pdf_export": "PowerPoint Presentation.SaveAs ppSaveAsPDF (32)",
+  "pptx_sha256_before": "9145df25405588c21c9938ed703ad2587d085c61b669ca6a2bad9a3e887678dd",
+  "pptx_sha256_after": "9145df25405588c21c9938ed703ad2587d085c61b669ca6a2bad9a3e887678dd",
+  "pptx_unchanged_by_render": true,
+  "physical_slides": 15,
+  "slide_size_pt": [
+    960.0,
+    540.0
+  ],
+  "pdf_pages": [
+    {
+      "page": 1,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 113,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 212,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 212,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 253,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold",
+        "BCDIEE+CambriaMath",
+        "BCDJEE+ArialMT"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDIEE+CambriaMath",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDJEE+ArialMT",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 364,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold",
+        "BCDIEE+CambriaMath",
+        "BCDKEE+Arial-BoldMT"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDIEE+CambriaMath",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDKEE+Arial-BoldMT",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 326,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 199,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 190,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 222,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 209,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 210,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 56,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 58,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 147,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "size_pt": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 160,
+      "fonts": [
+        "BCDEEE+MicrosoftYaHei",
+        "BCDFEE+MicrosoftYaHei",
+        "BCDGEE+MicrosoftYaHei-Bold",
+        "BCDHEE+MicrosoftYaHei-Bold"
+      ],
+      "font_embedding": [
+        {
+          "font": "BCDEEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDHEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDGEE+MicrosoftYaHei-Bold",
+          "embedded": true,
+          "format": "ttf"
+        },
+        {
+          "font": "BCDFEE+MicrosoftYaHei",
+          "embedded": true,
+          "format": "ttf"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            360.0,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "科研交流",
+          "text_bound_pt": [
+            47.25,
+            14.00503921508789
+          ],
+          "available_pt": [
+            360.0,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "stage",
+          "type": 17,
+          "rect_pt": [
+            511.20001220703125,
+            19.440000534057617,
+            410.3999938964844,
+            17.280000686645508
+          ],
+          "rotation": 0.0,
+          "text": "INTERNAL / v1 CANDIDATE",
+          "text_bound_pt": [
+            127.75,
+            12.095039367675781
+          ],
+          "available_pt": [
+            410.3999938964844,
+            17.280000686645508
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            50.400001525878906
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "4",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "5",
+          "name": "source_footer",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            831.5999755859375,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "刘癸庚老师课题组交流 · 独立封面候选",
+          "text_bound_pt": [
+            154.0,
+            11.455039024353027
+          ],
+          "available_pt": [
+            831.5999755859375,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "S0",
+          "text_bound_pt": [
+            22.75,
+            19.09503936767578
+          ],
+          "available_pt": [
+            46.79999923706055,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "cover_title",
+          "type": 17,
+          "rect_pt": [
+            57.599998474121094,
+            144.0,
+            842.4000244140625,
+            61.20000076293945
+          ],
+          "rotation": 0.0,
+          "text": "科研经历与个人探索",
+          "text_bound_pt": [
+            353.3750305175781,
+            48.369998931884766
+          ],
+          "available_pt": [
+            842.4000244140625,
+            61.20000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 38.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "accent",
+          "type": 9,
+          "rect_pt": [
+            59.040000915527344,
+            231.83999633789062,
+            92.16000366210938,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "9",
+          "name": "name",
+          "type": 17,
+          "rect_pt": [
+            59.040000915527344,
+            264.239990234375,
+            432.0,
+            44.63999938964844
+          ],
+          "rotation": 0.0,
+          "text": "周子靖  /  Zijing Zhou",
+          "text_bound_pt": [
+            248.75,
+            30.549999237060547
+          ],
+          "available_pt": [
+            432.0,
+            44.63999938964844
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 24.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "10",
+          "name": "education",
+          "type": 17,
+          "rect_pt": [
+            60.47999954223633,
+            324.0,
+            720.0,
+            31.68000030517578
+          ],
+          "rotation": 0.0,
+          "text": "哈尔滨工业大学 · 应用物理学本科",
+          "text_bound_pt": [
+            302.5,
+            25.459999084472656
+          ],
+          "available_pt": [
+            720.0,
+            31.68000030517578
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "occasion",
+          "type": 17,
+          "rect_pt": [
+            60.47999954223633,
+            392.3999938964844,
+            792.0,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "与刘癸庚老师课题组的科研交流",
+          "text_bound_pt": [
+            214.5,
+            19.09503936767578
+          ],
+          "available_pt": [
+            792.0,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 1,
+      "logical": "S0",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "e2f271f15f2d296077e0353028c845004f6aa4446e582e55c017b06d8fff2bb4",
+        "full_png_sha256": "e2f271f15f2d296077e0353028c845004f6aa4446e582e55c017b06d8fff2bb4"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            288.0,
+            20.15999984741211
+          ],
+          "rotation": 0.0,
+          "text": "个人背景",
+          "text_bound_pt": [
+            47.25,
+            13.510000228881836
+          ],
+          "available_pt": [
+            288.0,
+            20.15999984741211
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "candidate",
+          "type": 17,
+          "rect_pt": [
+            612.0,
+            19.440000534057617,
+            309.6000061035156,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "INTERNAL / v2 CANDIDATE",
+          "text_bound_pt": [
+            127.75,
+            11.6650390625
+          ],
+          "available_pt": [
+            309.6000061035156,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            878.4000244140625,
+            50.400001525878906
+          ],
+          "rotation": 0.0,
+          "text": "本科这几年，我主要做过这些事情",
+          "text_bound_pt": [
+            428.3750305175781,
+            34.385040283203125
+          ],
+          "available_pt": [
+            878.4000244140625,
+            50.400001525878906
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "4",
+          "name": "education",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            100.80000305175781,
+            849.5999755859375,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "哈尔滨工业大学 · 物理学院 · 应用物理学",
+          "text_bound_pt": [
+            251.3750457763672,
+            17.190000534057617
+          ],
+          "available_pt": [
+            849.5999755859375,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "number_01",
+          "type": 17,
+          "rect_pt": [
+            44.63999938964844,
+            141.83999633789062,
+            39.599998474121094,
+            31.68000030517578
+          ],
+          "rotation": 0.0,
+          "text": "01",
+          "text_bound_pt": [
+            32.25,
+            25.7850399017334
+          ],
+          "available_pt": [
+            39.599998474121094,
+            31.68000030517578
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 21.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "section_01",
+          "type": 17,
+          "rect_pt": [
+            92.16000366210938,
+            142.55999755859375,
+            777.5999755859375,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "本科毕业设计",
+          "text_bound_pt": [
+            88.12503814697266,
+            17.190000534057617
+          ],
+          "available_pt": [
+            777.5999755859375,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "project_01",
+          "type": 17,
+          "rect_pt": [
+            90.72000122070312,
+            166.32000732421875,
+            828.0,
+            39.599998474121094
+          ],
+          "rotation": 0.0,
+          "text": "三维周期电阻膜吸波结构",
+          "text_bound_pt": [
+            305.0,
+            33.1550407409668
+          ],
+          "available_pt": [
+            828.0,
+            39.599998474121094
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 27.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "detail_01",
+          "type": 17,
+          "rect_pt": [
+            92.16000366210938,
+            206.63999938964844,
+            806.4000244140625,
+            28.079999923706055
+          ],
+          "rotation": 0.0,
+          "text": "结构设计、仿真与优化",
+          "text_bound_pt": [
+            175.0,
+            20.87504005432129
+          ],
+          "available_pt": [
+            806.4000244140625,
+            28.079999923706055
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "9",
+          "name": "sequence_01",
+          "type": 9,
+          "rect_pt": [
+            59.7599983215332,
+            179.27999877929688,
+            0.0,
+            54.720001220703125
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "10",
+          "name": "number_02",
+          "type": 17,
+          "rect_pt": [
+            46.79999923706055,
+            249.1199951171875,
+            38.15999984741211,
+            28.079999923706055
+          ],
+          "rotation": 0.0,
+          "text": "02",
+          "text_bound_pt": [
+            26.37504005432129,
+            22.105039596557617
+          ],
+          "available_pt": [
+            38.15999984741211,
+            28.079999923706055
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "section_02",
+          "type": 17,
+          "rect_pt": [
+            92.16000366210938,
+            248.39999389648438,
+            777.5999755859375,
+            19.440000534057617
+          ],
+          "rotation": 0.0,
+          "text": "合作科研",
+          "text_bound_pt": [
+            53.75,
+            15.350000381469727
+          ],
+          "available_pt": [
+            777.5999755859375,
+            19.440000534057617
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "project_02",
+          "type": 17,
+          "rect_pt": [
+            91.44000244140625,
+            270.0,
+            820.7999877929688,
+            33.119998931884766
+          ],
+          "rotation": 0.0,
+          "text": "二维尘埃等离子体晶格波",
+          "text_bound_pt": [
+            248.5,
+            27.015039443969727
+          ],
+          "available_pt": [
+            820.7999877929688,
+            33.119998931884766
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 22.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "13",
+          "name": "detail_02",
+          "type": 17,
+          "rect_pt": [
+            92.16000366210938,
+            301.67999267578125,
+            806.4000244140625,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "偏振数据处理与粒子轨迹可视化",
+          "text_bound_pt": [
+            221.6250457763672,
+            19.030000686645508
+          ],
+          "available_pt": [
+            806.4000244140625,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "14",
+          "name": "sequence_02",
+          "type": 9,
+          "rect_pt": [
+            59.7599983215332,
+            282.9599914550781,
+            0.0,
+            38.880001068115234
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "15",
+          "name": "number_03",
+          "type": 17,
+          "rect_pt": [
+            47.52000045776367,
+            335.5199890136719,
+            38.15999984741211,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "03",
+          "text_bound_pt": [
+            25.0,
+            20.87504005432129
+          ],
+          "available_pt": [
+            38.15999984741211,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "16",
+          "name": "section_03",
+          "type": 17,
+          "rect_pt": [
+            92.16000366210938,
+            334.79998779296875,
+            777.5999755859375,
+            19.440000534057617
+          ],
+          "rotation": 0.0,
+          "text": "一次较早的自主探索",
+          "text_bound_pt": [
+            116.25,
+            15.350000381469727
+          ],
+          "available_pt": [
+            777.5999755859375,
+            19.440000534057617
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "17",
+          "name": "project_03",
+          "type": 17,
+          "rect_pt": [
+            91.44000244140625,
+            356.3999938964844,
+            820.7999877929688,
+            30.959999084472656
+          ],
+          "rotation": 0.0,
+          "text": "波纹管乐音研究",
+          "text_bound_pt": [
+            146.0,
+            24.559999465942383
+          ],
+          "available_pt": [
+            820.7999877929688,
+            30.959999084472656
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "18",
+          "name": "detail_03",
+          "type": 17,
+          "rect_pt": [
+            92.16000366210938,
+            385.9200134277344,
+            806.4000244140625,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "实验、录音与频谱分析",
+          "text_bound_pt": [
+            154.5,
+            18.420000076293945
+          ],
+          "available_pt": [
+            806.4000244140625,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "19",
+          "name": "sequence_03",
+          "type": 9,
+          "rect_pt": [
+            59.7599983215332,
+            367.9200134277344,
+            0.0,
+            38.15999984741211
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "20",
+          "name": "number_04",
+          "type": 17,
+          "rect_pt": [
+            47.52000045776367,
+            420.4800109863281,
+            38.15999984741211,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "04",
+          "text_bound_pt": [
+            23.5,
+            19.649999618530273
+          ],
+          "available_pt": [
+            38.15999984741211,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "21",
+          "name": "section_04",
+          "type": 17,
+          "rect_pt": [
+            92.16000366210938,
+            420.4800109863281,
+            777.5999755859375,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "后来的一些个人探索",
+          "text_bound_pt": [
+            111.5,
+            14.735039710998535
+          ],
+          "available_pt": [
+            777.5999755859375,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "22",
+          "name": "project_04a",
+          "type": 17,
+          "rect_pt": [
+            91.44000244140625,
+            442.0799865722656,
+            820.7999877929688,
+            28.079999923706055
+          ],
+          "rotation": 0.0,
+          "text": "物理学习 Agent / 长期学习系统",
+          "text_bound_pt": [
+            257.75,
+            21.489999771118164
+          ],
+          "available_pt": [
+            820.7999877929688,
+            28.079999923706055
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "23",
+          "name": "project_04b",
+          "type": 17,
+          "rect_pt": [
+            91.44000244140625,
+            468.7200012207031,
+            820.7999877929688,
+            26.639999389648438
+          ],
+          "rotation": 0.0,
+          "text": "写作 / 个人网页",
+          "text_bound_pt": [
+            129.0,
+            21.489999771118164
+          ],
+          "available_pt": [
+            820.7999877929688,
+            26.639999389648438
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "24",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "S1",
+          "text_bound_pt": [
+            22.75,
+            18.420000076293945
+          ],
+          "available_pt": [
+            46.79999923706055,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 2,
+      "logical": "S1",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "e044e7f07a6f68de0772f6ed56868e8078d3a33af918c566bf75e71e4cf30ca8",
+        "full_png_sha256": "e044e7f07a6f68de0772f6ed56868e8078d3a33af918c566bf75e71e4cf30ca8"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "TextBox 1",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            14.739999771118164
+          ],
+          "rotation": 0.0,
+          "text": "本科毕设",
+          "text_bound_pt": [
+            47.25,
+            13.710000038146973
+          ],
+          "available_pt": [
+            720.0,
+            14.739999771118164
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "TextBox 2",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            880.5599975585938,
+            50.400001525878906
+          ],
+          "rotation": 0.0,
+          "text": "我的毕业设计：三维周期电阻膜吸波结构",
+          "text_bound_pt": [
+            548.8750610351562,
+            37.375038146972656
+          ],
+          "available_pt": [
+            880.5599975585938,
+            50.400001525878906
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 30.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "Connector 3",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "4",
+          "name": "TextBox 4",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "C01 原始CST图裁切；C18 最终图案。边界设置沿用R1；截图不能独立锁定最终参数。",
+          "text_bound_pt": [
+            347.3750305175781,
+            11.215039253234863
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "TextBox 5",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S2",
+          "text_bound_pt": [
+            22.75,
+            18.690000534057617
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "TextBox 6",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            106.55999755859375,
+            849.5999755859375,
+            29.479999542236328
+          ],
+          "rotation": 0.0,
+          "text": "目标：在 2–18 GHz 内探索宽带低反射结构",
+          "text_bound_pt": [
+            428.75,
+            27.4150390625
+          ],
+          "available_pt": [
+            849.5999755859375,
+            29.479999542236328
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 22.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "Picture 7",
+          "type": 13,
+          "rect_pt": [
+            125.61882019042969,
+            146.8800048828125,
+            419.8022766113281,
+            339.8399963378906
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "8",
+          "name": "TextBox 8",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            163.44000244140625,
+            92.87999725341797,
+            53.279998779296875
+          ],
+          "rotation": 0.0,
+          "text": "两组膜\r竖直正交",
+          "text_bound_pt": [
+            77.37503814697266,
+            46.619998931884766
+          ],
+          "available_pt": [
+            92.87999725341797,
+            53.279998779296875
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "9",
+          "name": "Connector 9",
+          "type": 9,
+          "rect_pt": [
+            137.52000427246094,
+            210.24000549316406,
+            111.5999984741211,
+            34.560001373291016
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "10",
+          "name": "TextBox 10",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            290.1600036621094,
+            105.12000274658203,
+            53.279998779296875
+          ],
+          "rotation": 0.0,
+          "text": "PET 支撑\r表面为电阻层",
+          "text_bound_pt": [
+            100.75,
+            41.445037841796875
+          ],
+          "available_pt": [
+            105.12000274658203,
+            53.279998779296875
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "Connector 11",
+          "type": 9,
+          "rect_pt": [
+            147.59991455078125,
+            329.0400085449219,
+            101.52008056640625,
+            10.800000190734863
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "12",
+          "name": "TextBox 12",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            412.55999755859375,
+            108.0,
+            28.799999237060547
+          ],
+          "rotation": 0.0,
+          "text": "XY 周期",
+          "text_bound_pt": [
+            69.25,
+            22.43000030517578
+          ],
+          "available_pt": [
+            108.0,
+            28.799999237060547
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "13",
+          "name": "Connector 13",
+          "type": 9,
+          "rect_pt": [
+            138.9600067138672,
+            415.44000244140625,
+            46.08000183105469,
+            14.399999618530273
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "14",
+          "name": "TextBox 14",
+          "type": 17,
+          "rect_pt": [
+            462.239990234375,
+            149.75999450683594,
+            107.27999877929688,
+            48.959999084472656
+          ],
+          "rotation": 0.0,
+          "text": "正入射\r沿 −z",
+          "text_bound_pt": [
+            52.75,
+            41.445037841796875
+          ],
+          "available_pt": [
+            107.27999877929688,
+            48.959999084472656
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "15",
+          "name": "Connector 15",
+          "type": 9,
+          "rect_pt": [
+            446.3999938964844,
+            153.36000061035156,
+            0.0,
+            59.040000915527344
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "16",
+          "name": "Picture 16",
+          "type": 13,
+          "rect_pt": [
+            509.0400085449219,
+            424.3714294433594,
+            42.47999954223633,
+            40.457088470458984
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "17",
+          "name": "TextBox 17",
+          "type": 17,
+          "rect_pt": [
+            154.8000030517578,
+            479.5199890136719,
+            417.6000061035156,
+            20.15999984741211
+          ],
+          "rotation": 0.0,
+          "text": "底部设为 PEC 理想电边界",
+          "text_bound_pt": [
+            175.8750457763672,
+            18.690000534057617
+          ],
+          "available_pt": [
+            417.6000061035156,
+            20.15999984741211
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "18",
+          "name": "TextBox 18",
+          "type": 17,
+          "rect_pt": [
+            632.159912109375,
+            168.47999572753906,
+            285.8399963378906,
+            25.459999084472656
+          ],
+          "rotation": 0.0,
+          "text": "两张膜的图案",
+          "text_bound_pt": [
+            119.62503814697266,
+            23.68000030517578
+          ],
+          "available_pt": [
+            285.8399963378906,
+            25.459999084472656
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 19.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "19",
+          "name": "TextBox 19",
+          "type": 17,
+          "rect_pt": [
+            638.639892578125,
+            208.0800018310547,
+            105.12000274658203,
+            21.440000534057617
+          ],
+          "rotation": 0.0,
+          "text": "X",
+          "text_bound_pt": [
+            15.125039100646973,
+            19.940000534057617
+          ],
+          "available_pt": [
+            105.12000274658203,
+            21.440000534057617
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "20",
+          "name": "Picture 20",
+          "type": 13,
+          "rect_pt": [
+            638.639892578125,
+            234.8325958251953,
+            105.12000274658203,
+            104.89464569091797
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "21",
+          "name": "TextBox 21",
+          "type": 17,
+          "rect_pt": [
+            782.6400146484375,
+            208.0800018310547,
+            105.12000274658203,
+            21.440000534057617
+          ],
+          "rotation": 0.0,
+          "text": "Y",
+          "text_bound_pt": [
+            14.374960899353027,
+            19.940000534057617
+          ],
+          "available_pt": [
+            105.12000274658203,
+            21.440000534057617
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "22",
+          "name": "Picture 22",
+          "type": 13,
+          "rect_pt": [
+            782.6400146484375,
+            234.72000122070312,
+            105.12000274658203,
+            105.12000274658203
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "23",
+          "name": "TextBox 23",
+          "type": 17,
+          "rect_pt": [
+            637.919921875,
+            353.5199890136719,
+            279.3599853515625,
+            36.0
+          ],
+          "rotation": 0.0,
+          "text": "黑：保留电阻层　白：去除电阻层\r原矩阵行序；PET没有随白区挖空",
+          "text_bound_pt": [
+            183.5,
+            31.085039138793945
+          ],
+          "available_pt": [
+            279.3599853515625,
+            36.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "24",
+          "name": "TextBox 24",
+          "type": 17,
+          "rect_pt": [
+            632.8799438476562,
+            429.1199951171875,
+            288.7200012207031,
+            66.23999786376953
+          ],
+          "rotation": 0.0,
+          "text": "反射要少，能量也要\r真正耗散在电阻膜中。",
+          "text_bound_pt": [
+            216.25,
+            54.38999938964844
+          ],
+          "available_pt": [
+            288.7200012207031,
+            66.23999786376953
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 21.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 3,
+      "logical": "S2",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "8432eca388bee8fc3978e33e14072fbbf7b6da4375c41f8e88465721eb214033",
+        "full_png_sha256": "8432eca388bee8fc3978e33e14072fbbf7b6da4375c41f8e88465721eb214033"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "TextBox 1",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            14.739999771118164
+          ],
+          "rotation": 0.0,
+          "text": "本科毕设",
+          "text_bound_pt": [
+            47.25,
+            13.710000038146973
+          ],
+          "available_pt": [
+            720.0,
+            14.739999771118164
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "TextBox 2",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            880.5599975585938,
+            50.400001525878906
+          ],
+          "rotation": 0.0,
+          "text": "这些参数分别在改变什么？",
+          "text_bound_pt": [
+            368.8750305175781,
+            37.375038146972656
+          ],
+          "available_pt": [
+            880.5599975585938,
+            50.400001525878906
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 30.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "Connector 3",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "4",
+          "name": "TextBox 4",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "C07：2026-09据保存图案绘制的结构示意；C18原矩阵图案。此页是当前物理理解，不是已验证机理。",
+          "text_bound_pt": [
+            413.0,
+            11.215039253234863
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "TextBox 5",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S3",
+          "text_bound_pt": [
+            22.75,
+            18.690000534057617
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "TextBox 6",
+          "type": 17,
+          "rect_pt": [
+            42.47999954223633,
+            106.55999755859375,
+            856.7999877929688,
+            22.780000686645508
+          ],
+          "rotation": 0.0,
+          "text": "这是我现在对这些参数的理解。",
+          "text_bound_pt": [
+            243.0,
+            21.185039520263672
+          ],
+          "available_pt": [
+            856.7999877929688,
+            22.780000686645508
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "Picture 7",
+          "type": 13,
+          "rect_pt": [
+            95.76000213623047,
+            192.24000549316406,
+            302.3999938964844,
+            245.0374755859375
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "8",
+          "name": "Connector 8",
+          "type": 9,
+          "rect_pt": [
+            328.327392578125,
+            208.4510955810547,
+            0.0,
+            114.10149383544922
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "9",
+          "name": "Connector 9",
+          "type": 9,
+          "rect_pt": [
+            320.2218017578125,
+            208.4510955810547,
+            13.093622207641602,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "10",
+          "name": "Connector 10",
+          "type": 9,
+          "rect_pt": [
+            320.2218017578125,
+            322.5526123046875,
+            13.093622207641602,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "11",
+          "name": "TextBox 11",
+          "type": 17,
+          "rect_pt": [
+            336.1954345703125,
+            253.3434600830078,
+            21.600000381469727,
+            28.139999389648438
+          ],
+          "rotation": 0.0,
+          "text": "h",
+          "text_bound_pt": [
+            19.75,
+            26.1650390625
+          ],
+          "available_pt": [
+            21.600000381469727,
+            28.139999389648438
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 21.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "TextBox 12",
+          "type": 17,
+          "rect_pt": [
+            43.20000076293945,
+            153.36000061035156,
+            426.239990234375,
+            28.139999389648438
+          ],
+          "rotation": 0.0,
+          "text": "高度 h：PEC 返回场相位、内部场分布",
+          "text_bound_pt": [
+            366.1250305175781,
+            26.1650390625
+          ],
+          "available_pt": [
+            426.239990234375,
+            28.139999389648438
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 21.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "13",
+          "name": "TextBox 13",
+          "type": 17,
+          "rect_pt": [
+            42.47999954223633,
+            447.8399963378906,
+            446.3999938964844,
+            25.459999084472656
+          ],
+          "rotation": 0.0,
+          "text": "周期 p：横向尺度、周期条件和单元之间的相互作用",
+          "text_bound_pt": [
+            441.8750305175781,
+            23.68000030517578
+          ],
+          "available_pt": [
+            446.3999938964844,
+            25.459999084472656
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 19.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "14",
+          "name": "TextBox 14",
+          "type": 17,
+          "rect_pt": [
+            44.63999938964844,
+            478.79998779296875,
+            435.6000061035156,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "周期也影响 Floquet 通道条件；灰底表示理想 PEC 边界。",
+          "text_bound_pt": [
+            311.0,
+            14.955039024353027
+          ],
+          "available_pt": [
+            435.6000061035156,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "15",
+          "name": "TextBox 15",
+          "type": 17,
+          "rect_pt": [
+            518.4000244140625,
+            154.8000030517578,
+            390.9599914550781,
+            30.81999969482422
+          ],
+          "rotation": 0.0,
+          "text": "图案：电流从哪里走？",
+          "text_bound_pt": [
+            236.8750457763672,
+            28.65999984741211
+          ],
+          "available_pt": [
+            390.9599914550781,
+            30.81999969482422
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 23.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "16",
+          "name": "TextBox 16",
+          "type": 17,
+          "rect_pt": [
+            529.2000122070312,
+            196.55999755859375,
+            112.31999969482422,
+            20.100000381469727
+          ],
+          "rotation": 0.0,
+          "text": "X",
+          "text_bound_pt": [
+            14.125039100646973,
+            18.690000534057617
+          ],
+          "available_pt": [
+            112.31999969482422,
+            20.100000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "17",
+          "name": "Picture 17",
+          "type": 13,
+          "rect_pt": [
+            529.2000122070312,
+            221.16030883789062,
+            112.31999969482422,
+            112.07921600341797
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "18",
+          "name": "TextBox 18",
+          "type": 17,
+          "rect_pt": [
+            674.6400146484375,
+            196.55999755859375,
+            112.31999969482422,
+            20.100000381469727
+          ],
+          "rotation": 0.0,
+          "text": "Y",
+          "text_bound_pt": [
+            13.5,
+            18.690000534057617
+          ],
+          "available_pt": [
+            112.31999969482422,
+            20.100000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "19",
+          "name": "Picture 19",
+          "type": 13,
+          "rect_pt": [
+            674.6400146484375,
+            221.0399932861328,
+            112.31999969482422,
+            112.31999969482422
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "20",
+          "name": "TextBox 20",
+          "type": 17,
+          "rect_pt": [
+            519.8400268554688,
+            346.32000732421875,
+            390.239990234375,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "哪里积累电荷，局部场也会跟着变。",
+          "text_bound_pt": [
+            277.0,
+            21.185039520263672
+          ],
+          "available_pt": [
+            390.239990234375,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "21",
+          "name": "TextBox 21",
+          "type": 17,
+          "rect_pt": [
+            519.1199951171875,
+            394.55999755859375,
+            392.3999938964844,
+            28.799999237060547
+          ],
+          "rotation": 0.0,
+          "text": "片阻：局部电场和表面电流是什么关系？",
+          "text_bound_pt": [
+            366.0,
+            24.920000076293945
+          ],
+          "available_pt": [
+            392.3999938964844,
+            28.799999237060547
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "22",
+          "name": "TextBox 22",
+          "type": 17,
+          "rect_pt": [
+            520.5599975585938,
+            434.1600036621094,
+            390.9599914550781,
+            46.79999923706055
+          ],
+          "rotation": 0.0,
+          "text": "Rₛ,ₓ、Rₛ,ᵧ 改变局部 Eₜ–K 关系\r电流变了，散射和耗散也会变。",
+          "text_bound_pt": [
+            243.0,
+            44.035037994384766
+          ],
+          "available_pt": [
+            390.9599914550781,
+            46.79999923706055
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 4,
+      "logical": "S3",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "4ddc6bb4c0c5676335d64fb03094c765becf507af810ad2d82ce62c4ee910dea",
+        "full_png_sha256": "4ddc6bb4c0c5676335d64fb03094c765becf507af810ad2d82ce62c4ee910dea"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "TextBox 1",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            14.739999771118164
+          ],
+          "rotation": 0.0,
+          "text": "本科毕设",
+          "text_bound_pt": [
+            47.25,
+            13.710000038146973
+          ],
+          "available_pt": [
+            720.0,
+            14.739999771118164
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "TextBox 2",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            880.5599975585938,
+            50.400001525878906
+          ],
+          "rotation": 0.0,
+          "text": "后来，我怎么决定下一步改什么？",
+          "text_bound_pt": [
+            458.8750305175781,
+            37.375038146972656
+          ],
+          "available_pt": [
+            880.5599975585938,
+            50.400001525878906
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 30.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "Connector 3",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "4",
+          "name": "TextBox 4",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "C12 → C15 → C16 → C17/C18。图案与继承沿用已核素材；判断按本人回顾，不补精确历史断点。",
+          "text_bound_pt": [
+            401.75,
+            11.215039253234863
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "TextBox 5",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S4",
+          "text_bound_pt": [
+            22.75,
+            18.690000534057617
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "TextBox 6",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            111.5999984741211,
+            177.1199951171875,
+            57.599998474121094
+          ],
+          "rotation": 0.0,
+          "text": "先调周期、高度，\r找出有效尺度",
+          "text_bound_pt": [
+            174.25,
+            54.38999938964844
+          ],
+          "available_pt": [
+            177.1199951171875,
+            57.599998474121094
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 21.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "TextBox 7",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            188.63999938964844,
+            159.1199951171875,
+            68.33999633789062
+          ],
+          "rotation": 0.0,
+          "text": "同时把 CST / Python\r参数化仿真跑通",
+          "text_bound_pt": [
+            124.0,
+            66.88504028320312
+          ],
+          "available_pt": [
+            159.1199951171875,
+            68.33999633789062
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "TextBox 8",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            293.0400085449219,
+            161.27999877929688,
+            97.19999694824219
+          ],
+          "rotation": 0.0,
+          "text": "再调尺寸，\r提升开始变慢。\r\r我开始加图案。",
+          "text_bound_pt": [
+            131.3750457763672,
+            95.0
+          ],
+          "available_pt": [
+            161.27999877929688,
+            97.19999694824219
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "9",
+          "name": "TextBox 9",
+          "type": 17,
+          "rect_pt": [
+            42.47999954223633,
+            432.7200012207031,
+            162.0,
+            37.439998626708984
+          ],
+          "rotation": 0.0,
+          "text": "早期用少量固定材料组合\r独立结构图尚未唯一定位",
+          "text_bound_pt": [
+            124.25,
+            28.495038986206055
+          ],
+          "available_pt": [
+            162.0,
+            37.439998626708984
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "10",
+          "name": "TextBox 10",
+          "type": 17,
+          "rect_pt": [
+            233.27999877929688,
+            111.5999984741211,
+            448.55999755859375,
+            30.959999084472656
+          ],
+          "rotation": 0.0,
+          "text": "这组图案表现更好，就沿着它继续细化",
+          "text_bound_pt": [
+            363.25,
+            26.1650390625
+          ],
+          "available_pt": [
+            448.55999755859375,
+            30.959999084472656
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 21.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "TextBox 11",
+          "type": 17,
+          "rect_pt": [
+            234.0,
+            154.0800018310547,
+            431.2799987792969,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "X 中央条带 + Y「纺锤形」阶梯镂空",
+          "text_bound_pt": [
+            242.75,
+            18.690000534057617
+          ],
+          "available_pt": [
+            431.2799987792969,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "TextBox 12",
+          "type": 17,
+          "rect_pt": [
+            249.83999633789062,
+            196.55999755859375,
+            97.19999694824219,
+            26.799999237060547
+          ],
+          "rotation": 0.0,
+          "text": "6×6",
+          "text_bound_pt": [
+            46.0,
+            24.920000076293945
+          ],
+          "available_pt": [
+            97.19999694824219,
+            26.799999237060547
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "13",
+          "name": "Picture 13",
+          "type": 13,
+          "rect_pt": [
+            249.83999633789062,
+            231.87315368652344,
+            97.19999694824219,
+            97.13362121582031
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "14",
+          "name": "Picture 14",
+          "type": 13,
+          "rect_pt": [
+            249.9063720703125,
+            347.760009765625,
+            97.0671615600586,
+            97.19999694824219
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "15",
+          "name": "Connector 15",
+          "type": 9,
+          "rect_pt": [
+            356.3999938964844,
+            337.67999267578125,
+            25.200000762939453,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "16",
+          "name": "TextBox 16",
+          "type": 17,
+          "rect_pt": [
+            394.55999755859375,
+            196.55999755859375,
+            97.19999694824219,
+            26.799999237060547
+          ],
+          "rotation": 0.0,
+          "text": "9×9",
+          "text_bound_pt": [
+            46.0,
+            24.920000076293945
+          ],
+          "available_pt": [
+            97.19999694824219,
+            26.799999237060547
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "17",
+          "name": "Picture 17",
+          "type": 13,
+          "rect_pt": [
+            394.6086730957031,
+            231.83999633789062,
+            97.10260009765625,
+            97.19999694824219
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "18",
+          "name": "Picture 18",
+          "type": 13,
+          "rect_pt": [
+            394.6086730957031,
+            347.760009765625,
+            97.10260009765625,
+            97.19999694824219
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "19",
+          "name": "Connector 19",
+          "type": 9,
+          "rect_pt": [
+            501.1199951171875,
+            337.67999267578125,
+            25.200000762939453,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "20",
+          "name": "TextBox 20",
+          "type": 17,
+          "rect_pt": [
+            539.280029296875,
+            196.55999755859375,
+            97.19999694824219,
+            26.799999237060547
+          ],
+          "rotation": 0.0,
+          "text": "12×12",
+          "text_bound_pt": [
+            70.75,
+            24.920000076293945
+          ],
+          "available_pt": [
+            97.19999694824219,
+            26.799999237060547
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "21",
+          "name": "Picture 21",
+          "type": 13,
+          "rect_pt": [
+            539.3843383789062,
+            231.83999633789062,
+            96.99118041992188,
+            97.19999694824219
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "22",
+          "name": "Picture 22",
+          "type": 13,
+          "rect_pt": [
+            539.280029296875,
+            347.8121337890625,
+            97.19999694824219,
+            97.09567260742188
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "23",
+          "name": "TextBox 23",
+          "type": 17,
+          "rect_pt": [
+            216.72000122070312,
+            270.7200012207031,
+            22.31999969482422,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "X",
+          "text_bound_pt": [
+            15.125039100646973,
+            19.940000534057617
+          ],
+          "available_pt": [
+            22.31999969482422,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "24",
+          "name": "TextBox 24",
+          "type": 17,
+          "rect_pt": [
+            216.72000122070312,
+            386.6400146484375,
+            22.31999969482422,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "Y",
+          "text_bound_pt": [
+            14.375039100646973,
+            19.940000534057617
+          ],
+          "available_pt": [
+            22.31999969482422,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "25",
+          "name": "TextBox 25",
+          "type": 17,
+          "rect_pt": [
+            250.55999755859375,
+            456.4800109863281,
+            414.7200012207031,
+            20.15999984741211
+          ],
+          "rotation": 0.0,
+          "text": "蓝/黑：保留电阻层；灰/白：去除。均为原矩阵行序。",
+          "text_bound_pt": [
+            265.75,
+            13.710000038146973
+          ],
+          "available_pt": [
+            414.7200012207031,
+            20.15999984741211
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "26",
+          "name": "TextBox 26",
+          "type": 17,
+          "rect_pt": [
+            722.8800048828125,
+            111.5999984741211,
+            198.72000122070312,
+            63.36000061035156
+          ],
+          "rotation": 0.0,
+          "text": "再加细，\r还是试试片阻？",
+          "text_bound_pt": [
+            153.25,
+            54.38999938964844
+          ],
+          "available_pt": [
+            198.72000122070312,
+            63.36000061035156
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 21.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "27",
+          "name": "TextBox 27",
+          "type": 17,
+          "rect_pt": [
+            724.3200073242188,
+            191.52000427246094,
+            198.72000122070312,
+            40.20000076293945
+          ],
+          "rotation": 0.0,
+          "text": "细化更费算力，\r提升也慢了。",
+          "text_bound_pt": [
+            109.5,
+            38.849998474121094
+          ],
+          "available_pt": [
+            198.72000122070312,
+            40.20000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "28",
+          "name": "TextBox 28",
+          "type": 17,
+          "rect_pt": [
+            756.0,
+            236.8800048828125,
+            155.52000427246094,
+            30.81999969482422
+          ],
+          "rotation": 0.0,
+          "text": "Rₛ,ₓ、Rₛ,ᵧ",
+          "text_bound_pt": [
+            106.5,
+            28.610000610351562
+          ],
+          "available_pt": [
+            155.52000427246094,
+            30.81999969482422
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 23.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "29",
+          "name": "Picture 29",
+          "type": 13,
+          "rect_pt": [
+            735.8400268554688,
+            296.7232971191406,
+            77.76000213623047,
+            77.59330749511719
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "30",
+          "name": "Picture 30",
+          "type": 13,
+          "rect_pt": [
+            834.47998046875,
+            296.6400146484375,
+            77.76000213623047,
+            77.76000213623047
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "31",
+          "name": "TextBox 31",
+          "type": 17,
+          "rect_pt": [
+            735.8400268554688,
+            275.0400085449219,
+            77.76000213623047,
+            18.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "X",
+          "text_bound_pt": [
+            13.124960899353027,
+            17.445039749145508
+          ],
+          "available_pt": [
+            77.76000213623047,
+            18.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "32",
+          "name": "TextBox 32",
+          "type": 17,
+          "rect_pt": [
+            834.47998046875,
+            275.0400085449219,
+            77.76000213623047,
+            18.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "Y",
+          "text_bound_pt": [
+            12.624960899353027,
+            17.445039749145508
+          ],
+          "available_pt": [
+            77.76000213623047,
+            18.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "33",
+          "name": "TextBox 33",
+          "type": 17,
+          "rect_pt": [
+            722.8800048828125,
+            395.2799987792969,
+            200.16000366210938,
+            52.560001373291016
+          ],
+          "rotation": 0.0,
+          "text": "从固定商品参数，\r转向连续数值片阻。",
+          "text_bound_pt": [
+            158.0,
+            44.035037994384766
+          ],
+          "available_pt": [
+            200.16000366210938,
+            52.560001373291016
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "34",
+          "name": "TextBox 34",
+          "type": 17,
+          "rect_pt": [
+            722.8800048828125,
+            456.4800109863281,
+            200.16000366210938,
+            20.8799991607666
+          ],
+          "rotation": 0.0,
+          "text": "hf与最终同图案；尺寸、片阻不同",
+          "text_bound_pt": [
+            152.6250457763672,
+            12.460000038146973
+          ],
+          "available_pt": [
+            200.16000366210938,
+            20.8799991607666
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 10.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "35",
+          "name": "Connector 35",
+          "type": 9,
+          "rect_pt": [
+            184.32000732421875,
+            335.5199890136719,
+            41.7599983215332,
+            33.119998931884766
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "36",
+          "name": "Connector 36",
+          "type": 9,
+          "rect_pt": [
+            647.280029296875,
+            336.9599914550781,
+            56.15999984741211,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "37",
+          "name": "TextBox 37",
+          "type": 17,
+          "rect_pt": [
+            42.47999954223633,
+            486.0,
+            869.760009765625,
+            20.8799991607666
+          ],
+          "rotation": 0.0,
+          "text": "工具帮我试这些选择：GA 提候选 → Python 组织仿真 → CST 求解",
+          "text_bound_pt": [
+            420.1650390625,
+            17.445039749145508
+          ],
+          "available_pt": [
+            869.760009765625,
+            20.8799991607666
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 5,
+      "logical": "S4",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "b2ae83d690a1235eb882f6fc68700d385e49c62f730e9e49be90fca0c6ace27c",
+        "full_png_sha256": "b2ae83d690a1235eb882f6fc68700d385e49c62f730e9e49be90fca0c6ace27c"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "TextBox 1",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            14.739999771118164
+          ],
+          "rotation": 0.0,
+          "text": "本科毕设",
+          "text_bound_pt": [
+            47.25,
+            13.710000038146973
+          ],
+          "available_pt": [
+            720.0,
+            14.739999771118164
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "TextBox 2",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            880.5599975585938,
+            50.400001525878906
+          ],
+          "rotation": 0.0,
+          "text": "最终结果：做到了什么，还缺什么？",
+          "text_bound_pt": [
+            488.8750305175781,
+            37.375038146972656
+          ],
+          "available_pt": [
+            880.5599975585938,
+            50.400001525878906
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 30.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "Connector 3",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "4",
+          "name": "TextBox 4",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "C22最终201点逐点连线；C18最终图案；C01结构回忆。没有新增求解或总吸收验证。",
+          "text_bound_pt": [
+            346.8750305175781,
+            11.215039253234863
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "TextBox 5",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S5",
+          "text_bound_pt": [
+            22.75,
+            18.690000534057617
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "TextBox 6",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            106.55999755859375,
+            554.4000244140625,
+            48.2400016784668
+          ],
+          "rotation": 0.0,
+          "text": "4.80–18.00 GHz",
+          "text_bound_pt": [
+            292.8750305175781,
+            44.855037689208984
+          ],
+          "available_pt": [
+            554.4000244140625,
+            48.2400016784668
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 36.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "TextBox 7",
+          "type": 17,
+          "rect_pt": [
+            43.20000076293945,
+            156.24000549316406,
+            568.7999877929688,
+            26.799999237060547
+          ],
+          "rotation": 0.0,
+          "text": "指定同模反射 ≤ −10 dB 的连续采样区间",
+          "text_bound_pt": [
+            367.8750305175781,
+            24.920000076293945
+          ],
+          "available_pt": [
+            568.7999877929688,
+            26.799999237060547
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "TextBox 8",
+          "type": 17,
+          "rect_pt": [
+            650.159912109375,
+            110.16000366210938,
+            272.8800048828125,
+            43.20000076293945
+          ],
+          "rotation": 0.0,
+          "text": "13.20 GHz",
+          "text_bound_pt": [
+            169.0,
+            38.630001068115234
+          ],
+          "available_pt": [
+            272.8800048828125,
+            43.20000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 31.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "9",
+          "name": "TextBox 9",
+          "type": 17,
+          "rect_pt": [
+            652.3200073242188,
+            156.24000549316406,
+            268.55999755859375,
+            24.479999542236328
+          ],
+          "rotation": 0.0,
+          "text": "端点跨度",
+          "text_bound_pt": [
+            77.37503814697266,
+            22.43000030517578
+          ],
+          "available_pt": [
+            268.55999755859375,
+            24.479999542236328
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "10",
+          "name": "Connector 10",
+          "type": 9,
+          "rect_pt": [
+            74.16000366210938,
+            218.16000366210938,
+            514.7999877929688,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "11",
+          "name": "TextBox 11",
+          "type": 17,
+          "rect_pt": [
+            37.439998626708984,
+            209.51992797851562,
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "0",
+          "text_bound_pt": [
+            10.5,
+            14.955039024353027
+          ],
+          "available_pt": [
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "Connector 12",
+          "type": 9,
+          "rect_pt": [
+            74.16000366210938,
+            258.0479431152344,
+            514.7999877929688,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "13",
+          "name": "TextBox 13",
+          "type": 17,
+          "rect_pt": [
+            37.439998626708984,
+            249.407958984375,
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "−5",
+          "text_bound_pt": [
+            19.37495994567871,
+            14.955039024353027
+          ],
+          "available_pt": [
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "14",
+          "name": "Connector 14",
+          "type": 9,
+          "rect_pt": [
+            74.16000366210938,
+            297.93597412109375,
+            514.7999877929688,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "15",
+          "name": "TextBox 15",
+          "type": 17,
+          "rect_pt": [
+            37.439998626708984,
+            289.2959899902344,
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "−10",
+          "text_bound_pt": [
+            26.37495994567871,
+            14.955039024353027
+          ],
+          "available_pt": [
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "16",
+          "name": "Connector 16",
+          "type": 9,
+          "rect_pt": [
+            74.16000366210938,
+            337.8239440917969,
+            514.7999877929688,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "17",
+          "name": "TextBox 17",
+          "type": 17,
+          "rect_pt": [
+            37.439998626708984,
+            329.1839294433594,
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "−15",
+          "text_bound_pt": [
+            26.37495994567871,
+            14.955039024353027
+          ],
+          "available_pt": [
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "18",
+          "name": "Connector 18",
+          "type": 9,
+          "rect_pt": [
+            74.16000366210938,
+            377.71197509765625,
+            514.7999877929688,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "19",
+          "name": "TextBox 19",
+          "type": 17,
+          "rect_pt": [
+            37.439998626708984,
+            369.07196044921875,
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "−20",
+          "text_bound_pt": [
+            26.37495994567871,
+            14.955039024353027
+          ],
+          "available_pt": [
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "20",
+          "name": "Connector 20",
+          "type": 9,
+          "rect_pt": [
+            74.16000366210938,
+            417.6000061035156,
+            514.7999877929688,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "21",
+          "name": "TextBox 21",
+          "type": 17,
+          "rect_pt": [
+            37.439998626708984,
+            408.9599914550781,
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "−25",
+          "text_bound_pt": [
+            26.37495994567871,
+            14.955039024353027
+          ],
+          "available_pt": [
+            28.799999237060547,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "22",
+          "name": "TextBox 22",
+          "type": 17,
+          "rect_pt": [
+            58.31999969482422,
+            425.5199890136719,
+            31.68000030517578,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "2",
+          "text_bound_pt": [
+            10.5,
+            14.955039024353027
+          ],
+          "available_pt": [
+            31.68000030517578,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "23",
+          "name": "TextBox 23",
+          "type": 17,
+          "rect_pt": [
+            187.01992797851562,
+            425.5199890136719,
+            31.68000030517578,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "6",
+          "text_bound_pt": [
+            10.5,
+            14.955039024353027
+          ],
+          "available_pt": [
+            31.68000030517578,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "24",
+          "name": "TextBox 24",
+          "type": 17,
+          "rect_pt": [
+            315.7200012207031,
+            425.5199890136719,
+            31.68000030517578,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "10",
+          "text_bound_pt": [
+            17.5,
+            14.955039024353027
+          ],
+          "available_pt": [
+            31.68000030517578,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "25",
+          "name": "TextBox 25",
+          "type": 17,
+          "rect_pt": [
+            444.4200134277344,
+            425.5199890136719,
+            31.68000030517578,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "14",
+          "text_bound_pt": [
+            17.5,
+            14.955039024353027
+          ],
+          "available_pt": [
+            31.68000030517578,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "26",
+          "name": "TextBox 26",
+          "type": 17,
+          "rect_pt": [
+            573.1199951171875,
+            425.5199890136719,
+            31.68000030517578,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "18",
+          "text_bound_pt": [
+            17.5,
+            14.955039024353027
+          ],
+          "available_pt": [
+            31.68000030517578,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "27",
+          "name": "Connector 27",
+          "type": 9,
+          "rect_pt": [
+            74.16000366210938,
+            297.93597412109375,
+            514.7999877929688,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "28",
+          "name": "TextBox 28",
+          "type": 17,
+          "rect_pt": [
+            78.4800033569336,
+            274.1759948730469,
+            95.04000091552734,
+            20.15999984741211
+          ],
+          "rotation": 0.0,
+          "text": "−10 dB",
+          "text_bound_pt": [
+            49.125038146972656,
+            16.195039749145508
+          ],
+          "available_pt": [
+            95.04000091552734,
+            20.15999984741211
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "29",
+          "name": "C22_original_201_samples",
+          "type": 5,
+          "rect_pt": [
+            74.16000366210938,
+            233.92645263671875,
+            514.7999877929688,
+            171.59063720703125
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "30",
+          "name": "Connector 30",
+          "type": 9,
+          "rect_pt": [
+            164.25,
+            218.16000366210938,
+            0.0,
+            199.44000244140625
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "31",
+          "name": "Oval 31",
+          "type": 1,
+          "rect_pt": [
+            161.08197021484375,
+            295.10772705078125,
+            6.335984230041504,
+            6.335984230041504
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "32",
+          "name": "Oval 32",
+          "type": 1,
+          "rect_pt": [
+            585.7919921875,
+            296.90802001953125,
+            6.335984230041504,
+            6.335984230041504
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "33",
+          "name": "TextBox 33",
+          "type": 17,
+          "rect_pt": [
+            74.16000366210938,
+            192.24000549316406,
+            403.9200134277344,
+            19.440000534057617
+          ],
+          "rotation": 0.0,
+          "text": "指定同模反射 / dB",
+          "text_bound_pt": [
+            120.12503814697266,
+            17.445039749145508
+          ],
+          "available_pt": [
+            403.9200134277344,
+            19.440000534057617
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "34",
+          "name": "TextBox 34",
+          "type": 17,
+          "rect_pt": [
+            465.8399963378906,
+            192.24000549316406,
+            125.27999877929688,
+            19.440000534057617
+          ],
+          "rotation": 0.0,
+          "text": "18.00：扫描上限",
+          "text_bound_pt": [
+            94.37496185302734,
+            14.955039024353027
+          ],
+          "available_pt": [
+            125.27999877929688,
+            19.440000534057617
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "35",
+          "name": "TextBox 35",
+          "type": 17,
+          "rect_pt": [
+            131.0399932861328,
+            444.9599914550781,
+            175.67999267578125,
+            19.440000534057617
+          ],
+          "rotation": 0.0,
+          "text": "4.80：首个连续通过点",
+          "text_bound_pt": [
+            123.37503814697266,
+            14.955039024353027
+          ],
+          "available_pt": [
+            175.67999267578125,
+            19.440000534057617
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "36",
+          "name": "TextBox 36",
+          "type": 17,
+          "rect_pt": [
+            469.44000244140625,
+            444.9599914550781,
+            122.4000015258789,
+            19.440000534057617
+          ],
+          "rotation": 0.0,
+          "text": "频率 / GHz",
+          "text_bound_pt": [
+            69.12496185302734,
+            16.195039749145508
+          ],
+          "available_pt": [
+            122.4000015258789,
+            19.440000534057617
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "37",
+          "name": "TextBox 37",
+          "type": 17,
+          "rect_pt": [
+            43.20000076293945,
+            468.0,
+            570.9600219726562,
+            22.31999969482422
+          ],
+          "rotation": 0.0,
+          "text": "保存扫描 2–18 GHz · 201点 · 间隔0.08 GHz",
+          "text_bound_pt": [
+            299.0,
+            18.690000534057617
+          ],
+          "available_pt": [
+            570.9600219726562,
+            22.31999969482422
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "38",
+          "name": "TextBox 38",
+          "type": 17,
+          "rect_pt": [
+            652.3200073242188,
+            205.1999969482422,
+            65.5199966430664,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "X",
+          "text_bound_pt": [
+            12.25,
+            16.195039749145508
+          ],
+          "available_pt": [
+            65.5199966430664,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "39",
+          "name": "Picture 39",
+          "type": 13,
+          "rect_pt": [
+            652.3200073242188,
+            229.75015258789062,
+            65.5199966430664,
+            65.37952423095703
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "40",
+          "name": "TextBox 40",
+          "type": 17,
+          "rect_pt": [
+            738.0,
+            205.1999969482422,
+            65.5199966430664,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "Y",
+          "text_bound_pt": [
+            11.75,
+            16.195039749145508
+          ],
+          "available_pt": [
+            65.5199966430664,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "41",
+          "name": "Picture 41",
+          "type": 13,
+          "rect_pt": [
+            738.0,
+            229.67999267578125,
+            65.5199966430664,
+            65.5199966430664
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "42",
+          "name": "Picture 42",
+          "type": 13,
+          "rect_pt": [
+            826.5599975585938,
+            220.45709228515625,
+            92.16000366210938,
+            74.60566711425781
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "43",
+          "name": "TextBox 43",
+          "type": 17,
+          "rect_pt": [
+            650.159912109375,
+            321.8399963378906,
+            272.8800048828125,
+            28.799999237060547
+          ],
+          "rotation": 0.0,
+          "text": "如果现在继续，我会先做：",
+          "text_bound_pt": [
+            221.3750457763672,
+            22.43000030517578
+          ],
+          "available_pt": [
+            272.8800048828125,
+            28.799999237060547
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "44",
+          "name": "TextBox 44",
+          "type": 17,
+          "rect_pt": [
+            653.0399780273438,
+            365.0400085449219,
+            264.239990234375,
+            48.2400016784668
+          ],
+          "rotation": 0.0,
+          "text": "把开放传播通道的功率\r算清楚",
+          "text_bound_pt": [
+            175.0,
+            44.035037994384766
+          ],
+          "available_pt": [
+            264.239990234375,
+            48.2400016784668
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "45",
+          "name": "TextBox 45",
+          "type": 17,
+          "rect_pt": [
+            653.0399780273438,
+            425.5199890136719,
+            264.239990234375,
+            26.639999389648438
+          ],
+          "rotation": 0.0,
+          "text": "检查网格和数值收敛",
+          "text_bound_pt": [
+            158.0,
+            21.185039520263672
+          ],
+          "available_pt": [
+            264.239990234375,
+            26.639999389648438
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "46",
+          "name": "TextBox 46",
+          "type": 17,
+          "rect_pt": [
+            653.0399780273438,
+            464.3999938964844,
+            264.239990234375,
+            42.880001068115234
+          ],
+          "rotation": 0.0,
+          "text": "结果可靠后，再解释\r为什么会有宽带响应",
+          "text_bound_pt": [
+            148.75,
+            41.445037841796875
+          ],
+          "available_pt": [
+            264.239990234375,
+            42.880001068115234
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "47",
+          "name": "TextBox 47",
+          "type": 17,
+          "rect_pt": [
+            43.20000076293945,
+            491.760009765625,
+            561.5999755859375,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "这里统计的是同模反射，尚不能认定为总吸收带宽。",
+          "text_bound_pt": [
+            256.25,
+            13.710000038146973
+          ],
+          "available_pt": [
+            561.5999755859375,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 6,
+      "logical": "S5",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "6231fea0f4c80f7d1320ce11f4d0e3baa08f1a6efc2cc21f1d47731aefc25723",
+        "full_png_sha256": "6231fea0f4c80f7d1320ce11f4d0e3baa08f1a6efc2cc21f1d47731aefc25723"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            17.280000686645508
+          ],
+          "rotation": 0.0,
+          "text": "合作研究",
+          "text_bound_pt": [
+            47.25,
+            14.00503921508789
+          ],
+          "available_pt": [
+            720.0,
+            17.280000686645508
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            46.08000183105469
+          ],
+          "rotation": 0.0,
+          "text": "合作研究：二维尘埃等离子体中的偏振与粒子运动",
+          "text_bound_pt": [
+            624.3750610351562,
+            35.64503860473633
+          ],
+          "available_pt": [
+            882.0,
+            46.08000183105469
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "polarization_definition",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            100.80000305175781,
+            856.7999877929688,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "这里的“偏振”指颗粒在平面内的振动方向与二维轨迹",
+          "text_bound_pt": [
+            315.8750305175781,
+            16.545040130615234
+          ],
+          "available_pt": [
+            856.7999877929688,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "4",
+          "name": "historical_41_position_trajectories",
+          "type": 13,
+          "rect_pt": [
+            72.0,
+            120.23999786376953,
+            379.6106262207031,
+            380.1600036621094
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "5",
+          "name": "research_question",
+          "type": 17,
+          "rect_pt": [
+            548.6400146484375,
+            146.15992736816406,
+            362.8800048828125,
+            69.12000274658203
+          ],
+          "rotation": 0.0,
+          "text": "中心颗粒振动向外传播后，\r为什么各位置的轨迹形状不同？",
+          "text_bound_pt": [
+            285.8750305175781,
+            53.060001373291016
+          ],
+          "available_pt": [
+            362.8800048828125,
+            69.12000274658203
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "my_work_label",
+          "type": 17,
+          "rect_pt": [
+            548.6400146484375,
+            233.27999877929688,
+            358.55999755859375,
+            26.639999389648438
+          ],
+          "rotation": 0.0,
+          "text": "我的工作",
+          "text_bound_pt": [
+            73.12503814697266,
+            21.639999389648438
+          ],
+          "available_pt": [
+            358.55999755859375,
+            26.639999389648438
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "my_work",
+          "type": 17,
+          "rect_pt": [
+            548.6400146484375,
+            267.8399963378906,
+            362.8800048828125,
+            66.23999786376953
+          ],
+          "rotation": 0.0,
+          "text": "MATLAB 偏振相关数据处理、\r粒子轨迹可视化与多位置图组整理",
+          "text_bound_pt": [
+            275.3750305175781,
+            47.75503921508789
+          ],
+          "available_pt": [
+            362.8800048828125,
+            66.23999786376953
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "historical_53_53_local_enlargement",
+          "type": 13,
+          "rect_pt": [
+            541.4400024414062,
+            361.44000244140625,
+            117.36000061035156,
+            64.83976745605469
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "9",
+          "name": "detail_label",
+          "type": 17,
+          "rect_pt": [
+            541.4400024414062,
+            432.7200012207031,
+            122.4000015258789,
+            33.119998931884766
+          ],
+          "rotation": 0.0,
+          "text": "局部放大\r(53,53)",
+          "text_bound_pt": [
+            47.25,
+            29.185039520263672
+          ],
+          "available_pt": [
+            122.4000015258789,
+            33.119998931884766
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "10",
+          "name": "observations",
+          "type": 17,
+          "rect_pt": [
+            679.6799926757812,
+            367.20001220703125,
+            231.1199951171875,
+            69.12000274658203
+          ],
+          "rotation": 0.0,
+          "text": "对称位置多为线状\r其他位置出现椭圆",
+          "text_bound_pt": [
+            149.3750457763672,
+            47.75503921508789
+          ],
+          "available_pt": [
+            231.1199951171875,
+            69.12000274658203
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "paper_explanation",
+          "type": 17,
+          "rect_pt": [
+            548.6400146484375,
+            473.760009765625,
+            365.760009765625,
+            20.8799991607666
+          ],
+          "rotation": 0.0,
+          "text": "论文解释：不同振动分量之间的相位延迟",
+          "text_bound_pt": [
+            237.8750457763672,
+            16.545040130615234
+          ],
+          "available_pt": [
+            365.760009765625,
+            20.8799991607666
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "13",
+          "name": "figure_reference",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "历史 41 个位置轨迹汇总图 · 对应论文 Fig.12",
+          "text_bound_pt": [
+            179.8750457763672,
+            11.455039024353027
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "14",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S6",
+          "text_bound_pt": [
+            22.75,
+            19.09503936767578
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 7,
+      "logical": "S6",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "63067fbc61a0108187654d41e93e26c24b1e29115b1098cf31fb96ad39c06638",
+        "full_png_sha256": "63067fbc61a0108187654d41e93e26c24b1e29115b1098cf31fb96ad39c06638"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            17.280000686645508
+          ],
+          "rotation": 0.0,
+          "text": "个人探索",
+          "text_bound_pt": [
+            47.25,
+            14.00503921508789
+          ],
+          "available_pt": [
+            720.0,
+            17.280000686645508
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            46.08000183105469
+          ],
+          "rotation": 0.0,
+          "text": "第一次把一个好奇的问题做成完整实验",
+          "text_bound_pt": [
+            484.3750305175781,
+            35.64503860473633
+          ],
+          "available_pt": [
+            882.0,
+            46.08000183105469
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "subtitle",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            97.91999816894531,
+            856.7999877929688,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "波纹管乐音研究 · 大二",
+          "text_bound_pt": [
+            131.75,
+            16.545040130615234
+          ],
+          "available_pt": [
+            856.7999877929688,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "4",
+          "name": "historical_waveform_and_spectrum",
+          "type": 13,
+          "rect_pt": [
+            43.20000076293945,
+            119.5199966430664,
+            460.79998779296875,
+            358.7908630371094
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "5",
+          "name": "research_question",
+          "type": 17,
+          "rect_pt": [
+            551.52001953125,
+            123.83999633789062,
+            364.32000732421875,
+            64.80000305175781
+          ],
+          "rotation": 0.0,
+          "text": "听起来稳定的乐音，\r能不能测量和比较？",
+          "text_bound_pt": [
+            204.5,
+            58.36503982543945
+          ],
+          "available_pt": [
+            364.32000732421875,
+            64.80000305175781
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 22.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "workflow",
+          "type": 17,
+          "rect_pt": [
+            551.52001953125,
+            205.9199981689453,
+            364.32000732421875,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "录音 → 频谱分析 → 提取主要频率",
+          "text_bound_pt": [
+            247.75,
+            20.3700008392334
+          ],
+          "available_pt": [
+            364.32000732421875,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "observation",
+          "type": 17,
+          "rect_pt": [
+            551.52001953125,
+            241.9199981689453,
+            364.32000732421875,
+            27.360000610351562
+          ],
+          "rotation": 0.0,
+          "text": "同组多次录音，主要频率相近",
+          "text_bound_pt": [
+            239.3750457763672,
+            22.9150390625
+          ],
+          "available_pt": [
+            364.32000732421875,
+            27.360000610351562
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "evidence_range",
+          "type": 17,
+          "rect_pt": [
+            551.52001953125,
+            276.4800109863281,
+            365.760009765625,
+            20.15999984741211
+          ],
+          "rotation": 0.0,
+          "text": "100 cm 管 · 01组的5段录音 · 主峰约1.49–1.53 kHz",
+          "text_bound_pt": [
+            255.1250457763672,
+            14.00503921508789
+          ],
+          "available_pt": [
+            365.760009765625,
+            20.15999984741211
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "9",
+          "name": "historical_demonstration_frame",
+          "type": 13,
+          "rect_pt": [
+            551.52001953125,
+            306.0,
+            326.8800048828125,
+            176.208740234375
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "10",
+          "name": "onsite_caption",
+          "type": 17,
+          "rect_pt": [
+            551.52001953125,
+            486.0,
+            364.32000732421875,
+            18.0
+          ],
+          "rotation": 0.0,
+          "text": "气泵供气的答辩演示现场",
+          "text_bound_pt": [
+            124.25,
+            14.00503921508789
+          ],
+          "available_pt": [
+            364.32000732421875,
+            18.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "contribution",
+          "type": 17,
+          "rect_pt": [
+            43.91999816894531,
+            486.0,
+            493.20001220703125,
+            20.8799991607666
+          ],
+          "rotation": 0.0,
+          "text": "实验、分析与汇报，主要由我自主推进",
+          "text_bound_pt": [
+            259.5,
+            19.09503936767578
+          ],
+          "available_pt": [
+            493.20001220703125,
+            20.8799991607666
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "13",
+          "name": "source_footer",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "历史录音与单边幅度谱 · 100 cm 管 · 01_1记录",
+          "text_bound_pt": [
+            188.0,
+            11.455039024353027
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "14",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S7",
+          "text_bound_pt": [
+            22.75,
+            19.09503936767578
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 8,
+      "logical": "S7",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "38ced8d84550caab272dc514b31f9f52ab748555dc9eca1badcabe7c14e2ebe1",
+        "full_png_sha256": "38ced8d84550caab272dc514b31f9f52ab748555dc9eca1badcabe7c14e2ebe1"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            288.0,
+            17.280000686645508
+          ],
+          "rotation": 0.0,
+          "text": "个人探索",
+          "text_bound_pt": [
+            47.25,
+            14.00503921508789
+          ],
+          "available_pt": [
+            288.0,
+            17.280000686645508
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "stage",
+          "type": 17,
+          "rect_pt": [
+            511.20001220703125,
+            19.440000534057617,
+            410.3999938964844,
+            15.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "协作  /  PROJECT COLLABORATION",
+          "text_bound_pt": [
+            161.0,
+            12.095039367675781
+          ],
+          "available_pt": [
+            410.3999938964844,
+            15.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            46.08000183105469
+          ],
+          "rotation": 0.0,
+          "text": "项目级协作：组织 AI 完成一个具体结果",
+          "text_bound_pt": [
+            503.5,
+            35.64503860473633
+          ],
+          "available_pt": [
+            882.0,
+            46.08000183105469
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "4",
+          "name": "subtitle",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            97.91999816894531,
+            864.0,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "物理学习 Agent · 第一次较系统的人–AI项目协作尝试",
+          "text_bound_pt": [
+            310.3750305175781,
+            16.545040130615234
+          ],
+          "available_pt": [
+            864.0,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "6",
+          "name": "source_footer",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "本人历史原型截图 S02 · 协作过程与复盘依本人确认",
+          "text_bound_pt": [
+            208.3750457763672,
+            11.455039024353027
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S8",
+          "text_bound_pt": [
+            22.75,
+            19.09503936767578
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "historical_agent",
+          "type": 13,
+          "rect_pt": [
+            43.20000076293945,
+            139.95716857910156,
+            536.4000244140625,
+            333.5256042480469
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "9",
+          "name": "image_caption",
+          "type": 17,
+          "rect_pt": [
+            43.91999816894531,
+            485.2799987792969,
+            532.7999877929688,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "物理学习 Agent · 历史原型界面",
+          "text_bound_pt": [
+            157.5,
+            14.00503921508789
+          ],
+          "available_pt": [
+            532.7999877929688,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "10",
+          "name": "goal",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            136.0800018310547,
+            309.6000061035156,
+            24.479999542236328
+          ],
+          "rotation": 0.0,
+          "text": "明确目标",
+          "text_bound_pt": [
+            81.62503814697266,
+            24.190000534057617
+          ],
+          "available_pt": [
+            309.6000061035156,
+            24.479999542236328
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 19.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "goal_detail",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            164.8800048828125,
+            309.6000061035156,
+            20.8799991607666
+          ],
+          "rotation": 0.0,
+          "text": "先拆解任务",
+          "text_bound_pt": [
+            74.12503814697266,
+            17.81999969482422
+          ],
+          "available_pt": [
+            309.6000061035156,
+            20.8799991607666
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "arrow1",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            190.8000030517578,
+            21.600000381469727,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "↓",
+          "text_bound_pt": [
+            11.125039100646973,
+            17.81999969482422
+          ],
+          "available_pt": [
+            21.600000381469727,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "13",
+          "name": "orchestration",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            213.1199951171875,
+            309.6000061035156,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "组织 / 调度 AI",
+          "text_bound_pt": [
+            128.1250457763672,
+            24.190000534057617
+          ],
+          "available_pt": [
+            309.6000061035156,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 19.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "14",
+          "name": "iteration",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            241.9199981689453,
+            309.6000061035156,
+            20.8799991607666
+          ],
+          "rotation": 0.0,
+          "text": "组织 Agent · 多轮迭代",
+          "text_bound_pt": [
+            144.6250457763672,
+            17.81999969482422
+          ],
+          "available_pt": [
+            309.6000061035156,
+            20.8799991607666
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "15",
+          "name": "arrow2",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            267.8399963378906,
+            21.600000381469727,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "↓",
+          "text_bound_pt": [
+            11.125039100646973,
+            17.81999969482422
+          ],
+          "available_pt": [
+            21.600000381469727,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "16",
+          "name": "prototype",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            290.8800048828125,
+            309.6000061035156,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "形成原型",
+          "text_bound_pt": [
+            81.62503814697266,
+            24.190000534057617
+          ],
+          "available_pt": [
+            309.6000061035156,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 19.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "17",
+          "name": "arrow3",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            322.55999755859375,
+            21.600000381469727,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "↓",
+          "text_bound_pt": [
+            11.125039100646973,
+            17.81999969482422
+          ],
+          "available_pt": [
+            21.600000381469727,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "18",
+          "name": "reflection",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            344.8800048828125,
+            309.6000061035156,
+            23.040000915527344
+          ],
+          "rotation": 0.0,
+          "text": "复盘 · 回头看",
+          "text_bound_pt": [
+            98.12503814697266,
+            20.3700008392334
+          ],
+          "available_pt": [
+            309.6000061035156,
+            23.040000915527344
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "19",
+          "name": "limits",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            372.9599914550781,
+            309.6000061035156,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "过度设计 / 重复造轮子",
+          "text_bound_pt": [
+            186.6250457763672,
+            22.9150390625
+          ],
+          "available_pt": [
+            309.6000061035156,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "20",
+          "name": "takeaway_label",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            422.6400146484375,
+            309.6000061035156,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "真正留下",
+          "text_bound_pt": [
+            51.5,
+            15.275039672851562
+          ],
+          "available_pt": [
+            309.6000061035156,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "21",
+          "name": "takeaway",
+          "type": 17,
+          "rect_pt": [
+            610.5599975585938,
+            442.79998779296875,
+            309.6000061035156,
+            57.599998474121094
+          ],
+          "rotation": 0.0,
+          "text": "人–AI协作方法\r与项目复盘",
+          "text_bound_pt": [
+            138.5,
+            53.060001373291016
+          ],
+          "available_pt": [
+            309.6000061035156,
+            57.599998474121094
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 9,
+      "logical": "S8",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "1094efe17639c197e8bae948ca43d1a2f17c9b16d3bc9e1c35cb31a958ced811",
+        "full_png_sha256": "1094efe17639c197e8bae948ca43d1a2f17c9b16d3bc9e1c35cb31a958ced811"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            288.0,
+            17.280000686645508
+          ],
+          "rotation": 0.0,
+          "text": "个人探索",
+          "text_bound_pt": [
+            47.25,
+            14.00503921508789
+          ],
+          "available_pt": [
+            288.0,
+            17.280000686645508
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "stage",
+          "type": 17,
+          "rect_pt": [
+            511.20001220703125,
+            19.440000534057617,
+            410.3999938964844,
+            15.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "整合  /  LONG-TERM COLLABORATION",
+          "text_bound_pt": [
+            178.25,
+            12.095039367675781
+          ],
+          "available_pt": [
+            410.3999938964844,
+            15.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            46.08000183105469
+          ],
+          "rotation": 0.0,
+          "text": "长期协作：让 AI 进入自己的日常工作流",
+          "text_bound_pt": [
+            503.5,
+            35.64503860473633
+          ],
+          "available_pt": [
+            882.0,
+            46.08000183105469
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "4",
+          "name": "subtitle",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            97.91999816894531,
+            864.0,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "考研学习系统 · 长期任务、状态与连续性的组织尝试",
+          "text_bound_pt": [
+            300.75,
+            16.545040130615234
+          ],
+          "available_pt": [
+            864.0,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "6",
+          "name": "source_footer",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "本人历史学习界面 S06 / S05 · 原图局部裁切 · 同一 S9 主题",
+          "text_bound_pt": [
+            238.3750457763672,
+            11.455039024353027
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S9",
+          "text_bound_pt": [
+            22.75,
+            19.09503936767578
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "evidence_label",
+          "type": 17,
+          "rect_pt": [
+            43.91999816894531,
+            131.0399932861328,
+            640.7999877929688,
+            20.15999984741211
+          ],
+          "rotation": 0.0,
+          "text": "知识地图 · 历史界面局部",
+          "text_bound_pt": [
+            133.3750457763672,
+            15.275039672851562
+          ],
+          "available_pt": [
+            640.7999877929688,
+            20.15999984741211
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "9",
+          "name": "historical_map",
+          "type": 13,
+          "rect_pt": [
+            55.281890869140625,
+            156.24000549316406,
+            618.0760498046875,
+            331.9200134277344
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "10",
+          "name": "question_1",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            168.47999572753906,
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "我长期在做什么？",
+          "text_bound_pt": [
+            149.3750457763672,
+            22.9150390625
+          ],
+          "available_pt": [
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "detail_1",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            200.16000366210938,
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "目标 · 知识结构",
+          "text_bound_pt": [
+            92.75,
+            16.545040130615234
+          ],
+          "available_pt": [
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "question_2",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            259.9200134277344,
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "我现在做到哪里？",
+          "text_bound_pt": [
+            149.3750457763672,
+            22.9150390625
+          ],
+          "available_pt": [
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "13",
+          "name": "detail_2",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            291.6000061035156,
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "状态 · 上下文",
+          "text_bound_pt": [
+            79.75,
+            16.545040130615234
+          ],
+          "available_pt": [
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "14",
+          "name": "question_3",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            351.3599853515625,
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "我下一步做什么？",
+          "text_bound_pt": [
+            149.3750457763672,
+            22.9150390625
+          ],
+          "available_pt": [
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "15",
+          "name": "detail_3",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            383.0400085449219,
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "材料 · 任务 · 通过条件",
+          "text_bound_pt": [
+            129.6250457763672,
+            16.545040130615234
+          ],
+          "available_pt": [
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "16",
+          "name": "continuity",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            442.79998779296875,
+            208.8000030517578,
+            51.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "让协作不必\r每次从零开始",
+          "text_bound_pt": [
+            107.12503814697266,
+            45.099998474121094
+          ],
+          "available_pt": [
+            208.8000030517578,
+            51.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 10,
+      "logical": "S9-A",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "965f8d97a722f87d30fd8f3b1ed2e8b1abf6b0f414d90fe23b43c77431f0ee95",
+        "full_png_sha256": "965f8d97a722f87d30fd8f3b1ed2e8b1abf6b0f414d90fe23b43c77431f0ee95"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            288.0,
+            17.280000686645508
+          ],
+          "rotation": 0.0,
+          "text": "个人探索",
+          "text_bound_pt": [
+            47.25,
+            14.00503921508789
+          ],
+          "available_pt": [
+            288.0,
+            17.280000686645508
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "stage",
+          "type": 17,
+          "rect_pt": [
+            511.20001220703125,
+            19.440000534057617,
+            410.3999938964844,
+            15.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "整合  /  LONG-TERM COLLABORATION",
+          "text_bound_pt": [
+            178.25,
+            12.095039367675781
+          ],
+          "available_pt": [
+            410.3999938964844,
+            15.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.5,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            46.08000183105469
+          ],
+          "rotation": 0.0,
+          "text": "长期协作：让 AI 进入自己的日常工作流",
+          "text_bound_pt": [
+            503.5,
+            35.64503860473633
+          ],
+          "available_pt": [
+            882.0,
+            46.08000183105469
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "4",
+          "name": "subtitle",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            97.91999816894531,
+            864.0,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "考研学习系统 · 长期任务、状态与连续性的组织尝试",
+          "text_bound_pt": [
+            300.75,
+            16.545040130615234
+          ],
+          "available_pt": [
+            864.0,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "6",
+          "name": "source_footer",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "rotation": 0.0,
+          "text": "本人历史学习界面 S06 / S05 · 原图局部裁切 · 同一 S9 主题",
+          "text_bound_pt": [
+            238.3750457763672,
+            11.455039024353027
+          ],
+          "available_pt": [
+            830.8800048828125,
+            15.119999885559082
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "S9",
+          "text_bound_pt": [
+            22.75,
+            19.09503936767578
+          ],
+          "available_pt": [
+            46.79999923706055,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "evidence_label",
+          "type": 17,
+          "rect_pt": [
+            43.91999816894531,
+            131.0399932861328,
+            640.7999877929688,
+            20.15999984741211
+          ],
+          "rotation": 0.0,
+          "text": "执行驾驶舱 · 历史界面局部",
+          "text_bound_pt": [
+            145.3750457763672,
+            15.275039672851562
+          ],
+          "available_pt": [
+            640.7999877929688,
+            20.15999984741211
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 12.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "9",
+          "name": "historical_cockpit",
+          "type": 13,
+          "rect_pt": [
+            43.20000076293945,
+            185.79196166992188,
+            642.239990234375,
+            272.81591796875
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "10",
+          "name": "question_1",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            168.47999572753906,
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "我长期在做什么？",
+          "text_bound_pt": [
+            149.3750457763672,
+            22.9150390625
+          ],
+          "available_pt": [
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "detail_1",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            200.16000366210938,
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "目标 · 知识结构",
+          "text_bound_pt": [
+            92.75,
+            16.545040130615234
+          ],
+          "available_pt": [
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "question_2",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            259.9200134277344,
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "我现在做到哪里？",
+          "text_bound_pt": [
+            149.3750457763672,
+            22.9150390625
+          ],
+          "available_pt": [
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "13",
+          "name": "detail_2",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            291.6000061035156,
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "状态 · 上下文",
+          "text_bound_pt": [
+            79.75,
+            16.545040130615234
+          ],
+          "available_pt": [
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "14",
+          "name": "question_3",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            351.3599853515625,
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "我下一步做什么？",
+          "text_bound_pt": [
+            149.3750457763672,
+            22.9150390625
+          ],
+          "available_pt": [
+            208.8000030517578,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 18.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "15",
+          "name": "detail_3",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            383.0400085449219,
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "rotation": 0.0,
+          "text": "材料 · 任务 · 通过条件",
+          "text_bound_pt": [
+            129.6250457763672,
+            16.545040130615234
+          ],
+          "available_pt": [
+            208.8000030517578,
+            21.600000381469727
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "16",
+          "name": "continuity",
+          "type": 17,
+          "rect_pt": [
+            711.3599853515625,
+            442.79998779296875,
+            208.8000030517578,
+            51.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "让协作不必\r每次从零开始",
+          "text_bound_pt": [
+            107.12503814697266,
+            45.099998474121094
+          ],
+          "available_pt": [
+            208.8000030517578,
+            51.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 17.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 11,
+      "logical": "S9-B",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "353f86f8022b28dba6de2c9a4312e4ce7a08e3b9cc1bcb64530948a1205fc815",
+        "full_png_sha256": "353f86f8022b28dba6de2c9a4312e4ce7a08e3b9cc1bcb64530948a1205fc815"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "个人探索",
+          "text_bound_pt": [
+            47.25,
+            14.305039405822754
+          ],
+          "available_pt": [
+            720.0,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            51.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "我也会把这些问题写下来",
+          "text_bound_pt": [
+            316.3750305175781,
+            36.4050407409668
+          ],
+          "available_pt": [
+            882.0,
+            51.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "subtitle",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            102.95999908447266,
+            871.2000122070312,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "“无用清静梦” · 个人公众号",
+          "text_bound_pt": [
+            170.75,
+            16.899999618530273
+          ],
+          "available_pt": [
+            871.2000122070312,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "4",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "5",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "S10",
+          "text_bound_pt": [
+            32.0,
+            19.5
+          ],
+          "available_pt": [
+            46.79999923706055,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "first_article",
+          "type": 13,
+          "rect_pt": [
+            251.1968536376953,
+            141.83999633789062,
+            456.6461486816406,
+            349.20001220703125
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "7",
+          "name": "source_footer",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            820.7999877929688,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "本人补充的历史截图 · 首篇文章条目",
+          "text_bound_pt": [
+            145.0,
+            11.699999809265137
+          ],
+          "available_pt": [
+            820.7999877929688,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 12,
+      "logical": "S10",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772",
+        "full_png_sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "个人探索",
+          "text_bound_pt": [
+            47.25,
+            14.305039405822754
+          ],
+          "available_pt": [
+            720.0,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            51.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "有些想法，我也会试着把它做成页面",
+          "text_bound_pt": [
+            456.3750305175781,
+            36.4050407409668
+          ],
+          "available_pt": [
+            882.0,
+            51.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "subtitle",
+          "type": 17,
+          "rect_pt": [
+            41.7599983215332,
+            102.95999908447266,
+            871.2000122070312,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "个人艺术网页 · 无用清净梦",
+          "text_bound_pt": [
+            157.75,
+            16.899999618530273
+          ],
+          "available_pt": [
+            871.2000122070312,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 13.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "4",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "5",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "S11",
+          "text_bound_pt": [
+            32.0,
+            19.5
+          ],
+          "available_pt": [
+            46.79999923706055,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "homepage",
+          "type": 13,
+          "rect_pt": [
+            138.2803955078125,
+            139.67999267578125,
+            681.7591552734375,
+            351.3599853515625
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "7",
+          "name": "source_footer",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            514.7999877929688,
+            828.0,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "本人提供的网页截图 · 整站入口",
+          "text_bound_pt": [
+            127.0,
+            11.699999809265137
+          ],
+          "available_pt": [
+            828.0,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 13,
+      "logical": "S11",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "21e37ef452e515813820640d3055ee55217293c676162830490680383a1f6160",
+        "full_png_sha256": "21e37ef452e515813820640d3055ee55217293c676162830490680383a1f6160"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "下一阶段",
+          "text_bound_pt": [
+            47.25,
+            14.305039405822754
+          ],
+          "available_pt": [
+            720.0,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            51.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "为什么我还想继续深造",
+          "text_bound_pt": [
+            288.3750305175781,
+            36.4050407409668
+          ],
+          "available_pt": [
+            882.0,
+            51.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "4",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "S12",
+          "text_bound_pt": [
+            32.0,
+            19.5
+          ],
+          "available_pt": [
+            46.79999923706055,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "opening_sentence",
+          "type": 17,
+          "rect_pt": [
+            54.720001220703125,
+            144.0,
+            853.2000122070312,
+            95.04000091552734
+          ],
+          "rotation": 0.0,
+          "text": "我想继续深造，其实和我本科这几年\r做的一些事情是连在一起的。",
+          "text_bound_pt": [
+            440.0,
+            73.33000183105469
+          ],
+          "available_pt": [
+            853.2000122070312,
+            95.04000091552734
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 27.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "curiosity",
+          "type": 17,
+          "rect_pt": [
+            56.15999984741211,
+            279.3599853515625,
+            838.7999877929688,
+            71.27999877929688
+          ],
+          "rotation": 0.0,
+          "text": "我喜欢从一个模糊的问题出发，\r慢慢把它变成可以研究、可以实现的东西。",
+          "text_bound_pt": [
+            385.8750305175781,
+            54.31999969482422
+          ],
+          "available_pt": [
+            838.7999877929688,
+            71.27999877929688
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "limits",
+          "type": 17,
+          "rect_pt": [
+            56.15999984741211,
+            367.20001220703125,
+            838.7999877929688,
+            71.27999877929688
+          ],
+          "rotation": 0.0,
+          "text": "但做得越多，我越觉得自己还需要补的是\r理论深度和专业判断。",
+          "text_bound_pt": [
+            365.8750305175781,
+            54.31999969482422
+          ],
+          "available_pt": [
+            838.7999877929688,
+            71.27999877929688
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 20.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "long_term",
+          "type": 17,
+          "rect_pt": [
+            56.880001068115234,
+            470.8800048828125,
+            849.5999755859375,
+            25.200000762939453
+          ],
+          "rotation": 0.0,
+          "text": "我想在一个领域里长期做深，最后能真正对自己的判断和结论负责。",
+          "text_bound_pt": [
+            439.25,
+            18.850000381469727
+          ],
+          "available_pt": [
+            849.5999755859375,
+            25.200000762939453
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.5,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 14,
+      "logical": "S12",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "b67c9fb90093632fe1999531dec748e2c25565e60f6e53063ca090e598211114",
+        "full_png_sha256": "b67c9fb90093632fe1999531dec748e2c25565e60f6e53063ca090e598211114"
+      }
+    },
+    {
+      "shapes": [
+        {
+          "path": "1",
+          "name": "section",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            17.280000686645508,
+            720.0,
+            18.719999313354492
+          ],
+          "rotation": 0.0,
+          "text": "下一阶段",
+          "text_bound_pt": [
+            47.25,
+            14.305039405822754
+          ],
+          "available_pt": [
+            720.0,
+            18.719999313354492
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 11.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "2",
+          "name": "title",
+          "type": 17,
+          "rect_pt": [
+            39.599998474121094,
+            46.79999923706055,
+            882.0,
+            51.84000015258789
+          ],
+          "rotation": 0.0,
+          "text": "我接下来更想把物理问题做深",
+          "text_bound_pt": [
+            372.3750305175781,
+            36.4050407409668
+          ],
+          "available_pt": [
+            882.0,
+            51.84000015258789
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 28.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "3",
+          "name": "footer_rule",
+          "type": 9,
+          "rect_pt": [
+            39.599998474121094,
+            506.8800048828125,
+            882.0,
+            0.0
+          ],
+          "rotation": 0.0
+        },
+        {
+          "path": "4",
+          "name": "slide_number",
+          "type": 17,
+          "rect_pt": [
+            875.52001953125,
+            510.4800109863281,
+            46.79999923706055,
+            25.920000076293945
+          ],
+          "rotation": 0.0,
+          "text": "S13",
+          "text_bound_pt": [
+            32.0,
+            19.5
+          ],
+          "available_pt": [
+            46.79999923706055,
+            25.920000076293945
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 15.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "5",
+          "name": "experience",
+          "type": 17,
+          "rect_pt": [
+            57.599998474121094,
+            130.32000732421875,
+            842.4000244140625,
+            34.560001373291016
+          ],
+          "rotation": 0.0,
+          "text": "电磁仿真 / 周期结构 / 数值优化",
+          "text_bound_pt": [
+            272.3750305175781,
+            24.705039978027344
+          ],
+          "available_pt": [
+            842.4000244140625,
+            34.560001373291016
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 19.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "6",
+          "name": "step1",
+          "type": 17,
+          "rect_pt": [
+            60.47999954223633,
+            177.83999633789062,
+            36.0,
+            23.040000915527344
+          ],
+          "rotation": 0.0,
+          "text": "↓",
+          "text_bound_pt": [
+            12.75,
+            20.805038452148438
+          ],
+          "available_pt": [
+            36.0,
+            23.040000915527344
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "7",
+          "name": "question",
+          "type": 17,
+          "rect_pt": [
+            56.15999984741211,
+            213.83999633789062,
+            842.4000244140625,
+            54.0
+          ],
+          "rotation": 0.0,
+          "text": "为什么会出现这样的响应？",
+          "text_bound_pt": [
+            368.8750305175781,
+            38.99504089355469
+          ],
+          "available_pt": [
+            842.4000244140625,
+            54.0
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 30.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "8",
+          "name": "step2",
+          "type": 17,
+          "rect_pt": [
+            60.47999954223633,
+            277.9200134277344,
+            36.0,
+            23.040000915527344
+          ],
+          "rotation": 0.0,
+          "text": "↓",
+          "text_bound_pt": [
+            12.75,
+            20.805038452148438
+          ],
+          "available_pt": [
+            36.0,
+            23.040000915527344
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "9",
+          "name": "physics_questions",
+          "type": 17,
+          "rect_pt": [
+            57.599998474121094,
+            311.0400085449219,
+            842.4000244140625,
+            38.880001068115234
+          ],
+          "rotation": 0.0,
+          "text": "模式 · 边界 · 损耗 · 可靠性",
+          "text_bound_pt": [
+            270.75,
+            29.905038833618164
+          ],
+          "available_pt": [
+            842.4000244140625,
+            38.880001068115234
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 23.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "10",
+          "name": "step3",
+          "type": 17,
+          "rect_pt": [
+            60.47999954223633,
+            360.7200012207031,
+            36.0,
+            23.040000915527344
+          ],
+          "rotation": 0.0,
+          "text": "↓",
+          "text_bound_pt": [
+            12.75,
+            20.805038452148438
+          ],
+          "available_pt": [
+            36.0,
+            23.040000915527344
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 16.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "11",
+          "name": "lab",
+          "type": 17,
+          "rect_pt": [
+            57.599998474121094,
+            393.1199951171875,
+            842.4000244140625,
+            36.720001220703125
+          ],
+          "rotation": 0.0,
+          "text": "Complex Waves and Fields",
+          "text_bound_pt": [
+            286.4800109863281,
+            28.600000381469727
+          ],
+          "available_pt": [
+            842.4000244140625,
+            36.720001220703125
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 22.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "12",
+          "name": "learning_boundary",
+          "type": 17,
+          "rect_pt": [
+            59.040000915527344,
+            445.67999267578125,
+            828.0,
+            23.760000228881836
+          ],
+          "rotation": 0.0,
+          "text": "topology / non-Hermitian：希望系统学习",
+          "text_bound_pt": [
+            275.8599853515625,
+            18.200000762939453
+          ],
+          "available_pt": [
+            828.0,
+            23.760000228881836
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 14.0,
+          "font_far_east": "Microsoft YaHei"
+        },
+        {
+          "path": "13",
+          "name": "westlake",
+          "type": 17,
+          "rect_pt": [
+            41.039920806884766,
+            514.7999877929688,
+            828.0,
+            16.559999465942383
+          ],
+          "rotation": 0.0,
+          "text": "Westlake Physics · 定导培养",
+          "text_bound_pt": [
+            118.62503814697266,
+            11.699999809265137
+          ],
+          "available_pt": [
+            828.0,
+            16.559999465942383
+          ],
+          "font_name": "Microsoft YaHei",
+          "font_size_pt": 9.0,
+          "font_far_east": "Microsoft YaHei"
+        }
+      ],
+      "text_overflow": [],
+      "objects_outside": [],
+      "page": 15,
+      "logical": "S13",
+      "hidden": false,
+      "notes_exact_match": true,
+      "source_render_comparison": {
+        "pixel_identical": true,
+        "difference_bbox": null,
+        "source_png_sha256": "64155cbd3ee2f6ab0c9b0d6ca1f6bdf6d0dc797375c3db567821131b8b709be6",
+        "full_png_sha256": "64155cbd3ee2f6ab0c9b0d6ca1f6bdf6d0dc797375c3db567821131b8b709be6"
+      }
+    }
+  ],
+  "images": [
+    {
+      "page": 3,
+      "name": "Picture 7",
+      "native_px": [
+        840,
+        680
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.2352939132078828,
+      "effective_image_ratio": 1.2352941176470589,
+      "relative_ratio_error": 1.6549838055546218e-07,
+      "pass": true
+    },
+    {
+      "page": 3,
+      "name": "Picture 16",
+      "native_px": [
+        105,
+        100
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0500014596977452,
+      "effective_image_ratio": 1.05,
+      "relative_ratio_error": 1.3901883286759897e-06,
+      "pass": true
+    },
+    {
+      "page": 3,
+      "name": "Picture 20",
+      "native_px": [
+        933,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0021483873582944,
+      "effective_image_ratio": 1.0021482277121374,
+      "relative_ratio_error": 1.593039358205317e-07,
+      "pass": true
+    },
+    {
+      "page": 3,
+      "name": "Picture 22",
+      "native_px": [
+        931,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0,
+      "effective_image_ratio": 1.0,
+      "relative_ratio_error": 0.0,
+      "pass": true
+    },
+    {
+      "page": 4,
+      "name": "Picture 7",
+      "native_px": [
+        485,
+        393
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.2340969210559465,
+      "effective_image_ratio": 1.2340966921119594,
+      "relative_ratio_error": 1.8551543701228468e-07,
+      "pass": true
+    },
+    {
+      "page": 4,
+      "name": "Picture 17",
+      "native_px": [
+        933,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0021483680692649,
+      "effective_image_ratio": 1.0021482277121374,
+      "relative_ratio_error": 1.4005625481594564e-07,
+      "pass": true
+    },
+    {
+      "page": 4,
+      "name": "Picture 19",
+      "native_px": [
+        931,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0,
+      "effective_image_ratio": 1.0,
+      "relative_ratio_error": 0.0,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "name": "Picture 13",
+      "native_px": [
+        1465,
+        1464
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0006833674206406,
+      "effective_image_ratio": 1.0006830601092895,
+      "relative_ratio_error": 3.0710158216429306e-07,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "name": "Picture 14",
+      "native_px": [
+        1462,
+        1464
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 0.9986333884190403,
+      "effective_image_ratio": 0.9986338797814208,
+      "relative_ratio_error": 4.920345588743658e-07,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "name": "Picture 17",
+      "native_px": [
+        1994,
+        1996
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 0.9989979261851528,
+      "effective_image_ratio": 0.998997995991984,
+      "relative_ratio_error": 6.987684808557049e-08,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "name": "Picture 18",
+      "native_px": [
+        1994,
+        1996
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 0.9989979261851528,
+      "effective_image_ratio": 0.998997995991984,
+      "relative_ratio_error": 6.987684808557049e-08,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "name": "Picture 21",
+      "native_px": [
+        929,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 0.9978516574317099,
+      "effective_image_ratio": 0.9978517722878625,
+      "relative_ratio_error": 1.1510342090570447e-07,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "name": "Picture 22",
+      "native_px": [
+        932,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0010745145424393,
+      "effective_image_ratio": 1.0010741138560688,
+      "relative_ratio_error": 4.00256449539782e-07,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "name": "Picture 29",
+      "native_px": [
+        933,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0021482898415421,
+      "effective_image_ratio": 1.0021482277121374,
+      "relative_ratio_error": 6.199622282210271e-08,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "name": "Picture 30",
+      "native_px": [
+        931,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0,
+      "effective_image_ratio": 1.0,
+      "relative_ratio_error": 0.0,
+      "pass": true
+    },
+    {
+      "page": 6,
+      "name": "Picture 39",
+      "native_px": [
+        933,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0021485692263223,
+      "effective_image_ratio": 1.0021482277121374,
+      "relative_ratio_error": 3.4078210742194415e-07,
+      "pass": true
+    },
+    {
+      "page": 6,
+      "name": "Picture 41",
+      "native_px": [
+        931,
+        931
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.0,
+      "effective_image_ratio": 1.0,
+      "relative_ratio_error": 0.0,
+      "pass": true
+    },
+    {
+      "page": 6,
+      "name": "Picture 42",
+      "native_px": [
+        840,
+        680
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.2352948626479168,
+      "effective_image_ratio": 1.2352941176470589,
+      "relative_ratio_error": 6.030959325276086e-07,
+      "pass": true
+    },
+    {
+      "page": 7,
+      "name": "historical_41_position_trajectories",
+      "native_px": [
+        691,
+        692
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 0.9985548977305867,
+      "effective_image_ratio": 0.9985549132947977,
+      "relative_ratio_error": 1.558673523582854e-08,
+      "pass": true
+    },
+    {
+      "page": 7,
+      "name": "historical_53_53_local_enlargement",
+      "native_px": [
+        905,
+        500
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.8100004250332438,
+      "effective_image_ratio": 1.81,
+      "relative_ratio_error": 2.348249965589133e-07,
+      "pass": true
+    },
+    {
+      "page": 8,
+      "name": "historical_waveform_and_spectrum",
+      "native_px": [
+        524,
+        408
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.28431363082128,
+      "effective_image_ratio": 1.2843137254901962,
+      "relative_ratio_error": 7.371167520808797e-08,
+      "pass": true
+    },
+    {
+      "page": 8,
+      "name": "historical_demonstration_frame",
+      "native_px": [
+        1280,
+        690
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.8550725673871942,
+      "effective_image_ratio": 1.855072463768116,
+      "relative_ratio_error": 5.5857159342309615e-08,
+      "pass": true
+    },
+    {
+      "page": 9,
+      "name": "historical_agent",
+      "native_px": [
+        1322,
+        822
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.608272394071923,
+      "effective_image_ratio": 1.608272506082725,
+      "relative_ratio_error": 6.964665599795694e-08,
+      "pass": true
+    },
+    {
+      "page": 10,
+      "name": "historical_map",
+      "native_px": [
+        1175,
+        631
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.8621235930107436,
+      "effective_image_ratio": 1.8621236133122028,
+      "relative_ratio_error": 1.0902315494831782e-08,
+      "pass": true
+    },
+    {
+      "page": 11,
+      "name": "historical_cockpit",
+      "native_px": [
+        944,
+        401
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 2.3541149435372475,
+      "effective_image_ratio": 2.3541147132169575,
+      "relative_ratio_error": 9.783732646262422e-08,
+      "pass": true
+    },
+    {
+      "page": 12,
+      "name": "first_article",
+      "native_px": [
+        1088,
+        832
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.3076922730019573,
+      "effective_image_ratio": 1.3076923076923077,
+      "relative_ratio_error": 2.6527914975815747e-08,
+      "pass": true
+    },
+    {
+      "page": 13,
+      "name": "homepage",
+      "native_px": [
+        1919,
+        989
+      ],
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_ratio": 1.9403436186767637,
+      "effective_image_ratio": 1.9403437815975733,
+      "relative_ratio_error": 8.396491957274321e-08,
+      "pass": true
+    }
+  ],
+  "text_overflow_count": 0,
+  "objects_outside_count": 0,
+  "notes_matches": 15,
+  "pixel_identical_slides": 15,
+  "image_ratio_failures": 0,
+  "pdf_sha256": "d042bf42e6c7bca9465a2601fc04eb8917b310ba1c4aa39a3eb6de67ca6be514"
+}

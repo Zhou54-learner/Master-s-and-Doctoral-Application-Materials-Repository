@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "slide_xml_byte_identical": 15,
+  "physical_slides": 15,
+  "logical_themes": 14,
+  "slide_size_emu": [
+    12191999,
+    6858000
+  ],
+  "all_common_template_parts_byte_identical": true,
+  "editable_objects": 281,
+  "speaker_notes_exact_match": 15,
+  "s13_v4_full_file_exact_match": true,
+  "pptx_sha256": "9145df25405588c21c9938ed703ad2587d085c61b669ca6a2bad9a3e887678dd",
+  "sources": [
+    {
+      "path": "A线_西湖博士\\面试与导师交流\\刘癸庚\\完整讲稿_当前版本合并版_v2_20261006.md",
+      "sha256": "cc5755565002a8d51f3b5d608719c51d71f2dabc1a2be24f4fe0dafda1f11298"
+    },
+    {
+      "path": "A线_西湖博士\\面试与导师交流\\刘癸庚\\S13_WhyWestlake-Liu_口述_v4_20261006.md",
+      "sha256": "a7557bebfccd0831a5b0405b2a41364c4c1b24568b24f8af412df53ae687b3df"
+    }
+  ],
+  "method": "OPC part copy; slide XML and visual asset bytes untouched; only relationships/order/metadata/notes updated."
+}
