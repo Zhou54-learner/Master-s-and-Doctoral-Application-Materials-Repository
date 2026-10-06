@@ -1,0 +1,352 @@
+{
+  "renderer": "Microsoft PowerPoint 16.0",
+  "slides": 1,
+  "pptx_sha256": "0eb7683bf26651f61f520dab984a56d7935112882203bb717f2cae56f999fd3c",
+  "text_overflow": [],
+  "outside_canvas": [],
+  "shapes": [
+    {
+      "name": "section",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        17.280000686645508,
+        288.0,
+        20.15999984741211
+      ],
+      "text": "个人探索",
+      "bound_pt": [
+        47.25,
+        14.305039405822754
+      ],
+      "available_pt": [
+        288.0,
+        20.15999984741211
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "candidate",
+      "type": 17,
+      "rect_pt": [
+        612.0,
+        19.440000534057617,
+        309.6000061035156,
+        18.719999313354492
+      ],
+      "text": "INTERNAL / v3.1 CANDIDATE",
+      "bound_pt": [
+        135.6249542236328,
+        12.350000381469727
+      ],
+      "available_pt": [
+        309.6000061035156,
+        18.719999313354492
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "title",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        46.79999923706055,
+        882.0,
+        50.400001525878906
+      ],
+      "text": "从一个突然冒出来的想法，到一套协作方法",
+      "bound_pt": [
+        540.3750610351562,
+        36.4050407409668
+      ],
+      "available_pt": [
+        882.0,
+        50.400001525878906
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "application_original_capture",
+      "type": 13,
+      "rect_pt": [
+        39.599998474121094,
+        111.5999984741211,
+        506.1600036621094,
+        314.7227478027344
+      ]
+    },
+    {
+      "name": "roles_original_capture",
+      "type": 13,
+      "rect_pt": [
+        572.4000244140625,
+        177.83999633789062,
+        349.20001220703125,
+        96.84724426269531
+      ]
+    },
+    {
+      "name": "lifecycle_original_capture",
+      "type": 13,
+      "rect_pt": [
+        572.4000244140625,
+        347.0400085449219,
+        349.20001220703125,
+        98.68031311035156
+      ]
+    },
+    {
+      "name": "demo_label",
+      "type": 17,
+      "rect_pt": [
+        46.79999923706055,
+        446.3999938964844,
+        244.8000030517578,
+        24.479999542236328
+      ],
+      "text": "从想法到 Demo",
+      "bound_pt": [
+        117.87503814697266,
+        20.149999618530273
+      ],
+      "available_pt": [
+        244.8000030517578,
+        24.479999542236328
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "demo_detail",
+      "type": 17,
+      "rect_pt": [
+        46.79999923706055,
+        478.79998779296875,
+        244.8000030517578,
+        24.479999542236328
+      ],
+      "text": "Codex 降低实现门槛",
+      "bound_pt": [
+        134.6250457763672,
+        18.200000762939453
+      ],
+      "available_pt": [
+        244.8000030517578,
+        24.479999542236328
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "complex_label",
+      "type": 17,
+      "rect_pt": [
+        314.6400146484375,
+        446.3999938964844,
+        230.39999389648438,
+        24.479999542236328
+      ],
+      "text": "项目复杂以后",
+      "bound_pt": [
+        97.62503814697266,
+        20.149999618530273
+      ],
+      "available_pt": [
+        230.39999389648438,
+        24.479999542236328
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "division_detail",
+      "type": 17,
+      "rect_pt": [
+        314.6400146484375,
+        478.79998779296875,
+        230.39999389648438,
+        24.479999542236328
+      ],
+      "text": "分角色 · 分窗口 · 分证据",
+      "bound_pt": [
+        148.0,
+        17.555038452148438
+      ],
+      "available_pt": [
+        230.39999389648438,
+        24.479999542236328
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "framework_heading",
+      "type": 17,
+      "rect_pt": [
+        572.4000244140625,
+        111.5999984741211,
+        349.20001220703125,
+        30.239999771118164
+      ],
+      "text": "后来继续整理出的协作框架",
+      "bound_pt": [
+        209.1250457763672,
+        22.100000381469727
+      ],
+      "available_pt": [
+        349.20001220703125,
+        30.239999771118164
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "roles_label",
+      "type": 17,
+      "rect_pt": [
+        572.4000244140625,
+        150.47991943359375,
+        349.20001220703125,
+        24.479999542236328
+      ],
+      "text": "角色拆分 · 九部门模型",
+      "bound_pt": [
+        150.0,
+        18.850000381469727
+      ],
+      "available_pt": [
+        349.20001220703125,
+        24.479999542236328
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "lifecycle_label",
+      "type": 17,
+      "rect_pt": [
+        572.4000244140625,
+        316.79998779296875,
+        349.20001220703125,
+        24.479999542236328
+      ],
+      "text": "阶段闭环 · 七阶段生命周期",
+      "bound_pt": [
+        179.0,
+        18.850000381469727
+      ],
+      "available_pt": [
+        349.20001220703125,
+        24.479999542236328
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "source_footer",
+      "type": 17,
+      "rect_pt": [
+        39.599998474121094,
+        523.4400024414062,
+        828.0,
+        12.960000038146973
+      ],
+      "text": "Physics Learning Assistant · 本人历史原型与协作方法文档；右侧为原图局部裁切",
+      "bound_pt": [
+        310.75,
+        11.055039405822754
+      ],
+      "available_pt": [
+        828.0,
+        12.960000038146973
+      ],
+      "font": "Microsoft YaHei"
+    },
+    {
+      "name": "slide_number",
+      "type": 17,
+      "rect_pt": [
+        874.7999877929688,
+        519.1199951171875,
+        46.79999923706055,
+        20.15999984741211
+      ],
+      "text": "S8",
+      "bound_pt": [
+        19.75,
+        16.899999618530273
+      ],
+      "available_pt": [
+        46.79999923706055,
+        20.15999984741211
+      ],
+      "font": "Microsoft YaHei"
+    }
+  ],
+  "notes": [
+    {
+      "exact_match": true,
+      "source": "speaker_notes.md"
+    }
+  ],
+  "images": [
+    {
+      "name": "application_original_capture",
+      "pixels": [
+        1322,
+        822
+      ],
+      "aspect_relative_error": 8.819066055210101e-08,
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "roles_original_capture",
+      "pixels": [
+        1143,
+        317
+      ],
+      "aspect_relative_error": 0.0,
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "lifecycle_original_capture",
+      "pixels": [
+        1143,
+        323
+      ],
+      "aspect_relative_error": 0.0,
+      "crop": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "source_checks": [
+    {
+      "key": "application",
+      "source_hash_match": true,
+      "crop_pixels_identical": true,
+      "embedded_bytes_identical": true
+    },
+    {
+      "key": "roles",
+      "source_hash_match": true,
+      "crop_pixels_identical": true,
+      "embedded_bytes_identical": true
+    },
+    {
+      "key": "lifecycle",
+      "source_hash_match": true,
+      "crop_pixels_identical": true,
+      "embedded_bytes_identical": true
+    }
+  ],
+  "pptx_unchanged_after_export": true,
+  "pdf_powerpoint_creator": true,
+  "powerpoint16_version_verified": true
+}
