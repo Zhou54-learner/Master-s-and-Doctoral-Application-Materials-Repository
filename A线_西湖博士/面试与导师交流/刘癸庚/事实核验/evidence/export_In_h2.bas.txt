@@ -1,0 +1,12 @@
+Sub Main
+If Not SelectTreeItem("2D/3D Results\Port Modes\Zmax\In\h2") Then Err.Raise 1001, , "Missing tree item"
+With ASCIIExport
+.Reset
+.FileName "F:\1A硕博申请\A线_西湖博士\面试与导师交流\刘癸庚\事实核验\evidence\port_Zmax_In_h2.txt"
+.Mode "FixedNumber"
+.StepX 3
+.StepY 3
+.StepZ 1
+.Execute
+End With
+End Sub

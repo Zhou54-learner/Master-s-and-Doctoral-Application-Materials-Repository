@@ -1,0 +1,27 @@
+[
+  {
+    "source": "F:\\CST Studio Suite 2025\\Online Help\\mergedProjects\\3D\\special_solvopt\\special_solvopt_floquet_special.htm",
+    "title": "CST 2025 Settings for Floquet Boundary: considered vs listed modes, polarization, evanescent truncation",
+    "sha256": "f968b618b2384d5bc9c7080b04130da6cfc2519ea5db0de9a158559feed5587c"
+  },
+  {
+    "source": "F:\\CST Studio Suite 2025\\Online Help\\mergedProjects\\VBA_3D\\special_vbaports\\floquetport_object.htm",
+    "title": "CST 2025 FloquetPort VBA: defaults, mode names, lattice-order definition",
+    "sha256": "0ba7ddbc61222002b7091a28a3ef0b923339642b04ef46fdd8636e0acdf2e57e"
+  },
+  {
+    "source": "F:\\CST Studio Suite 2025\\Online Help\\mergedProjects\\3D\\special_solvopt\\special_solvopt_boundary_conditions_scanangles.htm",
+    "title": "CST 2025 Scan Angles: inward/outward wave vectors, In/Out naming",
+    "sha256": "13c48365e8e60c82c07cac57d40c11fea2958678f10f1e9197834466bc65925c"
+  },
+  {
+    "source": "F:\\CST Studio Suite 2025\\Online Help\\mergedProjects\\VBA_3D\\common_vbaimpexp\\asciiexport_object.htm",
+    "title": "CST 2025 ASCIIExport: global coordinates and field components",
+    "sha256": "6e02a0b87c33312f30b01699cc21de761fe5ae348825579076813f5d4d69f439"
+  },
+  {
+    "source": "F:\\CST Studio Suite 2025\\Online Help\\mergedProjects\\VBA_3D\\special_vbaports\\special_vbaports_port_object.htm",
+    "title": "CST 2025 ordinary Port getters; not suitable for Floquet local-axis readback",
+    "sha256": "9ec88d2b2a9f8f611c762f9483d8fc5c3c199ca0e20179e5f285282c53f668e6"
+  }
+]

@@ -1,0 +1,3260 @@
+[
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12.cst",
+    "size": 109236,
+    "mtime_ns": 1777821050433793400,
+    "sha256": "a1d145af24db946b04d74e2c07d5ffc069511a9914fb1cdfcbf1dc53074b0174"
+  },
+  {
+    "path": "F:\\biyesheji\\code\\ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+    "size": 226507,
+    "mtime_ns": 1777798897314689800,
+    "sha256": "844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\anchorpoints.json",
+    "size": 68,
+    "mtime_ns": 1777821050217737900,
+    "sha256": "05cc20e9f05062bdfe928fd1a9e126b541f984e2f690a6ed685520a09a3f8a50"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.abi",
+    "size": 367,
+    "mtime_ns": 1777821050217737900,
+    "sha256": "ebbb42bf627b36bed70d487b937aa9357f53320f3ffe86eabcbd4baa615d0f72"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.ads",
+    "size": 134,
+    "mtime_ns": 1777821050202738300,
+    "sha256": "d1049039d1819785527132efb73f23dcfd0cacda209a80c92845b1c206442bcc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.alc",
+    "size": 101861,
+    "mtime_ns": 1777821050217737900,
+    "sha256": "baeab101cb72b35bcd92175e935df0bb4e10ab079dcb1c126ab1dd7475eadd1a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.bwc",
+    "size": 298093,
+    "mtime_ns": 1777821050190737300,
+    "sha256": "89af37fc4a5604319d0dd2c5cb5cf3eabf6e5d3b423585197cd6a625ef915cac"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.dib",
+    "size": 602166,
+    "mtime_ns": 1777821050462792800,
+    "sha256": "4e1b3d99c7742a82a48f7b4ccbe6b1428595d8c3fa0b2372355f4417cc4354ac"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.dsn",
+    "size": 2265,
+    "mtime_ns": 1777821050252738100,
+    "sha256": "41fb7be9d8bbee3026ddf15cda734c779e1f5804598118f4c13c893c64157fe2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.fct",
+    "size": 138437,
+    "mtime_ns": 1777821049624482800,
+    "sha256": "eef8cd8517ecedd46943eac9d3a6bcf6d72c0376f905556fa7e46bdb7f2d60eb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.gdc",
+    "size": 0,
+    "mtime_ns": 1777821050197737600,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.hid",
+    "size": 707,
+    "mtime_ns": 1777821050218835800,
+    "sha256": "23de9f81a4515eafac18dc0a9668a61a1ca65b813bd9039517c3faca03f41a41"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.jopt",
+    "size": 2482,
+    "mtime_ns": 1777821050226738100,
+    "sha256": "dd600a0a33ae9fb6e931d9b96cedad872961d77b6cc30b69745714db13b113e9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.mod",
+    "size": 105934,
+    "mtime_ns": 1777821050177227800,
+    "sha256": "b3f3f37e50ca281945d36c38360a3879e5b406fbaf0b0d987e05edf7d3cfccb4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.pim",
+    "size": 83,
+    "mtime_ns": 1777821050219737700,
+    "sha256": "49266c264f157226e89aa6dd89d9ebee69e212c670cc7c78789becc941704332"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.pipar",
+    "size": 4,
+    "mtime_ns": 1777821050219737700,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.sjson",
+    "size": 149,
+    "mtime_ns": 1777821050159227200,
+    "sha256": "ea7b79abc2faf7c4af9942ad5756863d26aefab0b0f5bc1e68fe80a20103284d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\Model.sweep",
+    "size": 247,
+    "mtime_ns": 1777821050225737900,
+    "sha256": "da2666270bf41003e8aea9840862de9794caf6d50bc3160331ada7852b248f45"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\ModelHistory.json",
+    "size": 208440,
+    "mtime_ns": 1777821050180737800,
+    "sha256": "2e0e13de15d5125878eee891ca1961d67a2679448ebccc5cb78ee3d0e51a663f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\ModelHistory.json_as",
+    "size": 198817,
+    "mtime_ns": 1777820855376287300,
+    "sha256": "a9a5172685d413b4473301cef12b7c4534077685e0a25e9406be34da574258f5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\plot_settings.rps",
+    "size": 75,
+    "mtime_ns": 1777821050437793600,
+    "sha256": "8af5b45cbdfe37b45015960995720ed70daaf34b1773f8a1c57a9ae219abb288"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\assemblyImport3DX.json",
+    "size": 41,
+    "mtime_ns": 1777821050331739500,
+    "sha256": "3ba4c5d30a342f5937a2c39cc2d01dae3e139883c19298adab834f7606b42025"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\DES_project.bin",
+    "size": 19473,
+    "mtime_ns": 1777821050317739300,
+    "sha256": "ae483636ca81425b8facd797b231d96959fd81a8cf77fcc41f4f3285ad24e540"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\DES_project.bin_as",
+    "size": 19405,
+    "mtime_ns": 1777820855480434300,
+    "sha256": "c04a76d0f5d7069757281df9b02c3e5038998a7aca84796cb617210a677ffdb7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\Model.dib",
+    "size": 614710,
+    "mtime_ns": 1777821050324739400,
+    "sha256": "459620a26596fe5f57e715d9f43b492ab8a7b2284f08ae7bd015e7c2fca8b8f7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\Model.dib_as",
+    "size": 614710,
+    "mtime_ns": 1777820855487434500,
+    "sha256": "141d615f5596546dfcaeb2280bd0f324f9cd2d9bc8d3ac1b604a67c2e263c128"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\Model.dsn",
+    "size": 621,
+    "mtime_ns": 1777821050315739400,
+    "sha256": "8d8948f190c24df0d51c7a7507d532717adc48f016dcbadcb2d48ef0f2da4989"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\Model.dsn_as",
+    "size": 621,
+    "mtime_ns": 1777820855478425000,
+    "sha256": "8d8948f190c24df0d51c7a7507d532717adc48f016dcbadcb2d48ef0f2da4989"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\Model.dss",
+    "size": 66,
+    "mtime_ns": 1777821050317739300,
+    "sha256": "67a3107c71a941b324ce2be8229412ef75b4eb3d241fd8e3fbbe996f2e1b8ef6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\Model.dss_as",
+    "size": 66,
+    "mtime_ns": 1777820855480434300,
+    "sha256": "67a3107c71a941b324ce2be8229412ef75b4eb3d241fd8e3fbbe996f2e1b8ef6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\schematic.xml",
+    "size": 1439,
+    "mtime_ns": 1777821050314737800,
+    "sha256": "6380a8b02fb5d87c3b25ab258061cbea3b00810324d09f109b8e98cfe9e7f4e3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\DS\\schematic.xml_as",
+    "size": 1439,
+    "mtime_ns": 1777820855477425000,
+    "sha256": "6380a8b02fb5d87c3b25ab258061cbea3b00810324d09f109b8e98cfe9e7f4e3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\Model.prj",
+    "size": 565,
+    "mtime_ns": 1777821050325739300,
+    "sha256": "c922ddd80e41a5a46b38d6033f04caf3ff28a149c10a92eabc40a071d490147e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\Parameters.json",
+    "size": 386,
+    "mtime_ns": 1777821050315739400,
+    "sha256": "134affbbed106316f09062961808f8341acc0dda84a8d715c64c6cb877300034"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\Parameters.json_as",
+    "size": 386,
+    "mtime_ns": 1777820855479436500,
+    "sha256": "134affbbed106316f09062961808f8341acc0dda84a8d715c64c6cb877300034"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\PC_integration.json",
+    "size": 366,
+    "mtime_ns": 1777821050379793300,
+    "sha256": "c34b3eb0cabc2aa2cd1a3a168b05c079306e42c116899fa38c39896fcf33846b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\simulationproperties.docstore",
+    "size": 28672,
+    "mtime_ns": 1777802424000000000,
+    "sha256": "46be32c0ed98e994c6c5bba43d2e48c00d091eb5cc4f59467aeb0f272e1c0ea1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\simulationproperties.docstore_as",
+    "size": 28672,
+    "mtime_ns": 1777820855507433800,
+    "sha256": "fb21a48f39b6ed1404721271138d43db900b9bac3c8538f5162e47fe66a8116a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model.lok",
+    "size": 0,
+    "mtime_ns": 1777820679611279400,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.cha",
+    "size": 158,
+    "mtime_ns": 1777821050221738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.chksm",
+    "size": 130,
+    "mtime_ns": 1777821050210738700,
+    "sha256": "4356e3f65dcc65ad2eb48850d5575c8b9d671d9c9de8a3e4d1858c909d02a842"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.ci",
+    "size": 158,
+    "mtime_ns": 1777821050221738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.cpt",
+    "size": 4,
+    "mtime_ns": 1777821050218835800,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.crd",
+    "size": 7518,
+    "mtime_ns": 1777821050197737600,
+    "sha256": "ecdc500e3c0c748a6ab8e5a099562c66ae323845aaf290462e1e93c9788d94e8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.cur",
+    "size": 8,
+    "mtime_ns": 1777821050200738800,
+    "sha256": "06ce71094a192e6f37cf16e34eba130d58a0214948f428125304503e93e89ab8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.cwr",
+    "size": 4,
+    "mtime_ns": 1777821050201738300,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.dbp",
+    "size": 0,
+    "mtime_ns": 1777821050203738900,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.dpl",
+    "size": 158,
+    "mtime_ns": 1777821050222738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.dpt",
+    "size": 0,
+    "mtime_ns": 1777821050191737500,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.dsi",
+    "size": 158,
+    "mtime_ns": 1777821050223737900,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.dtm",
+    "size": 158,
+    "mtime_ns": 1777821050224738000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.exp",
+    "size": 1580,
+    "mtime_ns": 1777821050181737800,
+    "sha256": "c4bf2c505a54f7ef6488d09c99d2b303bc75e6a271bfef33fc5b02fe7446d226"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.fan",
+    "size": 158,
+    "mtime_ns": 1777821050220739000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.fct",
+    "size": 220413,
+    "mtime_ns": 1777821049624482800,
+    "sha256": "78d08d9c7ddce5f651fc6ac869c6fe39f68a8f32b499e61034dcb7310ea0ceeb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.fgr",
+    "size": 158,
+    "mtime_ns": 1777821050221738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.fld",
+    "size": 158,
+    "mtime_ns": 1777821050223737900,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.fmd",
+    "size": 68,
+    "mtime_ns": 1777821050217737900,
+    "sha256": "641b766201a3baf27d505a835a67b1b3de7683ee27b8aa67b7964c2a169df5fe"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.grp",
+    "size": 139,
+    "mtime_ns": 1777821050214738400,
+    "sha256": "da61e432b5bb5e43e8c4ec83eaf8223a22425359331b0d000681321c3fe532ae"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.het",
+    "size": 158,
+    "mtime_ns": 1777821050221738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.hp",
+    "size": 158,
+    "mtime_ns": 1777821050224738000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.hsu",
+    "size": 38169,
+    "mtime_ns": 1777821050198738500,
+    "sha256": "7fd0bfb4a21dd5f1bad0cf945252b1ebadf119c0d88fa42a318d0e724858fcdf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.ifo",
+    "size": 3467,
+    "mtime_ns": 1777821050224738000,
+    "sha256": "4babfbc0a2677727df9141e0ac7fe6d198a7768d8963b668667eb68bb18d15b4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.im",
+    "size": 158,
+    "mtime_ns": 1777821050224738000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.impurity",
+    "size": 158,
+    "mtime_ns": 1777821050224738000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.lid",
+    "size": 158,
+    "mtime_ns": 1777821050223737900,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.lmp",
+    "size": 0,
+    "mtime_ns": 1777821050202738300,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.mch",
+    "size": 70,
+    "mtime_ns": 1777821050214738400,
+    "sha256": "93aa45db01c3bc7317f10d0b57ef1739b72c2c2de2a9a6bd82d71e59fbbdeedc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.mif",
+    "size": 18883,
+    "mtime_ns": 1777821049629491900,
+    "sha256": "f1f7951acc1734aba7ccf70220b222186c261f13859b867b6d21a12ad428c939"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.mot",
+    "size": 6,
+    "mtime_ns": 1777821050219737700,
+    "sha256": "4489f9e3e454748b3521eb214e0a5694d562cff3d9ff511cb456953c8f534c00"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.mst",
+    "size": 3012,
+    "mtime_ns": 1777821050191737500,
+    "sha256": "f01963916e9688b2a20090e77ec1e1222bc492f39173f6f33049027fe02e8785"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.mvm",
+    "size": 158,
+    "mtime_ns": 1777821050222738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.opg",
+    "size": 158,
+    "mtime_ns": 1777821050223737900,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.opticalcarriergeneration",
+    "size": 158,
+    "mtime_ns": 1777821050224738000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.pck2",
+    "size": 11,
+    "mtime_ns": 1777821050199738200,
+    "sha256": "d5417a99f24c2141a17db25aeeeda88c278b7e625f739c2bcc69268727ae2684"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.pik2",
+    "size": 27164,
+    "mtime_ns": 1777821050198738500,
+    "sha256": "b24173dc85f1cea2035dacc70c52aed0ed844a52c34d4c99d0db5115818d8626"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.pin",
+    "size": 17,
+    "mtime_ns": 1777821050213740200,
+    "sha256": "92db32d97a0952ece5a6462a8f567eed12805d8e163ccdad8acafd11303eb151"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.plc",
+    "size": 4,
+    "mtime_ns": 1777821050191737500,
+    "sha256": "cb30e91817239109ffd0a5870046e128f04619da80c7624d921162fdfe514f76"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.pmg",
+    "size": 158,
+    "mtime_ns": 1777821050221738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.pms",
+    "size": 158,
+    "mtime_ns": 1777821050222738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.pot",
+    "size": 158,
+    "mtime_ns": 1777821050220739000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.prf",
+    "size": 76,
+    "mtime_ns": 1777821050213740200,
+    "sha256": "50553e682b15764d13eba04370662de64aa8f34a0da37f3d067b7b58520c8ed8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.ptc",
+    "size": 18,
+    "mtime_ns": 1777821050200738800,
+    "sha256": "b11a536cf5a2073337750fbf270d04e202ff10cc547db3a46832c13dcee5d716"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.rlc",
+    "size": 158,
+    "mtime_ns": 1777821050223737900,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.rpp",
+    "size": 13,
+    "mtime_ns": 1777821050201738300,
+    "sha256": "5773cfcd326047e10af533c6663cb6addc1b22db316027a093fcf4716fce6ae3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.sab",
+    "size": 763445,
+    "mtime_ns": 1777821049579483600,
+    "sha256": "66182649394138d281d78f9a7f378255c9a6d74b4e18ae739e979f55e64975a3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.sab.index",
+    "size": 948,
+    "mtime_ns": 1777821049579483600,
+    "sha256": "fa118bbb1d28a5c019ba83856590bc956e014f343d7c7dd3a9dd19cef9938dbb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.scp",
+    "size": 158,
+    "mtime_ns": 1777821050222738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.sjson",
+    "size": 186,
+    "mtime_ns": 1777821050159227200,
+    "sha256": "c8ebbf1a40ec56ee4edf4a9f3e93be5ef1b2498e15201e6ec96ac76421ea6c1c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.smp",
+    "size": 0,
+    "mtime_ns": 1777821050214738400,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.tec",
+    "size": 158,
+    "mtime_ns": 1777821050224738000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.tem",
+    "size": 158,
+    "mtime_ns": 1777821050220739000,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.tri",
+    "size": 2,
+    "mtime_ns": 1777821050199738200,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.trm",
+    "size": 158,
+    "mtime_ns": 1777821050222738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.trt",
+    "size": 158,
+    "mtime_ns": 1777821050222738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.tsp",
+    "size": 158,
+    "mtime_ns": 1777821050221738400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.vde",
+    "size": 44,
+    "mtime_ns": 1777821050197737600,
+    "sha256": "7409d5420664be7f60d66393ab40cd75a02cc2e762fb0bef3b13411d2a51c9b8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.vol",
+    "size": 4,
+    "mtime_ns": 1777821050202738300,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.vwr",
+    "size": 4,
+    "mtime_ns": 1777821050201738300,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.wcs",
+    "size": 12,
+    "mtime_ns": 1777821050199738200,
+    "sha256": "82f63b935a385c7a6e1176aec3307db0df131cd469b491b666e01d47d91a02d1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\ModelCache\\Model.wir",
+    "size": 4,
+    "mtime_ns": 1777821050200738800,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\3d.slim",
+    "size": 267148,
+    "mtime_ns": 1777821034722726800,
+    "sha256": "f29ae0598686ed15e36c03ccd6f81adb7f1ec5b725ca6d8378ba33116ffa86a0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\3do.slim",
+    "size": 199904,
+    "mtime_ns": 1777821028178293000,
+    "sha256": "6efe7b09585607a4230cf63c5a3a6f8346fb033cb3d96c7f4ca0a3ffc9add020"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\bad.tet",
+    "size": 184,
+    "mtime_ns": 1777821034757734900,
+    "sha256": "ad3356279694b8bb9ab748d812de33a296b643d337e6331b06df4bba56a524fc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\bad0.tet",
+    "size": 7371,
+    "mtime_ns": 1777821034757734900,
+    "sha256": "bd8d0379aed9482345d3785d14b98e2898c4927f934bf9dd540b8b11ca7c3ff3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\bc3d.tet",
+    "size": 5160,
+    "mtime_ns": 1777821028114290800,
+    "sha256": "e54f1457cf62afafc4bb740a3ce012cfeab161c7fd448035cf59499fea8eed85"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\db.parmap",
+    "size": 69632,
+    "mtime_ns": 1777821049924501800,
+    "sha256": "46c27b690c57b0e5caa6dcc72db2ead467dea9ba75583889ae0ad13437b948bc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\DS\\db.parmap",
+    "size": 69632,
+    "mtime_ns": 1777820676229060700,
+    "sha256": "02fab6f04dfcd2e100a7ebe3b86b5e762424bece96d059fd37d678c7d6205928"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\DS\\model.res",
+    "size": 46,
+    "mtime_ns": 1777821050318739800,
+    "sha256": "dd3df3a14ec032f4f16efb6db3b62d8ed371d2b4374cb9e93e82d6cbbd5fde4b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (#0002)_Zmax(1).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821040724010100,
+    "sha256": "9cff874c87c400e694673c9c1ef23d2b9e56ebbbb730fa5c97bf8fb52d0e9272"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (#0002)_Zmax(2).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821040763009500,
+    "sha256": "4622fdf90ff8a01aa29bed452623627ba5b9c170b3a0ad1f66fb880b3d37e2a8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (#0003)_Zmax(1).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821043033781200,
+    "sha256": "24b95329161950c096da72e0ffa24588b6dc2050f69f0bd4b5da20d1913d1747"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (#0003)_Zmax(2).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821043075781600,
+    "sha256": "fbc27415b532468726bc0fff97639a83a91819dfebfbae24641d88fa4bb1bb29"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (#0004)_Zmax(1).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821044756387300,
+    "sha256": "2bc7fa7a5964dfe69c6176e184076ddb12900644569d419758f076f8282502f8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (#0004)_Zmax(2).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821044803459200,
+    "sha256": "64d2ab8d9a3340ae2c4ff856454f32e2674f169929621ec5a2b2bfff40be3052"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=12.0)_Zmax(1).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049296695700,
+    "sha256": "7b88017a59b6c334c726b5de41a01bee1ff3780060e33344bd262c052bb68100"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=12.0)_Zmax(1).m3m.rex",
+    "size": 1932,
+    "mtime_ns": 1777821099847770200,
+    "sha256": "dd1c6611555db7424eea02b30f52855c6e41bea0779fbd47f9df751dd2de136f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=12.0)_Zmax(2).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049296695700,
+    "sha256": "dc972af850ddf4e5b548fc787bb11ba2b56a9e6e9de5c18c70d3547d6fdf6335"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=12.0)_Zmax(2).m3m.rex",
+    "size": 1713,
+    "mtime_ns": 1777821049297704600,
+    "sha256": "83b6a3484de9201864a4910e987e31f9bdc13b71dd3e3bdb09de4d68bbf84392"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=15.5)_Zmax(1).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049255682900,
+    "sha256": "8085bdf9b26a14d63344cffe40519aa4b2aa148b67e48b8ccffde5d0b8bc7022"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=15.5)_Zmax(1).m3m.rex",
+    "size": 1934,
+    "mtime_ns": 1777821922472107200,
+    "sha256": "b7f46b25a6ceb64ac18d150ca70a0ea9dd8e7eda0e6e9bf50d70c28f75ae8d13"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=15.5)_Zmax(2).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049255682900,
+    "sha256": "f5c66557b7655821de3cc1626c4517e08336e1e4c126e39992ae5636089f1164"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=15.5)_Zmax(2).m3m.rex",
+    "size": 1715,
+    "mtime_ns": 1777821049256695200,
+    "sha256": "329b93b0002edccf548061aaf7e0f0b20f05749dd74565a07af64ba5c593a6f7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=8.8)_Zmax(1).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049335697400,
+    "sha256": "41268dba1c4d05f26420050de571c10073b5cf35eaf1d83f015c62220f3c4342"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=8.8)_Zmax(1).m3m.rex",
+    "size": 1947,
+    "mtime_ns": 1777821069159560400,
+    "sha256": "04400e0ad0e940178443855837ee544c7f82354419ece439e0b932325053312b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=8.8)_Zmax(2).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049335697400,
+    "sha256": "c2b6ac88b1e325492b5a7d2537c2ce3ea30ded0bde7b1aafc1f3f8fd61f3f42a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\e-field (f=8.8)_Zmax(2).m3m.rex",
+    "size": 1728,
+    "mtime_ns": 1777821049336706700,
+    "sha256": "1d21bbe4cbaad11b785b73cc035749208f99e26b821122db5a675c7ad06f6133"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\fd.fdp",
+    "size": 1117,
+    "mtime_ns": 1777821049213682100,
+    "sha256": "d4cab0e5c818aa769b8431a008d37f5a85dc9c0bc73e33f28d9c0808adb7297f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\fd.spd",
+    "size": 506,
+    "mtime_ns": 1777821049349665300,
+    "sha256": "d092d54124b61cf313af44a2417d86586a0da443d517527e9d68632a98c547bc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\fd_rfm.fdp",
+    "size": 829,
+    "mtime_ns": 1777821049213682100,
+    "sha256": "785ad62045bbd4bc41deb00a94b103ec6a67d7654f5e3ffa02826a75a00e8314"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\FieldSetFile.fsf",
+    "size": 2075933,
+    "mtime_ns": 1777821037656398300,
+    "sha256": "6ff91bf536919d9568c4d8f95e524eab6773318f08ef74d3729cb9363941683a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0002)_Zmax(1).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821040731001200,
+    "sha256": "738c01e855808eb900eb9914b97c830b938052ba6eebe98df2de0d0ba02e1abf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0002)_Zmax(1).sct",
+    "size": 533694,
+    "mtime_ns": 1777821040733011000,
+    "sha256": "9c2f94a498b9843cbf03e78fd47f80fc158fe9fbf80b35c68d407ebf92a0da54"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0002)_Zmax(2).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821040770035300,
+    "sha256": "b7a8a7b5c12efd899fe971f7ac59c74f54cbde5142d0603050ce9d76d7a5dedb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0002)_Zmax(2).sct",
+    "size": 533694,
+    "mtime_ns": 1777821040771035800,
+    "sha256": "f30d76b8e4d73b3ad94293359d699c391a4cd62c369b1e2a5d92492d67d64f8e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0003)_Zmax(1).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821043041781700,
+    "sha256": "81b768b99d327789dd79b34880ab276a6c368756318bfb5bccf25d85c6cc6d4a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0003)_Zmax(1).sct",
+    "size": 533694,
+    "mtime_ns": 1777821043043781700,
+    "sha256": "988ac4739bfc00b86ad6a79de0e1578c98e74e95324e200c159bbadc32baef33"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0003)_Zmax(2).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821043082781900,
+    "sha256": "3d51e4b399eab4ccc3d6f8f0e74b89002542d1f202ee0d9004baf1bbb79ff03c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0003)_Zmax(2).sct",
+    "size": 533694,
+    "mtime_ns": 1777821043084781900,
+    "sha256": "93050f695e3bfb745e9cd486916ce065e935dc34a660b01634613a5ff03ab5f3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0004)_Zmax(1).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821044766433900,
+    "sha256": "bb93f130094fbe233eec4459307e33085de0c49bc7febc6099147474500ae4e7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0004)_Zmax(1).sct",
+    "size": 533694,
+    "mtime_ns": 1777821044768396800,
+    "sha256": "94fd7862ef2d85eea34178f36e8d5d82009884578ad1227ce066a96756c2948e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0004)_Zmax(2).m3t",
+    "size": 1778191,
+    "mtime_ns": 1777821044813418000,
+    "sha256": "9a969a6006efa7d406f5c738d7c10c80dacbc4158f834e5a94338c9b239b42b6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (#0004)_Zmax(2).sct",
+    "size": 533694,
+    "mtime_ns": 1777821044816413200,
+    "sha256": "628222eb5f90b15867d96ffaa795e7a9f98f7297e943813ae99182961c0a0158"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=12.0)_Zmax(1),surfJ.m3m",
+    "size": 163,
+    "mtime_ns": 1777821049295697000,
+    "sha256": "9fc9d480932c4dbfb44f36c83b01ded2020ebae177872cf36168e97e67b04ee6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=12.0)_Zmax(1),surfJ.m3m.rex",
+    "size": 1665,
+    "mtime_ns": 1777821049297704600,
+    "sha256": "f2490c0d82ba47e1fe44b8fabc3865280b8f1497ef224c2c6867792d1e0c639d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=12.0)_Zmax(1).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049295697000,
+    "sha256": "1362a5ccf79bc374391cd0c5efeed89631a2281a031fe222b86305f5f892c2b5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=12.0)_Zmax(1).m3m.rex",
+    "size": 1932,
+    "mtime_ns": 1777821937667176600,
+    "sha256": "a20bf299b2bd92ed78903d9f5a93baac1dc0c8fbec89591f6c1781018bb38ecd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=12.0)_Zmax(2),surfJ.m3m",
+    "size": 163,
+    "mtime_ns": 1777821049295697000,
+    "sha256": "ab527fee720ac0588e1cdabf03d5a3e5d63a48ab17e56c159607549873775618"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=12.0)_Zmax(2),surfJ.m3m.rex",
+    "size": 1665,
+    "mtime_ns": 1777821049299659400,
+    "sha256": "a48aa91310ec8ea32c006e1872dbfbc18b5c254bcb09e18dc351e6fbf5fbff01"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=12.0)_Zmax(2).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049295697000,
+    "sha256": "44c28f7bf6db8500c3014486c1a8157670c1b3f4bd2f4f0ac557401e521ab466"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=12.0)_Zmax(2).m3m.rex",
+    "size": 1713,
+    "mtime_ns": 1777821049299659400,
+    "sha256": "677f2201883839c2db14d95b8ed3aa2c41b59849324a0410815c0f82f2af6dcc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=15.5)_Zmax(1),surfJ.m3m",
+    "size": 163,
+    "mtime_ns": 1777821049254695100,
+    "sha256": "26ab2e7466b6b75e232d04ba89e261ee31b85a747c53909eaed7cb0a66087ff8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=15.5)_Zmax(1),surfJ.m3m.rex",
+    "size": 1667,
+    "mtime_ns": 1777821049256695200,
+    "sha256": "8fd9524a1f8cd41ca8513a9624298424dc0620be446d82cf9bb6333a7da99e66"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=15.5)_Zmax(1).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049254695100,
+    "sha256": "78f383090d228018aad0cf26c420600e43ea900fcf520ceb8f469cbf6710bc9c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=15.5)_Zmax(1).m3m.rex",
+    "size": 1934,
+    "mtime_ns": 1777821943099364400,
+    "sha256": "1d2c277fa62c721a29df010a3c32a17c1a993a6d7042924f24e959f4ee3d0dbb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=15.5)_Zmax(2),surfJ.m3m",
+    "size": 163,
+    "mtime_ns": 1777821049255682900,
+    "sha256": "c4a0b5a6872723faad176a0ceac8c1bd3703e663c866239ca7e3bb798393c4e9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=15.5)_Zmax(2),surfJ.m3m.rex",
+    "size": 1667,
+    "mtime_ns": 1777821049257698200,
+    "sha256": "9bb9b3b5d2eec5a6444aec2c5459332748e7a1b8d79ebcbbbc4c291bf4cacad0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=15.5)_Zmax(2).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049254695100,
+    "sha256": "d0f51dc67d1cda5e9dcd19bf8d588c042c90af94949ec6a129853a1063d422b5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=15.5)_Zmax(2).m3m.rex",
+    "size": 1715,
+    "mtime_ns": 1777821049257698200,
+    "sha256": "1c7dd8b80ab004a536dc9ad0defae699b79c9d0ca08e991a5236be837af18119"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=8.8)_Zmax(1),surfJ.m3m",
+    "size": 163,
+    "mtime_ns": 1777821049335697400,
+    "sha256": "b3c240db85883adbb3271ca73cbc9f1c1240684c87b8bf9e862f8893931503dc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=8.8)_Zmax(1),surfJ.m3m.rex",
+    "size": 1680,
+    "mtime_ns": 1777821049337682400,
+    "sha256": "f35d34526ec1fc701470c461e79d6bd30bc3dc89d13cb8f8c1212f35dc03ec0d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=8.8)_Zmax(1).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049334695100,
+    "sha256": "f898663dc056c47163d806819f5981143426baabc14fd63da43ad21fe1f5c8d6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=8.8)_Zmax(1).m3m.rex",
+    "size": 1947,
+    "mtime_ns": 1777821930285304200,
+    "sha256": "9ba34cbb75089715113469e3795dec2d849e62df05ef27bf60a82992ff21cbb9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=8.8)_Zmax(2),surfJ.m3m",
+    "size": 163,
+    "mtime_ns": 1777821049335697400,
+    "sha256": "ef92a43a4db39138d758a34effea52b506c4a1526e644ba5ed7e0d8997fac475"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=8.8)_Zmax(2),surfJ.m3m.rex",
+    "size": 1680,
+    "mtime_ns": 1777821049338680500,
+    "sha256": "9aef36732be05243919000016e990b13a3ac4ad7a801212453b25b2a048f55a8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=8.8)_Zmax(2).m3m",
+    "size": 163,
+    "mtime_ns": 1777821049334695100,
+    "sha256": "b5296f21b75913ee804b4c71e480cb17c455077fb78da0d0bacb80010dec22b9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\h-field (f=8.8)_Zmax(2).m3m.rex",
+    "size": 1728,
+    "mtime_ns": 1777821049338680500,
+    "sha256": "64efbb50c3a0c298e7696fa9049a346860bd232a8bec16063aa76fb97c33784b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\hardware_resources.sconf",
+    "size": 73,
+    "mtime_ns": 1777821028450781400,
+    "sha256": "85f2d31ab63a462471f826adba2fafc84377372fd7ce1613d61f2ff3dcbbe199"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\log.tet",
+    "size": 25287,
+    "mtime_ns": 1777821028207301400,
+    "sha256": "152235b389284e4f1886998697413040c9248381f68e4c1617e915f2d6447ad2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0002)_Zmax(1).m3t",
+    "size": 296591,
+    "mtime_ns": 1777821040713009400,
+    "sha256": "28923f10aec93eb100e3d4ec632d1bfbd7418d839853b1144f00feabb5084585"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0002)_Zmax(1).pwr",
+    "size": 89248,
+    "mtime_ns": 1777821040714000600,
+    "sha256": "d89514b7fc136b3104622961686571ac8d156c817e62c8f8c16c83c2465f78cb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0002)_Zmax(2).m3t",
+    "size": 296591,
+    "mtime_ns": 1777821040752001000,
+    "sha256": "a7294f1730cc68293ffb8035a676bad652af0600f9d0f6238f735d036f1f2f74"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0002)_Zmax(2).pwr",
+    "size": 89248,
+    "mtime_ns": 1777821040753001100,
+    "sha256": "d89514b7fc136b3104622961686571ac8d156c817e62c8f8c16c83c2465f78cb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0003)_Zmax(1).m3t",
+    "size": 296591,
+    "mtime_ns": 1777821043022782100,
+    "sha256": "4be14a14b3f9ee0f646013ae2d5780fcc638e1b289dcb45fa51433fc2278ef8a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0003)_Zmax(1).pwr",
+    "size": 89248,
+    "mtime_ns": 1777821043023781700,
+    "sha256": "a17fcd9834eaf03544637474731f568e992e46a71a8495644c436a63513eab39"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0003)_Zmax(2).m3t",
+    "size": 296591,
+    "mtime_ns": 1777821043063780600,
+    "sha256": "4be14a14b3f9ee0f646013ae2d5780fcc638e1b289dcb45fa51433fc2278ef8a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0003)_Zmax(2).pwr",
+    "size": 89248,
+    "mtime_ns": 1777821043064782100,
+    "sha256": "a17fcd9834eaf03544637474731f568e992e46a71a8495644c436a63513eab39"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0004)_Zmax(1).m3t",
+    "size": 296591,
+    "mtime_ns": 1777821044744356000,
+    "sha256": "3846afec7f39688d8f5358d257eb028bdbcb0f455e1e237a440aeca367d6c0c0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0004)_Zmax(1).pwr",
+    "size": 89248,
+    "mtime_ns": 1777821044745462300,
+    "sha256": "ec63bccf7862009766097835b1cbdee4906d7d6f8b25559b5d33ba52d7713633"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0004)_Zmax(2).m3t",
+    "size": 296591,
+    "mtime_ns": 1777821044790428100,
+    "sha256": "3846afec7f39688d8f5358d257eb028bdbcb0f455e1e237a440aeca367d6c0c0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (#0004)_Zmax(2).pwr",
+    "size": 89248,
+    "mtime_ns": 1777821044791427100,
+    "sha256": "ec63bccf7862009766097835b1cbdee4906d7d6f8b25559b5d33ba52d7713633"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(1),PwrTrf.m3m",
+    "size": 160,
+    "mtime_ns": 1777821049294698600,
+    "sha256": "94a8269c4a765d0cf16d652b58d6aa134cdd922fcae46b1f00cf013bceaf4df8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(1),surfPI.m3m",
+    "size": 172,
+    "mtime_ns": 1777821049293697100,
+    "sha256": "2457110df2e11926cd7af40f7fbfd208c7a8202bb0d4e31e1279c46deee698a9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(1),surfSc.m3m",
+    "size": 168,
+    "mtime_ns": 1777821049293697100,
+    "sha256": "e35f5f2ee730e7f29b005c3a394d0831e2844eac9311ac0b8bcfab7eb094b084"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(1),surfSc.m3m.rex",
+    "size": 1897,
+    "mtime_ns": 1777821960366358200,
+    "sha256": "a2c08be9226880b0ff65ffa8288e5fa99794b3b99e401078b99e0d5f993b4780"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(1).m3m",
+    "size": 160,
+    "mtime_ns": 1777821049292713800,
+    "sha256": "3ff1d59b9a2f94bcd1f38532de7cae053c2ca2d65ee83f99ca5ba5dce519719d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(1).m3m.rex",
+    "size": 2249,
+    "mtime_ns": 1777821987353065700,
+    "sha256": "b6682c59d477904169171cb847564dbcc7633bbaeb4313424c95b0a83bbe80f5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(2),PwrTrf.m3m",
+    "size": 160,
+    "mtime_ns": 1777821049294698600,
+    "sha256": "ff9793da2e7c63dc5b1fc5ee87be9b450c4eee17318959923551c83a85388b86"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(2),surfPI.m3m",
+    "size": 172,
+    "mtime_ns": 1777821049294698600,
+    "sha256": "3f36dad49ada6f5551d6ee84cd49263717562fa7ea71e06198a28d62826da2e9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(2),surfSc.m3m",
+    "size": 168,
+    "mtime_ns": 1777821049293697100,
+    "sha256": "c8724449b5e64f15b98663fdfdbc792e4948fa186273e7c74bb9db381549c00e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(2),surfSc.m3m.rex",
+    "size": 1678,
+    "mtime_ns": 1777821049300729300,
+    "sha256": "780751fbea367b526e727f66591436a5eda9f462d011c06223209d7489de47a7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(2).m3m",
+    "size": 160,
+    "mtime_ns": 1777821049293697100,
+    "sha256": "a6b49ca9374618c5321807c6596b67daed39f26f456ffc4890dc8d35255944fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=12.0)_Zmax(2).m3m.rex",
+    "size": 2030,
+    "mtime_ns": 1777821049301700000,
+    "sha256": "94b758e516fa446ecdf227a1efa961432418027e86cb1568193708174f853e96"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(1),PwrTrf.m3m",
+    "size": 160,
+    "mtime_ns": 1777821049253735400,
+    "sha256": "357ab687d6ef391ce7892ed96d6eb43a27af9e92b2064c45beba261fde1a6036"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(1),surfPI.m3m",
+    "size": 172,
+    "mtime_ns": 1777821049252676600,
+    "sha256": "1bcd382fa40d7297b9d35fae2efbeac8a5c22209d407f741072bf873a527d6bf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(1),surfSc.m3m",
+    "size": 168,
+    "mtime_ns": 1777821049252676600,
+    "sha256": "16b6b991471b0d2fdfa3805fa57312fe225126a4f59d6582fb7ff16061deb9e6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(1),surfSc.m3m.rex",
+    "size": 1899,
+    "mtime_ns": 1777821961203224000,
+    "sha256": "e62a8907270493ded31dabdd2ffe6a31ba08c9e77f4b4c9798c9de417be93594"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(1).m3m",
+    "size": 160,
+    "mtime_ns": 1777821049251709400,
+    "sha256": "6e06cdf8a623051b6f43ff64217ae7cc3bbcb4d083bcc40bbcd435ec80066cd3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(1).m3m.rex",
+    "size": 2251,
+    "mtime_ns": 1777821988955775800,
+    "sha256": "b168d3865885bb91c71c2e66d3cc08b8c0a22686169e07b031241a2f25052bd8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(2),PwrTrf.m3m",
+    "size": 160,
+    "mtime_ns": 1777821049253735400,
+    "sha256": "eb549af5abbcacd1911c61e09a97a972112bcb4ce4bbc685097eb66cf5849037"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(2),surfPI.m3m",
+    "size": 172,
+    "mtime_ns": 1777821049253735400,
+    "sha256": "7c0992b99fc2a13b855467c39b36db4bb2a3062aa0a8eb2e3d7845c4e56cbcd3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(2),surfSc.m3m",
+    "size": 168,
+    "mtime_ns": 1777821049252676600,
+    "sha256": "2538fe3191a45d5d6bda313cad302ad25929c9874a5b1708bcc736ef2f40f437"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(2),surfSc.m3m.rex",
+    "size": 1680,
+    "mtime_ns": 1777821049259657200,
+    "sha256": "a67b47b512b12629ecc0ba7cdaa449e8ede42ff63eee968d5408c6511ff67c1e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(2).m3m",
+    "size": 160,
+    "mtime_ns": 1777821049251709400,
+    "sha256": "0c1df100fbbee5cc0b433c654fd0c64229975a8905df0fe121e2abf0aee5fd8b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=15.5)_Zmax(2).m3m.rex",
+    "size": 2032,
+    "mtime_ns": 1777821049259657200,
+    "sha256": "b68c41f9a9160935f169feb7a1e0bc4af6b02519f06f7d1b81a833e6a3bc8dc9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(1),PwrTrf.m3m",
+    "size": 160,
+    "mtime_ns": 1777821049333700800,
+    "sha256": "7b2e3752c2af59e71136e6ab258bb3d3b27518324817f68e1bfb6b0fa5559984"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(1),surfPI.m3m",
+    "size": 172,
+    "mtime_ns": 1777821049333700800,
+    "sha256": "f3256c058a90699c5d8e0a6e24bc7a547b19fa4c4fe35745a5a24b5f88d60030"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(1),surfSc.m3m",
+    "size": 168,
+    "mtime_ns": 1777821049332701000,
+    "sha256": "126ad233886c02d924f2c6b0ddb871241e87b6941374e184d5c800828fe6fada"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(1),surfSc.m3m.rex",
+    "size": 1912,
+    "mtime_ns": 1777821951996652400,
+    "sha256": "b2ab69dbd596669ac86c4e2b0adcc7cce09f2e307aff1a7c1e4cf63bb4c396ec"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(1).m3m",
+    "size": 160,
+    "mtime_ns": 1777821049331701800,
+    "sha256": "60a2690747d5aed9c515ce3cbef9b7cb95146807876af34f2ac2d26c1b6748dd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(1).m3m.rex",
+    "size": 2264,
+    "mtime_ns": 1777821986465866000,
+    "sha256": "7c19ca3fcb0578220c4d080ac56be9f903d0c52778fcf05bbf6ba9aa5cda9ca3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(2),PwrTrf.m3m",
+    "size": 160,
+    "mtime_ns": 1777821049334695100,
+    "sha256": "55b3aad37f8756495397994f01a3ce0715bdd1082820258618a446f581b2b305"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(2),surfPI.m3m",
+    "size": 172,
+    "mtime_ns": 1777821049333700800,
+    "sha256": "6b6e0cf1671e7ed5eb43278094915650055a394a1bfa34783766c05f3e4bf779"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(2),surfSc.m3m",
+    "size": 168,
+    "mtime_ns": 1777821049332701000,
+    "sha256": "e9e63b7c9bfdd265773ce0b232ddbf0b1e51c20198acc77c423310e18b74c0dc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(2),surfSc.m3m.rex",
+    "size": 1693,
+    "mtime_ns": 1777821049339655000,
+    "sha256": "cf961edaddde0032ccedf35587c236708a98cd9225b3c8b978463a428b32b5aa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(2).m3m",
+    "size": 160,
+    "mtime_ns": 1777821049332701000,
+    "sha256": "e5b40f5b68ce907c21b015bec95558fab5b45eb51e2ecb275802d4489177de14"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\loss (f=8.8)_Zmax(2).m3m.rex",
+    "size": 2264,
+    "mtime_ns": 1777821992289704200,
+    "sha256": "4c51235b215725fb6ee9792e558f4e03e42c1cba1ed26a298d6c79a6bfddb097"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Mesh_Input.E2F.tet",
+    "size": 21185,
+    "mtime_ns": 1777821021938148700,
+    "sha256": "830466bb9fdccc9cd7e7cea7b93d308e1fad2f7f4a5ecf08f03282449f1dcd1f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Mesh_Input.Entities2Mesh.tet",
+    "size": 670619,
+    "mtime_ns": 1777821021948074100,
+    "sha256": "13dbef2b34722231b820f00682c3bd44d8bd8fb1bcdc7b48ab99c3c8610d2e38"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Mesh_Input.Options.tet",
+    "size": 2905,
+    "mtime_ns": 1777821021937065500,
+    "sha256": "bda1595c125d74756527ca4e82401fbe94d14056578f4c21e8ea2be90f677376"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Mesh_Input.QuasiModel.tet",
+    "size": 146514,
+    "mtime_ns": 1777821021937065500,
+    "sha256": "895bce06a76a28c4d4b7565c0351026fbbaa02b2ff688187fa38a49f805a967e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Mesh_Output.QuasiModel.tet",
+    "size": 45979,
+    "mtime_ns": 1777821028195290900,
+    "sha256": "12020ad4e1d311e4543f68427789eca5021c098aea35bcd4b1d3cba995c08f57"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Mesh_Output.U2F.tet",
+    "size": 38076,
+    "mtime_ns": 1777821028121290800,
+    "sha256": "f363ce93a9c1510481a7752f0e2635c99373fa8646309d8bd0919ecf3f4fc306"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\MeshErrorsGraphicalFeedback.axg",
+    "size": 3890,
+    "mtime_ns": 1777821028185290900,
+    "sha256": "d9c539e31f2193c4cb9b8fee82b2e10a92b24ea086061c8e5672b5c81e459ea3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\MeshErrorsGraphicalFeedback.msg",
+    "size": 322,
+    "mtime_ns": 1777821028187292300,
+    "sha256": "8df7160286c0d24d354ff1da1ccc654ef51b1130a82aadb791bac9919f4f65b6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\MeshErrorsGraphicalFeedback.rex",
+    "size": 1285,
+    "mtime_ns": 1777821028188294000,
+    "sha256": "e114d343187fa199c0bcd41ba9335af96686349969ddc0b2c3be4ff6351d8587"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\meshrelated.info",
+    "size": 2166,
+    "mtime_ns": 1777821028114290800,
+    "sha256": "c769b28cf430611075e65332f9eabbbe8f0ad56abacc227ab96c615421d60349"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\mir.tet",
+    "size": 63,
+    "mtime_ns": 1777821028253755100,
+    "sha256": "792f5f05f96c84b78ce4a0308e6846b726b278f9c2913ba51e8566ee9d245fd7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.axg",
+    "size": 163,
+    "mtime_ns": 1777821070283677300,
+    "sha256": "ef956d5cee8c59a6170803113bbc06db6a5e1daaab8182fbcd75f86ef82d8c58"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.db",
+    "size": 586439,
+    "mtime_ns": 1777821050125769900,
+    "sha256": "7c834fd4e38eefb7a3d871210a7ca436d35cd8f6badb98b549efbc488968d988"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\model.gex",
+    "size": 51653,
+    "mtime_ns": 1777821028137290800,
+    "sha256": "eba1c699149324126eeceb3a26d5a4a27e83e8cb897dde4ac3333729c74286c2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.hmi",
+    "size": 51,
+    "mtime_ns": 1777821049381598100,
+    "sha256": "3ce496f43fdeaa9ef437126245df49a857dce1c5d6ad185bbb942c4514be27af"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.log",
+    "size": 25745,
+    "mtime_ns": 1777821049924501800,
+    "sha256": "a84261ea6fae649fc4d25537364692dd5fbf1535affaef37f69655fe49b0515c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.mlg",
+    "size": 1702,
+    "mtime_ns": 1777821049352672700,
+    "sha256": "a8df0115a032f4113886e50126443fab69612fec04a514597963a450d93baf4b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.mss",
+    "size": 188,
+    "mtime_ns": 1777821021461796000,
+    "sha256": "55641f7232825c7d6a17f352ee96dde27452e4473ad144cee627646098f702cb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.pmi",
+    "size": 2612,
+    "mtime_ns": 1777821049349665300,
+    "sha256": "cfd7d3906dbe550ca0e7f25a6485742a426ae9e7928878e0de086887530f9355"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.rdb",
+    "size": 29,
+    "mtime_ns": 1777821050203738900,
+    "sha256": "a4f96ce4d9c3bbe665820fad6813cf1502a177ca540d93b58944443f23324472"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.res",
+    "size": 52684,
+    "mtime_ns": 1777821050182737900,
+    "sha256": "96fa631a18105878343c1d140ea9e0d981cc9f079ac6469b337daa9c892cb414"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.sa",
+    "size": 78,
+    "mtime_ns": 1777821050214738400,
+    "sha256": "fa712d3f9c18511ffc814e2f314347e582af9a441b7de3e4c9fcbee8021822fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\moegeom.tet",
+    "size": 20670,
+    "mtime_ns": 1777821028118290900,
+    "sha256": "4338afd43f3a8dd1e0e09b05beea7e06dbb085445869a999ff18a87bb27642b8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\MS\\Model.sat",
+    "size": 0,
+    "mtime_ns": 1777820676484835100,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\objectid.tet",
+    "size": 6401,
+    "mtime_ns": 1777821028113300200,
+    "sha256": "09f6536f7a3e8c1a8b03dcfc209fceda039d4e0ded0668537144b7cba2ff2082"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2.rex",
+    "size": 1304,
+    "mtime_ns": 1777821028495781500,
+    "sha256": "aecddbd487cd88e5052b43fdb4b581d5b9f716cc21cfa8cbb4286940ee3ba770"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2.slim",
+    "size": 1242,
+    "mtime_ns": 1777821048616051400,
+    "sha256": "704455a825e1bd4b432e50dbff67342f841792be255dac904e471e5d9d588026"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0000).sct",
+    "size": 6662,
+    "mtime_ns": 1777821028882028200,
+    "sha256": "d523e06a6373e3b4900c2e0b1ce02dcf4590a8eff8a6c970e0624ac868e39f90"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0001).sct",
+    "size": 6662,
+    "mtime_ns": 1777821037665398100,
+    "sha256": "4e3bfb1d1577d35ea2157a57f90c14b0e5eaf6af773df060e7b58068441cf2d0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0002).sct",
+    "size": 6662,
+    "mtime_ns": 1777821038607537800,
+    "sha256": "4896a2a72520750c8438b21f5097fe0d0d0c97cb7d65d207b9fd58834d716085"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0003).sct",
+    "size": 6662,
+    "mtime_ns": 1777821040814636000,
+    "sha256": "9ac501a8489e2f40f6546a6a77bfceea9dea2d59d4a20086694033b7c550bc7c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0004).sct",
+    "size": 6662,
+    "mtime_ns": 1777821043131782100,
+    "sha256": "9521cf401146ab2c01e2246c111f275d70afc628a01711bced41cfcd7517d803"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0005).sct",
+    "size": 6662,
+    "mtime_ns": 1777821044860655000,
+    "sha256": "399e00867c89490e6105b7f8ba89381c7943c45260688dbb566babd374a09376"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0006).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045387624600,
+    "sha256": "fd8103b544be55128cfae8e325684ab7e4cd585298ed574f0ea7975a2c25201b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0007).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045931262900,
+    "sha256": "0511e52e2bb1b0d98424eed2544ffae4a6bb35ed7cf36ee662b26ee63c1b619b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0008).sct",
+    "size": 6662,
+    "mtime_ns": 1777821046995279200,
+    "sha256": "63c0486adccbe7f2d41c165fda2cb763036d0542df069c72363eb4a9d8120f5b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0009).sct",
+    "size": 6662,
+    "mtime_ns": 1777821047897510800,
+    "sha256": "866b641945ccc8d92c3fb3c5408855c77ecfc107b7c3864b4efced7f557fae39"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0010).sct",
+    "size": 6662,
+    "mtime_ns": 1777821048619062400,
+    "sha256": "855ae9821e7c859b0f7143e2a9968210b952286d4a66a2d43adaec80e5e392d5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1(#0010)^res.axg",
+    "size": 145,
+    "mtime_ns": 1777822001482148900,
+    "sha256": "5c61e049f2439af72a14c075bcd14856863dd20ce07851b71bef5b48712e3e89"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1.pmm",
+    "size": 715,
+    "mtime_ns": 1777821048625055900,
+    "sha256": "df39597e538cbd16d2741249c7902dfa625b41d3c381391518d3c7750904a878"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1_pmm.rex",
+    "size": 3979,
+    "mtime_ns": 1777822001483149300,
+    "sha256": "a0a956898b946fca800200a6e55b17acc6d44b3278078d75dfcb8c81c55ecbc0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0000).sct",
+    "size": 6662,
+    "mtime_ns": 1777821028885035500,
+    "sha256": "b087937b2c52738b88e9c88dc5559a227ae972c5e44815e67fe44e0980c692f3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0001).sct",
+    "size": 6662,
+    "mtime_ns": 1777821037668397400,
+    "sha256": "d7b06ac261c1a4f3a6446d58182be82275575470eddcff24e88916ee75aab2cc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0002).sct",
+    "size": 6662,
+    "mtime_ns": 1777821038609537300,
+    "sha256": "77a1a6d105fc8acd0bbe11e13327e7176e47a4284a4b53cfaca8ded84cf8e49f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0003).sct",
+    "size": 6662,
+    "mtime_ns": 1777821040816636200,
+    "sha256": "33c8f5fa6f9b84003e37276272cca598485e32b877a724490312e3490a5ede8a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0004).sct",
+    "size": 6662,
+    "mtime_ns": 1777821043133792200,
+    "sha256": "01a5bdaec1b958ecf86231e362e9bbcc082f981b129fcdcd877bede96c5d04be"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0005).sct",
+    "size": 6662,
+    "mtime_ns": 1777821044862710800,
+    "sha256": "94f0f74d37167ab1de79483879d557a3af48da698f12504ce93c353baa468afd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0006).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045389625100,
+    "sha256": "190ea09445c0ea87ee3f2e00ae54b91b48a040be91e69bb13249cbd1971d547d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0007).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045933246100,
+    "sha256": "3a68925f9e7066ef32a0dc785f817f0b79ea558ca5402a9c47a3aa47c8bcbd93"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0008).sct",
+    "size": 6662,
+    "mtime_ns": 1777821046997278400,
+    "sha256": "26afd89e1ad622ba375951430cc0a49c6ccd4ab66ee05606cec9a062a1a2d535"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0009).sct",
+    "size": 6662,
+    "mtime_ns": 1777821047900507600,
+    "sha256": "fd1c0bddef6dc68a1da554a10a5cc95adb09f1c295feb64664405dac7953efa9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2(#0010).sct",
+    "size": 6662,
+    "mtime_ns": 1777821048622055300,
+    "sha256": "27d85de044abdb793ceed6471203cdab825299ff1830cac3f0fb1f6c9c26f7c8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2.pmm",
+    "size": 715,
+    "mtime_ns": 1777821048635635600,
+    "sha256": "9d6bad97997d22272f6e87f299362fb6e1d94772cd35c12e01a7bdd75240a1d2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2_pmm.rex",
+    "size": 3672,
+    "mtime_ns": 1777821048636626400,
+    "sha256": "db5adfdcbf2bf7e8b7c267a11b27a5735d13d907e3aa99299f12d5d4ea9dfbf9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777821028880027100,
+    "sha256": "6c15735ea2d57983a9042369a5bcba6c0994e7727b04a306c3758a92e608dd35"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777821037664388600,
+    "sha256": "ee49e663ee42ec5746e68637a89b9aaf0b073678376edc75c20c24b03ccb7adf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777821038605529600,
+    "sha256": "4abab320ce608a399b7502226834a045e87385c3ef7874b302d1a0ef1a2fb32c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777821040813637000,
+    "sha256": "e3b44caca04b8b0a685492d515e3d47ece90fbeb64307435d03b7a09506af8fe"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777821043130782900,
+    "sha256": "179b69736909bda807e6f09005de4f08cf9d8ab132c209bd509951b2a462e6c1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777821044858703000,
+    "sha256": "44bc6b2dc0ee1654b7bbc183aa1d1bd96f2df0ba0715a781a4043c3965d79aab"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045385633000,
+    "sha256": "5b439fe1d9d2cd9dde914f9c6e2fd9516c2f6375cce64301a58c9ec7ecd13575"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045930262000,
+    "sha256": "23068439dc0200105c91919a99d7b2dcaa253d6a273adcbfc2eecf3f37393ef1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777821046994278400,
+    "sha256": "73f1702f77d52eab1f2c21897a8ded730b5f284e9375c2a78472e4354439b5ad"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777821047896565200,
+    "sha256": "7e99198d7ca1d1fa1413985dfc2a2b78cb86c78bdb96519afee747255df3b6aa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1(#0010).pmf",
+    "size": 448,
+    "mtime_ns": 1777821048617056200,
+    "sha256": "9f49b48d921f713af09f9f868551e105cf115f5895e943f4e345e5eb8dd51b0a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo1.pmm",
+    "size": 759,
+    "mtime_ns": 1777821048628064500,
+    "sha256": "0d2deaa3faf98ce96c0d31d9f8ab9afeb254f18e88d690f3a83bda9d0722c0f5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777821028883036600,
+    "sha256": "527565c29fd34d25955c3b57d7da8c2e5ca2468a83aaa988b63a3b8df4e9f97f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777821037666398400,
+    "sha256": "cf2f67a1a7d21521f721166a7133451e538df09109df6abb048d7e2cbf886625"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777821038607537800,
+    "sha256": "d094e7470d113ada5f46e775893840ab3e2ff55852c22615941300ecf42dade6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777821040814636000,
+    "sha256": "dead688a537f711ff68cbec26266d908d27e888de0f27495643fcda0fe1cfce1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777821043132781800,
+    "sha256": "5689dbfbee83f152e51a8ee93ae278e0476d73da31468a25b633661b5aadec61"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777821044861623900,
+    "sha256": "094d1dfb81b6fba95d03fe4232358f6ba480fe22216b5cf1f12ecf4bc014c61a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045387624600,
+    "sha256": "6b82e049ee474fc50199c0644f8a51b7835d7d971670afa0279405c9ae7a22c0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045932255300,
+    "sha256": "344810176ae15b5ca11004d337a5c09afbfff500852203c5b49423ad64c2aeba"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777821046996291900,
+    "sha256": "19cc1255a8bb1f289d67c02750d93936a0fd2001e0e529e2b602779f82fb58ea"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777821047898548800,
+    "sha256": "83215d61748e5d9aa151bc3c56646f3c55680557dcbfdfefae4ecd3d9cb9aee3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2(#0010).pmf",
+    "size": 448,
+    "mtime_ns": 1777821048621055600,
+    "sha256": "4e7372a98eff3f37ef763893e9dd9c020da16bc8d3e009a5c6e6487a75e7b087"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eInfo2.pmm",
+    "size": 759,
+    "mtime_ns": 1777821048638626400,
+    "sha256": "fef3236e3fc8c0fb232259aefd4080dd74121905919f9d838ef5ad0e49c596a3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0000).sct",
+    "size": 6662,
+    "mtime_ns": 1777821028881027200,
+    "sha256": "f6545893c2d770bfe06ea64f6a41cdd33bf2fff455c4b93948965cb29413270c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0001).sct",
+    "size": 6662,
+    "mtime_ns": 1777821037665398100,
+    "sha256": "c74892cdc3d52e92ef6dac218111c13300e0e753796786bbc5b6f7b7070f3a40"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0002).sct",
+    "size": 6662,
+    "mtime_ns": 1777821038606529700,
+    "sha256": "bb86a10362df4780d259d636fcb0f69161c1a172a69217f8d25ef4ff5a8aae15"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0003).sct",
+    "size": 6662,
+    "mtime_ns": 1777821040813637000,
+    "sha256": "63ab6ed6b685d8a038307fca1dd4790ce67db20622f82806b9f448e1b573d084"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0004).sct",
+    "size": 6662,
+    "mtime_ns": 1777821043130782900,
+    "sha256": "1da46f82ffba8e3aed74cfda3073f0814521eeb3ac401efe1c281f1dbff73ee1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0005).sct",
+    "size": 6662,
+    "mtime_ns": 1777821044859675700,
+    "sha256": "eb215d4ba83fef44925a625789c1a500c08d0bc691205cd2a49df8d5ad388a49"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0006).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045386633900,
+    "sha256": "5e5bda7917292f9c1b1cf049fab860e730c36b0aa27907b1ee28d9e81fa2a7d8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0007).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045930262000,
+    "sha256": "ad5edccbefe6588ad90f348bea473154acc34673905631e148cf86b2ed1ce0f6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0008).sct",
+    "size": 6662,
+    "mtime_ns": 1777821046994278400,
+    "sha256": "0b43f6c21d448d49ffa63c4b796bfbc4af958759ef16016b09145aa51e6d4678"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0009).sct",
+    "size": 6662,
+    "mtime_ns": 1777821047897510800,
+    "sha256": "cafa324bdbdf6178029551c30081cb5ed00fca6045cd1f0253de9985b5b6fa87"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0010).sct",
+    "size": 6662,
+    "mtime_ns": 1777821048618055500,
+    "sha256": "998e5805706c0a93a333b1f5e07db68f54bec5a6339771874c55dd7dad4ea043"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1(#0010)^res.axg",
+    "size": 145,
+    "mtime_ns": 1777822023190493900,
+    "sha256": "5c61e049f2439af72a14c075bcd14856863dd20ce07851b71bef5b48712e3e89"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1.pmm",
+    "size": 748,
+    "mtime_ns": 1777821048626069700,
+    "sha256": "434ac62dab008949f01c5aa20a3cf8cf00bbedb5f71405bd5d27c2993f75463b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1_pmm.rex",
+    "size": 4016,
+    "mtime_ns": 1777822023191496200,
+    "sha256": "17744cbba485cb5ca8fb7194c817c04104b6cca726d7049d5a9d2a9aae6de874"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0000).sct",
+    "size": 6662,
+    "mtime_ns": 1777821028884035800,
+    "sha256": "045bc7534e50caec6eddb949f4cdf743619f3209716898b08ad8c8976912e005"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0001).sct",
+    "size": 6662,
+    "mtime_ns": 1777821037667388700,
+    "sha256": "4260b0219b880eef4fe92a04b1f413f697acdcdb3d3d0642b588b0bf2c00c045"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0002).sct",
+    "size": 6662,
+    "mtime_ns": 1777821038608529000,
+    "sha256": "8b3e9de2a5c2db3bced91132d393a993a33d43c09f20c55842b706d4d2970db1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0003).sct",
+    "size": 6662,
+    "mtime_ns": 1777821040815636900,
+    "sha256": "12f8fce0c18e3821f454d099a0f67e39a7a4dfbcbe71d506b55a24fd0a218397"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0004).sct",
+    "size": 6662,
+    "mtime_ns": 1777821043132781800,
+    "sha256": "9c31aac7668784e2f267314ac7f7202b64e49eb7bd4bbeb8852e83bcc61410ba"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0005).sct",
+    "size": 6662,
+    "mtime_ns": 1777821044861623900,
+    "sha256": "531e738cb7f8b491d3e5b40853f589d8f4e8a4f89e3fbf59209c5c30883fc177"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0006).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045388633300,
+    "sha256": "de7d45cda3749116e32a30b01db1e2e7433a72bdeef79f708dabc8022e13bd59"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0007).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045933246100,
+    "sha256": "531fe7c14ccd5038bd793b2b7296776d5b210f5f1faa0a645946d0bf21559cd0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0008).sct",
+    "size": 6662,
+    "mtime_ns": 1777821046996291900,
+    "sha256": "f705e39aed5ef5cce95b798434746aa9c827cb4ec24a879d240009a33c9a32d0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0009).sct",
+    "size": 6662,
+    "mtime_ns": 1777821047899551900,
+    "sha256": "a8e8084bfb08b820731521661f94d0460ac1d93113db887939d5073a050a6dec"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2(#0010).sct",
+    "size": 6662,
+    "mtime_ns": 1777821048621055600,
+    "sha256": "87417311a5272d0c824f5ec51182f773efeee6f3a06c4a234824c488d21bdfd2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2.pmm",
+    "size": 748,
+    "mtime_ns": 1777821048636626400,
+    "sha256": "a72a55a1dd45db276bce1d1e11c12680bf99c707dd8cf78bef99169448f87002"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2_pmm.rex",
+    "size": 3706,
+    "mtime_ns": 1777821048637626500,
+    "sha256": "9d4ae78c9e7a1ccc19cc5c43c6fff41dfbbf7dd89d1382e6f1bce6cfe18c4f52"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0000).sct",
+    "size": 6662,
+    "mtime_ns": 1777821028883036600,
+    "sha256": "3e3e5487be961bd4d76e89aefa23f1a3cca98e386b2aed2630d986be6ad7d4c7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0001).sct",
+    "size": 6662,
+    "mtime_ns": 1777821037665398100,
+    "sha256": "022b9dc6062e80e5e02e2eb8d41a49000c5c564a80b43aab93433e9e586189e1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0002).sct",
+    "size": 6662,
+    "mtime_ns": 1777821038607537800,
+    "sha256": "79cef25a32aed7ea080be0812c98dbece3496214fff7272f1e26328cb5e70a54"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0003).sct",
+    "size": 6662,
+    "mtime_ns": 1777821040814636000,
+    "sha256": "8d5b9643714d5a34dedb1be47364778ade8117b00c556d7c4d4360ed05bd6569"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0004).sct",
+    "size": 6662,
+    "mtime_ns": 1777821043131782100,
+    "sha256": "e41f696fe9e0979491ed56f7ec7fca098f1741e52775a418aee03d5f6954490a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0005).sct",
+    "size": 6662,
+    "mtime_ns": 1777821044860655000,
+    "sha256": "265c85e31512c2dca3b06ec189849fd7ca621356cc9bc1f2d0418ca840273e96"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0006).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045387624600,
+    "sha256": "75302295c030559004e73c39ab21152455a3b685cd289cd7fd0d8b6eff9889b6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0007).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045931262900,
+    "sha256": "73017b1219cfb789c05f5688a20ac7fcc99cdc66e54927daa318db0ed7eecaf9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0008).sct",
+    "size": 6662,
+    "mtime_ns": 1777821046995279200,
+    "sha256": "657c1bdae4ba1e2ef96c70e9e629cc40ee4c00c94f7a0c6dbfc3dacbeb9f7b44"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0009).sct",
+    "size": 6662,
+    "mtime_ns": 1777821047898548800,
+    "sha256": "4af70a4f52ed2a55d8306f58873507085a78a3771a91dd090d877a82402f1975"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0010).sct",
+    "size": 6662,
+    "mtime_ns": 1777821048620055900,
+    "sha256": "1675ca51d733d6da67e5f7ca557ec534710d7d5e6106889a0c56aafe664028a9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1(#0010)^res.axg",
+    "size": 145,
+    "mtime_ns": 1777822003532462900,
+    "sha256": "5c61e049f2439af72a14c075bcd14856863dd20ce07851b71bef5b48712e3e89"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1.pmm",
+    "size": 715,
+    "mtime_ns": 1777821048628064500,
+    "sha256": "9e5bae00abb0d2293d785ef5a21343ff7d4815834abddb21dbfe6cbcba507a5b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1_pmm.rex",
+    "size": 3979,
+    "mtime_ns": 1777822003533462300,
+    "sha256": "254588b9a154516681dd86db72f0dce282752adf170bbe9482b6441053803cd5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0000).sct",
+    "size": 6662,
+    "mtime_ns": 1777821028885035500,
+    "sha256": "ca95d6aa38055b001cf7de75b1534a43f54e892aacbb5a07ed61be0b0638e2d1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0001).sct",
+    "size": 6662,
+    "mtime_ns": 1777821037668397400,
+    "sha256": "8bbeabba61292964c2693ac36f864f49944063cdbd07f0c30fb5efb18bfc1d6b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0002).sct",
+    "size": 6662,
+    "mtime_ns": 1777821038609537300,
+    "sha256": "207cd43c8b7e2ab1547fe371652c441b28675269efaac51328133f608b28bab0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0003).sct",
+    "size": 6662,
+    "mtime_ns": 1777821040816636200,
+    "sha256": "5661c503ce909dbb9b870257154e6c6271a4763ded7a1edd10455c9e67b541a7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0004).sct",
+    "size": 6662,
+    "mtime_ns": 1777821043133792200,
+    "sha256": "516901c5347c4f42ba771482f80b4355e80a2e35d15e0d95f8252c7d41f5dc54"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0005).sct",
+    "size": 6662,
+    "mtime_ns": 1777821044862710800,
+    "sha256": "7834bd446618ccadad16d8f0f5b8b8334f524f8760fcd6db633db9ab072867e3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0006).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045389625100,
+    "sha256": "8f4d42d91b1b1e0af0af7393dc5e52af223a097ee1ed23da62efde77a986eb7b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0007).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045933246100,
+    "sha256": "42f6966ef3fd6ff1f108219c64630de041779e0a52d1226c360ac81ebdcfa99f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0008).sct",
+    "size": 6662,
+    "mtime_ns": 1777821046997278400,
+    "sha256": "fd1b99e1431b3e48c6e902573ec8821d5a5f1e87bdef755fb75adfb5c6120733"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0009).sct",
+    "size": 6662,
+    "mtime_ns": 1777821047900507600,
+    "sha256": "f221c8f42d6b69b32bbbaf77fb97dd17dab8ac78e6a21ab1ab48f0e972202649"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2(#0010).sct",
+    "size": 6662,
+    "mtime_ns": 1777821048622055300,
+    "sha256": "766e0ed1bfe56676b3ab90794e39faebeaa83c270211546ddda174ea467f2161"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2.pmm",
+    "size": 715,
+    "mtime_ns": 1777821048638626400,
+    "sha256": "ddff936dd440c7141449f6bddaa416eaed916a74874ad8390eec5e4c4223b415"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2_pmm.rex",
+    "size": 3672,
+    "mtime_ns": 1777821048639626700,
+    "sha256": "e9603bdaf7216246d1f20a2bd8388124a2ff4c1c7292d358f2342657f6074f56"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777821028881027200,
+    "sha256": "6b6b88d3dbe5cfdc7724c918ed429fa9cfa932331a72ee2b8da6fc882f47a173"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777821037664388600,
+    "sha256": "bc206ed66d13df112cf6d25ffdfa8c40b7afa801d541a8e2bfa6676222174734"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777821038605529600,
+    "sha256": "d759b91de2ad06c4a22301d4ee8d093f324e0dbb98ba7063c5b32c07c8cb52a9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777821040813637000,
+    "sha256": "ae2e401f891a0c47182d6bf3a887bd55df61ba8d85c8b4bfe6f2861be1c1d873"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777821043130782900,
+    "sha256": "fc8570b5e65091900118fff3c21de3d05f8d085f59ace82b0e2a33e473365b97"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777821044859675700,
+    "sha256": "cb25200d446cc1f7c47880484c131faff28c8dbc0e06f4896d91832738ca39c4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045386633900,
+    "sha256": "3d7a05a1b845c8380cdfdef9a9a9791e9a1b608085d74b96eb0a1df11a5a895e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045930262000,
+    "sha256": "baf6d12608fdaff21a60fcdfa37b2f1cd1d384b29cdac75e41b76ef0dd555c66"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777821046994278400,
+    "sha256": "986a821deb94560a25b8ce9eb40f58d8363ec26b0d479580bb7102639b24d479"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777821047896565200,
+    "sha256": "1b3a08e6328f4a1886ecca771907fc01189ff6521a820dd36aed0a418b944768"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1(#0010).pmf",
+    "size": 448,
+    "mtime_ns": 1777821048618055500,
+    "sha256": "e88f40c40b9998301d7ae56960fa017f64790ef2b44d4b4f2012a35bb7b36f55"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo1.pmm",
+    "size": 759,
+    "mtime_ns": 1777821048631115300,
+    "sha256": "64b95e6682316e9c8146b50509c0eb1b66e5c59c189a0a15b6a0907a602d4172"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777821028884035800,
+    "sha256": "088b12076d4cd6f36e605eca4fa01e343a51fa80825c2ec58fbf0cdc6c3c1d9a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777821037666398400,
+    "sha256": "9285d126db15c021ef57b5392e75c0281205d7a430147b28c4bfefc871c6ca1d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777821038607537800,
+    "sha256": "c69857ebac36bf2f61a9ed327a37d7135d3435c0e2e725580db74d6db88c4a0f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777821040815636900,
+    "sha256": "7e8dc2a120b38b4d07758f3635acfe231dfdd71fc59eae356f1e05b84e8ab3dc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777821043132781800,
+    "sha256": "04f9f0e405380ff20e18274d7eef8c306a79fd400df231674d1ac10254c48c0b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777821044861623900,
+    "sha256": "1ec42dc7fc290e51aeb589a070c63503a2947f64b52c7d0f0f2d86e8c59c42c2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045387624600,
+    "sha256": "bca4e01ca27377b039c624df71f9cac8b41b1b8c5d81e0fc502a3cbc098ed08e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045932255300,
+    "sha256": "a3255492119738560e9425ecd75ab00ad0711fb5b5db2828dd00a5983f6bdd03"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777821046996291900,
+    "sha256": "3f8c578f2d4233ee8f5faf8b8957db3302a628d3d73a3dec660619fd59168c14"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777821047899551900,
+    "sha256": "4857bfca923af1116ffd60b2cb3648d54e11c754a8ac2ce15ad1403701723af2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2(#0010).pmf",
+    "size": 448,
+    "mtime_ns": 1777821048621055600,
+    "sha256": "3ab3703576468df0991af0ca01e64e5353a30228067a1469e79a867f92d24c29"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hInfo2.pmm",
+    "size": 759,
+    "mtime_ns": 1777821048641626400,
+    "sha256": "c6b4cfe0b6af7c25367830d5495f2cac278dbd6ad1ac3162e46fb20a79750218"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0000).sct",
+    "size": 6662,
+    "mtime_ns": 1777821028882028200,
+    "sha256": "f47ea4c0513f25564e5e85d2583ef634b1b0f15ddbd4f0a78d374f063b6ca1df"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0001).sct",
+    "size": 6662,
+    "mtime_ns": 1777821037665398100,
+    "sha256": "a9d1697f6bd4d89bd761e0de9628c91cf395afa8d683058de23b6988194f218f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0002).sct",
+    "size": 6662,
+    "mtime_ns": 1777821038606529700,
+    "sha256": "63100708646351eae13bf932df0fca9f6d4a9db7b2971aa3a4db88f6f21d99b0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0003).sct",
+    "size": 6662,
+    "mtime_ns": 1777821040813637000,
+    "sha256": "3cdc752aa2d953953e39eb8b1e6a30c32a2e720a8424b6689f18730a5b803de8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0004).sct",
+    "size": 6662,
+    "mtime_ns": 1777821043131782100,
+    "sha256": "f2382655899fcc51eda7469c5b8f0974d5e990bb3f81774a208d793d38c09d52"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0005).sct",
+    "size": 6662,
+    "mtime_ns": 1777821044859675700,
+    "sha256": "3939628f917d05245d0c2304ab9ca5bc273146cfba89d82ca296ab2eeccbf637"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0006).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045386633900,
+    "sha256": "ba59fe32de577fed94990b92ccf3c1fcc65a53ccadf2a20b92df6b8180df1247"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0007).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045931262900,
+    "sha256": "58257fd72def70e40b0bca20e5cb7af513d7b14b1eee5357e65e951838017619"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0008).sct",
+    "size": 6662,
+    "mtime_ns": 1777821046994278400,
+    "sha256": "6c7effd023cf1b960f29e8166fb9777d233d77f46d7643be5c90b6f1299d13bc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0009).sct",
+    "size": 6662,
+    "mtime_ns": 1777821047897510800,
+    "sha256": "e5686e58b4f5ffe6e80857d8a52f8b9d5f92fc80a0d1ef0780145aaf2c687ce4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1(#0010).sct",
+    "size": 6662,
+    "mtime_ns": 1777821048618055500,
+    "sha256": "e41fde03123e2e1de8cf04b0a15244c2f7cbfa90aa18c9a1a3d185b7c5666c8f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1.pmm",
+    "size": 748,
+    "mtime_ns": 1777821048629055200,
+    "sha256": "3b1c1dc3bf4743f677f240ab26216f1a3ab57d89a412990bab1382b8f0627f4b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1_pmm.rex",
+    "size": 3706,
+    "mtime_ns": 1777821048630055100,
+    "sha256": "68cfdb4b9eb55b2d303c7cbaa792ed5f686eb6518dc237eaa0323836af85079b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0000).sct",
+    "size": 6662,
+    "mtime_ns": 1777821028884035800,
+    "sha256": "ee05bc1e048c2804efa32fc6fcfa2e7a7cf611f837c558fd5dd532cd7d41d293"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0001).sct",
+    "size": 6662,
+    "mtime_ns": 1777821037667388700,
+    "sha256": "1f511a6396e814a9ab685fb7fb6f2fd6e199356c4f1e445dff1f93498e7cf939"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0002).sct",
+    "size": 6662,
+    "mtime_ns": 1777821038608529000,
+    "sha256": "b9dc47c11544afb83b42cffe5946c9956ffb21afdd445fcd57aeaf281a3a0191"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0003).sct",
+    "size": 6662,
+    "mtime_ns": 1777821040815636900,
+    "sha256": "43951f8137c5e68122f906cd1fa195fab1ef7114a63ceffb1dd730426de1d621"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0004).sct",
+    "size": 6662,
+    "mtime_ns": 1777821043133792200,
+    "sha256": "dc197a29b926a74ae00a830aa9432f4645ad610569bbdd39245c84f6bc6d6347"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0005).sct",
+    "size": 6662,
+    "mtime_ns": 1777821044861623900,
+    "sha256": "d98eaf1dc2c2963b6a647939673ee8fe1b4643eeafdc1f799a53ff241e504026"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0006).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045388633300,
+    "sha256": "9eb64c18adfe373a76a7413edd83fe894825c96332a87b6489dcffb72bacf09d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0007).sct",
+    "size": 6662,
+    "mtime_ns": 1777821045933246100,
+    "sha256": "323c1136f3409da204bf35a2bb8b095576ad30ea71549c33da604c1df15fe84a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0008).sct",
+    "size": 6662,
+    "mtime_ns": 1777821046996291900,
+    "sha256": "d34d8c834d87cbe8667a908e8efbb82c393fbb18686dbafb39f1fbaf1f05b221"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0009).sct",
+    "size": 6662,
+    "mtime_ns": 1777821047900507600,
+    "sha256": "bd52e4b425338ca9a45ad6cd392c3bdca946b8191b8e523baa81344da63f67b3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2(#0010).sct",
+    "size": 6662,
+    "mtime_ns": 1777821048622055300,
+    "sha256": "b2a5f4344a8592f31086f72bb8c63c1aec76a1547cd69d7a6dde748673000c43"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2.pmm",
+    "size": 748,
+    "mtime_ns": 1777821048640641300,
+    "sha256": "c328f86e8a6d89cefa3cc27676f38040cae6cf80fd5bfe08dd2ac7c80bfbf300"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2_pmm.rex",
+    "size": 3706,
+    "mtime_ns": 1777821048641626400,
+    "sha256": "c1dc46354aeec15a7a857b18e63a5c8e86502c030d0c0e34bd119bf7a0523720"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0000).mmd",
+    "size": 1347,
+    "mtime_ns": 1777821028885035500,
+    "sha256": "539a39067bf060ce0c3d769905ae8b20ae7d1db4ede3c6d199136801578ffd07"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0001).mmd",
+    "size": 1344,
+    "mtime_ns": 1777821037668397400,
+    "sha256": "e6fb9eb5c42a595b9182a26f5db51a964a00469301110383ae4449d67a7793e8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0002).mmd",
+    "size": 1345,
+    "mtime_ns": 1777821038610538500,
+    "sha256": "742d45d97d83e2cfd77882a5b2f152612d0ded802932bc47e9d43bd270ce5eae"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0003).mmd",
+    "size": 1346,
+    "mtime_ns": 1777821040816636200,
+    "sha256": "e65e78ca651c2e2ff01d058029cd01a0f33e1546d9c57607b0bea85453004feb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0004).mmd",
+    "size": 1345,
+    "mtime_ns": 1777821043134782100,
+    "sha256": "531b166fee95b6965ee9a36ac8b4659ce6a4cfb47d7452e64f327fa6e25e3a27"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0005).mmd",
+    "size": 1350,
+    "mtime_ns": 1777821044863695100,
+    "sha256": "68d3acea106198c3e0becd458f513bf60cfd68e5169c136a973fe156d4927783"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0006).mmd",
+    "size": 1346,
+    "mtime_ns": 1777821045389625100,
+    "sha256": "f46a14076b2894f9790436dfbef3438e4f6ee0adbb5a79499f557718b68d0922"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0007).mmd",
+    "size": 1350,
+    "mtime_ns": 1777821045934258300,
+    "sha256": "47a5096378725ed7199ac3385ec3d9c34ef68bb925d7bf59a6e79cef77cb9ad0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0008).mmd",
+    "size": 1351,
+    "mtime_ns": 1777821046998289800,
+    "sha256": "14d0d780d10f7e2b60f845df58a90008bfc84ce73e2a09387ba5ffd5bc9cf848"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0009).mmd",
+    "size": 1345,
+    "mtime_ns": 1777821047901549700,
+    "sha256": "f25f0db6cf02d384853179ce053ebbcb15040594b1a8bf9a4be69b03c87da4f0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1(#0010).mmd",
+    "size": 1352,
+    "mtime_ns": 1777821048623067600,
+    "sha256": "2cb68db4aee9c00a6b93031aa274109f24c38ed1ba363eb934c793cccfcfbf20"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info1.pmm",
+    "size": 748,
+    "mtime_ns": 1777821048624064000,
+    "sha256": "e5d2a38e19c39a485ac9dcbb8fb610a3be5767313ba981828a4ffe3ec4688538"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0000).mmd",
+    "size": 1346,
+    "mtime_ns": 1777821028886035900,
+    "sha256": "75fddfdd1cc91102dd9b1c85b35fd1cddbf6f8580ee5ccdb94c2a0fe018f9bbb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0001).mmd",
+    "size": 1344,
+    "mtime_ns": 1777821037669509100,
+    "sha256": "4df76b523c7e95b9aea0e83720d655e2a7377327e276c93b8df1e3a86e5e11ad"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0002).mmd",
+    "size": 1345,
+    "mtime_ns": 1777821038610538500,
+    "sha256": "7fc01fd727f8cb706525fb9ad9ffb794bd33a6a9875ac0334f5b48fb4e8d4c15"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0003).mmd",
+    "size": 1347,
+    "mtime_ns": 1777821040817635400,
+    "sha256": "5bc07f1f745cde2f15efe30337d1f62ddccbf1952b0d75e0e7338e47c9612263"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0004).mmd",
+    "size": 1346,
+    "mtime_ns": 1777821043134782100,
+    "sha256": "30eb8c5e5e75406d6f60d554583062a7d0ded506d9a9488a1d2af4fdd3308e51"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0005).mmd",
+    "size": 1350,
+    "mtime_ns": 1777821044863695100,
+    "sha256": "6c7e787b308815223b5a932e28e0d28534ca66f6691b2d543408b99d2969f8b1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0006).mmd",
+    "size": 1345,
+    "mtime_ns": 1777821045390636600,
+    "sha256": "f25de801e8b49214e37a66c0a399e4d96348613d4419927fc7f540b10abddad0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0007).mmd",
+    "size": 1351,
+    "mtime_ns": 1777821045934258300,
+    "sha256": "9550ec873092861e95dc9af01c1961bb26ac7c4c739753b25799a810d47fdc54"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0008).mmd",
+    "size": 1352,
+    "mtime_ns": 1777821046998289800,
+    "sha256": "5ce8150ef683c422871ad4080ff000c49f7517d0f653944259a6ade50c0a53cd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0009).mmd",
+    "size": 1345,
+    "mtime_ns": 1777821047901549700,
+    "sha256": "8d3f2355f5513c6749d0646ed653557db40e4c04b6864faa6da01a6d217dc56d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2(#0010).mmd",
+    "size": 1352,
+    "mtime_ns": 1777821048624064000,
+    "sha256": "b39f2574a282a7eaafd39320631e9c37944a2b77fc9f35e7b7f95ca33d29a8d3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_Info2.pmm",
+    "size": 748,
+    "mtime_ns": 1777821048634626500,
+    "sha256": "fe062b5146ecd0f7eb07b627a737d523f37a73791f0d947a22692ae64d602ddb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0000).sct",
+    "size": 4358,
+    "mtime_ns": 1777821028883036600,
+    "sha256": "43876baec522aa65d3d3ebad66149e15dbe34337b8c74f6fd84ce6e9424af4e9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0001).sct",
+    "size": 4358,
+    "mtime_ns": 1777821037666398400,
+    "sha256": "6d34117d616d5e3b73092fe9685f1888c6259e93c3dce72b72ae50df3baaa8e7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0002).sct",
+    "size": 4358,
+    "mtime_ns": 1777821038607537800,
+    "sha256": "1e1155a66829d96b744378b4e2f083836bac790bfbe54ced37e20233632ee8b8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0003).sct",
+    "size": 4358,
+    "mtime_ns": 1777821040814636000,
+    "sha256": "7253bb49d8aa586539fbc3d651b4e53982e15ab0d4dab3dc33481c1dfb38e39f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0004).sct",
+    "size": 4358,
+    "mtime_ns": 1777821043132781800,
+    "sha256": "b7b6a854be777fcacdaa7403037bcaceb5c376398b402355fefd0bc47591fd5c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0005).sct",
+    "size": 4358,
+    "mtime_ns": 1777821044860655000,
+    "sha256": "b4201a38d123f3f4ead9d4065ee3e341a031577694227f4898028d3d29ed01fe"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0006).sct",
+    "size": 4358,
+    "mtime_ns": 1777821045387624600,
+    "sha256": "25ea78db9e104b5349d464a1862577ee02a08ac1b45478bf88cc68b2157402b8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0007).sct",
+    "size": 4358,
+    "mtime_ns": 1777821045932255300,
+    "sha256": "0884a9f5f976d80fde3cf40c81ff730320c299aa6e2399b5a9307c82c88259d5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0008).sct",
+    "size": 4358,
+    "mtime_ns": 1777821046995279200,
+    "sha256": "9fb109d5e884cd778b4826533aa16345a19b6ecf89e434c3dd857711816cb8e8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0009).sct",
+    "size": 4358,
+    "mtime_ns": 1777821047898548800,
+    "sha256": "f1d5da533b7a9a6390843e1b644695812c22ee76bfe012606286d8ae747ec9b8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0010).sct",
+    "size": 4358,
+    "mtime_ns": 1777821048620055900,
+    "sha256": "69fffdbf7c879a58aa6e7ac85b2a91656c0df3f380ec4728a34cf01c68178daa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1(#0010)^res.axg",
+    "size": 145,
+    "mtime_ns": 1777822006000450800,
+    "sha256": "5c61e049f2439af72a14c075bcd14856863dd20ce07851b71bef5b48712e3e89"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1.pmm",
+    "size": 715,
+    "mtime_ns": 1777821048631622700,
+    "sha256": "73af5478fe6465c93158ae86b21042cffba9589031e1b9ce0328255efc4bb176"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p1_pmm.rex",
+    "size": 3996,
+    "mtime_ns": 1777822006001450400,
+    "sha256": "0fe782e23b916fd2209fc3d185c57a1ebf1fb81ed2e095c98e38f97ae6bb4fbe"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0000).sct",
+    "size": 4358,
+    "mtime_ns": 1777821028885035500,
+    "sha256": "9c6bb524d37d4abf19c87094561ae6aeaa305f1f4c5ac6b83352e0ecd2acec1f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0001).sct",
+    "size": 4358,
+    "mtime_ns": 1777821037668397400,
+    "sha256": "276262bb0ece9e66e38b0302925a8ca6f26c376b1ec1c90f2ccf21b791afc8c4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0002).sct",
+    "size": 4358,
+    "mtime_ns": 1777821038609537300,
+    "sha256": "f87eca904120754998c4d85292627ac07188c7e9b65e1de47367e5f71509a980"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0003).sct",
+    "size": 4358,
+    "mtime_ns": 1777821040816636200,
+    "sha256": "cb9ccad19653dd05240803f18ffaaa8147c8192cd2f2ee14e3886d5aa338ec69"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0004).sct",
+    "size": 4358,
+    "mtime_ns": 1777821043133792200,
+    "sha256": "ee79f81511d1bea78dbf323ea65a66cce679d9c897898ed87a32845f9454b3f9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0005).sct",
+    "size": 4358,
+    "mtime_ns": 1777821044862710800,
+    "sha256": "711c0df93457f443fc280038e69b0f8560269cc73e909ad8d7926d4d540fd390"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0006).sct",
+    "size": 4358,
+    "mtime_ns": 1777821045389625100,
+    "sha256": "51161e06adc81f082751e45b920bfae7495534f509bfe0475551183aa0401221"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0007).sct",
+    "size": 4358,
+    "mtime_ns": 1777821045934258300,
+    "sha256": "d42d5ff93bf12ad924dce453aa9fd787bcf0329f7005631a8443eaff13943c49"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0008).sct",
+    "size": 4358,
+    "mtime_ns": 1777821046997278400,
+    "sha256": "6a5128e2c8d2b0579ee52d7ff110182ce08a6fa3b88648067168058355213007"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0009).sct",
+    "size": 4358,
+    "mtime_ns": 1777821047901549700,
+    "sha256": "941ffc1c5e999859b7091d2728d264430ca3b72742820ecbe592172f90034e73"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2(#0010).sct",
+    "size": 4358,
+    "mtime_ns": 1777821048623067600,
+    "sha256": "305325a443f32e4e52b5dbf92b6b42b3edafca1b86bcda625a8f72c6776838b0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2.pmm",
+    "size": 715,
+    "mtime_ns": 1777821048641626400,
+    "sha256": "cb1bd0e9854bf5de453408b08129844dd2d31f74dc5b0ef22e9894861f561f3f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_p2_pmm.rex",
+    "size": 3689,
+    "mtime_ns": 1777821048642626500,
+    "sha256": "bd03be7399a1548203a2c0020dbcfd8467507415a1b0834fab4e6e0871ae0e4e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777821028881027200,
+    "sha256": "eefcc95d8e592216eea2094b4b95e9cee072e4019b7338a8d946bc0cef83c28e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777821037664388600,
+    "sha256": "20e2915f24c6a3340951d7a45f5d1a3650ea218b1f9bba13daa310242a68f420"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777821038606529700,
+    "sha256": "33894943010663aa13092c9701873a707982bca9d2c66080922f18eb66af67e5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777821040813637000,
+    "sha256": "285feaec4ed84f50f72ed91d795e4caec25dec9b66257e8aee49f653ac784062"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777821043130782900,
+    "sha256": "705a01f17b69eb7e345fc97489ed09d06f0da06f5ce71ead1d8a5ed5b98f3c6c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777821044859675700,
+    "sha256": "578c9f37445c78ae4c96477e97526909a02b8ed049940cec43963bcf9d3d9186"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045386633900,
+    "sha256": "64e0b230967e6b5778e6c1656a35e6388a92a655db3bcf9f69658a1f8656317c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045930262000,
+    "sha256": "b0be7dc495c275cfb962b7cfa59f5281c44baac1f677e086e78f9379e9c643ce"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777821046994278400,
+    "sha256": "cf3b5e0e57e1db204f32c44fb3ac886c871feef354704e64c9000f7877cf6378"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777821047897510800,
+    "sha256": "75b2b9c8e7a99d929713392225a893c87e9361dd97bfdfe969519e95c56895df"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1(#0010).pmf",
+    "size": 448,
+    "mtime_ns": 1777821048618055500,
+    "sha256": "75b81c8e153af0808253273870b7b17ceb602965e024dbd7dfc4c0ee2d1e8530"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo1.pmm",
+    "size": 759,
+    "mtime_ns": 1777821048634626500,
+    "sha256": "9d4367f4343a29c7a94fba73d3af1346ef0a2206f9c53521becd92413b61982c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777821028884035800,
+    "sha256": "d577f285e751dfb15f334f5c2bd73bd14a49bb6e6ed4667dcf4b37969811fc7e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777821037667388700,
+    "sha256": "d45ea3862651246f6088b438c87a8e88568e4ab61af84b32e9534329e9c7ca2f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777821038608529000,
+    "sha256": "6d5a478786171703c513391c37e61639099512b0d197ea46a751b7e6af4a1625"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777821040815636900,
+    "sha256": "3c176ac34379c6e8a620830d55b81ab3c5141f0f4f27e442489397baf35ef450"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777821043132781800,
+    "sha256": "f091b262e2bff9ea9572f64ba1ada9a0df27908b8360ffec14c45c9500bda8b2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777821044861623900,
+    "sha256": "7be4c8f7dcb87e9a2bb5cf75e91d080eb7827bcdf63791af924d6f1725ef3926"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045388633300,
+    "sha256": "9b136ad7b41bff3d8bca70f0791fc471ead05bb24995aeab03b88dc61e8ce558"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777821045932255300,
+    "sha256": "a090d6e537efe3d6d671a08fd29adddcefffcc4c4620222e7082760aa30e6d47"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777821046996291900,
+    "sha256": "bfd859ec4fbe755e41766887e5f9cf0ebde18e7498adcf6e5a8d96b293e57de5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777821047899551900,
+    "sha256": "79603280223d6949e5ab1a033b4b30962b5f155e0c0dceb995408fd8d76708f2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2(#0010).pmf",
+    "size": 448,
+    "mtime_ns": 1777821048621055600,
+    "sha256": "968aa5e5ca220c0892d3e941672de92094b307787106323e3669ef3166ba927b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pInfo2.pmm",
+    "size": 759,
+    "mtime_ns": 1777821048644636300,
+    "sha256": "fb5cba9635c2275e111fb7ec79b83f4fe4daea5aab3e6032133ca07b5f081351"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0000).sct",
+    "size": 4358,
+    "mtime_ns": 1777821028882028200,
+    "sha256": "657e3be55856138b310be33e3100a2f554eb04904e5ba146d6f0cfc71817c510"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0001).sct",
+    "size": 4358,
+    "mtime_ns": 1777821037665398100,
+    "sha256": "7da3585dc301ea8ef9addb80a2391bffe1dd1b76b8cf30d1081307a3f3f6c00a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0002).sct",
+    "size": 4358,
+    "mtime_ns": 1777821038606529700,
+    "sha256": "7426a34dec604beaf6a8b3b72eab59b655ca4196460cea0cd96b45d4e6b52ddf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0003).sct",
+    "size": 4358,
+    "mtime_ns": 1777821040814636000,
+    "sha256": "455d1e65344da2e8b15eae65ef0ac87a6c1b6c426223b7229a70a26e449e8d5b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0004).sct",
+    "size": 4358,
+    "mtime_ns": 1777821043131782100,
+    "sha256": "62016f9089b03690c59f4865899e4a5806fefb4b453a2f04f2e22c66f44da8b4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0005).sct",
+    "size": 4358,
+    "mtime_ns": 1777821044859675700,
+    "sha256": "8ec1390b7292f6ffbaae90c1fdf14c864cbb64f985b5f8fe7038c50585cc2898"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0006).sct",
+    "size": 4358,
+    "mtime_ns": 1777821045386633900,
+    "sha256": "29c7bd7200c0e4b13b06d91e282fb86dca026eb0f43377e192f02fb364bff08f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0007).sct",
+    "size": 4358,
+    "mtime_ns": 1777821045931262900,
+    "sha256": "dc15f26e708836cf5d011e4717f08bf8fd33377c208b52f073da343c82c1cfc9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0008).sct",
+    "size": 4358,
+    "mtime_ns": 1777821046995279200,
+    "sha256": "2bcde2c161f0cf262cfab7dc82c85d0a386db825f05f4fa4bd5dfcc9acf29f91"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0009).sct",
+    "size": 4358,
+    "mtime_ns": 1777821047897510800,
+    "sha256": "a36943e1171b5c81cc72f1a4f7d8a71c68a2ea3cdc25355fc9ccff62a728c665"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0010).sct",
+    "size": 4358,
+    "mtime_ns": 1777821048619062400,
+    "sha256": "320651a69f5401acbdbeff71026a1c6857ff7d3e582ce8765f72678f6871a5f9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1(#0010)^res.axg",
+    "size": 145,
+    "mtime_ns": 1777822011387566600,
+    "sha256": "5c61e049f2439af72a14c075bcd14856863dd20ce07851b71bef5b48712e3e89"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1.pmm",
+    "size": 748,
+    "mtime_ns": 1777821048633626900,
+    "sha256": "6bf970eb96514e97c34f1cfdaf87e0c587adad6107ead882f443403df654ff95"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout1_pmm.rex",
+    "size": 4033,
+    "mtime_ns": 1777822011387566600,
+    "sha256": "221d67e52ffa29f2a28fd60f1d2878b9f0514a2b9c3b9cb6da6ea9358ea866b2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0000).sct",
+    "size": 4358,
+    "mtime_ns": 1777821028884035800,
+    "sha256": "c15c113d0a5f48fbc844a2369caf83f5955cc2380f36378f3552e98f140be887"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0001).sct",
+    "size": 4358,
+    "mtime_ns": 1777821037667388700,
+    "sha256": "74452b08da15b84dc471899fd4cba11036f44a22a2283bacb0dd2bcb3410b14a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0002).sct",
+    "size": 4358,
+    "mtime_ns": 1777821038608529000,
+    "sha256": "218a9a3fbf2ea30294e072c5d4e6fd5e732845d82c796acf51d5727b4525dd95"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0003).sct",
+    "size": 4358,
+    "mtime_ns": 1777821040815636900,
+    "sha256": "7e9f29ee0ada9275c5e9d522058924d738b5668f62b4217d3677052b035fb0f3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0004).sct",
+    "size": 4358,
+    "mtime_ns": 1777821043133792200,
+    "sha256": "6de81c614a709e342d66c364fd341ee6378f0937abf2d348cab59401dbc80960"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0005).sct",
+    "size": 4358,
+    "mtime_ns": 1777821044862710800,
+    "sha256": "03c8fe671f6d4472b189e8f3c5e75f13fca5a95496f4c312ab0b752b6bc8b59f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0006).sct",
+    "size": 4358,
+    "mtime_ns": 1777821045389625100,
+    "sha256": "041e0c67789e8be722b18f94fecd585b1ace835fe3dbd47144b46c2f031fa323"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0007).sct",
+    "size": 4358,
+    "mtime_ns": 1777821045933246100,
+    "sha256": "6fc58dfac811ab3f33f0d44e46b0757bf591e283c014700fd8b2481d12a78995"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0008).sct",
+    "size": 4358,
+    "mtime_ns": 1777821046997278400,
+    "sha256": "fa989a2d88232c1ff3e58baa2b470a4ec4f32366fd3c16330e41b8f0873cb7de"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0009).sct",
+    "size": 4358,
+    "mtime_ns": 1777821047900507600,
+    "sha256": "76e443c89eff2b56d2b47e924be2f179b9d33d375f6923184d0087de3cf9bf82"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2(#0010).sct",
+    "size": 4358,
+    "mtime_ns": 1777821048622055300,
+    "sha256": "90e5b03f47310bff3ed6452227df22288bddd6896b26d7abeca7a21d6ce85c8c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2.pmm",
+    "size": 748,
+    "mtime_ns": 1777821048643626800,
+    "sha256": "56e643a830f865be168dcb13ac8c20e106735951bf8ec714ab4a01712dc1dc54"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Port2_pout2_pmm.rex",
+    "size": 3723,
+    "mtime_ns": 1777821048644636300,
+    "sha256": "3b8673ed92c7b7d4e54ae81f2b1960695a1a77a1e47b8e2671efde2cff029522"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\PP-GPU.log",
+    "size": 168,
+    "mtime_ns": 1777821049491422700,
+    "sha256": "d336bca6207ad1a12e28a28d1dc59e0f59a99a8e34e1e95e6db733e3a1fd7c5e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\reftags.tet",
+    "size": 3294,
+    "mtime_ns": 1777821034318793000,
+    "sha256": "9c38250d97b8693b90fde1ae30e5d444378d6c98e9a0c29560879eedb7324482"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\sat.tet",
+    "size": 587342,
+    "mtime_ns": 1777821028088299700,
+    "sha256": "2ac1e93a8bb819c688bbb5079b2d31c3d1a8032b4ad5af17b2ce8016203cb40d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\simulation_overview.json",
+    "size": 1694,
+    "mtime_ns": 1777821050151227100,
+    "sha256": "97f270764c221457f2e812724fa235827dc19ea29eec25c77adf81c0b6ec3d23"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef(#0000)_Zmax(1).scf",
+    "size": 752768,
+    "mtime_ns": 1777821049203705600,
+    "sha256": "7916405f6adafed84eeaf0a6100d6cc32136f08511fac64787a7ed561eaf23b0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef(#0000)_Zmax(2).scf",
+    "size": 752768,
+    "mtime_ns": 1777821049204699600,
+    "sha256": "d87df09cf01f99300944069c448ba577260985ead7b95983900ceaaff6895501"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef(#0002)_Zmax(1).scf",
+    "size": 752768,
+    "mtime_ns": 1777821049206698400,
+    "sha256": "80d9ccd2021be12e605e56a6408ae4708984d7c47e16b8b93cb028006ebeaae0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef(#0002)_Zmax(2).scf",
+    "size": 752768,
+    "mtime_ns": 1777821049205657800,
+    "sha256": "f88e29690354432dcdf6c5b46ddbf15a3ee8d1776863a60f7a466d08671aee0b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef(#0003)_Zmax(1).scf",
+    "size": 752768,
+    "mtime_ns": 1777821049207708600,
+    "sha256": "c00fd85caf87f72dc3eaab0974c1d1954aeba60164df259fb82f48886879af6a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef(#0003)_Zmax(2).scf",
+    "size": 752768,
+    "mtime_ns": 1777821049208696600,
+    "sha256": "d61c328d779c7500d00bf23bc2b1c5e0153cac60d5381177a78b112156590be6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef(#0004)_Zmax(1).scf",
+    "size": 752768,
+    "mtime_ns": 1777821049208696600,
+    "sha256": "87e4fd6b68cc76e2226f1b776afc3fb89e3edcb8cece43b0dfdd46512538df10"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef(#0004)_Zmax(2).scf",
+    "size": 752768,
+    "mtime_ns": 1777821049209657400,
+    "sha256": "9baf84ceb4eb296fa1d4e937082d375e827ecf842ad133e85bf2c01302b2c2d3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef_Zmax(1).scl",
+    "size": 351,
+    "mtime_ns": 1777821044723356300,
+    "sha256": "f22b2e758e219a984e1e3f8ffa15bef598f2dcce2e1e44bf2c39a3cb4582a4dc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\SolCoef_Zmax(2).scl",
+    "size": 351,
+    "mtime_ns": 1777821044724356200,
+    "sha256": "635616ba483ebf46a2bb28e02e2068fd2c0484f322a6e993dcba3e0aed7bd9e2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Storage.sdb",
+    "size": 385024,
+    "mtime_ns": 1777821050330737500,
+    "sha256": "49de10d3e007989c9fe0b5b4f82b48a3e580223e49fe4b24dbe7533298916f30"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss (#0002)_Zmax(1).sld",
+    "size": 144894,
+    "mtime_ns": 1777821040716010400,
+    "sha256": "0f2d6eea29442f785f2ae70ee84da9ef0190a8d8524a4c95184d28a2913d01cb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss (#0002)_Zmax(2).sld",
+    "size": 144894,
+    "mtime_ns": 1777821040754010000,
+    "sha256": "a6876f8b302f42bb9bceaa8f72d078b81f703214587d89949e729cf357a08932"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss (#0003)_Zmax(1).sld",
+    "size": 144894,
+    "mtime_ns": 1777821043024781700,
+    "sha256": "ca6f5426731442a119b349ddb61f3b850397ddc9665183ab4a954225016d4bab"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss (#0003)_Zmax(2).sld",
+    "size": 144894,
+    "mtime_ns": 1777821043066781600,
+    "sha256": "5eac99cf4233f4a21b93e57e1cb962f1ace7e350c50e20ac7a2bd840d3bd088d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss (#0004)_Zmax(1).sld",
+    "size": 144894,
+    "mtime_ns": 1777821044747396700,
+    "sha256": "20c03ca686399ab80762aac0049222178c57590228779b8bb36c9135464d575b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss (#0004)_Zmax(2).sld",
+    "size": 144894,
+    "mtime_ns": 1777821044795385100,
+    "sha256": "a22acd050c9d4d7b5c1936378b77058ee80c3213b5b4f76d49d7de3e33447744"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss int (#0002)_Zmax(1).pwr",
+    "size": 17996,
+    "mtime_ns": 1777821040717000600,
+    "sha256": "ee76529c74567574b4bb7b3b6886fb7f542f1cdf587d3a0f5af4121f99678434"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss int (#0002)_Zmax(2).pwr",
+    "size": 17996,
+    "mtime_ns": 1777821040755010800,
+    "sha256": "25cea7db89a8fb9a97d121de8b9877705edda4ea3fa382b1f8bbdeba2e5d7c69"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss int (#0003)_Zmax(1).pwr",
+    "size": 17996,
+    "mtime_ns": 1777821043025782400,
+    "sha256": "003cdc11d425debb5fe0531018d0e531e947be3b23fbd65f9be05745b02b9079"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss int (#0003)_Zmax(2).pwr",
+    "size": 17996,
+    "mtime_ns": 1777821043067782000,
+    "sha256": "1a715a0c19c929ac61a6e56b6615d0b51c18e9d39789e3ec382a7d7d14cfe4f2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss int (#0004)_Zmax(1).pwr",
+    "size": 17996,
+    "mtime_ns": 1777821044748356400,
+    "sha256": "7f3d6e54ed7f57ae65acfd7ae5861349ca7fb8d447348eda80540dde4b77b469"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\surface loss int (#0004)_Zmax(2).pwr",
+    "size": 17996,
+    "mtime_ns": 1777821044796432200,
+    "sha256": "632d3a2437f08b4748aef799e12671d2c410af4b3f4009d5c7120beef1714b01"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\tetquality.tet",
+    "size": 107923,
+    "mtime_ns": 1777821034728773800,
+    "sha256": "7ee7db07b7aadb02944a933e2a83c2c7043097ab44833fa145331972d9371903"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\topot.tet",
+    "size": 19844,
+    "mtime_ns": 1777821028118290900,
+    "sha256": "cf4e89137b5d449d5777f4e0e1b4ca2a6964127044656c68734e7474cd5328b5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Temp\\modelermeasurements.sconf",
+    "size": 40,
+    "mtime_ns": 1777826351680957400,
+    "sha256": "856e2596ceadea5acc43a9371a4c1a78c646646fa57c0f0017a23bf5114ecbe2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Temp\\resourceusage.sconf",
+    "size": 2314,
+    "mtime_ns": 1777826351680957400,
+    "sha256": "0a3d5ab75c9d53a480068da5a54d71b7039b4a5650b09d8b8496fe76d7e4d123"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Temp\\solver_launch.mdg",
+    "size": 231,
+    "mtime_ns": 1777821050133460500,
+    "sha256": "af89f3c0ae3a176067d0955476eef8e2231f37bcf40126d20098e40d7e72178f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Temp\\SolverControl.mdg",
+    "size": 405,
+    "mtime_ns": 1777821028286751600,
+    "sha256": "1a183cdcceb38b8f5ce36ae1b020671305ffc39b659b6dec0256537ff0ddd0be"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Temp\\tetmesher.sconf",
+    "size": 933,
+    "mtime_ns": 1777821028249751200,
+    "sha256": "238b0207eeba3186bf3e7620b4367458cb922bf75d9d6e2406f7ecfe76ff8ed0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Temp\\ThreadInfo.txt",
+    "size": 36,
+    "mtime_ns": 1777820675999299900,
+    "sha256": "4ec0db18da622ad6428290a55a265a4bc2cbe29c8f466d20e3fdefe9f02c32e1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_mask_x_12x12.txt",
+    "size": 300,
+    "mtime_ns": 1777802741615981900,
+    "sha256": "0f488ec8c3ad31acc65266ddd565c1dd93f0a47857686ee039ee93155047b1f6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_mask_xy_12x12.png",
+    "size": 85533,
+    "mtime_ns": 1777802742046149300,
+    "sha256": "cc1a0d8d2cd9c2930404e4e986e5f2b9559f62c55772bcb76a2ca16c52c61597"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_mask_y_12x12.txt",
+    "size": 300,
+    "mtime_ns": 1777802741615981900,
+    "sha256": "22528181083bd2c7cd3db2562603d7c0c2c360dc057250abe76617360346dea4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_result_ohmic_sheet_12x12.txt",
+    "size": 2457,
+    "mtime_ns": 1777802742055148500,
+    "sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_s11_ohmic_sheet_12x12.png",
+    "size": 104098,
+    "mtime_ns": 1777802741608977200,
+    "sha256": "295fdb8b0d8f4235e3ef4608ee56824bbc43db701f74f9ab908e1b2bba49f484"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_s11_ohmic_sheet_12x12.txt",
+    "size": 9649,
+    "mtime_ns": 1777802741261914600,
+    "sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\ga_log_ohmic_sheet_12x12.txt",
+    "size": 45576,
+    "mtime_ns": 1777802741250902500,
+    "sha256": "bb511e6d52612c47e0ce5d361fa7337696fba1787a0744757c0218c827728b79"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\individual_trace_ohmic_sheet_12x12.txt",
+    "size": 177594,
+    "mtime_ns": 1777802741243903000,
+    "sha256": "a2aa0f5d4aa9d41ad559721b00a8f216b650ed3051b9d2abee22fa02b03c32f2"
+  }
+]

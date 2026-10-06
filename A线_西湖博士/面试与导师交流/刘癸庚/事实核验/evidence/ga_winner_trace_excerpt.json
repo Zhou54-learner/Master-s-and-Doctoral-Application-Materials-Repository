@@ -1,0 +1,10 @@
+{
+  "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\individual_trace_ohmic_sheet_12x12.txt",
+  "sha256": "a2aa0f5d4aa9d41ad559721b00a8f216b650ed3051b9d2abee22fa02b03c32f2",
+  "matches": [
+    {
+      "line": 223,
+      "text": "gen=7\tidx=6\tstatus=finished_cst\treason=ok\tsummary=origin=crossover, p=13.1409, h=10.0731, Rs_x=140.79, Rs_y=35.461, X(kept=36, comp=2), Y(kept=79, comp=1)\tmask_x=000000000000/000000000000/000000000000/010000000000/111110001111/111100001111/111100000111/111100001111/000000011000/000000001000/000000000000/000000000000\tmask_y=111111111111/100010010001/100010010001/100000000101/111110001111/111100001111/111100001111/111100001111/100000000001/100010010011/100010010001/111111111111\tx_report={'kept': 36, 'isolated': 0, 'components': 2}\ty_report={'kept': 79, 'isolated': 0, 'components': 1}\ttotal_kept=115\tcst_file=F:\\biyesheji\\ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979.cst\tscore=89.63868001716894\tbandwidth=13.2\tcoverage=0.825\tmin_rl=-23.485400435875423\tf_low=4.800000000000001\tf_high=18.0"
+    }
+  ]
+}

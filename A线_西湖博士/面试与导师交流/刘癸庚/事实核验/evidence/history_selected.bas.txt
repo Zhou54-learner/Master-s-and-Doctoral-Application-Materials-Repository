@@ -1,0 +1,485 @@
+' HISTORY BLOCK 0: use template: FSS, Metamaterial - Unit Cell_3.cfg
+'set the units
+With Units
+    .Geometry "mm"
+    .Frequency "GHz"
+    .Voltage "V"
+    .Resistance "Ohm"
+    .Inductance "H"
+    .TemperatureUnit  "Kelvin"
+    .Time "ns"
+    .Current "A"
+    .Conductance "Siemens"
+    .Capacitance "F"
+End With
+
+'----------------------------------------------------------------------------
+
+'set the frequency range
+Solver.FrequencyRange "2", "18"
+
+'----------------------------------------------------------------------------
+
+Plot.DrawBox True
+
+With Background
+     .Type "Normal"
+     .Epsilon "1.0"
+     .Mu "1.0"
+     .Rho "1.204"
+     .ThermalType "Normal"
+     .ThermalConductivity "0.026"
+      .SpecificHeat "1005", "J/K/kg"
+     .XminSpace "0.0"
+     .XmaxSpace "0.0"
+     .YminSpace "0.0"
+     .YmaxSpace "0.0"
+     .ZminSpace "0.0"
+     .ZmaxSpace "0.0"
+End With
+
+' define Floquet port boundaries
+
+With FloquetPort
+     .Reset
+     .SetDialogTheta "0"
+     .SetDialogPhi "0"
+     .SetSortCode "+beta/pw"
+     .SetCustomizedListFlag "False"
+     .Port "Zmin"
+     .SetNumberOfModesConsidered "2"
+     .Port "Zmax"
+     .SetNumberOfModesConsidered "2"
+End With
+
+MakeSureParameterExists "theta", "0"
+SetParameterDescription "theta", "spherical angle of incident plane wave"
+MakeSureParameterExists "phi", "0"
+SetParameterDescription "phi", "spherical angle of incident plane wave"
+
+' define boundaries, the open boundaries define floquet port
+
+With Boundary
+     .Xmin "unit cell"
+     .Xmax "unit cell"
+     .Ymin "unit cell"
+     .Ymax "unit cell"
+     .Zmin "expanded open"
+     .Zmax "expanded open"
+     .Xsymmetry "none"
+     .Ysymmetry "none"
+     .Zsymmetry "none"
+     .XPeriodicShift "0.0"
+     .YPeriodicShift "0.0"
+     .ZPeriodicShift "0.0"
+     .PeriodicUseConstantAngles "False"
+     .SetPeriodicBoundaryAngles "theta", "phi"
+     .SetPeriodicBoundaryAnglesDirection "inward"
+     .UnitCellFitToBoundingBox "True"
+     .UnitCellDs1 "0.0"
+     .UnitCellDs2 "0.0"
+     .UnitCellAngle "90.0"
+End With
+
+' set tet mesh as default
+
+With Mesh
+     .MeshType "Tetrahedral"
+End With
+
+' FD solver excitation with incoming plane wave at Zmax
+
+With FDSolver
+     .Reset
+     .Stimulation "List", "List"
+     .ResetExcitationList
+     .AddToExcitationList "Zmax", "TE(0,0);TM(0,0)"
+     .LowFrequencyStabilization "False"
+End With
+
+'----------------------------------------------------------------------------
+
+With MeshSettings
+     .SetMeshType "Tet"
+     .Set "Version", 1%
+End With
+
+With Mesh
+     .MeshType "Tetrahedral"
+End With
+
+'set the solver type
+ChangeSolverType("HF Frequency Domain")
+
+'----------------------------------------------------------------------------
+
+' HISTORY BLOCK 1: define material: PET
+With Material
+     .Reset
+     .Name "PET"
+     .Folder ""
+     .Type "Normal"
+     .Epsilon "3.1"
+     .Mu "1.0"
+     .Sigma "0"
+     .TanD "0.01"
+     .Create
+End With
+
+' HISTORY BLOCK 2: new component: component1
+Component.New "component1"
+
+' HISTORY BLOCK 3: define brick: pet_x
+With Brick
+     .Reset
+     .Name "pet_x"
+     .Component "component1"
+     .Material "PET"
+     .Xrange "-6.57045", "6.57045"
+     .Yrange "-0.094", "0.094"
+     .Zrange "0", "10.0731"
+     .Create
+End With
+
+' HISTORY BLOCK 4: define brick: pet_y
+With Brick
+     .Reset
+     .Name "pet_y"
+     .Component "component1"
+     .Material "PET"
+     .Xrange "-0.094", "0.094"
+     .Yrange "-6.57045", "6.57045"
+     .Zrange "0", "10.0731"
+     .Create
+End With
+
+' HISTORY BLOCK 5: define material: ohmic sheet film x
+With Material
+     .Reset
+     .Name "SMH188H_X_140p79_OhmicSheet"
+     .Folder ""
+     .Rho "0"
+     .ThermalType "Normal"
+     .ThermalConductivity "0"
+     .SpecificHeat "0", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0.0"
+     .VoxelConvection "0.0"
+     .BloodFlow "0"
+     .MechanicsType "Unused"
+     .SolarRadiationAbsorptionType "Opaque"
+     .Absorptance "0.0"
+     .UseSemiTransparencyCalculator "False"
+     .SolarRadTransmittance "0.0"
+     .SolarRadReflectance "0.0"
+     .SolarRadSpecimenThickness "0.0"
+     .SolarRadRefractiveIndex "1.0"
+     .SolarRadAbsorptionCoefficient "0.0"
+     .IntrinsicCarrierDensityModel "none"
+     .FrqType "all"
+     .Type "Lossy metal"
+     .MaterialUnit "Frequency", "GHz"
+     .MaterialUnit "Geometry", "mm"
+     .MaterialUnit "Time", "ns"
+     .MaterialUnit "Temperature", "degC"
+     .OhmicSheetImpedance "140.79", "0"
+     .OhmicSheetFreq "0"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0", "1", "1"
+     .Wireframe "False"
+     .Reflection "False"
+     .Allowoutline "True"
+     .Transparentoutline "False"
+     .Transparency "0"
+     .Create
+End With
+
+' HISTORY BLOCK 6: define material: ohmic sheet film y
+With Material
+     .Reset
+     .Name "SMH188H_Y_35p46_OhmicSheet"
+     .Folder ""
+     .Rho "0"
+     .ThermalType "Normal"
+     .ThermalConductivity "0"
+     .SpecificHeat "0", "J/K/kg"
+     .DynamicViscosity "0"
+     .UseEmissivity "True"
+     .Emissivity "0"
+     .MetabolicRate "0.0"
+     .VoxelConvection "0.0"
+     .BloodFlow "0"
+     .MechanicsType "Unused"
+     .SolarRadiationAbsorptionType "Opaque"
+     .Absorptance "0.0"
+     .UseSemiTransparencyCalculator "False"
+     .SolarRadTransmittance "0.0"
+     .SolarRadReflectance "0.0"
+     .SolarRadSpecimenThickness "0.0"
+     .SolarRadRefractiveIndex "1.0"
+     .SolarRadAbsorptionCoefficient "0.0"
+     .IntrinsicCarrierDensityModel "none"
+     .FrqType "all"
+     .Type "Lossy metal"
+     .MaterialUnit "Frequency", "GHz"
+     .MaterialUnit "Geometry", "mm"
+     .MaterialUnit "Time", "ns"
+     .MaterialUnit "Temperature", "degC"
+     .OhmicSheetImpedance "35.461", "0"
+     .OhmicSheetFreq "0"
+     .ReferenceCoordSystem "Global"
+     .CoordSystemType "Cartesian"
+     .NLAnisotropy "False"
+     .NLAStackingFactor "1"
+     .NLADirectionX "1"
+     .NLADirectionY "0"
+     .NLADirectionZ "0"
+     .Colour "0", "1", "1"
+     .Wireframe "False"
+     .Reflection "False"
+     .Allowoutline "True"
+     .Transparentoutline "False"
+     .Transparency "0"
+     .Create
+End With
+
+' HISTORY BLOCK 352: define grounded boundaries
+With Boundary
+     .Xmin "unit cell"
+     .Xmax "unit cell"
+     .Ymin "unit cell"
+     .Ymax "unit cell"
+     .Zmin "electric"
+     .Zmax "expanded open"
+     .Xsymmetry "none"
+     .Ysymmetry "none"
+     .Zsymmetry "none"
+     .ApplyInAllDirections "False"
+     .OpenAddSpaceFactor "0.5"
+     .XPeriodicShift "0.0"
+     .YPeriodicShift "0.0"
+     .ZPeriodicShift "0.0"
+     .PeriodicUseConstantAngles "False"
+     .SetPeriodicBoundaryAngles "theta", "phi"
+     .SetPeriodicBoundaryAnglesDirection "inward"
+     .UnitCellFitToBoundingBox "True"
+     .UnitCellDs1 "0.0"
+     .UnitCellDs2 "0.0"
+     .UnitCellAngle "90.0"
+End With
+
+' HISTORY BLOCK 353: define fast FD solver and mesh
+Mesh.SetCreator "High Frequency"
+
+With FDSolver
+     .Reset
+     .SetMethod "Tetrahedral", "General purpose"
+     .OrderTet "Second"
+     .OrderSrf "First"
+     .Stimulation "Zmax", "All"
+     .ResetExcitationList
+     .AddToExcitationList "Zmax", "TE(0,0);TM(0,0)"
+     .AutoNormImpedance "False"
+     .NormingImpedance "50"
+     .ModesOnly "False"
+     .ConsiderPortLossesTet "True"
+     .LowFrequencyStabilization "False"
+     .Type "Auto"
+     .MeshAdaptionTet "False"
+     .StoreAllResults "False"
+     .StoreResultsInCache "False"
+     .UseDoublePrecision "False"
+     .UseParallelization "True"
+     .MaxCPUs "1024"
+     .MaximumNumberOfCPUDevices "2"
+     .RemoveAllStopCriteria "Tet"
+     .AddStopCriterion "All S-Parameters", "0.02", "2", "Tet", "True"
+     .SetNumberOfResultDataSamples "201"
+End With
+
+With MeshSettings
+     .SetMeshType "Tet"
+     .Set "Version", 1%
+     .Set "StepsPerWaveNear", "3"
+     .Set "StepsPerWaveFar", "3"
+     .Set "PhaseErrorNear", "0.05"
+     .Set "PhaseErrorFar", "0.05"
+     .Set "CellsPerWavelengthPolicy", "automatic"
+     .Set "StepsPerBoxNear", "4"
+     .Set "StepsPerBoxFar", "1"
+     .Set "UseRatioLimit", "0"
+     .Set "RatioLimit", "100"
+     .Set "MinStep", "0"
+End With
+
+With Mesh
+     .MeshType "Tetrahedral"
+     .SetCreator "High Frequency"
+End With
+
+' HISTORY BLOCK 354: define monitors (using arbitrary values)
+With Monitor
+          .Reset 
+          .Domain "Frequency"
+          .FieldType "Efield"
+          .UseSubvolume "False" 
+          .Coordinates "Structure" 
+          .SetSubvolume "-6.57045", "6.57045", "-6.57045", "6.57045", "0", "10.0731" 
+          .SetSubvolumeOffset "0.0", "0.0", "0.0", "0.0", "0.0", "0.0" 
+          .SetSubvolumeInflateWithOffset "False" 
+          .CreateUsingArbitraryValues "8.8;12.0;15.5"
+End With
+
+' HISTORY BLOCK 355: define monitors (using arbitrary values)
+With Monitor
+          .Reset 
+          .Domain "Frequency"
+          .FieldType "Hfield"
+          .UseSubvolume "False" 
+          .Coordinates "Structure" 
+          .SetSubvolume "-6.57045", "6.57045", "-6.57045", "6.57045", "0", "10.0731" 
+          .SetSubvolumeOffset "0.0", "0.0", "0.0", "0.0", "0.0", "0.0" 
+          .SetSubvolumeInflateWithOffset "False" 
+          .CreateUsingArbitraryValues "8.8;12.0;15.5"
+End With
+
+' HISTORY BLOCK 356: define monitors (using arbitrary values)
+With Monitor
+          .Reset 
+          .Domain "Frequency"
+          .FieldType "Powerloss"
+          .UseSubvolume "False" 
+          .Coordinates "Structure" 
+          .SetSubvolume "-6.57045", "6.57045", "-6.57045", "6.57045", "0", "10.0731" 
+          .SetSubvolumeOffset "0.0", "0.0", "0.0", "0.0", "0.0", "0.0" 
+          .SetSubvolumeInflateWithOffset "False" 
+          .CreateUsingArbitraryValues "8.8;12.0;15.5"
+End With
+
+' HISTORY BLOCK 357: define frequency domain solver parameters
+Mesh.SetCreator "High Frequency" 
+
+With FDSolver
+     .Reset 
+     .SetMethod "Tetrahedral", "General purpose" 
+     .OrderTet "Second" 
+     .OrderSrf "First" 
+     .Stimulation "Zmax", "All" 
+     .ResetExcitationList 
+     .AddToExcitationList "Zmax", "TE(0,0);TM(0,0)" 
+     .AutoNormImpedance "False" 
+     .NormingImpedance "50" 
+     .ModesOnly "False" 
+     .ConsiderPortLossesTet "True" 
+     .SetShieldAllPorts "False" 
+     .AccuracyHex "1e-6" 
+     .AccuracyTet "1e-4" 
+     .AccuracySrf "1e-3" 
+     .LimitIterations "False" 
+     .MaxIterations "0" 
+     .SetCalcBlockExcitationsInParallel "True", "True", "" 
+     .StoreAllResults "False" 
+     .StoreResultsInCache "False" 
+     .UseHelmholtzEquation "True" 
+     .LowFrequencyStabilization "False" 
+     .Type "Auto" 
+     .MeshAdaptionHex "False" 
+     .MeshAdaptionTet "True" 
+     .AcceleratedRestart "True" 
+     .FreqDistAdaptMode "Distributed" 
+     .NewIterativeSolver "True" 
+     .TDCompatibleMaterials "False" 
+     .ExtrudeOpenBC "False" 
+     .SetOpenBCTypeHex "Default" 
+     .SetOpenBCTypeTet "Default" 
+     .AddMonitorSamples "True" 
+     .CalcPowerLoss "True" 
+     .CalcPowerLossPerComponent "False" 
+     .SetKeepSolutionCoefficients "MonitorsAndMeshAdaptation" 
+     .UseDoublePrecision "False" 
+     .UseDoublePrecision_ML "True" 
+     .MixedOrderSrf "False" 
+     .MixedOrderTet "False" 
+     .PreconditionerAccuracyIntEq "0.15" 
+     .MLFMMAccuracy "Default" 
+     .MinMLFMMBoxSize "0.3" 
+     .UseCFIEForCPECIntEq "True" 
+     .UseEnhancedCFIE2 "True" 
+     .UseFastRCSSweepIntEq "false" 
+     .UseSensitivityAnalysis "False" 
+     .UseEnhancedNFSImprint "True" 
+     .UseFastDirectFFCalc "True" 
+     .RemoveAllStopCriteria "Hex"
+     .AddStopCriterion "All S-Parameters", "0.01", "2", "Hex", "True"
+     .AddStopCriterion "Reflection S-Parameters", "0.01", "2", "Hex", "False"
+     .AddStopCriterion "Transmission S-Parameters", "0.01", "2", "Hex", "False"
+     .RemoveAllStopCriteria "Tet"
+     .AddStopCriterion "All S-Parameters", "0.02", "2", "Tet", "True"
+     .RemoveAllStopCriteria "Srf"
+     .AddStopCriterion "All S-Parameters", "0.01", "2", "Srf", "True"
+     .AddStopCriterion "Reflection S-Parameters", "0.01", "2", "Srf", "False"
+     .AddStopCriterion "Transmission S-Parameters", "0.01", "2", "Srf", "False"
+     .SweepMinimumSamples "3" 
+     .SetNumberOfResultDataSamples "201" 
+     .SetResultDataSamplingMode "Automatic" 
+     .SweepWeightEvanescent "1.0" 
+     .AccuracyROM "1e-4" 
+     .AddSampleInterval "", "", "1", "Automatic", "True" 
+     .AddSampleInterval "", "", "", "Automatic", "False" 
+     .MPIParallelization "False"
+     .UseDistributedComputing "False"
+     .NetworkComputingStrategy "RunRemote"
+     .NetworkComputingJobCount "3"
+     .UseParallelization "True"
+     .MaxCPUs "1024"
+     .MaximumNumberOfCPUDevices "2"
+     .HardwareAcceleration "False"
+     .MaximumNumberOfGPUs "1"
+End With
+
+With IESolver
+     .Reset 
+     .UseFastFrequencySweep "True" 
+     .UseIEGroundPlane "False" 
+     .SetRealGroundMaterialName "" 
+     .CalcFarFieldInRealGround "False" 
+     .RealGroundModelType "Auto" 
+     .PreconditionerType "Auto" 
+     .ExtendThinWireModelByWireNubs "False" 
+     .ExtraPreconditioning "False" 
+End With
+
+With IESolver
+     .SetFMMFFCalcStopLevel "0" 
+     .SetFMMFFCalcNumInterpPoints "6" 
+     .UseFMMFarfieldCalc "True" 
+     .SetCFIEAlpha "0.500000" 
+     .LowFrequencyStabilization "False" 
+     .LowFrequencyStabilizationML "True" 
+     .Multilayer "False" 
+     .SetiMoMACC_I "0.0001" 
+     .SetiMoMACC_M "0.0001" 
+     .DeembedExternalPorts "True" 
+     .SetOpenBC_XY "True" 
+     .OldRCSSweepDefintion "False" 
+     .SetRCSOptimizationProperties "True", "100", "0.00001" 
+     .SetAccuracySetting "Medium" 
+     .CalculateSParaforFieldsources "True" 
+     .ModeTrackingCMA "True" 
+     .NumberOfModesCMA "3" 
+     .StartFrequencyCMA "-1.0" 
+     .SetAccuracySettingCMA "Default" 
+     .FrequencySamplesCMA "0" 
+     .SetMemSettingCMA "Auto" 
+     .CalculateModalWeightingCoefficientsCMA "True" 
+     .DetectThinDielectrics "True" 
+     .UseLegacyRadiatedPowerCalc "False" 
+End With

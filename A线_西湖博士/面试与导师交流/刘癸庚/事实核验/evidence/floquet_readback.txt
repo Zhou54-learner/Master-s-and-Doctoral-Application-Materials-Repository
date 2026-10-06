@@ -1,0 +1,22 @@
+NumberOfModesConsidered= 2
+NumberOfModes= 18
+IsPortAtZmax=True
+IsPortAtZmin=False
+ 1 TE(0,0)
+ 2 TM(0,0)
+ 3 TE(0,1)
+ 4 TM(0,1)
+ 5 TE(0,-1)
+ 6 TM(0,-1)
+ 7 TE(1,0)
+ 8 TM(1,0)
+ 9 TE(-1,0)
+ 10 TM(-1,0)
+ 11 TE(1,1)
+ 12 TM(1,1)
+ 13 TE(1,-1)
+ 14 TM(1,-1)
+ 15 TE(-1,1)
+ 16 TM(-1,1)
+ 17 TE(-1,-1)
+ 18 TM(-1,-1)

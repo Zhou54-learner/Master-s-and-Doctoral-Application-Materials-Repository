@@ -1,0 +1,2264 @@
+[
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979.cst",
+    "size": 106365,
+    "mtime_ns": 1777802444412828200,
+    "sha256": "c7ee980cd32e39601b0d1bcf0b76af10315f6d5eaabf956b78ec4cd92926fe20"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\anchorpoints.json",
+    "size": 68,
+    "mtime_ns": 1777802444170646300,
+    "sha256": "05cc20e9f05062bdfe928fd1a9e126b541f984e2f690a6ed685520a09a3f8a50"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.abi",
+    "size": 367,
+    "mtime_ns": 1777802444170646300,
+    "sha256": "ebbb42bf627b36bed70d487b937aa9357f53320f3ffe86eabcbd4baa615d0f72"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.ads",
+    "size": 134,
+    "mtime_ns": 1777802444158028700,
+    "sha256": "d1049039d1819785527132efb73f23dcfd0cacda209a80c92845b1c206442bcc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.alc",
+    "size": 101861,
+    "mtime_ns": 1777802444171638100,
+    "sha256": "baeab101cb72b35bcd92175e935df0bb4e10ab079dcb1c126ab1dd7475eadd1a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.bwc",
+    "size": 298093,
+    "mtime_ns": 1777802444144303200,
+    "sha256": "47427d622432b86294bbe47d396039f2d6870064b8bc2a8507cbc47eeb560e6e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.dsn",
+    "size": 630,
+    "mtime_ns": 1777802444190642400,
+    "sha256": "d2af719e983961b96c3217876f80b753b217169e2bf6bbd7995c6cbe1c35742d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.fct",
+    "size": 138437,
+    "mtime_ns": 1777802444154312700,
+    "sha256": "eef8cd8517ecedd46943eac9d3a6bcf6d72c0376f905556fa7e46bdb7f2d60eb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.gdc",
+    "size": 0,
+    "mtime_ns": 1777802444151312200,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.hid",
+    "size": 707,
+    "mtime_ns": 1777802444172637400,
+    "sha256": "23de9f81a4515eafac18dc0a9668a61a1ca65b813bd9039517c3faca03f41a41"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.jopt",
+    "size": 2482,
+    "mtime_ns": 1777802444181639200,
+    "sha256": "dd600a0a33ae9fb6e931d9b96cedad872961d77b6cc30b69745714db13b113e9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.mod",
+    "size": 100142,
+    "mtime_ns": 1777802444131312000,
+    "sha256": "cf34e82359b29c72f1b3a5878cacd80f8ea70b4027bb5585ae2f534bb04ec913"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.pim",
+    "size": 83,
+    "mtime_ns": 1777802444172637400,
+    "sha256": "49266c264f157226e89aa6dd89d9ebee69e212c670cc7c78789becc941704332"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.pipar",
+    "size": 4,
+    "mtime_ns": 1777802444172637400,
+    "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.sjson",
+    "size": 149,
+    "mtime_ns": 1777802444113302700,
+    "sha256": "ea7b79abc2faf7c4af9942ad5756863d26aefab0b0f5bc1e68fe80a20103284d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\Model.sweep",
+    "size": 247,
+    "mtime_ns": 1777802444180639500,
+    "sha256": "da2666270bf41003e8aea9840862de9794caf6d50bc3160331ada7852b248f45"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\ModelHistory.json",
+    "size": 198817,
+    "mtime_ns": 1777802444134312900,
+    "sha256": "a9a5172685d413b4473301cef12b7c4534077685e0a25e9406be34da574258f5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\plot_settings.rps",
+    "size": 75,
+    "mtime_ns": 1777802443555290000,
+    "sha256": "8af5b45cbdfe37b45015960995720ed70daaf34b1773f8a1c57a9ae219abb288"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\DS\\assemblyImport3DX.json",
+    "size": 41,
+    "mtime_ns": 1777802444308638400,
+    "sha256": "3ba4c5d30a342f5937a2c39cc2d01dae3e139883c19298adab834f7606b42025"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\DS\\DES_project.bin",
+    "size": 19081,
+    "mtime_ns": 1777802444284649200,
+    "sha256": "98879cb6512063e30f6d644d30e9894a2fa9e45ccdd98c07a13e7c0ad164b0a3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\DS\\Model.dib",
+    "size": 614710,
+    "mtime_ns": 1777802444291647900,
+    "sha256": "141d615f5596546dfcaeb2280bd0f324f9cd2d9bc8d3ac1b604a67c2e263c128"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\DS\\Model.dsn",
+    "size": 621,
+    "mtime_ns": 1777802444282637700,
+    "sha256": "8d8948f190c24df0d51c7a7507d532717adc48f016dcbadcb2d48ef0f2da4989"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\DS\\Model.dss",
+    "size": 66,
+    "mtime_ns": 1777802444285638400,
+    "sha256": "67a3107c71a941b324ce2be8229412ef75b4eb3d241fd8e3fbbe996f2e1b8ef6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\DS\\schematic.xml",
+    "size": 1484,
+    "mtime_ns": 1777802444281649400,
+    "sha256": "525db3d88b84ada8f2f91f10f91f7f8ceabf19613e8759096b54846799a2b4d7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\Model.prj",
+    "size": 573,
+    "mtime_ns": 1777802444380831000,
+    "sha256": "4054d86fd764f744f01e162359f704cbf53d880de708c2248a7acaa43df5fb14"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\Parameters.json",
+    "size": 386,
+    "mtime_ns": 1777802444291647900,
+    "sha256": "134affbbed106316f09062961808f8341acc0dda84a8d715c64c6cb877300034"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\PC_integration.json",
+    "size": 366,
+    "mtime_ns": 1777802444383819500,
+    "sha256": "c34b3eb0cabc2aa2cd1a3a168b05c079306e42c116899fa38c39896fcf33846b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\simulationproperties.docstore",
+    "size": 28672,
+    "mtime_ns": 1777802424009483300,
+    "sha256": "46be32c0ed98e994c6c5bba43d2e48c00d091eb5cc4f59467aeb0f272e1c0ea1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.cha",
+    "size": 158,
+    "mtime_ns": 1777802444174637500,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.chksm",
+    "size": 130,
+    "mtime_ns": 1777802444166648100,
+    "sha256": "a1244300bc30e00276a0fbb2e45a3feb9918983b7c0d2017a93b6779118cf435"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.ci",
+    "size": 158,
+    "mtime_ns": 1777802444174637500,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.cpt",
+    "size": 4,
+    "mtime_ns": 1777802444171638100,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.crd",
+    "size": 7434,
+    "mtime_ns": 1777802444150313000,
+    "sha256": "263954ca388e5e5d669142f2c08ffb5f77289b5b82487784cd088f0dac64ffee"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.cur",
+    "size": 8,
+    "mtime_ns": 1777802444156302900,
+    "sha256": "06ce71094a192e6f37cf16e34eba130d58a0214948f428125304503e93e89ab8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.cwr",
+    "size": 4,
+    "mtime_ns": 1777802444156302900,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.dbp",
+    "size": 0,
+    "mtime_ns": 1777802444158542200,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.dpl",
+    "size": 158,
+    "mtime_ns": 1777802444175638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.dpt",
+    "size": 0,
+    "mtime_ns": 1777802444145301900,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.dsi",
+    "size": 158,
+    "mtime_ns": 1777802444177638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.dtm",
+    "size": 158,
+    "mtime_ns": 1777802444179638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.exp",
+    "size": 1372,
+    "mtime_ns": 1777802444135302900,
+    "sha256": "47caf28f01496c217eb8893dc2aff5c305d8e65d6b97b0c951f5d67ee7726d9b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.fan",
+    "size": 158,
+    "mtime_ns": 1777802444173637800,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.fct",
+    "size": 220413,
+    "mtime_ns": 1777802444153307400,
+    "sha256": "2c512e3f9749635ac645fdb37fd4ee15d1814a7a191e1bbd22e3a1df8b454fe6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.fgr",
+    "size": 158,
+    "mtime_ns": 1777802444174637500,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.fld",
+    "size": 158,
+    "mtime_ns": 1777802444176638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.fmd",
+    "size": 68,
+    "mtime_ns": 1777802444171638100,
+    "sha256": "641b766201a3baf27d505a835a67b1b3de7683ee27b8aa67b7964c2a169df5fe"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.grp",
+    "size": 139,
+    "mtime_ns": 1777802444168638000,
+    "sha256": "da61e432b5bb5e43e8c4ec83eaf8223a22425359331b0d000681321c3fe532ae"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.het",
+    "size": 158,
+    "mtime_ns": 1777802444174637500,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.hp",
+    "size": 158,
+    "mtime_ns": 1777802444177638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.hsu",
+    "size": 37732,
+    "mtime_ns": 1777802444155303000,
+    "sha256": "7a85b8fc1dbeb21b92e5e9c684c90519df51c8290983c0e1f74a862f9c659627"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.ifo",
+    "size": 3467,
+    "mtime_ns": 1777802444179638100,
+    "sha256": "4babfbc0a2677727df9141e0ac7fe6d198a7768d8963b668667eb68bb18d15b4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.im",
+    "size": 158,
+    "mtime_ns": 1777802444179638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.impurity",
+    "size": 158,
+    "mtime_ns": 1777802444178638400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.lid",
+    "size": 158,
+    "mtime_ns": 1777802444176638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.lmp",
+    "size": 0,
+    "mtime_ns": 1777802444157302600,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.mch",
+    "size": 70,
+    "mtime_ns": 1777802444168638000,
+    "sha256": "93aa45db01c3bc7317f10d0b57ef1739b72c2c2de2a9a6bd82d71e59fbbdeedc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.mif",
+    "size": 18883,
+    "mtime_ns": 1777802423803166600,
+    "sha256": "f1f7951acc1734aba7ccf70220b222186c261f13859b867b6d21a12ad428c939"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.mot",
+    "size": 6,
+    "mtime_ns": 1777802444172637400,
+    "sha256": "4489f9e3e454748b3521eb214e0a5694d562cff3d9ff511cb456953c8f534c00"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.mst",
+    "size": 3012,
+    "mtime_ns": 1777802444145301900,
+    "sha256": "f01963916e9688b2a20090e77ec1e1222bc492f39173f6f33049027fe02e8785"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.mvm",
+    "size": 158,
+    "mtime_ns": 1777802444175638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.opg",
+    "size": 158,
+    "mtime_ns": 1777802444176638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.opticalcarriergeneration",
+    "size": 158,
+    "mtime_ns": 1777802444178638400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.pck2",
+    "size": 11,
+    "mtime_ns": 1777802444155303000,
+    "sha256": "d5417a99f24c2141a17db25aeeeda88c278b7e625f739c2bcc69268727ae2684"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.pik2",
+    "size": 27164,
+    "mtime_ns": 1777802444154312700,
+    "sha256": "b24173dc85f1cea2035dacc70c52aed0ed844a52c34d4c99d0db5115818d8626"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.pin",
+    "size": 17,
+    "mtime_ns": 1777802444166648100,
+    "sha256": "92db32d97a0952ece5a6462a8f567eed12805d8e163ccdad8acafd11303eb151"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.plc",
+    "size": 4,
+    "mtime_ns": 1777802444145301900,
+    "sha256": "cb30e91817239109ffd0a5870046e128f04619da80c7624d921162fdfe514f76"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.pmg",
+    "size": 158,
+    "mtime_ns": 1777802444175638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.pms",
+    "size": 158,
+    "mtime_ns": 1777802444176638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.pot",
+    "size": 158,
+    "mtime_ns": 1777802444173637800,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.prf",
+    "size": 76,
+    "mtime_ns": 1777802444167637800,
+    "sha256": "50553e682b15764d13eba04370662de64aa8f34a0da37f3d067b7b58520c8ed8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.ptc",
+    "size": 18,
+    "mtime_ns": 1777802444156302900,
+    "sha256": "b11a536cf5a2073337750fbf270d04e202ff10cc547db3a46832c13dcee5d716"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.rlc",
+    "size": 158,
+    "mtime_ns": 1777802444177638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.rpp",
+    "size": 13,
+    "mtime_ns": 1777802444157302600,
+    "sha256": "5773cfcd326047e10af533c6663cb6addc1b22db316027a093fcf4716fce6ae3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.sab",
+    "size": 763445,
+    "mtime_ns": 1777802444107312700,
+    "sha256": "97210fa9648e87fccbe1d4e72e50919fc8c06324e31f8cba2e2f731652c5955c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.sab.index",
+    "size": 948,
+    "mtime_ns": 1777802444107312700,
+    "sha256": "fa118bbb1d28a5c019ba83856590bc956e014f343d7c7dd3a9dd19cef9938dbb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.scp",
+    "size": 158,
+    "mtime_ns": 1777802444175638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.sjson",
+    "size": 186,
+    "mtime_ns": 1777802444113302700,
+    "sha256": "c8ebbf1a40ec56ee4edf4a9f3e93be5ef1b2498e15201e6ec96ac76421ea6c1c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.smp",
+    "size": 0,
+    "mtime_ns": 1777802444168638000,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.tec",
+    "size": 158,
+    "mtime_ns": 1777802444178638400,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.tem",
+    "size": 158,
+    "mtime_ns": 1777802444174637500,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.tri",
+    "size": 2,
+    "mtime_ns": 1777802444155303000,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.trm",
+    "size": 158,
+    "mtime_ns": 1777802444176638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.trt",
+    "size": 158,
+    "mtime_ns": 1777802444175638100,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.tsp",
+    "size": 158,
+    "mtime_ns": 1777802444174637500,
+    "sha256": "1557e259ab14aab9c9047c87251d8db18a32cd8ef6799261e939d0a98a0920fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.vde",
+    "size": 44,
+    "mtime_ns": 1777802444151312200,
+    "sha256": "7409d5420664be7f60d66393ab40cd75a02cc2e762fb0bef3b13411d2a51c9b8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.vol",
+    "size": 4,
+    "mtime_ns": 1777802444157302600,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.vwr",
+    "size": 4,
+    "mtime_ns": 1777802444156302900,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.wcs",
+    "size": 12,
+    "mtime_ns": 1777802444156302900,
+    "sha256": "82f63b935a385c7a6e1176aec3307db0df131cd469b491b666e01d47d91a02d1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\ModelCache\\Model.wir",
+    "size": 4,
+    "mtime_ns": 1777802444156302900,
+    "sha256": "505cddea46f28710818d7cbe72915e1651acbbd6542b0cd0a39a00b0d1d4008e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\3d.slim",
+    "size": 199904,
+    "mtime_ns": 1777802431241837300,
+    "sha256": "6efe7b09585607a4230cf63c5a3a6f8346fb033cb3d96c7f4ca0a3ffc9add020"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\3do.slim",
+    "size": 199904,
+    "mtime_ns": 1777802431241837300,
+    "sha256": "6efe7b09585607a4230cf63c5a3a6f8346fb033cb3d96c7f4ca0a3ffc9add020"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\bad.tet",
+    "size": 184,
+    "mtime_ns": 1777802431657709200,
+    "sha256": "ad3356279694b8bb9ab748d812de33a296b643d337e6331b06df4bba56a524fc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\bad0.tet",
+    "size": 5027,
+    "mtime_ns": 1777802431657709200,
+    "sha256": "8b1af11e5e0ac8d73a2d17c6957e3a585084984bb91d81e23245936ca679db0b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\bc3d.tet",
+    "size": 5160,
+    "mtime_ns": 1777802431177774900,
+    "sha256": "e54f1457cf62afafc4bb740a3ce012cfeab161c7fd448035cf59499fea8eed85"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\db.parmap",
+    "size": 69632,
+    "mtime_ns": 1777802443927312000,
+    "sha256": "dc1e9d9895b17a7a511ddb1040c9351a20fab3ab8dec39c5d386ade750b43ca7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\DS\\db.parmap",
+    "size": 69632,
+    "mtime_ns": 1777802443949304000,
+    "sha256": "95b61a8b654e94b60e6d5cfc2c3532814f792652f96f3b8db5b1efe0772a87a9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\DS\\model.res",
+    "size": 46,
+    "mtime_ns": 1777802444293638100,
+    "sha256": "dd3df3a14ec032f4f16efb6db3b62d8ed371d2b4374cb9e93e82d6cbbd5fde4b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\fd.fdp",
+    "size": 367,
+    "mtime_ns": 1777802442361696300,
+    "sha256": "504bd410fb4e1e4c883a57a9846a2b007696ae2fce5389d6366050089a180370"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\fd.spd",
+    "size": 469,
+    "mtime_ns": 1777802442372697300,
+    "sha256": "89aff09583a842e27f60f14ff337500b96b3ee28f61b3cb2ba8f66a00bc28a67"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\fd_rfm.fdp",
+    "size": 307,
+    "mtime_ns": 1777802442361696300,
+    "sha256": "717fe6dc34f156ccea8db06ef5f4f70a489b229c010e01c814f3e0b67f0a2f88"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\FieldSetFile.fsf",
+    "size": 1385405,
+    "mtime_ns": 1777802436407090800,
+    "sha256": "5470b759bce690f28440ae4b328ba1c2e9dbf263f920ed25e3dbb7bff6ca0ad1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\hardware_resources.sconf",
+    "size": 73,
+    "mtime_ns": 1777802431526746400,
+    "sha256": "85f2d31ab63a462471f826adba2fafc84377372fd7ce1613d61f2ff3dcbbe199"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\log.tet",
+    "size": 25259,
+    "mtime_ns": 1777802431269837600,
+    "sha256": "d3a541262a6123a9f480c96e3b278e14318aa0d9eebfabfd373bdbf79ea82f84"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Mesh_Input.E2F.tet",
+    "size": 21185,
+    "mtime_ns": 1777802424503123400,
+    "sha256": "830466bb9fdccc9cd7e7cea7b93d308e1fad2f7f4a5ecf08f03282449f1dcd1f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Mesh_Input.Entities2Mesh.tet",
+    "size": 682085,
+    "mtime_ns": 1777802424514113100,
+    "sha256": "21dae894c792706c41b9bf35c531ec5024bdca5ff3cfa49d0c0a26bc52e16d50"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Mesh_Input.Options.tet",
+    "size": 2905,
+    "mtime_ns": 1777802424502114300,
+    "sha256": "bda1595c125d74756527ca4e82401fbe94d14056578f4c21e8ea2be90f677376"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Mesh_Input.QuasiModel.tet",
+    "size": 146514,
+    "mtime_ns": 1777802424502114300,
+    "sha256": "895bce06a76a28c4d4b7565c0351026fbbaa02b2ff688187fa38a49f805a967e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Mesh_Output.QuasiModel.tet",
+    "size": 45979,
+    "mtime_ns": 1777802431257837100,
+    "sha256": "12020ad4e1d311e4543f68427789eca5021c098aea35bcd4b1d3cba995c08f57"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Mesh_Output.U2F.tet",
+    "size": 38076,
+    "mtime_ns": 1777802431185775900,
+    "sha256": "f363ce93a9c1510481a7752f0e2635c99373fa8646309d8bd0919ecf3f4fc306"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\MeshErrorsGraphicalFeedback.axg",
+    "size": 3890,
+    "mtime_ns": 1777802431250841500,
+    "sha256": "d9c539e31f2193c4cb9b8fee82b2e10a92b24ea086061c8e5672b5c81e459ea3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\MeshErrorsGraphicalFeedback.msg",
+    "size": 322,
+    "mtime_ns": 1777802431250841500,
+    "sha256": "8df7160286c0d24d354ff1da1ccc654ef51b1130a82aadb791bac9919f4f65b6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\MeshErrorsGraphicalFeedback.rex",
+    "size": 1285,
+    "mtime_ns": 1777802431250841500,
+    "sha256": "e114d343187fa199c0bcd41ba9335af96686349969ddc0b2c3be4ff6351d8587"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\meshrelated.info",
+    "size": 2166,
+    "mtime_ns": 1777802431177774900,
+    "sha256": "c769b28cf430611075e65332f9eabbbe8f0ad56abacc227ab96c615421d60349"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\mir.tet",
+    "size": 63,
+    "mtime_ns": 1777802431323838000,
+    "sha256": "792f5f05f96c84b78ce4a0308e6846b726b278f9c2913ba51e8566ee9d245fd7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.axg",
+    "size": 163,
+    "mtime_ns": 1777802431349841100,
+    "sha256": "ef956d5cee8c59a6170803113bbc06db6a5e1daaab8182fbcd75f86ef82d8c58"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.db",
+    "size": 566927,
+    "mtime_ns": 1777802444260638100,
+    "sha256": "9cf0024521e3d5cd788ce4ed92998e48e5c82efaa2b8e1b1b217f8e2a66c78f9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\model.gex",
+    "size": 51653,
+    "mtime_ns": 1777802431202774600,
+    "sha256": "eba1c699149324126eeceb3a26d5a4a27e83e8cb897dde4ac3333729c74286c2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.hmi",
+    "size": 51,
+    "mtime_ns": 1777802442415695600,
+    "sha256": "3ce496f43fdeaa9ef437126245df49a857dce1c5d6ad185bbb942c4514be27af"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.log",
+    "size": 20048,
+    "mtime_ns": 1777802443010566500,
+    "sha256": "ae367c2ad68f10e96fbeb01ebf55a2fb427b0dc55b092e27f038ace1fcc80f4e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.mlg",
+    "size": 0,
+    "mtime_ns": 1777802431555708700,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.mss",
+    "size": 188,
+    "mtime_ns": 1777802424084483600,
+    "sha256": "55641f7232825c7d6a17f352ee96dde27452e4473ad144cee627646098f702cb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.pmi",
+    "size": 2388,
+    "mtime_ns": 1777802442372697300,
+    "sha256": "ade95a3402253dab0ac584434f2e314bde2fceb674821b6c1540ee2496ea9665"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.rdb",
+    "size": 29,
+    "mtime_ns": 1777802444158542200,
+    "sha256": "a4f96ce4d9c3bbe665820fad6813cf1502a177ca540d93b58944443f23324472"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.res",
+    "size": 33028,
+    "mtime_ns": 1777802444238638200,
+    "sha256": "e9439629179f07c9a9a7893e559223749d2977439a504534e9917da31a37e74c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.sa",
+    "size": 78,
+    "mtime_ns": 1777802444167637800,
+    "sha256": "fa712d3f9c18511ffc814e2f314347e582af9a441b7de3e4c9fcbee8021822fd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\moegeom.tet",
+    "size": 20670,
+    "mtime_ns": 1777802431182774200,
+    "sha256": "4338afd43f3a8dd1e0e09b05beea7e06dbb085445869a999ff18a87bb27642b8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\MS\\Model.sat",
+    "size": 0,
+    "mtime_ns": 1777802415640551600,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\objectid.tet",
+    "size": 6401,
+    "mtime_ns": 1777802431176784100,
+    "sha256": "09f6536f7a3e8c1a8b03dcfc209fceda039d4e0ded0668537144b7cba2ff2082"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2.rex",
+    "size": 1304,
+    "mtime_ns": 1777802431575720800,
+    "sha256": "aecddbd487cd88e5052b43fdb4b581d5b9f716cc21cfa8cbb4286940ee3ba770"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2.slim",
+    "size": 1000,
+    "mtime_ns": 1777802441934694900,
+    "sha256": "af0ece336be12a709e6c098eb073a1be30a78c1c274151c73ebe8a7223f84284"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0000).sct",
+    "size": 3654,
+    "mtime_ns": 1777802431611709200,
+    "sha256": "8e579d8d163300861cd0cdc9d49ef4d60f925ec0ca14db39d4f139ad9fa954f3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0001).sct",
+    "size": 3654,
+    "mtime_ns": 1777802433678480600,
+    "sha256": "6a6307eac35baa77a5c4e465f97a8893b587ea60124bab2cad99e306018b61d5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0002).sct",
+    "size": 3654,
+    "mtime_ns": 1777802434539557300,
+    "sha256": "34bdfdadc92ce263a29580d877151b2c62907ab8f9e507d52f26a00da5c2e001"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0003).sct",
+    "size": 3654,
+    "mtime_ns": 1777802436437988500,
+    "sha256": "849ea3d04b351b306548a05fa60d7c392046b78a65dc454faf4bf6deae89824e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0004).sct",
+    "size": 3654,
+    "mtime_ns": 1777802438319039800,
+    "sha256": "3d6bb67bcb6cad5861c5703407f598afcede0bf3b80d1a450aec83302a7a6b5f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0005).sct",
+    "size": 3654,
+    "mtime_ns": 1777802439777064700,
+    "sha256": "2778b3f9f542eb012f224f27f14c4613e4e26268edfe821febb4626a614252d7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0006).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440161158400,
+    "sha256": "b28737d0de85d0488b39d0f404a0ec1d7073e1c5ab10045105d2e01e8f2ee758"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0007).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440627170200,
+    "sha256": "b3d35289c69eafc7c00a754b0c9705cbcc7f3f513a2df806ccebbce1bd3fbbfc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0008).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441286785800,
+    "sha256": "94c72b3680858eb9b774ac144a33c88370565982909c83f647d778a01a746fea"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1(#0009).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441936694300,
+    "sha256": "68a2b650b217c1eb13ee775bb30508e5745b0af9afbc265c9192587ca78d3e31"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1.pmm",
+    "size": 659,
+    "mtime_ns": 1777802441941694800,
+    "sha256": "0bb30422c0ac7d3b4af16d456a241808e1dbd856941acb3bfc382a5b2a4b0c4b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e1_pmm.rex",
+    "size": 3404,
+    "mtime_ns": 1777802441942705800,
+    "sha256": "2c062b1670c9dfb89d768e86d82ff410841c7b4d5bc2013367d62cd3b8c28527"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0000).sct",
+    "size": 3654,
+    "mtime_ns": 1777802431613709000,
+    "sha256": "2622c28eace345551ccb3220edac365e79ed0de7a3d81193e6ea9911b1dcf669"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0001).sct",
+    "size": 3654,
+    "mtime_ns": 1777802433681479000,
+    "sha256": "614fb6204c42f568d7e50e2e885f6896d37a3865e4d51ec85abf6e06365ead1d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0002).sct",
+    "size": 3654,
+    "mtime_ns": 1777802434541557400,
+    "sha256": "732c006a03102d319d7a9a0de594f02f28c5c2c4e2ad5f74312b32a52b3b7ec7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0003).sct",
+    "size": 3654,
+    "mtime_ns": 1777802436440989500,
+    "sha256": "8be8603dd68a392d3ac033fbb9deee0c4c9e3b61b73ff4c5b3191f32b70be059"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0004).sct",
+    "size": 3654,
+    "mtime_ns": 1777802438321038800,
+    "sha256": "694916f4f09c266f76ad307c4039cdc626c354c2d8b3e1dc2ef688cd44f60b6d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0005).sct",
+    "size": 3654,
+    "mtime_ns": 1777802439779064800,
+    "sha256": "793df4bffea3d99bdc6b227a1b26d3ad91327368a65826711d8ae64c6812bed6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0006).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440164159600,
+    "sha256": "532f5a8e1d99abead2b58dc2bb560f5ed1d3420324d4f1b71716107074d6e437"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0007).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440630170700,
+    "sha256": "c6e1f223888f429414b798e176a30cbabaf6fd1432f8550c356cd4a01baf4d75"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0008).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441288784600,
+    "sha256": "01bb220cef26d9d7b865cebf9945775945bfbfb96bef231b56409f8be3f5735e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2(#0009).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441939695600,
+    "sha256": "e28c3ed5fa36564cafaadcff14927185ce0ea289de9a85cd0e5882b7b3812209"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2.pmm",
+    "size": 659,
+    "mtime_ns": 1777802441950694300,
+    "sha256": "cb7d6ab139a769bda2355414fcb85a5afe924ed9f466be804169bb2f7a21e592"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_e2_pmm.rex",
+    "size": 3404,
+    "mtime_ns": 1777802441951704200,
+    "sha256": "5dc639845a612ddfd210014fda511b6fd095ab6d17b207ca1ff08af42dd9de72"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777802431609709000,
+    "sha256": "6c15735ea2d57983a9042369a5bcba6c0994e7727b04a306c3758a92e608dd35"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777802433677480200,
+    "sha256": "ee49e663ee42ec5746e68637a89b9aaf0b073678376edc75c20c24b03ccb7adf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777802434538557500,
+    "sha256": "1fe2999d68ed59e8f9bfa966af8fed8427067723725fcfd97651c59434e7b9dc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777802436436001800,
+    "sha256": "53ec0d7de1c9e42015d28aa1f388b00f1883481962041f019104ae4e29a3587f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777802438317038800,
+    "sha256": "00c9ef08adbfc814a6edd418f8cd5fe78f4761e42f9f5d87b5f141b099970d24"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777802439775064700,
+    "sha256": "b2a101e1b80cea4cb14df06cdb8fd232f05977aa3463b144f21cfd8c5894e34b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440160158400,
+    "sha256": "0cd28d2042ef3233d57e88da100a283053669dc6be498b7c730307a328d1c975"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440626170400,
+    "sha256": "d95eb97d8a760aa8135be59837bb54e729a76d3217d0ecff8559d8e26ce61c20"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441285784600,
+    "sha256": "95fdd7e89aec6d2084e755e6bfb4819e09d06d9812b857857f5528b2c74701c9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441935695100,
+    "sha256": "879a8ec8bf1fb52d1c03adddd86d8c7a0a09c397ae2810d1fc756f8559398251"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo1.pmm",
+    "size": 699,
+    "mtime_ns": 1777802441943694800,
+    "sha256": "b5bececa11ef251986e588f480e9298749d4ce6d4f4d75f8797dc1c220ef974b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777802431611709200,
+    "sha256": "527565c29fd34d25955c3b57d7da8c2e5ca2468a83aaa988b63a3b8df4e9f97f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777802433679479300,
+    "sha256": "cf2f67a1a7d21521f721166a7133451e538df09109df6abb048d7e2cbf886625"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777802434540557400,
+    "sha256": "7ccc3c7e3e2568870f9d6b87d670acdcba4b5e3588e5d2754c8ff556cf2339ab"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777802436438996900,
+    "sha256": "a0c64f6e45f576ec3b5e0a4faafcd763edab6609f9ce599f78d33854abd42043"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777802438319039800,
+    "sha256": "228dffd6af349cc3fc958cc4807223d34ab2d1b971b6c155739c2ae360439766"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777802439778064700,
+    "sha256": "a46247dd2bb302193652c0ef0d60838daeb4284fab2479614a35f8af715a3f86"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440162158700,
+    "sha256": "329b6fcb2ded8a10c24c286e57fab8a20a15a7a22717f1a8c451d15bf1744740"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440628170400,
+    "sha256": "ea54565c873ef9384636aa5c4cb3b261a89f30428d26c6cc32f981fc0d495e9d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441287785900,
+    "sha256": "2fe674769d7fae6c7529f50bb7f78fdd08edcb10ff8bdc53b6edf9cf1b264cfa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441937696000,
+    "sha256": "99a0b655c15d07a3107bd0444b98476be47066599f5e5349fb4bb105d8b6bbef"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eInfo2.pmm",
+    "size": 699,
+    "mtime_ns": 1777802441953703700,
+    "sha256": "f0dc1ed44631592821b5f8cd45d31378fb2429e33d94265a243a86c77004a851"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0000).sct",
+    "size": 3654,
+    "mtime_ns": 1777802431610709600,
+    "sha256": "17e0fc0dfa3b47b807eaf9e874a31a3b4665462924a8b474835da7f6db28f372"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0001).sct",
+    "size": 3654,
+    "mtime_ns": 1777802433678480600,
+    "sha256": "cd668ef0d10bd5680a46568ca890ecd518821fb062ad95688c224b3e5fa131d2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0002).sct",
+    "size": 3654,
+    "mtime_ns": 1777802434538557500,
+    "sha256": "815cabddd29952a394c9c6dd3699e7cdffec462f513dc290a97973d811857aae"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0003).sct",
+    "size": 3654,
+    "mtime_ns": 1777802436437000400,
+    "sha256": "4fae09ed796e8bc0663ec82d7e1e5b0ef6e90ab72fcca9c59b62876e0c0f4ec8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0004).sct",
+    "size": 3654,
+    "mtime_ns": 1777802438318038300,
+    "sha256": "849a17c356facf2071531a658f3a7fc1c667c8bc4bed911105e50e10e0a404f5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0005).sct",
+    "size": 3654,
+    "mtime_ns": 1777802439776065100,
+    "sha256": "30f0ba5c30189b7150f68bbae1c6d2ce3ea860c9cf0652de627451d149df3b5a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0006).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440160158400,
+    "sha256": "7408bcd656dcd4bd448cc398271b9447dd9b9ffa42e7a3bcf053b79d9810a650"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0007).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440626170400,
+    "sha256": "74632508f42cdfa9d4da4bd82ac810a3ac088cfbc6b3f20b217fd68207146f16"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0008).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441286785800,
+    "sha256": "a426ad98c27b769833521bfcee313f5e68fe9f5a5aa4cf590a9663db3d13c58b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1(#0009).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441935695100,
+    "sha256": "ec4035137a376186080a02e6fc809c3358c6a328173d8e58fb8a312a972dfbdc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1.pmm",
+    "size": 689,
+    "mtime_ns": 1777802441942705800,
+    "sha256": "556ee584c561c557375b3b492b22498172c832fa47ce37d6d1db21abea08fbf9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout1_pmm.rex",
+    "size": 3435,
+    "mtime_ns": 1777802441943694800,
+    "sha256": "287e7d21e6219dca8aaef044d49b04d9e269414eebb045a099812b541d5f25b1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0000).sct",
+    "size": 3654,
+    "mtime_ns": 1777802431612708500,
+    "sha256": "8e58816f0cede39275780dcc2cbb26b5993d488d39a694bf9f0b4cf6adde2caa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0001).sct",
+    "size": 3654,
+    "mtime_ns": 1777802433680479600,
+    "sha256": "ed018ef16fad7a27c2c0faf87db38c689f153e96dc2c28bd1975a3b32e42510f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0002).sct",
+    "size": 3654,
+    "mtime_ns": 1777802434540557400,
+    "sha256": "f0097ab8c3127d2771ccf2b88df4f36449e7789c861f3a80daf49c1fe4964653"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0003).sct",
+    "size": 3654,
+    "mtime_ns": 1777802436439996500,
+    "sha256": "d9953d2737fd6d6e7a1f039892528ecf224916491d0505a899f3336cd8f3f6bd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0004).sct",
+    "size": 3654,
+    "mtime_ns": 1777802438320038400,
+    "sha256": "5c66e05ae5461218721f70831cded2a2c1bba9327b670dc763c0906c169e2ae6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0005).sct",
+    "size": 3654,
+    "mtime_ns": 1777802439778064700,
+    "sha256": "153381203d71c779478e6c192836155990b5a4bed794fa23d8f7e1aecda1c100"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0006).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440163159000,
+    "sha256": "562aaac3252ba50533efdac4966220c87f5a8f9b04e87cee97129c4e38649c38"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0007).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440629170400,
+    "sha256": "e69ae4356cf4e79a8834334beb5984794c32aef663106a05c889c2b58f1e28ce"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0008).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441288784600,
+    "sha256": "eac13d375d5408ca9ddf2b68b97d3dab8b88570e1dae84837bce2f43b43811e9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2(#0009).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441938695800,
+    "sha256": "ba481e519a4a763d8445f7bbeb7cc761d0aca5c9b70f5602c1662a20fddd1824"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2.pmm",
+    "size": 689,
+    "mtime_ns": 1777802441951704200,
+    "sha256": "7746ab34d85531b58a54612171573c2a9e1a3cf9adafc327b65f8d528ab818be"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_eout2_pmm.rex",
+    "size": 3435,
+    "mtime_ns": 1777802441952704400,
+    "sha256": "15a160961695bdb97c3e4dae378b601cb23f819adbcf8b02ab30a0ea1d279ce0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0000).sct",
+    "size": 3654,
+    "mtime_ns": 1777802431611709200,
+    "sha256": "de339b6aab427e0b519ba2fa3c32e008aae447a24d035e581f2e70f8513e65c0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0001).sct",
+    "size": 3654,
+    "mtime_ns": 1777802433679479300,
+    "sha256": "10d19a2f99904cd8cb3e30cac5ca85bb1ae979772a913d0790ee28f00a8f65e5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0002).sct",
+    "size": 3654,
+    "mtime_ns": 1777802434539557300,
+    "sha256": "c44ff536b17e348b9101f7d76c757fa320715a5154df0c8fc7e2319db0095659"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0003).sct",
+    "size": 3654,
+    "mtime_ns": 1777802436437988500,
+    "sha256": "82d9144d8901d18aa6fdc3936b9db83031d6c7f020118b5201dd504d23c83927"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0004).sct",
+    "size": 3654,
+    "mtime_ns": 1777802438319039800,
+    "sha256": "bd1cff76e24de042a50073bfce4253224db41f5bf4b3c01e2d797051d459bdec"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0005).sct",
+    "size": 3654,
+    "mtime_ns": 1777802439777064700,
+    "sha256": "0a161e4a89b254ea79392e7042740e484e922ff61508a499f6ced23dd90182a9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0006).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440162158700,
+    "sha256": "c0e55752732b52d40ed490270e4b9e516f32343ec72394b4011ed782a5978bc6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0007).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440627170200,
+    "sha256": "6cfc92e5064cd0eaa1c266d33cccf374fd3610035404b1e55984aee47b3c5fe0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0008).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441287785900,
+    "sha256": "86578628a15271175477ee5064f501be530cbe5ccbdc79fa8290bd1ee98c74d8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1(#0009).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441937696000,
+    "sha256": "460fb95279c3bf643c9a7cfb03cb4dfa12885f1fe8b68767fe2d5a1ebba85551"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1.pmm",
+    "size": 659,
+    "mtime_ns": 1777802441944705800,
+    "sha256": "f1e0ff1a0dcc05a49b566929131fcb5e9151bf4317c293b49d1964b1749411bc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h1_pmm.rex",
+    "size": 3404,
+    "mtime_ns": 1777802441945703900,
+    "sha256": "49e9de5c2e522926c859304a14c42da78253993738bbe7c12858806981c435be"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0000).sct",
+    "size": 3654,
+    "mtime_ns": 1777802431613709000,
+    "sha256": "9f3b2c8162e968fc88b910fe37fcaf4440ff35f78c36216954fe07fd403117f5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0001).sct",
+    "size": 3654,
+    "mtime_ns": 1777802433681479000,
+    "sha256": "e79fefa5a195397a0696fd014e2f429c6f9c7506e050e0903fda1c98fbc24225"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0002).sct",
+    "size": 3654,
+    "mtime_ns": 1777802434541557400,
+    "sha256": "31cf89c5e16092219b4073ea7c762628c0f7b35b12aabab2451db3ed25b86481"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0003).sct",
+    "size": 3654,
+    "mtime_ns": 1777802436440989500,
+    "sha256": "1f10effdefce2d937d212ed16752369774db15f08922bb0053ba52450c4f534b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0004).sct",
+    "size": 3654,
+    "mtime_ns": 1777802438321038800,
+    "sha256": "1cbbf32120d14055087775005d16092708cc2361fa9e87f9388e813c75c664ad"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0005).sct",
+    "size": 3654,
+    "mtime_ns": 1777802439779064800,
+    "sha256": "9f1db884e2ee31f9bd7f354da75a1cb1f5ed9287e5b4f91ba3962ab57486b1a0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0006).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440164159600,
+    "sha256": "1c0a8f1e67421d78500c6d1685e3fbe94b15cc9ee33214ef6eabd1e066fc26ea"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0007).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440630170700,
+    "sha256": "6ef45f1b2cfe5b3871acab0db0714d8a0cbaacfe4eb9a7c3ecbe83ce101d89ae"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0008).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441289784100,
+    "sha256": "1521fef4bda05335b9e4d81ed574b4b0ad4de50558077cbeb1e0aedea3903361"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2(#0009).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441939695600,
+    "sha256": "cb2840caec8a923cf4b5939fb80b2c2db5ef55b752334581b78c58a58dbb61ac"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2.pmm",
+    "size": 659,
+    "mtime_ns": 1777802441953703700,
+    "sha256": "983eb464df9f6e3c3f1b79a3082ceb5e69b8f2c4d2fade51bfd79c2eb8dfa928"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_h2_pmm.rex",
+    "size": 3404,
+    "mtime_ns": 1777802441954694200,
+    "sha256": "fb172a4224f184bc6934a9422080925ab851e0c9a25f9c59d1398c194c348bb6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777802431609709000,
+    "sha256": "6b6b88d3dbe5cfdc7724c918ed429fa9cfa932331a72ee2b8da6fc882f47a173"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777802433677480200,
+    "sha256": "bc206ed66d13df112cf6d25ffdfa8c40b7afa801d541a8e2bfa6676222174734"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777802434538557500,
+    "sha256": "a28e1f1311cffe9e292646b30815021d5ba5976db8552b09d7413c020a80abc9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777802436437000400,
+    "sha256": "2447e6f8d64bcf9969dfc9743fb95f585f94c70a32616a06e65bf31e3b3f9ba1"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777802438317038800,
+    "sha256": "f151514c2cdaca8a9b52d7db94957488f7fdb6085ac7191db011861f24727629"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777802439776065100,
+    "sha256": "ac6c04956487cadaf9aa96bd84b4fe6ee022aa502f725b73589926180df51772"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440160158400,
+    "sha256": "a94cd3153fb6e307bd7480e445a2cee13d8daa60eeb253edf22536208bbf47de"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440626170400,
+    "sha256": "4e2c1a4640333dfbe86d62d86718b532e3b3bbfe718b1ace7edcfb149a2b3698"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441285784600,
+    "sha256": "f72381876e65586d125019e23b54d6b86c2e22329bb338671123f926100a0fd8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441935695100,
+    "sha256": "f5237d85264c9aeaa1a10de33a2f2e12e3ae13b96fabcd67fad932d5774e88a4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo1.pmm",
+    "size": 699,
+    "mtime_ns": 1777802441946694400,
+    "sha256": "b85b5b3492276755393dfde56150c84684088f1e550b5ce8eb69778a89f29232"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777802431612708500,
+    "sha256": "088b12076d4cd6f36e605eca4fa01e343a51fa80825c2ec58fbf0cdc6c3c1d9a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777802433679479300,
+    "sha256": "9285d126db15c021ef57b5392e75c0281205d7a430147b28c4bfefc871c6ca1d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777802434540557400,
+    "sha256": "15697ac70e6c9819b7eeb2a6c0e85a51cd2e774847fad70fb74f958c911d9c0f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777802436438996900,
+    "sha256": "f6a16a1988ddc0b7e93afa6a49a3b5ae2bbfe1d452c5614b23794c6d783e78c3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777802438320038400,
+    "sha256": "f2ee87c62d3f12849a00792dcbb8597c33c53f75ef6fb2d20777d07c1f3b9b4e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777802439778064700,
+    "sha256": "fc7e0b9d8391b27c814c3f377ef62f9df307799dee694b6c9d81531a44b09638"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440163159000,
+    "sha256": "2ded769c0e8e94bf8586d00637a14b061756123ca8deeeb651e3a16ee4872989"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440628170400,
+    "sha256": "cee419307f9e60e70e55412ff21b379f86945e980dcf1499ce90994ce78c96ca"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441287785900,
+    "sha256": "ef1edecb598d4de3123d47b11c34650496b486d38151abbdbbe25257c2c0d666"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441937696000,
+    "sha256": "02f7887912b7ffebad8209d08afd21e9104fcb20d58bd15b3bc197b8eb08da35"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hInfo2.pmm",
+    "size": 699,
+    "mtime_ns": 1777802441956704000,
+    "sha256": "33cfbc5308c5457595894768b8a7f93bbb15ef3fabb897741b110aa3291bd403"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0000).sct",
+    "size": 3654,
+    "mtime_ns": 1777802431610709600,
+    "sha256": "482ed159cf99d3e63d6bd5a495e5654c598bcdf22e76545cddba912afc773626"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0001).sct",
+    "size": 3654,
+    "mtime_ns": 1777802433678480600,
+    "sha256": "bb36d188416e9f6981ea3608e6b40e8110d1ef26ac47f63cef027f3fb205ccfc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0002).sct",
+    "size": 3654,
+    "mtime_ns": 1777802434539557300,
+    "sha256": "1c4152fc9493abf1ff672fcd9b9837c07869c957291df2e27804c16da3d951d5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0003).sct",
+    "size": 3654,
+    "mtime_ns": 1777802436437000400,
+    "sha256": "10419cea5f727b56346564990018d46bf96a78ba5df5622ddcc27fd57591a1f5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0004).sct",
+    "size": 3654,
+    "mtime_ns": 1777802438318038300,
+    "sha256": "37c97f49558209463a195d9d7f0ccc0b7cd6fbc48176e957e61e62af6073eb58"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0005).sct",
+    "size": 3654,
+    "mtime_ns": 1777802439776065100,
+    "sha256": "7f748f6b3140285f6fd1000bc51a81591ff21c54f77f198a05835f05937acabb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0006).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440161158400,
+    "sha256": "b7a1c09b324988ab2bf1037c25fa46b9f9cfd2a9d39219f48c34692637096c18"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0007).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440627170200,
+    "sha256": "3a010a197c078935a25e126398f27e265166dc7ca0aa18f77cf4978feaae50da"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0008).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441286785800,
+    "sha256": "97a52edfd84fa499092948bd672a233c9c4a7705592e3d7ba9b12f27c12dfe60"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1(#0009).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441936694300,
+    "sha256": "d01fc26d422f220a2ef2071ecd7998f71ec8cdca13ebe3f482e4284b54c6033f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1.pmm",
+    "size": 689,
+    "mtime_ns": 1777802441945703900,
+    "sha256": "daca1b76ed6a897565a72727dbc77ca09e9e5d495219916f07bff1b3c3f80afb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout1_pmm.rex",
+    "size": 3435,
+    "mtime_ns": 1777802441946694400,
+    "sha256": "3cf1ef9424257ffa9497806458c81e1d884c60aeedc4525211f932c2c7c48645"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0000).sct",
+    "size": 3654,
+    "mtime_ns": 1777802431612708500,
+    "sha256": "d1b3f00c74cfbf373c0ba806ff4e93e0ac3a51ff972edd80d2deb37746a745dd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0001).sct",
+    "size": 3654,
+    "mtime_ns": 1777802433680479600,
+    "sha256": "b8ec147e11c9b9e9d6f0f79057947f1f69efe2faaf629696062ccba5e818bb5a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0002).sct",
+    "size": 3654,
+    "mtime_ns": 1777802434541557400,
+    "sha256": "a57ff1c5e98588ca617b04fc7aa11b0f38b8753336784278ba6e3630f5b2b388"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0003).sct",
+    "size": 3654,
+    "mtime_ns": 1777802436439996500,
+    "sha256": "c87982d64a40c73d713755e9348726ae1a88646f36c70f890b26e42dc31f1564"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0004).sct",
+    "size": 3654,
+    "mtime_ns": 1777802438321038800,
+    "sha256": "19058c1823716cc784ed7317732499387a35dbbedd88f4774458b62e3c69a642"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0005).sct",
+    "size": 3654,
+    "mtime_ns": 1777802439778064700,
+    "sha256": "aa6a4c832cc73c2a511872367bcd1f3e6d839a3683cd721b79593289010510da"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0006).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440163159000,
+    "sha256": "3c2f7885985f3a523a13ddd913851d8adeaa54b1a6aca177f83d7ff78be5ab63"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0007).sct",
+    "size": 3654,
+    "mtime_ns": 1777802440629170400,
+    "sha256": "c852d2e8adbb018702879ab1eed1076e8287666e341ce77d8734baa825bdddae"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0008).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441288784600,
+    "sha256": "c33ebd07e4d31ccd544a84b4b263accb2e2a3f7f2d2904f8a8591bb36e8e71a5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2(#0009).sct",
+    "size": 3654,
+    "mtime_ns": 1777802441938695800,
+    "sha256": "4ad6851d79d5c684422118ba4dec9569edc123388ea69cdd62b8876eda441131"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2.pmm",
+    "size": 689,
+    "mtime_ns": 1777802441954694200,
+    "sha256": "848cfcf956faae72a29fc96ea3bd25f11b45decc37ac4e1e5d0a2b0cfde27803"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_hout2_pmm.rex",
+    "size": 3435,
+    "mtime_ns": 1777802441955705600,
+    "sha256": "1931810c1310ddd0827343571ca6a3343af52bae82d1888a6de9fbfb48259f3f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0000).mmd",
+    "size": 1347,
+    "mtime_ns": 1777802431614708800,
+    "sha256": "539a39067bf060ce0c3d769905ae8b20ae7d1db4ede3c6d199136801578ffd07"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0001).mmd",
+    "size": 1344,
+    "mtime_ns": 1777802433681479000,
+    "sha256": "e6fb9eb5c42a595b9182a26f5db51a964a00469301110383ae4449d67a7793e8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0002).mmd",
+    "size": 1347,
+    "mtime_ns": 1777802434542557400,
+    "sha256": "349d18bfbba86486fb43739de0782e6b8fdfbb7538138bf1f42b2a668b2e4b33"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0003).mmd",
+    "size": 1347,
+    "mtime_ns": 1777802436440989500,
+    "sha256": "1dcb9a20e13ee21ed48e50839d6dc4d8b508930db1d27cfeda38fe74d43405f2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0004).mmd",
+    "size": 1345,
+    "mtime_ns": 1777802438322039600,
+    "sha256": "7bfd38d5370abdf7d87e2c867401162219dc3a297cb36828eeda8d1265198a7c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0005).mmd",
+    "size": 1351,
+    "mtime_ns": 1777802439780065000,
+    "sha256": "11ff812a9783e856ce9e410c61b7eee323dd308a2b144f1384c1c610f8ecbe4e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0006).mmd",
+    "size": 1344,
+    "mtime_ns": 1777802440165159400,
+    "sha256": "1df66fce97e27725b29e6cbd787895c6bb9bc2caeab6e3d42c32db3158751bd9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0007).mmd",
+    "size": 1345,
+    "mtime_ns": 1777802440630170700,
+    "sha256": "c00e37e337e3bdf8a23823736c2f4cbbfb7165e41964fc832a6ce8660e2fbf54"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0008).mmd",
+    "size": 1351,
+    "mtime_ns": 1777802441289784100,
+    "sha256": "562d505ae7a4b16a0b1a881411ed8d72ffda20a221376b3978241f21b9519d8f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1(#0009).mmd",
+    "size": 1344,
+    "mtime_ns": 1777802441939695600,
+    "sha256": "9718f7830b3bf070ddd7ad017e99d392df557b970944e7d4d71900e0e9cdc5f4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info1.pmm",
+    "size": 689,
+    "mtime_ns": 1777802441940695900,
+    "sha256": "d8fae2a3e3492276d8279c8ba0226548b520b7c7a7d017a26d14c2c84ed9e213"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0000).mmd",
+    "size": 1346,
+    "mtime_ns": 1777802431614708800,
+    "sha256": "75fddfdd1cc91102dd9b1c85b35fd1cddbf6f8580ee5ccdb94c2a0fe018f9bbb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0001).mmd",
+    "size": 1344,
+    "mtime_ns": 1777802433682478800,
+    "sha256": "4df76b523c7e95b9aea0e83720d655e2a7377327e276c93b8df1e3a86e5e11ad"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0002).mmd",
+    "size": 1346,
+    "mtime_ns": 1777802434542557400,
+    "sha256": "08454d3afd348b9d7bb179c31a880eac41a5c1487293b463ac11667fe3bd8034"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0003).mmd",
+    "size": 1347,
+    "mtime_ns": 1777802436442001500,
+    "sha256": "af75e98baf9b8c75f021d6de7ef359ba61f3a8ad52457ab159d7383e50467121"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0004).mmd",
+    "size": 1346,
+    "mtime_ns": 1777802438322039600,
+    "sha256": "dfa049b597a4358c5b7a5239b4eb453b00f5c107335d3a95069986d47b72a471"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0005).mmd",
+    "size": 1350,
+    "mtime_ns": 1777802439780065000,
+    "sha256": "be19ce794e0cc2a2078f89b0abf05405982f7fe993bb56b32ea79dad277ce6b8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0006).mmd",
+    "size": 1344,
+    "mtime_ns": 1777802440165159400,
+    "sha256": "f56bd84d479639cb0a8bd58dbf607eb88481f293b0a349973b4eefecca464736"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0007).mmd",
+    "size": 1346,
+    "mtime_ns": 1777802440631170400,
+    "sha256": "25c9a866c177af96ca128936672b00d0ca28d81ff1e0877654eda4255a3fdb4d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0008).mmd",
+    "size": 1352,
+    "mtime_ns": 1777802441289784100,
+    "sha256": "e210e8cface6e5f607c2e8eb248ded8e708dc351c0b75f47832a214ea7726eaf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2(#0009).mmd",
+    "size": 1345,
+    "mtime_ns": 1777802441940695900,
+    "sha256": "3b918aac02d8998e2658dbbcca268fc9260290f4895de643edb317d8a938dafa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_Info2.pmm",
+    "size": 689,
+    "mtime_ns": 1777802441950694300,
+    "sha256": "08e39365b627d0803087238f0bfeadc064bdceb5f2584ed8a2ae17665006fb2b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0000).sct",
+    "size": 2502,
+    "mtime_ns": 1777802431611709200,
+    "sha256": "aaf14e7b2f70162fc3fabf849d79613bd01f25f35ad69fd316e1203526419932"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0001).sct",
+    "size": 2502,
+    "mtime_ns": 1777802433679479300,
+    "sha256": "5d7c036cc53537fd6a7425244a96bbe3a8fe9b5a9680cdd313447889bb0a5a6b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0002).sct",
+    "size": 2502,
+    "mtime_ns": 1777802434540557400,
+    "sha256": "d7788e6bef02eac5edcb7166f47453b7eeaeb415f9fb37c7cdcd9c04225944fa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0003).sct",
+    "size": 2502,
+    "mtime_ns": 1777802436437988500,
+    "sha256": "536c258a9f744f069301ea22333e4c1841cba08b7256dd55e40da6b0716b20ba"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0004).sct",
+    "size": 2502,
+    "mtime_ns": 1777802438319039800,
+    "sha256": "21301c626cea19933f8544b7d7a4e0632e9f212662c579b962f6fe5c9beb8b5e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0005).sct",
+    "size": 2502,
+    "mtime_ns": 1777802439777064700,
+    "sha256": "96358735a9d3fce8ff58c28b20999404d3b2bec33ca262d70dec5e05996bf5eb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0006).sct",
+    "size": 2502,
+    "mtime_ns": 1777802440162158700,
+    "sha256": "68352c97a041ae6e1cb6d727d89d9a9090278429e1ab3efbdfd1754546ef429d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0007).sct",
+    "size": 2502,
+    "mtime_ns": 1777802440628170400,
+    "sha256": "a7752acd81c29398e5665f888516ba85cfde1ade7687d7f8cecc59788bc677e4"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0008).sct",
+    "size": 2502,
+    "mtime_ns": 1777802441287785900,
+    "sha256": "3f5ad9d60071fceb1310349d75f52cfa3d5ef1c0752160beb8decba232a1187a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1(#0009).sct",
+    "size": 2502,
+    "mtime_ns": 1777802441937696000,
+    "sha256": "978f2f81d76be8e9284cd9040b2240701cb8894204f4d2439c97840e73de550e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1.pmm",
+    "size": 659,
+    "mtime_ns": 1777802441947695100,
+    "sha256": "22a45a8b585f6fbfa5431cb463ddfca493a46bde8c16e23b7be7e661b228dd0c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p1_pmm.rex",
+    "size": 3421,
+    "mtime_ns": 1777802441948695400,
+    "sha256": "bbcb5d94fcf73d9937a221fce677708dad7b2d751b26d43e5caef6287adff1fa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0000).sct",
+    "size": 2502,
+    "mtime_ns": 1777802431613709000,
+    "sha256": "1110e9015cc92ea129288cbd37ed633ee10fb963cd4528ed11ab70bee314ad3f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0001).sct",
+    "size": 2502,
+    "mtime_ns": 1777802433681479000,
+    "sha256": "fecfe8c7aefc9f1d31051a646ecc6c1490ee81819f6179fb26d4f8c4f334ef6e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0002).sct",
+    "size": 2502,
+    "mtime_ns": 1777802434542557400,
+    "sha256": "808335b21715d2909ed68341c22a4b8e3d80cb5274c5323fd6805a78f8f81ddd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0003).sct",
+    "size": 2502,
+    "mtime_ns": 1777802436440989500,
+    "sha256": "1529884c2c75959631b6f01df33040128a9b2257860ad9a33fa9960df007b3a3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0004).sct",
+    "size": 2502,
+    "mtime_ns": 1777802438322039600,
+    "sha256": "1a4333f7fc1e9ee7caae07367da067f863f151397f298969ec8616ceaffc5ef6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0005).sct",
+    "size": 2502,
+    "mtime_ns": 1777802439779064800,
+    "sha256": "d8ca12074232c0ae296f4c7ed4038c4785744635630128bf8fd1f08bf875cd9c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0006).sct",
+    "size": 2502,
+    "mtime_ns": 1777802440164159600,
+    "sha256": "4f2f64e2bdba0280d6e846a738a40332450abb750da7ef6c3de7d826f91fc47c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0007).sct",
+    "size": 2502,
+    "mtime_ns": 1777802440630170700,
+    "sha256": "f31a06de02425ed518ea1c0466dbca130274158a7e1af16d75465e32de77243e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0008).sct",
+    "size": 2502,
+    "mtime_ns": 1777802441289784100,
+    "sha256": "2f7a1c24ea9e484a51730bea195a356b5916a087402f255b00e6c179c0c02913"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2(#0009).sct",
+    "size": 2502,
+    "mtime_ns": 1777802441939695600,
+    "sha256": "916c228b59564f1a23dd120a7597ef110d4063b00a0a4b9d2a744d33dd5eb403"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2.pmm",
+    "size": 659,
+    "mtime_ns": 1777802441956704000,
+    "sha256": "c6ccf2e590d9e20a54436e1688e8734d9e81e86534db5520dd527968e07963ef"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_p2_pmm.rex",
+    "size": 3421,
+    "mtime_ns": 1777802441957694500,
+    "sha256": "9096e8055dcd6646c93b56445b87262a9d41beaf235f032327aa5b5aa8dbfccd"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777802431610709600,
+    "sha256": "eefcc95d8e592216eea2094b4b95e9cee072e4019b7338a8d946bc0cef83c28e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777802433677480200,
+    "sha256": "20e2915f24c6a3340951d7a45f5d1a3650ea218b1f9bba13daa310242a68f420"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777802434538557500,
+    "sha256": "69ecce2775cb99ea23111282e52bfdb4944e1d30ad080b501caf7b3cdb040623"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777802436437000400,
+    "sha256": "6d4b452217e27732f6307bb08ecde303382e6ed6f162634b810ac60bbf7a6b47"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777802438317038800,
+    "sha256": "eb6570d8933c8a5549bd6c4acdf79485ebe85da5d5a31f2f683b3b06b4fd1348"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777802439776065100,
+    "sha256": "340fe1c0bf3ac4ecec9d6317ac74b4cf8b1845fbaae916f5895ebdf4dc0d2402"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440160158400,
+    "sha256": "da68b879ce06ac2cfb0b30213a502542e50c968239fec4ac096ad81ed3238470"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440626170400,
+    "sha256": "ddb20f9d588c022ba373c26cd0ee8f89a82158b4ea5d71fe1c1fcdabddfcd15b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441285784600,
+    "sha256": "668e591e4c0df6c7b2d688197af9c3a0170b45f128373dabf815db7f76cdd8b0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441935695100,
+    "sha256": "f162af59b13b878503147a11abeb5bddbb6737b831476db0a77155dd98917ad2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo1.pmm",
+    "size": 699,
+    "mtime_ns": 1777802441949695100,
+    "sha256": "48fe225c0af7f54630cba5e8f6b80838c4ad9fb4a092282280143d99f3189608"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0000).pmf",
+    "size": 448,
+    "mtime_ns": 1777802431612708500,
+    "sha256": "d577f285e751dfb15f334f5c2bd73bd14a49bb6e6ed4667dcf4b37969811fc7e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0001).pmf",
+    "size": 448,
+    "mtime_ns": 1777802433680479600,
+    "sha256": "d45ea3862651246f6088b438c87a8e88568e4ab61af84b32e9534329e9c7ca2f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0002).pmf",
+    "size": 448,
+    "mtime_ns": 1777802434540557400,
+    "sha256": "efe0771635da1f4135f45f68444c569ea33532cb309e1f8dd05674733cbaab09"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0003).pmf",
+    "size": 448,
+    "mtime_ns": 1777802436438996900,
+    "sha256": "f7e1b85b5dca37d0758e013dd3056ef33d0965da27f9b5f66c7030abd4f32abf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0004).pmf",
+    "size": 448,
+    "mtime_ns": 1777802438320038400,
+    "sha256": "63b7d87344c0f79ff5cf35f0e13497e9a4d550c2eb62ba5a06e12bc5bbca89b2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0005).pmf",
+    "size": 448,
+    "mtime_ns": 1777802439778064700,
+    "sha256": "711518c655b0b0596a5a99a91b2ab03df84a054710ecba10b55728fa1fb3bffc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0006).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440163159000,
+    "sha256": "b7f76fc6f54c435517931e4a3c4450f032c7d21c516edbc3b25cf2b9a0c82261"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0007).pmf",
+    "size": 448,
+    "mtime_ns": 1777802440629170400,
+    "sha256": "a1727b8453225e825ad61e095bb531d67d2db34023ce0405ca9a7abe4cf136f0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0008).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441287785900,
+    "sha256": "f6a917325235d69f848fcef018a0206b2e9499fba94868780e5c15af6a95a9cf"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2(#0009).pmf",
+    "size": 448,
+    "mtime_ns": 1777802441938695800,
+    "sha256": "122570ed2bf9e09d056ffdc2a79dde0282b62597b20841d72fb3e0ae038a260d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pInfo2.pmm",
+    "size": 699,
+    "mtime_ns": 1777802441959703800,
+    "sha256": "8fe15057fcee6b044a5a7b31279d7661dca9c4d1cc56ff6de2788a7c1312f667"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0000).sct",
+    "size": 2502,
+    "mtime_ns": 1777802431611709200,
+    "sha256": "421af73b1647cafc7381ddba7ffd9f048b39d1b46afc419915c69592c8786b5e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0001).sct",
+    "size": 2502,
+    "mtime_ns": 1777802433678480600,
+    "sha256": "af87657b0de0c470310973bed6f6228a31f9751266c5d2b627ec64714f4da61a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0002).sct",
+    "size": 2502,
+    "mtime_ns": 1777802434539557300,
+    "sha256": "4c418c45dd5d7f09394dd5a8ef61f65cb8b75e7fae7d4c7d4aec16de85d82e30"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0003).sct",
+    "size": 2502,
+    "mtime_ns": 1777802436437988500,
+    "sha256": "36434f448e07bf54edb7f33f1cdfe12703d466117a251d42679a8b6baea92016"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0004).sct",
+    "size": 2502,
+    "mtime_ns": 1777802438318038300,
+    "sha256": "c733859adc3826bab5876b07a1050ee3a711dd4e5fd68c5d201c7ba8e658e3b7"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0005).sct",
+    "size": 2502,
+    "mtime_ns": 1777802439777064700,
+    "sha256": "38f3c4ed3475cf4bd1db411eb9c83d03c1d33afe8ade9f7eac28d57ec165b9a3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0006).sct",
+    "size": 2502,
+    "mtime_ns": 1777802440161158400,
+    "sha256": "d95b0ae4cc131fb7209bf59590a3f7e0e0a6e0e30606f5fb98f34e7eb5a43fd5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0007).sct",
+    "size": 2502,
+    "mtime_ns": 1777802440627170200,
+    "sha256": "8c239035c0f56edd9eef28112b3b128fcf381fee9d9b3eb1e754c8741ade477b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0008).sct",
+    "size": 2502,
+    "mtime_ns": 1777802441286785800,
+    "sha256": "03ed383983dbeaaa712fe5430f034be9262f98f851dd138c94d1f9b09649bfde"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1(#0009).sct",
+    "size": 2502,
+    "mtime_ns": 1777802441936694300,
+    "sha256": "ff9fb75c280b431d40f7475a2c5f50614d7157363c9645e60e2272f1e8b8ab25"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1.pmm",
+    "size": 689,
+    "mtime_ns": 1777802441948695400,
+    "sha256": "eff3c1e0613e2857ad970af877c9de0a55886740f0fe10f6a746f8d1acabaccb"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout1_pmm.rex",
+    "size": 3452,
+    "mtime_ns": 1777802441949695100,
+    "sha256": "4b1880f3dc10250c09a631dd8fb360359641aa6e33c9f9590bbe62f587d365dc"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0000).sct",
+    "size": 2502,
+    "mtime_ns": 1777802431612708500,
+    "sha256": "0696a0debfe55f80553a760c846f3a88fd3a05664d7b4182f1b761a7e7e40f33"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0001).sct",
+    "size": 2502,
+    "mtime_ns": 1777802433680479600,
+    "sha256": "eba3adf65126ba6d121c161609f8853cbc05466cf0f286bf8ee5df9372c56c9d"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0002).sct",
+    "size": 2502,
+    "mtime_ns": 1777802434541557400,
+    "sha256": "5c9781737222f651cbd0c0f65ce253e6cafd310426f0fa7277d1d05f6c486cc9"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0003).sct",
+    "size": 2502,
+    "mtime_ns": 1777802436439996500,
+    "sha256": "b53893e144cbdb1a20fc58b232656c828bb6438b7913b92938b02aa985e0b405"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0004).sct",
+    "size": 2502,
+    "mtime_ns": 1777802438321038800,
+    "sha256": "e3c9576702c7f6b987b636ea13df08da45659d77ed9d9effc6f5535fc5109d94"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0005).sct",
+    "size": 2502,
+    "mtime_ns": 1777802439779064800,
+    "sha256": "37e99e369a9576d63932520ba38e97c758c961600e44e7d24cbd48ca73b9e77c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0006).sct",
+    "size": 2502,
+    "mtime_ns": 1777802440164159600,
+    "sha256": "eb242b5124329795759458b3b520984ae3cfd87326f2cfd290407d91c2c10e4f"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0007).sct",
+    "size": 2502,
+    "mtime_ns": 1777802440629170400,
+    "sha256": "f6a21dbb6b4f3e7819fca9613f70cffbb261a2456e3da4471ae727b3f7640ec5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0008).sct",
+    "size": 2502,
+    "mtime_ns": 1777802441288784600,
+    "sha256": "661efcfcc906a2cde308310f40b1ca829c8213915f44d16dda8ecc595cf9951a"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2(#0009).sct",
+    "size": 2502,
+    "mtime_ns": 1777802441938695800,
+    "sha256": "80c7f03be04c8758ea78ca334673021eb9c28cfdb4a648aef1220f1021fd5a33"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2.pmm",
+    "size": 689,
+    "mtime_ns": 1777802441957694500,
+    "sha256": "a93455b6376bb607c1ccd0f765dc0543b66509d0d98612712376b6551defa84c"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Port2_pout2_pmm.rex",
+    "size": 3452,
+    "mtime_ns": 1777802441958703800,
+    "sha256": "a863e42fc477961445fae8f729aa7493967772d3ab34a89efa06169d2fe8c307"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\PP-GPU.log",
+    "size": 168,
+    "mtime_ns": 1777802442538952400,
+    "sha256": "d336bca6207ad1a12e28a28d1dc59e0f59a99a8e34e1e95e6db733e3a1fd7c5e"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\sat.tet",
+    "size": 587342,
+    "mtime_ns": 1777802431151804100,
+    "sha256": "5a6b8b6d611f1fd17c2423b369725770f90f9d2fc810c26a195a7b76a7b19e77"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\simulation_overview.json",
+    "size": 1693,
+    "mtime_ns": 1777802443191567100,
+    "sha256": "68c98c78af359061eeb43ece33e155e803bb718e4eada508c53db71bcedd999b"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\SolCoef(#0002)_Zmax(1).scf",
+    "size": 499104,
+    "mtime_ns": 1777802442360696000,
+    "sha256": "38a904ea0c507e2cc3fe81e376ac4815bffaa43514d8158bfa36f40a19d59c41"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\SolCoef(#0002)_Zmax(2).scf",
+    "size": 499104,
+    "mtime_ns": 1777802442361696300,
+    "sha256": "e6d3308eabe1b9ee079e70a5a08768ef8548fc5771ab04725db7d7bc82d8c9d8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\SolCoef_Zmax(1).scl",
+    "size": 162,
+    "mtime_ns": 1777802436410099000,
+    "sha256": "1e02c98d16e6bb13ec9bea2f14670edb1ab4dabaae87892e0618ca5783c440f3"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\SolCoef_Zmax(2).scl",
+    "size": 162,
+    "mtime_ns": 1777802436410099000,
+    "sha256": "80ac0caa10552952f083c01033c05b57f8fe0bfbe0e49ab97b4a95ed0641a7c6"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Storage.sdb",
+    "size": 319488,
+    "mtime_ns": 1777802444307638200,
+    "sha256": "56be22b1263a6d4e8ad5da48435167d4704442609ba72f726a3c7234584f5306"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\topot.tet",
+    "size": 19844,
+    "mtime_ns": 1777802431181784400,
+    "sha256": "cf4e89137b5d449d5777f4e0e1b4ca2a6964127044656c68734e7474cd5328b5"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Temp\\modelermeasurements.sconf",
+    "size": 40,
+    "mtime_ns": 1777802445179534800,
+    "sha256": "856e2596ceadea5acc43a9371a4c1a78c646646fa57c0f0017a23bf5114ecbe2"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Temp\\resourceusage.sconf",
+    "size": 1996,
+    "mtime_ns": 1777802444945870500,
+    "sha256": "6df4205257e52fb5d3b94bde7c0634b2db243e5a9d8516e47d21fdd2fd6bc1ef"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Temp\\solver_launch.mdg",
+    "size": 231,
+    "mtime_ns": 1777802443179566500,
+    "sha256": "d911e06aa40e6b83607010f5c89edb2a0d12333cf0979ee3a1d30577b06d8faa"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Temp\\SolverControl.mdg",
+    "size": 405,
+    "mtime_ns": 1777802431358837500,
+    "sha256": "e4d5fd6b0460c23a41242a878cd1cd0e709aea9b562c85ebe38a37613d64bfe8"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Temp\\tetmesher.sconf",
+    "size": 933,
+    "mtime_ns": 1777802431341837100,
+    "sha256": "238b0207eeba3186bf3e7620b4367458cb922bf75d9d6e2406f7ecfe76ff8ed0"
+  },
+  {
+    "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Temp\\ThreadInfo.txt",
+    "size": 36,
+    "mtime_ns": 1777802415882560600,
+    "sha256": "4ec0db18da622ad6428290a55a265a4bc2cbe29c8f466d20e3fdefe9f02c32e1"
+  }
+]

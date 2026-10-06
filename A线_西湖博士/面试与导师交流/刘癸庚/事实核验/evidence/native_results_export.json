@@ -1,0 +1,420 @@
+[
+  {
+    "tree_item": "1D Results\\Adaptive Meshing\\f=18\\S-Parameters\\Delta\\All S-Parameters",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 2,
+    "x_min": 2.0,
+    "x_max": 3.0,
+    "file": "1D_Results_Adaptive_Meshing_f_18_S-Parameters_Delta_All_S-Parameters.csv"
+  },
+  {
+    "tree_item": "1D Results\\Adaptive Meshing\\f=18\\S-Parameters\\SZmax(1),Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 3,
+    "x_min": 1.0,
+    "x_max": 3.0,
+    "file": "1D_Results_Adaptive_Meshing_f_18_S-Parameters_SZmax(1),Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\Adaptive Meshing\\f=18\\S-Parameters\\SZmax(1),Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 3,
+    "x_min": 1.0,
+    "x_max": 3.0,
+    "file": "1D_Results_Adaptive_Meshing_f_18_S-Parameters_SZmax(1),Zmax(2).csv"
+  },
+  {
+    "tree_item": "1D Results\\Adaptive Meshing\\f=18\\S-Parameters\\SZmax(2),Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 3,
+    "x_min": 1.0,
+    "x_max": 3.0,
+    "file": "1D_Results_Adaptive_Meshing_f_18_S-Parameters_SZmax(2),Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\Adaptive Meshing\\f=18\\S-Parameters\\SZmax(2),Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 3,
+    "x_min": 1.0,
+    "x_max": 3.0,
+    "file": "1D_Results_Adaptive_Meshing_f_18_S-Parameters_SZmax(2),Zmax(2).csv"
+  },
+  {
+    "tree_item": "1D Results\\Balance (All Ports)\\Balance [Zmax(1)]",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Balance_(All_Ports)_Balance__Zmax(1)_.csv"
+  },
+  {
+    "tree_item": "1D Results\\Balance (All Ports)\\Balance [Zmax(2)]",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Balance_(All_Ports)_Balance__Zmax(2)_.csv"
+  },
+  {
+    "tree_item": "1D Results\\Convergence\\S-Parameters\\All S-Parameters",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 9,
+    "x_min": 3.0,
+    "x_max": 11.0,
+    "file": "1D_Results_Convergence_S-Parameters_All_S-Parameters.csv"
+  },
+  {
+    "tree_item": "1D Results\\Port Information\\Distance (-40 dB)\\Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Port_Information_Distance_(-40_dB)_Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\Port Information\\Distance (-40 dB)\\Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Port_Information_Distance_(-40_dB)_Zmax(2).csv"
+  },
+  {
+    "tree_item": "1D Results\\Port Information\\Effective Dielectric Constant\\Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Port_Information_Effective_Dielectric_Constant_Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\Port Information\\Effective Dielectric Constant\\Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Port_Information_Effective_Dielectric_Constant_Zmax(2).csv"
+  },
+  {
+    "tree_item": "1D Results\\Port Information\\Gamma\\Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Port_Information_Gamma_Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\Port Information\\Gamma\\Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Port_Information_Gamma_Zmax(2).csv"
+  },
+  {
+    "tree_item": "1D Results\\Port Information\\Wave Impedance\\Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Port_Information_Wave_Impedance_Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\Port Information\\Wave Impedance\\Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Port_Information_Wave_Impedance_Zmax(2).csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(1)]\\Loss in Dielectrics",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(1)__Loss_in_Dielectrics.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(1)]\\Loss in Metals",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(1)__Loss_in_Metals.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(1)]\\Loss per Material\\Metal loss in SMH188H_X_140p79_OhmicSheet",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(1)__Loss_per_Material_Metal_loss_in_SMH188H_X_140p79_OhmicSheet.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(1)]\\Loss per Material\\Metal loss in SMH188H_Y_35p46_OhmicSheet",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(1)__Loss_per_Material_Metal_loss_in_SMH188H_Y_35p46_OhmicSheet.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(1)]\\Power Accepted",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(1)__Power_Accepted.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(1)]\\Power Accepted per Port\\Port Zmax",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(1)__Power_Accepted_per_Port_Port_Zmax.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(1)]\\Power Outgoing all Ports",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(1)__Power_Outgoing_all_Ports.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(1)]\\Power Stimulated",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(1)__Power_Stimulated.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(2)]\\Loss in Dielectrics",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(2)__Loss_in_Dielectrics.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(2)]\\Loss in Metals",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(2)__Loss_in_Metals.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(2)]\\Loss per Material\\Metal loss in SMH188H_X_140p79_OhmicSheet",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(2)__Loss_per_Material_Metal_loss_in_SMH188H_X_140p79_OhmicSheet.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(2)]\\Loss per Material\\Metal loss in SMH188H_Y_35p46_OhmicSheet",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(2)__Loss_per_Material_Metal_loss_in_SMH188H_Y_35p46_OhmicSheet.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(2)]\\Power Accepted",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(2)__Power_Accepted.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(2)]\\Power Accepted per Port\\Port Zmax",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(2)__Power_Accepted_per_Port_Port_Zmax.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(2)]\\Power Outgoing all Ports",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(2)__Power_Outgoing_all_Ports.csv"
+  },
+  {
+    "tree_item": "1D Results\\Power\\Excitation [Zmax(2)]\\Power Stimulated",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 11,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Power_Excitation__Zmax(2)__Power_Stimulated.csv"
+  },
+  {
+    "tree_item": "1D Results\\Reference Impedance\\ZRef Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 202,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Reference_Impedance_ZRef_Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\Reference Impedance\\ZRef Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 202,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_Reference_Impedance_ZRef_Zmax(2).csv"
+  },
+  {
+    "tree_item": "1D Results\\S-Parameters\\SZmax(1),Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 202,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_S-Parameters_SZmax(1),Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\S-Parameters\\SZmax(1),Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 202,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_S-Parameters_SZmax(1),Zmax(2).csv"
+  },
+  {
+    "tree_item": "1D Results\\S-Parameters\\SZmax(2),Zmax(1)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 202,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_S-Parameters_SZmax(2),Zmax(1).csv"
+  },
+  {
+    "tree_item": "1D Results\\S-Parameters\\SZmax(2),Zmax(2)",
+    "run_ids": [
+      0,
+      1
+    ],
+    "count": 202,
+    "x_min": 2.0,
+    "x_max": 18.0,
+    "file": "1D_Results_S-Parameters_SZmax(2),Zmax(2).csv"
+  }
+]

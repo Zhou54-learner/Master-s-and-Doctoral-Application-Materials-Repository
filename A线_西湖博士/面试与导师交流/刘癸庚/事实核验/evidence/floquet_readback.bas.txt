@@ -1,0 +1,17 @@
+Sub Main
+Dim name As String
+Dim n As Long, i As Long
+Open "F:\codex-temp-floquet-audit-20261006\floquet_readback.txt" For Output As #1
+With FloquetPort
+.Port "Zmax"
+Print #1, "NumberOfModesConsidered="; .GetNumberOfModesConsidered
+Print #1, "NumberOfModes="; .GetNumberOfModes
+Print #1, "IsPortAtZmax="; .IsPortAtZmax
+Print #1, "IsPortAtZmin="; .IsPortAtZmin
+For i = 1 To .GetNumberOfModes
+.GetModeNameByNumber name, i
+Print #1, i; " "; name
+Next i
+End With
+Close #1
+End Sub
