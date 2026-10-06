@@ -1,0 +1,41 @@
+[
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_1.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 2873.808870976829,
+    "new_hz": 2873.7980769230767,
+    "difference_hz": 0.010794053752306354,
+    "invalid": false,
+    "N": 532480,
+    "bin_hz": 0.09014423076923077,
+    "N_over_N_minus_2_prediction_hz": 2873.8088709768285,
+    "residual_hz": -4.547473508864641e-13
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_5.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 2895.8912816044963,
+    "new_hz": 2895.880941499086,
+    "difference_hz": 0.010340105410250544,
+    "invalid": false,
+    "N": 560128,
+    "bin_hz": 0.08569469835466179,
+    "N_over_N_minus_2_prediction_hz": 2895.8912816044963,
+    "residual_hz": 0.0
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_02_2.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 3841.006437436945,
+    "new_hz": 3840.9926470588243,
+    "difference_hz": 0.013790378120575042,
+    "invalid": false,
+    "N": 557056,
+    "bin_hz": 0.0861672794117647,
+    "N_over_N_minus_2_prediction_hz": 3841.006437436946,
+    "residual_hz": 9.094947017729282e-13
+  }
+]

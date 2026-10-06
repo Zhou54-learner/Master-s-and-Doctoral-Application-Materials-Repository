@@ -1,0 +1,93 @@
+[
+  {
+    "plateau": 1,
+    "start_s": 0.0853,
+    "end_s": 3.712,
+    "interior_start_s": 0.3353,
+    "interior_end_s": 3.462,
+    "median_hz": 1494.141,
+    "p05_hz": 1488.281,
+    "p95_hz": 1500.0,
+    "group_mean_hz": 1486.6436049917093,
+    "median_difference_hz": 7.497395008290823,
+    "frames": 74
+  },
+  {
+    "plateau": 2,
+    "start_s": 3.7547,
+    "end_s": 7.2533,
+    "interior_start_s": 4.0047,
+    "interior_end_s": 7.0033,
+    "median_hz": 1652.344,
+    "p05_hz": 1652.344,
+    "p95_hz": 1658.203,
+    "group_mean_hz": 1655.5260847162467,
+    "median_difference_hz": -3.1820847162466634,
+    "frames": 71
+  },
+  {
+    "plateau": 3,
+    "start_s": 7.296,
+    "end_s": 10.4107,
+    "interior_start_s": 7.546,
+    "interior_end_s": 10.1607,
+    "median_hz": 2033.203,
+    "p05_hz": 2021.777,
+    "p95_hz": 2039.062,
+    "group_mean_hz": 2036.2740196646296,
+    "median_difference_hz": -3.0710196646296026,
+    "frames": 62
+  },
+  {
+    "plateau": 4,
+    "start_s": 10.4533,
+    "end_s": 12.5867,
+    "interior_start_s": 10.7033,
+    "interior_end_s": 12.3367,
+    "median_hz": 2232.422,
+    "p05_hz": 2226.562,
+    "p95_hz": 2238.281,
+    "group_mean_hz": 2226.029776943976,
+    "median_difference_hz": 6.39222305602425,
+    "frames": 39
+  },
+  {
+    "plateau": 5,
+    "start_s": 12.6293,
+    "end_s": 15.8293,
+    "interior_start_s": 12.8793,
+    "interior_end_s": 15.5793,
+    "median_hz": 2428.7110000000002,
+    "p05_hz": 2419.922,
+    "p95_hz": 2449.219,
+    "group_mean_hz": 2428.775931260083,
+    "median_difference_hz": -0.06493126008263062,
+    "frames": 64
+  },
+  {
+    "plateau": 6,
+    "start_s": 15.872,
+    "end_s": 18.4747,
+    "interior_start_s": 16.122,
+    "interior_end_s": 18.2247,
+    "median_hz": 2589.844,
+    "p05_hz": 2589.844,
+    "p95_hz": 2598.9254499999997,
+    "group_mean_hz": 2607.213602679823,
+    "median_difference_hz": -17.369602679822947,
+    "frames": 50
+  },
+  {
+    "plateau": 7,
+    "start_s": 18.5173,
+    "end_s": 20.864,
+    "interior_start_s": 18.7673,
+    "interior_end_s": 20.614,
+    "median_hz": 2789.062,
+    "p05_hz": 2789.062,
+    "p95_hz": 2800.781,
+    "group_mean_hz": 2790.681568803499,
+    "median_difference_hz": -1.619568803499078,
+    "frames": 44
+  }
+]

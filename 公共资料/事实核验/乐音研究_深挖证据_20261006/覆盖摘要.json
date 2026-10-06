@@ -1,0 +1,44 @@
+{
+  "source_file_count": 821,
+  "unique_file_count": 351,
+  "decode_errors": [],
+  "kind_counts": {
+    "other": 31,
+    "straight": 256,
+    "curved": 64
+  },
+  "groups": {
+    "curved": 22,
+    "straight": 51
+  },
+  "historical_table_cells": 210,
+  "numerical_mismatches": [
+    {
+      "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_1.m4a",
+      "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+      "cell": "B2",
+      "historical_hz": 2873.808870976829,
+      "new_hz": 2873.7980769230767,
+      "difference_hz": 0.010794053752306354,
+      "invalid": false
+    },
+    {
+      "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_5.m4a",
+      "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+      "cell": "B6",
+      "historical_hz": 2895.8912816044963,
+      "new_hz": 2895.880941499086,
+      "difference_hz": 0.010340105410250544,
+      "invalid": false
+    },
+    {
+      "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_02_2.m4a",
+      "table": "R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+      "cell": "B3",
+      "historical_hz": 3841.006437436945,
+      "new_hz": 3840.9926470588243,
+      "difference_hz": 0.013790378120575042,
+      "invalid": false
+    }
+  ]
+}

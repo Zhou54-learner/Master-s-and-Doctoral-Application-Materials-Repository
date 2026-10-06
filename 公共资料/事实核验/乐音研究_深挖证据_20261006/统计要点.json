@@ -1,0 +1,9 @@
+{
+  "primary_groups": 42,
+  "primary_valid_recordings": 209,
+  "cv_median_pct": 0.479462610511177,
+  "cv_min_pct": 0.07283680478949597,
+  "cv_max_pct": 1.5119549702473598,
+  "groups_cv_below_1pct": 40,
+  "min_gap_over_max_sd": 8.842974505670727
+}
