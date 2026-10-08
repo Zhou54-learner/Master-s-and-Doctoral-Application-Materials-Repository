@@ -1,0 +1,33 @@
+{
+  "ppt_pages": 12,
+  "pdf_pages": 12,
+  "notes_match": 12,
+  "question_count": 20,
+  "source_files_unchanged": true,
+  "changed_sources": [],
+  "broken_local_links": [],
+  "layout": {
+    "pages": 12,
+    "render": "Microsoft PowerPoint",
+    "issues": [],
+    "external_relationships": []
+  },
+  "native_preservation": {
+    "ga": {
+      "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979.cst",
+      "originals_unchanged": true,
+      "files_checked": 377
+    },
+    "adaptive": {
+      "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12.cst",
+      "originals_unchanged": true,
+      "files_checked": 534
+    }
+  },
+  "not_verified": [
+    "本人独立复述与实际计时",
+    "现场屏幕分享",
+    "PET有效损耗设置及物性来源",
+    "独立数值收敛、制造和实测"
+  ]
+}

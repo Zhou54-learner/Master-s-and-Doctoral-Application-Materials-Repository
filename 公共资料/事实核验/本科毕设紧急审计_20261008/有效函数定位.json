@@ -1,0 +1,430 @@
+{
+  "Type": {
+    "start": 228,
+    "end": 345
+  },
+  "create_pet_material": {
+    "start": 349,
+    "end": 363
+  },
+  "create_resistive_film_material": {
+    "start": 366,
+    "end": 400
+  },
+  "_append_error_log": {
+    "start": 407,
+    "end": 413
+  },
+  "_replace_material_name_in_history": {
+    "start": 416,
+    "end": 423
+  },
+  "_try_create_material_from_external_history": {
+    "start": 426,
+    "end": 439
+  },
+  "_candidate_ohmic_material_commands": {
+    "start": 442,
+    "end": 485
+  },
+  "_create_ohmic_sheet_material_one": {
+    "start": 488,
+    "end": 549
+  },
+  "create_ohmic_sheet_material": {
+    "start": 552,
+    "end": 563
+  },
+  "gaoshang": {
+    "start": 568,
+    "end": 571
+  },
+  "newc": {
+    "start": 577,
+    "end": 580
+  },
+  "create_pet_cross_substrates": {
+    "start": 584,
+    "end": 614
+  },
+  "create_full_cover_film": {
+    "start": 618,
+    "end": 651
+  },
+  "etch_to_I_shape_fixedcaps": {
+    "start": 655,
+    "end": 733
+  },
+  "set_ground_boundary": {
+    "start": 738,
+    "end": 765
+  },
+  "set_fast_solver": {
+    "start": 768,
+    "end": 819
+  },
+  "create_cross_with_endcaps": {
+    "start": 822,
+    "end": 911
+  },
+  "reconnect_de": {
+    "start": 916,
+    "end": 921
+  },
+  "safe_new_mws": {
+    "start": 924,
+    "end": 930
+  },
+  "bits_to_int": {
+    "start": 933,
+    "end": 934
+  },
+  "clamp_int": {
+    "start": 937,
+    "end": 938
+  },
+  "build_y_mask_template": {
+    "start": 941,
+    "end": 1029
+  },
+  "build_x_mask_template": {
+    "start": 1032,
+    "end": 1096
+  },
+  "flatten_mask": {
+    "start": 4445,
+    "end": 4446
+  },
+  "template_params_from_individual": {
+    "start": 1103,
+    "end": 1137
+  },
+  "decode": {
+    "start": 4619,
+    "end": 4627
+  },
+  "expand_seed_to_mask": {
+    "start": 1161,
+    "end": 1183
+  },
+  "template_summary": {
+    "start": 4605,
+    "end": 4616
+  },
+  "bitstring": {
+    "start": 4594,
+    "end": 4602
+  },
+  "mask_to_compact_string": {
+    "start": 1197,
+    "end": 1198
+  },
+  "count_isolated_pixels": {
+    "start": 1201,
+    "end": 1218
+  },
+  "count_connected_components": {
+    "start": 1221,
+    "end": 1242
+  },
+  "mask_quality_report": {
+    "start": 4454,
+    "end": 4460
+  },
+  "prefilter_individual": {
+    "start": 4630,
+    "end": 4666
+  },
+  "log_individual_trace": {
+    "start": 5099,
+    "end": 5131
+  },
+  "etch_mask_x_12x12": {
+    "start": 1339,
+    "end": 1377
+  },
+  "etch_mask_y_12x12": {
+    "start": 1380,
+    "end": 1418
+  },
+  "_add_sheet_to_meshgroup_if_needed": {
+    "start": 1425,
+    "end": 1436
+  },
+  "_delete_helper_solid": {
+    "start": 1439,
+    "end": 1447
+  },
+  "_create_ohmic_sheet_from_helper_face": {
+    "start": 1450,
+    "end": 1462
+  },
+  "create_surface_sheet_pixel_x": {
+    "start": 1465,
+    "end": 1494
+  },
+  "create_surface_sheet_pixel_y": {
+    "start": 1497,
+    "end": 1526
+  },
+  "create_patterned_ohmic_sheet_film": {
+    "start": 1529,
+    "end": 1563
+  },
+  "build_resistive_film_by_model_type": {
+    "start": 1566,
+    "end": 1576
+  },
+  "_find_effective_intervals": {
+    "start": 4696,
+    "end": 4708
+  },
+  "extract_metrics": {
+    "start": 4711,
+    "end": 4803
+  },
+  "export_s11_plot": {
+    "start": 1688,
+    "end": 1714
+  },
+  "export_s11_curve": {
+    "start": 1717,
+    "end": 1730
+  },
+  "remove_file_if_exists": {
+    "start": 1733,
+    "end": 1739
+  },
+  "make_run_tag": {
+    "start": 1742,
+    "end": 1744
+  },
+  "run_cst_for_params": {
+    "start": 1747,
+    "end": 1814
+  },
+  "run_cst": {
+    "start": 4682,
+    "end": 4693
+  },
+  "int_to_bits": {
+    "start": 1832,
+    "end": 1833
+  },
+  "encode_template_params_to_individual": {
+    "start": 1836,
+    "end": 1877
+  },
+  "encode_params_to_individual": {
+    "start": 1880,
+    "end": 1882
+  },
+  "perturb_individual": {
+    "start": 1884,
+    "end": 1889
+  },
+  "initialize_population": {
+    "start": 5241,
+    "end": 5281
+  },
+  "evaluate_individual": {
+    "start": 5134,
+    "end": 5172
+  },
+  "evaluate_population": {
+    "start": 5175,
+    "end": 5184
+  },
+  "select_parent": {
+    "start": 5187,
+    "end": 5198
+  },
+  "crossover": {
+    "start": 5201,
+    "end": 5226
+  },
+  "mutate": {
+    "start": 5229,
+    "end": 5238
+  },
+  "make_new_population": {
+    "start": 5284,
+    "end": 5327
+  },
+  "write_best_result": {
+    "start": 5362,
+    "end": 5384
+  },
+  "optimize": {
+    "start": 5387,
+    "end": 5464
+  },
+  "run_fixed_best_ohmic_sheet_once": {
+    "start": 2156,
+    "end": 2194
+  },
+  "write_single_run_result": {
+    "start": 2200,
+    "end": 2209
+  },
+  "read_exported_s11_txt": {
+    "start": 2212,
+    "end": 2223
+  },
+  "export_comparison_overlay": {
+    "start": 2226,
+    "end": 2252
+  },
+  "compare_fixed_best_structure": {
+    "start": 2255,
+    "end": 2343
+  },
+  "seed5_to_mask9": {
+    "start": 2458,
+    "end": 2464
+  },
+  "upscale_9x9_to_12x12": {
+    "start": 2471,
+    "end": 2487
+  },
+  "ensure_array_mask": {
+    "start": 4441,
+    "end": 4442
+  },
+  "matrix_to_string": {
+    "start": 4449,
+    "end": 4451
+  },
+  "boundary_positions": {
+    "start": 2508,
+    "end": 2526
+  },
+  "repair_masks": {
+    "start": 4533,
+    "end": 4534
+  },
+  "random_ph_around_base": {
+    "start": 2590,
+    "end": 2600
+  },
+  "random_rs": {
+    "start": 2603,
+    "end": 2606
+  },
+  "make_individual": {
+    "start": 4537,
+    "end": 4568
+  },
+  "clone_individual": {
+    "start": 4571,
+    "end": 4580
+  },
+  "individual_key": {
+    "start": 4583,
+    "end": 4591
+  },
+  "make_local_variant": {
+    "start": 2706,
+    "end": 2743
+  },
+  "make_template_variant": {
+    "start": 2746,
+    "end": 2764
+  },
+  "configure_rs_for_individual": {
+    "start": 4669,
+    "end": 4679
+  },
+  "save_mask_txt": {
+    "start": 5330,
+    "end": 5334
+  },
+  "export_mask_figure": {
+    "start": 5337,
+    "end": 5359
+  },
+  "x_candidate_positions": {
+    "start": 3461,
+    "end": 3492
+  },
+  "repair_x_mask": {
+    "start": 4480,
+    "end": 4498
+  },
+  "repair_y_mask": {
+    "start": 4501,
+    "end": 4530
+  },
+  "make_x_variant": {
+    "start": 3796,
+    "end": 3830
+  },
+  "make_ph_rs_variant": {
+    "start": 3833,
+    "end": 3856
+  },
+  "make_structured_x_compensation": {
+    "start": 3859,
+    "end": 3891
+  },
+  "_boundary_positions": {
+    "start": 4410,
+    "end": 4424
+  },
+  "remove_isolated_pixels": {
+    "start": 4463,
+    "end": 4477
+  },
+  "random_ph_rs_near_best": {
+    "start": 4809,
+    "end": 4827
+  },
+  "point_flip": {
+    "start": 4830,
+    "end": 4846
+  },
+  "block_mutation": {
+    "start": 4849,
+    "end": 4874
+  },
+  "edge_grow_shrink": {
+    "start": 4877,
+    "end": 4916
+  },
+  "bridge_or_slot_mutation": {
+    "start": 4919,
+    "end": 4955
+  },
+  "apply_random_topology_mutations": {
+    "start": 4958,
+    "end": 4980
+  },
+  "mutate_params": {
+    "start": 4983,
+    "end": 4990
+  },
+  "make_best82_seed": {
+    "start": 4996,
+    "end": 5000
+  },
+  "make_ph_rs_seed": {
+    "start": 5003,
+    "end": 5005
+  },
+  "make_lowfreq_template": {
+    "start": 5008,
+    "end": 5029
+  },
+  "make_hf_template": {
+    "start": 5032,
+    "end": 5055
+  },
+  "make_bridge_template": {
+    "start": 5058,
+    "end": 5082
+  },
+  "make_random_multitemplate_seed": {
+    "start": 5085,
+    "end": 5093
+  }
+}

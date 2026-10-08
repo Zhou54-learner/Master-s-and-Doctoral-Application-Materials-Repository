@@ -1,0 +1,64 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>面试前15分钟备忘单</title><style>body{font:18px/1.85 "Microsoft YaHei",sans-serif;color:#142c46;max-width:1000px;margin:32px auto;padding:0 24px;background:#fff}h1{font-size:30px;line-height:1.5}h2{margin-top:2em;font-size:24px;color:#087d7d;border-top:1px solid #dce5eb;padding-top:18px}h3{font-size:21px}a{color:#087d7d}table{border-collapse:collapse;font-size:15px;width:100%;display:block;overflow:auto}td,th{border:1px solid #dce5eb;padding:9px 12px;vertical-align:top}th{background:#eef5f6}code{font-size:16px;background:#eef3f6;padding:2px 4px}img{max-width:100%}.nav{background:#edf5f5;padding:14px 20px;border-radius:8px;margin:20px 0}.card{display:block;padding:16px 20px;margin:10px 0;background:#f0f5f7;border-radius:8px;text-decoration:none}.small{font-size:15px;color:#637184}@media print{body{font-size:12pt;max-width:none;margin:0}h2{break-after:avoid}table{font-size:9pt}.nav{display:none}}</style><body><h1 id="15">面试前15分钟：只复查这张</h1>
+<p>会议：2026-10-09 10:00（北京时间），腾讯会议；原邀请窗口10:00–12:00。链接/会议号从本人邮件打开。此为PI交流，不据此推定学校正式录取面试。</p>
+<h2 id="03">0–3分钟｜检查文件与设备</h2>
+<p>打开本包12页PPT和PDF备用；确认屏幕分享只含幻灯片。关通知、检查麦克风、供电与网络。讲稿/追问卡留在本人可见窗口；不要共享内部审计、成绩单或私人消息。主述建议8–10分钟，先说明“我重点介绍毕设过程，其他经历简要带过”。会议窗口不是要求讲两小时。</p>
+<h2 id="37">3–7分钟｜闭眼说出一条真实流程</h2>
+<p>候选：p、h、双片阻、两张mask → 缓存/几何筛选 → Python写CST History → PET/片阻面/边界/端口 → 频域求解并保存 → 读取复数r11 → 转dB、取连续通过段 → 评分、日志、下一代。</p>
+<p>关键数：PET厚0.188 mm；输入εr=3.1、tanδ=0.01，但介质损耗零，是否启用待核。p≈13.14 mm，h≈10.07 mm；双片阻140.79/35.461 Ω/□。不要强背所有小数。</p>
+<p>边界：XY无限周期；Zmin PEC；Zmax入射沿−z。mode1电场y，mode2电场x。SZmax(2),Zmax(1)是交叉反射，不是透射。</p>
+<h2 id="710">7–10分钟｜五个必须守住的结果边界</h2>
+<ol>
+<li><strong>13.20与12.48</strong>：前者GA同偏振采样带宽，后者后期自适应保存结果；不混用收敛证据。</li>
+<li><strong>82.5%不是吸收率</strong>：13.20/16的频带覆盖比例；18 GHz是扫描上限。</li>
+<li><strong>不是偏振不敏感</strong>：另一线偏振接近全反射；双mode设置≠双偏振优化。</li>
+<li><strong>没有已验证样件/吸收谱</strong>：装配困难考虑不是完成实验；连续片阻不等于可采购。</li>
+<li><strong>没有独立开发GA</strong>：师兄参考＋本人具体结构/应用流程＋AI帮助；最后获选图案与种子相同。</li>
+</ol>
+<h2 id="1013">10–13分钟｜用自己的话答三个问题</h2>
+<p>“PET和电阻层分别如何设置？”</p>
+<p>“任取一个候选，数据怎么一步步得到？”</p>
+<p>“GA实际如何表示、选择、交叉、变异和停止？”</p>
+<p>最后一题提示：dict四参数＋两张12×12 mask；种子初始化；非负轮盘赌；二维块交叉＋连续参数均值扰动；参数/图案局部变异；固定16个体×8轮，113新求解＋15缓存。桥接变异在最终调度中不可达，不说已使用。</p>
+<h2 id="1315">13–15分钟｜稳定开场与停止规则</h2>
+<p>开场：“田老师您好，我是周子靖，本科在哈工大学习应用物理。今天我想重点介绍本科毕设中结构建模、自动仿真和参数搜索的实际过程，再简要谈合作经历与希望进一步学习的方向。”</p>
+<p>每题：<strong>一句直接答案 → 一个实际动作/证据 → 一个具体边界 → 停。</strong> 被纠正时：“刚才我把X说得太宽，更准确是Y。”不会时：“这一层我还没有核实；我能确认的是……，我会通过……检查。”</p>
+<p>避免：“我什么都不会”“都是AI做的”“我科研能力很差”“这个应该肯定是……”；改为描述实际完成的部分和当前具体缺口。坦诚不等于否定全部经历。</p>
+<p>可问老师：“对于以电磁建模为起点、需要补光学实验训练的学生，组里通常会从什么可复现的小问题开始？”</p>
+<h2 id="5">剩余最重要的5个风险</h2>
+<table>
+<thead>
+<tr>
+<th>风险</th>
+<th>临场处理</th>
+<th>PPT不能解决什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>仍不能独立讲出候选→工程→曲线</td>
+<td>先练Q1，打开函数逐步对应</td>
+<td>真实操作记忆和输入输出理解</td>
+</tr>
+<tr>
+<td>混淆PET/片阻/损耗启用与材料来源</td>
+<td>参数分层；tanδ只称输入，零损耗原因待核</td>
+<td>材料设置验证、来源证据缺口</td>
+</tr>
+<tr>
+<td>把13.20当稳定全偏振吸收</td>
+<td>并列13.20/12.48；说明功率核对范围</td>
+<td>网格/端口/频扫/材料的独立验证</td>
+</tr>
+<tr>
+<td>GA只能背概念，无法指到代码</td>
+<td>练Q10–12；承认浮点奖励及不可达分支</td>
+<td>对实现的理解及修复后重新验证</td>
+</tr>
+<tr>
+<td>追问后发散或过度自我否定</td>
+<td>每次只答一层；30–60秒停，允许纠正</td>
+<td>临场表达训练与真实自我判断</td>
+</tr>
+</tbody>
+</table>
+<p>今晚的最小自测：不看稿讲清Q1/Q2/Q6/Q8/Q12/Q13，各不超过一分钟；卡住就在该卡做一次源码/原图核对。不要以“看完备忘单”替代复述，也不要临时扩大到整套新理论。</p></body></html>

@@ -1,0 +1,344 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>科研流程审计</title><style>body{font:18px/1.85 "Microsoft YaHei",sans-serif;color:#142c46;max-width:1000px;margin:32px auto;padding:0 24px;background:#fff}h1{font-size:30px;line-height:1.5}h2{margin-top:2em;font-size:24px;color:#087d7d;border-top:1px solid #dce5eb;padding-top:18px}h3{font-size:21px}a{color:#087d7d}table{border-collapse:collapse;font-size:15px;width:100%;display:block;overflow:auto}td,th{border:1px solid #dce5eb;padding:9px 12px;vertical-align:top}th{background:#eef5f6}code{font-size:16px;background:#eef3f6;padding:2px 4px}img{max-width:100%}.nav{background:#edf5f5;padding:14px 20px;border-radius:8px;margin:20px 0}.card{display:block;padding:16px 20px;margin:10px 0;background:#f0f5f7;border-radius:8px;text-decoration:none}.small{font-size:15px;color:#637184}@media print{body{font-size:12pt;max-width:none;margin:0}h2{break-after:avoid}table{font-size:9pt}.nav{display:none}}</style><body><h1 id="_1">本科毕设科研流程紧急审计</h1>
+<p>2026-10-08｜INTERNAL｜用于田静逸老师2026-10-09交流准备。本文补充此前R1及10月6日端口核验，不修改论文、历史代码、工程或已发送材料。</p>
+<h2 id="_2">先读结论</h2>
+<p>历史工作可以明确陈述为：在导师/师兄提供课题与GA参考的基础上，本人与AI协作推进十字电阻膜结构、PET/片阻建模、设计自由度扩展、搜索筛选、CST调用和结果整理。不能写成独立开发GA、完成实测、双偏振宽带吸收或已经稳定收敛的最优设计。</p>
+<p>本轮已实际读取论文72页的文字层，重点核对第3–6章及相关图表；静态走读最终源码的有效调用链；从两份CST原件的隔离副本重新读取四条反射S参数和两种激励的功率结果；核对工程History、日志、原始曲线和GA轨迹。未启动求解器，未重跑GA。GA工程377个、后期工程534个原文件逐一比较大小与SHA-256，均保持不变，见<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/native/%E5%8E%9F%E4%BB%B6%E4%BF%9D%E5%85%A8.json">native/原件保全.json</a>。不声称审阅全部历史分支、全部二进制场解或完成独立数值收敛实验。</p>
+<p>本轮新增发现：</p>
+<ol>
+<li><strong>PET历史命令写入εr=3.1、tanδ=0.01，但两工程保存的介质损耗结果均为0。</strong> <code>.TanD</code>值不能自动证明损耗模型已正确启用；该命令未显式设置TanDGiven/损耗模型开关。损耗是否启用、CST默认行为和参数来源仍待核。PPT只能写“脚本输入值”，不能写“已验证的PET耗散”。</li>
+<li><strong>拓扑变异中的桥接/开槽分支不可达。</strong> 最后生效调度函数的累计阈值为0.35、0.70、1.15，随机数在[0,1)，实际概率为点翻转35%、块变异35%、边缘生长/收缩30%；<code>else: bridge_or_slot_mutation</code>不能进入。仅存在函数不等于运行使用。（C:4958–4980）</li>
+<li><strong>适应度存在浮点阈值问题。</strong> 获选低端频率保存为4.800000000000001 GHz，未触发<code>f_low &lt;= 4.80</code>的+7分奖励。按原始浮点数可复算score=89.63868001716894；若先将4.80当精确值会错算96.63868。原件不修，后续验证副本应明确频率容差/离散索引规则。（C:4711–4803；本轮数值复核）</li>
+<li><strong>不能再说全功率“完全没有取得”。</strong> 本轮恢复GA两种激励各10个功率样点、后期各11个样点。S矩阵功率和与导出总反射功率一致至约2.3×10⁻¹⁶；能量残差最大约5.48×10⁻⁵。它支持已保存模型内的功率核对，不能替代更严格网格、端口距离/模式数或材料验证。</li>
+</ol>
+<h2 id="_3">证据索引（全文简称）</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>原始来源与定位</th>
+<th>证据性质</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T</td>
+<td><a href="file:///E:/360MoveData/Users/zzj/OneDrive/%E6%A1%8C%E9%9D%A2/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/%E7%BB%93%E9%A2%98/%E7%BB%88%E7%A8%BF/2022112550-%E5%91%A8%E5%AD%90%E9%9D%96-RESISTIVE%20FILM-BASED%20METAMATERIAL%20STRUCTURE%20DESIGN%20FOR%20ENHANCED%20BROADBAND%20MICROWAVE%20ABSORPTION-%E7%89%A9%E7%90%86%E5%AD%A6%E9%99%A2.pdf">本科终稿PDF</a>；PDF页=正文印刷页+5；<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/%E8%AE%BA%E6%96%87%E9%80%90%E9%A1%B5%E6%8F%90%E5%8F%96.txt">逐页文字</a></td>
+<td>历史论文，论断仍需工程核对</td>
+</tr>
+<tr>
+<td>C</td>
+<td><a href="file:///F:/biyesheji/code/ohmic_sheet_12x12_multitemplate_topology_ga_code.py">最终源码</a>；<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/%E6%BA%90%E7%A0%81%E5%B8%A6%E8%A1%8C%E5%8F%B7.txt">带行号快照</a>、<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/%E6%9C%89%E6%95%88%E5%87%BD%E6%95%B0%E5%AE%9A%E4%BD%8D.json">最后定义定位</a></td>
+<td>静态源码；无运行时源码哈希，不能证明每一行均按本版本执行</td>
+</tr>
+<tr>
+<td>G</td>
+<td><a href="file:///F:/biyesheji/%E6%9C%80%E7%BB%88%E7%BB%93%E6%9E%9Cohmic_sheet_12x12_multitemplate_topology_ga/temp/temp_ohmic_sheet_20260503_180023_9979.cst">GA获选工程</a>及同名伴随目录</td>
+<td>354个History块，GA保存结果</td>
+</tr>
+<tr>
+<td>H</td>
+<td><a href="file:///F:/biyesheji/%E6%9C%80%E7%BB%88%E7%BB%93%E6%9E%9Cohmic_sheet_12x12_multitemplate_topology_ga/best_design_ohmic_sheet_12x12.cst">后期工程</a>及同名伴随目录</td>
+<td>358个History块，追加监视器和自适应设置</td>
+</tr>
+<tr>
+<td>D</td>
+<td><a href="file:///F:/biyesheji/%E6%9C%80%E7%BB%88%E7%BB%93%E6%9E%9Cohmic_sheet_12x12_multitemplate_topology_ga">原始结果目录</a>中的best_result、best_s11、best_mask、ga_log、individual_trace</td>
+<td>参数、数据、搜索记录</td>
+</tr>
+<tr>
+<td>N</td>
+<td>本轮<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/native">native目录</a>、<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/%E6%9C%AC%E8%BD%AE%E6%95%B0%E5%80%BC%E5%A4%8D%E6%A0%B8.json">确定性数值复核</a>、<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/read_native_results.py">读取方法</a>、<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/analyze_and_plot.py">复算方法</a></td>
+<td>2026-10-08对历史数据的重新读取/计算，不是本科新贡献或新仿真</td>
+</tr>
+<tr>
+<td>U</td>
+<td><a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BER1_20260930/%E6%A0%B8%E9%AA%8C%E8%AE%B0%E5%BD%95.md">R1本人确认</a>、<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BER1_20260930/U02_%E5%9B%9E%E5%BF%86%E4%B8%8E%E6%BA%90%E6%96%87%E4%BB%B6%E7%BB%AD%E6%A0%B8.md">U02</a>、<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BER1_20260930/U03_%E5%88%B6%E9%80%A0%E5%88%A4%E6%96%AD%E4%B8%8E%E7%89%87%E9%98%BB%E6%97%B6%E9%97%B4%E7%BA%BF.md">U03</a></td>
+<td>本人事后回忆，区别于当年日志</td>
+</tr>
+<tr>
+<td>R</td>
+<td><a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E7%A7%91%E7%A0%94%E5%87%86%E5%A4%87/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE/%E5%8F%82%E8%80%83%E4%BB%A3%E7%A0%81/%E5%AD%A6%E9%95%BF%E9%A6%96%E6%AC%A1%E4%BA%A4%E4%BB%98_%E7%94%A8%E6%88%B7%E7%A1%AE%E8%AE%A4_20260930/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3.txt">师兄参考原件</a></td>
+<td>已有GA及CST调用示例</td>
+</tr>
+<tr>
+<td>F</td>
+<td><a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/A%E7%BA%BF_%E8%A5%BF%E6%B9%96%E5%8D%9A%E5%A3%AB/%E9%9D%A2%E8%AF%95%E4%B8%8E%E5%AF%BC%E5%B8%88%E4%BA%A4%E6%B5%81/%E5%88%98%E7%99%B8%E5%BA%9A/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE_Floquet%E7%AB%AF%E5%8F%A3_%E5%81%8F%E6%8C%AF_%E8%A1%8D%E5%B0%84%E9%80%9A%E9%81%93%E4%B8%93%E9%A1%B9%E6%A0%B8%E9%AA%8C_20261006.md">10月6日端口专项证据</a></td>
+<td>实际端口场全局分量、模式映射、cutoff公式和文档</td>
+</tr>
+<tr>
+<td>P</td>
+<td><a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/A%E7%BA%BF_%E8%A5%BF%E6%B9%96%E5%8D%9A%E5%A3%AB/%E9%9D%A2%E8%AF%95%E4%B8%8E%E5%AF%BC%E5%B8%88%E4%BA%A4%E6%B5%81/%E5%88%98%E7%99%B8%E5%BA%9A/%E5%AE%8C%E6%95%B4PPT_v1.1_20261006/%E5%88%98%E7%99%B8%E5%BA%9A%E4%BA%A4%E6%B5%81_%E5%AE%8C%E6%95%B4PPT_v1.1_20261006.pptx">本地最新刘老师15页稿</a>；<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/%E7%8E%B0%E6%9C%8915%E9%A1%B5PPT_%E6%96%87%E5%AD%97%E4%B8%8E%E5%A4%87%E6%B3%A8.txt">文字/备注读回</a></td>
+<td>本轮修订底稿，用户明确授权由此改为12页</td>
+</tr>
+</tbody>
+</table>
+<p>来源文件哈希见<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BE%E7%B4%A7%E6%80%A5%E5%AE%A1%E8%AE%A1_20261008/%E6%9D%A5%E6%BA%90%E5%93%88%E5%B8%8C.json">来源哈希</a>。图、源码、数据存在只证明内容存在，ownership仍按U与已核事实判定。</p>
+<h2 id="1">1. 研究目标 → 结构设计</h2>
+<p>目标是2–18 GHz内使指定入射偏振的低反射连续频段尽可能宽；当年的优化器用同模反射阈值作代理指标。不是优化平均吸收率、双偏振最坏值或全角度吸收。（T摘要/第3–4章；C:4711–4803）</p>
+<p>两块竖直PET正交：pet_x沿x展开、厚度沿y；pet_y沿y展开、厚度沿x。最终p=13.1409 mm，h=10.0731 mm；两PET厚0.188 mm。12×12的0/1矩阵表示电阻层去除/保留，不是PET挖空，也不是求解网格。电阻层为单侧二维Ohmic Sheet。底部用Zmin electric边界表示理想PEC，没有恢复实体铜板厚度或有限导电率。（H History块3、4、352；C:584–614、1529–1563、738–765；D）</p>
+<p>来源分工：师兄建议立体方向并给GA参考；本人据回忆提出具体竖直十字构思，随后与AI推进建模和搜索。这个事实不等于学术首创。先固定少量材料/尺寸，随后条带/工字、6×6、9×9、12×12及片阻扩展有代码资产支撑；每一步的具体决策时刻和全部理由没有完整同期记录。（U）</p>
+<h2 id="2">2. 材料参数</h2>
+<table>
+<thead>
+<tr>
+<th>对象</th>
+<th>已核设置</th>
+<th>必须说清的边界</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PET</td>
+<td>C:58–59和349–363、H块1：εr=3.1，μr=1，σ=0，TanD=0.01；厚度0.188 mm</td>
+<td>PET是聚对苯二甲酸乙二醇酯，承担支撑并改变介电环境。数值来自脚本输入；厂家/文献来源和实测未核。N中Loss in Dielectrics全为0，不能说该0.01已实际作为损耗生效</td>
+</tr>
+<tr>
+<td>X电阻层</td>
+<td>H块5：OhmicSheetImpedance=140.79+i0 Ω/□</td>
+<td>数值等效面阻抗，不是实测ITO光学常数</td>
+</tr>
+<tr>
+<td>Y电阻层</td>
+<td>H块6：35.461+i0 Ω/□；名称35p46只是取整</td>
+<td>X/Y是膜面的几何名称，不是端口mode编号</td>
+</tr>
+<tr>
+<td>旧薄实体层</td>
+<td>FILM_DRAW_THICKNESS=0.02 mm；以σ=1/(Rs·t)换算</td>
+<td>这是人为绘制的等效厚度，不能等同PET厚度或真实ITO涂层厚度；换算中t须以米计</td>
+</tr>
+<tr>
+<td>材料参考表</td>
+<td>U02：SMH188H-60为PET/60 Ω/□/0.188 mm，ITO约90 nm；SMH125H-80约75 nm</td>
+<td>产品表厂商/日期未验真；最终连续140.79/35.461不等于可直接采购。早期40型号与参考表存在差异</td>
+</tr>
+</tbody>
+</table>
+<p>片阻不是体电阻率。均匀薄导电层近似下Rs=ρ/t=1/(σt)，单位Ω/□；理想纯阻性面可用Et=Rs K解释局部场—表面电流关系。增大Rs并不保证吸收增加，因为K与场也会自洽改变。T第2、3章及C的两套材料表达支持模型意图，不证明其适用于真实薄膜全频段。</p>
+<h2 id="3">3. 边界、激励和仿真过程</h2>
+<p>X/Y unit cell模拟无限周期；theta=phi=0为正入射。模板曾写Zmin expanded open，但后续set_ground_boundary覆盖为electric，应按最终History读配置，不能只看模板前半段。Zmax开放Floquet端口，入射沿−z，反射沿+z。（C:269–326、738–819；H块0/352/353；F）</p>
+<p>本工程实际端口场：mode 1=TE(0,0)，E沿y；mode 2=TM(0,0)，E沿x。正入射时TE/TM命名依赖软件基底，不能把这个映射推广到所有工程。两mode分别求响应，parallel block excitation不等于相干混合入射。（F原始In_e1/e2场表）</p>
+<p>有效调用链：<code>evaluate_individual</code>→缓存/硬筛选→<code>run_cst</code>设置双片阻→<code>decode</code>→<code>run_cst_for_params</code>→新工程/模板/PET/图案→最终边界/快速求解设置→<code>run_solver</code>→保存临时CST→<code>extract_metrics</code>读取复数S→返回指标/参数/路径→日志与最好个体导出。p/h由Python数值展开写入History；原工程参数表只含theta/phi，不是把所有设计量都写进CST参数表。（C:1747–1814、4669–4693、5134–5172）</p>
+<p>求解器为频域、二阶四面体。GA快速配置关闭网格自适应；后期工程打开自适应并加入8.8/12/15.5 GHz的E/H/Powerloss监视器。后期日志显示18 GHz三轮自适应，网格5462→6621→7408，S差0.0019609、0.000580563；同时有网格警告。它是软件内部停止证据，不是13.20 GHz独立稳定性证明。（H块353–357及Result/Model.log；F）</p>
+<h2 id="4-s">4. S参数 → 功率 → 指标</h2>
+<p>这里用rᵢⱼ表示<code>SZmax(i),Zmax(j)</code>：j为入射mode，i为反射mode；全部在同一个Zmax端口。<strong>r₂₁在这里是交叉偏振反射，不是穿过背板的透射。</strong> 常见“两物理端口S21=透射”的记法不能机械套用。</p>
+<p>对单位入射功率、正交且功率归一化的传播模式，Rⱼ=Σᵢ|rᵢⱼ|²。一般A=1−R−T，须包括所有开放反射与透射通道。理想PEC背板令T=0；本工程正入射背景为空气、周期13.1409 mm，首个非零衍射阶公式cutoff=c/p=22.8137 GHz，2–18 GHz远场传播通道只有两个零级偏振。高阶倏逝模仍可能影响近场和数值收敛，不能因不传播而宣称端口模式截断已收敛。（F；N）</p>
+<p>通道求和及功率归一化的通用定义参照<a href="https://doc.comsol.com/6.3/doc/com.comsol.help.woptics/woptics_ug_modeling.5.30.html">COMSOL官方S参数说明</a>；它只支持通用物理定义，不替代CST本工程端口核验。CST模式设置的直接来源是F索引内本机2025官方帮助。</p>
+<p>RL=20log10|r₁₁|=10log10|r₁₁|²。−10 dB意味着该通道功率为入射的10%；必须加上其他通道才谈总吸收。GA fitness只读取r₁₁。N已恢复两工程的r₂₁很小，但r₂₂接近0 dB，故结构并不偏振不敏感。</p>
+<table>
+<thead>
+<tr>
+<th>保存结果</th>
+<th style="text-align: right;">GA获选工程</th>
+<th style="text-align: right;">后期自适应工程</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r₁₁曲线行数</td>
+<td style="text-align: right;">201</td>
+<td style="text-align: right;">202（含额外频点；不能称全部独立求解）</td>
+</tr>
+<tr>
+<td>r₁₁≤−10 dB最长连续采样段</td>
+<td style="text-align: right;">4.80–18.00 GHz</td>
+<td style="text-align: right;">5.20–17.68 GHz</td>
+</tr>
+<tr>
+<td>端点跨度</td>
+<td style="text-align: right;">13.20 GHz</td>
+<td style="text-align: right;">12.48 GHz</td>
+</tr>
+<tr>
+<td>功率表样点/激励</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr>
+<td>18 GHz，mode1总反射功率比</td>
+<td style="text-align: right;">0.0940107</td>
+<td style="text-align: right;">0.1183088</td>
+</tr>
+<tr>
+<td>18 GHz，mode1损耗功率比</td>
+<td style="text-align: right;">0.9059635</td>
+<td style="text-align: right;">0.8817274</td>
+</tr>
+</tbody>
+</table>
+<p>这是本轮对历史保存结果的复核；没有完成新仿真。两工程曲线不同，不能给13.20加上后期收敛背书。82.5%=13.20/(18−2)，是频带覆盖比例；18 GHz是扫描上限。13.20→12.48不在本轮被单独归因于某个参数；网格及其他求解设置同时发生改变，需控制变量验证。（N；G/H）</p>
+<h2 id="5-ga">5. 最后生效的GA实现</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>本工程实际实现</th>
+<th>原始定位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>表示</td>
+<td>Python dict：p、h、rsx、rsy、mask_x、mask_y、origin；两个12×12整数矩阵，1保留电阻层；连续值截断到范围并舍入</td>
+<td>C:4537–4568；旧36位DNA定义已被覆盖</td>
+</tr>
+<tr>
+<td>范围</td>
+<td>p=12.85–13.55 mm；h=9.65–10.45 mm；Rs,x=80–240、Rs,y=20–80 Ω/□</td>
+<td>C:4300附近的最终override块</td>
+</tr>
+<tr>
+<td>初始化</td>
+<td>16个个体：best82种子＋6组参考参数＋模板/局部变异候选，经筛选去重；失败时用种子参数扰动补足</td>
+<td>C:5241–5281</td>
+</tr>
+<tr>
+<td>评价</td>
+<td>先缓存；再硬筛选；合格后CST；失败/不合格记零分并留日志。缓存键含舍入后的四参数和两张mask</td>
+<td>C:4583–4591、4630–4666、5134–5172</td>
+</tr>
+<tr>
+<td>适应度</td>
+<td>3.2B+0.20B_total为基础，另有高/低频端、参考带宽、13.35/13.6目标奖励；谷深/裕量加分、浅低反射和差带宽扣分</td>
+<td>C:4711–4803；不是单纯带宽，也不是物理定律</td>
+</tr>
+<tr>
+<td>选择</td>
+<td>max(score,0)权重轮盘赌；总正权重≤0时均匀随机</td>
+<td>C:5187–5198</td>
+</tr>
+<tr>
+<td>交叉</td>
+<td>X有效区2×2块按0.5取母本；Y软区域按0.35取母本；四连续参数父母均值＋高斯扰动，之后修复/限幅</td>
+<td>C:5201–5226</td>
+</tr>
+<tr>
+<td>变异</td>
+<td>参数高斯扰动＋范围限制；拓扑点翻转/块修改/边缘生长收缩；双独立门控p_m=max(0.07,0.23−0.014·it)，8轮内从0.23到0.132</td>
+<td>C:4958–4990、5229–5238、5406附近；不是逐bit统一变异</td>
+</tr>
+<tr>
+<td>下一代</td>
+<td>保留本代最好、历史种子及精英参数扰动；候选42%交叉+变异、24%局部拓扑、18%模板、16%参数种子；筛选去重后补足</td>
+<td>C:5284–5327；这些分支概率与p_m不同</td>
+</tr>
+<tr>
+<td>停止</td>
+<td>固定8轮预算；未见以达到85%或若干代不变作为提前停止条件</td>
+<td>C:5387–5464</td>
+</tr>
+</tbody>
+</table>
+<p>修复保留Y骨架、去孤立像素、控制密度。X最多6个、Y最多4个四邻域连通分量，因此“筛掉不连通图案”太绝对；获选X仍有2个分量、Y有1个。代码不是周期绕回的连通性检查，不能把它当作无限阵列电气连通证明或制造验证。（C:4453–4666；D）</p>
+<p>日志8×16=128条评估，113次新求解完成＋15次缓存；不能说128次独立仿真。62种完成的mask组合，说明确实探索图案；最终获选mask与初始best82相同，最后13.12→13.20的差别来自参数变化的组合，不能说发现新拓扑，更不能把0.08 GHz当已证显著提升。（D；N）</p>
+<p>本轮对代码的两项问题仅做只读审计：浮点阈值和不可达桥接分支。未修原件，未把修复后的设想写成历史实现。源码未设置可见的random/NumPy随机种子；原运行环境和运行时源码哈希缺失，完整随机轨迹复现仍待核。</p>
+<h2 id="6">6. 物理解释与贡献边界</h2>
+<p>可解释的模型机制：PEC取消透射通道；电阻面承载表面电流并耗散；几何及片阻改变自洽场、散射和损耗。已有局部场/损耗图仅支持定性观察；不能据多个谷或热点宣布完成模态分解、严格证明多模耦合机制或各层独立贡献。（T第6章、H监视器；U）</p>
+<p>本人可具体讲三件事：把PET/电阻面/图案和参数写入已有CST调用框架；与AI协作扩展自由度、筛选和搜索流程；处理材料命令报错时按师兄建议从History取得正确命令，再用于脚本。参考原件本来就含GA、CST调用、缓存、选择、交叉、变异和精英保留；本人没有从零提出GA。没有逐行作者日志，不能报个人代码百分比。（R；U；C）</p>
+<h2 id="7-ppt">7. 论文、代码、PPT矛盾清单</h2>
+<table>
+<thead>
+<tr>
+<th>问题</th>
+<th>证据</th>
+<th>田老师新版处理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>论文将13.20直接称吸收带宽</td>
+<td>T摘要、PDF54/67页；C只评价r₁₁</td>
+<td>明确历史同偏振采样指标，并列后期12.48</td>
+</tr>
+<tr>
+<td>论文S21可忽略与实际同端口mode2混淆</td>
+<td>T PDF24页；G/H反射树</td>
+<td>定义rᵢⱼ，强调r₂₁为交叉反射</td>
+</tr>
+<tr>
+<td>PET tanδ输入与介质损耗零</td>
+<td>C/H与N</td>
+<td>参数表区分输入和有效损耗，待核开关</td>
+</tr>
+<tr>
+<td>图3-4不能当严格同结构对照</td>
+<td>T PDF27页；<a href="file:///F:/1A%E7%A1%95%E5%8D%9A%E7%94%B3%E8%AF%B7/%E5%85%AC%E5%85%B1%E8%B5%84%E6%96%99/%E4%BA%8B%E5%AE%9E%E6%A0%B8%E9%AA%8C/%E6%9C%AC%E7%A7%91%E6%AF%95%E8%AE%BER1_20260930/%E5%AF%B9%E7%85%A7%E5%9B%BE%E6%9D%A5%E6%BA%90%E6%A0%B8%E6%9F%A5.md">原对照图核查</a>；v6与片阻1.1的X种子不同</td>
+<td>不展示该对照的性能归因；仅说明曾切换膜表示，严谨对照待补</td>
+</tr>
+<tr>
+<td>旧代码前部36位DNA、100轮等历史配置</td>
+<td>C最后覆盖块</td>
+<td>采用最终dict/16×8实现</td>
+</tr>
+<tr>
+<td>“桥接/开槽变异已用”</td>
+<td>C累加概率&gt;1</td>
+<td>从口述中删除该算子；审计披露不可达分支</td>
+</tr>
+<tr>
+<td>“做实验发现装配误差”</td>
+<td>P第5页notes；U只有装配困难回忆，无已完成样件/测量</td>
+<td>改为考虑制造与装配困难；不编造实验动作或误差测量</td>
+</tr>
+<tr>
+<td>“细化电脑遭不住”“所以取消商品参数”</td>
+<td>P第5页；U03不支持直接因果链完整成立</td>
+<td>用有记录的阶段变化；当时选择理由记待本人核实</td>
+</tr>
+<tr>
+<td>“把所有开放通道功率算清楚”仍全写将来</td>
+<td>P第6页；F与N已有恢复</td>
+<td>改为已核保存结果功率，下一步严格数值/材料验证</td>
+</tr>
+<tr>
+<td>把42/40组、378/262/151Hz写为纯历史统计</td>
+<td>P第8页部分页面文字；专题报告明确2026重分析</td>
+<td>新稿仅讲历史录音和频谱方法，不保留不易现场解释的新增统计</td>
+</tr>
+<tr>
+<td>宏大AI/个人系统叙事占多页</td>
+<td>P第9–13页</td>
+<td>本人AI协作如实放入贡献页；独立项目叙事移出主述</td>
+</tr>
+</tbody>
+</table>
+<h2 id="8">8. 集中缺件与用途</h2>
+<p>已取得论文、最终脚本、师兄示例、两份关键CST工程、S参数、功率、GA日志与图案，本轮无需再次索取这些文件。以下仍缺，不阻碍采用保守新版：</p>
+<table>
+<thead>
+<tr>
+<th>缺件/事实</th>
+<th>用途</th>
+<th>明天前的处理</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PET εr/tanδ的原始物性来源；最终材料有效设置/默认损耗开关证据</td>
+<td>核物性真实性及零介质损耗原因</td>
+<td>只报输入，说明有效损耗待核</td>
+</tr>
+<tr>
+<td>branch1_surface_ohmic_sheet_comparison_code_v6.py、ohmic_sheet_material_history.txt及论文图3-4的实际制图输入</td>
+<td>恢复严格同参数模型对照</td>
+<td>不讲该图的因果结论</td>
+</tr>
+<tr>
+<td>当时逐段修改记录、运行源码哈希/随机种子</td>
+<td>区分本人/AI具体代码行，复现随机过程</td>
+<td>用已确认任务贡献，不报行数比例</td>
+</tr>
+<tr>
+<td>严格网格、端口模式数/位置、材料敏感性及加密频扫结果</td>
+<td>判断稳定性能与0.08 GHz增益</td>
+<td>明确尚未完成；不是缺一个附件即可解决</td>
+</tr>
+<tr>
+<td>制造/实测原始记录</td>
+<td>只有真实存在才可证明实验</td>
+<td>当前不称完成实验；不要求补造</td>
+</tr>
+</tbody>
+</table>
+<h2 id="9">9. 必须本人重新理解的内容</h2>
+<p>用原图指出两PET、单侧片阻、PEC和入射方向；用一个候选讲出数据从哪来；分清r₂₁和透射、82.5%和吸收率；手算两个相邻通过点的带宽；讲清最后生效GA的表示/选择/交叉/变异/停止；各举一项师兄输入、本人决策、AI帮助和未完成验证。PPT只能降低表述风险，不能替代这六项现场复述。建议按追问卡Q1–Q12先练，答不出时停在具体缺口，不以“我什么都不会”概括全部经历。</p></body></html>
