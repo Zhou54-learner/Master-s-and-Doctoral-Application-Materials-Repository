@@ -1,0 +1,1412 @@
+{
+  "artifact": "../index.html",
+  "sha256": "9d2d170c13e25b367a8c6522f895ad2f471b7f0ca0c60d8f9536971e40906f2d",
+  "bytes": 71785,
+  "checks": 303,
+  "passed": 303,
+  "viewportThemeChapterCombinations": 140,
+  "measurements": [
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "overview",
+      "scrollWidth": 1425,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "self",
+      "scrollWidth": 1425,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "energy",
+      "scrollWidth": 1425,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "impedance",
+      "scrollWidth": 1425,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "ohmic",
+      "scrollWidth": 1425,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "height",
+      "scrollWidth": 1425,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "pattern",
+      "scrollWidth": 1425,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "resonance",
+      "scrollWidth": 1425,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "broadband",
+      "scrollWidth": 1425,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "floquet",
+      "scrollWidth": 1425,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "evolution",
+      "scrollWidth": 1425,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "tools",
+      "scrollWidth": 1425,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "evidence",
+      "scrollWidth": 1425,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "id": "sources",
+      "scrollWidth": 1425,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "overview",
+      "scrollWidth": 1425,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "self",
+      "scrollWidth": 1425,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "energy",
+      "scrollWidth": 1425,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "impedance",
+      "scrollWidth": 1425,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "ohmic",
+      "scrollWidth": 1425,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "height",
+      "scrollWidth": 1425,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "pattern",
+      "scrollWidth": 1425,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "resonance",
+      "scrollWidth": 1425,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "broadband",
+      "scrollWidth": 1425,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "floquet",
+      "scrollWidth": 1425,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "evolution",
+      "scrollWidth": 1425,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "tools",
+      "scrollWidth": 1425,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "evidence",
+      "scrollWidth": 1425,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "theme": "dark",
+      "id": "sources",
+      "scrollWidth": 1425,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "overview",
+      "scrollWidth": 1585,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "self",
+      "scrollWidth": 1585,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "energy",
+      "scrollWidth": 1585,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "impedance",
+      "scrollWidth": 1585,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "ohmic",
+      "scrollWidth": 1585,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "height",
+      "scrollWidth": 1585,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "pattern",
+      "scrollWidth": 1585,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "resonance",
+      "scrollWidth": 1585,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "broadband",
+      "scrollWidth": 1585,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "floquet",
+      "scrollWidth": 1585,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "evolution",
+      "scrollWidth": 1585,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "tools",
+      "scrollWidth": 1585,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "evidence",
+      "scrollWidth": 1585,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "light",
+      "id": "sources",
+      "scrollWidth": 1585,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "overview",
+      "scrollWidth": 1585,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "self",
+      "scrollWidth": 1585,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "energy",
+      "scrollWidth": 1585,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "impedance",
+      "scrollWidth": 1585,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "ohmic",
+      "scrollWidth": 1585,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "height",
+      "scrollWidth": 1585,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "pattern",
+      "scrollWidth": 1585,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "resonance",
+      "scrollWidth": 1585,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "broadband",
+      "scrollWidth": 1585,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "floquet",
+      "scrollWidth": 1585,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "evolution",
+      "scrollWidth": 1585,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "tools",
+      "scrollWidth": 1585,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "evidence",
+      "scrollWidth": 1585,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 1600,
+      "height": 1000,
+      "theme": "dark",
+      "id": "sources",
+      "scrollWidth": 1585,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "overview",
+      "scrollWidth": 1905,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "self",
+      "scrollWidth": 1905,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "energy",
+      "scrollWidth": 1905,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "impedance",
+      "scrollWidth": 1905,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "ohmic",
+      "scrollWidth": 1905,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "height",
+      "scrollWidth": 1905,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "pattern",
+      "scrollWidth": 1905,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "resonance",
+      "scrollWidth": 1905,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "broadband",
+      "scrollWidth": 1905,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "floquet",
+      "scrollWidth": 1905,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "evolution",
+      "scrollWidth": 1905,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "tools",
+      "scrollWidth": 1905,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "evidence",
+      "scrollWidth": 1905,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "light",
+      "id": "sources",
+      "scrollWidth": 1905,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "overview",
+      "scrollWidth": 1905,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "self",
+      "scrollWidth": 1905,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "energy",
+      "scrollWidth": 1905,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "impedance",
+      "scrollWidth": 1905,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "ohmic",
+      "scrollWidth": 1905,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "height",
+      "scrollWidth": 1905,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "pattern",
+      "scrollWidth": 1905,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "resonance",
+      "scrollWidth": 1905,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "broadband",
+      "scrollWidth": 1905,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "floquet",
+      "scrollWidth": 1905,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "evolution",
+      "scrollWidth": 1905,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "tools",
+      "scrollWidth": 1905,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "evidence",
+      "scrollWidth": 1905,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "theme": "dark",
+      "id": "sources",
+      "scrollWidth": 1905,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "overview",
+      "scrollWidth": 2033,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "self",
+      "scrollWidth": 2033,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "energy",
+      "scrollWidth": 2033,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "impedance",
+      "scrollWidth": 2033,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "ohmic",
+      "scrollWidth": 2033,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "height",
+      "scrollWidth": 2033,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "pattern",
+      "scrollWidth": 2048,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "resonance",
+      "scrollWidth": 2033,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "broadband",
+      "scrollWidth": 2033,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "floquet",
+      "scrollWidth": 2033,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "evolution",
+      "scrollWidth": 2033,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "tools",
+      "scrollWidth": 2048,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "evidence",
+      "scrollWidth": 2033,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "light",
+      "id": "sources",
+      "scrollWidth": 2033,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "overview",
+      "scrollWidth": 2033,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "self",
+      "scrollWidth": 2033,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "energy",
+      "scrollWidth": 2033,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "impedance",
+      "scrollWidth": 2033,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "ohmic",
+      "scrollWidth": 2033,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "height",
+      "scrollWidth": 2033,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "pattern",
+      "scrollWidth": 2048,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "resonance",
+      "scrollWidth": 2033,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "broadband",
+      "scrollWidth": 2033,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "floquet",
+      "scrollWidth": 2033,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "evolution",
+      "scrollWidth": 2033,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "tools",
+      "scrollWidth": 2048,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "evidence",
+      "scrollWidth": 2033,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 2048,
+      "height": 1320,
+      "theme": "dark",
+      "id": "sources",
+      "scrollWidth": 2033,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "overview",
+      "scrollWidth": 375,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "self",
+      "scrollWidth": 375,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "energy",
+      "scrollWidth": 375,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "impedance",
+      "scrollWidth": 375,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "ohmic",
+      "scrollWidth": 375,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "height",
+      "scrollWidth": 375,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "pattern",
+      "scrollWidth": 375,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "resonance",
+      "scrollWidth": 375,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "broadband",
+      "scrollWidth": 375,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "floquet",
+      "scrollWidth": 375,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "evolution",
+      "scrollWidth": 375,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "tools",
+      "scrollWidth": 375,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "evidence",
+      "scrollWidth": 375,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "id": "sources",
+      "scrollWidth": 375,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "overview",
+      "scrollWidth": 375,
+      "active": "overview",
+      "nav": "#overview",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "self",
+      "scrollWidth": 375,
+      "active": "self",
+      "nav": "#self",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "energy",
+      "scrollWidth": 375,
+      "active": "energy",
+      "nav": "#energy",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "impedance",
+      "scrollWidth": 375,
+      "active": "impedance",
+      "nav": "#impedance",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "ohmic",
+      "scrollWidth": 375,
+      "active": "ohmic",
+      "nav": "#ohmic",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "height",
+      "scrollWidth": 375,
+      "active": "height",
+      "nav": "#height",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "pattern",
+      "scrollWidth": 375,
+      "active": "pattern",
+      "nav": "#pattern",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "resonance",
+      "scrollWidth": 375,
+      "active": "resonance",
+      "nav": "#resonance",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "broadband",
+      "scrollWidth": 375,
+      "active": "broadband",
+      "nav": "#broadband",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "floquet",
+      "scrollWidth": 375,
+      "active": "floquet",
+      "nav": "#floquet",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "evolution",
+      "scrollWidth": 375,
+      "active": "evolution",
+      "nav": "#evolution",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "tools",
+      "scrollWidth": 375,
+      "active": "tools",
+      "nav": "#tools",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "evidence",
+      "scrollWidth": 375,
+      "active": "evidence",
+      "nav": "#evidence",
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "id": "sources",
+      "scrollWidth": 375,
+      "active": "sources",
+      "nav": "#sources",
+      "overflow": []
+    }
+  ],
+  "visualReview": "pending",
+  "notes": "正文分章节可纵向滚动；不以隐藏内容换取首屏容纳。截图需人工检查。"
+}

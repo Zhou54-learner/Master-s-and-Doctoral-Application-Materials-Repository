@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-05",
+  "checked_at": "2026-10-05T20:47:53.262828+08:00",
+  "scope": "接替原聊天进行验收；全部新计算仅核对历史来源，不倒写为本科贡献。",
+  "source_preservation": {
+    "count": 1366,
+    "manifests": [
+      {
+        "file": "原件索引.json",
+        "sha256": "a27d99bb949d7822cfd6f0a429f987285e742326ff19e37186ab243a5c210d4f"
+      },
+      {
+        "file": "追加原件索引.json",
+        "sha256": "9a9efb50bc8046c5fc04bfe8ab695452f3b2c187d6d9318c4008eff3e5005d15"
+      }
+    ],
+    "failures": [],
+    "mtime_changes": []
+  },
+  "byte_copy_checks": [
+    {
+      "source": "E:/matlab/work/test3.m",
+      "copy": "公共资料/事实核验/乐音研究_考古证据_20261005/历史源码_test3.m",
+      "match": true
+    },
+    {
+      "source": "E:/matlab/work/test.m",
+      "copy": "公共资料/事实核验/乐音研究_考古证据_20261005/历史源码_test.m",
+      "match": true
+    },
+    {
+      "source": "E:/matlab/work/pitch.m",
+      "copy": "公共资料/事实核验/乐音研究_考古证据_20261005/历史源码_pitch.m",
+      "match": true
+    },
+    {
+      "source": "E:/2023/traindata/数据处理/pitchtest.m",
+      "copy": "公共资料/事实核验/乐音研究_考古证据_20261005/历史源码_pitchtest.m",
+      "match": true
+    },
+    {
+      "source": "E:/2023/traindata/R11.6mm_r8.0mm/100cm/图像/01_1.png",
+      "copy": "公共资料/事实核验/个人探索_20261004/素材/M01_历史波形与频谱.png",
+      "match": true
+    },
+    {
+      "source": "E:/2023/traindata/数据处理/长度关系比较/数据图表1.jpg",
+      "copy": "公共资料/事实核验/个人探索_20261004/素材/M02_管长与频率比较.jpg",
+      "match": true
+    },
+    {
+      "source": "E:/2023/traindata/数据处理/内外半径关系比较/比较1.jpg",
+      "copy": "公共资料/事实核验/个人探索_20261004/素材/M03_内外半径比较.jpg",
+      "match": true
+    }
+  ],
+  "audio_checks": {
+    "count": 15,
+    "records": [
+      {
+        "group": "01",
+        "index": 1,
+        "peak_hz": 1503.4298780487804,
+        "historical_hz": 1503.429878,
+        "historical_error_hz": 4.878052095591556e-08,
+        "matches_saved_check": true
+      },
+      {
+        "group": "01",
+        "index": 2,
+        "peak_hz": 1528.2866379310344,
+        "historical_hz": 1528.286638,
+        "historical_error_hz": 6.896561899338849e-08,
+        "matches_saved_check": true
+      },
+      {
+        "group": "01",
+        "index": 3,
+        "peak_hz": 1504.0958737864078,
+        "historical_hz": 1504.095874,
+        "historical_error_hz": 2.1359232960094232e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "01",
+        "index": 4,
+        "peak_hz": 1491.8870192307693,
+        "historical_hz": 1491.887019,
+        "historical_error_hz": 2.307692739123013e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "01",
+        "index": 5,
+        "peak_hz": 1498.3016304347825,
+        "historical_hz": 1498.30163,
+        "historical_error_hz": 4.347825779404957e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "02",
+        "index": 1,
+        "peak_hz": 1832.9741379310344,
+        "historical_hz": 1832.974138,
+        "historical_error_hz": 6.896561899338849e-08,
+        "matches_saved_check": true
+      },
+      {
+        "group": "02",
+        "index": 2,
+        "peak_hz": 1808.728448275862,
+        "historical_hz": 1808.728448,
+        "historical_error_hz": 2.7586202122620307e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "02",
+        "index": 3,
+        "peak_hz": 1815.9589694656488,
+        "historical_hz": 1815.958969,
+        "historical_error_hz": 4.656487817555899e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "02",
+        "index": 4,
+        "peak_hz": 1811.0795454545455,
+        "historical_hz": 1811.079545,
+        "historical_error_hz": 4.5454544306267053e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "02",
+        "index": 5,
+        "peak_hz": 1814.4720873786407,
+        "historical_hz": 1814.472087,
+        "historical_error_hz": 3.7864060686843004e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "03",
+        "index": 1,
+        "peak_hz": 1965.3033088235295,
+        "historical_hz": 1965.303309,
+        "historical_error_hz": 1.7647039385337848e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "03",
+        "index": 2,
+        "peak_hz": 1962.7659574468084,
+        "historical_hz": 1962.765957,
+        "historical_error_hz": 4.4680837163468823e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "03",
+        "index": 3,
+        "peak_hz": 1957.833904109589,
+        "historical_hz": 1957.833904,
+        "historical_error_hz": 1.0958888196910266e-07,
+        "matches_saved_check": true
+      },
+      {
+        "group": "03",
+        "index": 4,
+        "peak_hz": 1949.8005319148936,
+        "historical_hz": 1949.800532,
+        "historical_error_hz": 8.510642146575265e-08,
+        "matches_saved_check": true
+      },
+      {
+        "group": "03",
+        "index": 5,
+        "peak_hz": 1960.297131147541,
+        "historical_hz": 1960.297131,
+        "historical_error_hz": 1.4754095900570974e-07,
+        "matches_saved_check": true
+      }
+    ],
+    "max_historical_error_hz": 4.656487817555899e-07,
+    "tolerance_hz": 5e-07,
+    "note": "容差仅用于核对表格保留小数，非实验测量精度；15段样本长度均为偶数。"
+  },
+  "workbook_checks": {
+    "input_paths_match": true,
+    "peaks_match": true,
+    "mean_match": true
+  },
+  "links": {
+    "checked": 14,
+    "broken": []
+  },
+  "json_parse_count": 13,
+  "pass": true
+}

@@ -1,0 +1,83 @@
+{
+  "verified_on": "2026-10-06",
+  "repo": "F:\\Physics_Learning_Assistant",
+  "repo_head": "029246fdee139972e34d02e797b48913cf68ba8b",
+  "evidence_level": "Local methodology text and self-described history; not independent validation of every practice or product efficacy.",
+  "read_only": true,
+  "source_of_origin_story": "User instruction in the current S8/S9 v3 request; not inferred from documents or screenshots.",
+  "files": [
+    {
+      "path": "F:\\Physics_Learning_Assistant\\docs\\methodology\\AI部门化工作法-v0.2-弹性化人类Agent协作操作手册.md",
+      "bytes": 50831,
+      "sha256": "4fde899194ec65f2d7191d133abad34aa7ec57fa1c14a7ccafebcba838a366a5",
+      "used_passages": [
+        {
+          "line": 20,
+          "excerpt": "v0.1 解决的核心问题是：不要让一个 AI 窗口同时承担方案、执行、测试、审查和发布结论，避免“自证成功”。\n\nv0.2 继续保留这个核心，但补上一个新的问题：**不是所有任务都值得完整部门化**。\n\n因此，v0.2 的目标不是把流程变得更重，而是把流程变得更有弹性："
+        },
+        {
+          "line": 56,
+          "excerpt": "> 不是所有任务都需要完整部门化。流程强度必须和任务风险匹配。\n\n---\n\n## 2. 人类总控的职责"
+        },
+        {
+          "line": 76,
+          "excerpt": "人类总控不应亲自承担：\n\n- 每个文件如何实现。\n- 每条测试如何写。\n- 每个报告如何措辞。"
+        },
+        {
+          "line": 1125,
+          "excerpt": "## 19. 人类总控降负机制：A/B/C 三类裁决\n\n人类总控必须保留关键权力，但不能变成所有细节的审批瓶颈。\n\n因此，裁决分为三类。"
+        },
+        {
+          "line": 1407,
+          "excerpt": "## 27. 简短案例：Physics_Learning_Assistant\n\n`Physics_Learning_Assistant` 的多窗口实践说明了这套方法的必要性。\n\n有效做法："
+        }
+      ]
+    },
+    {
+      "path": "F:\\Physics_Learning_Assistant\\docs\\methodology\\AI部门化工作法-Codex-GPT人类总控操作手册.md",
+      "bytes": 19153,
+      "sha256": "587eeb6b15d2e2bd876e1ec213c1e965142494fde306b80f2f353fe212c6e642",
+      "used_passages": [
+        {
+          "line": 17,
+          "excerpt": "| 2026-06-30 | 一个窗口同时写方案、执行、测试、审查时容易自证成功。 | 关键节点强制分窗，执行窗口不审自己，审查窗口不顺手修。 | 已并入 |\n| 2026-06-30 | 工程验证容易被误写成人工 UAT 通过。 | 自动测试、构建、扫描和安装验证只能证明工程候选状态，不能替代人工 UAT 裁决。 | 已并入 |\n| 2026-06-30 | GPT 的文字能力很强，但不接触本地事实。 | GPT 作为参谋与文书部，负责方案、裁决备忘、复盘和外部审查包，不负责本地事实确认和工程执行。 | 已并入 |\n\n## 1. 核心思想"
+        },
+        {
+          "line": 18,
+          "excerpt": "| 2026-06-30 | 工程验证容易被误写成人工 UAT 通过。 | 自动测试、构建、扫描和安装验证只能证明工程候选状态，不能替代人工 UAT 裁决。 | 已并入 |\n| 2026-06-30 | GPT 的文字能力很强，但不接触本地事实。 | GPT 作为参谋与文书部，负责方案、裁决备忘、复盘和外部审查包，不负责本地事实确认和工程执行。 | 已并入 |\n\n## 1. 核心思想\n"
+        },
+        {
+          "line": 471,
+          "excerpt": "## 15. 简短案例：Physics_Learning_Assistant\n\n`Physics_Learning_Assistant` 的多窗口实践说明了这套方法的必要性。\n\n有效做法："
+        }
+      ]
+    },
+    {
+      "path": "F:\\Physics_Learning_Assistant\\docs\\methodology\\Physics_Learning_Assistant_新成员入门手册.md",
+      "bytes": 95705,
+      "sha256": "c85c2ceb2fe2566d8fa7de31340946de16a00554b70c57df3d90b42c124aa05d",
+      "used_passages": [
+        {
+          "line": 206,
+          "excerpt": "### 2.8 人也需要在项目中成长\n\n最后还有一个更底层的需求：这个项目不仅是为了训练系统，也是为了训练参与者。\n\n我们希望通过这个项目学习如何理解 LLM、RAG、Agent 和人类-Agent 协作；学习如何把模糊需求变成清晰任务；学习如何调度 Codex 和 GPT；学习如何设计边界、审查输出、组织 UAT、沉淀文档；也为未来 AI for Science 的交叉研究提前做知识和技能储备。"
+        },
+        {
+          "line": 296,
+          "excerpt": "### 4.2 它是一个真实训练场\n\n与其只读教程、看论文、做零散 demo，不如做一个真实项目。\n\n真实项目会带来很多教程里没有的问题：需求会变化，UI 会不自然，RAG 会检索错，模型会误解任务，workflow 会失败，UAT 会暴露细节问题，文档会过期，成员会理解不一致，AI 会自证成功。"
+        },
+        {
+          "line": 909,
+          "excerpt": "### 9.5 独立审查窗口为什么重要\n\n在复杂任务中，我们经常会使用独立审查窗口。\n\n这不是为了增加形式感，而是为了避免一个 AI 窗口自证成功。"
+        },
+        {
+          "line": 953,
+          "excerpt": "### 9.10 人类要保留判断空间\n\nAI 可以生成方案，但人类要判断方案是否符合目标。AI 可以写代码，但人类要判断它有没有越界。AI 可以跑测试，但人类要判断测试是否足够。AI 可以总结报告，但人类要判断报告是否混淆事实和推测。AI 可以提出发布建议，但人类要判断是否真的可以发布。\n\n所谓人类-Agent 协作，不是让人把任务丢给 AI，然后等待结果；也不是让人事无巨细地手工做所有事情。更合理的方式是：人类提出目标，人类设定边界，Agent 执行任务，工具提供证据，独立窗口进行审查，人类做关键裁决，团队把经验沉淀下来。"
+        },
+        {
+          "line": 1103,
+          "excerpt": "### 11.2 Agent 做出来了，不等于你会了\n\nAgent 做出来了，不等于你会了。\n\n如果你只是提出一句模糊要求，然后 AI 完成了实现，而你并不知道它为什么这样做、改了哪些文件、用了什么依赖、绕过了什么问题、测试覆盖了什么、还有哪些没验证，那这个成果并没有真正变成你的能力。"
+        }
+      ]
+    }
+  ]
+}

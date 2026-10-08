@@ -1,0 +1,10 @@
+{
+  "source": "E:/2024/yxy组代码/代码存档/模拟代码/说明.doc",
+  "sha256": "0d9884a724103d53c2231a80c61c5046ac3ff19e5e5eabec89ee96191ea555c4",
+  "author": "徐晨威",
+  "last_saved_by": "晨威 徐",
+  "created_utc": "2024-06-03 16:02:00",
+  "saved_utc": "2024-06-03 16:05:00",
+  "text": "main是主程序\nfxfl、fyfl、vxnn、vynn、xlg是要用的函数\n其他是一些验证和研究的，比如算本征频率、画势能分布图等\n写的比较乱，有一点点注释",
+  "method": "Word COM read-only Documents.Open, Close(0); metadata via olefile; properties do not establish code authorship"
+}

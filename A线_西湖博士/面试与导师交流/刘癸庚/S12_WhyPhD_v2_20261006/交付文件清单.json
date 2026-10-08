@@ -1,0 +1,65 @@
+{
+  "status": "INTERNAL / v2 CANDIDATE",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2781,
+      "sha256": "30b00ed077323bce66d31bbb3296757ab58365776e2523c3270c85ec0e6406a8"
+    },
+    {
+      "path": "S12_WhyPhD_v2.pdf",
+      "bytes": 62477,
+      "sha256": "ddbf841fa9266e8e00e79212dabb3aefcc2a106f42d8e69a9d2e528ae5a9061e"
+    },
+    {
+      "path": "S12_WhyPhD_v2.pptx",
+      "bytes": 36466,
+      "sha256": "d6fe92d4cb61ad56cadd660b69fe711a368671d5be5d20600dcd8aa9446ccfe3"
+    },
+    {
+      "path": "S12_WhyPhD_v2_图片索引.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "S12_WhyPhD_v2_排版检查.json",
+      "bytes": 4220,
+      "sha256": "e3c1d410628a7043a1b616ccde84aa91eb550f66fc9e5bb807e69c018b8f8539"
+    },
+    {
+      "path": "制作源/build_slide.py",
+      "bytes": 327,
+      "sha256": "8a64a661e01c888ce5c44f2267ed3e80f8f58c888265a63b99092bdceb39e0d6"
+    },
+    {
+      "path": "制作源/config.json",
+      "bytes": 50,
+      "sha256": "1f0c57a5588f1ef44b004a72f886c07c332ea6c922de715dff561f650b668c2b"
+    },
+    {
+      "path": "本页备注.md",
+      "bytes": 4176,
+      "sha256": "a4739a4ce5b1d1f679ad4faeeed59f863a2de7ad35df0a16f23a3fd23179bbf1"
+    },
+    {
+      "path": "来源与保全.json",
+      "bytes": 58584,
+      "sha256": "83d1f2c7b4033c755db1b83219d71ac20e7d1ed7a516079f51678147061b174e"
+    },
+    {
+      "path": "派生素材说明.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "预览/S12_1920x1080.png",
+      "bytes": 50829,
+      "sha256": "d6824fa27f7a9a7b0a0ae1d075aa6eaec54591e47943fc59ffab4eb41e46613c"
+    },
+    {
+      "path": "预览/S12_3840x2160.png",
+      "bytes": 112132,
+      "sha256": "3eb59c4544697df5bbdf30b6cc5d4fcfdd808e9cc40cb5bd8bef74728fe32c43"
+    }
+  ]
+}

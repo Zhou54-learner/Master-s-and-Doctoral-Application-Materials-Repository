@@ -1,0 +1,82 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 4409,
+    "sha256": "7600d47a0f60751bafda09fb41b9a41b869b476311ebdb3af0ce8bd32ec830bf"
+  },
+  {
+    "path": "S13_WhyLiu_v1.pdf",
+    "bytes": 73657,
+    "sha256": "2260504be8c7bbb7820648c76d1cc6f43645e49a7b437666c2e4f719b1f64273"
+  },
+  {
+    "path": "S13_WhyLiu_v1.pptx",
+    "bytes": 35992,
+    "sha256": "a2cd3efa93bda129859d6ffcd056cc567fd49f9248df9f00f102b9dacebd9be7"
+  },
+  {
+    "path": "公开来源/O01.html",
+    "bytes": 74426,
+    "sha256": "20df548bc47cb159ab627015b7ac12969108f62539fcd32082d28318132f6271"
+  },
+  {
+    "path": "公开来源/P01.html",
+    "bytes": 35492,
+    "sha256": "415a9c1d39cd4c465e4392ab2b2b07c49320341d41b13d209833c5f983736c3b"
+  },
+  {
+    "path": "公开来源/来源记录.json",
+    "bytes": 1158,
+    "sha256": "987e9ee66beb847adea641510776682df26cf16a86f8e8d2e895848705044920"
+  },
+  {
+    "path": "制作源/archive_official_sources.py",
+    "bytes": 1982,
+    "sha256": "353a771dbab937ab4dd29da6d152fcf2a0ec106b8ba85efe2ef601222b3bede2"
+  },
+  {
+    "path": "制作源/build_slide.py",
+    "bytes": 10287,
+    "sha256": "bfd1ddeb196e366696493f5a0b01aebc7ee25dc3aefd7b68d6ea6f3baaf842ce"
+  },
+  {
+    "path": "制作源/config.json",
+    "bytes": 75,
+    "sha256": "cd5fd755e15245f855f1a398b3e20561f02f21f08113d544466529e55d51164a"
+  },
+  {
+    "path": "官方来源记录.md",
+    "bytes": 1762,
+    "sha256": "fbf7892a671bd3ed78c75bb8431f95338ec7a1cd5e7db30b82633ad54338eebb"
+  },
+  {
+    "path": "排版与保全检查.json",
+    "bytes": 30568,
+    "sha256": "c5e2672b9d5c41a2b75735d8d6f7c93e2656049bf70f35965c6f3d3b82dba239"
+  },
+  {
+    "path": "本页备注.md",
+    "bytes": 2206,
+    "sha256": "cb908a7e9d692b83ad61b1679b07d1413be5a2bc041b5b3200670f5e29f3b905"
+  },
+  {
+    "path": "来源与保全.json",
+    "bytes": 34203,
+    "sha256": "1928825139ada599d76c3aeba483854226a94c48b878431b842239fd505077f7"
+  },
+  {
+    "path": "派生素材说明.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "预览/S13_1920x1080.png",
+    "bytes": 85840,
+    "sha256": "b41ad7b025f933e993bbf0303206f224b9b95cae0c0905062a609dac3085ad72"
+  },
+  {
+    "path": "预览/S13_3840x2160.png",
+    "bytes": 121255,
+    "sha256": "4905d4d4b5e491ef62cc9b6e4029a6fa02c3cafce005366d3fe3521e540692d5"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "source": "公共资料/事实核验/个人探索_20261004/素材/S08_个人艺术网页第三板块.png",
+    "source_sha256": "23d29cfc62c89cfb021fc03e2c7a6beb83730b706738d25932f184ac244fc0b9",
+    "source_pixels": [
+      1912,
+      948
+    ],
+    "crop_box": [
+      178,
+      139,
+      1730,
+      748
+    ],
+    "output": "派生素材/S08_第三板块主视觉局部.png",
+    "pixels": [
+      1552,
+      609
+    ],
+    "sha256": "144becf6c6850ec01e1a46b98944f1aa53480d903a84aec2c28f30f20fad510c",
+    "reason": "Keeps HUMAN+ identity, main verbal composition, original buttons and circular visual; removes top navigation, lower column and browser scrollbar without changing the remaining pixels.",
+    "operation": "Lossless rectangular crop only; no synthesis, redrawing, inpainting or pixel editing."
+  }
+]

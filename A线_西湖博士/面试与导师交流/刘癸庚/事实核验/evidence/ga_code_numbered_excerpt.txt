@@ -1,0 +1,377 @@
+263:         '     .YminSpace "0.0"',
+264:         '     .YmaxSpace "0.0"',
+265:         '     .ZminSpace "0.0"',
+266:         '     .ZmaxSpace "0.0"',
+267:         'End With',
+268:         '',
+269:         "' define Floquet port boundaries",
+270:         '',
+271:         'With FloquetPort',
+272:         '     .Reset',
+273:         '     .SetDialogTheta "0"',
+274:         '     .SetDialogPhi "0"',
+275:         '     .SetSortCode "+beta/pw"',
+276:         '     .SetCustomizedListFlag "False"',
+277:         '     .Port "Zmin"',
+278:         '     .SetNumberOfModesConsidered "2"',
+279:         '     .Port "Zmax"',
+280:         '     .SetNumberOfModesConsidered "2"',
+281:         'End With',
+282:         '',
+283:         'MakeSureParameterExists "theta", "0"',
+284:         'SetParameterDescription "theta", "spherical angle of incident plane wave"',
+285:         'MakeSureParameterExists "phi", "0"',
+286:         'SetParameterDescription "phi", "spherical angle of incident plane wave"',
+287:         '',
+288:         "' define boundaries, the open boundaries define floquet port",
+289:         '',
+290:         'With Boundary',
+291:         '     .Xmin "unit cell"',
+292:         '     .Xmax "unit cell"',
+293:         '     .Ymin "unit cell"',
+294:         '     .Ymax "unit cell"',
+295:         '     .Zmin "expanded open"',
+296:         '     .Zmax "expanded open"',
+297:         '     .Xsymmetry "none"',
+298:         '     .Ysymmetry "none"',
+299:         '     .Zsymmetry "none"',
+300:         '     .XPeriodicShift "0.0"',
+301:         '     .YPeriodicShift "0.0"',
+302:         '     .ZPeriodicShift "0.0"',
+303:         '     .PeriodicUseConstantAngles "False"',
+304:         '     .SetPeriodicBoundaryAngles "theta", "phi"',
+305:         '     .SetPeriodicBoundaryAnglesDirection "inward"',
+306:         '     .UnitCellFitToBoundingBox "True"',
+307:         '     .UnitCellDs1 "0.0"',
+308:         '     .UnitCellDs2 "0.0"',
+309:         '     .UnitCellAngle "90.0"',
+310:         'End With',
+311:         '',
+312:         "' set tet mesh as default",
+313:         '',
+314:         'With Mesh',
+315:         '     .MeshType "Tetrahedral"',
+316:         'End With',
+317:         '',
+318:         "' FD solver excitation with incoming plane wave at Zmax",
+319:         '',
+320:         'With FDSolver',
+321:         '     .Reset',
+322:         '     .Stimulation "List", "List"',
+323:         '     .ResetExcitationList',
+324:         '     .AddToExcitationList "Zmax", "TE(0,0);TM(0,0)"',
+325:         '     .LowFrequencyStabilization "False"',
+326:         'End With',
+327:         '',
+328:         "'----------------------------------------------------------------------------",
+329:         '',
+770:         'Mesh.SetCreator "High Frequency"',
+771:         '',
+772:         'With FDSolver',
+773:         '     .Reset',
+774:         '     .SetMethod "Tetrahedral", "General purpose"',
+775:         '     .OrderTet "Second"',
+776:         '     .OrderSrf "First"',
+777:         '     .Stimulation "Zmax", "All"',
+778:         '     .ResetExcitationList',
+779:         '     .AddToExcitationList "Zmax", "TE(0,0);TM(0,0)"',
+780:         '     .AutoNormImpedance "False"',
+781:         '     .NormingImpedance "50"',
+782:         '     .ModesOnly "False"',
+783:         '     .ConsiderPortLossesTet "True"',
+784:         '     .LowFrequencyStabilization "False"',
+785:         '     .Type "Auto"',
+786:         f'     .MeshAdaptionTet "{str(USE_MESH_ADAPTION_FOR_GA)}"',
+787:         '     .StoreAllResults "False"',
+788:         '     .StoreResultsInCache "False"',
+789:         '     .UseDoublePrecision "False"',
+790:         '     .UseParallelization "True"',
+791:         '     .MaxCPUs "1024"',
+792:         '     .MaximumNumberOfCPUDevices "2"',
+793:         '     .RemoveAllStopCriteria "Tet"',
+794:         '     .AddStopCriterion "All S-Parameters", "0.02", "2", "Tet", "True"',
+795:         f'     .SetNumberOfResultDataSamples "{RESULT_DATA_SAMPLES}"',
+796:         'End With',
+797:         '',
+798:         'With MeshSettings',
+799:         '     .SetMeshType "Tet"',
+800:         '     .Set "Version", 1%',
+801:         '     .Set "StepsPerWaveNear", "3"',
+802:         '     .Set "StepsPerWaveFar", "3"',
+803:         '     .Set "PhaseErrorNear", "0.05"',
+804:         '     .Set "PhaseErrorFar", "0.05"',
+805:         '     .Set "CellsPerWavelengthPolicy", "automatic"',
+806:         '     .Set "StepsPerBoxNear", "4"',
+807:         '     .Set "StepsPerBoxFar", "1"',
+808:         '     .Set "UseRatioLimit", "0"',
+809:         '     .Set "RatioLimit", "100"',
+810:         '     .Set "MinStep", "0"',
+4670:     global FILM_X_SHEET_RESISTANCE, FILM_Y_SHEET_RESISTANCE, FILM_X_SHEET_NAME, FILM_Y_SHEET_NAME
+4671:     rsx = float(individual["rsx"])
+4672:     rsy = float(individual["rsy"])
+4673:     FILM_X_SHEET_RESISTANCE = rsx
+4674:     FILM_Y_SHEET_RESISTANCE = rsy
+4675: 
+4676:     rsx_name = str(round(rsx, 2)).replace(".", "p")
+4677:     rsy_name = str(round(rsy, 2)).replace(".", "p")
+4678:     FILM_X_SHEET_NAME = f"SMH188H_X_{rsx_name}_OhmicSheet"
+4679:     FILM_Y_SHEET_NAME = f"SMH188H_Y_{rsy_name}_OhmicSheet"
+4680: 
+4681: 
+4682: def run_cst(individual, film_model_type=None):
+4683:     if film_model_type is None:
+4684:         film_model_type = OPTIMIZATION_FILM_MODEL
+4685:     configure_rs_for_individual(individual)
+4686:     p, h, mask_x_seed, mask_y_seed = decode(individual)
+4687:     return run_cst_for_params(
+4688:         p=p,
+4689:         h=h,
+4690:         mask_x_seed=mask_x_seed,
+4691:         mask_y_seed=mask_y_seed,
+4692:         film_model_type=film_model_type,
+4693:     )
+4694: 
+4695: 
+4696: def _find_effective_intervals(freqs, rls, threshold=-10.0):
+4697:     below = rls <= threshold
+4698:     intervals = []
+4699:     start = None
+4700:     for i, ok in enumerate(below):
+4701:         if ok and start is None:
+4702:             start = i
+4703:         if (not ok or i == len(below) - 1) and start is not None:
+4704:             end = i - 1 if not ok else i
+4705:             if end >= start:
+4706:                 intervals.append((start, end))
+4707:             start = None
+4708:     return intervals
+4709: 
+4710: 
+4711: def extract_metrics(cst_file):
+4712:     result = cst.results.ProjectFile(cst_file, allow_interactive=True)
+4713:     s11 = result.get_3d().get_result_item(r"1D Results\S-Parameters\SZmax(1),Zmax(1)")
+4714:     data = s11.get_data()
+4715: 
+4716:     freqs, rls = [], []
+4717:     for row in data:
+4718:         if len(row) < 2:
+4719:             continue
+4720:         freq = float(row[0])
+4721:         mag = max(abs(row[1]), 1e-12)
+4722:         freqs.append(freq)
+4723:         rls.append(float(20 * np.log10(mag)))
+4724: 
+4725:     if not freqs:
+4726:         return {"score": 0.0, "bandwidth": 0.0, "coverage": 0.0, "min_rl": 0.0, "f_low": 18.0, "f_high": 2.0}
+4727: 
+4728:     freqs = np.array(freqs, dtype=float)
+4729:     rls = np.array(rls, dtype=float)
+4730:     intervals = _find_effective_intervals(freqs, rls, -10.0)
+4731: 
+4732:     if intervals:
+4733:         i0, i1 = max(intervals, key=lambda t: freqs[t[1]] - freqs[t[0]])
+4734:         f_low = float(freqs[i0])
+4735:         f_high = float(freqs[i1])
+4736:         bw = max(0.0, f_high - f_low)
+4737:     else:
+4738:         f_low, f_high, bw = 18.0, 2.0, 0.0
+4739: 
+4740:     min_rl = float(np.min(rls))
+4741:     df = float(np.mean(np.diff(freqs))) if len(freqs) > 1 else 0.0
+4742:     below = rls <= -10.0
+4743:     total_effective_bw = float(np.sum(below) * df)
+4744: 
+4745:     if np.any(below):
+4746:         margin = -10.0 - rls[below]
+4747:         mean_margin = float(np.mean(np.maximum(0.0, margin)))
+4748:         shallow_ratio = float(np.mean((rls[below] > -11.0).astype(float)))
+5290:     known_best = make_best82_seed(origin="best82_reference")
+5291:     newpop.append(known_best)
+5292: 
+5293:     # Also preserve one parameter-only variation around the elite.
+5294:     elite_param = mutate_params(elite, wide=False)
+5295:     elite_param["origin"] = "elite_param_local"
+5296:     newpop.append(elite_param)
+5297: 
+5298:     trial = 0
+5299:     while len(newpop) < pop_size and trial < RANDOM_INDIVIDUAL_MAX_TRIALS:
+5300:         trial += 1
+5301:         r = random.random()
+5302: 
+5303:         if r < 0.42:
+5304:             child = crossover(select_parent(pop, fit_list), select_parent(pop, fit_list))
+5305:             child = mutate(child, p_m)
+5306:         elif r < 0.66:
+5307:             parent = select_parent(pop, fit_list)
+5308:             child = apply_random_topology_mutations(parent, n_ops=random.randint(1, 5), origin="elite_topology_local")
+5309:             child = mutate_params(child, wide=(random.random() < 0.18))
+5310:         elif r < 0.84:
+5311:             child = make_random_multitemplate_seed()
+5312:         else:
+5313:             child = make_ph_rs_seed(origin="ph_rs_injected")
+5314: 
+5315:         ok, reason, report = prefilter_individual(child)
+5316:         if ok and individual_key(child) not in [individual_key(x) for x in newpop]:
+5317:             newpop.append(child)
+5318:         else:
+5319:             with open(SKIPPED_INDIVIDUAL_FILE, "a", encoding="utf-8") as f:
+5320:                 f.write(f"new_population_skipped\treason={reason}\tsummary={template_summary(child)}\n")
+5321: 
+5322:     while len(newpop) < pop_size:
+5323:         child = apply_random_topology_mutations(elite, n_ops=1, origin="fill_elite_local")
+5324:         child = mutate_params(child, wide=False)
+5325:         newpop.append(child)
+5326: 
+5327:     return newpop
+5328: 
+5329: 
+5330: def save_mask_txt(mask, path):
+5331:     m = ensure_array_mask(mask)
+5332:     with open(path, "w", encoding="utf-8") as f:
+5333:         for row in m:
+5334:             f.write(" ".join(str(int(v)) for v in row) + "\n")
+5335: 
+5336: 
+5337: def export_mask_figure(mask_x, mask_y, out_png):
+5338:     mx = ensure_array_mask(mask_x)
+5339:     my = ensure_array_mask(mask_y)
+5340:     fig, axes = plt.subplots(1, 2, figsize=(8, 4), constrained_layout=True)
+5341:     for ax, mask, title in [
+5342:         (axes[0], mx, "X-oriented 12x12 multi-template pattern"),
+5343:         (axes[1], my, "Y-oriented semi-constrained 12x12 pattern"),
+5344:     ]:
+5345:         ax.imshow(mask, cmap="gray_r", vmin=0, vmax=1)
+5346:         ax.set_title(title)
+5347:         ax.set_xticks(range(12))
+5348:         ax.set_yticks(range(12))
+5349:         ax.set_xticklabels(range(1, 13), fontsize=6)
+5350:         ax.set_yticklabels(range(1, 13), fontsize=6)
+5351:         ax.set_xlabel("Pixel column")
+5352:         ax.set_ylabel("Pixel row")
+5353:         ax.set_xticks(np.arange(-0.5, 12, 1), minor=True)
+5354:         ax.set_yticks(np.arange(-0.5, 12, 1), minor=True)
+5355:         ax.grid(which="minor", color="black", linewidth=0.5)
+5356:         ax.tick_params(which="minor", bottom=False, left=False)
+5357:     fig.suptitle("Best 12x12 semi-constrained multi-template Ohmic-sheet topology")
+5358:     fig.savefig(out_png, dpi=300, bbox_inches="tight")
+5359:     plt.close(fig)
+5360: 
+5361: 
+5362: def write_best_result(best_metrics, best_ind, best_params):
+5363:     with open(BEST_RESULT_FILE, "w", encoding="utf-8") as f:
+5364:         f.write("12x12 semi-constrained multi-template topology GA result\n")
+5365:         f.write(f"Best score: {best_metrics['score']}\n")
+5366:         f.write(f"Best contiguous bandwidth( RL<-10 dB ): {best_metrics['bandwidth']} GHz\n")
+5367:         f.write(f"Best coverage in 2-18 GHz: {best_metrics.get('coverage', 0.0) * 100.0} %\n")
+5368:         f.write(f"Best total effective bandwidth estimate: {best_metrics.get('total_effective_bw', 0.0)} GHz\n")
+5369:         f.write(f"Best low edge: {best_metrics.get('f_low', 0.0)} GHz\n")
+5370:         f.write(f"Best high edge: {best_metrics.get('f_high', 0.0)} GHz\n")
+5371:         f.write(f"Best min RL: {best_metrics['min_rl']} dB\n")
+5372:         f.write(f"Best mean margin below -10 dB: {best_metrics.get('mean_margin', 0.0)} dB\n")
+5373:         f.write(f"Best individual summary: {template_summary(best_ind)}\n")
+5374:         f.write(f"Best parameters (p, h, mask_x_flatten, mask_y_flatten): {best_params}\n")
+5375:         f.write(f"Best CST file: {BEST_CST}\n")
+5376:         f.write(f"Best S11 txt file: {BEST_S11_FILE}\n")
+5377:         f.write(f"Best S11 png file: {BEST_S11_PNG}\n")
+5378:         f.write(f"Best X mask txt file: {BEST_MASK_X_TXT}\n")
+5379:         f.write(f"Best Y mask txt file: {BEST_MASK_Y_TXT}\n")
+5380:         f.write(f"Best mask figure: {BEST_MASK_PNG}\n\n")
+5381:         f.write("Best X mask compact:\n")
+5382:         f.write(matrix_to_string(best_ind["mask_x"]) + "\n\n")
+5383:         f.write("Best Y mask compact:\n")
+5384:         f.write(matrix_to_string(best_ind["mask_y"]) + "\n")
+5385: 
+5386: 
+5387: def optimize():
+5388:     global cache
+5389:     cache = {}
+5390: 
+5391:     for path in [LOG_FILE, ERROR_LOG_FILE, INDIVIDUAL_TRACE_FILE, SKIPPED_INDIVIDUAL_FILE]:
+5392:         try:
+5393:             if os.path.exists(path):
+5394:                 os.remove(path)
+5395:         except Exception:
+5396:             pass
+5397: 
+5398:     pop = initialize_population(pop_size)
+5399:     best_metrics = {"score": -1.0, "bandwidth": 0.0, "coverage": 0.0, "min_rl": 0.0}
+5400:     best_ind = None
+5401:     best_params = None
+5402: 
+5403:     with open(LOG_FILE, "w", encoding="utf-8") as f:
+5404:         f.write("iteration\tindex\tsummary\tscore\tbandwidth\tcoverage\tmin_rl\tf_low\tf_high\ttotal_effective_bw\tmean_margin\tp\th\trs_x\trs_y\tcst_file\n")
+5405: 
+5406:     for it in range(iterations):
+5407:         current_pm = max(0.07, p_m_start - 0.014 * it)
+5408:         print(f"\n===== Multi-template topology Iteration {it} =====")
+5409:         print(f"Current mutation rate = {current_pm:.3f}")
+5410: 
+5411:         fit_list, info_list = evaluate_population(pop, generation=it)
+5412: 
+5413:         for idx, (ind, fit, info) in enumerate(zip(pop, fit_list, info_list)):
+5414:             metrics, params, cst_file = info
+5415:             print(
+5416:                 f"score = {metrics['score']:.6f}, "
+5417:                 f"bandwidth = {metrics['bandwidth']:.6f}, "
+5418:                 f"coverage = {metrics.get('coverage', 0.0)*100:.2f}%, "
+5419:                 f"f_low = {metrics.get('f_low', 0.0):.3f}, "
+5420:                 f"f_high = {metrics.get('f_high', 0.0):.3f}, "
+5421:                 f"minRL = {metrics['min_rl']:.3f}"
+5422:             )
+5423:             with open(LOG_FILE, "a", encoding="utf-8") as f:
+5424:                 f.write(
+5425:                     f"{it}\t{idx}\t{template_summary(ind)}\t{metrics['score']}\t{metrics['bandwidth']}\t"
+5426:                     f"{metrics.get('coverage', 0.0)}\t{metrics['min_rl']}\t{metrics.get('f_low', 0.0)}\t"
+5427:                     f"{metrics.get('f_high', 0.0)}\t{metrics.get('total_effective_bw', 0.0)}\t"
+5428:                     f"{metrics.get('mean_margin', 0.0)}\t{ind['p']}\t{ind['h']}\t"
+5429:                     f"{ind['rsx']}\t{ind['rsy']}\t{cst_file}\n"
+5430:                 )
+5431: 
+5432:         idx = int(np.argmax(fit_list))
+5433:         current_best_metrics, current_best_params, current_best_cst = info_list[idx]
+5434:         if current_best_metrics["score"] > best_metrics["score"]:
+5435:             best_metrics = current_best_metrics
+5436:             best_ind = clone_individual(pop[idx])
+5437:             best_params = current_best_params
+5438: 
+5439:             if current_best_cst and os.path.exists(current_best_cst):
+5440:                 remove_file_if_exists(BEST_CST)
+5441:                 shutil.copyfile(current_best_cst, BEST_CST)
+5442:                 export_s11_curve(current_best_cst, BEST_S11_FILE)
+5443:                 export_s11_plot(current_best_cst, BEST_S11_PNG)
+5444: 
+5445:             save_mask_txt(best_ind["mask_x"], BEST_MASK_X_TXT)
+5446:             save_mask_txt(best_ind["mask_y"], BEST_MASK_Y_TXT)
+5447:             export_mask_figure(best_ind["mask_x"], best_ind["mask_y"], BEST_MASK_PNG)
+5448:             write_best_result(best_metrics, best_ind, best_params)
+5449: 
+5450:         print(f"best score so far = {best_metrics['score']:.6f}")
+5451:         print(f"best bandwidth so far = {best_metrics['bandwidth']:.6f} GHz, coverage = {best_metrics.get('coverage', 0.0)*100:.2f}%")
+5452:         print(f"best f_low / f_high so far = {best_metrics.get('f_low', 0.0):.3f} / {best_metrics.get('f_high', 0.0):.3f} GHz")
+5453:         print(f"best min RL so far = {best_metrics['min_rl']:.3f} dB")
+5454:         print(f"best summary so far = {template_summary(best_ind) if best_ind else ''}")
+5455: 
+5456:         pop = make_new_population(pop, fit_list, current_pm)
+5457: 
+5458:     print("\nMulti-template topology optimization finished.")
+5459:     print(f"Best score = {best_metrics['score']}")
+5460:     print(f"Best bandwidth = {best_metrics['bandwidth']} GHz, coverage = {best_metrics.get('coverage', 0.0)*100:.2f}%")
+5461:     print(f"Best f_low / f_high = {best_metrics.get('f_low', 0.0)} / {best_metrics.get('f_high', 0.0)} GHz")
+5462:     print(f"Best min RL = {best_metrics['min_rl']} dB")
+5463:     print(f"Best summary = {template_summary(best_ind) if best_ind else ''}")
+5464:     print(f"Best CST file saved to: {BEST_CST}")
+5465: 
+5466: # =========================================================
+5467: # END SEMI-CONSTRAINED MULTI-TEMPLATE TOPOLOGY GA BLOCK
+5468: # =========================================================
+5469: 
+5470: 
+5471: if __name__ == "__main__":
+5472:     if RUN_MODE == "fixed_best_ohmic":
+5473:         run_fixed_best_ohmic_sheet_once()
+5474:     elif RUN_MODE == "compare_fixed":
+5475:         compare_fixed_best_structure()
+5476:     elif RUN_MODE == "optimize":
+5477:         optimize()
+5478:     else:
+5479:         raise ValueError(f"Unknown RUN_MODE: {RUN_MODE}")

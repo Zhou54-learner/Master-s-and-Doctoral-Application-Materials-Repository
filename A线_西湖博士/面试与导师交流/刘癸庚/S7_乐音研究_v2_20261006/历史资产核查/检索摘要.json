@@ -1,0 +1,41 @@
+{
+  "files": 1348,
+  "extensions": {
+    ".m4a": 811,
+    ".png": 418,
+    ".xlsx": 91,
+    ".zip": 7,
+    ".fig": 4,
+    ".mp3": 5,
+    ".jpg": 5,
+    ".mp4": 5,
+    ".mlapp": 1,
+    ".m": 1
+  },
+  "unique_images": 212,
+  "workbooks": 91,
+  "native_charts": 4,
+  "figs": [
+    {
+      "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60mm_scale.fig",
+      "bytes": 58998,
+      "sha256": "1a995defdd75b99ae9ef118f31bfee34206b40480aed2893c8b6f35d87851581"
+    },
+    {
+      "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80mm_scale.fig",
+      "bytes": 60844,
+      "sha256": "1a6b03ad2c5d8e4bf4dee7de4b5b0cbb22c6e98c056de7196b321a344a53fd0f"
+    },
+    {
+      "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60mm_scale.fig",
+      "bytes": 58998,
+      "sha256": "1a995defdd75b99ae9ef118f31bfee34206b40480aed2893c8b6f35d87851581"
+    },
+    {
+      "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80mm_scale.fig",
+      "bytes": 60844,
+      "sha256": "1a6b03ad2c5d8e4bf4dee7de4b5b0cbb22c6e98c056de7196b321a344a53fd0f"
+    }
+  ],
+  "target_document_hits": 1
+}

@@ -1,0 +1,95 @@
+{
+  "status": "INTERNAL / v2 CANDIDATE",
+  "files": [
+    {
+      "path": "PowerPoint渲染汇总.json",
+      "bytes": 40889,
+      "sha256": "699069b98aa64c2f761211a653cd2382e41d7406d7e9ba68d629a5a273d8f55c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3556,
+      "sha256": "814e638ec7671dc054af567c68d1797f7982b31c8329ba3df80993c97e7256f8"
+    },
+    {
+      "path": "人工目视审阅.md",
+      "bytes": 1546,
+      "sha256": "c917467e6ccbf54eb91b2e405b8a1acdc657c4b427d5f2428381fb449cdbd153"
+    },
+    {
+      "path": "候选目录.json",
+      "bytes": 147,
+      "sha256": "910bc32b4622ff1c8c80d7e4daa74887c458fdd0f034618a86ea199585da6d34"
+    },
+    {
+      "path": "制作前保全基线.json",
+      "bytes": 58584,
+      "sha256": "83d1f2c7b4033c755db1b83219d71ac20e7d1ed7a516079f51678147061b174e"
+    },
+    {
+      "path": "制作源/archive_supplement.py",
+      "bytes": 1398,
+      "sha256": "a76f2a06eb350750a68a5cc172e25eb563726715e1bc9df3e3c28008b9f471a7"
+    },
+    {
+      "path": "制作源/build_v2.py",
+      "bytes": 13376,
+      "sha256": "6012a18aa795c62b0a103d094faadc68bdc1b844f278f5b072a6e18ffd122a1c"
+    },
+    {
+      "path": "制作源/prepare_sources.py",
+      "bytes": 5791,
+      "sha256": "a099ffd8bf9e0f358e688238ebb7a85c2e1dad5c5ff9b9f933ec10572ec31397"
+    },
+    {
+      "path": "制作源/record_official_sources.py",
+      "bytes": 2737,
+      "sha256": "f4de69318320a11c507e0d04137fab7a3e32d80279fe68dd681cfe2de04fd99f"
+    },
+    {
+      "path": "制作源/render_v2.py",
+      "bytes": 10155,
+      "sha256": "ecef7f266a04e3cd27357bf7a3016a1df1f26e39ab0c2700aa2765e8c539582e"
+    },
+    {
+      "path": "制作源/validate_delivery.py",
+      "bytes": 4515,
+      "sha256": "30fcf6f1f415a1b6fa56d7de64e792215314ce5d2b827bcc7da9cad5bfe19b23"
+    },
+    {
+      "path": "制作源/write_docs.py",
+      "bytes": 21639,
+      "sha256": "3c915075e81dbfacd49c877b909958f8b242184a2d3a1f71c1789e3936b3da78"
+    },
+    {
+      "path": "预览/S10-S13_联合审阅_v2.png",
+      "bytes": 1820703,
+      "sha256": "d3bfaa929d6915b4e006d09dcd8cfb31e5d5b86108dea1aa5caf10b1002126fe"
+    },
+    {
+      "path": "预览/S10_A-B_裁切审阅_v2.png",
+      "bytes": 861934,
+      "sha256": "0a6ce661db7f44c6f4ba5370f1d63e8c56e349a8dda9da350f5392905b68104f"
+    },
+    {
+      "path": "预览/S11-S12_衔接_v2.png",
+      "bytes": 1157954,
+      "sha256": "d2b5ab5cd3b62a405f0cbc862a1e2745d41c7eab0271216449359ea4c98b1078"
+    },
+    {
+      "path": "预览/S9-S13_连续审阅_v2.png",
+      "bytes": 1414171,
+      "sha256": "34ebbe72586f0cdcedf841f3dbe54966d83ba180ce34fb87f43702b3129ddd2a"
+    },
+    {
+      "path": "预览/S9B-S10_衔接_v2.png",
+      "bytes": 989888,
+      "sha256": "4c154828affc8cf84157cc5e698a08324fcde2c398927820d98e8a8718453d86"
+    },
+    {
+      "path": "预览来源.json",
+      "bytes": 4737,
+      "sha256": "b8e9f10e554cc8dbb7f3004b8b2917de6ce49ffc4de773d6ad994754e0123ce8"
+    }
+  ]
+}

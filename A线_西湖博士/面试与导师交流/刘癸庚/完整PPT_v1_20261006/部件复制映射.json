@@ -1,0 +1,392 @@
+[
+  {
+    "source": "S0_封面_v1_20261005/S0_封面_v1.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide1.xml",
+    "sha256": "eb8367cae3249acd906117ff6a2feef246530ad56e721078bac351387c2a048f"
+  },
+  {
+    "source": "S0_封面_v1_20261005/S0_封面_v1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide1.xml",
+    "sha256": "51cf0dab32241dd491ccad1af3416e2863831f954a2ba8dd7c06a0e54a41253a"
+  },
+  {
+    "source": "S1_个人背景_v2_20261006/S1_个人背景_v2.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide2.xml",
+    "sha256": "d0822fdf13cb17db86cc117eba11619d34b3b290b2a633f65c01e528414f136d"
+  },
+  {
+    "source": "S1_个人背景_v2_20261006/S1_个人背景_v2.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide2.xml",
+    "sha256": "332a0cf28efea54da41cfa0225f938f944d5df052001a34686c9e2287f8e1dc6"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide3.xml",
+    "sha256": "2956060b782b66bbdd18b094c8f3098bece4c4378066d3c4e72751fb10923e17"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image1.png",
+    "output_part": "ppt/imported/source03/ppt/media/image1.png",
+    "sha256": "09cb5a4803f5a8afcb7964d819c489203dfd8b420701f8aa771310b4fc4984e6"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide3.xml",
+    "sha256": "07165dc013a915c7033091ce0dfc7efe8cdaa3a11467fcb94120c7bebd7cabbf"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout7.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout7.xml",
+    "sha256": "602b32c081bb1815738c422dbfc13f40f3a3bccda73e2a6b5b9b3824d8693f8f"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideMasters/slideMaster1.xml",
+    "output_part": "ppt/imported/source03/ppt/slideMasters/slideMaster1.xml",
+    "sha256": "24d5aaee7d242a06eed2c0f07487bf52dfc2c25e4ba6a7b9f48731a54022be8d"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout8.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout8.xml",
+    "sha256": "2adf886971fe906410ffe550cc27753be8ca9db657f28af4d9a363c956f71606"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout3.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout3.xml",
+    "sha256": "0989d0b43d7caa6227231fcdd86857417aa3f640a6841a7979f2fa8630f239cf"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/theme/theme1.xml",
+    "output_part": "ppt/imported/source03/ppt/theme/theme1.xml",
+    "sha256": "4c3412087e8fa20cf5642f42e69f1e733881c28611a2bdd4622654ee313d214e"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout2.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout2.xml",
+    "sha256": "fc155609119670cb3fec89db1a08058fcfc92918ac9dc391563ac4b571e2b9bb"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout1.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout1.xml",
+    "sha256": "e4a96bb0aee81e5d2a5790f841646558b9a196de4499dd2d42881f34fa894c01"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout6.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout6.xml",
+    "sha256": "120582def1bafee8cd40f21e5d68d848a81177c0aea5475490f5099d42db6d29"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout11.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout11.xml",
+    "sha256": "3138089b09cd8c3c74be8adcdd8013bb7877aaf83976e75cf38d4bdc70f6bfa9"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout5.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout5.xml",
+    "sha256": "239f7c2d053b352480e2e539d7c9bab7d2996b9746319e8af690eded82d7fc0e"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout10.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout10.xml",
+    "sha256": "282da4c06c8d3b8daaf87784fe56ffee8a1297da8717eefbe5606117e46b7de3"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout4.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout4.xml",
+    "sha256": "d30ee577009c32ba416e59d978b23b6f895ec8672083b7868f3135207a0b441f"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slideLayouts/slideLayout9.xml",
+    "output_part": "ppt/imported/source03/ppt/slideLayouts/slideLayout9.xml",
+    "sha256": "727e0571d6993f97be63da075803fc7a0b0347f2a2d795821b4c4f865c56668f"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image4.png",
+    "output_part": "ppt/imported/source03/ppt/media/image4.png",
+    "sha256": "1ac2914168fef474564115b93d3287e2f6b588d8bac3d291c0f1e87870ad6e8d"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image3.png",
+    "output_part": "ppt/imported/source03/ppt/media/image3.png",
+    "sha256": "8306d819b86e0c7fbdeba06d117c7fa7615ece8f0b4024a9333b5ba3b6c43e68"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image2.png",
+    "output_part": "ppt/imported/source03/ppt/media/image2.png",
+    "sha256": "dc36eaef5196318dd12092805b3bae68a498a2e6b0250ed4a1bf6b243d91c56d"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slides/slide2.xml",
+    "output_part": "ppt/slides/slide4.xml",
+    "sha256": "27550b3ecc6207b63d5686e1c4bce1ec696f0c0201904ff657a9d96149bcce44"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image5.png",
+    "output_part": "ppt/imported/source03/ppt/media/image5.png",
+    "sha256": "23cf354f91b040b37f323f28117553ce9ef1375c21cedec57370a5479363b9e0"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide2.xml",
+    "output_part": "ppt/notesSlides/notesSlide4.xml",
+    "sha256": "2f32fc46dab46fab7700ada70d38a2187eb8e990b99d5a51912c634229abaa35"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slides/slide3.xml",
+    "output_part": "ppt/slides/slide5.xml",
+    "sha256": "7bcfbe56b53aa3e56f275c5596c2c15e5a6d08354905b4f54f08eb0b5269bf43"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image11.png",
+    "output_part": "ppt/imported/source03/ppt/media/image11.png",
+    "sha256": "31ed3fe7a4cc361c9077343dec3a615a321cbfd108b1a7776d8617ad74de9a1f"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image6.png",
+    "output_part": "ppt/imported/source03/ppt/media/image6.png",
+    "sha256": "b5f159fea007a55c6c2cdb77b7ff213ab6230164c0dbf5085d4ebe1c0c07554d"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image10.png",
+    "output_part": "ppt/imported/source03/ppt/media/image10.png",
+    "sha256": "fdd8f48580d1d39d5494ca69a9691a94aa7ea659a34046f6e6c4e95af6b5ea4d"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide3.xml",
+    "output_part": "ppt/notesSlides/notesSlide5.xml",
+    "sha256": "12cf3d4fa4f34ae96adfafdb6a90fd7098a5b265713e986669ff7d8e79ead87c"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image9.png",
+    "output_part": "ppt/imported/source03/ppt/media/image9.png",
+    "sha256": "3a535a90e2c503e18318bde1d135137c0d100f0ca2e5a5395099b2db1f1465f4"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image8.png",
+    "output_part": "ppt/imported/source03/ppt/media/image8.png",
+    "sha256": "abb592eaf2160626cb15ed37bcb3c9aec4475e2c1fa5cdfcb4ef7bd2d7f9c4f4"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image7.png",
+    "output_part": "ppt/imported/source03/ppt/media/image7.png",
+    "sha256": "0b116f0b19db61fa1e76fc5abb9fe4e898b006c4e3d4ac4ec5a83e3bc378ac5f"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/media/image12.png",
+    "output_part": "ppt/imported/source03/ppt/media/image12.png",
+    "sha256": "153b1f54221b6768a650c012a8e0e26150e44050e9d6a2c08b91ac3a9efa974f"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/slides/slide4.xml",
+    "output_part": "ppt/slides/slide6.xml",
+    "sha256": "1f56892386fa3f36b29cd5fcb7547e4107c85043e766f3ec74bcb3941d2ae086"
+  },
+  {
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide4.xml",
+    "output_part": "ppt/notesSlides/notesSlide6.xml",
+    "sha256": "de8b81f83214f5a412b290d3143a014453e1f637baa505817fa16ccfd3037f85"
+  },
+  {
+    "source": "S6_尘埃等离子体_v1_20261005/S6_尘埃等离子体_v1.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide7.xml",
+    "sha256": "9571cc1a91d4fbbe288a1e04d296fbb05d60047e21a5403fa33a9cad8988a8f2"
+  },
+  {
+    "source": "S6_尘埃等离子体_v1_20261005/S6_尘埃等离子体_v1.pptx",
+    "source_part": "ppt/media/image1.png",
+    "output_part": "ppt/imported/source04/ppt/media/image1.png",
+    "sha256": "57639b8d84809a510df0722cb73885b78f85935808f05c5997d972356699e052"
+  },
+  {
+    "source": "S6_尘埃等离子体_v1_20261005/S6_尘埃等离子体_v1.pptx",
+    "source_part": "ppt/media/image2.png",
+    "output_part": "ppt/imported/source04/ppt/media/image2.png",
+    "sha256": "a4b121f4eed57d7d35e641197b469c57bc629ce2b8864efd6f40b299974a448a"
+  },
+  {
+    "source": "S6_尘埃等离子体_v1_20261005/S6_尘埃等离子体_v1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide7.xml",
+    "sha256": "7f57b3d93ae75a9b9bff4272c11f0f161e52d17371c91d705f6e869845870ddb"
+  },
+  {
+    "source": "S7_乐音研究_v2_20261006/S7_乐音研究_v2_A_历史资产优先.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide8.xml",
+    "sha256": "401bd035f6856d1f9bb14ec1cbfe0e1dabff5869bba3cac137267f98be89bdb4"
+  },
+  {
+    "source": "S7_乐音研究_v2_20261006/S7_乐音研究_v2_A_历史资产优先.pptx",
+    "source_part": "ppt/media/image1.png",
+    "output_part": "ppt/imported/source05/ppt/media/image1.png",
+    "sha256": "4cb95daf2b813e15a7ec1b1e4ce0491ab67d94b1a0d116bec30fab7005de3b47"
+  },
+  {
+    "source": "S7_乐音研究_v2_20261006/S7_乐音研究_v2_A_历史资产优先.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide8.xml",
+    "sha256": "2a3740ad2b7171462dedaa7b5b0096216fdf8986bb485270e577149ea4007a3f"
+  },
+  {
+    "source": "S8_项目AI协作_v3.1_20261006/S8_项目AI协作_v3.1.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide9.xml",
+    "sha256": "f95c7e2086ee285a6a965d0f39c45e03c8b43a610a8367a6d8d3653dba0fbb00"
+  },
+  {
+    "source": "S8_项目AI协作_v3.1_20261006/S8_项目AI协作_v3.1.pptx",
+    "source_part": "ppt/media/image1.png",
+    "output_part": "ppt/imported/source06/ppt/media/image1.png",
+    "sha256": "f339b523108d149b76e4106ed6247de61b05d6c60a01014ad2ca3fceccea5c41"
+  },
+  {
+    "source": "S8_项目AI协作_v3.1_20261006/S8_项目AI协作_v3.1.pptx",
+    "source_part": "ppt/media/image2.png",
+    "output_part": "ppt/imported/source06/ppt/media/image2.png",
+    "sha256": "6007a3c6a0a3f573849d285d295015131116e86aedeca91dcc78a96db5bf8a43"
+  },
+  {
+    "source": "S8_项目AI协作_v3.1_20261006/S8_项目AI协作_v3.1.pptx",
+    "source_part": "ppt/media/image3.png",
+    "output_part": "ppt/imported/source06/ppt/media/image3.png",
+    "sha256": "948476ebed899320a8b273c36a2cc032329914451bbeeb0b1450b82fab89cea4"
+  },
+  {
+    "source": "S8_项目AI协作_v3.1_20261006/S8_项目AI协作_v3.1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide9.xml",
+    "sha256": "81b918842a19005885eb43b30600fe9d7a206323f5b1742ef04ba67d1f69ca86"
+  },
+  {
+    "source": "S9_个人AI外骨骼_v3.1_20261006/S9_个人AI外骨骼_v3.1.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide10.xml",
+    "sha256": "9fd38d574e2ba061b15cf089d668b2b81e95778964c7b52bcadad96c5c3f85ee"
+  },
+  {
+    "source": "S9_个人AI外骨骼_v3.1_20261006/S9_个人AI外骨骼_v3.1.pptx",
+    "source_part": "ppt/media/image1.png",
+    "output_part": "ppt/imported/source07/ppt/media/image1.png",
+    "sha256": "19a0cc556b0a5e0d749687179896c8b513eeec3893282b03ec7ad011e5aaf641"
+  },
+  {
+    "source": "S9_个人AI外骨骼_v3.1_20261006/S9_个人AI外骨骼_v3.1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide10.xml",
+    "sha256": "d4de99d178218bb81d2560daa5721ddd395a1709b06cb56ade500576fc7244e0"
+  },
+  {
+    "source": "S9_个人AI外骨骼_v3.1_20261006/S9_个人AI外骨骼_v3.1.pptx",
+    "source_part": "ppt/slides/slide2.xml",
+    "output_part": "ppt/slides/slide11.xml",
+    "sha256": "d38e2369cd8b6243950cfb5ec2dec82936268a5f28b7844379eacc753781963f"
+  },
+  {
+    "source": "S9_个人AI外骨骼_v3.1_20261006/S9_个人AI外骨骼_v3.1.pptx",
+    "source_part": "ppt/media/image2.png",
+    "output_part": "ppt/imported/source07/ppt/media/image2.png",
+    "sha256": "46a9deca853300befd5d62829adbdb8c905f4d4124d3ee3cf75cb98f6dd85fd0"
+  },
+  {
+    "source": "S9_个人AI外骨骼_v3.1_20261006/S9_个人AI外骨骼_v3.1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide2.xml",
+    "output_part": "ppt/notesSlides/notesSlide11.xml",
+    "sha256": "6e471fb69d891c9e42d2525065dd336b3edd9e08a01b110e98015459f4201b49"
+  },
+  {
+    "source": "S10_反思_v2_20261006/S10_反思_v2.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide12.xml",
+    "sha256": "68ffac3166b5077462aad9264d288c6a39dc249dba8407ecec8604b3bbb77b2f"
+  },
+  {
+    "source": "S10_反思_v2_20261006/S10_反思_v2.pptx",
+    "source_part": "ppt/media/image1.png",
+    "output_part": "ppt/imported/source08/ppt/media/image1.png",
+    "sha256": "194224ba3a6df0c7f7150dcf8b61e66bb57a623d59d0f90e458f67b138364b30"
+  },
+  {
+    "source": "S10_反思_v2_20261006/S10_反思_v2.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide12.xml",
+    "sha256": "c3fcd436ddd5c9559b0fa02176d72b3f411f661f2eb7d0cf62c3f5c9e32bf214"
+  },
+  {
+    "source": "S11_表达_v2_20261006/S11_表达_v2.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide13.xml",
+    "sha256": "d519d042ed620c6b407f4a2903e6f78f39d53027e3d1286a7d9a28ec1396b706"
+  },
+  {
+    "source": "S11_表达_v2_20261006/S11_表达_v2.pptx",
+    "source_part": "ppt/media/image1.png",
+    "output_part": "ppt/imported/source09/ppt/media/image1.png",
+    "sha256": "1a42a9a9a90ed2ed7c3d76ab3cb44883bc4fbd6c1f70d6239f29062a6174e7b8"
+  },
+  {
+    "source": "S11_表达_v2_20261006/S11_表达_v2.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide13.xml",
+    "sha256": "014614b6e7f409f2f9e3d1fbac06dff1e0d623ce691be9b3e5bfe9a3ac8c369a"
+  },
+  {
+    "source": "S12_WhyPhD_v2.1_20261006/S12_WhyPhD_v2.1.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide14.xml",
+    "sha256": "13179bcdb4c0de7c1c270d2d7b1a1df93c3747d4dc95380eddb8d0290eefccf4"
+  },
+  {
+    "source": "S12_WhyPhD_v2.1_20261006/S12_WhyPhD_v2.1.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide14.xml",
+    "sha256": "ee9633cc9f33792a4b527811c9ae47859b13ab7f40480b6f066b27bd91f002ca"
+  },
+  {
+    "source": "S13_WhyLiu_v2_20261006/S13_WhyLiu_v2.pptx",
+    "source_part": "ppt/slides/slide1.xml",
+    "output_part": "ppt/slides/slide15.xml",
+    "sha256": "5844842ab09eab7ecc067a3bd7201ac8e64d4cfe99a8681281898ecfe9d1ee79"
+  },
+  {
+    "source": "S13_WhyLiu_v2_20261006/S13_WhyLiu_v2.pptx",
+    "source_part": "ppt/notesSlides/notesSlide1.xml",
+    "output_part": "ppt/notesSlides/notesSlide15.xml",
+    "sha256": "b11c4d7076d5214eeb3ea2eab58b5a4e4429a5923fac3f68f17ca9d776200465"
+  }
+]

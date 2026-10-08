@@ -1,0 +1,36 @@
+[
+  {
+    "source": "F:/1A硕博申请/公共资料/事实核验/个人探索_20261004/素材/M01_历史波形与频谱.png",
+    "source_size": [
+      576,
+      514
+    ],
+    "output": "派生素材/M01_仅裁窗口工具栏.png",
+    "crop_box": [
+      22,
+      92,
+      546,
+      500
+    ],
+    "sha256": "5eb26ef9664f5b1826af7bfb06d0c0f15bcf87bc0925d81a05a8e071e01268f2",
+    "operation": "Only historical window/title/menu margins removed; waveform, spectrum, axes and cursor retained; no sharpening or pixel resynthesis."
+  },
+  {
+    "source": "E:/2023/traindata/school data/2re.mp4",
+    "frame_time_seconds": 1.0,
+    "source_size": [
+      1280,
+      720
+    ],
+    "original_frame": "派生素材/2re_1秒原始截帧.png",
+    "output": "派生素材/2re_1秒现场裁切.png",
+    "crop_box": [
+      0,
+      30,
+      1280,
+      720
+    ],
+    "sha256": "5035d4e7ec92f9432e9654c203dce9675d3c036803d13dd2dd3480dce6bdb63f",
+    "operation": "FFmpeg decoded one historical frame; removed 30 pixels of top background only; no compositing, retouching, relabelling or stretching."
+  }
+]

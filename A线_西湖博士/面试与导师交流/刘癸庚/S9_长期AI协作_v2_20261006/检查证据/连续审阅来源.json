@@ -1,0 +1,37 @@
+[
+  {
+    "order": 1,
+    "label": "S7 v2 A · 并发任务推荐候选，仅供节奏审阅",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v2_20261006/预览/S7_v2_A_1920x1080.png",
+    "sha256": "45176c24539ea5fbf30354b9bdaaf5e4a1458f7c590e07fa1ac0110e9c0f3053",
+    "operation": "Read existing PNG; no source PPTX opened or edited."
+  },
+  {
+    "order": 2,
+    "label": "S8 v2 · 第一次比较系统地与 AI 做项目",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目AI协作_v2_20261006/预览/S8_1920x1080.png",
+    "sha256": "7acee3683f47785cf8a89f4102975746e516743c8829ce00a6395d8f4badf102",
+    "operation": "Read existing PNG; no source PPTX opened or edited."
+  },
+  {
+    "order": 3,
+    "label": "S9-A v2 · 留下长期目标与当前状态",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v2_20261006/预览/S9-A_1920x1080.png",
+    "sha256": "403aa94cafd69b1469cec74b41f4edb38ba3279dbb0273300d2b051a5e34185b",
+    "operation": "Read existing PNG; no source PPTX opened or edited."
+  },
+  {
+    "order": 4,
+    "label": "S9-B v2 · 接上这一轮的具体行动",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v2_20261006/预览/S9-B_1920x1080.png",
+    "sha256": "c93724b54b53c7663c4c215bd3d1d26b25c238a8cb338b0ce87273099392be0c",
+    "operation": "Read existing PNG; no source PPTX opened or edited."
+  },
+  {
+    "order": 5,
+    "label": "S10 v2 A · 原候选，仅供节奏审阅",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+    "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772",
+    "operation": "Read existing PNG; no source PPTX opened or edited."
+  }
+]

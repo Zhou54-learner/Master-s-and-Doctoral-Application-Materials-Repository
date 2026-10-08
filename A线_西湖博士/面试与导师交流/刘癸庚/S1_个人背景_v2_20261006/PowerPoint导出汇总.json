@@ -1,0 +1,25 @@
+{
+  "presentations": [
+    {
+      "slide": "S1",
+      "renderer": "Microsoft PowerPoint 16.0",
+      "overflow": 0,
+      "outside": 0,
+      "notes_exact_match": true,
+      "pdf_pages": 1,
+      "pptx_sha256": "9358f4be76366ef32c16c2bff51eda245508a5e3ebe853fdf1a24ba58287f25a",
+      "pdf_sha256": "8505c666b7223d728aa7f5445cd113aa9594a3e99bd00d2298c99d8a718e95d4"
+    },
+    {
+      "slide": "S12",
+      "renderer": "Microsoft PowerPoint 16.0",
+      "overflow": 0,
+      "outside": 0,
+      "notes_exact_match": true,
+      "pdf_pages": 1,
+      "pptx_sha256": "dcc6e5c731a327ea120523c3a96114fbeff627104a07e60962d1168883a1d7f2",
+      "pdf_sha256": "f893d509eb84ee5470804a8d89f03c96ed8f64f22e25fea3a0d5c3c7d8e78923"
+    }
+  ],
+  "preserved_files": 363
+}

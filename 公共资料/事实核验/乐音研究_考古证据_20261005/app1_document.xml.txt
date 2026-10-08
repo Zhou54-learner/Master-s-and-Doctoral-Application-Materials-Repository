@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[classdef app1 < matlab.apps.AppBase
+
+    % Properties that correspond to app components
+    properties (Access = public)
+        UIFigure   matlab.ui.Figure
+        Button     matlab.ui.control.StateButton
+        EditField  matlab.ui.control.EditField
+        Label_2    matlab.ui.control.Label
+        Label      matlab.ui.control.Label
+        UIAxes     matlab.ui.control.UIAxes
+    end
+
+    % Callbacks that handle component events
+    methods (Access = private)
+
+        % Code that executes after component creation
+        function startupFcn(app)
+     
+        end
+
+        % Value changed function: Button
+        function ButtonValueChanged(app, event)
+function ButtonPushed(app, ~)
+    % 读取音频文件路径
+    audioFilePath = app.EditField.Value;
+
+    % 读取音频文件
+    [audio, fs] = audioread(audioFilePath);
+
+    % 设置音高检测参数
+    frameSize = 1024;
+    hopSize = 512;
+    minFreq = 80;
+    maxFreq = 10000;
+
+    % 计算音高
+    [pitchValues, timeInstants] = pitch(audio, fs, ...
+        'Method', 'NCF', ...
+        'Range', [minFreq, maxFreq]);
+
+    % 在 App 的坐标轴中绘制音高随时间的变化
+    plot(app.UIAxes, timeInstants, pitchValues, '.-');
+    xlabel(app.UIAxes, '时间 (s)');
+    ylabel(app.UIAxes, '音高 (Hz)');
+    title(app.UIAxes, '音高随时间的变化');
+
+    end
+        end
+    end
+
+    % Component initialization
+    methods (Access = private)
+
+        % Create UIFigure and components
+        function createComponents(app)
+
+            % Create UIFigure and hide until all components are created
+            app.UIFigure = uifigure('Visible', 'off');
+            app.UIFigure.Position = [100 100 640 480];
+            app.UIFigure.Name = 'MATLAB App';
+
+            % Create UIAxes
+            app.UIAxes = uiaxes(app.UIFigure);
+            title(app.UIAxes, 'Title')
+            xlabel(app.UIAxes, 'X')
+            ylabel(app.UIAxes, 'Y')
+            zlabel(app.UIAxes, 'Z')
+            app.UIAxes.Position = [18 12 588 363];
+
+            % Create Label
+            app.Label = uilabel(app.UIFigure);
+            app.Label.FontName = '华文楷体';
+            app.Label.FontSize = 24;
+            app.Label.FontWeight = 'bold';
+            app.Label.Position = [270 432 101 32];
+            app.Label.Text = '音高检测';
+
+            % Create Label_2
+            app.Label_2 = uilabel(app.UIFigure);
+            app.Label_2.HorizontalAlignment = 'right';
+            app.Label_2.Position = [18 387 101 22];
+            app.Label_2.Text = '输入音频文件路径';
+
+            % Create EditField
+            app.EditField = uieditfield(app.UIFigure, 'text');
+            app.EditField.Position = [134 387 73 22];
+
+            % Create Button
+            app.Button = uibutton(app.UIFigure, 'state');
+            app.Button.ValueChangedFcn = createCallbackFcn(app, @ButtonValueChanged, true);
+            app.Button.Text = '开始';
+            app.Button.Position = [233 387 100 23];
+
+            % Show the figure after all components are created
+            app.UIFigure.Visible = 'on';
+        end
+    end
+
+    % App creation and deletion
+    methods (Access = public)
+
+        % Construct app
+        function app = app1
+
+            % Create UIFigure and components
+            createComponents(app)
+
+            % Register the app with App Designer
+            registerApp(app, app.UIFigure)
+
+            % Execute the startup function
+            runStartupFcn(app, @startupFcn)
+
+            if nargout == 0
+                clear app
+            end
+        end
+
+        % Code that executes before app deletion
+        function delete(app)
+
+            % Delete UIFigure when app is deleted
+            delete(app.UIFigure)
+        end
+    end
+end]]></w:t></w:r></w:p></w:body></w:document>

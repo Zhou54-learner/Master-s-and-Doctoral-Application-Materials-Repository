@@ -1,0 +1,25 @@
+[
+  {
+    "id": "A_main",
+    "source": "E:/2023/traindata/数据处理/长度关系比较/数据图表1.jpg",
+    "sha256": "63f3e67fffdfe33f7bf07be6c552155aaf774a7839d4ee99a7d64b2dfabdd2df",
+    "original_copy": "派生素材/历史长度比较_完整原图.jpg",
+    "output": "派生素材/历史长度比较_仅裁顶端图题.png",
+    "output_sha256": "4cb95daf2b813e15a7ec1b1e4ce0491ab67d94b1a0d116bec30fab7005de3b47",
+    "crop_box": [
+      0,
+      100,
+      1200,
+      1020
+    ],
+    "operation": "Crop duplicate historical title only; retain every plotted point, axes, units, legend and mean-summary segment. No redraw, recolor, sharpening or selective removal."
+  },
+  {
+    "id": "B_main",
+    "source": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80mm_scale.fig",
+    "sha256": "1a6b03ad2c5d8e4bf4dee7de4b5b0cbb22c6e98c056de7196b321a344a53fd0f",
+    "output": "历史资产核查/历史FIG_80cm_原标签.png",
+    "output_sha256": "64a59dbad62995438dcfe8e62c1d2e16560ff415f9d5df4995587ab15cc2d93c",
+    "operation": "Native MATLAB render of saved FIG objects. No new data analysis, no labels changed, no crop, no removed anomalies. Incorrect historical Time(s) label explained on slide."
+  }
+]

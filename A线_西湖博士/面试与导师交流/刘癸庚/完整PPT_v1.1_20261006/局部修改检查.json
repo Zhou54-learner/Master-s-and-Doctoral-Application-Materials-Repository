@@ -1,0 +1,19 @@
+{
+  "source_head": "4dcb9d19c95a4e25044c2d6c97e0ef2fc3c16fe5",
+  "source_pptx": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\完整PPT_v1_20261006\\刘癸庚交流_完整PPT_v1_20261006.pptx",
+  "source_sha256": "f09effacea63224484c9e8cf41747a6d59dde3669906b3d2a0bd2ff388339514",
+  "v5_script_sha256": "3b6009acbde2b8e433300152b00f3d9e75e354ea846708338bee5f7c87df4d03",
+  "output_sha256": "c0e98976766e72fb799717fb6dfad816cd4be4a1385a637376890e32f8a23e8e",
+  "changed_package_parts": [
+    "ppt/slides/slide14.xml",
+    "ppt/slides/slide15.xml",
+    "ppt/notesSlides/notesSlide14.xml",
+    "ppt/notesSlides/notesSlide15.xml"
+  ],
+  "unchanged_media_count": 21,
+  "S0_S11_slide_and_notes_xml_unchanged": true,
+  "S12_S13_notes_exact_v5": true,
+  "package_parts_added": 0,
+  "package_parts_removed": 0,
+  "images_added": 0
+}

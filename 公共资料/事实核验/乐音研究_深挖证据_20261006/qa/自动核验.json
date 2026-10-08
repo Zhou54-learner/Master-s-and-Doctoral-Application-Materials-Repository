@@ -1,0 +1,277 @@
+{
+  "scientific_invariants": "PASS",
+  "figures": [
+    {
+      "file": "F01_直管42组全部主峰.pdf",
+      "check_code": 0,
+      "check": {
+        "file": "F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\output\\F01_直管42组全部主峰.pdf",
+        "status": "PASS",
+        "bytes": 68939,
+        "page_count": 1,
+        "image_xobjects": 0,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 926.7878710937,
+            "height_pt": 721.44,
+            "image_xobjects": 0
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "render_code": 0,
+      "render_log": "PREVIEW=F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\qa\\F01_直管42组全部主峰_pdf.png\n"
+    },
+    {
+      "file": "F01_直管42组全部主峰.svg",
+      "check_code": 0,
+      "check": {
+        "file": "F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\output\\F01_直管42组全部主峰.svg",
+        "status": "PASS",
+        "dimensions": {
+          "width": "926.779902pt",
+          "height": "721.44pt",
+          "viewBox": "0 0 926.779902 721.44"
+        },
+        "counts": {
+          "Agent": 1,
+          "RDF": 1,
+          "Work": 1,
+          "clipPath": 9,
+          "creator": 1,
+          "date": 1,
+          "defs": 8,
+          "format": 1,
+          "g": 757,
+          "metadata": 1,
+          "path": 112,
+          "rect": 9,
+          "style": 1,
+          "svg": 1,
+          "text": 81,
+          "title": 1,
+          "type": 1,
+          "use": 404
+        },
+        "id_count": 535,
+        "reference_count": 15,
+        "errors": [],
+        "warnings": []
+      },
+      "render_code": 0,
+      "render_log": "PREVIEW=F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\qa\\F01_直管42组全部主峰_svg.png\n"
+    },
+    {
+      "file": "F02_台阶间距与管长.pdf",
+      "check_code": 0,
+      "check": {
+        "file": "F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\output\\F02_台阶间距与管长.pdf",
+        "status": "PASS",
+        "bytes": 58008,
+        "page_count": 1,
+        "image_xobjects": 0,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 890.9084960937,
+            "height_pt": 362.52,
+            "image_xobjects": 0
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "render_code": 0,
+      "render_log": "PREVIEW=F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\qa\\F02_台阶间距与管长_pdf.png\n"
+    },
+    {
+      "file": "F02_台阶间距与管长.svg",
+      "check_code": 0,
+      "check": {
+        "file": "F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\output\\F02_台阶间距与管长.svg",
+        "status": "PASS",
+        "dimensions": {
+          "width": "890.905684pt",
+          "height": "362.52pt",
+          "viewBox": "0 0 890.905684 362.52"
+        },
+        "counts": {
+          "Agent": 1,
+          "RDF": 1,
+          "Work": 1,
+          "clipPath": 2,
+          "creator": 1,
+          "date": 1,
+          "defs": 6,
+          "format": 1,
+          "g": 151,
+          "metadata": 1,
+          "path": 40,
+          "rect": 2,
+          "style": 1,
+          "svg": 1,
+          "text": 32,
+          "title": 1,
+          "type": 1,
+          "use": 52
+        },
+        "id_count": 129,
+        "reference_count": 6,
+        "errors": [],
+        "warnings": []
+      },
+      "render_code": 0,
+      "render_log": "PREVIEW=F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\qa\\F02_台阶间距与管长_svg.png\n"
+    },
+    {
+      "file": "F03_历史长录音七个台阶.pdf",
+      "check_code": 0,
+      "check": {
+        "file": "F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\output\\F03_历史长录音七个台阶.pdf",
+        "status": "PASS",
+        "bytes": 252968,
+        "page_count": 1,
+        "image_xobjects": 1,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 854.8347460937,
+            "height_pt": 513.7858,
+            "image_xobjects": 1
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "render_code": 0,
+      "render_log": "PREVIEW=F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\qa\\F03_历史长录音七个台阶_pdf.png\n"
+    },
+    {
+      "file": "F03_历史长录音七个台阶.svg",
+      "check_code": 0,
+      "check": {
+        "file": "F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\output\\F03_历史长录音七个台阶.svg",
+        "status": "PASS",
+        "dimensions": {
+          "width": "854.822871pt",
+          "height": "513.792112pt",
+          "viewBox": "0 0 854.822871 513.792112"
+        },
+        "counts": {
+          "Agent": 1,
+          "RDF": 1,
+          "Work": 1,
+          "clipPath": 1,
+          "creator": 1,
+          "date": 1,
+          "defs": 5,
+          "format": 1,
+          "g": 183,
+          "image": 1,
+          "metadata": 1,
+          "path": 35,
+          "rect": 1,
+          "style": 1,
+          "svg": 1,
+          "text": 39,
+          "title": 1,
+          "type": 1,
+          "use": 4218
+        },
+        "id_count": 152,
+        "reference_count": 4,
+        "errors": [],
+        "warnings": []
+      },
+      "render_code": 0,
+      "render_log": "PREVIEW=F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\qa\\F03_历史长录音七个台阶_svg.png\n"
+    },
+    {
+      "file": "F04_弯管全部原始标签.pdf",
+      "check_code": 0,
+      "check": {
+        "file": "F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\output\\F04_弯管全部原始标签.pdf",
+        "status": "PASS",
+        "bytes": 64687,
+        "page_count": 1,
+        "image_xobjects": 0,
+        "pages": [
+          {
+            "page": 1,
+            "width_pt": 1070.7878710937,
+            "height_pt": 522.6552,
+            "image_xobjects": 0
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      },
+      "render_code": 0,
+      "render_log": "PREVIEW=F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\qa\\F04_弯管全部原始标签_pdf.png\n"
+    },
+    {
+      "file": "F04_弯管全部原始标签.svg",
+      "check_code": 0,
+      "check": {
+        "file": "F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\output\\F04_弯管全部原始标签.svg",
+        "status": "WARN",
+        "dimensions": {
+          "width": "1070.779902pt",
+          "height": "522.6552pt",
+          "viewBox": "0 0 1070.779902 522.6552"
+        },
+        "counts": {
+          "Agent": 1,
+          "RDF": 1,
+          "Work": 1,
+          "clipPath": 7,
+          "creator": 1,
+          "date": 1,
+          "defs": 8,
+          "format": 1,
+          "g": 409,
+          "metadata": 1,
+          "path": 64,
+          "rect": 7,
+          "style": 1,
+          "svg": 1,
+          "text": 55,
+          "title": 1,
+          "type": 1,
+          "use": 163
+        },
+        "id_count": 301,
+        "reference_count": 13,
+        "errors": [],
+        "warnings": [
+          "Found 1 empty text element(s)."
+        ]
+      },
+      "render_code": 0,
+      "render_log": "PREVIEW=F:\\1A硕博申请\\公共资料\\事实核验\\乐音研究_深挖证据_20261006\\qa\\F04_弯管全部原始标签_svg.png\n"
+    }
+  ],
+  "regeneration_exit_code": 0,
+  "png_regeneration": [
+    {
+      "file": "F01_直管42组全部主峰.png",
+      "pixel_exact": true
+    },
+    {
+      "file": "F02_台阶间距与管长.png",
+      "pixel_exact": true
+    },
+    {
+      "file": "F03_历史长录音七个台阶.png",
+      "pixel_exact": true
+    },
+    {
+      "file": "F04_弯管全部原始标签.png",
+      "pixel_exact": true
+    }
+  ],
+  "intentional_raster": "F03: original-audio-derived STFT heatmap; axes/text/ridge lines remain vector.",
+  "all_pass": true
+}

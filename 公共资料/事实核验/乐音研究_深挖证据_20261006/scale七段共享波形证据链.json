@@ -1,0 +1,77 @@
+{
+  "method": "第一声道重采样至12kHz、各文件减全局均值；valid全长互相关除以滑动段能量与短段能量乘积的平方根，取绝对值最大点。不是固定整段长文件能量归一。",
+  "matches": [
+    {
+      "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_1.m4a",
+      "correlation": 0.9890031144907817,
+      "start_s": 0.031083333333333334,
+      "duration_s": 3.6906666666666665,
+      "short_file_creation_time_utc": "2024-03-29T13:19:43.000000Z",
+      "short_file_sample_rate": 48000,
+      "end_s": 3.7217499999999997,
+      "gap_from_previous_s": null
+    },
+    {
+      "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_1.m4a",
+      "correlation": 0.9891836411523822,
+      "start_s": 3.7154166666666666,
+      "duration_s": 3.562666666666667,
+      "short_file_creation_time_utc": "2024-03-29T13:30:01.000000Z",
+      "short_file_sample_rate": 48000,
+      "end_s": 7.278083333333333,
+      "gap_from_previous_s": -0.00633333333333308
+    },
+    {
+      "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_2.m4a",
+      "correlation": 0.984914332590213,
+      "start_s": 7.280333333333333,
+      "duration_s": 3.1146666666666665,
+      "short_file_creation_time_utc": "2024-03-29T13:49:06.000000Z",
+      "short_file_sample_rate": 48000,
+      "end_s": 10.395,
+      "gap_from_previous_s": 0.0022500000000000853
+    },
+    {
+      "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_1.m4a",
+      "correlation": 0.9720838469132175,
+      "start_s": 10.393,
+      "duration_s": 2.24,
+      "short_file_creation_time_utc": "2024-03-31T12:26:52.000000Z",
+      "short_file_sample_rate": 48000,
+      "end_s": 12.633000000000001,
+      "gap_from_previous_s": -0.0019999999999988916
+    },
+    {
+      "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_1.m4a",
+      "correlation": 0.994266608336308,
+      "start_s": 12.633,
+      "duration_s": 3.2213333333333334,
+      "short_file_creation_time_utc": "2024-03-31T12:34:26.000000Z",
+      "short_file_sample_rate": 48000,
+      "end_s": 15.854333333333333,
+      "gap_from_previous_s": -1.7763568394002505e-15
+    },
+    {
+      "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_1.m4a",
+      "correlation": 0.9840029395409482,
+      "start_s": 15.8545,
+      "duration_s": 2.624,
+      "short_file_creation_time_utc": "2024-03-31T12:41:17.000000Z",
+      "short_file_sample_rate": 48000,
+      "end_s": 18.4785,
+      "gap_from_previous_s": 0.00016666666666687036
+    },
+    {
+      "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_1.m4a",
+      "correlation": 0.9565818944521463,
+      "start_s": 18.478666666666665,
+      "duration_s": 2.496,
+      "short_file_creation_time_utc": "2024-03-31T12:46:11.000000Z",
+      "short_file_sample_rate": 48000,
+      "end_s": 20.974666666666664,
+      "gap_from_previous_s": 0.000166666666665094
+    }
+  ],
+  "sum_short_durations_s": 20.949333333333332,
+  "interpretation": "七个短文件依次近无缝覆盖长文件，相关0.956–0.994；短文件创建标签横跨3月29日和31日，强支持历史拼接展示。元数据非不可篡改的采集日志；具体编辑程序、操作方向未找回。不得计为一次独立连续扫气流记录。"
+}

@@ -1,0 +1,9 @@
+{
+  "records": 209,
+  "all_max_sample_abs_below_0999": true,
+  "minimum_near_global_peak_fraction": 0.8713450292397661,
+  "median_near_global_peak_fraction": 1.0,
+  "minimum_valid_frame_fraction": 0.84,
+  "exact_byte_aliases_conflicting_parsed_group_labels": [],
+  "note": "诊断基于解码后第一声道；未检出贴近数字满幅不排除上游限幅、自动增益、编码或未保存的处理。"
+}

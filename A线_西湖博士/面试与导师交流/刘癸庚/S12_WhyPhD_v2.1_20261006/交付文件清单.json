@@ -1,0 +1,52 @@
+[
+  {
+    "path": "PowerPoint排版检查.json",
+    "bytes": 4159,
+    "sha256": "3adb3656df4d3ef82477c2e51a80fb966e8518819426aa3f502ab54a921d5fd7"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1461,
+    "sha256": "b909932cebf58af5e77ab723d299be1fa7a6b3d10530483c6e9d1dd1eef96155"
+  },
+  {
+    "path": "S12_WhyPhD_v2.1.pdf",
+    "bytes": 63910,
+    "sha256": "f893d509eb84ee5470804a8d89f03c96ed8f64f22e25fea3a0d5c3c7d8e78923"
+  },
+  {
+    "path": "S12_WhyPhD_v2.1.pptx",
+    "bytes": 36472,
+    "sha256": "dcc6e5c731a327ea120523c3a96114fbeff627104a07e60962d1168883a1d7f2"
+  },
+  {
+    "path": "制作源/patch_text.py",
+    "bytes": 2159,
+    "sha256": "977fe1c964945f852b82d9174507482a561266de07afd4519debb87ff5a0e746"
+  },
+  {
+    "path": "单句修订检查.json",
+    "bytes": 792,
+    "sha256": "6fff108576e85e31fe6b6ad273a940ed79837c6265431ee7b8f603b40a0a08b9"
+  },
+  {
+    "path": "图片差异检查.json",
+    "bytes": 736,
+    "sha256": "05165b8434eb05e3139aed4b2ff51fdb4df29833c74b6c9e53752646e94cad33"
+  },
+  {
+    "path": "本页备注.md",
+    "bytes": 4176,
+    "sha256": "a4739a4ce5b1d1f679ad4faeeed59f863a2de7ad35df0a16f23a3fd23179bbf1"
+  },
+  {
+    "path": "预览/S12_1920x1080.png",
+    "bytes": 51414,
+    "sha256": "b67c9fb90093632fe1999531dec748e2c25565e60f6e53063ca090e598211114"
+  },
+  {
+    "path": "预览/S12_3840x2160.png",
+    "bytes": 113306,
+    "sha256": "f0663e035759c457f7eb795725790b03dad707a0f857b1f95b12d3bce2dfe8cb"
+  }
+]

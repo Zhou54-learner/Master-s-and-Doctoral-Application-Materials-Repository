@@ -1,0 +1,199 @@
+{
+  "renderer": "Microsoft PowerPoint 16.0",
+  "slides": 1,
+  "pdf_pages": 1,
+  "logical_slide": "S10",
+  "variant": "S10-B",
+  "pptx_unchanged_by_readonly_render": true,
+  "export_sizes": [
+    {
+      "size": [
+        3840,
+        2160
+      ],
+      "expected": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "expected": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "text_overflow": [],
+  "shapes_outside_canvas": [],
+  "notes_complete": true,
+  "whyphd_original_verbatim": null,
+  "image_checks": [
+    {
+      "name": "article_list",
+      "crop_pixels_match": true,
+      "source_sha256_matches": true,
+      "aspect_relative_error": 2.5515827450917072e-08,
+      "embedded_bytes_match": true
+    },
+    {
+      "name": "title_detail",
+      "crop_pixels_match": true,
+      "source_sha256_matches": true,
+      "aspect_relative_error": 3.682101568092122e-07,
+      "embedded_bytes_match": true
+    }
+  ],
+  "shapes": [
+    {
+      "name": "section",
+      "rect_pt": [
+        39.599998474121094,
+        17.280000686645508,
+        720.0,
+        18.719999313354492
+      ],
+      "text": "个人探索",
+      "text_bound_pt": [
+        47.25,
+        14.305039405822754
+      ],
+      "available_pt": [
+        720.0,
+        18.719999313354492
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 11.0
+    },
+    {
+      "name": "title",
+      "rect_pt": [
+        39.599998474121094,
+        46.79999923706055,
+        882.0,
+        51.84000015258789
+      ],
+      "text": "我也会把这些问题写下来",
+      "text_bound_pt": [
+        316.3750305175781,
+        36.4050407409668
+      ],
+      "available_pt": [
+        882.0,
+        51.84000015258789
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 28.0
+    },
+    {
+      "name": "subtitle",
+      "rect_pt": [
+        41.7599983215332,
+        102.95999908447266,
+        871.2000122070312,
+        23.760000228881836
+      ],
+      "text": "“无用清静梦” · 个人公众号",
+      "text_bound_pt": [
+        170.75,
+        16.899999618530273
+      ],
+      "available_pt": [
+        871.2000122070312,
+        23.760000228881836
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 13.0
+    },
+    {
+      "name": "footer_rule",
+      "rect_pt": [
+        39.599998474121094,
+        506.8800048828125,
+        882.0,
+        0.0
+      ]
+    },
+    {
+      "name": "slide_number",
+      "rect_pt": [
+        875.52001953125,
+        510.4800109863281,
+        46.79999923706055,
+        25.920000076293945
+      ],
+      "text": "S10",
+      "text_bound_pt": [
+        32.0,
+        19.5
+      ],
+      "available_pt": [
+        46.79999923706055,
+        25.920000076293945
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 15.0
+    },
+    {
+      "name": "article_list",
+      "rect_pt": [
+        90.0,
+        143.8517303466797,
+        230.39999389648438,
+        345.17645263671875
+      ]
+    },
+    {
+      "name": "detail_label",
+      "rect_pt": [
+        376.55999755859375,
+        331.20001220703125,
+        460.79998779296875,
+        20.8799991607666
+      ],
+      "text": "同一截图 · 首篇标题局部",
+      "text_bound_pt": [
+        122.37503814697266,
+        14.305039405822754
+      ],
+      "available_pt": [
+        460.79998779296875,
+        20.8799991607666
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 11.0
+    },
+    {
+      "name": "title_detail",
+      "rect_pt": [
+        374.3999938964844,
+        376.0321960449219,
+        491.760009765625,
+        71.61550903320312
+      ]
+    },
+    {
+      "name": "source_footer",
+      "rect_pt": [
+        39.599998474121094,
+        514.7999877929688,
+        820.7999877929688,
+        16.559999465942383
+      ],
+      "text": "本人补充的历史截图 · 首篇文章条目",
+      "text_bound_pt": [
+        145.0,
+        11.699999809265137
+      ],
+      "available_pt": [
+        820.7999877929688,
+        16.559999465942383
+      ],
+      "font_name": "Microsoft YaHei",
+      "font_size": 9.0
+    }
+  ]
+}

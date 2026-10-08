@@ -1,0 +1,19 @@
+{
+  "source": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/53,53.jpg",
+  "source_size_px": [
+    2133,
+    2130
+  ],
+  "crop_box_px": [
+    586,
+    837,
+    1491,
+    1337
+  ],
+  "derived_size_px": [
+    905,
+    500
+  ],
+  "operation": "white-margin crop only; no redraw, recolour, rotation or stretching; enlarged independently of main image",
+  "sha256": "a4b121f4eed57d7d35e641197b469c57bc629ce2b8864efd6f40b299974a448a"
+}

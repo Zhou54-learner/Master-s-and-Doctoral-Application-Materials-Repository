@@ -1,0 +1,2186 @@
+[
+  {
+    "source": "E:/2024/yxy组代码/代码/FFT.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码/FFT.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码/fxfl.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码/fxfl.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码/fyfl.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码/fyfl.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码/man.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码/man.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码/set_axis_length.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码/set_axis_length.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码/vxnn.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码/vxnn.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码/vynn.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码/vynn.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码/xlg.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码/xlg.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/代码（偏振）.zip",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/代码（偏振）.zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/代码（偏振）去前段 图像比例统一.zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/代码（对称偏振）.zip",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/代码（对称偏振）.zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/fxfl.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/fxfl.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/fyfl.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/fyfl.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/main.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/main.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/monizhendong.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/monizhendong.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/sn.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/sn.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/vxnn.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/vxnn.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/vynn.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/vynn.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/xiaozhendong.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/xiaozhendong.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/xlg.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/xlg.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码存档/模拟代码/说明.doc",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码存档/模拟代码/说明.doc",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/1725198103735.jpg",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/1725198103735.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/fxfl.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/fxfl.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/fyfl.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/fyfl.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/main.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/main.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/picture_cut.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/picture_cut.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/save_as_svg_eps.mlx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/save_as_svg_eps.mlx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/vxnn.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/vxnn.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/vynn.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/vynn.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/xlg.m",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/xlg.m",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/李萨如图.eps",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/李萨如图.eps",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/李萨如图.svg",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/李萨如图.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/yxy组代码/代码（偏振）去前段/李萨如图.xlsx",
+    "mirror": "科研准备/晶格波研究/分析代码/原始代码/代码（偏振）去前段/李萨如图.xlsx",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60(3,3).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60(3,3).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/60-0.001(3,3).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/60-0.001(3,3).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure 60°/data figure 60°.zip",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure 60°/data figure 60°.zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x/x(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x/x(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x/x(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x/x(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x/x(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x/x(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x/x(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x/x(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x/x(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x/x(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x/x(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x/x(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x/x(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x/x(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.0m1.8q/x(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.0m1.8q/x(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.0m1.8q/x(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.0m1.8q/x(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.0m1.8q/x(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.0m1.8q/x(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.0m1.8q/x(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.0m1.8q/x(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.0m1.8q/x(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.0m1.8q/x(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.0m1.8q/x(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.0m1.8q/x(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.0m1.8q/x(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.0m1.8q/x(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.2m1.2q/x(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.2m1.2q/x(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.2m1.2q/x(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.2m1.2q/x(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.2m1.2q/x(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.2m1.2q/x(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.2m1.2q/x(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.2m1.2q/x(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.2m1.2q/x(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.2m1.2q/x(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.2m1.2q/x(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.2m1.2q/x(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.2m1.2q/x(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.2m1.2q/x(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.4m1.4q/x(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.4m1.4q/x(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.4m1.4q/x(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.4m1.4q/x(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.4m1.4q/x(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.4m1.4q/x(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.4m1.4q/x(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.4m1.4q/x(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.4m1.4q/x(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.4m1.4q/x(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.4m1.4q/x(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.4m1.4q/x(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.4m1.4q/x(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.4m1.4q/x(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.6m1.6q/x(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.6m1.6q/x(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.6m1.6q/x(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.6m1.6q/x(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.6m1.6q/x(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.6m1.6q/x(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.6m1.6q/x(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.6m1.6q/x(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.6m1.6q/x(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.6m1.6q/x(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.6m1.6q/x(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.6m1.6q/x(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.6m1.6q/x(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.6m1.6q/x(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.0q/x(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.0q/x(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.0q/x(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.0q/x(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.0q/x(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.0q/x(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.0q/x(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.0q/x(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.0q/x(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.0q/x(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.0q/x(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.0q/x(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.0q/x(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.0q/x(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.8q/x(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.8q/x(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.8q/x(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.8q/x(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.8q/x(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.8q/x(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.8q/x(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.8q/x(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.8q/x(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.8q/x(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.8q/x(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.8q/x(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x 1.8m1.8q/x(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x 1.8m1.8q/x(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/47,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/47,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/47,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/47,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/47,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/47,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/47,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/47,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/47,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/47,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/48,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/48,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/48,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/48,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/48,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/48,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/48,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/48,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/49,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/49,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/49,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/49,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/49,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/49,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/49,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/49,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/49,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/49,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/50,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/50,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/50,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/50,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/50,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/50,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/50,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/50,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/51,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/51,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/51,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/51,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/51,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/51,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/51,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/51,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/51,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/51,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/52,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/52,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/52,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/52,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/52,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/52,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/52,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/52,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/53,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/53,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/53,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/53,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/53,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/53,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/53,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/53,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/53,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/53,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/54,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/54,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/54,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/54,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/54,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/54,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/54,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/54,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/55,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/55,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/55,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/55,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/55,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/55,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/55,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/55,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line/55,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line/55,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/no line.zip",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/no line.zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/QQ_1723601598735.png",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/QQ_1723601598735.png",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/47,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/47,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/47,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/47,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/47,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/47,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/47,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/47,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/47,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/47,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/48,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/48,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/48,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/48,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/48,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/48,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/48,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/48,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/49,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/49,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/49,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/49,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/49,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/49,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/49,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/49,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/49,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/49,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/50,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/50,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/50,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/50,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/50,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/50,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/50,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/50,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/51,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/51,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/51,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/51,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/51,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/51,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/51,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/51,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/51,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/51,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/52,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/52,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/52,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/52,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/52,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/52,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/52,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/52,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/53,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/53,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/53,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/53,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/53,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/53,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/53,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/53,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/53,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/53,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/54,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/54,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/54,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/54,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/54,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/54,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/54,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/54,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/55,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/55,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/55,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/55,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/55,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/55,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/55,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/55,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/55,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/55,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 10(jpg)/square fig(jpg).zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/47,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/47,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/47,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/47,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/47,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/47,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/47,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/47,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/47,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/47,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/48,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/48,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/48,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/48,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/48,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/48,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/48,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/48,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/49,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/49,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/49,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/49,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/49,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/49,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/49,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/49,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/49,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/49,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/50,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/50,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/50,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/50,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/50,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/50,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/50,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/50,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/51,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/51,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/51,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/51,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/51,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/51,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/51,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/51,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/51,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/51,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/52,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/52,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/52,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/52,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/52,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/52,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/52,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/52,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/53,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/53,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/53,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/53,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/53,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/53,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/53,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/53,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/53,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/53,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/54,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/54,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/54,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/54,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/54,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/54,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/54,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/54,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/55,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/55,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/55,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/55,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/55,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/55,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/55,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/55,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg)/55,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg)/55,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig 7(jpg).zip",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig 7(jpg).zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/47,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/47,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/47,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/47,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/47,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/47,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/47,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/47,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/47,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/47,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/48,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/48,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/48,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/48,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/48,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/48,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/48,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/48,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/49,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/49,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/49,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/49,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/49,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/49,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/49,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/49,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/49,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/49,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/50,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/50,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/50,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/50,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/50,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/50,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/50,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/50,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/51,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/51,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/51,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/51,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/51,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/51,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/51,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/51,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/51,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/51,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/52,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/52,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/52,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/52,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/52,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/52,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/52,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/52,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/53,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/53,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/53,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/53,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/53,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/53,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/53,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/53,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/53,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/53,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/54,48.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/54,48.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/54,50.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/54,50.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/54,52.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/54,52.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/54,54.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/54,54.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/55,47.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/55,47.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/55,49.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/55,49.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/55,51.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/55,51.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/55,53.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/55,53.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg)/55,55.jpg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg)/55,55.jpg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig line_L(jpg).zip",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig line_L(jpg).zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/47,47.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/47,47.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/47,49.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/47,49.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/47,51.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/47,51.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/47,53.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/47,53.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/47,55.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/47,55.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/48,48.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/48,48.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/48,50.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/48,50.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/48,52.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/48,52.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/48,54.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/48,54.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/49,47.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/49,47.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/49,49.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/49,49.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/49,51.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/49,51.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/49,55.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/49,55.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/49.53.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/49.53.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/50,48.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/50,48.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/50,50.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/50,50.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/50,52.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/50,52.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/50,54.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/50,54.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/51,47.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/51,47.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/51,49.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/51,49.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/51,51.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/51,51.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/51,53.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/51,53.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/51,55.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/51,55.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/52,48.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/52,48.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/52,50.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/52,50.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/52,52.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/52,52.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/52,54.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/52,54.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/53,47.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/53,47.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/53,51.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/53,51.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/53,53.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/53,53.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/53,55.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/53,55.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/54,48.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/54,48.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/54,50.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/54,50.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/54,52.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/54,52.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/54,54.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/54,54.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/55,47.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/55,47.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/55,49.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/55,49.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/55,51.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/55,51.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/55,53.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/55,53.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg)/55,55.svg",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg)/55,55.svg",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/square fig(svg).zip",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/square fig(svg).zip",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(47,47).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(47,47).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(47,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(47,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(47,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(47,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(47,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(47,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(47,55).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(47,55).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(48,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(48,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(48,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(48,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(48,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(48,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(48,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(48,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(49,47).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(49,47).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(49,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(49,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(49,51) t=20-30.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(49,51) t=20-30.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(49,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(49,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(49,53) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(49,53) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(49,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(49,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(49,55) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(49,55) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(49,55).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(49,55).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(50,48) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(50,48) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(50,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(50,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(50,50) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(50,50) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(50,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(50,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(50,52) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(50,52) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(50,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(50,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(50,54) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(50,54) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(50,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(50,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,47).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,47).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,49)(乱) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,49)(乱) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,49)(乱).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,49)(乱).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,51) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,51) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,53) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,53) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,55) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,55) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(51,55).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(51,55).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(52,48) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(52,48) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(52,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(52,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(52,50) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(52,50) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(52,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(52,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(52,52) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(52,52) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(52,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(52,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(52,54) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(52,54) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(52,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(52,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(53,47) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(53,47) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(53,47).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(53,47).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(53,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(53,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(53,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(53,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(53,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(53,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(53,55).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(53,55).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(54,48) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(54,48) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(54,48).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(54,48).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(54,50) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(54,50) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(54,50).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(54,50).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(54,52) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(54,52) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(54,52).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(54,52).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(54,54) xy.fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(54,54) xy.fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(54,54).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(54,54).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(55,47).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(55,47).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(55,49).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(55,49).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(55,51).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(55,51).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(55,53).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(55,53).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5/x(55,55).fig",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5/x(55,55).fig",
+    "exists": true,
+    "hash_equal": true
+  },
+  {
+    "source": "E:/2024/data figure/data figure x tc-5.zip",
+    "mirror": "科研准备/晶格波研究/图件/原始图件/data figure x tc-5.zip",
+    "exists": true,
+    "hash_equal": true
+  }
+]

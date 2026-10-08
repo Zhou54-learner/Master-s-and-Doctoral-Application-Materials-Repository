@@ -1,0 +1,2701 @@
+=== PDF PAGE 1 ===
+ 
+ 
+ 
+ 
+ 
+本科毕业论文（设计） 
+ 
+ 
+ 
+ 
+ 
+RESISTIVE FILM-BASED METAMATERIAL 
+STRUCTURE DESIGN FOR ENHANCED 
+BROADBAND MICROWAVE ABSORPTION 
+ 
+周子靖 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+哈尔滨工业大学 
+2026 年5 月 
+ 
+ 
+
+
+=== PDF PAGE 2 ===
+ 
+ 
+☑ 毕业论文  毕业设计                                                                                密级：公开 
+ 
+ 
+ 
+本科毕业论文（设计） 
+ 
+ 
+RESISTIVE FILM-BASED METAMATERIAL 
+STRUCTURE DESIGN FOR ENHANCED 
+BROADBAND MICROWAVE ABSORPTION 
+ 
+ 
+ 
+ 
+本
+科
+生 ： 周子靖 
+学
+号 ： 2022112550 
+指
+导
+教
+师 ： 孟庆鑫教授 
+专
+业 ： 应用物理学（中外合作） 
+学
+院 ： 物理学院 
+答 辩 日 期 ： 2026 年5 月 
+学
+校 ： 哈尔滨工业大学 
+ 
+ 
+ 
+
+
+=== PDF PAGE 3 ===
+ 
+ 
+2
+Contents 
+Abstract ................................................................................................................................................ I 
+Chapter 1  Introduction ........................................................................................................................ 1 
+1.1  Research Background and Significance ............................................................................... 1 
+1.2  Research Status of Metamaterial Absorbers ......................................................................... 2 
+1.3  Research Status of Resistive Films and Sheet-Resistance Absorbing Structures ................ 3 
+1.4  Application of Numerical Simulation and Intelligent Optimization Methods in Absorbing 
+Structure Design .......................................................................................................................... 4 
+1.5  Main Research Contents ....................................................................................................... 4 
+1.6  Summary of This Chapter .................................................................................................... 5 
+Chapter 2  Theoretical Basis of Resistive-Film Metamaterial Absorption ......................................... 6 
+2.1  Electromagnetic-Wave Absorption and Reflection Loss ..................................................... 6 
+2.2  Metal-Backed Absorbing Structures and the Principle of Impedance Matching ................. 7 
+2.3  Ohmic Loss Mechanism of Resistive Films ......................................................................... 8 
+2.4  Thin Solid Resistive Film and Ohmic Sheet Models ......................................................... 10 
+2.5  Electromagnetic Regulation Mechanism of Patterned Resistive Films.............................. 11 
+2.6  Basic Principles of Pixelated Topology and Genetic-Algorithm Optimization ................. 12 
+2.7  Summary of This Chapter .................................................................................................. 14 
+Chapter 3  Absorbing Structure Design and Simulation Modeling ................................................... 15 
+3.1  Structural Design Concept .................................................................................................. 15 
+3.2  Composition and Dimensional Definition of the Absorbing Unit ...................................... 16 
+3.3  Establishment of the CST Three-Dimensional Simulation Model ..................................... 17 
+3.4  Simulation Parameters, Monitor Settings and Performance Evaluation Method ............... 19 
+3.4.1  Thin Solid Film Model ............................................................................................ 19 
+3.4.2  S-Parameter Output and Reflection-Loss Calculation............................................. 19 
+3.4.3  Physical-Field and Loss Monitor Settings ............................................................... 20 
+3.4.4  Performance Evaluation Indices .............................................................................. 21 
+3.5  Comparison of Thin Solid Film and Ohmic Sheet Modeling Results and the Basis for 
+Model Selection ......................................................................................................................... 21 
+3.5.1  Basic Differences between the Two Modeling Methods ........................................ 21 
+3.5.2  Comparison of Reflection-Loss Results between the Thin Solid Film and Ohmic 
+Sheet Models ..................................................................................................................... 22 
+3.5.3  Cross-Sectional Characteristics of Engineering Resistive-Film Materials ............. 23 
+3.5.4  Basis for the Final Modeling Choice ....................................................................... 24 
+3.6  Pixelated Topology Construction and Parametric Modeling Method ................................ 25 
+3.7  Summary of This Chapter .................................................................................................. 26 
+Chapter 4  CST-Python Co-Simulation and Genetic-Algorithm Optimization Method ................... 27 
+4.1  Overall Concept of Automatic Optimization...................................................................... 27 
+4.2  CST-Python Co-Simulation Workflow .............................................................................. 28 
+4.3  Optimization Variables and Structural Encoding Method ................................................. 29 
+4.4  Fitness Function and Performance Evaluation Indices....................................................... 30 
+
+
+=== PDF PAGE 4 ===
+ 
+ 
+3
+4.5  Genetic Operations and Population Updating Mechanism ................................................ 31 
+4.6  Staged Optimization Strategy ............................................................................................. 32 
+4.7  Result Saving and Data Post-Processing ............................................................................ 34 
+4.8  Summary of This Chapter .................................................................................................. 34 
+Chapter 5  Staged Topology Optimization Results and Performance Improvement ........................ 36 
+5.1  Overall Concept of Staged Optimization............................................................................ 36 
+5.2  Baseline Optimization Results of the 6×6 Thin Solid Film Model .................................... 36 
+5.3  Verification and Re-optimization of the 6×6 Structure Using the Ohmic Sheet Model .... 37 
+5.4  9×9 High-Resolution Topology Optimization Results ....................................................... 39 
+5.5  12×12 High‑Frequency Compensation Optimization Results ............................................ 40 
+5.6  12×12 Semi‑Constrained Multi‑Template Topology Optimization ................................... 41 
+5.7  Performance Analysis of the Final 12×12 Structure .......................................................... 43 
+5.8  Comparison of Optimization Results at Different Stages .................................................. 44 
+5.9  Summary of This Chapter .................................................................................................. 48 
+Chapter 6  Absorption Performance and Mechanism Analysis of the Final 12×12 Structure .......... 49 
+6.1  Overview of the Final Structure and Absorption Performance .......................................... 49 
+6.2  Three-Dimensional Model and Spatial Coupling Characteristics of the Final Structure ... 50 
+6.3  Analysis of Electric Field Distribution ............................................................................... 51 
+6.4  Analysis of Magnetic Field Distribution ............................................................................ 53 
+6.5  Analysis of Power Loss Density ......................................................................................... 55 
+6.6  Functional Division of the X/Y Orthogonal Sheet-Resistance Films................................. 57 
+6.7  Summary of the Broadband Absorption Mechanism ......................................................... 58 
+6.8  Summary of This Chapter .................................................................................................. 59 
+Conclusions ....................................................................................................................................... 61 
+References ......................................................................................................................................... 63 
+攻读学士学位期间取得创新性成果 ................................................................................................ 65 
+哈尔滨工业大学本科毕业论文（设计） ........................................................................................ 66 
+原创性声明和使用权限 .................................................................................................................... 66 
+致  谢 ................................................................................................................................................. 67 
+
+
+=== PDF PAGE 5 ===
+ 
+I 
+Abstract 
+To meet the demand for lightweight and low-reflection broadband microwave absorbing 
+structures in complex electromagnetic environments, this thesis designs a metal-backed absorber 
+based on resistive-film metamaterials. The structure consists of a metal ground, two orthogonal PET 
+substrates, and single-sided patterned resistive films, with the continuous effective bandwidth of 
+𝑅𝐿< −10 dB in the 2–18 GHz range adopted as the main evaluation index. The thin-solid-film 
+model and the Ohmic-sheet surface-resistance model are compared, and the Ohmic-sheet model, 
+which better matches the engineering characterization of sheet-resistance materials, is selected for 
+subsequent optimization. A CST-Python co-simulation and genetic-algorithm workflow is 
+established to perform 6×6, 9×9, and 12×12 pixelated topology optimizations, with independent 
+X/Y sheet resistances and a semi-constrained multi-template strategy introduced. The final structure 
+has 𝑝 =13.1409mm, ℎ= 10.0731mm, 𝑅𝑠,𝑥= 140.79 Ω/𝑠𝑞, and 𝑅𝑠,𝑦= 35.461 Ω/sq. It achieves 
+effective absorption from 4.80 to 18.00 GHz, with a bandwidth of 13.20 GHz and a coverage ratio 
+of 82.5%. Field and loss analyses show that the broadband absorption mainly results from 
+transmission suppression by the metal ground, spatial coupling between the X/Y-oriented resistive 
+sheets, multimode responses, and surface ohmic loss. 
+Keywords:  resistive film, metamaterial absorber, surface sheet resistance, broadband 
+microwave absorption, genetic algorithm, CST-Python co-simulation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 6 ===
+ 
+1 
+Chapter 1  Introduction 
+1.1  Research Background and Significance 
+With the rapid development of wireless communication, radar detection, satellite remote 
+sensing, electronic countermeasures and intelligent equipment, electromagnetic waves have become 
+important carriers for transmitting energy and information in modern information systems. At the 
+same time, the number of electronic devices is increasing, their operating frequency ranges are 
+continuously expanding, and electromagnetic interference, electromagnetic leakage and target 
+scattering problems in complex environments have become increasingly prominent. In application 
+scenarios such as electromagnetic compatibility, radar stealth, precision testing and electronic 
+equipment protection, how to effectively reduce the reflection of incident electromagnetic waves 
+from structural surfaces has become an important issue in the design of microwave absorbing 
+materials and electromagnetic functional structures. 
+Conventional microwave absorbing materials usually rely on intrinsic dielectric loss, magnetic 
+loss or porous composite structures to dissipate electromagnetic energy and have a certain 
+engineering application basis. However, traditional materials still have limitations in broadband 
+absorption, lightweight and thin design, and structural designability. In particular, in a broad 
+frequency range such as 2-18 GHz, which covers several typical microwave bands including S, C, 
+X and Ku, if one relies only on material thickness and the quarter-wavelength matching principle, 
+the structural thickness tends to increase significantly with the low-frequency wavelength, which is 
+unfavorable for lightweight and compact design. Therefore, a broadband absorbing structure not 
+only needs sufficient loss but also needs to maintain good impedance matching over a wide 
+frequency range. 
+Metamaterials provide a new approach for overcoming the performance limitations of 
+conventional materials by regulating effective electromagnetic parameters through artificially 
+designed subwavelength structural units. Since the studies on negative-index media and artificial 
+electromagnetic metamaterials were proposed, metamaterials have been widely used in 
+electromagnetic-wave propagation control, stealth, frequency selective surfaces and absorbers [1-4]. 
+The perfect metamaterial absorber proposed by Landy et al. in 2008 demonstrated that, through the 
+regulation of electric response, magnetic response and loss in artificial structures, nearly complete 
+absorption can be achieved at a specific frequency [5]. Since then, metamaterial absorbers have 
+gradually developed from single-frequency strong absorption toward multi-frequency, broadband, 
+flexible, transparent and reconfigurable designs [6-10]. 
+Among broadband microwave absorbing structures, resistive-film metamaterials have 
+considerable research value. Resistive films have the characteristics of small thickness, adjustable 
+sheet resistance, easy patterning and relatively flexible processing methods, and they can generate 
+ohmic loss through surface currents. Compared with ideal metallic resonant units, resistive-film 
+patterns can not only provide structural resonance but also directly participate in energy dissipation. 
+Compared with uniform resistive sheets, patterned resistive films can further regulate the equivalent 
+impedance and multimode response by changing the connectivity of conductive regions, edge 
+
+
+=== PDF PAGE 7 ===
+ 
+2 
+length and local window morphology. Therefore, metamaterial structures based on resistive films 
+are suitable for lightweight, thin and broadband microwave absorption design [11-12]. 
+This project studies a broadband microwave absorbing structure based on resistive-film 
+metamaterials, aiming to obtain a relatively wide effective absorption bandwidth with RL<-10 dB 
+in the 2-18 GHz range through structural design and numerical optimization. The research has 
+significance for the design of electromagnetic functional materials and also has strong numerical-
+simulation and engineering-optimization characteristics. By establishing a sheet-resistance model 
+for the resistive film, constructing pixelated patterns, and introducing CST-Python co-simulation 
+and genetic-algorithm optimization, the relationships among structural parameters, pattern topology 
+and absorption performance can be systematically explored, providing a reference for the design of 
+broadband sheet-resistance metamaterial absorbers. 
+1.2  Research Status of Metamaterial Absorbers 
+The research basis of metamaterial absorbers comes from the regulation of effective 
+permittivity, effective permeability and surface impedance by artificial electromagnetic structures. 
+Early metamaterial research mainly focused on negative refractive index, artificial magnetic 
+response and anomalous electromagnetic propagation [1-4]. In the field of absorption, typical 
+metamaterial absorbers are usually composed of periodic metallic patterns, dielectric layers and 
+metallic backing plates. The metallic backing plate suppresses transmission, the periodic structure 
+regulates the electromagnetic response, and the dielectric layer and loss units dissipate energy. 
+When the input impedance of the structure approaches the impedance of free space, the incident 
+wave can be reflected less at the front surface and dissipated inside the structure by loss 
+mechanisms. 
+The metallic resonant perfect absorber proposed by Landy et al. proved that artificial structures 
+can achieve single-frequency strong absorption through the coupling of electric and magnetic 
+resonances [5]. Subsequently, researchers expanded the absorption bandwidth through multilayer 
+stacking, multi-resonant units, multi-scale patterns and loading of lossy materials [6-8]. For example, 
+multilayer structures can introduce multiple response channels along the thickness direction, multi-
+scale patterns can make units of different sizes correspond to different absorption peaks, and 
+frequency selective surfaces can regulate reflection characteristics through combinations of 
+equivalent inductance, capacitance and resistance [8-10]. These studies have promoted the 
+development of metamaterial absorbers from single-frequency absorption to broadband absorption. 
+However, broadband absorber design still faces two main problems. First, strongly resonant 
+structures usually achieve deep absorption valleys, but their bandwidth is limited; to broaden the 
+bandwidth, multilayer structures or complex units often have to be introduced, increasing the 
+thickness and structural complexity. Second, artificially designed patterns contain many parameters, 
+and different parameters are coupled with each other, so traditional empirical tuning makes it 
+difficult to efficiently find optimal structures in a large design space. For broadband absorption 
+targets, structural performance should not be evaluated only by the minimum reflection loss at a 
+single frequency point, but should focus more on the continuous effective bandwidth with RL<-10 
+dB and the coverage ratio of the target band. 
+
+
+=== PDF PAGE 8 ===
+ 
+3 
+In recent years, flexible, transparent, reconfigurable and multifunctional absorbing structures 
+have become research hotspots. Some studies have used flexible dielectrics, transparent conductive 
+films, shape-memory materials or composite nanomaterials to combine electromagnetic absorption 
+performance with structural adaptability [14-18]. These studies show that the development trend of 
+absorbers is no longer limited to a single absorption performance, but is gradually turning toward 
+broadband, lightweight, designable and multifunctionally integrated structures. For an 
+undergraduate thesis, studying resistive-film broadband absorbing structures under controllable 
+simulation conditions conforms to the current development direction of metamaterial absorbers and 
+also facilitates analysis from both the physical-mechanism and optimization-method perspectives. 
+1.3  Research Status of Resistive Films and Sheet-Resistance Absorbing 
+Structures 
+Resistive-film absorbing structures are usually composed of a resistive film, a dielectric 
+supporting layer and a metallic backing plate. The key parameter of a resistive film is its sheet 
+resistance, usually expressed in Ω/sq. Sheet resistance determines the magnitude of surface current 
+on the film surface and the strength of energy dissipation, and it also affects the equivalent surface 
+impedance of the structure. If the sheet resistance is too low, the structure approaches a conductor 
+surface and the incident wave is prone to strong reflection; if the sheet resistance is too high, surface 
+currents cannot be sufficiently excited and ohmic loss is insufficient. Therefore, sheet-resistance 
+parameters need to be optimized together with geometric patterns and structural height. 
+Compared with metallic-patch absorbers, resistive films are not ideal conductors; instead, they 
+have both conductive response and loss functions. When incident electromagnetic waves act on a 
+patterned resistive film, surface currents are excited on the film surface, and the currents generate 
+Joule heat loss when passing through finite sheet-resistance regions, thereby dissipating 
+electromagnetic energy. Patterning further enhances the designability of resistive-film structures: 
+edges, openings, windows, bridges and local slits on the film surface change charge accumulation 
+positions, current-path lengths and local field-enhancement regions, enabling different response 
+modes to be excited in different frequency bands. 
+Existing studies have shown that resistive frequency selective surfaces, resistive sheets and 
+flexible conductive films can be used to construct broadband microwave absorbing structures [11-12]. 
+Sheet-resistance materials represented by ITO, graphene composites, carbon-based films and 
+nanocomposite conductive films can be combined with PET, PEN and polymer substrates to form 
+lightweight, flexible or transparent absorbing structures [14-18]. Such structures have potential 
+applications in stealth, electromagnetic compatibility and flexible electronics. 
+Although resistive-film absorbing structures have obvious advantages, their design still has 
+difficulties. On the one hand, continuous uniform resistive films have limited adjustable degrees of 
+freedom and are difficult to use to obtain stable low reflection over the 2-18 GHz broadband. On the 
+other hand, if the resistive film is discretized into a high-resolution pixelated pattern, the number of 
+design variables increases rapidly, manual parameter sweeping becomes inefficient, and complex 
+patterns are prone to fragmentation and unclear physical meaning. Therefore, the key to broadband 
+resistive-film absorber design is not only selecting an appropriate sheet resistance, but also 
+establishing a reasonable pattern-encoding method and optimization search approach. 
+
+
+=== PDF PAGE 9 ===
+ 
+4 
+1.4  Application of Numerical Simulation and Intelligent Optimization 
+Methods in Absorbing Structure Design 
+The performance of microwave absorbing structures usually needs to be obtained through full-
+wave electromagnetic simulation. For periodic metamaterial units, periodic boundaries and Floquet 
+ports can be used so that a single periodic unit approximates an infinite periodic array, thereby 
+calculating the reflection coefficient, field distribution and loss distribution under plane-wave 
+incidence. Commercial electromagnetic simulation software such as CST Studio Suite can handle 
+complex three-dimensional structures and periodic-boundary problems well, and is therefore 
+commonly used for metamaterial absorber design and performance analysis [20]. 
+However, when the structural pattern is discretized into a pixel matrix, the optimization space 
+increases sharply. Taking a 12×12 pattern as an example, if each pixel can independently be 
+retained or removed, the theoretical number of combinations is extremely large. If X/Y two 
+orthogonal film surfaces, the structural period, height and different sheet-resistance parameters are 
+also considered, the design space further expands. Traditional manual tuning is difficult to use for 
+this mixed problem of discrete topology variables and continuous geometric variables. 
+A genetic algorithm is a typical population-based intelligent optimization method. It does not 
+rely on gradients, is suitable for discrete encoding and can be readily linked with simulation 
+software [19]. In electromagnetic-structure optimization, a genetic algorithm can encode candidate 
+structures as individuals, evaluate their absorption performance through a fitness function, and then 
+improve the population generation by generation through selection, crossover, mutation and elitism. 
+For the pixelated resistive-film patterns studied in this thesis, each pixel can be represented by 0 or 
+1 to indicate whether the sheet-resistance region is retained, making the problem naturally suitable 
+for genetic-algorithm search. 
+This thesis adopts a CST-Python co-simulation optimization workflow. Python is responsible 
+for generating structural parameters, decoding pixelated patterns, calling CST for modeling and 
+solving, reading S11 data and calculating reflection loss. CST is responsible for three-dimensional 
+modeling and frequency-domain electromagnetic solving of the periodic unit. This workflow can 
+reduce repetitive manual modeling work and allows structural optimization at different stages to be 
+compared under unified simulation conditions. Compared with purely manual tuning, automatic 
+optimization can explore the design space of broadband absorbing structures more systematically. 
+1.5  Main Research Contents 
+This thesis studies the design and optimization of a broadband microwave absorbing structure 
+based on resistive-film metamaterials. The main work is as follows. 
+(1) A resistive-film metamaterial absorbing unit model is established. This thesis constructs a 
+periodic absorbing unit consisting of a metallic backing plate, two orthogonal PET substrates and 
+single-sided patterned resistive films. The metallic backing plate is used to suppress transmission, 
+the PET substrates support the resistive films and form an orthogonal spatial structure, and the 
+patterned resistive films regulate surface-current paths and generate ohmic loss. Periodic boundaries 
+and a Floquet port are adopted in the simulation to study the reflection-loss characteristics in the 2-
+18 GHz band. 
+
+
+=== PDF PAGE 10 ===
+ 
+5 
+(2) The thin solid resistive film model and the Ohmic Sheet sheet-resistance model are 
+compared. In the early stage, a thin solid film model is used to verify the feasibility of the double-
+orthogonal resistive-film structure and the pixelated-pattern optimization route. A surface Ohmic 
+Sheet model is then introduced to directly represent the resistive-film sheet resistance in Ω/sq, 
+making the model more consistent with the engineering description of sheet-resistance materials 
+and suitable for subsequent high-resolution topology optimization. 
+(3) A CST-Python co-simulation and genetic-algorithm optimization workflow is constructed. 
+Python is used to control CST to complete structural modeling, frequency-domain solving, S11 data 
+export and reflection-loss calculation, and the continuous effective bandwidth with RL<-10 dB is 
+used as the main fitness index. The optimization variables include the structural period p, height h, 
+X/Y-direction sheet resistances Rs,x and Rs,y, and the pixelated resistive-film patterns. 
+(4) Staged topology optimization is carried out. This thesis successively completes the 6×6 
+thin-solid-film baseline optimization, 6×6 re-optimization under the Ohmic Sheet model, 9×9 high-
+resolution topology optimization, 9×9 dimensional perturbation optimization, 12×12 high-
+frequency compensation optimization and 12×12 semi-constrained multi-template optimization. By 
+gradually increasing pattern resolution and introducing layered sheet resistance, the variation of 
+structural performance at different stages is analyzed. 
+(5) The broadband absorption mechanism of the final structure is analyzed. This thesis analyzes 
+the reflection-loss curve, electric-field distribution, magnetic-field distribution and surface power-
+loss-density distribution of the final 12×12 semi-constrained multi-template structure, explains the 
+roles of the metallic backing plate, orthogonal sheet-resistance films, pattern edges and window 
+structures in broadband absorption, and summarizes the main physical mechanisms by which the 
+final structure achieves broadband low reflection. 
+1.6  Summary of This Chapter 
+This chapter introduces the research background and significance of broadband microwave 
+absorbing structures, and summarizes the development status of metamaterial absorbers, resistive-
+film sheet-resistance absorbing structures and numerical-simulation optimization methods. 
+Conventional absorbing materials and single-resonance metamaterial structures still have certain 
+limitations in broadband, lightweight and high-degree-of-freedom design, while patterned resistive-
+film metamaterials can simultaneously utilize surface-current regulation, ohmic loss and multimode 
+coupling to provide an effective solution for broadband microwave absorption. To address the 
+difficulty of manually designing high-degree-of-freedom pixelated patterns, this thesis adopts CST-
+Python co-simulation and a genetic algorithm for staged optimization, and the subsequent chapters 
+introduce the theoretical basis, modeling method, optimization process and final structural 
+mechanism analysis. 
+ 
+ 
+
+
+=== PDF PAGE 11 ===
+ 
+6 
+Chapter 2  Theoretical Basis of Resistive-Film Metamaterial 
+Absorption 
+2.1  Electromagnetic-Wave Absorption and Reflection Loss 
+The essential task of a microwave absorbing structure is to reduce the reflection of incident 
+electromagnetic waves as much as possible over a certain frequency range and to effectively couple 
+the incident energy into the structure, where it is converted into other forms of energy through 
+mechanisms such as dielectric loss, magnetic loss or ohmic loss. For a general electromagnetic 
+structure, the incident power can be divided into reflected power, transmitted power and absorbed 
+power. Therefore, the absorptivity A can be expressed as 
+𝐴= 1 −𝑅−𝑇                                                   (2-1) 
+where 𝑅 is the reflectance and 𝑇 is the transmittance. If the structure is characterized by 
+scattering parameters, then 
+𝑅= |𝑆11|2,   𝑇= |𝑆21|2                                        (2-2) 
+Therefore, the absorptivity can also be written as 
+𝐴= 1 −|𝑆11|2 −|𝑆21|2                                            (2-3) 
+In practical microwave-absorber research, reflection characteristics are usually of greater 
+concern. Therefore, reflection loss (RL) is often used to evaluate absorption performance, and it is 
+defined as 
+𝑅𝐿= 20log10|𝑆11|                                                (2-4) 
+Since |𝑆11| is usually smaller than 1, 𝑅𝐿 is generally negative. The smaller its numerical value, 
+the weaker the reflection and the stronger the absorption. For example, when 𝑅𝐿= −10 𝑑𝐵, the 
+reflected power is only 10% of the incident power, and the structure is usually considered to possess 
+effective absorption capability; when 𝑅𝐿= −20 𝑑𝐵, the reflected power is only 1%, indicating 
+further enhanced absorption. 
+Compared with a simple absorptivity curve, the reflection-loss curve is more suitable for 
+engineering analysis because it can intuitively reflect the low-reflection intervals, absorption-valley 
+positions and broadband continuity of the structure at different frequencies. For broadband 
+absorption design, it is insufficient to focus only on whether a deep absorption valley appears at a 
+certain frequency. More importantly, one should determine whether there is a sufficiently wide 
+continuous interval below -10 dB in the target band. Therefore, the continuous effective absorption 
+bandwidth and the coverage ratio in the 2-18 GHz band are used as the main evaluation indices in 
+later chapters, rather than taking the minimum reflection loss as the sole criterion. 
+
+
+=== PDF PAGE 12 ===
+ 
+7 
+ 
+Figure 2-1  Schematic Diagram of Incident, Reflected, Transmitted and Absorbed Power 
+2.2  Metal-Backed Absorbing Structures and the Principle of Impedance 
+Matching 
+Among metamaterial absorbers, a common type is the metal-backed absorber. Such structures 
+usually consist of a functional surface layer, a dielectric supporting layer and a metallic backing 
+plate. Because the bottom metallic backing plate can be approximated as a perfect conductor, 
+incident electromagnetic waves cannot penetrate the structure, and the transmission term can be 
+approximately regarded as zero, namely 
+𝑇≈0 
+Thus, the absorptivity can be simplified as  
+𝐴= 1 −𝑅= 1 −|𝑆11|2                                         (2-5) 
+This means that, for a metal-backed absorbing structure, the overall absorptivity can be 
+effectively improved as long as the front-surface reflection is reduced. Therefore, the design focus 
+of such structures is not transmission suppression, but reflection reduction and internal-loss 
+enhancement. 
+From the perspective of electromagnetic-wave incidence, the strength of front-surface 
+reflection mainly depends on the degree of matching between the structural input impedance Zin 
+and the free-space impedance 𝑍0. If the two differ greatly, the incident wave will be significantly 
+reflected at the interface; if they are close to each other, the incident wave can more easily enter the 
+structure. The reflection coefficient can be written as 
+Γ =
+𝑍in−𝑍0
+𝑍in+𝑍0                                                           w    (2-
+6) 
+where 𝑍0 is the impedance of air or free space. It can be seen from the above expression that 
+when 
+
+
+=== PDF PAGE 13 ===
+ 
+8 
+𝑍in ≈𝑍0 
+the reflection coefficient is minimized, and the surface reflection of the structure is minimized. 
+In other words, impedance matching is the primary condition for achieving low reflection. 
+However, impedance matching alone is not sufficient to guarantee good absorption. If the 
+internal loss of the structure is insufficient, even if the electromagnetic wave is successfully coupled 
+into the structure, it may leak out again after multiple internal reflections. Therefore, an ideal 
+absorbing structure must satisfy two conditions simultaneously: first, good impedance matching at 
+the interface so that the incident wave can enter the structure; second, sufficient internal energy 
+dissipation so that the electromagnetic energy entering the structure is rapidly converted into heat or 
+other loss forms. For the resistive-film metamaterial studied in this thesis, the former is mainly 
+regulated by the geometric pattern, structural height and double-orthogonal spatial layout, while the 
+latter mainly relies on ohmic loss on the surface of the resistive film. 
+The metallic backing plate also plays another important role in this process, namely forming 
+equivalent current loops and magnetic response regions with the upper patterned layer. Under 
+incident-wave excitation, currents are excited on the patterned layer surface, while image currents 
+form on the metallic backing plate. The coupling between them changes the equivalent impedance 
+of the structure and enhances the local field response. This is also one important reason why 
+metamaterial absorbers can obtain good absorption performance under relatively small thickness 
+conditions. 
+ 
+Figure 2-2  Schematic Diagram of a Metal-Backed Absorbing Structure and Impedance-Matching Mechanism 
+2.3  Ohmic Loss Mechanism of Resistive Films 
+In broadband absorber design, the evaluation criterion should not be limited to the minimum 
+reflection loss at a single frequency point, but should focus on the continuous absorption capability 
+of the structure over the entire target band. Therefore, this thesis adopts continuous effective 
+
+
+=== PDF PAGE 14 ===
+ 
+9 
+absorption bandwidth as the main index, namely the longest continuous frequency interval 
+corresponding to the condition that the reflection loss satisfies 
+𝑅𝐿< −10 dB 
+Under this condition, the corresponding frequency range is defined as the continuous effective 
+absorption bandwidth. 
+For example, if a structure satisfies RL<-10 dB over the range f1-f2 GHz, then its continuous 
+effective bandwidth is 
+𝐵𝑊eff = 18.00 −4.80 = 13.20 GHz 
+In addition to continuous effective bandwidth, this thesis also uses band coverage ratio to 
+characterize the overall performance in the target research band of 2-18 GHz. It is defined as 
+𝜂=
+𝐵𝑊eff
+18−2 × 100                                                           (2-7) 
+If the continuous effective bandwidth of a structure is 13.20 GHz, the corresponding coverage 
+ratio is 
+𝜂= 13.20
+16
+× 100 
+These two indices are adopted because the minimum reflection loss only indicates strong 
+absorption at a local frequency point and does not show that the entire band has good performance. 
+Broadband applications generally require continuous low reflection over a wide frequency range 
+rather than several isolated absorption valleys. Therefore, all subsequent optimization stages in this 
+thesis use the improvement of continuous effective bandwidth and coverage ratio as the main 
+objective, while the minimum reflection loss is used only as an auxiliary reference. 
+ 
+Figure 2-3  Schematic Definition of Effective Bandwidth and Band Coverage Ratio 
+
+
+=== PDF PAGE 15 ===
+ 
+10 
+In addition, in different optimization stages, the absorption starting frequency, absorption 
+ending frequency and curve smoothness are also considered for comprehensive evaluation of 
+broadband performance. Especially for the wide 2-18 GHz band, if the low-frequency boundary can 
+be effectively pushed downward while continuous effective absorption is maintained at the high-
+frequency end, the structure is considered more advantageous for broadband absorption design. 
+2.4  Thin Solid Resistive Film and Ohmic Sheet Models 
+The resistive film is the core functional layer studied in this thesis. There are two common 
+methods for modeling a resistive film: one is to regard it as a thin solid film with finite thickness 
+and conductivity; the other is to equivalently describe it as an Ohmic Sheet model with only surface 
+sheet-resistance characteristics. 
+In the thin solid film model, the resistive film is regarded as a thin layer with an actual 
+geometric thickness 𝑡 and conductivity 𝜎, and its volume resistivity satisfies 
+𝜌=
+1
+𝜎                                                         (2-8) 
+The corresponding sheet resistance is 
+𝑅𝑠=
+𝜌
+𝑡=
+1
+𝜎𝑡                                                     (2-9) 
+The advantage of this model is that it has a clear three-dimensional geometric meaning and can 
+directly participate in volume meshing and full-wave solving. However, when the film layer is 
+extremely thin, using solid elements to model it introduces higher mesh requirements and increases 
+the computational burden. 
+The Ohmic Sheet model equivalently represents the resistive film as a surface-impedance layer 
+on an ideal geometric surface. Its main parameter is sheet resistance 𝑅𝑠, with units of Ω/sq. In this 
+modeling method, the film thickness is no longer explicitly considered; instead, the sheet resistance 
+is directly used to characterize the constraint on surface current and the ohmic-loss effect. For the 
+PET-based resistive film in this project, the material is usually characterized directly by sheet 
+resistance in engineering practice, so the Ohmic Sheet model is more direct physically and more 
+suitable for high-resolution pixelated topology optimization. 
+From the perspective of numerical simulation, the reflection-loss curves obtained by the two 
+models usually show consistent trends, but certain differences may appear in absorption depth, 
+bandwidth boundary and local resonance features. This is because, in the thin solid film model, 
+thickness and volume conductivity jointly determine the film response, whereas in the Ohmic Sheet 
+model all conductive and loss effects are concentrated in the surface-impedance parameter. The two 
+are not fully equivalent in mesh implementation and boundary approximation. Therefore, after 
+verifying structural feasibility with the thin solid film model in the early stage, this thesis further 
+turns to the Ohmic Sheet model for 6×6, 9×9 and 12×12 high-resolution topology optimization, 
+making the model closer to the practical description of sheet-resistance materials. 
+It should be noted that the sheet resistance is not the smaller the better, nor the larger the better. 
+If the sheet resistance is too low, the resistive film approaches a conductor; although stronger 
+currents can be excited, reflection increases significantly. If the sheet resistance is too high, surface 
+currents cannot be sufficiently formed and the dissipation capability is insufficient. Therefore, the 
+
+
+=== PDF PAGE 16 ===
+ 
+11 
+essential role of sheet resistance is to balance current excitation and energy dissipation, and it 
+jointly determines the final absorption performance together with the geometric pattern. 
+ 
+Figure 2-4  Comparison between the Thin Solid Resistive Film Model and the Ohmic Sheet Model 
+2.5  Electromagnetic Regulation Mechanism of Patterned Resistive Films 
+A uniform resistive film has a certain surface-loss capability, but because its geometric degrees 
+of freedom are limited, its equivalent impedance and resonance characteristics have little room for 
+adjustment, making it difficult to maintain continuous low reflection over a wide band. After the 
+resistive film is patterned, the electromagnetic regulation capability of the structure is significantly 
+enhanced. 
+The function of a patterned resistive film is mainly reflected in the following aspects. First, 
+retaining and removing different conductive regions changes the surface-current paths. Longer 
+continuous conductive paths are more favorable for low-frequency response because low-frequency 
+electromagnetic waves correspond to larger equivalent loop sizes. Shorter local edges, openings or 
+isolated compensation regions are more likely to participate in high-frequency local responses. 
+Second, pattern edges and window regions produce local charge accumulation and strong electric-
+field enhancement, thereby affecting local inductance, capacitance and equivalent impedance. Third, 
+coupling between different regions allows the structure to produce different response modes near 
+multiple frequencies, forming multiple absorption peaks that connect with each other in the 
+frequency domain and ultimately forming a relatively wide effective absorption bandwidth. 
+For the orthogonal double-film structure in this thesis, the X-oriented and Y-oriented resistive 
+films do not perform exactly the same function. Generally, the layer with more continuous retained 
+regions and lower sheet resistance more easily forms the main dissipation channel and strongly 
+
+
+=== PDF PAGE 17 ===
+ 
+12 
+affects the low-frequency absorption boundary. The layer with more local retained regions and 
+higher sheet resistance is more suitable as an impedance-regulation layer or a mid-to-high-
+frequency compensation layer. The two layers are orthogonally arranged in space, so that the 
+structure has not only two-dimensional pattern degrees of freedom but also additional coupling 
+paths in three-dimensional space, thereby increasing the design freedom. 
+In terms of mechanism, broadband absorption is usually not produced by a single resonance 
+mode, but by the combined action of multiple modes. Some modes may mainly push the low-
+frequency absorption boundary downward, some enhance high-frequency continuity, and others 
+serve as bridges to smooth the transition between different absorption valleys. Therefore, pixelated 
+patterns have significant advantages in broadband absorber design, because they can flexibly 
+control edge number, connectivity and local coupling strength through discrete retaining/removing 
+strategies. 
+ 
+Figure 2-5  Schematic Diagram of the Electromagnetic Regulation Mechanism of Patterned Resistive Films 
+2.6  Basic Principles of Pixelated Topology and Genetic-Algorithm 
+Optimization 
+After the resistive film is discretized into a pixel matrix, each pixel can be regarded as a binary 
+variable, namely retaining or removing the sheet-resistance region. If a film surface contains 𝑚× 𝑛 
+pixels, then this film surface alone theoretically has 2𝑚𝑛 possible pattern combinations. If X/Y two 
+film surfaces are patterned simultaneously and continuous variables such as 𝑝, ℎ, 𝑅𝑠,𝑥 and 𝑅𝑠,𝑦 are 
+optimized together, the overall design space becomes extremely large. For such problems, relying 
+only on empirical parameter sweeps is often inefficient and cannot guarantee a relatively optimal 
+result. 
+
+
+=== PDF PAGE 18 ===
+ 
+13 
+A genetic algorithm (GA) is a population-based intelligent optimization method that simulates 
+natural selection and biological evolution [19]. Its basic idea is as follows: first, several candidate 
+structures are randomly generated as the initial population; then, each individual is evaluated 
+according to a fitness function; next, a new generation is produced through selection, crossover and 
+mutation so that high-fitness features are retained and propagated; after multiple generations of 
+evolution, the overall population performance gradually improves and tends to converge. 
+In this study, pixelated patterns are well suited to genetic-algorithm encoding. Each pixel can 
+be represented by a binary variable, for example 1 indicating that the sheet-resistance region is 
+retained and 0 indicating that it is removed. Continuous variables such as structural period, height 
+and sheet resistance can be handled through real-number encoding or discrete-grid mapping. In this 
+way, the entire absorbing structure can be represented as a chromosome and input into CST through 
+an automatic workflow for full-wave simulation. 
+The advantages of the genetic algorithm in this project are mainly reflected in three aspects. 
+First, it does not rely on gradient information and is suitable for complex optimization problems 
+involving mixed discrete topology variables and continuous variables. Second, it can perform a 
+global search over a large design space and avoid premature trapping in local optima. Third, it can 
+be easily combined with the Python-CST co-simulation workflow to realize an integrated closed-
+loop process of structure generation, simulation solving, result extraction and fitness updating. 
+Of course, genetic algorithms also require large computational cost, especially when each 
+candidate structure must undergo a full-wave simulation. Therefore, in practical implementation, 
+structural pre-screening, pattern constraints, template restrictions or elite preservation are usually 
+introduced to reduce invalid computations and improve search efficiency. The staged optimization 
+route, semi-constrained multi-template method and pattern-connectivity constraints used in later 
+chapters are developed on this basis. 
+ 
+Figure 2-6  Schematic Diagram of Binary Pixel Encoding and Genetic-Algorithm Optimization 
+
+
+=== PDF PAGE 19 ===
+ 
+14 
+2.7  Summary of This Chapter 
+This chapter introduces the basic theory required for studying resistive-film metamaterial 
+absorbing structures. Starting from the relationship among reflectance, transmittance and 
+absorptivity, the definition of reflection loss 𝑅𝐿 and its significance in evaluating absorption 
+performance are explained. For metal-backed structures, because transmission is approximately 
+zero, absorption performance can mainly be characterized by 𝑆11 or 𝑅𝐿. The role of impedance 
+matching in reducing front-surface reflection is then analyzed, and it is pointed out that a good 
+absorbing structure must simultaneously satisfy the conditions of easy wave entry and sufficient 
+internal dissipation. 
+On this basis, this chapter further discusses the differences between the thin solid resistive film 
+model and the Ohmic Sheet sheet-resistance model, explaining that the sheet-resistance model is 
+more suitable for high-resolution resistive-film topology optimization. It also describes the physical 
+mechanism by which patterned resistive films broaden the absorption bandwidth by changing 
+current paths, local field distributions and multimode coupling behavior. Finally, combined with the 
+high-dimensional discrete design characteristics of pixelated patterns, the basic idea of using a 
+genetic algorithm for absorbing-structure optimization is introduced. These theoretical contents 
+provide the basis for structural modeling, parameter optimization and mechanism analysis in the 
+subsequent chapters. 
+ 
+ 
+
+
+=== PDF PAGE 20 ===
+ 
+15 
+Chapter 3  Absorbing Structure Design and Simulation 
+Modeling 
+3.1  Structural Design Concept 
+The research object of this thesis is a broadband microwave absorbing structure based on 
+resistive-film metamaterials. Its basic objective is to obtain the widest possible continuous low-
+reflection bandwidth in the 2-18 GHz band. According to the theoretical analysis above, the 
+performance of a metal-backed absorbing structure mainly depends on two aspects: first, the 
+matching degree between the structural input impedance and free-space impedance; second, the 
+ability of the structure to dissipate incident electromagnetic energy. If impedance matching is 
+insufficient, the incident wave is strongly reflected at the front surface. If loss is insufficient, even if 
+the wave enters the structure, it cannot be fully dissipated. Therefore, broadband absorber design 
+must consider both impedance regulation and energy loss. 
+Conventional metallic resonant metamaterial absorbers usually rely on localized resonance 
+among metallic patterns, dielectric layers and metallic backing plates to achieve strong absorption 
+near a certain frequency point. Such structures can have deep absorption peaks, but their bandwidth 
+is often limited. To obtain a wider absorption band, this thesis adopts the resistive film as the main 
+functional layer. A resistive film has a certain surface sheet resistance; it can generate surface 
+currents under incident electromagnetic waves and convert electromagnetic energy into ohmic loss 
+through finite resistance. Compared with ideal metallic patches, resistive films not only regulate 
+electromagnetic-field distribution but also directly participate in energy dissipation. 
+In terms of structure, this thesis does not use a single-layer planar resistive film, but constructs 
+a spatial cross structure composed of two orthogonal PET substrates and patterned resistive films. 
+This structure is equivalent to introducing two regulation channels, the X direction and the Y 
+direction, within one periodic unit, enriching surface-current paths, local field-enhancement regions 
+and spatial coupling modes. By tuning the bidirectional resistive-film patterns, sheet-resistance 
+parameters, period size and structural height, different local response modes can be excited in 
+different frequency bands, allowing multiple absorption intervals to connect in the frequency 
+domain and thereby improving the overall broadband absorption performance. 
+The modeling concept of this thesis can be summarized as follows. First, a metal-backed 
+orthogonal resistive-film absorbing unit model is established, and the material parameters, 
+geometric parameters, boundary conditions and port settings are clarified. Then, the differences 
+between the thin solid resistive film model and the Ohmic Sheet surface sheet-resistance model are 
+compared, and the unified modeling method for subsequent high-resolution topology optimization 
+is determined. Finally, the resistive-film pattern is discretized into a pixel matrix, providing a 
+parametric model basis for the CST-Python co-simulation and genetic-algorithm optimization in 
+Chapter 4. 
+
+
+=== PDF PAGE 21 ===
+ 
+16 
+ 
+Figure 3-1  Schematic Diagram of the Design Concept of the Orthogonal Resistive-Film Absorbing Unit 
+3.2  Composition and Dimensional Definition of the Absorbing Unit 
+The absorbing unit established in this thesis is mainly composed of a metallic backing plate, 
+two orthogonal PET substrates and resistive-film patterns loaded on the PET surfaces. The metallic 
+backing plate is located at the bottom of the structure and suppresses transmission. The PET 
+substrates support the patterned resistive films and provide a spatial cross structure. The resistive-
+film patterns are the main parts for electromagnetic regulation and energy dissipation. Because of 
+the metallic backing plate, the transmitted component can be approximately regarded as zero, so the 
+absorption performance is mainly characterized by the reflection coefficient S11 and reflection loss 
+RL. 
+The two PET substrates are perpendicular to each other in space and carry the X-oriented and 
+Y-oriented resistive films, respectively. In the subsequent optimization process, this thesis does not 
+require the X- and Y-oriented resistive films to have the same topology or the same sheet resistance, 
+but allows them to evolve separately. The purpose is to use the functional division of the two film 
+surfaces: one layer can undertake more of the main dissipation function, while the other can 
+participate more in impedance regulation and mid-to-high-frequency compensation. The final 
+optimization results also show that the sheet resistance and pattern distribution of the X- and Y-
+oriented films differ significantly, indicating that the double-orthogonal structure has higher 
+regulation freedom than a single planar layer. 
+For convenience in parametric modeling and automatic optimization, the main geometric and 
+material parameters of the absorbing unit are defined as follows: 
+(1) Period 𝑝: the side length of a single periodic unit in the planar direction. The period 
+determines the lateral coupling scale of the structure and affects the current-path length and 
+resonance-frequency distribution. 
+
+
+=== PDF PAGE 22 ===
+ 
+17 
+(2) Structural height ℎ: the height of the orthogonal PET sheets, which is also an important 
+scale for spatial coupling between the resistive film and the metallic backing plate. The height ℎ has 
+an important influence on the low-frequency absorption boundary and impedance-matching state. 
+(3) PET thickness 𝑡𝑠: the physical thickness of the supporting substrate. In this thesis, a PET 
+sheet with a thickness of 0.188 mm is used as the supporting material. 
+(4) X-direction sheet resistance 𝑅𝑠,𝑥: the surface sheet resistance of the X-oriented resistive film, 
+with units of Ω/sq. 
+(5) Y-direction sheet resistance 𝑅𝑠,𝑦: the surface sheet resistance of the Y-oriented resistive 
+film, also with units of Ω/sq. 
+In the final 12×12 semi-constrained multi-template optimization result, the structural 
+parameters are 𝑝= 13.1409 mm, ℎ= 10.0731 mm, 𝑅𝑠,𝑥= 140.79 Ω/sq and 𝑅𝑠,𝑦= 35.461 Ω/sq. 
+It can be seen that the Y-oriented film surface has a much lower sheet resistance than the X-oriented 
+surface, indicating that the two resistive films in the final structure are not simple repetitions, but 
+undertake different electromagnetic functions. 
+Table 3-1  Main Material Parameters and Geometric Parameters of the Absorbing Unit 
+Parameter Name 
+Symbol 
+Value 
+Description 
+PET relative 
+permittivity 
+𝜀𝑟 
+3.1 
+Substrate dielectric 
+parameter 
+PET loss tangent 
+𝑡𝑎𝑛𝛿 
+0.01 
+Substrate dielectric loss 
+PET thickness 
+𝑡𝑠 
+0.188 mm 
+Thickness of a single PET 
+supporting layer 
+Final period 
+𝑝 
+13.1409 mm 
+12×12 optimization result 
+Final height 
+ℎ 
+10.0731 mm 
+12×12 optimization result 
+X-direction sheet 
+resistance 
+𝑅𝑠,𝑥 
+140.79 Ω/sq 
+Impedance regulation and 
+local compensation 
+Y-direction sheet 
+resistance 
+𝑅𝑠,𝑦 
+35.461 Ω/sq 
+Main ohmic dissipation 
+channel 
+ 
+3.3  Establishment of the CST Three-Dimensional Simulation Model 
+This thesis uses CST Studio Suite to establish the three-dimensional periodic-unit model, and 
+uses the frequency-domain solver to calculate the reflection response of the structure in the 2-18 
+GHz range. CST has mature functions for periodic boundaries, Floquet ports and surface-impedance 
+modeling, and is therefore suitable for unit simulation and parametric optimization of metamaterial 
+absorbing structures [20]. 
+In the three-dimensional model, the metallic backing plate is located at the bottom of the 
+computational domain. The PET substrates are vertically arranged along two orthogonal directions, 
+and the two substrates cross near the center of the unit. The resistive-film patterns are loaded on the 
+corresponding PET substrate surfaces, forming two groups of patterned sheet-resistance films in the 
+X and Y directions. The entire model is placed in a periodic computational domain to simulate the 
+response of an infinite periodic array under normal plane-wave incidence. 
+
+
+=== PDF PAGE 23 ===
+ 
+18 
+ 
+ 
+Figure 3-2  CST Three-Dimensional Model of the Absorbing Unit 
+ 
+Figure 3-3  Definitions of Geometric Parameters, Coordinate System and Boundary Settings 
+In the simulation model, periodic boundary conditions are adopted in the X and Y directions to 
+simulate an infinite periodic array. An open boundary and a Floquet port are set above the model in 
+
+
+=== PDF PAGE 24 ===
+ 
+19 
+the Z direction to excite a normally incident plane wave and extract the reflection coefficient S11. 
+The bottom of the structure is equipped with a metallic backing plate, which can be approximately 
+regarded as a perfect conductor, so the transmission term is suppressed. This boundary setting is 
+consistent with the physical structure of a metal-backed reflective absorber. 
+3.4  Simulation Parameters, Monitor Settings and Performance Evaluation 
+Method 
+3.4.1  Thin Solid Film Model 
+This thesis adopts a periodic-unit model to study the electromagnetic response of the absorbing 
+structure. Since the target structure is periodically arranged in the X and Y directions, unit-cell 
+periodic boundary conditions are set in these two directions. This setting allows a single periodic 
+unit to represent an infinite periodic array, effectively reducing computational cost and ensuring that 
+different candidate structures are compared under unified boundary conditions. 
+In the vertical direction, an open boundary and a Floquet port are set above the model. The 
+Floquet port is used to excite a normally incident plane wave and extract the reflection coefficient 
+𝑆11 in the frequency domain. Since the bottom of the structure contains a metallic backing plate, 
+electromagnetic waves are difficult to transmit through the structure, and 𝑆21 can be approximately 
+neglected; thus, the absorption performance is mainly determined by 𝑆11. A frequency-domain 
+solver is used in this thesis, and the frequency range is uniformly set to 2-18 GHz to cover several 
+typical microwave bands including S, C, X and Ku. 
+To ensure the comparability of results at different optimization stages, the 6×6, 9×9 and 12×12 
+structures all adopt the same frequency range, boundary conditions, port settings and reflection-loss 
+calculation method. This avoids result differences caused by changes in simulation conditions and 
+makes the performance improvement mainly reflect the influence of changes in topology, sheet-
+resistance parameters and geometric parameters. 
+3.4.2  S-Parameter Output and Reflection-Loss Calculation 
+After the simulation is completed, the S11 data of the structure in the 2-18 GHz range are 
+exported from CST and post-processed by Python. In this thesis, the reflection loss is calculated by 
+the following formula: 
+𝑅𝐿= 20log10|𝑆11|                                                   (3-1) 
+where |S11| is the magnitude of the reflection coefficient. Since |𝑆11| < 1, the reflection loss is 
+usually negative, and a smaller value indicates weaker reflection and stronger absorption. This 
+thesis uses 𝑅𝐿< −10 𝑑𝐵 as the effective absorption criterion, corresponding to reflected power 
+lower than 10% of the incident power. 
+In post-processing, the continuous frequency interval satisfying 𝑅𝐿< −10 𝑑𝐵 is used to 
+calculate the continuous effective absorption bandwidth. If the starting frequency of the effective 
+absorption interval is 𝑓low and the ending frequency is 𝑓high , then the continuous effective 
+absorption bandwidth is 
+𝐵𝑊eff = 𝑓high −𝑓low                                                 (3-2) 
+
+
+=== PDF PAGE 25 ===
+ 
+20 
+For the 2-18 GHz frequency range studied in this thesis, the total bandwidth is 16 GHz, so the 
+band coverage ratio is defined as 
+𝜂=
+𝐵𝑊eff
+16
+× 100                                                   (3-3) 
+In automatic optimization, 𝐵𝑊eff and 𝜂 are the main indices for evaluating the broadband 
+absorption capability of the structure, while the minimum reflection loss is used only as an auxiliary 
+reference. This is because an extremely deep absorption valley at a single frequency point does not 
+necessarily represent excellent broadband performance. For the objective of this thesis, it is more 
+important to maintain 𝑅𝐿< −10 𝑑𝐵 over the widest possible continuous frequency range. 
+3.4.3  Physical-Field and Loss Monitor Settings 
+In addition to the 𝑆11 curve, to further analyze the broadband absorption mechanism of the 
+final structure, electric-field, magnetic-field and surface power-loss-density monitors are also set at 
+representative frequencies. Different monitors correspond to different physical meanings: the 
+electric-field monitor is used to observe electric-field enhancement regions and local charge 
+accumulation positions; the magnetic-field monitor is used to analyze magnetic coupling between 
+the resistive film and the metallic backing plate as well as equivalent current loops; and the surface 
+power-loss-density monitor is used to determine where electromagnetic energy is mainly converted 
+into ohmic loss on the sheet-resistance regions. 
+This thesis selects 8.8 GHz, 12.0 GHz and 15.5 GHz as representative physical-field analysis 
+frequencies of the final structure. Among them, 8.8 GHz lies in the mid-low-frequency effective 
+absorption region, 12.0 GHz lies in the broadband absorption transition region, and 15.5 GHz lies in 
+the high-frequency absorption region. By comparing the electric-field, magnetic-field and power-
+loss-density distributions at these three frequencies, the response differences of the final 12×12 
+semi-constrained multi-template structure in different bands can be observed, demonstrating that its 
+broadband absorption is not produced by a single resonance mode but by multiple local modes, 
+spatial coupling and ohmic loss acting together. 
+It should be noted that the automatic optimization stage mainly relies on 𝑆11 data for fitness 
+evaluation, while the physical-field monitors are mainly used for mechanism interpretation of the 
+final structure. This ensures optimization efficiency while providing reliable data for the field-
+distribution analysis in Chapter 6. 
+Table 3-2  CST Simulation Monitor Settings and Their Uses 
+Output Item 
+Set Frequency 
+Purpose 
+𝑆11 parameters 
+2-18 GHz frequency 
+sweep 
+Used to calculate the reflection-loss curve, 
+continuous effective bandwidth, band 
+coverage ratio and minimum reflection 
+loss 
+Electric-field 
+distribution |𝐸| 
+8.8, 12.0 and 15.5 
+GHz 
+Used to observe electric-field 
+enhancement regions, pattern-edge effects 
+and local charge accumulation positions 
+Magnetic-field 
+distribution |𝐻| 
+8.8, 12.0 and 15.5 
+GHz 
+Used to analyze magnetic coupling 
+between the resistive film and the metallic 
+backing plate as well as equivalent current 
+
+
+=== PDF PAGE 26 ===
+ 
+21 
+loops 
+Surface power-loss 
+density 
+8.8, 12.0 and 15.5 
+GHz 
+Used to identify the main dissipation 
+regions of electromagnetic energy on the 
+sheet-resistance film surface 
+ 
+3.4.4  Performance Evaluation Indices 
+Based on the above settings, this thesis mainly adopts the following performance indices in 
+subsequent optimization and analysis: 
+(1) Continuous effective absorption bandwidth: the width of the longest continuous frequency 
+interval satisfying 𝑅𝐿< −10 𝑑𝐵, which is the primary optimization objective of this thesis. 
+(2) 2-18 GHz band coverage ratio: the ratio of the continuous effective bandwidth to the total 
+width of the target band, used to evaluate the effective absorption range of the structure within the 
+overall target band. 
+(3) Minimum reflection loss: the minimum value of the reflection-loss curve, used to 
+characterize the absorption depth at a local frequency point. 
+(4) Absorption starting and ending frequencies: used to determine the low-frequency and high-
+frequency boundaries, among which the low-frequency boundary is particularly important for thin 
+broadband absorber design. 
+(5) Physical-field and loss distributions: used to explain the broadband absorption mechanism 
+of the structure and determine the main regions and dominant loss channels participating in 
+absorption at different frequencies. 
+3.5  Comparison of Thin Solid Film and Ohmic Sheet Modeling Results 
+and the Basis for Model Selection 
+3.5.1  Basic Differences between the Two Modeling Methods 
+The resistive film is the core functional layer in the structure studied in this thesis. It can be 
+modeled in two ways: one is to regard it as a thin solid film with finite thickness and volume 
+conductivity; the other is to equivalently represent it as an Ohmic Sheet model with surface sheet 
+resistance. Both methods can describe resistive-film loss in electromagnetic simulation, but they 
+differ significantly in physical assumptions, parameter input method and computational cost. 
+In the thin solid film model, the resistive film is modeled as a three-dimensional thin layer with 
+finite thickness t and volume conductivity sigma. The relationship among sheet resistance 𝑅𝑠, 
+conductivity 𝜎 and thickness 𝑡 is 
+𝑅𝑠=
+1
+𝜎𝑡                                                         (3-4) 
+This model has a clear three-dimensional geometric meaning and is suitable for use in the early 
+stage to verify structural feasibility. However, when the film thickness is much smaller than the 
+operating wavelength and structural dimensions, the thin solid film model introduces high mesh 
+requirements, and its equivalent volume conductivity depends on an artificially assigned film 
+
+
+=== PDF PAGE 27 ===
+ 
+22 
+thickness. If the actual material is not an ideal uniform conductive thin layer, this modeling method 
+may deviate from the engineering material characterization. 
+The Ohmic Sheet model equivalently represents the resistive film as a surface-impedance layer 
+loaded on a geometric surface. It no longer explicitly considers the film thickness, but directly uses 
+sheet resistance 𝑅𝑠 to describe its conductive and dissipative properties. This modeling method is 
+more consistent with the engineering characterization habit of sheet-resistance resistive-film 
+materials. Actual PET-based conductive films, carbon-based coatings, transparent conductive films 
+and printed resistive films are usually characterized directly by Ω/sq rather than by an ideal 
+uniform volume conductivity as the main design input. Therefore, the Ohmic Sheet model is more 
+direct for engineering description. 
+3.5.2  Comparison of Reflection-Loss Results between the Thin Solid Film and 
+Ohmic Sheet Models 
+To compare the influence of the two modeling methods on the results, this thesis first selects 
+the thin-solid-film baseline structure obtained in the 6×6 stage. Under the condition that the main 
+geometric dimensions and pattern topology remain unchanged, the modeling method of the resistive 
+film is replaced from the thin solid film model to the Ohmic Sheet model, and the reflection-loss 
+curve is recalculated. The results of the two models are compared in Table 3-3 and Figure 3-4. 
+Table 3-3  Comparison of Simulation Results between the Thin Solid Film Model and the Ohmic 
+Sheet Model 
+Model Type 
+Effective 
+Band/GHz 
+Effective 
+Bandwidth/GHz Coverage/% 
+Minimum 
+Reflection 
+Loss/dB 
+Thin solid film 
+model 
+5.12–18.00 
+12.88 
+80.5 
+-39.671 
+Ohmic Sheet 
+model 
+6.88–18.00 
+11.12 
+69.5 
+-26.791 
+ 
+ 
+Figure 3-4  Comparison of Reflection-Loss Curves between the Thin Solid Film Model and the Ohmic Sheet 
+Model 
+
+
+=== PDF PAGE 28 ===
+ 
+23 
+Figure 3-4 shows that the reflection-loss curves obtained by the two models have consistent 
+overall trends, and both form obvious absorption intervals in the mid-to-high-frequency range, 
+indicating that the double-orthogonal resistive-film structure itself has broadband absorption 
+potential. The thin solid film model satisfies 𝑅𝐿< −10 𝑑𝐵 over 5.12-18.00 GHz, with a continuous 
+effective bandwidth of about 12.88 GHz and a minimum reflection loss of -39.671 dB. The 
+corresponding Ohmic Sheet verification model satisfies 𝑅𝐿< −10 𝑑𝐵 over 6.88-18.00 GHz, with a 
+continuous effective bandwidth of about 11.12 GHz and a minimum reflection loss of about -26.791 
+dB. 
+From the numerical results, the thin solid film model shows a lower low-frequency starting 
+point and a deeper absorption valley at this stage, seemingly indicating better absorption 
+performance. However, this does not mean that the thin solid film model is necessarily more 
+suitable as the basis for subsequent modeling. First, the thin solid film model relies on the combined 
+setting of film thickness and volume conductivity, whereas in engineering practice resistive films 
+are often characterized by sheet resistance. Second, high-resolution topology optimization requires 
+a large number of repeated simulations, and the thin solid film model significantly increases the 
+meshing and computational burden. Third, local deep absorption in the thin solid film model may 
+be related to finite thickness, volume mesh and local numerical coupling, and should not be simply 
+interpreted as a result that real sheet-resistance materials can necessarily achieve. 
+Therefore, the significance of Figure 3-4 is not to prove that one model is absolutely superior in 
+all indices, but to show that the thin solid film model and the Ohmic Sheet model can capture the 
+main absorption trend of the same structure, while the Ohmic Sheet model is more suitable as the 
+unified model for subsequent research in terms of engineering characterization and automatic 
+optimization. 
+3.5.3  Cross-Sectional Characteristics of Engineering Resistive-Film Materials 
+Common resistive-film materials in engineering usually have a layered structure that can be 
+summarized as an ultrathin conductive/resistive coating plus a polymer substrate. The conductive 
+layer may consist of carbon-based materials, transparent conductive materials, conductive particle 
+networks or printed resistive coatings, while the supporting layer is usually PET or another polymer 
+film. Compared with the operating wavelength of electromagnetic waves, the conductive layer is 
+extremely thin, and its microscopic thickness, conductive network and local uniformity are often 
+difficult to accurately describe using an ideal uniform volume conductor. 
+Figure 3-5 shows the typical layered cross-section of a sheet-resistance resistive-film material 
+in engineering. The main electrical parameter of this type of material is usually sheet resistance 𝑅𝑠, 
+rather than volume conductivity 𝜎. Sheet resistance can be directly characterized by methods such 
+as the four-probe method and used in engineering design in the form of Ω/sq. For the surface 
+resistive-film absorbing structure studied in this thesis, the Ohmic Sheet model can more directly 
+input material parameters into the simulation model without artificially assuming an ideal uniform 
+thickness and volume conductivity. 
+
+
+=== PDF PAGE 29 ===
+ 
+24 
+ 
+Figure 3-5  Typical Cross-Sectional Schematic of Engineering Sheet-Resistance Resistive Film 
+It should be noted that Figure 3-5 is a schematic cross-section of an engineering material and 
+does not represent the exact layer thickness or microstructure of the actual sample in this thesis. Its 
+purpose is to explain the engineering characterization logic of sheet-resistance resistive films: the 
+electromagnetic response is mainly determined by an extremely thin surface resistive layer, which is 
+usually more suitably described by surface sheet resistance. For the simulation optimization 
+problem in this thesis, where pattern topology and sheet-resistance parameters need to be changed 
+repeatedly, the surface sheet-resistance model is clearer and more efficient than the thin solid film 
+model. 
+3.5.4  Basis for the Final Modeling Choice 
+Based on the above analysis, this thesis finally selects the Ohmic Sheet model as the unified 
+modeling method for subsequent 6×6, 9×9 and 12×12 topology optimization. This choice is mainly 
+based on the following reasons. 
+First, the Ohmic Sheet model is more consistent with the engineering characterization method 
+of actual resistive-film materials. Actual sheet-resistance film materials usually directly provide 𝑅𝑠 
+parameters, and the Ohmic Sheet model avoids forcibly converting sheet resistance into volume 
+conductivity and an assumed thickness. 
+Second, the Ohmic Sheet model is more suitable for high-resolution topology optimization. As 
+the pattern resolution increases from 6×6 to 9×9 and then to 12×12, the film surface is divided into 
+more and more pixel regions. If every retained pixel is modeled as a thin solid with finite thickness, 
+the number of mesh cells and solving time will increase significantly, which is unfavorable for 
+evaluating a large number of candidate structures in the genetic algorithm. 
+Third, the two models maintain consistent overall response trends. Although the thin solid film 
+model obtains a deeper absorption valley and wider effective bandwidth in the early baseline 
+structure, the Ohmic Sheet model can still reflect the main absorption characteristics of the structure 
+and is more suitable as an approximate model of an engineering sheet-resistance structure. 
+Fourth, the Ohmic Sheet model facilitates the subsequent introduction of X/Y layered sheet 
+resistance. In the final 12×12 structure, the X-oriented and Y-oriented film surfaces have different 
+sheet resistances and respectively undertake impedance regulation and main loss functions. The 
+
+
+=== PDF PAGE 30 ===
+ 
+25 
+surface sheet-resistance model can directly set 𝑅𝑠,𝑥 and 𝑅𝑠,𝑦, making the physical meaning of the 
+parameters clearer. 
+Therefore, this thesis does not take the local numerical advantage of the thin solid film model 
+as the final modeling basis. Instead, from the perspectives of engineering material characterization, 
+automatic optimization efficiency, physical meaning of parameters and model consistency, the 
+Ohmic Sheet surface sheet-resistance model is selected as the basis for subsequent research. 
+Table 3-4  Characteristic Comparison between the Thin Solid Film Model and the Ohmic Sheet Model 
+Comparison Item 
+Thin solid film model 
+Ohmic Sheet model 
+Representation of 
+resistive film 
+Finite-thickness three-
+dimensional thin layer 
+Zero-thickness surface 
+impedance layer 
+Main input 
+parameters 
+Film thickness t and volume 
+conductivity sigma 
+Surface sheet resistance 𝑅𝑠 
+Correspondence with 
+engineering sheet-
+resistance materials 
+Requires conversion using 
+𝑅𝑠=
+1
+𝑠𝑖𝑔𝑚𝑎 𝑡, relatively indirect 
+Directly inputs the sheet-
+resistance parameter in Ω/sq 
+Meshing 
+requirement 
+High; thin-layer regions may 
+increase the number of mesh 
+cells 
+Low; suitable for surface-
+boundary modeling 
+Computational cost 
+Relatively high 
+Relatively low 
+Suitability for high-
+resolution topology 
+optimization 
+Moderate 
+More suitable 
+Physical meaning of 
+parameters 
+Depends on assumed thickness 
+and uniform volume 
+conductivity 
+Consistent with actual sheet-
+resistance material 
+characterization 
+Main use in this 
+thesis 
+Early structural feasibility 
+verification 
+Unified model for subsequent 
+6×6, 9×9 and 12×12 
+optimization 
+3.6  Pixelated Topology Construction and Parametric Modeling Method 
+After determining the Ohmic Sheet model as the unified modeling method, this thesis further 
+discretizes the resistive-film pattern into a pixelated topology. The basic idea of the pixelated 
+method is to divide the continuous film surface into a regular grid, and use a binary variable to 
+represent the state of each pixel: 1 means that the resistive film is retained in that region, and 0 
+means that the resistive film is removed. By changing the distribution of 0 and 1 in the pixel matrix, 
+different resistive-film patterns can be obtained. 
+This thesis adopts three pattern resolutions in stages: 6×6, 9×9 and 12×12. The 6×6 stage is 
+mainly used to verify the feasibility of the automatic optimization workflow. The 9×9 stage further 
+increases pattern freedom and enriches local edges, windows and connection regions. The 12×12 
+stage is used for final high-resolution topology optimization, enabling the structure to regulate both 
+low-frequency long-path responses and high-frequency local compensation modes. 
+Pixelated topology has two main advantages. First, it can be readily combined with a genetic 
+algorithm. Each pixel state can be directly used as a binary gene, and the entire pattern matrix can 
+be unfolded into a chromosome for selection, crossover and mutation operations. Second, it can 
+
+
+=== PDF PAGE 31 ===
+ 
+26 
+express complex patterns in a relatively simple way. Compared with manually designing several 
+limited regular shapes, pixelated topology allows the algorithm to automatically search for more 
+complex edges, windows, bridges and local compensation regions. 
+However, high-resolution pixelation also causes the design space to increase rapidly. For 
+example, a 12×12 single-layer pattern theoretically contains 144 pixels; if the X/Y two layers vary 
+independently at the same time, the search space becomes very large. Therefore, this thesis 
+combines central symmetry, connectivity checks, template constraints and a semi-constrained multi-
+template strategy in subsequent optimization to reduce obviously invalid or fragmented structures 
+and improve search efficiency and result interpretability. 
+In the final 12×12 structure, the X-oriented film surface has fewer retained pixels and mainly 
+forms a central transverse conductive path and local compensation regions. The Y-oriented film 
+surface has more retained pixels and forms an outer frame, windows and continuous channel 
+structures. This indicates that pixelated optimization changes not only the film area but, more 
+importantly, the current path, local field-enhancement positions and distribution of dissipation 
+regions. 
+3.7  Summary of This Chapter 
+This chapter explains the modeling process of the resistive-film metamaterial absorbing unit. 
+First, the design concept of the double-orthogonal resistive-film spatial configuration adopted in 
+this thesis is introduced, and the functional division of the metallic backing plate, PET substrate and 
+patterned resistive film is clarified. Then, the main parameters such as period 𝑝, height ℎ, PET 
+thickness 𝑡𝑠 and X/Y-direction sheet resistance are defined, and a CST-based three-dimensional 
+periodic-unit simulation model is established. 
+In terms of simulation settings, this thesis adopts periodic boundaries in the X/Y directions and 
+a Floquet port in the Z direction, uses a frequency-domain solver to calculate 𝑆11 parameters in the 
+2-18 GHz range, and calculates reflection loss, continuous effective bandwidth and band coverage 
+ratio through Python post-processing. To support subsequent mechanism analysis, electric-field, 
+magnetic-field and surface power-loss-density monitors are also set, and 8.8 GHz, 12.0 GHz and 
+15.5 GHz are selected as representative frequencies for physical-field analysis. 
+This chapter focuses on comparing the differences between the thin solid film model and the 
+Ohmic Sheet model. The results show that the thin solid film model exhibits a deeper absorption 
+valley and wider effective bandwidth in the early baseline structure, but it depends on assumptions 
+of film thickness and volume conductivity. Although the Ohmic Sheet model is slightly weaker in 
+local numerical performance, it conforms better to the engineering characterization of actual sheet-
+resistance resistive-film materials and is more suitable for high-resolution pixelated topology 
+optimization. Therefore, this thesis finally adopts the Ohmic Sheet surface sheet-resistance model as 
+the unified modeling basis for subsequent 6×6, 9×9 and 12×12 optimization. 
+Finally, this chapter introduces the pixelated topology construction method, which converts the 
+resistive-film pattern into an encodable and optimizable binary matrix. This method lays the model 
+foundation for the CST-Python co-simulation and genetic-algorithm optimization workflow in 
+Chapter 4. 
+ 
+ 
+
+
+=== PDF PAGE 32 ===
+ 
+27 
+Chapter 4  CST-Python Co-Simulation and Genetic-
+Algorithm Optimization Method 
+4.1  Overall Concept of Automatic Optimization 
+In Chapter 3, the three-dimensional simulation model of the resistive-film metamaterial 
+absorbing unit has been established, and the Ohmic Sheet surface sheet-resistance model has been 
+determined as the unified modeling method for subsequent topology optimization. Because the 
+research object of this thesis simultaneously contains continuous geometric parameters, continuous 
+sheet-resistance parameters and discrete pixelated topology variables, relying completely on manual 
+modeling and parameter sweeping would require heavy workload and would make it difficult to 
+systematically find a better structure in a high-dimensional design space. Therefore, this thesis 
+further constructs a CST-Python co-simulation and genetic-algorithm optimization workflow to 
+realize automatic modeling, automatic solving, automatic evaluation and generation-by-generation 
+optimization of the absorbing structure. 
+The core objective of the optimization problem in this thesis is to obtain the widest possible 
+continuous effective absorption bandwidth below -10 dB in the 2-18 GHz band. Compared with 
+merely pursuing the minimum reflection loss at a single frequency point, this thesis pays more 
+attention to the continuity and stability of the reflection-loss curve over a broadband range. 
+Therefore, in the automatic optimization process, the fitness evaluation is mainly based on 
+continuous effective bandwidth and target-band coverage ratio, while also considering absorption 
+depth and curve margin. 
+The overall workflow can be summarized as follows. First, Python generates the geometric 
+parameters, sheet-resistance parameters and X/Y bidirectional resistive-film topology patterns of a 
+candidate structure. Then CST automatically establishes the periodic-unit model and performs 
+frequency-domain solving. After the simulation, S11 data are exported and post-processed by 
+Python to obtain the reflection-loss curve, effective bandwidth and coverage ratio. Finally, 
+according to the fitness results, the genetic algorithm performs selection, crossover, mutation and 
+elite preservation on the population to generate a new generation of candidate structures. After 
+multiple generations of iteration, structural performance gradually improves and the optimized 
+structure satisfying the broadband absorption target is obtained. 
+This automatic workflow has two advantages. First, it can reduce a large amount of repetitive 
+manual modeling and parameter modification, allowing different candidate structures to be 
+compared under unified simulation conditions. Second, it can handle high-degree-of-freedom 
+discrete topology search problems, especially the 6×6, 9×9 and 12×12 pixelated resistive-film 
+pattern optimization tasks in this thesis. The genetic algorithm does not rely on gradient information 
+and is suitable for nonlinear optimization problems involving mixed discrete and continuous 
+variables, so it is used in the topology optimization workflow of this thesis [19]. 
+
+
+=== PDF PAGE 33 ===
+ 
+28 
+ 
+Figure 4-1  Staged Optimization Workflow of CST-Python Co-Simulation and Genetic Algorithm 
+4.2  CST-Python Co-Simulation Workflow 
+In this thesis, CST mainly undertakes the tasks of three-dimensional electromagnetic modeling 
+and full-wave solving, while Python mainly undertakes parameter generation, workflow control, 
+data reading and fitness calculation. The two are connected through automatic scripts, so that each 
+genetic-algorithm individual can be automatically converted into a computable CST simulation 
+model. 
+During a complete candidate-structure evaluation, Python first reads or generates the structural 
+parameters corresponding to the individual, including the period 𝑝, height ℎ, X-direction sheet 
+resistance 𝑅𝑠,𝑥, Y-direction sheet resistance 𝑅𝑠,𝑦, and the pixel matrices of the two X/Y film 
+surfaces. Python then decodes these variables into the geometric objects and material parameters 
+required for CST modeling, and calls CST to create the metallic backing plate, PET substrates, 
+Ohmic Sheet resistive films, periodic boundaries and Floquet port. After the model is established, 
+CST performs frequency-domain solving over 2-18 GHz and outputs 𝑆11 data. 
+After the simulation data are exported, Python calculates the reflection-loss curve according to 
+𝑅𝐿= 20log10|𝑆11|                                              (4-1) 
+and further counts the longest continuous frequency band satisfying RL<-10 dB, the effective 
+absorption bandwidth, coverage ratio and minimum reflection loss. In this way, each candidate 
+structure can be converted into a quantitative fitness value for subsequent genetic-algorithm 
+updating. 
+To ensure comparability among the results at different stages, this thesis maintains the same 
+frequency range, boundary conditions, port settings and reflection-loss calculation method in all 
+optimization stages. Thus, the performance differences among the 6×6, 9×9 and 12×12 stages 
+mainly originate from changes in pattern-topology freedom, structural parameters and sheet-
+resistance distribution rather than errors caused by changes in simulation conditions. 
+
+
+=== PDF PAGE 34 ===
+ 
+29 
+4.3  Optimization Variables and Structural Encoding Method 
+The optimization problem in this thesis contains both continuous variables and discrete 
+variables. The continuous variables mainly include the period 𝑝, structural height ℎ, X-direction 
+sheet resistance 𝑅𝑠,𝑥 and Y-direction sheet resistance 𝑅𝑠,𝑦. The discrete variables are the pixel states 
+of the X-oriented and Y-oriented resistive-film patterns. For a pixelated resistive-film pattern, each 
+pixel has only two states: retaining the resistive film or removing it. Therefore, such variables can 
+naturally be represented by binary encoding. 
+Taking a 12×12 pattern as an example, a single film surface contains 144 pixels. If the state of 
+each pixel is unfolded into a one-dimensional binary sequence, the X-oriented film surface 
+corresponds to a 144-bit gene segment and the Y-oriented film surface also corresponds to a 144-bit 
+gene segment. By concatenating them, a topology chromosome describing the double-layer pattern 
+is formed. On this basis, the continuous variables 𝑝, ℎ, 𝑅𝑠,𝑥 and 𝑅𝑠,𝑦 can participate in structural 
+definition as additional parameters together with the pattern chromosome. 
+Table 4-1  Optimization Variables and Their Encoding Methods 
+Variable 
+Category 
+Variable Name 
+Symbol 
+Encoding Method 
+Continuous 
+variable 
+Period 
+𝑝 
+Real-number 
+encoding 
+Continuous 
+variable 
+Structural height 
+ℎ 
+Real-number 
+encoding 
+Continuous 
+variable 
+X-direction sheet 
+resistance 
+𝑅𝑠,𝑥 
+Real-number 
+encoding 
+Continuous 
+variable 
+Y-direction sheet 
+resistance 
+𝑅𝑠,𝑦 
+Real-number 
+encoding 
+Discrete 
+variable 
+X-direction 
+pattern 
+𝑀𝑥 
+Binary matrix 
+Discrete 
+variable 
+Y-direction 
+pattern 
+𝑀𝑦 
+Binary matrix 
+In actual optimization, completely random pixel patterns tend to generate many fragmented, 
+isolated or physically weak structures. This not only reduces search efficiency but also makes the 
+results difficult to interpret. Therefore, this thesis adopts central-symmetric expansion, connectivity 
+filtering, template constraints and semi-constrained multi-template methods at different stages to 
+appropriately restrict the search space. This both preserves sufficient topology freedom and avoids 
+the appearance of many invalid structures. 
+The X/Y two film surfaces are not required to have identical encoding, which is important for 
+the final broadband absorption performance. Because the two film surfaces are orthogonally 
+arranged in space, their current paths and electromagnetic coupling modes differ. Allowing them to 
+evolve separately increases the design freedom. In the final 12×12 optimization result, the retained-
+pixel number, connectivity structure and sheet-resistance parameters of the X-oriented and Y-
+oriented film surfaces differ significantly, showing that the genetic algorithm indeed utilizes the 
+functional division of the double-orthogonal structure. 
+
+
+=== PDF PAGE 35 ===
+ 
+30 
+ 
+Figure 4-2  Schematic Diagram of Chromosome Encoding and Genetic Updating Mechanism 
+4.4  Fitness Function and Performance Evaluation Indices 
+Whether a genetic algorithm can obtain a structure consistent with the target depends largely on 
+the design of the fitness function. For the broadband absorption problem in this thesis, if only the 
+minimum reflection loss is used as the objective, the algorithm may tend to find structures with 
+extremely deep absorption at a single frequency but narrow overall bandwidth. This is inconsistent 
+with the objective of continuous low reflection over the 2-18 GHz broadband. Therefore, this thesis 
+uses continuous effective bandwidth as the main basis for fitness evaluation. 
+Let the longest continuous frequency band satisfying 𝑅𝐿< −10 𝑑𝐵 be from 𝑓low to 𝑓high; then 
+the continuous effective bandwidth is 
+𝐵𝑊eff = 𝑓high −𝑓low                                            (4-2) 
+The target band is 2-18 GHz, with a total width of 16 GHz. Therefore, the coverage ratio is 
+defined as 
+𝜂=
+𝐵𝑊eff
+16
+× 100                                                (4-3) 
+In actual fitness calculation, a larger continuous effective bandwidth indicates a better structure; 
+a lower low-frequency starting boundary indicates an advantage for broadband absorption; and if 
+the curve remains well below −10 𝑑𝐵 within the effective band, the structure may have better 
+stability against frequency perturbations and parameter errors. Therefore, the fitness function in this 
+thesis comprehensively considers effective bandwidth, coverage ratio, low-frequency boundary and 
+average margin. 
+This evaluation method can prevent the algorithm from excessively pursuing single-frequency 
+deep absorption valleys. As shown in Chapter 5, the 9×9 dimensional perturbation stage obtains a 
+deeper minimum reflection loss, but its effective bandwidth and low-frequency boundary are not the 
+final optimum. The final 12×12 semi-constrained multi-template structure does not have the deepest 
+
+
+=== PDF PAGE 36 ===
+ 
+31 
+minimum reflection loss, but its continuous effective bandwidth reaches 13.20 GHz and its 
+coverage ratio reaches 82.5%, which better matches the broadband optimization objective of this 
+thesis. 
+4.5  Genetic Operations and Population Updating Mechanism 
+This thesis uses a genetic algorithm to optimize candidate structures generation by generation. 
+Each generation consists of several candidate individuals, and each individual corresponds to a 
+complete absorbing structure, including geometric parameters, sheet-resistance parameters and X/Y 
+pattern topology. After CST simulation and Python post-processing, each individual obtains a 
+fitness value. The algorithm then updates the population according to fitness so that the features of 
+better structures are retained and propagated to the next generation. 
+The genetic operations mainly include selection, crossover, mutation and elite preservation. 
+Selection chooses individuals with better performance from the current population as parents, 
+making favorable features easier to inherit. Crossover exchanges some gene segments of two parent 
+individuals to generate new combined structures. Mutation randomly changes some pixel states or 
+parameter values to maintain population diversity and prevent the algorithm from prematurely 
+falling into a local optimum. Elite preservation ensures that the current best individual is not lost 
+during random updating. 
+In resistive-film topology optimization, crossover and mutation have a large influence on the 
+search result. If the mutation probability is too low, the population may quickly concentrate in a 
+local region and have difficulty exploring new patterns. If the mutation probability is too high, good 
+topology structures may be excessively destroyed and convergence becomes difficult. Therefore, 
+this thesis reasonably controls the strength of genetic operations at different stages according to the 
+size of the search space and pattern resolution. For the 12×12 high-resolution pattern, a semi-
+constrained multi-template strategy is further introduced so that the search process has both free-
+evolution ability and the ability to retain known favorable low-frequency skeleton and high-
+frequency compensation features. 
+Table 4-2  Main Evaluation Items and Updating Operations in the Genetic Algorithm 
+Category 
+Item 
+Function 
+Evaluation 
+item 
+Continuous 
+effective 
+bandwidth 𝐵𝑊𝑒𝑓𝑓 
+Used as the main optimization objective to 
+enlarge the continuous frequency interval with 
+𝑅𝐿< −10 𝑑𝐵 
+Evaluation 
+item 
+Band coverage 
+ratio 𝜂 
+Measures the proportion of effective absorption 
+bandwidth in the 2-18 GHz target band 
+Evaluation 
+item 
+Minimum 
+reflection loss 
+𝑅𝐿𝑚𝑖𝑛 
+Auxiliary evaluation of absorption depth at 
+local frequency points 
+
+
+=== PDF PAGE 37 ===
+ 
+32 
+Evaluation 
+item 
+Low-frequency 
+boundary f_low 
+Used to determine whether effective absorption 
+extends toward lower frequencies 
+Genetic 
+operation 
+Selection 
+Retains individuals with better absorption 
+performance and increases the inheritance 
+probability of favorable structures 
+Genetic 
+operation 
+Crossover 
+Combines favorable pattern segments and 
+parameter features from different individuals 
+Genetic 
+operation 
+Mutation 
+Introduces new pixel combinations to prevent 
+premature convergence to a local optimum 
+Genetic 
+operation 
+Elite preservation 
+Prevents the current best structure from being 
+lost during random updating 
+ 
+4.6  Staged Optimization Strategy 
+Directly performing a completely random search in the 12×12 high-resolution topology space 
+would face problems such as an excessively large design space, too many invalid structures and 
+high computational cost. Therefore, this thesis does not complete the final optimization in one step, 
+but adopts a staged optimization strategy from low freedom to high freedom and from coarse 
+resolution to fine resolution. 
+First, in the 6×6 stage, a lower-resolution pattern is used for preliminary topology exploration. 
+This stage has lower pattern freedom and relatively small computational cost, so it is suitable for 
+verifying the feasibility of the CST-Python co-simulation workflow and the genetic-algorithm 
+optimization framework. Through this stage, it is possible to preliminarily determine whether the 
+double-orthogonal resistive-film structure has broadband absorption potential and to obtain a basic 
+pattern that can serve as a reference for subsequent optimization. 
+Second, 6×6 optimization is performed again under the Ohmic Sheet model, and then the 
+optimization proceeds to the 9×9 high-resolution topology stage. Compared with the 6×6 stage, the 
+9×9 stage has more local edges, windows and connection regions, allowing more detailed regulation 
+of current paths and local field-enhancement positions. Then, based on a fixed superior 9×9 
+topology, the period p and height h are slightly perturbed and optimized to analyze the influence of 
+geometric dimensions on the reflection-loss curve. 
+Finally, in the 12×12 stage, higher-resolution pixel patterns, X/Y layered sheet resistance and a 
+semi-constrained multi-template strategy are introduced. This stage is not a completely random 
+search; instead, it allows local evolution on the basis of existing favorable structures. Low-
+frequency enhancement templates, high-frequency compensation templates and bridging-flattening 
+templates work together so that the structure can consider the low-frequency boundary, mid-to-
+
+
+=== PDF PAGE 38 ===
+ 
+33 
+high-frequency continuity and curve smoothness. The final 12×12 semi-constrained multi-template 
+structure is taken as the final recommended structure of this thesis. 
+ 
+Figure 4-3  Schematic Diagram of the Hierarchical Expansion of the Design Space from 6×6 to 9×9 to 12×12 
+Table 4-3  Staged Topology Optimization Strategy and Its Function 
+Optimization Stage 
+Modeling 
+Method 
+Pattern 
+Resolution 
+Main Function 
+Thin solid film 
+baseline 
+optimization 
+Thin solid 
+film 
+6×6 
+Verifies the feasibility of the 
+orthogonal resistive-film 
+structure and the automatic 
+optimization workflow 
+Ohmic Sheet re-
+optimization 
+Ohmic Sheet 
+6×6 
+Performs a new search under 
+the surface sheet-resistance 
+model to keep subsequent 
+models unified 
+High-resolution 
+topology 
+optimization 
+Ohmic Sheet 
+9×9 
+Increases pattern edges, 
+windows and local connections 
+to improve topology freedom 
+Dimensional 
+perturbation 
+optimization 
+Ohmic Sheet 
+9×9 
+Fine-tunes period p and height 
+h based on a fixed favorable 
+topology 
+High-frequency 
+compensation 
+optimization 
+Ohmic Sheet 
+12×12 
+Increases pattern resolution 
+and improves continuous 
+absorption in the mid-to-high-
+frequency band 
+Semi-constrained 
+multi-template 
+optimization 
+Ohmic Sheet 
+12×12 
+Combines low-frequency 
+enhancement, high-frequency 
+compensation and curve 
+flattening to obtain the final 
+structure 
+
+
+=== PDF PAGE 39 ===
+ 
+34 
+ 
+The core significance of staged optimization is to control search complexity. The 6×6 stage is 
+used for rapid verification and coarse screening; the 9×9 stage is used to improve topology details 
+and explore medium-resolution structures; and the 12×12 stage is used for final refined optimization 
+and broadband performance improvement. This hierarchical strategy not only reduces the difficulty 
+of direct high-dimensional search but also gives the performance improvement at each stage clear 
+physical and methodological meaning. 
+4.7  Result Saving and Data Post-Processing 
+To facilitate subsequent analysis and thesis organization, key data are saved during the 
+automatic optimization process. After each round of optimization, the program saves the structural 
+parameters of the current best individual, the X/Y-direction pattern matrices, the reflection-loss 
+curve and the genetic-algorithm log. This not only makes it convenient to track how structural 
+performance changes with optimization stage, but also allows the reflection-loss curve comparison 
+figures and performance-index tables in later chapters to be directly generated. 
+The saved data mainly include the optimal structural parameter file, X/Y binary mask files, 𝑆11  
+curve file, genetic-algorithm iteration log and individual tracking records. Among them, the 𝑆11  
+curve file is used to calculate reflection loss and effective bandwidth; the mask files are used to 
+reconstruct the final topology; the genetic-algorithm log is used to check whether the optimization 
+process proceeds normally; and the individual tracking records can be used to analyze the 
+performance distribution of different structures during the search process. 
+The reflection-loss curves, effective-bandwidth comparison tables and final 12×12 results in 
+Chapter 5 all come from the automatically saved data described above. This avoids data confusion 
+caused by manual recording and improves the traceability of results at different stages. 
+4.8  Summary of This Chapter 
+This chapter introduces the CST-Python co-simulation and genetic-algorithm optimization 
+method adopted in this thesis. First, an automatic closed-loop workflow is constructed from 
+parameter generation, CST automatic modeling, frequency-domain solving, 𝑆11  data export and 
+reflection-loss calculation to genetic-algorithm updating. This workflow can effectively reduce 
+repetitive manual modeling work and ensure that different candidate structures are compared under 
+unified simulation conditions. 
+Second, this chapter explains the encoding methods for continuous variables and discrete 
+topology variables. The period 𝑝, height ℎ, X-direction sheet resistance 𝑅𝑠,𝑥 and Y-direction sheet 
+resistance 𝑅𝑠,𝑦  are described by real-number parameters, while the X/Y resistive-film patterns are 
+represented by binary pixel matrices. By unfolding the pixel matrix into a chromosome, the genetic 
+algorithm can perform selection, crossover, mutation and elite preservation on complex patterns and 
+realize automatic topology search. 
+Third, this chapter describes the design principles of the fitness function. Since the objective of 
+this thesis is broadband absorption rather than single-frequency deep absorption, the continuous 
+effective absorption bandwidth and the coverage ratio in the 2-18 GHz band are used as the main 
+optimization indices, while the minimum reflection loss, low-frequency boundary and average 
+
+
+=== PDF PAGE 40 ===
+ 
+35 
+margin are used as auxiliary evaluation items. This fitness design guides the algorithm to search for 
+structures that better satisfy broadband application requirements. 
+Finally, this chapter proposes a staged optimization strategy from 6×6 to 9×9 and then to 12×12. 
+This strategy can gradually increase pattern resolution and design freedom while controlling search 
+complexity, laying a foundation for the analysis of staged topology optimization results and 
+performance improvement in Chapter 5. 
+ 
+ 
+ 
+
+
+=== PDF PAGE 41 ===
+ 
+36 
+Chapter 5  Staged Topology Optimization Results and 
+Performance Improvement 
+5.1  Overall Concept of Staged Optimization 
+Based on the Ohmic Sheet surface sheet-resistance model established above and the CST-
+Python co-simulation and genetic-algorithm optimization workflow, this chapter focuses on the 
+topology optimization results at different stages and the corresponding changes in absorption 
+performance. Because the structure studied in this thesis contains several types of variables, 
+including period, height, sheet resistance and pixelated pattern, directly conducting a completely 
+random search in the high-resolution 12×12 pattern space would require high computational cost 
+and would easily generate many fragmented, invalid or difficult-to-interpret patterns. Therefore, this 
+thesis adopts a staged optimization strategy from low freedom to high freedom and from coarse 
+resolution to fine resolution. 
+The overall optimization route can be summarized as follows. First, the 6×6 thin solid film 
+model is used to verify the feasibility of the double-orthogonal resistive-film structure and the 
+automatic optimization workflow. Then the modeling method is changed to the Ohmic Sheet 
+surface sheet-resistance model, and 6×6 pattern optimization is performed again under this model. 
+Next, the pattern resolution is increased to 9×9 so that finer local structures can improve the 
+broadband absorption performance under the sheet-resistance model. Finally, the resolution is 
+further increased to 12×12, and X/Y layered sheet resistance and a semi-constrained multi-template 
+optimization strategy are introduced to obtain the final broadband absorbing structure. 
+The analysis in this chapter does not simply compare which stage has the deepest reflection-
+loss valley, but focuses on the evolution of continuous effective bandwidth, low-frequency starting 
+boundary and band coverage ratio. This is because the design objective of this thesis is broadband 
+effective absorption in the 2-18 GHz range; an isolated deep absorption valley cannot represent 
+overall broadband performance. Therefore, the final evaluation still uses the continuous effective 
+bandwidth satisfying 𝑅𝐿< −10 𝑑𝐵 and the coverage ratio as the main criteria. 
+5.2  Baseline Optimization Results of the 6×6 Thin Solid Film Model 
+In the preliminary modeling stage, a thin solid film model is first adopted to optimize the 6×6 
+pixelated resistive film structure. The main purpose of this stage is not to obtain the final structure, 
+but to verify the feasibility of the orthogonal resistive film absorbing unit, the CST–Python 
+automated modeling workflow, and the genetic algorithm search strategy. Because the 6×6 pattern 
+has a relatively low resolution, each single-layer film contains only 36 pixels, yielding a rather 
+small design space that is suitable for early-stage coarse searching and method validation. 
+The baseline 6×6 thin solid film structure utilizes two orthogonal film planes (X and Y) to 
+jointly control the absorption. The genetic algorithm adjusts the pixel retention states on the film 
+surfaces together with the geometric parameters of the structure, so that the reflection loss (RL) 
+curve remains below −10 dB over a wide frequency band. The optimal result at this stage achieves 
+RL < −10 dB from 5.12 GHz to 18.00 GHz, corresponding to a continuous effective absorption 
+
+
+=== PDF PAGE 42 ===
+ 
+37 
+bandwidth of 12.88 GHz, a coverage of approximately 80.5% of the 2–18 GHz target band, and a 
+minimum reflection loss of −39.671 dB. 
+ 
+Figure 5-1  Reflection-Loss Curve of the 6×6 Thin Solid Film Baseline Optimization Stage 
+As can be seen from Figure 5‑1, the 6×6 thin solid film structure is already capable of 
+providing effective absorption across a broad frequency range, indicating that the dual-orthogonal 
+resistive film configuration inherently possesses broadband absorption potential. This result offers 
+two important insights for the subsequent optimization: first, the spatial structure of orthogonal 
+resistive films can realize a broadband low-reflection response through patterning; second, the 
+combination of CST–Python and a genetic algorithm can automatically search for structures with 
+good absorbing performance. In other words, this stage mainly serves the purposes of “verifying the 
+feasibility of the structure” and “verifying the feasibility of the optimization workflow.” 
+It should be noted that, although the thin solid film model yields a deep absorption valley 
+and a wide effective bandwidth at this stage, its modeling relies on a combination of the resistive 
+film thickness and the bulk conductivity. For practical engineering applications where resistive film 
+materials are characterized by sheet resistance, the Ohmic Sheet model provides a more appropriate 
+description of the material. Therefore, the subsequent optimization does not directly continue with 
+the thin solid film model; instead, topology optimization is restarted under a unified Ohmic Sheet 
+surface resistance model. 
+5.3  Verification and Re-optimization of the 6×6 Structure Using the Ohmic 
+Sheet Model 
+After adopting the Ohmic Sheet surface-resistance model as the unified modeling approach for 
+subsequent work, the 6×6 pattern obtained from the thin solid film stage was first converted into an 
+Ohmic Sheet model for verification. The purpose of this step was to compare the influence of the 
+two modeling methods on the reflection loss of the same structure and to determine whether the 
+optimal pattern from the thin solid film stage still exhibited similar performance under the sheet-
+resistance model. 
+The simulation results showed that after converting the original 6×6 pattern to the Ohmic 
+Sheet model, the overall trend of the reflection loss curve still maintained broadband absorption 
+
+
+=== PDF PAGE 43 ===
+ 
+38 
+characteristics, but the effective absorption band changed significantly. This structure achieved an 
+RL < −10 dB from 6.88 to 18.00 GHz, with a continuous effective bandwidth of 11.12 GHz, a 
+coverage of approximately 69.5%, and a minimum reflection loss of about −26.791 dB. Compared 
+with the thin solid film results, the lower effective absorption boundary shifted noticeably upward, 
+and the continuous effective bandwidth was reduced. 
+ 
+Figure 5-2  Verification result of the original 6×6 pattern under the Ohmic Sheet model 
+This comparison indicated that although the thin solid film model and the Ohmic Sheet model 
+can capture similar absorption trends, quantitative differences exist in the specific bandwidth, 
+absorption depth, and low-frequency boundary. Therefore, if the Ohmic Sheet was to be adopted as 
+the unified model for subsequent research, the optimal pattern from the thin solid film stage could 
+not simply be used directly; re‑optimization under the sheet-resistance model became necessary. 
+In the re‑optimization stage, the 6×6 pixelated pattern was still employed, but all resistive film 
+regions were modeled as Ohmic Sheet surface resistances. After re‑optimization, the optimal 
+structure achieved an RL < −10 dB from 6.80 to 18.00 GHz, with a continuous effective bandwidth 
+of 11.20 GHz, a coverage of about 70.0%, and a minimum reflection loss of −29.050 dB. 
+ 
+Figure 5-3  Reflection loss curve after 6×6 Ohmic Sheet re‑optimization 
+
+
+=== PDF PAGE 44 ===
+ 
+39 
+As can be seen from Figure 5-3, the re‑optimized 6×6 Ohmic Sheet structure showed a certain 
+improvement over the verification result of the original 6×6 pattern: the minimum reflection loss 
+was deeper and the effective absorption bandwidth was slightly increased. However, because the 
+6×6 resolution is relatively low, the pattern could only express limited edges, windows, and local 
+connection structures, and the low‑frequency boundary remained around 6.8 GHz. This indicates 
+that, under the unified Ohmic Sheet model, relying solely on the 6×6 low‑resolution topology could 
+hardly widen the absorption bandwidth much further, and it was necessary to increase the pattern 
+resolution. 
+5.4  9×9 High-Resolution Topology Optimization Results 
+To enhance the pattern’s expressive capability, the resistive film pixel resolution was increased 
+from 6×6 to 9×9. Compared with the 6×6 structure, the 9×9 pattern contains more pixel units and 
+can form richer edges, windows, bridges, and local compensation regions. These detailed structures 
+can further adjust the surface current paths and local field distributions, thereby improving the 
+broadband absorption performance under the Ohmic Sheet model. 
+In the fixed‑size 9×9 topology optimization stage, the period and height were initially kept 
+within the favorable ranges found earlier, and the genetic algorithm mainly searched the pixel 
+topologies of the X and Y films. The optimization results showed that the 9×9 structure achieved an 
+RL < −10 dB from 5.76 to 18.00 GHz, with a continuous effective absorption bandwidth of 12.24 
+GHz, a coverage of about 76.5%, and a minimum reflection loss of −37.214 dB. 
+ 
+Figure 5-4  Reflection loss curve of the 9×9 fixed‑size topology optimization stage 
+Compared with the 6×6 Ohmic Sheet re‑optimization results, the low‑frequency boundary of 
+the 9×9 structure was pushed from about 6.80 GHz down to 5.76 GHz, and the effective bandwidth 
+increased from 11.20 GHz to 12.24 GHz. This demonstrates that raising the pattern resolution can 
+significantly enhance the structure’s low‑frequency absorption capability and broadband continuity. 
+The reason is that the high‑resolution topology allows longer equivalent current paths and more 
+detailed local coupling regions, which is beneficial for connecting multiple response modes in the 
+frequency domain. 
+
+
+=== PDF PAGE 45 ===
+ 
+40 
+After obtaining a favorable 9×9 topology, the pattern was fixed, and fine‑tuning (perturbation) 
+optimization was performed on the period p and the height h. This stage was mainly used to 
+investigate the influence of geometric dimensions on the reflection loss curve. After the 
+dimensional perturbation optimization, the structure achieved an RL < −10 dB from 5.68 to 18.00 
+GHz, with a continuous effective bandwidth of 12.32 GHz, a coverage of about 77.0%, and a 
+minimum reflection loss of −44.709 dB. 
+ 
+Figure 5-5  Reflection loss curve after 9×9 p and h perturbation optimization 
+From Figure 5-5, it can be seen that the dimensional perturbation optimization further 
+deepened the local absorption valley and slightly improved the effective absorption bandwidth. In 
+particular, the minimum reflection loss of −44.709 dB indicates that the structure possesses very 
+strong local absorption capability at certain frequencies. However, the low‑frequency boundary still 
+remained at about 5.68 GHz, leaving further room for downward extension compared with the final 
+target. Therefore, although the 9×9 perturbation optimization result demonstrated outstanding 
+absorption depth, from the perspective of continuous broadband absorption, a still‑higher‑resolution 
+topology was required to further improve the low‑frequency coverage and overall bandwidth. 
+5.5  12×12 High‑Frequency Compensation Optimization Results 
+To further enhance the broadband absorption capability, the topology resolution was increased 
+to 12×12. The 12×12 pattern contains 144 pixels on a single layer, and the X/Y dual‑film 
+configuration together forms an even higher‑dimensional design space. Compared with the 9×9 
+pattern, the 12×12 structure can fine‑tune the local edges, windows, channels, and compensation 
+regions more delicately, enriching the response modes in different frequency bands. 
+In the 12×12 high‑frequency compensation optimization stage, not only was the pattern 
+resolution improved, but an independent X/Y layer sheet‑resistance design was also introduced. 
+That is, the X‑directed film and the Y‑directed film were no longer forced to use the same sheet 
+resistance; instead, R𝑠,𝑥 and 𝑅𝑠, 𝑦} were set separately.          This allows the two film planes to 
+assume different functions during absorption: the layer with the lower sheet resistance more easily 
+
+
+=== PDF PAGE 46 ===
+ 
+41 
+forms a main current dissipation channel, while the layer with the higher sheet resistance can be 
+used for impedance adjustment and local compensation. 
+The 12×12 high‑frequency compensation optimization results show that at this stage the 
+structure achieved an RL < −10 dB from 4.88 to 18.00 GHz, with a continuous effective absorption 
+bandwidth of 13.12 GHz, a coverage of about 82.0%, and a minimum reflection loss of 
+approximately −22.251 dB. 
+ 
+Figure 5-6  Reflection-Loss Curve of the 12×12 High-Frequency Compensation Optimization Stage 
+Compared with the 9×9 perturbation optimization results, the minimum reflection loss of the 
+12×12 high‑frequency compensation structure was no longer the deepest, but its low‑frequency 
+boundary was pushed from 5.68 GHz down to 4.88 GHz, the continuous effective bandwidth 
+increased from 12.32 GHz to 13.12 GHz, and the coverage improved from 77.0% to 82.0%. This 
+indicates that the high‑resolution topology and the independent layer sheet‑resistance design 
+directly promote the broadband coverage. 
+This result reflects an important rule in broadband absorption optimization: a deeper minimum 
+reflection loss does not necessarily mean better broadband performance. The 9×9 structure had a 
+very deep local absorption valley but a relatively high overall low‑frequency boundary; the 12×12 
+structure, although its single‑point absorption valley was shallower, could maintain an RL < −10 dB 
+over a wider frequency range, making it more consistent with the broadband absorption objective of 
+this thesis. 
+5.6  12×12 Semi‑Constrained Multi‑Template Topology Optimization 
+Based on the 12×12 high‑frequency compensation results, a semi‑constrained multi‑template 
+topology optimization strategy was further adopted. This strategy does not completely fix the 
+existing pattern, nor does it perform a fully random search in the 12×12 high‑dimensional space. 
+Instead, it allows local regions to continue evolving while retaining the already favorable structural 
+skeletons. In this way, the low‑frequency long‑path and medium‑/high‑frequency compensation 
+
+
+=== PDF PAGE 47 ===
+ 
+42 
+features proven effective in earlier optimization are inherited, while a certain degree of freedom is 
+kept for the algorithm to continue searching for better local combinations. 
+The semi‑constrained multi‑template strategy mainly involves three functional orientations: the 
+first is a low‑frequency enhancement template, used to retain or guide longer current paths and 
+larger‑scale connected regions; the second is a high‑frequency compensation template, used to add 
+local edges, short paths, and small‑scale response regions; the third is a bridging/flattening template, 
+used to improve the frequency‑domain joining between different absorption valleys, making the 
+reflection loss curve more continuous within the effective band. 
+The final 12×12 semi‑constrained multi‑template Ohmic Sheet structure is shown in Figure 5-7. 
+The black areas denote the retained sheet‑resistance film, and the white areas denote the removed 
+regions. The X‑directed film retains relatively few pixels, mainly forming a central transverse 
+conduction path and local compensation structures; the Y‑directed film retains significantly more 
+pixel area, forming a relatively complete outer frame, windows, and continuous channel structure. 
+This indicates that the final optimization result does not simply increase the resistive film area; 
+rather, it adjusts the responses in different frequency bands through the functional division between 
+the X and Y layers. 
+ 
+Figure 5-7  Final topology obtained from the 12×12 semi‑constrained multi‑template optimization 
+The final structural parameters are p = 13.1409 mm, h = 10.0731 mm, R{s,x} = 140.79 Ω/sq, 
+and R{s,y} = 35.461 Ω/sq. It can be seen that the Y‑directed sheet resistance is obviously lower 
+than the X‑directed sheet resistance, indicating that the Y‑directed film plane is more inclined to 
+undertake the main ohmic dissipation function, whereas the X‑directed film plane is more likely to 
+play a role in impedance fine‑tuning and local compensation. 
+The reflection loss result is shown in Figure 5-8. The final 12×12 semi‑constrained 
+multi‑template structure achieves an RL < −10 dB from 4.80 to 18.00 GHz, with a continuous 
+effective absorption bandwidth of 13.20 GHz, a coverage of 82.5% over the 2–18 GHz band, and a 
+minimum reflection loss of −23.485 dB. 
+
+
+=== PDF PAGE 48 ===
+ 
+43 
+ 
+Figure 5-8  Reflection loss curve of the 12×12 semi‑constrained multi‑template optimization stage 
+Compared with the 12×12 high‑frequency compensation stage, the semi‑constrained 
+multi‑template optimization further pushed the low‑frequency boundary from 4.88 GHz down to 
+4.80 GHz, while maintaining continuous absorption at the high‑frequency end up to 18.00 GHz. 
+Although the magnitude of this improvement is not as dramatic as that from 9×9 to 12×12, it 
+illustrates that the semi‑constrained multi‑template strategy can continue to improve the boundary 
+band and enhance the broadband continuity of the final structure on the basis of an already 
+favorable configuration. 
+5.7  Performance Analysis of the Final 12×12 Structure 
+The final adopted structure is the 12×12 semi-constrained multi-template Ohmic Sheet topology 
+optimization result, and its main performance parameters are shown in Table 5-1. 
+Table 5-1  Main Parameters and Performance Indices of the Final 12×12 Structure 
+Item 
+Value 
+Period 𝑝 
+13.1409 mm 
+Structural height ℎ 
+10.0731 mm 
+X-direction sheet resistance 𝑅𝑠,𝑥 
+140.79 Ω/sq 
+Y-direction sheet resistance 𝑅𝑠,𝑦 
+35.461 Ω/sq 
+Effective absorption band 
+4.80–18.00 GHz 
+Continuous effective absorption 
+bandwidth 
+13.20 GHz 
+2-18 GHz coverage ratio 
+82.5% 
+Minimum reflection loss 
+-23.485 dB 
+ 
+
+
+=== PDF PAGE 49 ===
+ 
+44 
+From Table 5-1, it can be seen that the final structure maintains effective absorption from 4.80 GHz 
+upward and extends to the upper bound of the frequency range studied, 18.00 GHz. Its effective 
+bandwidth reaches 13.20 GHz, indicating that the structure covers most of the mid‑ and 
+high‑frequency regions within the 2–18 GHz target band. For a metal‑backed resistive‑film 
+metamaterial absorber, this result demonstrates that the dual‑orthogonal sheet‑resistance films, 
+pixelated topology, and independent layer sheet‑resistance design can jointly realize a broadband 
+low‑reflection response. 
+ 
+Figure 5-9  Reflection loss curve of the final 12×12 semi‑constrained multi‑template structure 
+From Figure 5-9, it can be seen that the reflection loss curve of the final structure is not 
+dominated by a single extremely deep absorption valley; instead, it maintains a continuous 
+low‑reflection state across multiple frequency bands. The low‑mid‑frequency, transition, and 
+high‑frequency bands are well connected, indicating that the broadband absorption of this structure 
+arises from the joint action of multiple response modes. In particular, between 4.80 and 18.00 GHz 
+the curve remains consistently below −10 dB, demonstrating that the local absorption modes in 
+different frequency bands can form continuous coverage. 
+It should be emphasized that the minimum reflection loss of the final 12×12 structure is not the 
+deepest among all stages. The 9×9 dimensional perturbation optimization stage once achieved a 
+minimum reflection loss of −44.709 dB, but its effective bandwidth and low‑frequency boundary 
+were inferior to those of the final 12×12 structure. Since the optimization objective of this work is 
+broadband effective absorption, the finally recommended structure should be based primarily on the 
+continuous bandwidth and coverage, rather than taking the single‑point minimum reflection loss as 
+the sole criterion. 
+5.8  Comparison of Optimization Results at Different Stages 
+To compare the optimization results of the various stages more clearly, the effective absorption 
+bands, effective bandwidths, coverage ratios, and minimum reflection losses of the main stages are 
+summarized in Table 5-2. 
+
+
+=== PDF PAGE 50 ===
+ 
+45 
+Table 5-2  Comparison of Optimization Results at Different Stages 
+Optimization Stage 
+Effective 
+Band/GHz 
+Effective 
+Bandwidth/GHz Coverage/% 
+Minimum 
+RL/dB 
+6×6 thin solid film baseline 
+5.12–18.00 
+12.88 
+80.5 
+-39.671 
+Original 6×6 pattern sheet-
+resistance verification 
+6.88–18.00 
+11.12 
+69.5 
+-26.791 
+6×6 sheet-resistance re-
+optimization 
+6.80–18.00 
+11.20 
+70.0 
+-29.050 
+9×9 fixed-size topology 
+5.76–18.00 
+12.24 
+76.5 
+-37.214 
+9×9 dimensional 
+perturbation optimization 
+5.68–18.00 
+12.32 
+77.0 
+-44.709 
+12×12 high-frequency 
+compensation optimization 
+4.88–18.00 
+13.12 
+82.0 
+-22.251 
+12×12 semi-constrained 
+multi-template optimization 
+4.80–18.00 
+13.20 
+82.5 
+-23.485 
+ 
+Table 5-2 shows that the optimization process does not simply make the minimum reflection 
+loss gradually deeper, but is mainly reflected in the continuous extension of the effective absorption 
+band toward lower frequencies and the gradual increase in continuous effective bandwidth. In 
+particular, after the Ohmic Sheet model is uniformly adopted, the effective bandwidth of the 6×6 re-
+optimized structure is 11.20 GHz. After increasing the resolution to 9×9 and performing 
+dimensional perturbation, the effective bandwidth increases to 12.32 GHz. After further adopting 
+12×12 high-frequency compensation and semi-constrained multi-template optimization, the 
+effective bandwidth finally reaches 13.20 GHz. 
+Figure 5-10 superimposes the reflection loss curves of different stages, providing a more 
+intuitive observation of the evolution of the optimization route. In the 6×6 Ohmic Sheet stage, 
+effective absorption mainly occurred in the mid‑high‑frequency region, but the low‑frequency onset 
+was relatively high; the 9×9 stage clearly improved the low‑frequency boundary and absorption 
+depth; the 12×12 stage further pushed down the low‑frequency onset while maintaining continuous 
+effective absorption at the high‑frequency end. This demonstrates that increasing the pattern 
+resolution and introducing independent layer sheet resistances have a significant effect on 
+broadband coverage. 
+
+
+=== PDF PAGE 51 ===
+ 
+46 
+ 
+Figure 5-10  Comparison of Reflection-Loss Curves at Different Optimization Stages 
+ 
+Figure 5-11  Comparison of Effective Absorption Bandwidth at Different Optimization Stages 
+
+
+=== PDF PAGE 52 ===
+ 
+47 
+ 
+Figure 5-12  Comparison of Band Coverage Ratio at Different Optimization Stages 
+Figures 5-11 and 5-12 show the optimization effect from the perspectives of effective 
+bandwidth and coverage ratio, respectively. It can be seen that under the Ohmic Sheet model, as the 
+pattern resolution increases from 6×6 to 9×9 and then to 12×12, the effective bandwidth and 
+coverage ratio generally increase. The final 12×12 semi-constrained multi-template structure has a 
+coverage ratio of 82.5%, indicating good broadband absorption capability in the 2-18 GHz target 
+band. 
+ 
+Figure 5-13  Comparison of Minimum Reflection Loss at Different Optimization Stages 
+Figure 5-13 shows that the minimum reflection loss does not change monotonically with 
+optimization stage. The 9×9 dimensional perturbation stage obtains the deepest absorption valley, 
+
+
+=== PDF PAGE 53 ===
+ 
+48 
+while the final 12×12 structure has a shallower minimum reflection loss. This phenomenon further 
+shows that broadband absorption optimization cannot be simply equated with pursuing single-
+frequency deep absorption. For the objective of this thesis, although the final structure sacrifices 
+part of the local absorption depth, it obtains a lower effective absorption starting frequency and a 
+wider continuous effective absorption bandwidth, and therefore has better comprehensive 
+performance. 
+5.9  Summary of This Chapter 
+This chapter systematically analyzed the staged topology optimization results of the 
+resistive‑film metamaterial absorber. First, the 6×6 thin solid film baseline optimization verified the 
+feasibility of the dual‑orthogonal resistive film structure and the CST–Python genetic algorithm 
+optimization workflow. Subsequently, 6×6 re‑optimization was carried out under the Ohmic Sheet 
+surface‑resistance model, confirming the importance of a unified sheet‑resistance modeling 
+approach. Although the 6×6 Ohmic Sheet stage could achieve effective absorption in the 
+mid‑high‑frequency range, the low‑frequency boundary remained relatively high, further indicating 
+the limited degrees of freedom of the low‑resolution pattern. 
+By increasing the pattern resolution to 9×9, the effective absorption bandwidth was improved 
+from 11.20 GHz in the 6×6 Ohmic Sheet stage to 12.24 GHz, and further reached 12.32 GHz after 
+the dimensional perturbation optimization. This stage demonstrated that adding pattern edges, 
+windows, and connection structures can effectively enhance the broadband absorption performance. 
+However, although the 9×9 structure obtained a very deep local absorption valley, there was still 
+room for further optimization of the low‑frequency boundary. 
+In the 12×12 stage, a higher‑resolution pixel topology, independent X/Y layer sheet resistances, 
+and a semi‑constrained multi‑template strategy were introduced, eventually yielding the optimal 
+structure with p = 13.1409 mm, h = 10.0731 mm, R{s,x} = 140.79 Ω/sq, and R{s,y} = 35.461 Ω/sq. 
+This structure satisfies an RL < −10 dB from 4.80 to 18.00 GHz, with a continuous effective 
+absorption bandwidth of 13.20 GHz, a coverage of 82.5%, and a minimum reflection loss of 
+−23.485 dB. 
+Based on the results of each stage, it can be concluded that the final performance improvement 
+comes mainly from three aspects: first, the Ohmic Sheet model makes the sheet‑resistance 
+parameters more consistent with the engineering characterization of the material; second, the 
+increase in pattern resolution enhances the ability to control local edges, windows, and current paths; 
+third, the 12×12 semi‑constrained multi‑template strategy continues to optimize local compensation 
+regions while maintaining the favorable structural skeleton, enabling the final structure to maintain 
+a continuous low reflection over a wide frequency range. The next chapter will further analyze the 
+broadband absorption mechanism of the final structure by combining the electric field, magnetic 
+field, and surface power loss density distributions. 
+ 
+ 
+
+
+=== PDF PAGE 54 ===
+ 
+49 
+Chapter 6  Absorption Performance and Mechanism Analysis 
+of the Final 12×12 Structure 
+6.1  Overview of the Final Structure and Absorption Performance 
+Chapter 5 has already compared the topology optimization results of different stages and 
+determined the 12×12 semi-constrained multi-template Ohmic Sheet topology optimization 
+structure as the recommended scheme of this thesis. The main parameters of this structure are: 
+period p = 13.1409 mm, structure height h = 10.0731 mm, X‑directed sheet resistance R{s,x} = 
+140.79 Ω/sq, and Y‑directed sheet resistance R{s,y} = 35.461 Ω/sq. Simulation results show that 
+the structure achieves an RL < −10 dB between 4.80 and 18.00 GHz, with a continuous effective 
+absorption bandwidth of 13.20 GHz, a coverage of 82.5% over the 2–18 GHz target band, and a 
+minimum reflection loss of −23.485 dB. 
+It can be seen from the reflection loss curve that the final structure does not achieve broadband 
+performance by relying on a single extremely deep absorption valley; instead, it maintains a 
+continuous low‑reflection state over a wide frequency range. This indicates that the absorption 
+mechanism of the final structure is not a single resonance mode, but rather the result of multiple 
+response modes connecting with each other in the frequency domain. To further explain the origin 
+of the broadband absorption of this structure, this chapter will analyze its absorption mechanism by 
+combining the final structure topology, three-dimensional model, electric field distribution, 
+magnetic field distribution, and surface power loss density distribution. 
+ 
+Figure 6-1  Final 12×12 Semi-Constrained Multi-Template Ohmic Sheet Topology 
+Figure 6-1 shows the X-direction and Y-direction patterns of the final 12×12 structure. The 
+black regions indicate retained Ohmic Sheet sheet-resistance film regions, and the white regions 
+indicate removed sheet-resistance film regions. It can be seen that the X-direction and Y-direction 
+topologies are different. The X-oriented film surface retains fewer regions and mainly forms a 
+central strip-like structure and local compensation units. The Y-oriented film surface retains more 
+regions and forms a relatively complete outer frame, windows and continuous conducting paths. 
+This asymmetric bidirectional topology shows that the genetic algorithm does not simply increase 
+
+
+=== PDF PAGE 55 ===
+ 
+50 
+the film area, but improves broadband absorption performance through differentiated functional 
+division between the X/Y two film surfaces. 
+To analyze the field-distribution and loss characteristics in different frequency bands, this thesis 
+selects three frequencies, 8.8 GHz, 12.0 GHz and 15.5 GHz, for physical-field analysis. These three 
+frequencies are respectively located in the mid-low-frequency region, the mid-frequency transition 
+region and the high-frequency region of the final effective absorption band, and can represent the 
+response characteristics at different frequencies during broadband absorption. 
+Table 6-1  Representative Frequencies Selected for Mechanism Analysis of the Final Structure and Their 
+Significance 
+Representative 
+Frequency 
+Band Region 
+Reason for Selection 
+8.8 GHz 
+Mid-low-frequency 
+effective absorption 
+region 
+Used to observe the contribution of longer 
+current paths, outer-frame structures and 
+overall spatial coupling to absorption 
+12.0 GHz 
+Mid-frequency 
+transition region 
+Used to analyze the connection between 
+different absorption modes and the 
+continuity of impedance matching 
+15.5 GHz 
+High-frequency 
+effective absorption 
+region 
+Used to observe the contribution of local 
+edges, windows and short-path structures to 
+high-frequency absorption 
+ 
+6.2  Three-Dimensional Model and Spatial Coupling Characteristics of the 
+Final Structure 
+The final absorbing unit consists of three parts: a bottom metal backplane, two orthogonal PET 
+substrates, and patterned Ohmic Sheet resistive films loaded on the PET surfaces. The metal 
+backplane is located at the bottom of the structure to suppress transmission; the PET substrates are 
+arranged along two mutually perpendicular directions, so that the X‑directed and Y‑directed 
+resistive films form an orthogonal coupling in space. The patterned resistive films serve as the main 
+functional layer, simultaneously undertaking surface current regulation and ohmic loss. 
+ 
+Figure 6-2  Three-Dimensional Simulation Model of the Final 12×12 Structure 
+
+
+=== PDF PAGE 56 ===
+ 
+51 
+It can be seen from Figure 6-2 that the final structure is not a simple two-dimensional planar 
+patch structure, but possesses distinct three-dimensional spatial features. The X‑directed and 
+Y‑directed resistive films cross orthogonally inside the unit, enabling the incident electromagnetic 
+wave to excite different surface current paths in different directions. A certain spatial interval exists 
+between the metal backplane and the resistive films above, allowing the interior of the structure to 
+generate regions of electric field confinement, magnetic field coupling, and energy dissipation. 
+The advantages of this spatial orthogonal configuration are as follows: on the one hand, the two 
+film planes can respectively adjust the current paths and equivalent impedances in different 
+directions; on the other hand, there exists spatial coupling between the orthogonal film planes, 
+which can make different local response modes complement each other in the frequency domain. In 
+particular, in the final optimization result, the X‑directed film plane has a higher sheet resistance 
+and fewer retained areas, whereas the Y‑directed film plane has a lower sheet resistance and more 
+retained areas, indicating that the two film planes are not simple repetitions but instead form a clear 
+functional division. 
+From the perspective of structural function, the Y‑directed low‑sheet‑resistance film plane 
+more easily forms a continuous current dissipation path and is the main ohmic loss channel; the 
+X‑directed higher‑sheet‑resistance film plane adjusts the impedance matching through local strips 
+and compensation regions and plays a compensating role for the mid‑ and high‑frequency responses. 
+Together, they enable the final structure to maintain a low reflection over a wide frequency band. 
+6.3  Analysis of Electric Field Distribution 
+The electric-field distribution can reflect the coupling positions of incident electromagnetic 
+waves in the structure, local charge accumulation regions and field-enhancement features at pattern 
+edges. For a patterned resistive-film absorbing structure, if the electric field is significantly 
+enhanced near the film edges, windows or local gaps, these regions can effectively participate in the 
+electromagnetic response and may have an important influence on impedance matching and local 
+loss. 
+ 
+Figure 6-3  Electric-Field Distribution of the Final Structure at 8.8 GHz 
+
+
+=== PDF PAGE 57 ===
+ 
+52 
+At 8.8 GHz, the electric field is obviously distributed near the patterned resistive film, and local 
+enhancement regions are mainly concentrated at film-surface edges, window transition regions and 
+the two orthogonal film surfaces. This frequency lies in the mid-low-frequency effective absorption 
+region, where the electromagnetic response usually requires longer equivalent current paths and a 
+larger spatial coupling scale. The relatively complete outer frame and continuous channels of the Y-
+oriented film surface provide longer paths, while the local structures of the X-oriented film surface 
+regulate the local electric-field distribution, enabling the incident wave to be effectively coupled 
+into the structure. 
+ 
+Figure 6-4  Electric-Field Distribution of the Final Structure at 12.0 GHz 
+At 12.0 GHz, the electric-field distribution exhibits a mid-frequency transition feature. This 
+frequency is not the deepest absorption valley in the reflection-loss curve, but it is still within the 
+effective absorption band, indicating that the structure maintains good impedance matching and 
+energy coupling at this frequency. The electric-field enhancement is no longer concentrated at a 
+single local position, but distributed near multiple edges and windows, showing that different local 
+modes participate in the response together in this band. It is this multi-region and multi-path 
+coupling that prevents obvious reflection rebound between different absorption peaks. 
+
+
+=== PDF PAGE 58 ===
+ 
+53 
+ 
+Figure 6-5  Electric-Field Distribution of the Final Structure at 15.5 GHz 
+At 15.5 GHz, the electric-field enhancement regions become more localized and mainly appear 
+near pattern edges, local openings and short-path structures. High-frequency electromagnetic waves 
+correspond to shorter equivalent response scales, so local edges, windows and small-size 
+compensation structures are more important for high-frequency absorption. The final 12×12 high-
+resolution topology provides many fine edges and local connection regions, enabling the structure 
+to continue maintaining effective absorption at high frequencies without obvious reflection 
+enhancement in the mid-to-high-frequency range. 
+By combining the electric-field distributions at the three frequencies, it can be seen that the 
+main response regions of the final structure are not identical at different frequencies. The 8.8 GHz 
+response relies more on larger-scale conducting paths and overall coupling; 12.0 GHz shows a 
+transition response involving multiple local modes; and 15.5 GHz relies more on local edges and 
+high-frequency compensation structures. This indicates that the final broadband absorption 
+originates from the continuous connection of multiple electric-response regions in the frequency 
+domain. 
+6.4  Analysis of Magnetic Field Distribution 
+The magnetic-field distribution can reflect the magnetic coupling characteristics between the 
+resistive film and the metallic backing plate. For a metal-backed metamaterial absorbing structure, 
+the surface current on the patterned layer and the image current in the metallic backing plate can 
+form an equivalent current loop, thereby producing a magnetic response. This magnetic response 
+helps regulate the input impedance of the structure so that it approaches free-space impedance 
+within a certain frequency range, thereby reducing front-surface reflection. 
+
+
+=== PDF PAGE 59 ===
+ 
+54 
+ 
+Figure 6-6  Magnetic-Field Distribution of the Final Structure at 8.8 GHz 
+At 8.8 GHz, the magnetic field is mainly distributed in the spatial region between the resistive-
+film structure and the metallic backing plate and is enhanced near local patterns. This indicates that 
+after entering the structure, the incident wave is not simply reflected by the front surface, but forms 
+obvious spatial coupling between the resistive film and the metallic backing plate. Low-to-mid-
+frequency absorption usually requires a larger equivalent loop size, and the continuous outer frame 
+and window structures of the Y-oriented film surface in the final structure help form longer current 
+paths, thereby enhancing the magnetic response in this band. 
+ 
+Figure 6-7  Magnetic-Field Distribution of the Final Structure at 12.0 GHz 
+At 12.0 GHz, the magnetic field still maintains a certain intensity inside the structure, 
+indicating that continuous magnetic coupling still exists between the resistive film and the metallic 
+backing plate at this frequency. Compared with the low-frequency point, the magnetic-field 
+enhancement regions at the mid-frequency point are more dispersed, corresponding to the electric-
+
+
+=== PDF PAGE 60 ===
+ 
+55 
+field distribution in which multiple local modes jointly participate. This frequency connects the 
+mid-low-frequency absorption region and the high-frequency absorption region in the reflection-
+loss curve, so its magnetic-field distribution reflects the transition characteristics of broadband 
+continuity. 
+ 
+Figure 6-8  Magnetic-Field Distribution of the Final Structure at 15.5 GHz 
+At 15.5 GHz, the magnetic-field enhancement regions further exhibit localized features. In the 
+high-frequency band, shorter local current paths and edge structures can form small-scale magnetic 
+response regions, which act together with local electric-field enhancement to maintain the low-
+reflection state of the structure at high frequencies. Without these local compensation structures, 
+impedance mismatch would easily occur at high frequencies, leading to a rebound in the reflection-
+loss curve. The fact that the final 12×12 topology maintains RL<-10 dB in the high-frequency band 
+indicates the important role of local structures in high-frequency compensation. 
+From the comprehensive magnetic field distribution, it can be concluded that the metal 
+backplane not only suppresses transmission but also participates in the impedance matching by 
+forming magnetic coupling with the resistive film pattern. The electric field distribution reflects the 
+local charges and edge responses, while the magnetic field distribution reflects the internal 
+equivalent current loops and spatial coupling. Together, they determine whether the final structure 
+can maintain a low reflection over a wide frequency range. 
+6.5  Analysis of Power Loss Density 
+The surface power-loss-density distribution is an important basis for determining the location 
+of energy dissipation. For the Ohmic Sheet resistive-film model adopted in this thesis, incident 
+electromagnetic waves excite surface currents on the sheet-resistance film, and the finite sheet 
+resistance dissipates the current energy in the form of ohmic loss. Therefore, if the power-loss 
+density is mainly concentrated in the patterned resistive-film regions, especially near edges, 
+windows, bridges and continuous channels, it indicates that the patterned sheet-resistance film is 
+indeed the main absorbing functional layer. 
+
+
+=== PDF PAGE 61 ===
+ 
+56 
+ 
+Figure 6-9  Surface Power-Loss-Density Distribution of the Final Structure at 8.8 GHz 
+At 8.8 GHz, the high-loss regions are mainly distributed at the edges and local connection 
+regions of the resistive-film pattern, especially near relatively continuous sheet-resistance channels. 
+This indicates that the incident energy at this frequency can be effectively coupled to the surface 
+sheet-resistance film and form current dissipation along a longer path. Because the Y-oriented film 
+surface has lower sheet resistance and more retained regions, it more easily undertakes the main 
+loss function, while the X-oriented film surface changes the coupling state and assists absorption 
+through local structures. 
+ 
+Figure 6-10  Surface Power-Loss-Density Distribution of the Final Structure at 12.0 GHz 
+
+
+=== PDF PAGE 62 ===
+ 
+57 
+At 12.0 GHz, the loss regions are still mainly concentrated on the patterned sheet-resistance 
+film surface, but their distribution is more dispersed. This phenomenon indicates that absorption in 
+the mid-frequency band is not dominated by a single region, but jointly contributed by multiple 
+edges, windows and connection structures. The dispersed loss distribution helps reduce reflection 
+rebound in the mid-frequency band and allows the structure to maintain a smoother transition 
+between different absorption modes. 
+ 
+Figure 6-11  Surface Power-Loss-Density Distribution of the Final Structure at 15.5 GHz 
+At 15.5 GHz, the surface power-loss density shows more obvious localization, and the high-
+loss regions are mainly concentrated near local edges and small-scale compensation regions. This is 
+consistent with the localized characteristics of the electric and magnetic fields at high frequencies. 
+High-frequency electromagnetic response is more sensitive to small-size structures, so the local 
+edges, short channels and window structures provided by the 12×12 high-resolution pattern can 
+effectively undertake the high-frequency absorption function. 
+From the loss diagrams at the three frequency points, it can be seen that the energy dissipation 
+of the final structure does not occur uniformly over the entire film surface, but is concentrated in 
+several key functional regions. These regions usually correspond to pattern edges, windows, 
+channels, and bridge locations. This indicates that the essence of pixelated topology optimization is 
+not simply changing the resistive film area, but reorganizing the surface current flow paths so that 
+the electromagnetic energy is concentrated in suitable regions and dissipated through the sheet 
+resistance. 
+6.6  Functional Division of the X/Y Orthogonal Sheet-Resistance Films 
+In the final 12×12 structure, the X-direction sheet resistance is 140.79 Ω/sq and the Y-direction 
+sheet resistance is 35.461 Ω/sq, showing a large difference. At the same time, the retained-pixel 
+number and connectivity mode of the X- and Y-oriented patterns are also obviously different. This 
+
+
+=== PDF PAGE 63 ===
+ 
+58 
+indicates that the final structure is not a simple superposition of two identical film surfaces, but a 
+double-layer orthogonal system with functional division. 
+From the topology morphology, the Y-oriented film surface has a relatively complete outer 
+frame, windows and continuous channel structures, and its sheet resistance is lower, making it 
+easier to form strong surface currents and main ohmic loss. Therefore, the Y-oriented film surface 
+can be understood as the main dissipation layer and low-frequency skeleton layer. Its continuous 
+conducting paths help increase the equivalent current-path length and thereby push the effective 
+absorption band toward lower frequencies. 
+The X-oriented film surface has relatively fewer retained regions and higher sheet resistance, 
+and is mainly composed of a central strip-like region and local compensation structures. Although 
+this film surface does not necessarily undertake the main energy dissipation, it can improve the 
+overall reflection-loss curve by changing the local electric-field distribution, regulating the spatial 
+coupling state and compensating mid-to-high-frequency impedance mismatch. Therefore, the X-
+oriented film surface tends to act as an impedance-regulation layer and high-frequency 
+compensation layer. 
+Precisely because the sheet resistance, topology and spatial direction of the X/Y two film 
+surfaces are different, the final structure can excite different response modes at different frequencies. 
+The low-to-mid-frequency band mainly relies on longer paths and overall coupling, the high-
+frequency band mainly relies on local edges and compensation structures, and the mid-frequency 
+band is connected by multiple modes. This functional division is one important reason why the final 
+structure achieves continuous effective absorption over 4.80-18.00 GHz. 
+6.7  Summary of the Broadband Absorption Mechanism 
+By combining the reflection-loss curve, topology, electric-field distribution, magnetic-field 
+distribution and surface power-loss-density distribution, the broadband absorption mechanism of 
+the final 12×12 semi-constrained multi-template structure can be summarized as follows. 
+First, the metallic backing plate suppresses transmission, preventing incident electromagnetic 
+waves from penetrating the structure, so the absorption performance is mainly determined by front-
+surface reflection. Therefore, as long as the structure can reduce S11, the overall absorptivity can be 
+effectively improved. 
+Second, the X/Y two layers of resistive films on the orthogonal PET substrates form a spatial 
+coupling structure. Compared with a single planar film, the double-orthogonal structure provides 
+more current paths and coupling modes, allowing surface currents in different directions to jointly 
+participate in absorption. 
+Third, the X/Y layered sheet resistance produces functional division between the two film 
+surfaces. The Y-oriented low-sheet-resistance film surface mainly undertakes ohmic dissipation and 
+low-frequency path construction, while the X-oriented high-sheet-resistance film surface mainly 
+undertakes impedance regulation and local compensation. 
+Fourth, the 12×12 pixelated pattern provides rich edges, windows, bridges and local 
+compensation structures. These structures excite different local modes in different frequency bands, 
+connecting multiple absorption peaks or absorption intervals in the frequency domain and thereby 
+forming a broadband low-reflection response. 
+
+
+=== PDF PAGE 64 ===
+ 
+59 
+Fifth, the surface power-loss density is concentrated in the patterned sheet-resistance film 
+regions, indicating that the incident energy is ultimately dissipated mainly through ohmic loss on 
+the surface of the resistive film rather than relying only on dielectric loss or geometric scattering. 
+Table 6-2  Summary of the Broadband Absorption Mechanism of the Final 12×12 Structure 
+Mechanism 
+Main Origin 
+Contribution to Broadband Absorption 
+Transmission 
+suppression 
+Metallic backing plate 
+Makes transmission approximately 
+zero; absorption mainly depends on 
+reflection loss 
+Impedance 
+matching 
+Structural height, pattern 
+topology and X/Y 
+orthogonal coupling 
+Reduces front-surface reflection and 
+allows the incident wave to enter the 
+structure 
+Ohmic loss 
+Ohmic Sheet sheet-
+resistance film 
+Converts surface current into heat loss 
+and acts as the main dissipation 
+mechanism 
+Low-frequency 
+extension 
+Y-oriented low-sheet-
+resistance outer frame 
+and continuous channels 
+Increases the equivalent current-path 
+length and pushes the low-frequency 
+end downward 
+High-frequency 
+compensation 
+X-oriented local 
+compensation structures 
+and pattern edges 
+Improves mid-to-high-frequency 
+impedance matching and maintains 
+continuous high-frequency absorption 
+Multimode 
+coupling 
+12×12 windows, edges 
+and bridge structures 
+Forms multiple local response modes 
+and continuously connects absorption 
+intervals 
+ 
+6.8  Summary of This Chapter 
+This chapter analyzes the absorption performance and mechanism of the final 12×12 semi-
+constrained multi-template Ohmic Sheet structure. The final structure satisfies RL<-10 dB over 
+4.80-18.00 GHz, with a continuous effective absorption bandwidth of 13.20 GHz and a coverage 
+ratio of 82.5%. This result shows that the final structure can achieve a wide range of continuous low 
+reflection within the 2-18 GHz target band. 
+The electric-field distributions at the three representative frequencies of 8.8 GHz, 12.0 GHz and 
+15.5 GHz show that the main response regions excited by the final structure are different in 
+different bands. The mid-low-frequency band depends more on longer current paths and overall 
+spatial coupling; the mid-frequency band shows a transition feature involving multiple regions; and 
+the high-frequency band relies more on local edges and short-path compensation structures. 
+The magnetic-field distribution shows obvious spatial coupling between the resistive film and 
+the metallic backing plate. The metallic backing plate not only suppresses transmission, but also 
+participates in the formation of equivalent current loops and magnetic response, helping regulate the 
+input impedance of the structure. The surface power-loss-density distribution further indicates that 
+the main energy dissipation is concentrated at the edges, windows and connection regions of the 
+patterned sheet-resistance film, demonstrating that ohmic loss in the Ohmic Sheet resistive film is 
+the main dissipation mechanism of the final absorbing structure. 
+
+
+=== PDF PAGE 65 ===
+ 
+60 
+Overall, the broadband absorption of the final structure originates from the combined action of 
+transmission suppression by the metallic backing plate, spatial coupling of the X/Y orthogonal 
+sheet-resistance films, functional division produced by layered sheet resistance, multimode response 
+of the 12×12 high-resolution pattern and surface ohmic loss of the sheet-resistance film. This 
+mechanism analysis further proves that the final topology obtained through CST-Python co-
+simulation and genetic algorithm is not merely a numerical optimization result, but has a clear 
+electromagnetic-physical basis. 
+ 
+ 
+
+
+=== PDF PAGE 66 ===
+ 
+61 
+Conclusions 
+This thesis focused on the design of broadband microwave absorbing structures based on 
+resistive-film metamaterials. A dual-orthogonal absorbing unit model consisting of a metal 
+backplane, orthogonal PET substrates, and Ohmic Sheet surface-resistance films was established. 
+By combining CST–Python co-simulation with genetic algorithm optimization, staged topology 
+optimizations from 6×6 to 12×12 were carried out for the resistive-film pattern topology, geometric 
+parameters, and independent X/Y sheet resistances. A final broadband absorbing structure was 
+obtained with a reflection loss below −10 dB in the range of 4.80–18.00 GHz, a continuous 
+effective bandwidth of 13.20 GHz, and a coverage of 82.5%. Its electromagnetic field distributions 
+and energy dissipation mechanisms were systematically analyzed. 
+The main innovative contributions of this thesis are summarized as follows: 
+A dual-orthogonal resistive-film broadband absorbing unit model based on the Ohmic Sheet 
+surface-resistance characterization was established. By introducing independent sheet resistances 
+and differentiated pixel topologies in the X- and Y-directions, a functional division configuration of 
+“one main dissipation layer + one impedance-adjustment/high-frequency-compensation layer” was 
+proposed, overcoming the degrees-of-freedom limitation of conventional uniform resistive films 
+and single-layer patterns in broadband absorption. 
+An automated closed-loop optimization workflow integrating CST–Python co-simulation with 
+a genetic algorithm was constructed, enabling hybrid encoding and global search of discrete pixel 
+topology variables together with continuous geometric and sheet-resistance variables. A “semi-
+constrained multi-template” strategy was proposed to balance search efficiency and structural 
+interpretability in the high-resolution 12×12 topology. 
+Through the staged optimizations of 6×6 → 9×9 → 12×12, the progressive influence of 
+pixel resolution, independent layer sheet resistances, and pattern degrees of freedom on the 
+broadband absorption performance was systematically revealed, and a final structure with a 
+continuous effective bandwidth of 13.20 GHz was obtained. 
+By combining the distributions of the electric field, magnetic field, and surface power loss 
+density, it was elucidated that the broadband absorption arises from the synergistic mechanism of 
+transmission suppression by the metal backplane, spatial coupling of the X/Y orthogonal sheet-
+resistance films, joining of multiple local modes, and surface ohmic losses. 
+Further in-depth research should be carried out in the following aspects: 
+While keeping the structural thickness controllable, further optimize the low-frequency 
+absorption boundary so that the effective absorption band extends below 2 GHz, covering a wider 
+low-frequency microwave range. 
+Investigate the absorption stability and bandwidth retention characteristics of the structure 
+under different polarization modes and oblique incident angles, evaluating its engineering 
+applicability in complex incident environments. 
+Introduce actual fabrication parameters such as sheet-resistance deviation, substrate thickness 
+tolerance, and assembly errors to analyze the performance robustness of the final structure, 
+providing a basis for fabrication and testing. 
+
+
+=== PDF PAGE 67 ===
+ 
+62 
+Employ multi-objective optimization methods to seek a more balanced design among 
+broadband absorption, lightweight and thin profile, manufacturability, and parameter robustness. 
+
+
+=== PDF PAGE 68 ===
+ 
+63 
+References 
+［1］VESELAGO V G. The electrodynamics of substances with simultaneously negative values of 
+ε and μ［J］. Soviet Physics Uspekhi, 1968, 10(4): 509-514. 
+［2］PENDRY J B, HOLDEN A J, ROBBINS D J, et al. Magnetism from conductors and 
+enhanced nonlinear phenomena［J］. IEEE Transactions on Microwave Theory and Techniques, 
+1999, 47(11): 2075-2084. 
+［3］SMITH D R, PADILLA W J, VIER D C, et al. Composite medium with simultaneously 
+negative permeability and permittivity［J］. Physical Review Letters, 2000, 84(18): 4184-4187. 
+［4］SHELBY R A, SMITH D R, SCHULTZ S. Experimental verification of a negative index of 
+refraction［J］. Science, 2001, 292(5514): 77-79. 
+［5］LANDY N I, SAJUYIGBE S, MOCK J J, et al. Perfect metamaterial absorber［J］. Physical 
+Review Letters, 2008, 100(20): 207402. 
+［6］TAO H, LANDY N I, BINGHAM C M, et al. A metamaterial absorber for the terahertz 
+regime: design, fabrication and characterization［J］. Optics Express, 2008, 16(10): 7181-7188. 
+［7］WATTS C M, LIU X, PADILLA W J. Metamaterial electromagnetic wave absorbers［J］. 
+Advanced Materials, 2012, 24(23): OP98-OP120. 
+［8］DING F, CUI Y, GE X, et al. Ultra-broadband microwave metamaterial absorber［J］. 
+Applied Physics Letters, 2012, 100(10): 103506. 
+［9］XU H X, WANG G M, QI M Q, et al. Triple-band polarization-insensitive wide-angle ultra-
+miniature metamaterial transmission line absorber［J］. Physical Review B, 2012, 86(20): 205104. 
+［10］CHEN H T. Interference theory of metamaterial perfect absorbers［J］. Optics Express, 
+2012, 20(7): 7165-7172. 
+［11］YOO M, LIM S. Polarization-independent and ultrawideband metamaterial absorber using a 
+hexagonal artificial impedance surface and a resistive sheet［J］. IEEE Transactions on Antennas 
+and Propagation, 2014, 62(5): 2652-2658. 
+［12］KAZEMZADEH A, KARIMI A. Broadband microwave absorber using resistive frequency 
+selective surfaces［J］. Progress In Electromagnetics Research, 2016, 155: 169-179. 
+［13］LIU X, STARR T, STARR A F, et al. Infrared spatial and frequency selective metamaterial 
+with near-unity absorbance［J］. Physical Review Letters, 2010, 104(20): 207403. 
+［14］WANG G, et al. Bistable tunable microwave absorber based on carbon resistive films and 
+curved structures［J］. Composites Science and Technology, 2024. 
+［15］SONG Z, et al. Origami-inspired optically transparent broadband tunable microwave 
+absorber based on ITO-PET resistive films［J］. Advanced Optical Materials, 2024. 
+［16］ANJALI M, et al. Flexible metamaterial microwave absorbers based on nano-polymer 
+composites［J］. Materials Today Communications, 2024. 
+［17］KIM K, et al. Frequency- and bandwidth-reconfigurable metamaterial microwave absorber 
+using shape memory materials［J］. Advanced Engineering Materials, 2024. 
+
+
+=== PDF PAGE 69 ===
+ 
+64 
+［18］KANG J, et al. Flexible metamaterial with compatible visible, infrared and microwave 
+multispectral camouflage performance［J］. Advanced Functional Materials, 2023. 
+［19］GOLDBERG D E,et al Genetic algorithms in search, optimization, and machine learning
+［M］. Reading, Mass.: Addison-Wesley, 1989. 
+［20］Dassault Systèmes,et al CST Studio Suite 2025 documentation［CP/OL］. Vélizy-
+Villacoublay: Dassault Systèmes, 2025［2026-05-09］. Dassault Systèmes Documentation. 
+ 
+ 
+
+
+=== PDF PAGE 70 ===
+ 
+65 
+攻读学士学位期间取得创新性成果 
+一、发表的学术论文 
+[1]雨田,曾昱霖,肖晓灵,等.用于无线通信的磁纳米合金/石墨烯复合型吸波材料设计[J].飞控与
+探测,2025,8(01):96-104.DOI:10.20249/j.cnki.2096-5974.2025.01.011.  
+[2] ZHANG Z, LI J, CUI J, et al. Broadband microwave absorption of Nb₂CTₓ nanosheets by a one-
+step hydrothermal method[J]. Inorganic Chemistry, 2025, 64(19): 9435-9446. 
+DOI:10.1021/acs.inorgchem.4c05411.  
+[3]程润良,郑诚锐,方文一,等.二维尘埃等离子体晶格波特性研究[J/OL].中国科学:物理学 力学 
+天文学,1-10[2025-04-09].http://kns.cnki.net/kcms/detail/11.5848.N.20250211.1013.006.html.  
+二、申请及已获得的专利 
+[1]哈尔滨工业大学.一种八元高熵合金纳米颗粒/石墨烯复合型电磁波吸收材料及其制备方
+法:202410759992.X[P].2024-10-01.  
+[2]哈尔滨工业大学. 一种高熵双相硫化物及其制备方法和应用:202411900823.X [P].2025-04-
+01.  
+[3]哈尔滨工业大学.一种用于涡旋光束转换的可调电磁超构表面:202410921640.X[P].2024-10-
+15. 
+三、参与的科研项目及获奖情况 
+无 
+ 
+ 
+
+
+=== PDF PAGE 71 ===
+ 
+66 
+ 
+哈尔滨工业大学本科毕业论文（设计） 
+原创性声明和使用权限 
+本科毕业论文（设计）原创性声明 
+本人郑重声明：此处所提交的本科毕业论文（设计）《               》，是本人在导师指导下，
+在哈尔滨工业大学攻读学士学位期间独立进行研究工作所取得的成果，且毕业论文（设计）
+中除已标注引用文献的部分外不包含他人完成或已发表的研究成果。对本毕业论文（设计）
+的研究工作做出重要贡献的个人和集体，均已在文中以明确方式注明。本毕业论文（设计）
+对使用AI 工具的情况进行了明确标注。 
+ 
+ 
+作者签名：
+   日期：2026 年5 月5 日 
+ 
+ 
+本科毕业论文（设计）使用权限 
+本科毕业论文（设计）是本科生在哈尔滨工业大学攻读学士学位期间完成的成果，知
+识产权归属哈尔滨工业大学。本科毕业论文（设计）的使用权限如下： 
+（1）学校可以采用影印、缩印或其他复制手段保存本科生上交的毕业论文（设计），并
+向有关部门报送本科毕业论文（设计）；（2）根据需要，学校可以将本科毕业论文（设计）
+部分或全部内容编入有关数据库进行检索和提供相应阅览服务；（3）本科生毕业后发表与此
+毕业论文（设计）研究成果相关的学术论文和其他成果时，应征得导师同意，且第一署名单
+位为哈尔滨工业大学。 
+保密论文在保密期内遵守有关保密规定，解密后适用于此使用权限规定。 
+本人知悉本科毕业论文（设计）的使用权限，并将遵守有关规定。 
+ 
+ 
+作者签名：
+  日期：2026 年5 月5 日 
+ 
+导师签名：                  日期：     年   月   日 
+ 
+ 
+ 
+
+
+=== PDF PAGE 72 ===
+ 
+67 
+致  谢 
+在本论文完成之际，谨向在毕业设计过程中给予我帮助和支持的老师、同学和家人表示
+诚挚感谢。首先感谢指导教师李均教授和孟庆鑫教授在课题选题、研究路线、仿真建模和论
+文写作方面给予的耐心指导。老师在结构设计思路、CST 仿真方法和结果分析逻辑方面提出
+了许多宝贵建议，使我能够逐步从基础模型搭建推进到自动化优化和机理分析。 
+感谢实验室组内同学在软件使用、数据整理和论文排版方面给予的帮助。毕业设计过程
+中，我对电阻膜超材料吸波结构、CST-Python 联合仿真和遗传算法优化有了更加系统的认
+识，也在不断调试和修正模型的过程中提高了独立解决问题的能力。最后，感谢家人在学习
+和生活中给予的理解与支持。由于本人水平有限，论文中仍难免存在不足，恳请各位老师批
+评指正。 
+ 

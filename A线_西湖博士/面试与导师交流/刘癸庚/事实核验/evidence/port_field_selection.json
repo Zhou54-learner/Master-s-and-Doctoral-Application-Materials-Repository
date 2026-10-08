@@ -1,0 +1,42 @@
+[
+  {
+    "item": "2D/3D Results\\Port Modes\\Zmax\\In\\e1",
+    "frequency_GHz": 6.880000000000001,
+    "source_file": "F:\\codex-temp-floquet-audit-20261006\\best_design_ohmic_sheet_12x12\\Result\\Port2_e1.pmm"
+  },
+  {
+    "item": "2D/3D Results\\Port Modes\\Zmax\\In\\e2",
+    "frequency_GHz": 6.880000000000001,
+    "source_file": "F:\\codex-temp-floquet-audit-20261006\\best_design_ohmic_sheet_12x12\\Result\\Port2_e2.pmm"
+  },
+  {
+    "item": "2D/3D Results\\Port Modes\\Zmax\\In\\h1",
+    "frequency_GHz": 6.880000000000001,
+    "source_file": "F:\\codex-temp-floquet-audit-20261006\\best_design_ohmic_sheet_12x12\\Result\\Port2_h1.pmm"
+  },
+  {
+    "item": "2D/3D Results\\Port Modes\\Zmax\\In\\h2",
+    "frequency_GHz": 6.880000000000001,
+    "source_file": "F:\\codex-temp-floquet-audit-20261006\\best_design_ohmic_sheet_12x12\\Result\\Port2_h2.pmm"
+  },
+  {
+    "item": "2D/3D Results\\Port Modes\\Zmax\\Out\\e1",
+    "frequency_GHz": 6.880000000000001,
+    "source_file": "F:\\codex-temp-floquet-audit-20261006\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout1.pmm"
+  },
+  {
+    "item": "2D/3D Results\\Port Modes\\Zmax\\Out\\e2",
+    "frequency_GHz": 6.880000000000001,
+    "source_file": "F:\\codex-temp-floquet-audit-20261006\\best_design_ohmic_sheet_12x12\\Result\\Port2_eout2.pmm"
+  },
+  {
+    "item": "2D/3D Results\\Port Modes\\Zmax\\Out\\h1",
+    "frequency_GHz": 6.880000000000001,
+    "source_file": "F:\\codex-temp-floquet-audit-20261006\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout1.pmm"
+  },
+  {
+    "item": "2D/3D Results\\Port Modes\\Zmax\\Out\\h2",
+    "frequency_GHz": 6.880000000000001,
+    "source_file": "F:\\codex-temp-floquet-audit-20261006\\best_design_ohmic_sheet_12x12\\Result\\Port2_hout2.pmm"
+  }
+]

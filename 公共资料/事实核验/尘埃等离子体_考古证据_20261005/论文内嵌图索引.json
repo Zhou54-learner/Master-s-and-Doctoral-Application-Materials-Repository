@@ -1,0 +1,106 @@
+[
+  {
+    "page": 1,
+    "xref": 380,
+    "width": 86,
+    "height": 82,
+    "sha256": "15d8d581e55717b05556232f5c9dff1a1d4f32199aa74d6b1a321b60babac870",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p1_xref380.png"
+  },
+  {
+    "page": 2,
+    "xref": 350,
+    "width": 851,
+    "height": 795,
+    "sha256": "6878bb64abf73ff7d9af29a343c76dda681c6decbc1da41ae6941ed4cbd479c9",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p2_xref350.jpx"
+  },
+  {
+    "page": 3,
+    "xref": 280,
+    "width": 851,
+    "height": 834,
+    "sha256": "9a3426ff9e8008fd1fa3b3e8f0df3e8e40c1bb5a0db6576845cced6f79bcae5c",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p3_xref280.jpeg"
+  },
+  {
+    "page": 4,
+    "xref": 215,
+    "width": 851,
+    "height": 864,
+    "sha256": "8b2cd6a806c8d8c464d9db0c22ae24d5df2a8b9ad360fea34f4fe465a2927c6a",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p4_xref215.jpx"
+  },
+  {
+    "page": 6,
+    "xref": 105,
+    "width": 851,
+    "height": 756,
+    "sha256": "8928287c0d0f747818240ea636f0eeffbd9d5e24556ec3cce46cdd98253613bd",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p6_xref105.jpx"
+  },
+  {
+    "page": 6,
+    "xref": 106,
+    "width": 976,
+    "height": 550,
+    "sha256": "f8a6c439a3d7538bb45e2c93256e2aab09d7bd1b9a24592cde1b2da156a1b016",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p6_xref106.jpeg"
+  },
+  {
+    "page": 6,
+    "xref": 107,
+    "width": 851,
+    "height": 915,
+    "sha256": "b11b15b83022aec3d5179c5d7e46ef1fba5eaf4cc57d3bfcf747b5a9c758fe2c",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p6_xref107.jpx"
+  },
+  {
+    "page": 7,
+    "xref": 89,
+    "width": 851,
+    "height": 920,
+    "sha256": "65b5b4fe32ceb62a34be31081709b9fced87d10cdcfe3782e6e06fa871d3b2e9",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p7_xref89.jpx"
+  },
+  {
+    "page": 7,
+    "xref": 90,
+    "width": 851,
+    "height": 920,
+    "sha256": "e241c36eaff897676ce8dfb9e14b95c47236775ef8c33c1468df964ecb19dc44",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p7_xref90.jpx"
+  },
+  {
+    "page": 7,
+    "xref": 91,
+    "width": 851,
+    "height": 864,
+    "sha256": "e2d733219b62f17f095faf99671d1311348201bcdc2393b7ebf294ea241fe628",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p7_xref91.jpx"
+  },
+  {
+    "page": 8,
+    "xref": 76,
+    "width": 851,
+    "height": 915,
+    "sha256": "df8d8449c45a6e2bb6b1d14a5128fd40faf1693bbe36919dce9f8a5eaae8802b",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p8_xref76.jpx"
+  },
+  {
+    "page": 8,
+    "xref": 77,
+    "width": 851,
+    "height": 434,
+    "sha256": "1059804702dc8f8ecb732de6a0d8585874a14414e24e8bae04ca58cc21d5cbb8",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p8_xref77.jpx"
+  },
+  {
+    "page": 8,
+    "xref": 78,
+    "width": 851,
+    "height": 1195,
+    "sha256": "6344051bff9d0a456fb8d6343658e8e3440635ca28b0165843731b67b2d81139",
+    "file": "E:\\CodexData\\tmp\\dusty_audit_20261005\\paper_p8_xref78.jpx"
+  }
+]

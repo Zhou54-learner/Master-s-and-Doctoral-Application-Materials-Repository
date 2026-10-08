@@ -1,0 +1,86 @@
+[
+  {
+    "key": "application",
+    "packaged_original": "制作源/输入/S02_物理学习助手.png",
+    "source_sha256": "3a2015b858916b31fb329770e6d51d08df1bd6bef7250e5b4c8a46b20316df63",
+    "source_pixels": [
+      1322,
+      852
+    ],
+    "crop_box": [
+      0,
+      30,
+      1322,
+      852
+    ],
+    "output": "派生素材/S02_完整应用_仅去窗口标题栏.png",
+    "pixels": [
+      1322,
+      822
+    ],
+    "sha256": "f339b523108d149b76e4106ed6247de61b05d6c60a01014ad2ca3fceccea5c41",
+    "geometry_inches": [
+      0.55,
+      1.55,
+      7.03,
+      4.371149773071104
+    ],
+    "operation": "Remove only OS title bar; retain full captured application viewport."
+  },
+  {
+    "key": "roles",
+    "packaged_original": "制作源/输入/九部门模型_用户原图.png",
+    "source_sha256": "01797ce65c0fe200860c5162d052454afd0a91af1ea5c49252f6f6b7978d0e46",
+    "source_pixels": [
+      1173,
+      902
+    ],
+    "crop_box": [
+      20,
+      60,
+      1163,
+      377
+    ],
+    "output": "派生素材/九部门模型_结构与首行语境.png",
+    "pixels": [
+      1143,
+      317
+    ],
+    "sha256": "6007a3c6a0a3f573849d285d295015131116e86aedeca91dcc78a96db5bf8a43",
+    "geometry_inches": [
+      7.95,
+      2.47,
+      4.85,
+      1.3451006124234468
+    ],
+    "operation": "Retain human control, all nine role nodes, all arrows and labels, table header and first row."
+  },
+  {
+    "key": "lifecycle",
+    "packaged_original": "制作源/输入/七阶段生命周期_用户原图.png",
+    "source_sha256": "0414e604a4878b2385ce0cae9f699a06e1faf14933b7a9a662fea5a04d408e89",
+    "source_pixels": [
+      1186,
+      627
+    ],
+    "crop_box": [
+      24,
+      60,
+      1167,
+      383
+    ],
+    "output": "派生素材/七阶段生命周期_完整回路与首行语境.png",
+    "pixels": [
+      1143,
+      323
+    ],
+    "sha256": "948476ebed899320a8b273c36a2cc032329914451bbeeb0b1450b82fab89cea4",
+    "geometry_inches": [
+      7.95,
+      4.82,
+      4.85,
+      1.3705599300087488
+    ],
+    "operation": "Retain all seven stages, both return loops, repair node, labels, table header and first row."
+  }
+]

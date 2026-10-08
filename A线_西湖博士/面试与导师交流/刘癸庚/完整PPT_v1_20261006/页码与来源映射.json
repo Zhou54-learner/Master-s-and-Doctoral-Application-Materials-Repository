@@ -1,0 +1,358 @@
+[
+  {
+    "page": 1,
+    "logical": "S0",
+    "source": "S0_封面_v1_20261005/S0_封面_v1.pptx",
+    "source_page": 1,
+    "source_sha256": "4f9a470a579a97b9a7ca731822486ddc72df484a4f8bb000e3244d3ffc15e8c7",
+    "source_slide_xml_sha256": "eb8367cae3249acd906117ff6a2feef246530ad56e721078bac351387c2a048f",
+    "output_slide_xml_sha256": "dc4793d05f90a9c0f83897a6fd3eb68b115d074a8408554c78d2a341aa8455b6",
+    "output_slide_part": "ppt/slides/slide1.xml",
+    "shape_count": 11,
+    "status_changes": [
+      {
+        "shape_id": 3,
+        "before": "INTERNAL / v1 CANDIDATE",
+        "after": "",
+        "rect_emu": [
+          6492240,
+          246888,
+          5212080,
+          219456
+        ]
+      },
+      {
+        "shape_id": 6,
+        "before": "刘癸庚老师课题组交流 · 独立封面候选",
+        "after": "刘癸庚老师课题组交流",
+        "rect_emu": [
+          502920,
+          6537960,
+          10561320,
+          210312
+        ]
+      }
+    ],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      11,
+      15
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "8a2f7e54f99f36e7ffa4344978bbf8ae124aba430738ea5f8fae6a381b6f203d"
+  },
+  {
+    "page": 2,
+    "logical": "S1",
+    "source": "S1_个人背景_v2_20261006/S1_个人背景_v2.pptx",
+    "source_page": 1,
+    "source_sha256": "9358f4be76366ef32c16c2bff51eda245508a5e3ebe853fdf1a24ba58287f25a",
+    "source_slide_xml_sha256": "d0822fdf13cb17db86cc117eba11619d34b3b290b2a633f65c01e528414f136d",
+    "output_slide_xml_sha256": "68abc619e402f28968e885fd80511c0f5af4ddf63051c3c60548c25686bf7a8c",
+    "output_slide_part": "ppt/slides/slide2.xml",
+    "shape_count": 24,
+    "status_changes": [
+      {
+        "shape_id": 3,
+        "before": "INTERNAL / v2 CANDIDATE",
+        "after": "",
+        "rect_emu": [
+          7772400,
+          246888,
+          3931920,
+          237744
+        ]
+      }
+    ],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      19,
+      27
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "fee6b83ead58aaef8821eb430b61300394f2c5ce737aa20b5d73b7642c5d1fca"
+  },
+  {
+    "page": 3,
+    "logical": "S2",
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_page": 1,
+    "source_sha256": "f839352dfb0a551db14521ea7abb8f602f819c1fcf232da94f9f4239c6f44bf3",
+    "source_slide_xml_sha256": "2956060b782b66bbdd18b094c8f3098bece4c4378066d3c4e72751fb10923e17",
+    "output_slide_xml_sha256": "2956060b782b66bbdd18b094c8f3098bece4c4378066d3c4e72751fb10923e17",
+    "output_slide_part": "ppt/slides/slide3.xml",
+    "shape_count": 23,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      31,
+      47
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "d6fb55b77c18324c3daf6c2fa05704fbde9a15851133db83ed601b27e38853dc"
+  },
+  {
+    "page": 4,
+    "logical": "S3",
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_page": 2,
+    "source_sha256": "f839352dfb0a551db14521ea7abb8f602f819c1fcf232da94f9f4239c6f44bf3",
+    "source_slide_xml_sha256": "27550b3ecc6207b63d5686e1c4bce1ec696f0c0201904ff657a9d96149bcce44",
+    "output_slide_xml_sha256": "27550b3ecc6207b63d5686e1c4bce1ec696f0c0201904ff657a9d96149bcce44",
+    "output_slide_part": "ppt/slides/slide4.xml",
+    "shape_count": 20,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      51,
+      65
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "beb2517457a31604f73025d3602b87de16f8c077f7882d188a2b419264f8c102"
+  },
+  {
+    "page": 5,
+    "logical": "S4",
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_page": 3,
+    "source_sha256": "f839352dfb0a551db14521ea7abb8f602f819c1fcf232da94f9f4239c6f44bf3",
+    "source_slide_xml_sha256": "7bcfbe56b53aa3e56f275c5596c2c15e5a6d08354905b4f54f08eb0b5269bf43",
+    "output_slide_xml_sha256": "7bcfbe56b53aa3e56f275c5596c2c15e5a6d08354905b4f54f08eb0b5269bf43",
+    "output_slide_part": "ppt/slides/slide5.xml",
+    "shape_count": 33,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      69,
+      83
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "f537cddfebab938fb11feca086e5e5f5b2f163b0e22825aedd06466c66fb6245"
+  },
+  {
+    "page": 6,
+    "logical": "S5",
+    "source": "本科毕设_S2-S5_正式版_v0.1_20261006/本科毕设_S2-S5_正式版_v0.1.pptx",
+    "source_page": 4,
+    "source_sha256": "f839352dfb0a551db14521ea7abb8f602f819c1fcf232da94f9f4239c6f44bf3",
+    "source_slide_xml_sha256": "1f56892386fa3f36b29cd5fcb7547e4107c85043e766f3ec74bcb3941d2ae086",
+    "output_slide_xml_sha256": "1f56892386fa3f36b29cd5fcb7547e4107c85043e766f3ec74bcb3941d2ae086",
+    "output_slide_part": "ppt/slides/slide6.xml",
+    "shape_count": 45,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      87,
+      105
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "d7af8aaa2b42f97dee72ba0ae73b918ee8afeede4ee7e68062cbb03b62d4b306"
+  },
+  {
+    "page": 7,
+    "logical": "S6",
+    "source": "S6_尘埃等离子体_v1_20261005/S6_尘埃等离子体_v1.pptx",
+    "source_page": 1,
+    "source_sha256": "3dd266b67b62a81882e4b74d6f2127444d8f873959a06b33514b17b85c4e5d34",
+    "source_slide_xml_sha256": "9571cc1a91d4fbbe288a1e04d296fbb05d60047e21a5403fa33a9cad8988a8f2",
+    "output_slide_xml_sha256": "9571cc1a91d4fbbe288a1e04d296fbb05d60047e21a5403fa33a9cad8988a8f2",
+    "output_slide_part": "ppt/slides/slide7.xml",
+    "shape_count": 14,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      109,
+      123
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "50fd2632885ea873edbb4885ccc7480534795bca5434aeb2ad256dcbec3700d5"
+  },
+  {
+    "page": 8,
+    "logical": "S7",
+    "source": "S7_乐音研究_v2_20261006/S7_乐音研究_v2_A_历史资产优先.pptx",
+    "source_page": 1,
+    "source_sha256": "c9bdcb1a2ec15f29d2c5ac29cb67f64b960b5deb27b0b1e7333e371646a2c101",
+    "source_slide_xml_sha256": "401bd035f6856d1f9bb14ec1cbfe0e1dabff5869bba3cac137267f98be89bdb4",
+    "output_slide_xml_sha256": "401bd035f6856d1f9bb14ec1cbfe0e1dabff5869bba3cac137267f98be89bdb4",
+    "output_slide_part": "ppt/slides/slide8.xml",
+    "shape_count": 18,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      127,
+      145
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "590595bb54d6c0fb3871bc5d4d80e1cea5520a9154355bdc783e3464c3396d5c"
+  },
+  {
+    "page": 9,
+    "logical": "S8",
+    "source": "S8_项目AI协作_v3.1_20261006/S8_项目AI协作_v3.1.pptx",
+    "source_page": 1,
+    "source_sha256": "0eb7683bf26651f61f520dab984a56d7935112882203bb717f2cae56f999fd3c",
+    "source_slide_xml_sha256": "f95c7e2086ee285a6a965d0f39c45e03c8b43a610a8367a6d8d3653dba0fbb00",
+    "output_slide_xml_sha256": "c7707aef4acf61fa634d7203c170860d3bde69ae1c4614d8c1ee73b17f2e5322",
+    "output_slide_part": "ppt/slides/slide9.xml",
+    "shape_count": 15,
+    "status_changes": [
+      {
+        "shape_id": 3,
+        "before": "INTERNAL / v3.1 CANDIDATE",
+        "after": "",
+        "rect_emu": [
+          7772400,
+          246888,
+          3931920,
+          237744
+        ]
+      }
+    ],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      149,
+      195
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "edfe34980d181ac46e316c1dc33d558df328789b51e7762869bc6871d8f97b70"
+  },
+  {
+    "page": 10,
+    "logical": "S9-A",
+    "source": "S9_个人AI外骨骼_v3.1_20261006/S9_个人AI外骨骼_v3.1.pptx",
+    "source_page": 1,
+    "source_sha256": "5f538b2acdd7acd56098ee1aa04131fd4221c0b7b051bea371b5f05755628023",
+    "source_slide_xml_sha256": "9fd38d574e2ba061b15cf089d668b2b81e95778964c7b52bcadad96c5c3f85ee",
+    "output_slide_xml_sha256": "4db3309a26036e003a13daee5eea62cf57c780630703fec9c9227cbc596c9270",
+    "output_slide_part": "ppt/slides/slide10.xml",
+    "shape_count": 14,
+    "status_changes": [
+      {
+        "shape_id": 3,
+        "before": "INTERNAL / v3.1 CANDIDATE",
+        "after": "",
+        "rect_emu": [
+          7772400,
+          246888,
+          3931920,
+          237744
+        ]
+      }
+    ],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      199,
+      233
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "c4311124d01edb06f2c8c90cf0348e29097d109957351b2e2b37ccdb87687cae"
+  },
+  {
+    "page": 11,
+    "logical": "S9-B",
+    "source": "S9_个人AI外骨骼_v3.1_20261006/S9_个人AI外骨骼_v3.1.pptx",
+    "source_page": 2,
+    "source_sha256": "5f538b2acdd7acd56098ee1aa04131fd4221c0b7b051bea371b5f05755628023",
+    "source_slide_xml_sha256": "d38e2369cd8b6243950cfb5ec2dec82936268a5f28b7844379eacc753781963f",
+    "output_slide_xml_sha256": "fe06b951537df065b5aaa6915f17b386dacc8daf1dde93fa786be41924bc6c1f",
+    "output_slide_part": "ppt/slides/slide11.xml",
+    "shape_count": 18,
+    "status_changes": [
+      {
+        "shape_id": 3,
+        "before": "INTERNAL / v3.1 CANDIDATE",
+        "after": "",
+        "rect_emu": [
+          7772400,
+          246888,
+          3931920,
+          237744
+        ]
+      }
+    ],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      235,
+      261
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "abeb7e7fd212b3720c72d66bf9e48bec286a54acd62c862ad41340499f7076fd"
+  },
+  {
+    "page": 12,
+    "logical": "S10",
+    "source": "S10_反思_v2_20261006/S10_反思_v2.pptx",
+    "source_page": 1,
+    "source_sha256": "5acb13fb87b21c5a422ad05ce3ddaae41397949bdf534f8b4484ca7b67e2b9bc",
+    "source_slide_xml_sha256": "68ffac3166b5077462aad9264d288c6a39dc249dba8407ecec8604b3bbb77b2f",
+    "output_slide_xml_sha256": "68ffac3166b5077462aad9264d288c6a39dc249dba8407ecec8604b3bbb77b2f",
+    "output_slide_part": "ppt/slides/slide12.xml",
+    "shape_count": 7,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      265,
+      281
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "6558690a10b3264f280b372e209862f33d9bc420e103151c83482fcb7860dfba"
+  },
+  {
+    "page": 13,
+    "logical": "S11",
+    "source": "S11_表达_v2_20261006/S11_表达_v2.pptx",
+    "source_page": 1,
+    "source_sha256": "76fd4943f8dfcb2f8c49c407c544fc418ed5ddecf52af85b05ea139c447d1530",
+    "source_slide_xml_sha256": "d519d042ed620c6b407f4a2903e6f78f39d53027e3d1286a7d9a28ec1396b706",
+    "output_slide_xml_sha256": "d519d042ed620c6b407f4a2903e6f78f39d53027e3d1286a7d9a28ec1396b706",
+    "output_slide_part": "ppt/slides/slide13.xml",
+    "shape_count": 7,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      285,
+      305
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "10870f793fa46d3756e3442f4ca37d9ff17e14be5bb747b5c6abaeec7c21e6f4"
+  },
+  {
+    "page": 14,
+    "logical": "S12",
+    "source": "S12_WhyPhD_v2.1_20261006/S12_WhyPhD_v2.1.pptx",
+    "source_page": 1,
+    "source_sha256": "dcc6e5c731a327ea120523c3a96114fbeff627104a07e60962d1168883a1d7f2",
+    "source_slide_xml_sha256": "13179bcdb4c0de7c1c270d2d7b1a1df93c3747d4dc95380eddb8d0290eefccf4",
+    "output_slide_xml_sha256": "13179bcdb4c0de7c1c270d2d7b1a1df93c3747d4dc95380eddb8d0290eefccf4",
+    "output_slide_part": "ppt/slides/slide14.xml",
+    "shape_count": 8,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      309,
+      319
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "12f1c0a4c070516ada1b5907cb5324e212bdf2725c14098565548fbb747320ef"
+  },
+  {
+    "page": 15,
+    "logical": "S13",
+    "source": "S13_WhyLiu_v2_20261006/S13_WhyLiu_v2.pptx",
+    "source_page": 1,
+    "source_sha256": "6cece23059900bcb3c76aed265ed9b34c0e7a65af71881390642d2030ee15080",
+    "source_slide_xml_sha256": "5844842ab09eab7ecc067a3bd7201ac8e64d4cfe99a8681281898ecfe9d1ee79",
+    "output_slide_xml_sha256": "5844842ab09eab7ecc067a3bd7201ac8e64d4cfe99a8681281898ecfe9d1ee79",
+    "output_slide_part": "ppt/slides/slide15.xml",
+    "shape_count": 13,
+    "status_changes": [],
+    "notes_source": "完整讲稿_最新合并版_v3_20261006.md",
+    "notes_source_lines": [
+      323,
+      338
+    ],
+    "notes_source_sha256": "f37c375ec2da60ddd85849f8e0230463a1d4c261d8497e306381576c905036ba",
+    "notes_sha256": "5e4f5dd82cf905cde3e49bfa81868225fb6fa5457fd5f7033ec1fe50cd546106"
+  }
+]

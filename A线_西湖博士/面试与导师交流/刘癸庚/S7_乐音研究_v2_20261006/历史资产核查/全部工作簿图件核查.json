@@ -1,0 +1,556 @@
+[
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/100cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "00c6002880c8c1e13420bd5fb375b7c31e2d162cb8ad6b651b00fb7df0d26e5c"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/100cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "a0e4b246680d813d2384d42795838c66052df81756efb035132f26508d6d540b"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/100cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "5de11bac654bb22fc3022bce43ba948cb9ee5a2cea9c7b3e737e0e69efcbba9c"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/40cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "ec4ec79a77f26c90aa286839398d7863d6ea71e9a755a7e71f7b6407d7f08960"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/40cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "1888d00d8d1bda7672b51af47c2eb921a4ab657f2260dbaa9d687f9744cf2e4f"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/40cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "ea29bc05c9cca0ccf3879f398fc11af5a14dc8db060e09721d06c8178844c1df"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "38fcb85d4ad4a5e806eed07f0162bde5ebdce1f84d44a0dacdbfc9c1dc8eaa68"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "4a68b659bb38a3e535ff7224aed76652188076f00f095dd1218d8540d01e7418"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "65bc93208867659898520a4e75b9849c3cf03383d9cbef599ece5e561d9b25b4"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "7320c256251a2cb32bbc215d8795b65b0b53b34a699ed232a04729c0a9c906f8"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/数据/数据05.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "5da4b2fc88561dce7379c8e81e350003ab69f2e104a920fa1eb68bac84194cba"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/数据/数据06.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "5037bc865e1fb58fa9ac38fdbfc6fc879b711c943085e5129d284c30d3b513cc"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "920f165aedebabe89de82ce56de007a5e7e0035f7431d78e78886d63e97a8e81"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "b225d96d32fcd22a637d63476653c4dc3bca36b8377d04e5da570c80e732d127"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "37082bcb38c3e26e6b0e0a406898fe2049187126ff5dd512d2d0e16a0b6d6565"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "6d7d02bd869ca4cf1eef220340067c091d617051e0c63624d1cddeb2fa0a9ffe"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/数据/数据05.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "396223da9d93cdcc6b1984b5a572e152c5e43bc4cd9b35a850a0be19027dd971"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/数据/数据06.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "3775d738c942fc5936fb2c292fe302d8c4805295e0e4baa1733a7c0856f8e4f0"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/数据/数据07.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "21a6083c33ea3b4a9404b8d0e93507b099c2051990eae0ac5111f1fc3850a83e"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/data3.xlsx",
+    "charts": [
+      "xl/charts/chart1.xml"
+    ],
+    "media": [],
+    "sha256": "3fda100ae45de9f83288bfab5eef9d0b57110a43292d316b0fb639028cc70944"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/100cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "42ea518e66599bef3e585288cbd6e7fdd5f7ade442a4ce31ff19329f1e9a1a86"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/100cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "823d261178d0705e3fa55853155234b6e8e06db01ca550cdd83d4a7a9a46b138"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/100cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "0d5e6bfb8bea011fd1271b1e87f9ab19c478bf494c48571fdf8349495eff1ffc"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/100cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "c61d546c78adfe694ee9f8a3ec3e5c767ca346a38084ae1567c6cb7bf8e9b70a"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "14ba5ac85af376b4ce73cde122721963e4a3f99b097388adca37d6e85316d3a9"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "b2dfca3bd7bf274ed445b55c41f9778d4ddf0fb4818916edffa0876048f19c99"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/20cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "20be690cede32fbce27b90df352e896cf6e12a3a931e3eccb4a770741ff7c989"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/40cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "c48cc5aeb2e6122dc08efb49e2d5c485c4019a91615dc8cabbb859af68e6445b"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/40cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "82a4dcc61990439426621a7e3eebf38ce70b39c5b5ffc2c6caaba3cdb5b07300"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/40cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "3be67eae596b9337b1b1e867d426f8aaa1e42f30a29802f4dec47c58171b9885"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/60cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "38c2c31f2d5b5566fb34a1dd4c6fa9378dd5bb784841b2960c5d0c7cf1dbb1d2"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/60cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "1e7a2127b143c526b62ec73e58b2552c2c7a2849f9044e68b451f1e62b23f2d6"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/60cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "716b7599d5cabff29585d1272473e12ab2f05f254da639e28b864bc61136a3bc"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/60cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "54d972e99f27f9b9af577fdeb6764c7e3c9897ebfe0358481e1bc17ed53ad179"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/60cm/数据/数据05.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "ded3d3dc163d6fe206bd3881d05b661b1eefcc77df733ebd679ee8656e692541"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/60cm/数据/数据06.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "e0695efa830b343aa02ab130ff345c0c083f983ade3a6ae068cf1d5fdb3a084d"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/60cm/数据/数据07.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "7a3b96a3202e51fac5f17f91870a35f9b5a86628eea2baaec314c29c279b075a"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/80cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "6fd3995f4835a4b0de7d97862dc10f2e7bf948a2a65ef810fb0de09578c07565"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/80cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "35efdf9d38691300e365de29b75c5882ed78662e0ab7f6ce988facec8f8cad83"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/80cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "045ecca142efabac852a31d0ce74302d2fbb38cebafdd7dd9330591851ef9b82"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/80cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "ca50df321b6291f13cee149610664f616e061b410edeabffe5175d3a2e1b58f7"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/80cm/数据/数据05.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "3e360a299eada8e71b6276f3b1db30529303b3d90ee5c295b78469e33553675a"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/80cm/数据/数据06.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "bf72c57417c45e8b3b3860af25474f4d7c264203ecdc7f04c6084dc4fd0e29e3"
+  },
+  {
+    "path": "E:/2023/traindata/R7.5mm_r5.5mm/data.xlsx",
+    "charts": [
+      "xl/charts/chart1.xml"
+    ],
+    "media": [],
+    "sha256": "ae48b8b330870dc440fb6ca0434af1c161b6d9b3e9f8b91ab38c75e9c0b572f7"
+  },
+  {
+    "path": "E:/2023/traindata/数据处理/内外半径关系比较/40-100cm.xlsx",
+    "charts": [
+      "xl/charts/chart1.xml"
+    ],
+    "media": [],
+    "sha256": "76daa9996678d724c3d5d04ffad1001632918c1ca232096848807aeb0b08a4f5"
+  },
+  {
+    "path": "E:/2023/traindata/数据处理/长度关系比较/data1.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "aaf466b106ba54123d48bfe6c87d25aba59b077af2da72bb35e961b2c457e938"
+  },
+  {
+    "path": "E:/2023/traindata/数据处理/长度关系比较/data3.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "2f63aedeb911f61c8efb10c6bb7ca1ceb3a388ac001d5eef3b30a7b7d1def92e"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/100cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "00c6002880c8c1e13420bd5fb375b7c31e2d162cb8ad6b651b00fb7df0d26e5c"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/100cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "a0e4b246680d813d2384d42795838c66052df81756efb035132f26508d6d540b"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/100cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "5de11bac654bb22fc3022bce43ba948cb9ee5a2cea9c7b3e737e0e69efcbba9c"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/40cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "ec4ec79a77f26c90aa286839398d7863d6ea71e9a755a7e71f7b6407d7f08960"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/40cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "1888d00d8d1bda7672b51af47c2eb921a4ab657f2260dbaa9d687f9744cf2e4f"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/40cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "ea29bc05c9cca0ccf3879f398fc11af5a14dc8db060e09721d06c8178844c1df"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/60cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "38fcb85d4ad4a5e806eed07f0162bde5ebdce1f84d44a0dacdbfc9c1dc8eaa68"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/60cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "4a68b659bb38a3e535ff7224aed76652188076f00f095dd1218d8540d01e7418"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/60cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "65bc93208867659898520a4e75b9849c3cf03383d9cbef599ece5e561d9b25b4"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/60cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "7320c256251a2cb32bbc215d8795b65b0b53b34a699ed232a04729c0a9c906f8"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/60cm/数据/数据05.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "5da4b2fc88561dce7379c8e81e350003ab69f2e104a920fa1eb68bac84194cba"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/60cm/数据/数据06.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "5037bc865e1fb58fa9ac38fdbfc6fc879b711c943085e5129d284c30d3b513cc"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/80cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "920f165aedebabe89de82ce56de007a5e7e0035f7431d78e78886d63e97a8e81"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/80cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "b225d96d32fcd22a637d63476653c4dc3bca36b8377d04e5da570c80e732d127"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/80cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "37082bcb38c3e26e6b0e0a406898fe2049187126ff5dd512d2d0e16a0b6d6565"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/80cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "6d7d02bd869ca4cf1eef220340067c091d617051e0c63624d1cddeb2fa0a9ffe"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/80cm/数据/数据05.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "396223da9d93cdcc6b1984b5a572e152c5e43bc4cd9b35a850a0be19027dd971"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/80cm/数据/数据06.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "3775d738c942fc5936fb2c292fe302d8c4805295e0e4baa1733a7c0856f8e4f0"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/80cm/数据/数据07.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "21a6083c33ea3b4a9404b8d0e93507b099c2051990eae0ac5111f1fc3850a83e"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R11.6mm_r8.0mm/data3.xlsx",
+    "charts": [
+      "xl/charts/chart1.xml"
+    ],
+    "media": [],
+    "sha256": "3fda100ae45de9f83288bfab5eef9d0b57110a43292d316b0fb639028cc70944"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/100cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "42ea518e66599bef3e585288cbd6e7fdd5f7ade442a4ce31ff19329f1e9a1a86"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/100cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "823d261178d0705e3fa55853155234b6e8e06db01ca550cdd83d4a7a9a46b138"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/100cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "0d5e6bfb8bea011fd1271b1e87f9ab19c478bf494c48571fdf8349495eff1ffc"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/100cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "c61d546c78adfe694ee9f8a3ec3e5c767ca346a38084ae1567c6cb7bf8e9b70a"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "14ba5ac85af376b4ce73cde122721963e4a3f99b097388adca37d6e85316d3a9"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "b2dfca3bd7bf274ed445b55c41f9778d4ddf0fb4818916edffa0876048f19c99"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/20cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "20be690cede32fbce27b90df352e896cf6e12a3a931e3eccb4a770741ff7c989"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/40cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "c48cc5aeb2e6122dc08efb49e2d5c485c4019a91615dc8cabbb859af68e6445b"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/40cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "82a4dcc61990439426621a7e3eebf38ce70b39c5b5ffc2c6caaba3cdb5b07300"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/40cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "3be67eae596b9337b1b1e867d426f8aaa1e42f30a29802f4dec47c58171b9885"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/60cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "38c2c31f2d5b5566fb34a1dd4c6fa9378dd5bb784841b2960c5d0c7cf1dbb1d2"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/60cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "1e7a2127b143c526b62ec73e58b2552c2c7a2849f9044e68b451f1e62b23f2d6"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/60cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "716b7599d5cabff29585d1272473e12ab2f05f254da639e28b864bc61136a3bc"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/60cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "54d972e99f27f9b9af577fdeb6764c7e3c9897ebfe0358481e1bc17ed53ad179"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/60cm/数据/数据05.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "ded3d3dc163d6fe206bd3881d05b661b1eefcc77df733ebd679ee8656e692541"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/60cm/数据/数据06.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "e0695efa830b343aa02ab130ff345c0c083f983ade3a6ae068cf1d5fdb3a084d"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/60cm/数据/数据07.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "7a3b96a3202e51fac5f17f91870a35f9b5a86628eea2baaec314c29c279b075a"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/80cm/数据/数据01.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "6fd3995f4835a4b0de7d97862dc10f2e7bf948a2a65ef810fb0de09578c07565"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/80cm/数据/数据02.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "35efdf9d38691300e365de29b75c5882ed78662e0ab7f6ce988facec8f8cad83"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/80cm/数据/数据03.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "045ecca142efabac852a31d0ce74302d2fbb38cebafdd7dd9330591851ef9b82"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/80cm/数据/数据04.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "ca50df321b6291f13cee149610664f616e061b410edeabffe5175d3a2e1b58f7"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/80cm/数据/数据05.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "3e360a299eada8e71b6276f3b1db30529303b3d90ee5c295b78469e33553675a"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/80cm/数据/数据06.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "bf72c57417c45e8b3b3860af25474f4d7c264203ecdc7f04c6084dc4fd0e29e3"
+  },
+  {
+    "path": "E:/2023/traindata/直管数据/R7.5mm_r5.5mm/data.xlsx",
+    "charts": [],
+    "media": [],
+    "sha256": "aaf466b106ba54123d48bfe6c87d25aba59b077af2da72bb35e961b2c457e938"
+  }
+]

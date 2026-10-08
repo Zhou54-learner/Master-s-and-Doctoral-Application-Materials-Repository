@@ -1,0 +1,52 @@
+[
+  {
+    "run_id": 0,
+    "parameters": {
+      "phi": 0.0,
+      "theta": 0.0
+    },
+    "s_curves": {
+      "1D Results\\S-Parameters\\SZmax(1),Zmax(1)": {
+        "sha256_numeric_json": "4797a6b03f58a29ac5aa6616d0795bc92ef780e09628ad114632014545a600a3",
+        "count": 202
+      },
+      "1D Results\\S-Parameters\\SZmax(1),Zmax(2)": {
+        "sha256_numeric_json": "cc067f9049408c6d0584932990c29f8d78eefd03d5849295db6230797742e4dd",
+        "count": 202
+      },
+      "1D Results\\S-Parameters\\SZmax(2),Zmax(1)": {
+        "sha256_numeric_json": "a4d8d6d4dffc5d61412aa245a704a1a336694ac5dfcbd55c6c3d839b7290fa4e",
+        "count": 202
+      },
+      "1D Results\\S-Parameters\\SZmax(2),Zmax(2)": {
+        "sha256_numeric_json": "41fa978e187629be20b12511c845334f24ee48d71fa65a015a4ac069a9178667",
+        "count": 202
+      }
+    }
+  },
+  {
+    "run_id": 1,
+    "parameters": {
+      "phi": 0.0,
+      "theta": 0.0
+    },
+    "s_curves": {
+      "1D Results\\S-Parameters\\SZmax(1),Zmax(1)": {
+        "sha256_numeric_json": "4797a6b03f58a29ac5aa6616d0795bc92ef780e09628ad114632014545a600a3",
+        "count": 202
+      },
+      "1D Results\\S-Parameters\\SZmax(1),Zmax(2)": {
+        "sha256_numeric_json": "cc067f9049408c6d0584932990c29f8d78eefd03d5849295db6230797742e4dd",
+        "count": 202
+      },
+      "1D Results\\S-Parameters\\SZmax(2),Zmax(1)": {
+        "sha256_numeric_json": "a4d8d6d4dffc5d61412aa245a704a1a336694ac5dfcbd55c6c3d839b7290fa4e",
+        "count": 202
+      },
+      "1D Results\\S-Parameters\\SZmax(2),Zmax(2)": {
+        "sha256_numeric_json": "41fa978e187629be20b12511c845334f24ee48d71fa65a015a4ac069a9178667",
+        "count": 202
+      }
+    }
+  }
+]

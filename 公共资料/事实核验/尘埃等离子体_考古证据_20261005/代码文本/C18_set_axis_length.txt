@@ -1,0 +1,10 @@
+function set_axis_length(axis_name, L)
+    % 获取当前轴的中点
+    if strcmp(axis_name, 'x')
+        center = mean(xlim);
+        xlim([center - L/2, center + L/2]);
+    elseif strcmp(axis_name, 'y')
+        center = mean(ylim);
+        ylim([center - L/2, center + L/2]);
+    end
+end

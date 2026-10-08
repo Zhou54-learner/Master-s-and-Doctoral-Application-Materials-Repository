@@ -1,0 +1,52 @@
+{
+  "operation": "Existing PowerPoint exports, proportional resizing and contact-sheet composition only; no merged PPT.",
+  "order": [
+    "S0 v1",
+    "S1 v2",
+    "S2 v2.1"
+  ],
+  "sources": [
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S0_封面_v1_20261005/预览/S0_1920x1080.png",
+      "sha256": "e2f271f15f2d296077e0353028c845004f6aa4446e582e55c017b06d8fff2bb4",
+      "pixels": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S1_个人背景_v2_20261006/预览/S1_1920x1080.png",
+      "sha256": "e044e7f07a6f68de0772f6ed56868e8078d3a33af918c566bf75e71e4cf30ca8",
+      "pixels": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/本科毕设_S2-S5_v2.1_20261005/预览/S2.png",
+      "sha256": "8432eca388bee8fc3978e33e14072fbbf7b6da4375c41f8e88465721eb214033",
+      "pixels": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "path": "预览/S0-S2_连续审阅_横向.png",
+      "sha256": "4e9c6859ec08acf1a395b69e3fefc4797071cbdf7d2ef058d60da2708dd6042f",
+      "pixels": [
+        5760,
+        1160
+      ]
+    },
+    {
+      "path": "预览/S0-S2_连续审阅_纵向.png",
+      "sha256": "fa5588fc06b816a96b9eac1913b47277379f3fe8816238f952deee3badb7c7a3",
+      "pixels": [
+        1920,
+        3480
+      ]
+    }
+  ]
+}

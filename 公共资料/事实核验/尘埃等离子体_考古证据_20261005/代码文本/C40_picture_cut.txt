@@ -1,0 +1,34 @@
+% 设置输入文件夹和输出文件夹路径
+inputFolder = 'E:\2024\data figure\data figure x tc-5\square fig line_L(jpg)';
+outputFolder = 'E:\2024\data figure\data figure x tc-5\no line';
+
+% 设置要裁剪的边框宽度
+cropWidth = 8; % 你可以根据需要调整裁剪宽度
+
+% 获取输入文件夹内所有图像文件的列表
+imageFiles = dir(fullfile(inputFolder, '*.jpg')); % 假设图像为 JPG 格式，如果有其他格式可修改此行
+
+% 如果输出文件夹不存在，则创建
+if ~exist(outputFolder, 'dir')
+    mkdir(outputFolder);
+end
+
+% 循环遍历每个图像文件并进行裁剪
+for i = 1:length(imageFiles)
+    % 读取图像
+    img = imread(fullfile(inputFolder, imageFiles(i).name));
+    
+    % 获取图像尺寸
+    [rows, cols, ~] = size(img);
+    
+    % 裁剪图像的四周边框
+    croppedImg = img(cropWidth+1:end-cropWidth, cropWidth+1:end-cropWidth, :);
+    
+    % 生成输出图像的文件路径
+    outputFilePath = fullfile(outputFolder, imageFiles(i).name);
+    
+    % 保存裁剪后的图像
+    imwrite(croppedImg, outputFilePath);
+end
+
+disp('图像裁剪完成并保存到指定文件夹。');

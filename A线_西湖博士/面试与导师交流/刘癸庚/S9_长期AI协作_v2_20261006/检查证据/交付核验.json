@@ -1,0 +1,27 @@
+{
+  "deliveries": [
+    {
+      "directory": "S8_项目AI协作_v2_20261006",
+      "frames": [
+        "S8"
+      ],
+      "pptx_sha256": "084c77119a7576cf5ed8660f4ec957cd6e37f5ed57c754b831571b6847a1ccea",
+      "pdf_sha256": "99cf17dbc8446a0f61aa8e04e5691b25d34e92aaa8197996cbaf282918217aa4"
+    },
+    {
+      "directory": "S9_长期AI协作_v2_20261006",
+      "frames": [
+        "S9-A",
+        "S9-B"
+      ],
+      "pptx_sha256": "93c1adf796325e872d7d9e3b7dde18868f1ecb5b406809dba8cbae03c6c55a29",
+      "pdf_sha256": "e10da822cac41c2558ea485fee2f59202c125b78cc4c7fcdc7e84ae79a8e4775"
+    }
+  ],
+  "links_checked": 49,
+  "broken_links": [],
+  "review_inputs_unchanged": true,
+  "exact_user_transitions_present": true,
+  "pr_policy": "OPEN / no auto-merge; no main merge; no sending",
+  "current_head": "7ba1a24c2c0c740f38590fe0b59f6b24a5b67219"
+}

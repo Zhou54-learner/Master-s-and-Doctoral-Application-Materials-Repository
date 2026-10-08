@@ -1,0 +1,152 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 4474,
+    "sha256": "250984440c6cac3577839109523cfa1748acccad4df2854656b65f38cbfedcfb"
+  },
+  {
+    "path": "render_validation.md",
+    "bytes": 2947,
+    "sha256": "af283305b783358ca61717597c4a8a003baf807243ac64c4283d74aad6441bbd"
+  },
+  {
+    "path": "S8_项目AI协作_v3.1.pdf",
+    "bytes": 182416,
+    "sha256": "dc418c745ad383e819d0aaebe2b85bee2f219e6476321f059fd94ffac07c0e67"
+  },
+  {
+    "path": "S8_项目AI协作_v3.1.pptx",
+    "bytes": 212574,
+    "sha256": "0eb7683bf26651f61f520dab984a56d7935112882203bb717f2cae56f999fd3c"
+  },
+  {
+    "path": "speaker_notes.md",
+    "bytes": 4145,
+    "sha256": "0c3c9456759e6021a7747505dd085b8603e72dc5bd3f4187adb0eb959b581645"
+  },
+  {
+    "path": "制作源/build_s8.py",
+    "bytes": 5628,
+    "sha256": "8259c1cefeb0eb5980ded8a56a9fc7419ff04b5a96e1211c74732d35abc3b9ae"
+  },
+  {
+    "path": "制作源/preserve.py",
+    "bytes": 3244,
+    "sha256": "bd0d030e07ecd6274d8106f5ff890da84e4db35b1cbbc3c90097c9b7c1256e2f"
+  },
+  {
+    "path": "制作源/render_s8.py",
+    "bytes": 6052,
+    "sha256": "4caff9f7d7b649820e27a33e8b3d7a3c50f49b661b9c50bc315805cfbfbc83b7"
+  },
+  {
+    "path": "制作源/review_sequence.py",
+    "bytes": 2098,
+    "sha256": "33d0a56ff06a90c2c777947ad8d87960a285e62c5d2fb55f51826618585b24b3"
+  },
+  {
+    "path": "制作源/输入/S02_物理学习助手.png",
+    "bytes": 168022,
+    "sha256": "3a2015b858916b31fb329770e6d51d08df1bd6bef7250e5b4c8a46b20316df63"
+  },
+  {
+    "path": "制作源/输入/七阶段生命周期_用户原图.png",
+    "bytes": 88960,
+    "sha256": "0414e604a4878b2385ce0cae9f699a06e1faf14933b7a9a662fea5a04d408e89"
+  },
+  {
+    "path": "制作源/输入/九部门模型_用户原图.png",
+    "bytes": 167374,
+    "sha256": "01797ce65c0fe200860c5162d052454afd0a91af1ea5c49252f6f6b7978d0e46"
+  },
+  {
+    "path": "制作源/输入/输入来源.json",
+    "bytes": 1224,
+    "sha256": "1b06c04d0363b83ced68d1aa4b44764c1a607c66183355b235cc4d6d4e5871f0"
+  },
+  {
+    "path": "来源与provenance.md",
+    "bytes": 4473,
+    "sha256": "65944067854724b1f8cfa26197b1da4a4941687a0d2526194f075c89ec60484f"
+  },
+  {
+    "path": "检查证据/PDF元数据.txt",
+    "bytes": 733,
+    "sha256": "23ca755ef68c668055710bd51903417f5f4759f1fa5123003b2e9c75bc1a510e"
+  },
+  {
+    "path": "检查证据/PowerPoint实际渲染检查.json",
+    "bytes": 7810,
+    "sha256": "653c212abf317fb3e08161ad8db0d8380541ec746f8ba1f73172fe5a2887e661"
+  },
+  {
+    "path": "检查证据/S8_PDF实际渲染.png",
+    "bytes": 303123,
+    "sha256": "8fdcc020de3d7a6fc61a794cb3dafeb73b47d4e6f94e08db27ec5736f0d27478"
+  },
+  {
+    "path": "检查证据/S8_PowerPoint备注读回.txt",
+    "bytes": 4144,
+    "sha256": "68332cc413d80346b1cd61c3107c6aa23dd6668337f3d26544910d1f32976033"
+  },
+  {
+    "path": "检查证据/交付完整性检查.json",
+    "bytes": 1355,
+    "sha256": "e29286e18b6d6d4f17ac51a17be41a300fea254d10ed051b9651dd019680e746"
+  },
+  {
+    "path": "检查证据/接手文件基线.json",
+    "bytes": 187075,
+    "sha256": "45c14289b42510c8e09a216b4f3db5171c291346a8af8f049861af40a6d0da5e"
+  },
+  {
+    "path": "检查证据/既有文件保全.json",
+    "bytes": 167,
+    "sha256": "a4809cf4416984a8a664a813f2333d6e99010ad6013dc76d8a51350efe01b43a"
+  },
+  {
+    "path": "检查证据/连续审阅来源.json",
+    "bytes": 1767,
+    "sha256": "e3e5b63db534c3fd44e8ff7931ecc8e349efdab3d744e6a60ab63504c7f03c10"
+  },
+  {
+    "path": "派生素材/S02_完整应用_仅去窗口标题栏.png",
+    "bytes": 122496,
+    "sha256": "f339b523108d149b76e4106ed6247de61b05d6c60a01014ad2ca3fceccea5c41"
+  },
+  {
+    "path": "派生素材/七阶段生命周期_完整回路与首行语境.png",
+    "bytes": 25679,
+    "sha256": "948476ebed899320a8b273c36a2cc032329914451bbeeb0b1450b82fab89cea4"
+  },
+  {
+    "path": "派生素材/九部门模型_结构与首行语境.png",
+    "bytes": 33864,
+    "sha256": "6007a3c6a0a3f573849d285d295015131116e86aedeca91dcc78a96db5bf8a43"
+  },
+  {
+    "path": "派生素材说明.json",
+    "bytes": 2242,
+    "sha256": "e76bab64a99804d76b46d0177b4df1aace0169043a66cca75e9b355e8aea83e2"
+  },
+  {
+    "path": "预览/S7A-S8v3.1-S9Av3-S9Bv3-S10_连续审阅_横向.png",
+    "bytes": 830390,
+    "sha256": "3ff9fb4421e6a1f8468ed868899ebb5ac187e4bb1349f14b7b768c6005d57ff0"
+  },
+  {
+    "path": "预览/S7A-S8v3.1-S9Av3-S9Bv3-S10_连续审阅_纵向.png",
+    "bytes": 1691873,
+    "sha256": "79b3779bf74f5c5ed22a4b11491871892416a21010344206f93af4030d4fbcd5"
+  },
+  {
+    "path": "预览/S8_1920x1080.png",
+    "bytes": 379010,
+    "sha256": "fb512045c7371234c9d4e84c0bd367cd098350c19daa3c7f3383dcd87dbbc1c9"
+  },
+  {
+    "path": "预览/S8_3840x2160.png",
+    "bytes": 1191811,
+    "sha256": "444ebb420b43ee43977f8bf5fe0f846a1529bb4558a26395437b566deb4e3410"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "local_markdown_links_missing": [],
+  "visible_title_correct": true,
+  "candidate_status_correct": true,
+  "latest_transition_present": true,
+  "later_governance_exploration_only_in_notes": true,
+  "app_crop_identical_to_v3_bytes": true,
+  "review_checks": [
+    {
+      "order": 1,
+      "source": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v2_20261006/预览/S7_v2_A_1920x1080.png",
+      "vertical_review_pixels_identical": true
+    },
+    {
+      "order": 2,
+      "source": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目AI协作_v3.1_20261006/预览/S8_1920x1080.png",
+      "vertical_review_pixels_identical": true
+    },
+    {
+      "order": 3,
+      "source": "A线_西湖博士/面试与导师交流/刘癸庚/S9_个人AI外骨骼_v3_20261006/预览/S9-A_1920x1080.png",
+      "vertical_review_pixels_identical": true
+    },
+    {
+      "order": 4,
+      "source": "A线_西湖博士/面试与导师交流/刘癸庚/S9_个人AI外骨骼_v3_20261006/预览/S9-B_1920x1080.png",
+      "vertical_review_pixels_identical": true
+    },
+    {
+      "order": 5,
+      "source": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+      "vertical_review_pixels_identical": true
+    }
+  ],
+  "slides": 1,
+  "notes_match": true
+}

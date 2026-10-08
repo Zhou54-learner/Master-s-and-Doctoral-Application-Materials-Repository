@@ -1,0 +1,46 @@
+[
+  {
+    "source": "公共资料/事实核验/个人探索_20261004/素材/S06_课程图谱.png",
+    "source_sha256": "e13c8ed0647856780157100b049a7c7655a1c3d541006dd4f97d69a7e86a16db",
+    "packaged_original": "制作源/输入/S06_课程图谱.png",
+    "source_pixels": [
+      1920,
+      1033
+    ],
+    "crop_box": [
+      0,
+      80,
+      1920,
+      1033
+    ],
+    "output": "派生素材/S06_完整知识地图_仅去浏览器栏.png",
+    "pixels": [
+      1920,
+      953
+    ],
+    "sha256": "19a0cc556b0a5e0d749687179896c8b513eeec3893282b03ec7ad011e5aaf641",
+    "operation": "Remove only OS/browser chrome; retain every captured app pixel. No UI reconstruction or local detail crop."
+  },
+  {
+    "source": "公共资料/事实核验/个人探索_20261004/素材/S05_执行驾驶舱.png",
+    "source_sha256": "fccc0f77ee2a2e6f19e015091741c53cc8a6a68e74a71011fdcc4899fc53407c",
+    "packaged_original": "制作源/输入/S05_执行驾驶舱.png",
+    "source_pixels": [
+      1848,
+      952
+    ],
+    "crop_box": [
+      0,
+      38,
+      1848,
+      952
+    ],
+    "output": "派生素材/S05_完整执行页面_仅去浏览器栏.png",
+    "pixels": [
+      1848,
+      914
+    ],
+    "sha256": "46a9deca853300befd5d62829adbdb8c905f4d4124d3ee3cf75cb98f6dd85fd0",
+    "operation": "Remove only OS/browser chrome; retain every captured app pixel. No UI reconstruction or local detail crop."
+  }
+]

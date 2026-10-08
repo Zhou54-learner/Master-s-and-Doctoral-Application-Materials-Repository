@@ -1,0 +1,28 @@
+[
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60mm_scale.fig",
+    "line_count": 2,
+    "points": 1914,
+    "x_first": 2293.0,
+    "x_last": 845926.0,
+    "x_step_unique": [
+      441
+    ],
+    "two_y_exact_equal": false,
+    "max_y_difference": 1190.2834008097168
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80mm_scale.fig",
+    "line_count": 2,
+    "points": 2092,
+    "x_first": 2293.0,
+    "x_last": 924424.0,
+    "x_step_unique": [
+      441
+    ],
+    "two_y_exact_equal": false,
+    "max_y_difference": 162.13235294117658,
+    "line1_median_abs_diff_from_stft_hz": 24.141000000000076,
+    "line2_median_abs_diff_from_stft_hz": 24.141000000000076
+  }
+]

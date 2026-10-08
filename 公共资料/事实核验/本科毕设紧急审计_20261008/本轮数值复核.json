@@ -1,0 +1,60 @@
+{
+  "ga_mode1": {
+    "power_samples": 10,
+    "max_dielectric_loss_W": 0.0,
+    "max_energy_residual": 3.9302298959098536e-05,
+    "max_S_power_mismatch": 1.5265566588595902e-16,
+    "at_18": {
+      "R": 0.09401073584643736,
+      "loss_fraction": 0.9059635218228903
+    }
+  },
+  "ga_mode2": {
+    "power_samples": 10,
+    "max_dielectric_loss_W": 0.0,
+    "max_energy_residual": 5.473853051517121e-05,
+    "max_S_power_mismatch": 2.220446049250313e-16,
+    "at_18": {
+      "R": 0.9983333163132703,
+      "loss_fraction": 0.0016711737694030022
+    }
+  },
+  "adaptive_mode1": {
+    "power_samples": 11,
+    "max_dielectric_loss_W": 0.0,
+    "max_energy_residual": 3.6586501067081834e-05,
+    "max_S_power_mismatch": 1.1102230246251565e-16,
+    "at_18": {
+      "R": 0.11830879661740434,
+      "loss_fraction": 0.8817274157912194
+    }
+  },
+  "adaptive_mode2": {
+    "power_samples": 11,
+    "max_dielectric_loss_W": 0.0,
+    "max_energy_residual": 4.108645936565952e-05,
+    "max_S_power_mismatch": 2.220446049250313e-16,
+    "at_18": {
+      "R": 0.9987991660204842,
+      "loss_fraction": 0.0011963584748715989
+    }
+  },
+  "fitness_recalculation": {
+    "bw": 13.2,
+    "f_low": 4.800000000000001,
+    "bonus_at_4p8_applied": false,
+    "total_effective_estimate": 13.280000000000001,
+    "mean_margin": 5.4479553754385295,
+    "shallow_ratio": 0.04819277108433735,
+    "score": 89.63868001716894,
+    "display_rounded_f_low_would_add": 7
+  },
+  "max_native_vs_original_magnitude_difference": 1.1102230246251565e-16,
+  "trace_counts": {
+    "start_cst": 113,
+    "finished_cst": 113,
+    "cache_hit": 15
+  },
+  "winner_mask_equals_seed": true,
+  "unique_finished_masks": 62
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_1.m4a",
+    "correlation": 0.9890031144907817,
+    "start_s": 0.031083333333333334,
+    "duration_s": 3.6906666666666665,
+    "short_file_creation_time_utc": "2024-03-29T13:19:43.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_2.m4a",
+    "correlation": 0.2362198494197203,
+    "start_s": 1.81825,
+    "duration_s": 3.498666666666667,
+    "short_file_creation_time_utc": "2024-03-29T13:24:55.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_3.m4a",
+    "correlation": 0.15259405330089465,
+    "start_s": 2.443416666666667,
+    "duration_s": 3.925333333333333,
+    "short_file_creation_time_utc": "2024-03-29T13:25:33.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_4.m4a",
+    "correlation": 0.034205880292987725,
+    "start_s": 3.0184166666666665,
+    "duration_s": 4.522666666666667,
+    "short_file_creation_time_utc": "2024-03-29T13:26:24.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_5.m4a",
+    "correlation": 0.07707670418201673,
+    "start_s": 1.7259166666666668,
+    "duration_s": 4.053333333333334,
+    "short_file_creation_time_utc": "2024-03-29T13:27:11.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_1.m4a",
+    "correlation": 0.9891836411523822,
+    "start_s": 3.7154166666666666,
+    "duration_s": 3.562666666666667,
+    "short_file_creation_time_utc": "2024-03-29T13:30:01.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_2.m4a",
+    "correlation": 0.2807424141318585,
+    "start_s": 2.91425,
+    "duration_s": 3.541333333333333,
+    "short_file_creation_time_utc": "2024-03-29T13:30:30.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_3.m4a",
+    "correlation": 0.13807171727624648,
+    "start_s": 2.655666666666667,
+    "duration_s": 2.517333333333333,
+    "short_file_creation_time_utc": "2024-03-29T13:31:09.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_4.m4a",
+    "correlation": 0.1079209636955688,
+    "start_s": 2.699,
+    "duration_s": 3.8613333333333335,
+    "short_file_creation_time_utc": "2024-03-29T13:32:40.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_5.m4a",
+    "correlation": 0.07886871039064444,
+    "start_s": 3.432916666666667,
+    "duration_s": 4.074666666666666,
+    "short_file_creation_time_utc": "2024-03-29T13:33:41.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_1.m4a",
+    "correlation": 0.2527887510536629,
+    "start_s": 7.314333333333333,
+    "duration_s": 3.6693333333333333,
+    "short_file_creation_time_utc": "2024-03-29T13:48:32.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_2.m4a",
+    "correlation": 0.984914332590213,
+    "start_s": 7.280333333333333,
+    "duration_s": 3.1146666666666665,
+    "short_file_creation_time_utc": "2024-03-29T13:49:06.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_3.m4a",
+    "correlation": 0.22474274258388383,
+    "start_s": 5.171833333333334,
+    "duration_s": 3.52,
+    "short_file_creation_time_utc": "2024-03-29T13:49:34.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_4.m4a",
+    "correlation": 0.09712337134365621,
+    "start_s": 6.3845,
+    "duration_s": 3.1146666666666665,
+    "short_file_creation_time_utc": "2024-03-29T13:50:30.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_5.m4a",
+    "correlation": 0.12355350102040315,
+    "start_s": 5.285666666666667,
+    "duration_s": 3.6693333333333333,
+    "short_file_creation_time_utc": "2024-03-29T13:51:14.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_1.m4a",
+    "correlation": 0.9720838469132175,
+    "start_s": 10.393,
+    "duration_s": 2.24,
+    "short_file_creation_time_utc": "2024-03-31T12:26:52.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_2.m4a",
+    "correlation": 0.21315061452169115,
+    "start_s": 10.279166666666667,
+    "duration_s": 2.88,
+    "short_file_creation_time_utc": "2024-03-31T12:27:31.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_3.m4a",
+    "correlation": 0.03947887011027339,
+    "start_s": 11.22625,
+    "duration_s": 3.904,
+    "short_file_creation_time_utc": "2024-03-31T12:28:03.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_4.m4a",
+    "correlation": 0.1150017088983396,
+    "start_s": 10.4595,
+    "duration_s": 3.456,
+    "short_file_creation_time_utc": "2024-03-31T12:28:47.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_5.m4a",
+    "correlation": 0.034702641557770746,
+    "start_s": 9.901083333333334,
+    "duration_s": 3.3066666666666666,
+    "short_file_creation_time_utc": "2024-03-31T12:29:20.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_1.m4a",
+    "correlation": 0.994266608336308,
+    "start_s": 12.633,
+    "duration_s": 3.2213333333333334,
+    "short_file_creation_time_utc": "2024-03-31T12:34:26.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_2.m4a",
+    "correlation": 0.23079566085580724,
+    "start_s": 11.427833333333334,
+    "duration_s": 2.88,
+    "short_file_creation_time_utc": "2024-03-31T12:35:05.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_3.m4a",
+    "correlation": 0.2626406986305731,
+    "start_s": 10.79625,
+    "duration_s": 3.1573333333333333,
+    "short_file_creation_time_utc": "2024-03-31T12:35:51.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_4.m4a",
+    "correlation": 0.30782459164713477,
+    "start_s": 13.267833333333334,
+    "duration_s": 2.56,
+    "short_file_creation_time_utc": "2024-03-31T12:36:36.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_5.m4a",
+    "correlation": 0.12249278279673037,
+    "start_s": 14.2065,
+    "duration_s": 2.8373333333333335,
+    "short_file_creation_time_utc": "2024-03-31T12:37:17.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_1.m4a",
+    "correlation": 0.9840029395409482,
+    "start_s": 15.8545,
+    "duration_s": 2.624,
+    "short_file_creation_time_utc": "2024-03-31T12:41:17.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_2.m4a",
+    "correlation": 0.0715391001178115,
+    "start_s": 13.828166666666666,
+    "duration_s": 2.474666666666667,
+    "short_file_creation_time_utc": "2024-03-31T12:42:02.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_3.m4a",
+    "correlation": 0.09153441255794866,
+    "start_s": 13.42725,
+    "duration_s": 2.7306666666666666,
+    "short_file_creation_time_utc": "2024-03-31T12:42:47.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_4.m4a",
+    "correlation": 0.15740903601379697,
+    "start_s": 15.53075,
+    "duration_s": 2.688,
+    "short_file_creation_time_utc": "2024-03-31T12:43:19.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_5.m4a",
+    "correlation": 0.027762722294568755,
+    "start_s": 18.273333333333333,
+    "duration_s": 2.56,
+    "short_file_creation_time_utc": "2024-03-31T12:43:59.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_1.m4a",
+    "correlation": 0.9565818944521463,
+    "start_s": 18.478666666666665,
+    "duration_s": 2.496,
+    "short_file_creation_time_utc": "2024-03-31T12:46:11.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_2.m4a",
+    "correlation": 0.05457405563694961,
+    "start_s": 17.347583333333333,
+    "duration_s": 3.562666666666667,
+    "short_file_creation_time_utc": "2024-03-31T12:46:59.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_3.m4a",
+    "correlation": 0.24383255048851368,
+    "start_s": 16.979833333333332,
+    "duration_s": 2.7306666666666666,
+    "short_file_creation_time_utc": "2024-03-31T12:47:54.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_4.m4a",
+    "correlation": 0.10070257050003499,
+    "start_s": 18.75525,
+    "duration_s": 2.2186666666666666,
+    "short_file_creation_time_utc": "2024-03-31T12:48:31.000000Z",
+    "short_file_sample_rate": 48000
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_5.m4a",
+    "correlation": 0.31642479598792744,
+    "start_s": 18.31225,
+    "duration_s": 2.304,
+    "short_file_creation_time_utc": "2024-03-31T12:49:00.000000Z",
+    "short_file_sample_rate": 48000
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "source": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979.cst",
+  "tree": [
+    "1D Results\\Balance (All Ports)\\Balance [Zmax(1)]",
+    "1D Results\\Balance (All Ports)\\Balance [Zmax(2)]",
+    "1D Results\\Convergence\\Equation System Solver\\Number of Iterations\\[Zmax(1)]",
+    "1D Results\\Convergence\\Equation System Solver\\Number of Iterations\\[Zmax(2)]",
+    "1D Results\\Convergence\\Equation System Solver\\Relative Residual\\[Zmax(1)]",
+    "1D Results\\Convergence\\Equation System Solver\\Relative Residual\\[Zmax(2)]",
+    "1D Results\\Convergence\\S-Parameters\\All S-Parameters",
+    "1D Results\\Materials\\SMH188H_X_140p79_OhmicSheet\\Surface Impedance\\Z' (Data list)",
+    "1D Results\\Materials\\SMH188H_X_140p79_OhmicSheet\\Surface Impedance\\Z' (FD - Interpolated)",
+    "1D Results\\Materials\\SMH188H_X_140p79_OhmicSheet\\Surface Impedance\\Z' (Fit)",
+    "1D Results\\Materials\\SMH188H_X_140p79_OhmicSheet\\Surface Impedance\\Z'' (Data list)",
+    "1D Results\\Materials\\SMH188H_X_140p79_OhmicSheet\\Surface Impedance\\Z'' (FD - Interpolated)",
+    "1D Results\\Materials\\SMH188H_X_140p79_OhmicSheet\\Surface Impedance\\Z'' (Fit)",
+    "1D Results\\Materials\\SMH188H_Y_35p46_OhmicSheet\\Surface Impedance\\Z' (Data list)",
+    "1D Results\\Materials\\SMH188H_Y_35p46_OhmicSheet\\Surface Impedance\\Z' (FD - Interpolated)",
+    "1D Results\\Materials\\SMH188H_Y_35p46_OhmicSheet\\Surface Impedance\\Z' (Fit)",
+    "1D Results\\Materials\\SMH188H_Y_35p46_OhmicSheet\\Surface Impedance\\Z'' (Data list)",
+    "1D Results\\Materials\\SMH188H_Y_35p46_OhmicSheet\\Surface Impedance\\Z'' (FD - Interpolated)",
+    "1D Results\\Materials\\SMH188H_Y_35p46_OhmicSheet\\Surface Impedance\\Z'' (Fit)",
+    "1D Results\\Port Information\\Distance (-40 dB)\\Zmax(1)",
+    "1D Results\\Port Information\\Distance (-40 dB)\\Zmax(2)",
+    "1D Results\\Port Information\\Effective Dielectric Constant\\Zmax(1)",
+    "1D Results\\Port Information\\Effective Dielectric Constant\\Zmax(2)",
+    "1D Results\\Port Information\\Gamma\\Zmax(1)",
+    "1D Results\\Port Information\\Gamma\\Zmax(2)",
+    "1D Results\\Port Information\\Wave Impedance\\Zmax(1)",
+    "1D Results\\Port Information\\Wave Impedance\\Zmax(2)",
+    "1D Results\\Power\\Excitation [Zmax(1)]\\Loss in Dielectrics",
+    "1D Results\\Power\\Excitation [Zmax(1)]\\Loss in Metals",
+    "1D Results\\Power\\Excitation [Zmax(1)]\\Loss per Material\\Metal loss in SMH188H_X_140p79_OhmicSheet",
+    "1D Results\\Power\\Excitation [Zmax(1)]\\Loss per Material\\Metal loss in SMH188H_Y_35p46_OhmicSheet",
+    "1D Results\\Power\\Excitation [Zmax(1)]\\Power Accepted",
+    "1D Results\\Power\\Excitation [Zmax(1)]\\Power Accepted per Port\\Port Zmax",
+    "1D Results\\Power\\Excitation [Zmax(1)]\\Power Outgoing all Ports",
+    "1D Results\\Power\\Excitation [Zmax(1)]\\Power Stimulated",
+    "1D Results\\Power\\Excitation [Zmax(2)]\\Loss in Dielectrics",
+    "1D Results\\Power\\Excitation [Zmax(2)]\\Loss in Metals",
+    "1D Results\\Power\\Excitation [Zmax(2)]\\Loss per Material\\Metal loss in SMH188H_X_140p79_OhmicSheet",
+    "1D Results\\Power\\Excitation [Zmax(2)]\\Loss per Material\\Metal loss in SMH188H_Y_35p46_OhmicSheet",
+    "1D Results\\Power\\Excitation [Zmax(2)]\\Power Accepted",
+    "1D Results\\Power\\Excitation [Zmax(2)]\\Power Accepted per Port\\Port Zmax",
+    "1D Results\\Power\\Excitation [Zmax(2)]\\Power Outgoing all Ports",
+    "1D Results\\Power\\Excitation [Zmax(2)]\\Power Stimulated",
+    "1D Results\\Reference Impedance\\ZRef Zmax(1)",
+    "1D Results\\Reference Impedance\\ZRef Zmax(2)",
+    "1D Results\\S-Parameters\\SZmax(1),Zmax(1)",
+    "1D Results\\S-Parameters\\SZmax(1),Zmax(2)",
+    "1D Results\\S-Parameters\\SZmax(2),Zmax(1)",
+    "1D Results\\S-Parameters\\SZmax(2),Zmax(2)",
+    "Excitation Signals\\default"
+  ],
+  "curves": {
+    "S11": {
+      "count": 201,
+      "min_dB": -23.485400435875423,
+      "max_dB": -1.9763457429028701
+    },
+    "S12": {
+      "count": 201,
+      "min_dB": -106.05373805913877,
+      "max_dB": -60.72459183243556
+    },
+    "S21": {
+      "count": 201,
+      "min_dB": -106.93404850921667,
+      "max_dB": -60.79504453816507
+    },
+    "S22": {
+      "count": 201,
+      "min_dB": -0.00860463257575267,
+      "max_dB": 1.928654933106574e-15
+    }
+  },
+  "matches_GA_text": {
+    "max_frequency_difference": 0.0,
+    "max_magnitude_difference": 0.0
+  },
+  "history_count": 354,
+  "field_e1_frequency_GHz": 4.4,
+  "field_e2_frequency_GHz": 4.4,
+  "field_h1_frequency_GHz": 4.4,
+  "field_h2_frequency_GHz": 4.4,
+  "originals_unchanged": true
+}

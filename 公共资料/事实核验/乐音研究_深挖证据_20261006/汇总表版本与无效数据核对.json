@@ -1,0 +1,21 @@
+{
+  "archive": {
+    "archive_vs_processing_same_nonempty_cells": true,
+    "external_column_values_same_order_as_archive": {
+      "B": true,
+      "C": true,
+      "D": true,
+      "E": true
+    },
+    "external_80cm_starts_at": "D7",
+    "external_100cm_starts_at": "E12",
+    "archive_and_processing_both_start_at_row": 2,
+    "interpretation": "数值序列相同，外部家族汇总表移动了数据块；横向同一行不是经校准的相同气流。"
+  },
+  "invalid_record": {
+    "table_cell": "NaN",
+    "family_summary_B4": "2921.7331540083701",
+    "length_summary_B4": "2921.7331540083701",
+    "meaning": "分表 NaN；汇总表用四个有效值的均值补位。重分析剔除该项，n=4。"
+  }
+}

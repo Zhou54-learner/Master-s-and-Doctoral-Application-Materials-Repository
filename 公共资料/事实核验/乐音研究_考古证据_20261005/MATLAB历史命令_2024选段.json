@@ -1,0 +1,482 @@
+[
+  {
+    "session": "%-- 2024/1/13 16:03 --%",
+    "commands": [
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "253",
+          "repeat": "4"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/1/14 19:28 --%",
+    "commands": [
+      {
+        "text": "gpttest",
+        "attributes": {
+          "execution_time": "1026",
+          "repeat": "6"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "209"
+        }
+      },
+      {
+        "text": "gpttest",
+        "attributes": {
+          "execution_time": "890",
+          "repeat": "2"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/1/15 0:04 --%",
+    "commands": [
+      {
+        "text": "gpttest2",
+        "attributes": {
+          "execution_time": "6194",
+          "repeat": "13"
+        }
+      },
+      {
+        "text": "gpttest3",
+        "attributes": {
+          "execution_time": "36",
+          "repeat": "10"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/1/17 21:01 --%",
+    "commands": [
+      {
+        "text": "gpttest",
+        "attributes": {
+          "execution_time": "3532"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "228",
+          "repeat": "3"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/1/24 21:10 --%",
+    "commands": [
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "353",
+          "repeat": "3"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/2/7 16:20 --%",
+    "commands": [
+      {
+        "text": "program",
+        "attributes": {
+          "error": "true",
+          "execution_time": "194",
+          "repeat": "3"
+        }
+      },
+      {
+        "text": "test2",
+        "attributes": {
+          "execution_time": "2420",
+          "repeat": "7"
+        }
+      },
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "2167",
+          "repeat": "31"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "530",
+          "repeat": "5"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/2/8 14:50 --%",
+    "commands": [
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "682",
+          "repeat": "7"
+        }
+      },
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "4419"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "726"
+        }
+      },
+      {
+        "text": "appdesigner",
+        "attributes": {
+          "execution_time": "398",
+          "repeat": "2"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/3/4 18:50 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "5887"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/3/4 18:58 --%",
+    "commands": [
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "1895"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/3/5 19:45 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "6035"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "183",
+          "repeat": "3"
+        }
+      },
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "1064",
+          "repeat": "5"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "170",
+          "repeat": "2"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "685"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/3/21 21:11 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "851",
+          "repeat": "14"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/3/26 13:48 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "953",
+          "repeat": "8"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/4/12 23:27 --%",
+    "commands": [
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "3536"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/4/14 22:10 --%",
+    "commands": [
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "3519"
+        }
+      },
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "3619",
+          "repeat": "3"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/4/15 22:06 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "811",
+          "repeat": "6"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/4/16 20:32 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "901",
+          "repeat": "10"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/4/18 14:40 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "845",
+          "repeat": "4"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/4/19 9:26 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "1087",
+          "repeat": "3"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/4/21 9:55 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "756",
+          "repeat": "35"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "723",
+          "repeat": "8"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/4/23 21:41 --%",
+    "commands": [
+      {
+        "text": "test3",
+        "attributes": {
+          "batch": "40",
+          "execution_time": "34",
+          "repeat": "2"
+        }
+      },
+      {
+        "text": "test3",
+        "attributes": {
+          "batch": "40"
+        }
+      },
+      {
+        "text": "test3",
+        "attributes": {
+          "batch": "40"
+        }
+      },
+      {
+        "text": "test3",
+        "attributes": {
+          "batch": "40",
+          "execution_time": "7590"
+        }
+      },
+      {
+        "text": "test3",
+        "attributes": {
+          "execution_time": "980"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/6/7 18:09 --%",
+    "commands": [
+      {
+        "text": "pitch",
+        "attributes": {
+          "execution_time": "68"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/6/7 19:16 --%",
+    "commands": [
+      {
+        "text": "pitch",
+        "attributes": {
+          "execution_time": "183"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "604",
+          "repeat": "8"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "102",
+          "repeat": "26"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "1398",
+          "repeat": "2"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "215"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "1782"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "264"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "2003"
+        }
+      }
+    ]
+  },
+  {
+    "session": "%-- 2024/6/8 20:53 --%",
+    "commands": [
+      {
+        "text": "pitch",
+        "attributes": {
+          "execution_time": "94"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "error": "true",
+          "execution_time": "494"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "4569"
+        }
+      },
+      {
+        "text": "test",
+        "attributes": {
+          "execution_time": "237",
+          "repeat": "3"
+        }
+      },
+      {
+        "text": "pitchtest",
+        "attributes": {
+          "execution_time": "680",
+          "repeat": "2"
+        }
+      },
+      {
+        "text": "pitch",
+        "attributes": {
+          "execution_time": "30"
+        }
+      }
+    ]
+  }
+]

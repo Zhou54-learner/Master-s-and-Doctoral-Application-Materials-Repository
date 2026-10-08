@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "deliveries": [
+    {
+      "directory": "S8_项目级AI协作_v1_20261005",
+      "physical_slides": 1,
+      "logical_topics": 1,
+      "pptx_sha256": "16ed15557764760758bed76813a31c832eb45354cd985f939c5296805f99e6fb",
+      "all_preserved": true
+    },
+    {
+      "directory": "S9_长期AI协作_v1_20261005",
+      "physical_slides": 2,
+      "logical_topics": 1,
+      "pptx_sha256": "eadecbe34e2fc87ae4bb01934ae9c439a5522669a91aa732147d415ec75b77cc",
+      "all_preserved": true
+    }
+  ],
+  "pdf_checks": [
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/S8_项目级AI协作_v1.pdf",
+      "pages": 1,
+      "creator_is_powerpoint": true,
+      "page_size_pt": [
+        960,
+        540
+      ],
+      "pdf_sha256": "e1b34e3269703154e520d466363d7a3cbdf0c5875359424837732c23f87301e8"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_长期AI协作_v1_20261005/S9_长期AI协作_v1.pdf",
+      "pages": 2,
+      "creator_is_powerpoint": true,
+      "page_size_pt": [
+        960,
+        540
+      ],
+      "pdf_sha256": "e0cf08bb6712256579f94dd8af4a97b17b4bbf1c09b68f04d67f97e7f7d36a92"
+    }
+  ],
+  "broken_local_links": [],
+  "s9_static_text_and_positions_identical": true,
+  "s9_extra_topic_or_time": false,
+  "preservation_counts": {
+    "sources": 7,
+    "S2_to_S7_files": 88,
+    "unrelated_work": 3
+  },
+  "notes": "PowerPoint layout reports and visual review are complementary; timing and real projector legibility remain user checks."
+}

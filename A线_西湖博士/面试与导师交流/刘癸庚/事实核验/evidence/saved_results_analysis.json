@@ -1,0 +1,455 @@
+{
+  "S11": {
+    "count": 202,
+    "unique_frequencies": 202,
+    "min_dB": -34.829065620138735,
+    "max_dB": -1.8726610436294788,
+    "max_power_ratio": 0.6497314597336156,
+    "bands_le_minus10_dB": [
+      [
+        5.2,
+        17.68,
+        12.48
+      ]
+    ],
+    "samples": {
+      "2": {
+        "actual_f_GHz": 2.0,
+        "dB": -1.8726610436294788
+      },
+      "4.8": {
+        "actual_f_GHz": 4.800000000000001,
+        "dB": -8.60629654002379
+      },
+      "8.8": {
+        "actual_f_GHz": 8.8,
+        "dB": -12.778735680424472
+      },
+      "12": {
+        "actual_f_GHz": 12.0,
+        "dB": -14.161693497404777
+      },
+      "15.5": {
+        "actual_f_GHz": 15.5,
+        "dB": -20.5167387074628
+      },
+      "18": {
+        "actual_f_GHz": 18.0,
+        "dB": -9.26983338493927
+      }
+    }
+  },
+  "S12": {
+    "count": 202,
+    "unique_frequencies": 202,
+    "min_dB": -112.17042418045276,
+    "max_dB": -69.64245170949502,
+    "max_power_ratio": 1.0858124801320684e-07,
+    "bands_le_minus10_dB": [
+      [
+        2.0,
+        18.0,
+        16.0
+      ]
+    ],
+    "samples": {
+      "2": {
+        "actual_f_GHz": 2.0,
+        "dB": -112.17042418045276
+      },
+      "4.8": {
+        "actual_f_GHz": 4.800000000000001,
+        "dB": -86.51800587836331
+      },
+      "8.8": {
+        "actual_f_GHz": 8.8,
+        "dB": -73.89318219114601
+      },
+      "12": {
+        "actual_f_GHz": 12.0,
+        "dB": -74.98642682614012
+      },
+      "15.5": {
+        "actual_f_GHz": 15.5,
+        "dB": -79.86586464228208
+      },
+      "18": {
+        "actual_f_GHz": 18.0,
+        "dB": -69.64245170949502
+      }
+    }
+  },
+  "S21": {
+    "count": 202,
+    "unique_frequencies": 202,
+    "min_dB": -111.83875481706662,
+    "max_dB": -69.90235407842134,
+    "max_power_ratio": 1.0227384701076934e-07,
+    "bands_le_minus10_dB": [
+      [
+        2.0,
+        18.0,
+        16.0
+      ]
+    ],
+    "samples": {
+      "2": {
+        "actual_f_GHz": 2.0,
+        "dB": -111.83875481706662
+      },
+      "4.8": {
+        "actual_f_GHz": 4.800000000000001,
+        "dB": -85.96228870813721
+      },
+      "8.8": {
+        "actual_f_GHz": 8.8,
+        "dB": -74.38804661886269
+      },
+      "12": {
+        "actual_f_GHz": 12.0,
+        "dB": -74.74943827327465
+      },
+      "15.5": {
+        "actual_f_GHz": 15.5,
+        "dB": -80.4251308884342
+      },
+      "18": {
+        "actual_f_GHz": 18.0,
+        "dB": -69.90235407842134
+      }
+    }
+  },
+  "S22": {
+    "count": 202,
+    "unique_frequencies": 202,
+    "min_dB": -0.005218761616306856,
+    "max_dB": 0.0,
+    "max_power_ratio": 1.0,
+    "bands_le_minus10_dB": [],
+    "samples": {
+      "2": {
+        "actual_f_GHz": 2.0,
+        "dB": -6.533072232828697e-06
+      },
+      "4.8": {
+        "actual_f_GHz": 4.800000000000001,
+        "dB": -0.00043153376573010313
+      },
+      "8.8": {
+        "actual_f_GHz": 8.8,
+        "dB": -0.0008511956056584519
+      },
+      "12": {
+        "actual_f_GHz": 12.0,
+        "dB": -0.0009940212891681721
+      },
+      "15.5": {
+        "actual_f_GHz": 15.5,
+        "dB": -0.002415184970371535
+      },
+      "18": {
+        "actual_f_GHz": 18.0,
+        "dB": -0.005218761616306856
+      }
+    }
+  },
+  "GA": {
+    "count": 201,
+    "min_dB": -23.485400435875423,
+    "bands": [
+      [
+        4.800000000000001,
+        18.0,
+        13.2
+      ]
+    ]
+  },
+  "GA_vs_saved_adaptive": {
+    "matched_points": 201,
+    "max_absolute_dB_difference": 11.688876505444867,
+    "same_curve": false
+  },
+  "power_mode1": [
+    {
+      "f_GHz": 2.0,
+      "pin_W": 0.5,
+      "pout_W": 0.3248657298700819,
+      "loss_W": 0.175135585777026,
+      "loss_fraction": 0.350271171554052,
+      "balance_residual_fraction": -2.631294215793556e-06,
+      "s_power_sum": 0.6497314597401638,
+      "s_frequency_used": 2.0
+    },
+    {
+      "f_GHz": 4.08,
+      "pin_W": 0.5,
+      "pout_W": 0.11628846029312184,
+      "loss_W": 0.3837140973461854,
+      "loss_fraction": 0.7674281946923708,
+      "balance_residual_fraction": -5.115278614464813e-06,
+      "s_power_sum": 0.2325769205862438,
+      "s_frequency_used": 4.08
+    },
+    {
+      "f_GHz": 5.840000000000001,
+      "pin_W": 0.5,
+      "pout_W": 0.021855866327050277,
+      "loss_W": 0.4781461755161867,
+      "loss_fraction": 0.9562923510323734,
+      "balance_residual_fraction": -4.083686473976833e-06,
+      "s_power_sum": 0.043711732654100666,
+      "s_frequency_used": 5.84
+    },
+    {
+      "f_GHz": 6.880000000000001,
+      "pin_W": 0.5,
+      "pout_W": 0.0042018791958781665,
+      "loss_W": 0.4958017424459841,
+      "loss_fraction": 0.9916034848919681,
+      "balance_residual_fraction": -7.2432837244784665e-06,
+      "s_power_sum": 0.008403758391756229,
+      "s_frequency_used": 6.88
+    },
+    {
+      "f_GHz": 8.8,
+      "pin_W": 0.5,
+      "pout_W": 0.026369186759114704,
+      "loss_W": 0.47362223121574115,
+      "loss_fraction": 0.9472444624314823,
+      "balance_residual_fraction": 1.716405028828749e-05,
+      "s_power_sum": 0.05273837351822947,
+      "s_frequency_used": 8.8
+    },
+    {
+      "f_GHz": 9.84,
+      "pin_W": 0.5,
+      "pout_W": 0.03326832186204176,
+      "loss_W": 0.466745886171349,
+      "loss_fraction": 0.933491772342698,
+      "balance_residual_fraction": -2.8416066781500326e-05,
+      "s_power_sum": 0.06653664372408356,
+      "s_frequency_used": 9.84
+    },
+    {
+      "f_GHz": 12.0,
+      "pin_W": 0.5,
+      "pout_W": 0.019177899301335455,
+      "loss_W": 0.48082504361224715,
+      "loss_fraction": 0.9616500872244943,
+      "balance_residual_fraction": -5.885827165208468e-06,
+      "s_power_sum": 0.03835579860267093,
+      "s_frequency_used": 12.0
+    },
+    {
+      "f_GHz": 15.280000000000001,
+      "pin_W": 0.5,
+      "pout_W": 0.0026288499144911937,
+      "loss_W": 0.49737102013069145,
+      "loss_fraction": 0.9947420402613829,
+      "balance_residual_fraction": 2.5990963470334805e-07,
+      "s_power_sum": 0.005257699828982351,
+      "s_frequency_used": 15.280000000000001
+    },
+    {
+      "f_GHz": 15.5,
+      "pin_W": 0.5,
+      "pout_W": 0.004439116851206015,
+      "loss_W": 0.4955573050399802,
+      "loss_fraction": 0.9911146100799604,
+      "balance_residual_fraction": 7.156217627590777e-06,
+      "s_power_sum": 0.008878233702412116,
+      "s_frequency_used": 15.5
+    },
+    {
+      "f_GHz": 17.12,
+      "pin_W": 0.5,
+      "pout_W": 0.03354442091384924,
+      "loss_W": 0.4664372858356172,
+      "loss_fraction": 0.9328745716712344,
+      "balance_residual_fraction": 3.6586501067081834e-05,
+      "s_power_sum": 0.06708884182769856,
+      "s_frequency_used": 17.12
+    },
+    {
+      "f_GHz": 18.0,
+      "pin_W": 0.5,
+      "pout_W": 0.05915439830870217,
+      "loss_W": 0.4408637078956097,
+      "loss_fraction": 0.8817274157912194,
+      "balance_residual_fraction": -3.621240862372588e-05,
+      "s_power_sum": 0.11830879661740434,
+      "s_frequency_used": 18.0
+    }
+  ],
+  "power_mode2": [
+    {
+      "f_GHz": 2.0,
+      "pin_W": 0.5,
+      "pout_W": 0.4999992478558623,
+      "loss_W": 1.1202052912610605e-06,
+      "loss_fraction": 2.240410582522121e-06,
+      "balance_residual_fraction": -7.361223071330559e-07,
+      "s_power_sum": 0.9999984957117248,
+      "s_frequency_used": 2.0
+    },
+    {
+      "f_GHz": 4.08,
+      "pin_W": 0.5,
+      "pout_W": 0.4999829032919689,
+      "loss_W": 1.5891245159653826e-05,
+      "loss_fraction": 3.178249031930765e-05,
+      "balance_residual_fraction": 2.410925742837225e-06,
+      "s_power_sum": 0.9999658065839377,
+      "s_frequency_used": 4.08
+    },
+    {
+      "f_GHz": 5.840000000000001,
+      "pin_W": 0.5,
+      "pout_W": 0.4999438171683857,
+      "loss_W": 4.756104967191605e-05,
+      "loss_fraction": 9.51220993438321e-05,
+      "balance_residual_fraction": 1.7243563884754222e-05,
+      "s_power_sum": 0.9998876343367712,
+      "s_frequency_used": 5.84
+    },
+    {
+      "f_GHz": 6.880000000000001,
+      "pin_W": 0.5,
+      "pout_W": 0.4999293603289724,
+      "loss_W": 6.452965734783138e-05,
+      "loss_fraction": 0.00012905931469566276,
+      "balance_residual_fraction": 1.2220027359548886e-05,
+      "s_power_sum": 0.9998587206579449,
+      "s_frequency_used": 6.88
+    },
+    {
+      "f_GHz": 8.8,
+      "pin_W": 0.5,
+      "pout_W": 0.49990203248826054,
+      "loss_W": 7.952854602918382e-05,
+      "loss_fraction": 0.00015905709205836765,
+      "balance_residual_fraction": 3.6877931420553796e-05,
+      "s_power_sum": 0.9998040649765212,
+      "s_frequency_used": 8.8
+    },
+    {
+      "f_GHz": 9.84,
+      "pin_W": 0.5,
+      "pout_W": 0.4999222016487635,
+      "loss_W": 8.43831746640262e-05,
+      "loss_fraction": 0.0001687663493280524,
+      "balance_residual_fraction": -1.3169646855048118e-05,
+      "s_power_sum": 0.999844403297527,
+      "s_frequency_used": 9.84
+    },
+    {
+      "f_GHz": 12.0,
+      "pin_W": 0.5,
+      "pout_W": 0.49988558802648103,
+      "loss_W": 0.00010902222544164464,
+      "loss_fraction": 0.00021804445088328928,
+      "balance_residual_fraction": 1.0779496154647897e-05,
+      "s_power_sum": 0.9997711760529621,
+      "s_frequency_used": 12.0
+    },
+    {
+      "f_GHz": 15.280000000000001,
+      "pin_W": 0.5,
+      "pout_W": 0.4997349704043583,
+      "loss_W": 0.00026441888905757456,
+      "loss_fraction": 0.0005288377781151491,
+      "balance_residual_fraction": 1.2214131682005335e-06,
+      "s_power_sum": 0.9994699408087165,
+      "s_frequency_used": 15.280000000000001
+    },
+    {
+      "f_GHz": 15.5,
+      "pin_W": 0.5,
+      "pout_W": 0.49972202401352733,
+      "loss_W": 0.0002828746603602841,
+      "loss_fraction": 0.0005657493207205682,
+      "balance_residual_fraction": -9.797347775233824e-06,
+      "s_power_sum": 0.9994440480270547,
+      "s_frequency_used": 15.5
+    },
+    {
+      "f_GHz": 17.12,
+      "pin_W": 0.5,
+      "pout_W": 0.4995155360244224,
+      "loss_W": 0.00046392074589477947,
+      "loss_fraction": 0.0009278414917895589,
+      "balance_residual_fraction": 4.108645936565952e-05,
+      "s_power_sum": 0.9990310720488448,
+      "s_frequency_used": 17.12
+    },
+    {
+      "f_GHz": 18.0,
+      "pin_W": 0.5,
+      "pout_W": 0.4993995830102422,
+      "loss_W": 0.0005981792374357994,
+      "loss_fraction": 0.0011963584748715989,
+      "balance_residual_fraction": 4.475504644048649e-06,
+      "s_power_sum": 0.9987991660204842,
+      "s_frequency_used": 18.0
+    }
+  ],
+  "cutoffs": [
+    {
+      "abs_m": 0,
+      "abs_n": 0,
+      "cutoff_GHz": 0.0,
+      "propagating_2_18": true,
+      "alpha_at18_per_m": 0.0
+    },
+    {
+      "abs_m": 1,
+      "abs_n": 0,
+      "cutoff_GHz": 22.813692973845015,
+      "propagating_2_18": false,
+      "alpha_at18_per_m": 293.76584816313357
+    },
+    {
+      "abs_m": 0,
+      "abs_n": 1,
+      "cutoff_GHz": 22.813692973845015,
+      "propagating_2_18": false,
+      "alpha_at18_per_m": 293.76584816313357
+    },
+    {
+      "abs_m": 1,
+      "abs_n": 1,
+      "cutoff_GHz": 32.26343401142741,
+      "propagating_2_18": false,
+      "alpha_at18_per_m": 561.1736781333342
+    },
+    {
+      "abs_m": 2,
+      "abs_n": 0,
+      "cutoff_GHz": 45.62738594769003,
+      "propagating_2_18": false,
+      "alpha_at18_per_m": 878.721198102717
+    },
+    {
+      "abs_m": 2,
+      "abs_n": 1,
+      "cutoff_GHz": 51.01296830732679,
+      "propagating_2_18": false,
+      "alpha_at18_per_m": 1000.3841599494488
+    },
+    {
+      "abs_m": 2,
+      "abs_n": 2,
+      "cutoff_GHz": 64.52686802285481,
+      "propagating_2_18": false,
+      "alpha_at18_per_m": 1298.6997489511705
+    }
+  ],
+  "metadata_check": {
+    "count": 22,
+    "modes": [
+      1,
+      2
+    ],
+    "max_beta_relative_error": 2.220446049250313e-16
+  }
+}

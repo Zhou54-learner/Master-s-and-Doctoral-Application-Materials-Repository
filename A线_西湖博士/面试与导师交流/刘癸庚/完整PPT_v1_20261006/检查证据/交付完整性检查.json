@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "local_links_checked": 129,
+  "missing_links": [],
+  "speaker_notes_source_line_checks": [
+    {
+      "page": 1,
+      "logical": "S0",
+      "source_lines": [
+        11,
+        15
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 2,
+      "logical": "S1",
+      "source_lines": [
+        19,
+        27
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 3,
+      "logical": "S2",
+      "source_lines": [
+        31,
+        47
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 4,
+      "logical": "S3",
+      "source_lines": [
+        51,
+        65
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 5,
+      "logical": "S4",
+      "source_lines": [
+        69,
+        83
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 6,
+      "logical": "S5",
+      "source_lines": [
+        87,
+        105
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 7,
+      "logical": "S6",
+      "source_lines": [
+        109,
+        123
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 8,
+      "logical": "S7",
+      "source_lines": [
+        127,
+        145
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 9,
+      "logical": "S8",
+      "source_lines": [
+        149,
+        195
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 10,
+      "logical": "S9-A",
+      "source_lines": [
+        199,
+        233
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 11,
+      "logical": "S9-B",
+      "source_lines": [
+        235,
+        261
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 12,
+      "logical": "S10",
+      "source_lines": [
+        265,
+        281
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 13,
+      "logical": "S11",
+      "source_lines": [
+        285,
+        305
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 14,
+      "logical": "S12",
+      "source_lines": [
+        309,
+        319
+      ],
+      "source_substring_exact": true
+    },
+    {
+      "page": 15,
+      "logical": "S13",
+      "source_lines": [
+        323,
+        338
+      ],
+      "source_substring_exact": true
+    }
+  ],
+  "S9_A_B_reconstructs_canonical_section": true,
+  "no_compressed_archives": true,
+  "files": 103,
+  "bytes": 33240051
+}

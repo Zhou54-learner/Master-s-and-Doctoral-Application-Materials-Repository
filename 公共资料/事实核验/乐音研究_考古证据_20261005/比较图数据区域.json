@@ -1,0 +1,13 @@
+[
+  {
+    "book": "E:/2023/traindata/数据处理/内外半径关系比较/40-100cm.xlsx",
+    "member": "xl/charts/chart1.xml",
+    "titles": [],
+    "ranges": [
+      "Sheet1!$H$1",
+      "Sheet1!$H$2:$H$44",
+      "Sheet1!$I$1",
+      "Sheet1!$I$2:$I$44"
+    ]
+  }
+]

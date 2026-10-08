@@ -1,0 +1,24 @@
+[
+  {
+    "source": "公共资料/事实核验/个人探索_20261004/素材/S02_物理学习助手.png",
+    "source_sha256": "3a2015b858916b31fb329770e6d51d08df1bd6bef7250e5b4c8a46b20316df63",
+    "source_pixels": [
+      1322,
+      852
+    ],
+    "crop_box": [
+      0,
+      30,
+      1322,
+      852
+    ],
+    "output": "派生素材/S02_仅裁窗口标题栏.png",
+    "pixels": [
+      1322,
+      822
+    ],
+    "sha256": "f339b523108d149b76e4106ed6247de61b05d6c60a01014ad2ca3fceccea5c41",
+    "operation": "Lossless rectangular crop only; no resizing, redrawing, sharpening, compositing or generated UI.",
+    "reason": "Only the 30 px Windows title bar is removed; full historic application content remains."
+  }
+]

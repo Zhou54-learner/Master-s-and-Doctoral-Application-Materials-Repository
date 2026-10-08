@@ -1,0 +1,117 @@
+[
+  {
+    "path": "PowerPoint排版检查.json",
+    "bytes": 66892,
+    "sha256": "164e33dee7608f98971660fb4edb32351c4d642c900a0c2027e0ca113c61b371"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2588,
+    "sha256": "a23937cebeafdd610dd8e6e141ca135ceba4de64b1bf0911540f5a1fa846e3f3"
+  },
+  {
+    "path": "S2-S5_当前正式版本变更登记.md",
+    "bytes": 2196,
+    "sha256": "5369a682e32bf77b43c9c6b012d0703d98c94d50f833a2ae10095efc5cfefc57"
+  },
+  {
+    "path": "制作源/extract_current_s2s5.py",
+    "bytes": 9355,
+    "sha256": "1fe0d250ef71223b21d0a4dfcbb0a1454d5256bd8e48d8760665aaf758d88dc3"
+  },
+  {
+    "path": "制作源/finalize_delivery.py",
+    "bytes": 8513,
+    "sha256": "68e040a3b1b1f72982678de14c48fa34b37491102f7ae8b76d914ff77ff069ef"
+  },
+  {
+    "path": "制作源/render_check.py",
+    "bytes": 8956,
+    "sha256": "6d8b248f18a1d3954c8904a2ca98615551983f80d68b30214cb39b059e437bd1"
+  },
+  {
+    "path": "本科毕设_S2-S5_正式版_v0.1.pdf",
+    "bytes": 367268,
+    "sha256": "a66996c95ce873fae70939f5ca7f928b52a7b247217194f9b566f7b21f1128a4"
+  },
+  {
+    "path": "本科毕设_S2-S5_正式版_v0.1.pptx",
+    "bytes": 3111604,
+    "sha256": "f839352dfb0a551db14521ea7abb8f602f819c1fcf232da94f9f4239c6f44bf3"
+  },
+  {
+    "path": "来源与版本登记.json",
+    "bytes": 4220,
+    "sha256": "2e6411dc0ba051cdbf221e815b8c93925f0fb4e64684086ba55e1bc1ceacf6c6"
+  },
+  {
+    "path": "检查证据/当前FULL_DRAFT源页/S2_source_1920x1080.png",
+    "bytes": 481378,
+    "sha256": "538f9a207509bebcda8fd775b37827b31edb37a0f08078ba1a35c794ff5b3545"
+  },
+  {
+    "path": "检查证据/当前FULL_DRAFT源页/S3_source_1920x1080.png",
+    "bytes": 225469,
+    "sha256": "4b0bb5800aaeeb6979825ef6867d858fe10723912c788893d696c18e7e34d587"
+  },
+  {
+    "path": "检查证据/当前FULL_DRAFT源页/S4_source_1920x1080.png",
+    "bytes": 157485,
+    "sha256": "74106e4585d31d3a476918ab60905611d17e099666d8dc1413151cb1f50cafb7"
+  },
+  {
+    "path": "检查证据/当前FULL_DRAFT源页/S5_source_1920x1080.png",
+    "bytes": 166167,
+    "sha256": "68df476014852a49d55b9f3b9ae0f6b5394f05d0a6306b1bf789757a86b99da4"
+  },
+  {
+    "path": "正式版本验收.json",
+    "bytes": 74866,
+    "sha256": "436a540d1a41846662fc3e60aba0272d76b574b3415520a5c1b7126366e64320"
+  },
+  {
+    "path": "预览/S2_1920x1080.png",
+    "bytes": 481378,
+    "sha256": "538f9a207509bebcda8fd775b37827b31edb37a0f08078ba1a35c794ff5b3545"
+  },
+  {
+    "path": "预览/S2_3840x2160.png",
+    "bytes": 1633090,
+    "sha256": "c9b4f3b46272f08357d3e2d0dc60b91bf8ebb2e1bcecb1f3a37ebf3643fe2ca2"
+  },
+  {
+    "path": "预览/S3_1920x1080.png",
+    "bytes": 225469,
+    "sha256": "4b0bb5800aaeeb6979825ef6867d858fe10723912c788893d696c18e7e34d587"
+  },
+  {
+    "path": "预览/S3_3840x2160.png",
+    "bytes": 666713,
+    "sha256": "c2650c4bc6236600482533161c59875d48b06d7230e47fd6256bfb201e4775ab"
+  },
+  {
+    "path": "预览/S4_1920x1080.png",
+    "bytes": 157485,
+    "sha256": "74106e4585d31d3a476918ab60905611d17e099666d8dc1413151cb1f50cafb7"
+  },
+  {
+    "path": "预览/S4_3840x2160.png",
+    "bytes": 339040,
+    "sha256": "d344e0e5fa0491a9a816eded0a845cace25b15d4cd42839b4d4a2acf6f6d3e0a"
+  },
+  {
+    "path": "预览/S5_1920x1080.png",
+    "bytes": 166167,
+    "sha256": "68df476014852a49d55b9f3b9ae0f6b5394f05d0a6306b1bf789757a86b99da4"
+  },
+  {
+    "path": "预览/S5_3840x2160.png",
+    "bytes": 412689,
+    "sha256": "c8430d7f6da7c5d2fb0574ef220558bcfd561e541ecb34e4a4b7dd2f77d6803e"
+  },
+  {
+    "path": "预览/四页总览.png",
+    "bytes": 1972527,
+    "sha256": "57fdd03911c6a1cbab035504b0d18c1af2d9da03b281bfe5c856bb0de72126b4"
+  }
+]

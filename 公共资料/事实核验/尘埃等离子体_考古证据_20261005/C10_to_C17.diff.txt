@@ -1,0 +1,175 @@
+--- C10_main.txt
++++ C17_main.txt
+@@ -1,25 +1,21 @@
+-tz=15;
++tz=10;
+ dt=0.01;
+ j2=tz./dt;
+ b=0;%阻尼
+ Z=1000;%电荷
+-%shijing=1.3955.*10.^(-24)
+-%a=1.6*10^(-6)
+ a=1.8*10^(-4);%间距
+ T=300;
+ D=(T.*a.^3./Z.*4.770703125.*10.^3).^(0.5);
+ k=1./D;
+ tesx1=zeros(1,j2);
+-tesy1=zeros(1,j2);%添加记录y坐标
+-tesv1=zeros(1,j2);
+-tesx2=zeros(1,j2);
+-tesv2=zeros(1,j2);
+-tesx3=zeros(1,j2);
+-tesv3=zeros(1,j2);
+-
++tesy1=zeros(1,j2);
++% 将中心粒子的初始扰动设置为朝右偏上60°
++%theta = pi/3; % 60度
++%initial_displacement = 0.05; % 初始扰动幅度
++%x(51, 51) = x(51, 51) + initial_displacement * cos(theta);
++%y(51, 51) = y(51, 51) + initial_displacement * sin(theta);
+ tx=zeros(101,101);
+ ty=zeros(101,101);
+-
+ s=0;
+ x=zeros(101,101);
+ y=zeros(101,101);
+@@ -39,110 +35,64 @@
+ q=Z.*1.6*10^(-19)*ones(101,101);
+ vx=zeros(101,101);
+ vy=zeros(101,101);
+-% q(51,51)=11200*1.6*10^(-19);
+ m=6.13*10^(-13)*ones(101,101);
+-% m=6.13*10^(-13)*ones(101,101);
+-
+-%中心电荷和质量变化
+-q(51,51)=q(51,51).*1.8
+-m(51,51)=m(51,51).*1
+-
+ xc=x;
+ yc=y;
+-
+-
+-
+-%中心粒子随机
+-%x(25,25)=x(25,25)-0.05.*a;
+-%所有粒子迭代随机
+-%for i=2:1:100
+-%    if (mod(i,2)==0)
+-%        for j=4:2:98
+-%            sj=(rand()-0.5)./300;
+-%            x(i,j)=x(i,j)-sj.*a;
+-%            sj=(rand()-0.5)./300;
+-%            y(i,j)=y(i,j)-sj.*a;
+-
+-%        end
+-%    else
+-%        for j=3:2:99
+-%            sj=(rand()-0.5)./300;
+-%            x(i,j)=x(i,j)-sj.*a;
+-%            sj=(rand()-0.5)./300;
+-%            y(i,j)=y(i,j)-sj.*a;
+-%        end
+-%    end
+-%end
+-% 以上为初始条件
+-
+-
+-%以下为迭代运算算每一时刻的速度和位移
+-f=3.125%频率
++f=3.125;%频率
+ for t=0:dt:tz
+-    %将中心粒子的初始扰动设置为x方向
+     x(51,51)=0.05.*a.*sin(2.*3.1415926.*f.*t);
+-    
+-    %将中心粒子的初始扰动设置为朝右偏上60°
+-    %theta = pi/3; % 60度
+-    %x(51, 51) =0.05.*a.*sin(2.*3.1415926.*f.*t)* cos(theta); % 设置x方向的初始扰动
+-    %y(51, 51) =0.05.*a.*sin(2.*3.1415926.*f.*t)* sin(theta); % 设置y方向的初始扰动
+-
+-
+-    %for ii=3:2:99
+-    %    y(ii,51)=yc(ii,51)+0.05.*a.*sin(2.*3.1415926.*f.*t);
+-    %end
+     xt=x;yt=y;vxt=vx;vyt=vy;
+     for i=2:1:100
+         if (mod(i,2)==0)
+             for j=4:2:98
+-  
+                 [x(i,j),y(i,j),vx(i,j),vy(i,j)]=xlg(xt(i,j),yt(i,j),vxt(i,j),vyt(i,j),dt,xt(i,j-2),xt(i+1,j-1),xt(i-1,j-1),xt(i-1,j+1),xt(i+1,j+1),xt(i,j+2),yt(i,j-2),yt(i+1,j-1),yt(i-1,j-1),yt(i-1,j+1),yt(i+1,j+1),yt(i,j+2),q(i,j),q(i,j-2),q(i+1,j-1),q(i-1,j-1),q(i-1,j+1),q(i+1,j+1),q(i,j+2),k,m(i,j),b);
+-
+             end
+         else
+             for j=3:2:99
+- 
+                 [x(i,j),y(i,j),vx(i,j),vy(i,j)]=xlg(xt(i,j),yt(i,j),vxt(i,j),vyt(i,j),dt,xt(i,j-2),xt(i+1,j-1),xt(i-1,j-1),xt(i-1,j+1),xt(i+1,j+1),xt(i,j+2),yt(i,j-2),yt(i+1,j-1),yt(i-1,j-1),yt(i-1,j+1),yt(i+1,j+1),yt(i,j+2),q(i,j),q(i,j-2),q(i+1,j-1),q(i-1,j-1),q(i-1,j+1),q(i+1,j+1),q(i,j+2),k,m(i,j),b);
+-         
+             end
+         end
+     end
+-    s=s+1;
+-    tesx1(s)=x(54,54);tesy1(s)=y(54,54); % 添加记录 y 坐标
+-    tesvx1(1,s)=vx(54,54); tesvy1(1,s)=vx(54,54);
+-    %坐标放大
+-    xx=zeros(101,101);
+-    yx=zeros(101,101);
+-    for i=2:1:100
+-        if (mod(i,2)==0)
+-            for j=4:2:98
+-                xx(i,j)=xc(i,j)-(xc(i,j)-x(i,j)).*10;
+-                yx(i,j)=yc(i,j)-(yc(i,j)-y(i,j)).*10;
+-            end
+-        else
+-            for j=3:2:99
+-                xx(i,j)=xc(i,j)-(xc(i,j)-x(i,j)).*10;
+-                yx(i,j)=yc(i,j)-(yc(i,j)-y(i,j)).*10;
+-            end
+-        end
++    tc=5;%t的初始值
++    if t>tc
++        s=s+1;
++        tesx1(s)=x(47,47);
++        tesy1(s)=y(47,47);
++    else
++        tesx1(1)=[];
++        tesy1(1)=[];
+     end
+ end 
+ 
+-%分析偏振特性（位置-时间关系图）
+-time = 0:dt:tz;
++ %分析偏振特性
++time = tc+dt:dt:tz;
++figure;
+ subplot(2, 1, 1);
+-plot(time, tesx1)
+-hold on
+-plot(time, tesy1);
++plot(time, tesx1, time, tesy1);
+ title('Center Particle Displacement Over Time');
+ xlabel('Time (s)');
+ ylabel('Displacement (m)');
+ legend('X Displacement', 'Y Displacement');
+ 
+-% 绘制中心粒子的轨迹(李萨如图)
++% 绘制中心粒子的轨迹
+ subplot(2,1,2);
+ plot(tesx1, tesy1);
+ title('Center Particle Trajectory');
+ xlabel('X Displacement (m)');
+ ylabel('Y Displacement (m)');
+ axis equal;
++
++% 计算偏振特性
++theta = atan2(tesy1, tesx1); % 计算每个时间步长的偏振角
++polarplot(theta); % 绘制偏振图
++% 绘制李萨如图
++figure;
++plot(tesx1, tesy1);
++set(gca,'FontSize',10)
++xlabel('X Displacement');
++ylabel('Y Displacement');
++set_axis_length('x', 2*10^(-5)) 
++set_axis_length('y', 2*10^(-5)) 
++title('Lissajous Figure of Particle Motion');
++axis square
++grid on;

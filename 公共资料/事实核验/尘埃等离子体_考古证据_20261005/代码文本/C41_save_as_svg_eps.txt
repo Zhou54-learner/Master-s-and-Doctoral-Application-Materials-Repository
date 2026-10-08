@@ -1,0 +1,15 @@
+% 读取 JPG 图像
+img = imread('C:\Users\zzj\OneDrive\桌面\1725198103735.jpg');
+
+% 创建一个新的图形窗口，不显示图形窗口
+fig = figure('visible', 'off');
+imshow(img);
+
+% 保存为 SVG 格式
+saveas(fig, 'output.svg');
+
+% 保存为 EPS 格式
+print(fig, 'output.eps', '-depsc');
+
+% 关闭图形窗口
+close(fig);

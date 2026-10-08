@@ -1,0 +1,62 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 4068,
+    "sha256": "d928e152e2bfef41bfd6db74c922a202023fa39cbf37de1b4e4252eb514e7f71"
+  },
+  {
+    "path": "S11_表达_v1.pdf",
+    "bytes": 129014,
+    "sha256": "54d537c972de1ca08bd4d7252677d4a8d7f5ee985f2f5c0292c400463771e0c7"
+  },
+  {
+    "path": "S11_表达_v1.pptx",
+    "bytes": 142145,
+    "sha256": "1df3d785e6560a7b776c93d05ed9b33ee7d7d0276499b48433c4fa63da9107c5"
+  },
+  {
+    "path": "制作源/build_slide.py",
+    "bytes": 10287,
+    "sha256": "bfd1ddeb196e366696493f5a0b01aebc7ee25dc3aefd7b68d6ea6f3baaf842ce"
+  },
+  {
+    "path": "制作源/config.json",
+    "bytes": 75,
+    "sha256": "93e6bbef632f1a15ad69de3e36b4fd027638a45dd38258094be66e591abb742f"
+  },
+  {
+    "path": "排版与保全检查.json",
+    "bytes": 26927,
+    "sha256": "1d72a9e8aa6854ed331004b0a2cfc1a376c10817c41757dc12b934e716949e36"
+  },
+  {
+    "path": "本页备注.md",
+    "bytes": 1230,
+    "sha256": "309b6b814dedaa0d2caab3eeea0959d795ed2661ce02e5082623dc80b59f50b2"
+  },
+  {
+    "path": "来源与保全.json",
+    "bytes": 34203,
+    "sha256": "1928825139ada599d76c3aeba483854226a94c48b878431b842239fd505077f7"
+  },
+  {
+    "path": "派生素材/S08_第三板块主视觉局部.png",
+    "bytes": 109970,
+    "sha256": "144becf6c6850ec01e1a46b98944f1aa53480d903a84aec2c28f30f20fad510c"
+  },
+  {
+    "path": "派生素材说明.json",
+    "bytes": 854,
+    "sha256": "f92648a7ff270185daf7a4625e78e8ee92f6f7d70ebb2de291a8848ba7e7b42d"
+  },
+  {
+    "path": "预览/S11_1920x1080.png",
+    "bytes": 294542,
+    "sha256": "0da4a5180c34e7fd97b59b4b8d48fe76a30c82d80596078a776155ef0a58f045"
+  },
+  {
+    "path": "预览/S11_3840x2160.png",
+    "bytes": 992328,
+    "sha256": "25387932514ea0400abed453aa7e42c878e0497c25a73366f63f418b66ca596a"
+  }
+]

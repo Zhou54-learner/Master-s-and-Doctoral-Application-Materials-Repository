@@ -1,0 +1,37 @@
+{
+  "baseline_head": "92440f45132b645d124fb5b374731e7823c88764",
+  "current_head": "7ba1a24c2c0c740f38590fe0b59f6b24a5b67219",
+  "checked": 556,
+  "unchanged": 552,
+  "changed": [
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v2_20261006/PowerPoint实际渲染检查.md",
+      "bytes": 2784,
+      "sha256": "6b7b7b65f0ec7b306dcec53ccfb3e7cda930920343ad22efaaf35e5c62fe3951",
+      "concurrent_or_preexisting_dirty_scope": true,
+      "after_sha256": "6441757715857a6402d534ae2507cec4b1a85a389a83b052caf47ff3ffceb9e8"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v2_20261006/README.md",
+      "bytes": 6746,
+      "sha256": "1c713ffb4f72fa0f66a5dda22e1ac83f6508a86993dca5f93a610e7cbef4c1c1",
+      "concurrent_or_preexisting_dirty_scope": true,
+      "after_sha256": "6555a150fe82c653842385ce2705be5dc2020db4f94190f9d71cf5694eec74e3"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v2_20261006/制作源/validate_final.py",
+      "bytes": 6126,
+      "sha256": "41db19383ad682c0bc0c925ef9649a7f2db980615f4a8f870ad2fdb6dd8ea28e",
+      "concurrent_or_preexisting_dirty_scope": true,
+      "after_sha256": "24770369d2a4f1d1c3ae33cd61f5fe3fe3a17da04d28d9f13a4e240e17ea71f2"
+    },
+    {
+      "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v2_20261006/检查证据/最终保全与复现.json",
+      "bytes": 422499,
+      "sha256": "fc699e655975effba1302703a731dd715d8aa1d72fb79d53a45705bd84d97619",
+      "concurrent_or_preexisting_dirty_scope": true,
+      "after_sha256": "da839648775e534298a623975f8cda9983f285acb98e0433f827a440367bcc24"
+    }
+  ],
+  "note": "A change in a concurrent scope is not attributed to this task; no restoration or overwrite is performed."
+}

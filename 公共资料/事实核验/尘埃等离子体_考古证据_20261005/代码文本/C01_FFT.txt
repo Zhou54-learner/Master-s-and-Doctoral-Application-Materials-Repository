@@ -1,0 +1,29 @@
+function FFT(xmn,dt,t0,N)
+%傅里叶变换
+fs=1/dt;
+df=fs/N;
+x2mn=zeros(N,1);
+for i=1:1:N
+    x2mn(i,1)=xmn(t0/dt+i,1);
+end
+X=1/N*fft(x2mn,N);
+X2=X(1:N/2+1);
+X2(2:end-1) = 2*X2(2:end-1);
+%绘制频谱
+w=2*pi*df*(0:N/2);
+subplot(2,1,1)
+stem(w,abs(X2))
+title('spectrum','FontSize', 14, 'FontName', 'Times New Roman')
+xlabel('angular frequency($\omega $)','FontSize', 14, 'FontName', 'Times New Roman', 'Interpreter', 'latex')
+ylabel('amplitude(A)','FontSize', 14,'FontName', 'Times New Roman')
+%相位谱
+X3=X2;
+X30=max(abs(X2))/10;
+X3(abs(X3)<X30)=0;
+phase=atan2(imag(X3),real(X3))*180/pi;
+%绘制相位谱
+subplot(2,1,2)
+stem(w,phase)
+title('phase spectrum','FontSize', 14, 'FontName', 'Times New Roman')
+
+

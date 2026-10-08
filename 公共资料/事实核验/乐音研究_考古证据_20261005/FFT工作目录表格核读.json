@@ -1,0 +1,54 @@
+{
+  "path": "E:/matlab/work/main_frequencies.xlsx",
+  "cells": [
+    [
+      "A1",
+      "E:\\2023\\traindata\\R11.6mm_r8.0mm\\100cm\\R11.6mmr8mm_100cm_03_1.m4a"
+    ],
+    [
+      "B1",
+      "E:\\2023\\traindata\\R11.6mm_r8.0mm\\100cm\\R11.6mmr8mm_100cm_03_2.m4a"
+    ],
+    [
+      "C1",
+      "E:\\2023\\traindata\\R11.6mm_r8.0mm\\100cm\\R11.6mmr8mm_100cm_03_3.m4a"
+    ],
+    [
+      "D1",
+      "E:\\2023\\traindata\\R11.6mm_r8.0mm\\100cm\\R11.6mmr8mm_100cm_03_4.m4a"
+    ],
+    [
+      "E1",
+      "E:\\2023\\traindata\\R11.6mm_r8.0mm\\100cm\\R11.6mmr8mm_100cm_03_5.m4a"
+    ],
+    [
+      "F1",
+      "平均主频"
+    ],
+    [
+      "A2",
+      "1965.3033088235295"
+    ],
+    [
+      "B2",
+      "1962.7659574468084"
+    ],
+    [
+      "C2",
+      "1957.833904109589"
+    ],
+    [
+      "D2",
+      "1949.8005319148936"
+    ],
+    [
+      "E2",
+      "1960.297131147541"
+    ],
+    [
+      "F2",
+      "1959.2001666884721"
+    ]
+  ],
+  "core": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:creator>子靖 周</dc:creator><cp:lastModifiedBy>子靖 周</cp:lastModifiedBy><dcterms:created xsi:type=\"dcterms:W3CDTF\">2024-03-26T06:33:58Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2024-04-23T13:42:20Z</dcterms:modified></cp:coreProperties>"
+}

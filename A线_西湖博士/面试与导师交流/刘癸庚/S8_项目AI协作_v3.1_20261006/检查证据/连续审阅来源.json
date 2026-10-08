@@ -1,0 +1,37 @@
+[
+  {
+    "order": 1,
+    "label": "S7A · 既有 v2 A，原样引用",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S7_乐音研究_v2_20261006/预览/S7_v2_A_1920x1080.png",
+    "sha256": "45176c24539ea5fbf30354b9bdaaf5e4a1458f7c590e07fa1ac0110e9c0f3053",
+    "operation": "Read-only reuse of actual PowerPoint export."
+  },
+  {
+    "order": 2,
+    "label": "S8 v3.1 · 想法、Demo 与协作闭环",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S8_项目AI协作_v3.1_20261006/预览/S8_1920x1080.png",
+    "sha256": "fb512045c7371234c9d4e84c0bd367cd098350c19daa3c7f3383dcd87dbbc1c9",
+    "operation": "Read-only reuse of actual PowerPoint export."
+  },
+  {
+    "order": 3,
+    "label": "S9-A v3 · 长期状态 / 空间进度",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_个人AI外骨骼_v3_20261006/预览/S9-A_1920x1080.png",
+    "sha256": "0c1e5d563f052b4cbe03107d762c3a163a7e5570d9dc2afb7c61a200a4b0eccc",
+    "operation": "Read-only reuse of actual PowerPoint export."
+  },
+  {
+    "order": 4,
+    "label": "S9-B v3 · 当前执行 / 下一步行动",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S9_个人AI外骨骼_v3_20261006/预览/S9-B_1920x1080.png",
+    "sha256": "7c6a67f0510bf881054fc19ee21703476df7754534f2055fc5bb657c62fc0b9a",
+    "operation": "Read-only reuse of actual PowerPoint export."
+  },
+  {
+    "order": 5,
+    "label": "S10 · 既有 v2 A，原样引用",
+    "path": "A线_西湖博士/面试与导师交流/刘癸庚/S10_反思_v2_20261006/预览/S10_1920x1080.png",
+    "sha256": "37b324f2fbd2b86e01a70eb4b64826e4b19ba98f21eadd402ccd70ee41f59772",
+    "operation": "Read-only reuse of actual PowerPoint export."
+  }
+]

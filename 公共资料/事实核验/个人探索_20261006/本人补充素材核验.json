@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-06",
+  "files": [
+    {
+      "source": "E:\\2022\\download\\知识与未来的对话.png",
+      "copy": "公共资料/事实核验/个人探索_20261006/素材/AgentNative_文章封面原图_用户提供.png",
+      "bytes": 1680069,
+      "sha256": "a17828aa09991bb062eda68f82cd348dccdd3618f7deaaa1df9bc40d72ec076b",
+      "pixels": [
+        1916,
+        821
+      ],
+      "role": "Article cover matching the first article screenshot. Supplementary source only; not the webpage homepage and not used as a replacement screenshot.",
+      "original_unchanged": true
+    },
+    {
+      "source": "C:\\Users\\zzj\\AppData\\Local\\Temp\\codex-clipboard-f1d6b191-e28c-4e9d-a356-041d838573a7.png",
+      "copy": "公共资料/事实核验/个人探索_20261006/素材/个人艺术网页首页_用户补图_20261006.png",
+      "bytes": 1744747,
+      "sha256": "c9343585254591cd5642e225a7be8706393ad52576d5f09cab0684edc892484d",
+      "pixels": [
+        1919,
+        989
+      ],
+      "role": "User-supplied actual homepage screenshot; selected for S11 v2.",
+      "original_unchanged": true
+    }
+  ]
+}

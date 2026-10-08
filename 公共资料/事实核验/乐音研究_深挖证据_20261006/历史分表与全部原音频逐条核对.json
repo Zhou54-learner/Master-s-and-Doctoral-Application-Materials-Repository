@@ -1,0 +1,1892 @@
+[
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_01_1.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 1503.429878,
+    "new_hz": 1503.4298780487804,
+    "difference_hz": 4.878052095591556e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_01_2.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 1528.286638,
+    "new_hz": 1528.2866379310344,
+    "difference_hz": 6.896561899338849e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_01_3.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": 1504.095874,
+    "new_hz": 1504.0958737864078,
+    "difference_hz": 2.1359232960094232e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_01_4.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 1491.887019,
+    "new_hz": 1491.887019230769,
+    "difference_hz": 2.3076904653862584e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_01_5.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 1498.30163,
+    "new_hz": 1498.3016304347827,
+    "difference_hz": 4.3478280531417113e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_02_1.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 1832.974138,
+    "new_hz": 1832.9741379310342,
+    "difference_hz": 6.896584636706393e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_02_2.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 1808.728448,
+    "new_hz": 1808.7284482758619,
+    "difference_hz": 2.758617938525276e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_02_3.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 1815.958969,
+    "new_hz": 1815.9589694656488,
+    "difference_hz": 4.656487817555899e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_02_4.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 1811.079545,
+    "new_hz": 1811.0795454545455,
+    "difference_hz": 4.5454544306267053e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_02_5.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 1814.472087,
+    "new_hz": 1814.472087378641,
+    "difference_hz": 3.786408342421055e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_03_1.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 1965.303309,
+    "new_hz": 1965.3033088235297,
+    "difference_hz": 1.7647016647970304e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_03_2.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 1962.765957,
+    "new_hz": 1962.7659574468087,
+    "difference_hz": 4.4680859900836367e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_03_3.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 1957.833904,
+    "new_hz": 1957.8339041095892,
+    "difference_hz": 1.095891093427781e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_03_4.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 1949.800532,
+    "new_hz": 1949.8005319148938,
+    "difference_hz": 8.51061940920772e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/100cm/R11.6mmr8mm_100cm_03_5.m4a",
+    "table": "R11.6mm_r8.0mm/100cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 1960.297131,
+    "new_hz": 1960.2971311475412,
+    "difference_hz": 1.4754118637938518e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_01_1.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 1845.3125,
+    "new_hz": 1845.3125,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_01_2.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 1851.212687,
+    "new_hz": 1851.2126865671642,
+    "difference_hz": 4.3283580453135073e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_01_3.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": 1870.3125,
+    "new_hz": 1870.3125,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_01_4.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 1872.869318,
+    "new_hz": 1872.8693181818185,
+    "difference_hz": 1.8181845007347874e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_01_5.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 1867.987205,
+    "new_hz": 1867.9872047244096,
+    "difference_hz": 2.755903096840484e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_02_1.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 2553.240741,
+    "new_hz": 2553.240740740741,
+    "difference_hz": 2.5925919544533826e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_02_2.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 2572.395833,
+    "new_hz": 2572.3958333333335,
+    "difference_hz": 3.333334461785853e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_02_3.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 2568.452381,
+    "new_hz": 2568.452380952381,
+    "difference_hz": 4.761886884807609e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_02_4.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 2573.660714,
+    "new_hz": 2573.660714285714,
+    "difference_hz": 2.857141225831583e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_02_5.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 2551.729369,
+    "new_hz": 2551.729368932039,
+    "difference_hz": 6.796108209528029e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_03_1.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 2933.488176,
+    "new_hz": 2933.488175675676,
+    "difference_hz": 3.2432399166282266e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_03_2.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 2922.934322,
+    "new_hz": 2922.9343220338983,
+    "difference_hz": 3.3898231777129695e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_03_3.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 2933.872768,
+    "new_hz": 2933.872767857143,
+    "difference_hz": 1.4285706129157916e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_03_4.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 2964.226974,
+    "new_hz": 2964.2269736842104,
+    "difference_hz": 3.157897481287364e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/40cm/R11.6mmr8mm_40cm_03_5.m4a",
+    "table": "R11.6mm_r8.0mm/40cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 2945.202465,
+    "new_hz": 2945.202464788733,
+    "difference_hz": 2.112669790221844e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_01_1.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 1496.82971,
+    "new_hz": 1496.8297101449277,
+    "difference_hz": 1.4492775335384067e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_01_2.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 1495.871114,
+    "new_hz": 1495.8711139896375,
+    "difference_hz": 1.0362555258325301e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_01_3.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": 1486.641839,
+    "new_hz": 1486.6418393782385,
+    "difference_hz": 3.782386102102464e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_01_4.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 1505.88565,
+    "new_hz": 1505.8856502242152,
+    "difference_hz": 2.2421522771765012e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_01_5.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 1500.0,
+    "new_hz": 1500.0000000000002,
+    "difference_hz": 2.2737367544323206e-13,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_02_1.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 1755.345395,
+    "new_hz": 1755.345394736842,
+    "difference_hz": 2.6315797185816336e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_02_2.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 1735.887097,
+    "new_hz": 1735.8870967741934,
+    "difference_hz": 2.258066160720773e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_02_3.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 1756.674757,
+    "new_hz": 1756.6747572815534,
+    "difference_hz": 2.815534116962226e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_02_4.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 1738.91129,
+    "new_hz": 1738.9112903225807,
+    "difference_hz": 3.225807176931994e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_02_5.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 1758.544922,
+    "new_hz": 1758.544921875,
+    "difference_hz": 1.2500004231696948e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_03_1.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 1984.284157,
+    "new_hz": 1984.284156976744,
+    "difference_hz": 2.3256006898009218e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_03_2.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 1998.521959,
+    "new_hz": 1998.5219594594594,
+    "difference_hz": 4.5945944293634966e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_03_3.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 1994.444444,
+    "new_hz": 1994.4444444444443,
+    "difference_hz": 4.4444436753110494e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_03_4.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 1991.210938,
+    "new_hz": 1991.2109375,
+    "difference_hz": 4.999999418942025e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_03_5.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 1991.527289,
+    "new_hz": 1991.5272887323945,
+    "difference_hz": 2.6760562832350843e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_04_1.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据04.xlsx",
+    "cell": "B2",
+    "historical_hz": 2276.871019,
+    "new_hz": 2276.8710191082805,
+    "difference_hz": 1.0828034646692686e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_04_2.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据04.xlsx",
+    "cell": "B3",
+    "historical_hz": 2267.449818,
+    "new_hz": 2267.449817518248,
+    "difference_hz": 4.817520675715059e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_04_3.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据04.xlsx",
+    "cell": "B4",
+    "historical_hz": 2254.914315,
+    "new_hz": 2254.9143145161293,
+    "difference_hz": 4.838707354792859e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_04_4.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据04.xlsx",
+    "cell": "B5",
+    "historical_hz": 2250.612745,
+    "new_hz": 2250.6127450980393,
+    "difference_hz": 9.803943612496369e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_04_5.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据04.xlsx",
+    "cell": "B6",
+    "historical_hz": 2243.032095,
+    "new_hz": 2243.0320945945946,
+    "difference_hz": 4.054054443258792e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_05_1.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据05.xlsx",
+    "cell": "B2",
+    "historical_hz": 2476.40625,
+    "new_hz": 2476.40625,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_05_2.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据05.xlsx",
+    "cell": "B3",
+    "historical_hz": 2504.807692,
+    "new_hz": 2504.8076923076924,
+    "difference_hz": 3.07692516798852e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_05_3.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据05.xlsx",
+    "cell": "B4",
+    "historical_hz": 2526.417526,
+    "new_hz": 2526.417525773196,
+    "difference_hz": 2.268043317599222e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_05_4.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据05.xlsx",
+    "cell": "B5",
+    "historical_hz": 2528.293919,
+    "new_hz": 2528.293918918919,
+    "difference_hz": 8.108099791570567e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_05_5.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据05.xlsx",
+    "cell": "B6",
+    "historical_hz": 2482.244318,
+    "new_hz": 2482.2443181818185,
+    "difference_hz": 1.8181845007347874e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_06_1.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据06.xlsx",
+    "cell": "B2",
+    "historical_hz": 2718.75,
+    "new_hz": 2718.75,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_06_2.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据06.xlsx",
+    "cell": "B3",
+    "historical_hz": 2719.791667,
+    "new_hz": 2719.7916666666665,
+    "difference_hz": 3.333334461785853e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_06_3.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据06.xlsx",
+    "cell": "B4",
+    "historical_hz": 2721.634615,
+    "new_hz": 2721.6346153846152,
+    "difference_hz": 3.8461530493805185e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_06_4.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据06.xlsx",
+    "cell": "B5",
+    "historical_hz": 2695.790816,
+    "new_hz": 2695.790816326531,
+    "difference_hz": 3.265308805566747e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60cm_06_5.m4a",
+    "table": "R11.6mm_r8.0mm/60cm/数据/数据06.xlsx",
+    "cell": "B6",
+    "historical_hz": 2728.745404,
+    "new_hz": 2728.7454044117653,
+    "difference_hz": 4.117655407753773e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_1.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 1497.019509,
+    "new_hz": 1497.0195086705203,
+    "difference_hz": 3.2947968975349795e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_2.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 1489.13872,
+    "new_hz": 1489.1387195121952,
+    "difference_hz": 4.878047548118047e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_3.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": 1484.969429,
+    "new_hz": 1484.9694293478262,
+    "difference_hz": 3.478262442513369e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_4.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 1480.100236,
+    "new_hz": 1480.1002358490566,
+    "difference_hz": 1.5094337868504226e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_01_5.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 1481.990132,
+    "new_hz": 1481.9901315789477,
+    "difference_hz": 4.2105216380150523e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_1.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 1653.817365,
+    "new_hz": 1653.817365269461,
+    "difference_hz": 2.694609975151252e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_2.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 1655.591114,
+    "new_hz": 1655.5911144578315,
+    "difference_hz": 4.578314474201761e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_3.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 1663.268008,
+    "new_hz": 1663.2680084745762,
+    "difference_hz": 4.745761543745175e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_4.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 1662.120166,
+    "new_hz": 1662.1201657458564,
+    "difference_hz": 2.54143515121541e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_02_5.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 1642.83377,
+    "new_hz": 1642.833769633508,
+    "difference_hz": 3.6649203138949815e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_1.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 2028.706395,
+    "new_hz": 2028.706395348837,
+    "difference_hz": 3.488371476123575e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_2.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 2031.678082,
+    "new_hz": 2031.678082191781,
+    "difference_hz": 1.917810550366994e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_3.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 2037.215909,
+    "new_hz": 2037.2159090909092,
+    "difference_hz": 9.090922503673937e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_4.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 2040.346747,
+    "new_hz": 2040.3467465753426,
+    "difference_hz": 4.246574007993331e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_03_5.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 2043.422965,
+    "new_hz": 2043.4229651162789,
+    "difference_hz": 1.1627889762166888e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_1.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据04.xlsx",
+    "cell": "B2",
+    "historical_hz": 2229.017857,
+    "new_hz": 2229.0178571428573,
+    "difference_hz": 1.4285751603893004e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_2.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据04.xlsx",
+    "cell": "B3",
+    "historical_hz": 2229.166667,
+    "new_hz": 2229.1666666666665,
+    "difference_hz": 3.333334461785853e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_3.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据04.xlsx",
+    "cell": "B4",
+    "historical_hz": 2216.188525,
+    "new_hz": 2216.188524590164,
+    "difference_hz": 4.0983604776556604e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_4.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据04.xlsx",
+    "cell": "B5",
+    "historical_hz": 2231.481481,
+    "new_hz": 2231.4814814814818,
+    "difference_hz": 4.814819476450793e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_04_5.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据04.xlsx",
+    "cell": "B6",
+    "historical_hz": 2224.294355,
+    "new_hz": 2224.2943548387098,
+    "difference_hz": 1.6129024515976198e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_1.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据05.xlsx",
+    "cell": "B2",
+    "historical_hz": 2423.220199,
+    "new_hz": 2423.2201986754967,
+    "difference_hz": 3.2450316211907193e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_2.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据05.xlsx",
+    "cell": "B3",
+    "historical_hz": 2438.888889,
+    "new_hz": 2438.8888888888887,
+    "difference_hz": 1.111111487261951e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_3.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据05.xlsx",
+    "cell": "B4",
+    "historical_hz": 2442.884291,
+    "new_hz": 2442.8842905405404,
+    "difference_hz": 4.5945944293634966e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_4.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据05.xlsx",
+    "cell": "B5",
+    "historical_hz": 2425.0,
+    "new_hz": 2425.0,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_05_5.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据05.xlsx",
+    "cell": "B6",
+    "historical_hz": 2413.886278,
+    "new_hz": 2413.886278195489,
+    "difference_hz": 1.9548906493582763e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_1.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据06.xlsx",
+    "cell": "B2",
+    "historical_hz": 2591.082317,
+    "new_hz": 2591.0823170731705,
+    "difference_hz": 7.317066774703562e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_2.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据06.xlsx",
+    "cell": "B3",
+    "historical_hz": 2610.452586,
+    "new_hz": 2610.4525862068963,
+    "difference_hz": 2.0689640223281458e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_3.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据06.xlsx",
+    "cell": "B4",
+    "historical_hz": 2604.492188,
+    "new_hz": 2604.4921875,
+    "difference_hz": 5.000001692678779e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_4.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据06.xlsx",
+    "cell": "B5",
+    "historical_hz": 2602.306548,
+    "new_hz": 2602.306547619048,
+    "difference_hz": 3.809518602793105e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_06_5.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据06.xlsx",
+    "cell": "B6",
+    "historical_hz": 2627.734375,
+    "new_hz": 2627.734375,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_1.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据07.xlsx",
+    "cell": "B2",
+    "historical_hz": 2787.660256,
+    "new_hz": 2787.6602564102564,
+    "difference_hz": 4.1025623431778513e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_2.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据07.xlsx",
+    "cell": "B3",
+    "historical_hz": 2785.273204,
+    "new_hz": 2785.2732035928143,
+    "difference_hz": 4.071857802045997e-07,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_3.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据07.xlsx",
+    "cell": "B4",
+    "historical_hz": 2807.006836,
+    "new_hz": 2807.0068359375,
+    "difference_hz": 6.250002115848474e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_4.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据07.xlsx",
+    "cell": "B5",
+    "historical_hz": 2780.498798,
+    "new_hz": 2780.4987980769233,
+    "difference_hz": 7.692324288655072e-08,
+    "invalid": false
+  },
+  {
+    "path": "R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80cm_07_5.m4a",
+    "table": "R11.6mm_r8.0mm/80cm/数据/数据07.xlsx",
+    "cell": "B6",
+    "historical_hz": 2792.96875,
+    "new_hz": 2792.96875,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_01_1.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 1690.747691,
+    "new_hz": 1690.7476905311778,
+    "difference_hz": 4.6882223614375107e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_01_2.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 1690.838279,
+    "new_hz": 1690.838278931751,
+    "difference_hz": 6.824916454206686e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_01_3.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": 1691.27322,
+    "new_hz": 1691.2732198142417,
+    "difference_hz": 1.8575838112155907e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_01_4.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 1668.446072,
+    "new_hz": 1668.4460723192021,
+    "difference_hz": 3.192021722497884e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_01_5.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 1677.905117,
+    "new_hz": 1677.905117270789,
+    "difference_hz": 2.707890871533891e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_02_1.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 1835.544065,
+    "new_hz": 1835.5440647482017,
+    "difference_hz": 2.517983830330195e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_02_2.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 1833.567832,
+    "new_hz": 1833.5678317535546,
+    "difference_hz": 2.464453245920595e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_02_3.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 1835.289301,
+    "new_hz": 1835.2893013100436,
+    "difference_hz": 3.1004356060293503e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_02_4.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 1834.80739,
+    "new_hz": 1834.8073899371068,
+    "difference_hz": 6.289315024332609e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_02_5.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 1837.260929,
+    "new_hz": 1837.2609289617485,
+    "difference_hz": 3.8251528167165816e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_03_1.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 1998.046875,
+    "new_hz": 1998.046875,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_03_2.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 1976.365847,
+    "new_hz": 1976.3658466819222,
+    "difference_hz": 3.1807780942472164e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_03_3.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 1984.198944,
+    "new_hz": 1984.1989436619717,
+    "difference_hz": 3.3802825782913715e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_03_4.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 1980.35386,
+    "new_hz": 1980.353860294118,
+    "difference_hz": 2.941180810012156e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_03_5.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 1978.895291,
+    "new_hz": 1978.8952905811623,
+    "difference_hz": 4.188377715763636e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_04_1.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据04.xlsx",
+    "cell": "B2",
+    "historical_hz": 2149.517276,
+    "new_hz": 2149.5172764227646,
+    "difference_hz": 4.227645149512682e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_04_2.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据04.xlsx",
+    "cell": "B3",
+    "historical_hz": 2149.709302,
+    "new_hz": 2149.7093023255816,
+    "difference_hz": 3.2558136808802374e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_04_3.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据04.xlsx",
+    "cell": "B4",
+    "historical_hz": 2135.908019,
+    "new_hz": 2135.9080188679245,
+    "difference_hz": 1.3207545634941198e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_04_4.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据04.xlsx",
+    "cell": "B5",
+    "historical_hz": 2124.252204,
+    "new_hz": 2124.252204030227,
+    "difference_hz": 3.022705641342327e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/100cm/R7.5mmr5.5mm_100cm_04_5.m4a",
+    "table": "R7.5mm_r5.5mm/100cm/数据/数据04.xlsx",
+    "cell": "B6",
+    "historical_hz": 2126.205956,
+    "new_hz": 2126.205956375839,
+    "difference_hz": 3.75839135813294e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_1.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 2873.808870976829,
+    "new_hz": 2873.7980769230767,
+    "difference_hz": 0.010794053752306354,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_2.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 2967.76817773788,
+    "new_hz": 2967.768177737881,
+    "difference_hz": 1.3642420526593924e-12,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_3(无效数据).m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": null,
+    "new_hz": 83.90372531418312,
+    "difference_hz": null,
+    "invalid": true
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_4.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 2949.464285714286,
+    "new_hz": 2949.464285714286,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_01_5.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 2895.8912816044963,
+    "new_hz": 2895.880941499086,
+    "difference_hz": 0.010340105410250544,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_02_1.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 3779.7619047619046,
+    "new_hz": 3779.7619047619055,
+    "difference_hz": 9.094947017729282e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_02_2.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 3841.006437436945,
+    "new_hz": 3840.9926470588243,
+    "difference_hz": 0.013790378120575042,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_02_3.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 3830.632716049383,
+    "new_hz": 3830.6327160493825,
+    "difference_hz": 4.547473508864641e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_02_4.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 3765.3116045845272,
+    "new_hz": 3765.3116045845277,
+    "difference_hz": 4.547473508864641e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_02_5.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 3824.1176470588234,
+    "new_hz": 3824.1176470588234,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_03_1.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 4700.055803571428,
+    "new_hz": 4700.055803571429,
+    "difference_hz": 9.094947017729282e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_03_2.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 4640.318627450981,
+    "new_hz": 4640.318627450981,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_03_3.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 4631.18811881188,
+    "new_hz": 4631.188118811881,
+    "difference_hz": 1.8189894035458565e-12,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_03_4.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 4561.95853960396,
+    "new_hz": 4561.958539603961,
+    "difference_hz": 9.094947017729282e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/20cm/R7.5mmr5.5mm_20cm_03_5.m4a",
+    "table": "R7.5mm_r5.5mm/20cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 4632.408405172414,
+    "new_hz": 4632.408405172414,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_01_1.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 2664.3059490084984,
+    "new_hz": 2664.3059490084984,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_01_2.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 2683.6922268907565,
+    "new_hz": 2683.6922268907565,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_01_3.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": 2677.510997067449,
+    "new_hz": 2677.5109970674484,
+    "difference_hz": 4.547473508864641e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_01_4.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 2637.1410472972975,
+    "new_hz": 2637.1410472972975,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_01_5.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 2664.1430412371133,
+    "new_hz": 2664.1430412371133,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_02_1.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 3038.7228260869565,
+    "new_hz": 3038.722826086957,
+    "difference_hz": 4.547473508864641e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_02_2.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 3034.9045346062053,
+    "new_hz": 3034.9045346062053,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_02_3.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 3045.4881656804732,
+    "new_hz": 3045.4881656804732,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_02_4.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 3026.5625,
+    "new_hz": 3026.5625000000005,
+    "difference_hz": 4.547473508864641e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_02_5.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 3054.448119777159,
+    "new_hz": 3054.448119777159,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_03_1.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 3425.924003322259,
+    "new_hz": 3425.924003322259,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_03_2.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 3415.999659400545,
+    "new_hz": 3415.9996594005447,
+    "difference_hz": 4.547473508864641e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_03_3.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 3421.515345268542,
+    "new_hz": 3421.5153452685427,
+    "difference_hz": 4.547473508864641e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_03_4.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 3415.4166666666665,
+    "new_hz": 3415.416666666667,
+    "difference_hz": 4.547473508864641e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/40cm/R7.5mmr5.5mm_40cm_03_5.m4a",
+    "table": "R7.5mm_r5.5mm/40cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 3423.855633802817,
+    "new_hz": 3423.855633802817,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_01_1.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 1781.53238,
+    "new_hz": 1781.5323795180723,
+    "difference_hz": 4.819278274226235e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_01_2.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 1785.851227,
+    "new_hz": 1785.851226993865,
+    "difference_hz": 6.1349965108092874e-09,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_01_3.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": 1771.375,
+    "new_hz": 1771.375,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_01_4.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 1768.80787,
+    "new_hz": 1768.8078703703704,
+    "difference_hz": 3.7037034417153336e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_01_5.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 1758.309249,
+    "new_hz": 1758.3092485549134,
+    "difference_hz": 4.4508647079055663e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_02_1.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 2035.2272727272727,
+    "new_hz": 2035.227272727273,
+    "difference_hz": 2.2737367544323206e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_02_2.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 2057.7612704918033,
+    "new_hz": 2057.7612704918033,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_02_3.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 2036.7943548387098,
+    "new_hz": 2036.7943548387095,
+    "difference_hz": 2.2737367544323206e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_02_4.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 2030.654428251121,
+    "new_hz": 2030.654428251121,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_02_5.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 2046.3362068965516,
+    "new_hz": 2046.3362068965519,
+    "difference_hz": 2.2737367544323206e-13,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_03_1.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 2295.09375,
+    "new_hz": 2295.09375,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_03_2.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 2303.993867,
+    "new_hz": 2303.99386682243,
+    "difference_hz": 1.775702003214974e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_03_3.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 2280.946602,
+    "new_hz": 2280.9466019417478,
+    "difference_hz": 5.825222615385428e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_03_4.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 2304.295367,
+    "new_hz": 2304.2953667953666,
+    "difference_hz": 2.0463357941480353e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_03_5.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 2281.01145,
+    "new_hz": 2281.0114503816794,
+    "difference_hz": 3.8167945604072884e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_04_1.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据04.xlsx",
+    "cell": "B2",
+    "historical_hz": 2551.419323,
+    "new_hz": 2551.419322709163,
+    "difference_hz": 2.9083685149089433e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_04_2.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据04.xlsx",
+    "cell": "B3",
+    "historical_hz": 2537.208686,
+    "new_hz": 2537.2086864406783,
+    "difference_hz": 4.406783773447387e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_04_3.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据04.xlsx",
+    "cell": "B4",
+    "historical_hz": 2541.046348,
+    "new_hz": 2541.046348314607,
+    "difference_hz": 3.146069502690807e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_04_4.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据04.xlsx",
+    "cell": "B5",
+    "historical_hz": 2554.323187,
+    "new_hz": 2554.323186528498,
+    "difference_hz": 4.71502062282525e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_04_5.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据04.xlsx",
+    "cell": "B6",
+    "historical_hz": 2558.35177,
+    "new_hz": 2558.351769911505,
+    "difference_hz": 8.849519872455858e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_05_1.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据05.xlsx",
+    "cell": "B2",
+    "historical_hz": 2863.067209,
+    "new_hz": 2863.06720890411,
+    "difference_hz": 9.588984539732337e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_05_2.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据05.xlsx",
+    "cell": "B3",
+    "historical_hz": 2829.450335,
+    "new_hz": 2829.450334821429,
+    "difference_hz": 1.785710992407985e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_05_3.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据05.xlsx",
+    "cell": "B4",
+    "historical_hz": 2808.791209,
+    "new_hz": 2808.7912087912086,
+    "difference_hz": 2.0879133444395848e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_05_4.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据05.xlsx",
+    "cell": "B5",
+    "historical_hz": 2836.142493,
+    "new_hz": 2836.1424927113703,
+    "difference_hz": 2.8862950784969144e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_05_5.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据05.xlsx",
+    "cell": "B6",
+    "historical_hz": 2839.990602,
+    "new_hz": 2839.9906015037595,
+    "difference_hz": 4.962403181707487e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_06_1.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据06.xlsx",
+    "cell": "B2",
+    "historical_hz": 3089.652535,
+    "new_hz": 3089.652534965035,
+    "difference_hz": 3.496506906230934e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_06_2.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据06.xlsx",
+    "cell": "B3",
+    "historical_hz": 3093.0,
+    "new_hz": 3093.0,
+    "difference_hz": 0.0,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_06_3.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据06.xlsx",
+    "cell": "B4",
+    "historical_hz": 3108.478803,
+    "new_hz": 3108.478802992519,
+    "difference_hz": 7.481048669433221e-09,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_06_4.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据06.xlsx",
+    "cell": "B5",
+    "historical_hz": 3082.53306,
+    "new_hz": 3082.5330604534006,
+    "difference_hz": 4.534003892331384e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_06_5.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据06.xlsx",
+    "cell": "B6",
+    "historical_hz": 3091.241639,
+    "new_hz": 3091.2416387959865,
+    "difference_hz": 2.040133040281944e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_07_1.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据07.xlsx",
+    "cell": "B2",
+    "historical_hz": 3355.698529,
+    "new_hz": 3355.698529411765,
+    "difference_hz": 4.117650860280264e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_07_2.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据07.xlsx",
+    "cell": "B3",
+    "historical_hz": 3345.840301,
+    "new_hz": 3345.840301003345,
+    "difference_hz": 3.3446667657699436e-09,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_07_3.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据07.xlsx",
+    "cell": "B4",
+    "historical_hz": 3333.129448,
+    "new_hz": 3333.1294483985766,
+    "difference_hz": 3.985765033576172e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_07_4.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据07.xlsx",
+    "cell": "B5",
+    "historical_hz": 3329.613095,
+    "new_hz": 3329.6130952380954,
+    "difference_hz": 2.3809525373508222e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/60cm/R7.5mmr5.5mm_60cm_07_5.m4a",
+    "table": "R7.5mm_r5.5mm/60cm/数据/数据07.xlsx",
+    "cell": "B6",
+    "historical_hz": 3351.153706,
+    "new_hz": 3351.1537063953488,
+    "difference_hz": 3.9534870666102506e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_01_1.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据01.xlsx",
+    "cell": "B2",
+    "historical_hz": 1926.309122,
+    "new_hz": 1926.3091216216217,
+    "difference_hz": 3.7837821764696855e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_01_2.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据01.xlsx",
+    "cell": "B3",
+    "historical_hz": 1925.506162,
+    "new_hz": 1925.506161971831,
+    "difference_hz": 2.8168869903311133e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_01_3.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据01.xlsx",
+    "cell": "B4",
+    "historical_hz": 1914.234581,
+    "new_hz": 1914.2345814977975,
+    "difference_hz": 4.977976004738593e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_01_4.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据01.xlsx",
+    "cell": "B5",
+    "historical_hz": 1927.539653,
+    "new_hz": 1927.5396525679757,
+    "difference_hz": 4.3202430788369384e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_01_5.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据01.xlsx",
+    "cell": "B6",
+    "historical_hz": 1925.422297,
+    "new_hz": 1925.4222972972975,
+    "difference_hz": 2.9729744710493833e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_02_1.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据02.xlsx",
+    "cell": "B2",
+    "historical_hz": 2124.385534,
+    "new_hz": 2124.3855337078653,
+    "difference_hz": 2.921347004303243e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_02_2.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据02.xlsx",
+    "cell": "B3",
+    "historical_hz": 2119.867369,
+    "new_hz": 2119.8673691860463,
+    "difference_hz": 1.860462361946702e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_02_3.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据02.xlsx",
+    "cell": "B4",
+    "historical_hz": 2098.989521,
+    "new_hz": 2098.989520958084,
+    "difference_hz": 4.1915882320608944e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_02_4.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据02.xlsx",
+    "cell": "B5",
+    "historical_hz": 2123.331311,
+    "new_hz": 2123.3313106796118,
+    "difference_hz": 3.203881533409003e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_02_5.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据02.xlsx",
+    "cell": "B6",
+    "historical_hz": 2122.706422,
+    "new_hz": 2122.706422018349,
+    "difference_hz": 1.834860086091794e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_03_1.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据03.xlsx",
+    "cell": "B2",
+    "historical_hz": 2303.936298,
+    "new_hz": 2303.936298076923,
+    "difference_hz": 7.692278813919984e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_03_2.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据03.xlsx",
+    "cell": "B3",
+    "historical_hz": 2302.881267,
+    "new_hz": 2302.8812674094706,
+    "difference_hz": 4.094704308954533e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_03_3.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据03.xlsx",
+    "cell": "B4",
+    "historical_hz": 2311.444257,
+    "new_hz": 2311.4442567567567,
+    "difference_hz": 2.432434484944679e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_03_4.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据03.xlsx",
+    "cell": "B5",
+    "historical_hz": 2298.012129,
+    "new_hz": 2298.012129380054,
+    "difference_hz": 3.8005373426130973e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_03_5.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据03.xlsx",
+    "cell": "B6",
+    "historical_hz": 2298.588446,
+    "new_hz": 2298.588446475196,
+    "difference_hz": 4.7519597501377575e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_04_1.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据04.xlsx",
+    "cell": "B2",
+    "historical_hz": 2501.21822,
+    "new_hz": 2501.2182203389834,
+    "difference_hz": 3.389832272659987e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_04_2.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据04.xlsx",
+    "cell": "B3",
+    "historical_hz": 2505.396263,
+    "new_hz": 2505.396262886598,
+    "difference_hz": 1.134021658799611e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_04_3.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据04.xlsx",
+    "cell": "B4",
+    "historical_hz": 2480.691964,
+    "new_hz": 2480.6919642857147,
+    "difference_hz": 2.857145773305092e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_04_4.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据04.xlsx",
+    "cell": "B5",
+    "historical_hz": 2507.747934,
+    "new_hz": 2507.7479338842977,
+    "difference_hz": 1.1570227798074484e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_04_5.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据04.xlsx",
+    "cell": "B6",
+    "historical_hz": 2493.61949,
+    "new_hz": 2493.619489559165,
+    "difference_hz": 4.408352651807945e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_05_1.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据05.xlsx",
+    "cell": "B2",
+    "historical_hz": 2874.532186,
+    "new_hz": 2874.5321856287424,
+    "difference_hz": 3.7125755625311285e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_05_2.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据05.xlsx",
+    "cell": "B3",
+    "historical_hz": 2885.43159,
+    "new_hz": 2885.4315902578796,
+    "difference_hz": 2.5787949198274873e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_05_3.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据05.xlsx",
+    "cell": "B4",
+    "historical_hz": 2888.268849,
+    "new_hz": 2888.2688492063494,
+    "difference_hz": 2.0634934116969816e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_05_4.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据05.xlsx",
+    "cell": "B5",
+    "historical_hz": 2896.69169,
+    "new_hz": 2896.691689944134,
+    "difference_hz": 5.5866166803753003e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_05_5.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据05.xlsx",
+    "cell": "B6",
+    "historical_hz": 2894.101767,
+    "new_hz": 2894.101767015707,
+    "difference_hz": 1.570697349961847e-08,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_06_1.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据06.xlsx",
+    "cell": "B2",
+    "historical_hz": 3280.612245,
+    "new_hz": 3280.6122448979595,
+    "difference_hz": 1.020403033180628e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_06_2.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据06.xlsx",
+    "cell": "B3",
+    "historical_hz": 3272.424769,
+    "new_hz": 3272.4247685185187,
+    "difference_hz": 4.814814928977285e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_06_3.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据06.xlsx",
+    "cell": "B4",
+    "historical_hz": 3283.282153,
+    "new_hz": 3283.2821531791906,
+    "difference_hz": 1.7919046513270587e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_06_4.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据06.xlsx",
+    "cell": "B5",
+    "historical_hz": 3281.808036,
+    "new_hz": 3281.8080357142862,
+    "difference_hz": 2.8571366783580743e-07,
+    "invalid": false
+  },
+  {
+    "path": "R7.5mm_r5.5mm/80cm/R7.5mmr5.5mm_80cm_06_5.m4a",
+    "table": "R7.5mm_r5.5mm/80cm/数据/数据06.xlsx",
+    "cell": "B6",
+    "historical_hz": 3287.298387,
+    "new_hz": 3287.298387096774,
+    "difference_hz": 9.677432899479754e-08,
+    "invalid": false
+  }
+]

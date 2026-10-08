@@ -1,0 +1,29 @@
+[
+  {
+    "source": "E:/2023/traindata/R11.6mm_r8.0mm/data3.xlsx",
+    "sheet": "Sheet1",
+    "chart_index": 1,
+    "excel_version": "16.0",
+    "output": "历史资产核查/Excel原图_01.png",
+    "success": true,
+    "series_count": 4
+  },
+  {
+    "source": "E:/2023/traindata/R7.5mm_r5.5mm/data.xlsx",
+    "sheet": "Sheet1",
+    "chart_index": 1,
+    "excel_version": "16.0",
+    "output": "历史资产核查/Excel原图_02.png",
+    "success": true,
+    "series_count": 5
+  },
+  {
+    "source": "E:/2023/traindata/数据处理/内外半径关系比较/40-100cm.xlsx",
+    "sheet": "Sheet1",
+    "chart_index": 1,
+    "excel_version": "16.0",
+    "output": "历史资产核查/Excel原图_03.png",
+    "success": true,
+    "series_count": 2
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "path": "F:/1A硕博申请/公共资料/事实核验/乐音研究_音调台阶与几何影响深挖_20261006.md",
+    "bytes": 27947,
+    "sha256": "81be42687f04b268f400779515362889aa3f4a040a715985b54afd3c8b0db6de"
+  },
+  {
+    "path": "F:/1A硕博申请/公共资料/事实核验/乐音研究_历史内容与独立贡献考古_20261005.md",
+    "bytes": 38639,
+    "sha256": "2f3ea5d847ad8adc043f12db43b5ffa43005233de3627acae40f24b816bec0e8"
+  },
+  {
+    "path": "F:/1A硕博申请/公共资料/事实核验/乐音研究_实验现场补充确认_20261005.md",
+    "bytes": 1932,
+    "sha256": "b31618ac9146e93a19761f9c26ccb689ddb45431c067600a0da9cd353b2a0e48"
+  },
+  {
+    "path": "F:/1A硕博申请/公共资料/事实核验/乐音研究_深挖证据_20261006/README.md",
+    "bytes": 5850,
+    "sha256": "aed975407e95d35f6b4fcc8396c6d4f1d092cc4df8c584dc64a4dbe2021e64e9"
+  },
+  {
+    "path": "F:/1A硕博申请/公共资料/事实核验/乐音研究_深挖证据_20261006/历史表对应42组统计.csv",
+    "bytes": 3140,
+    "sha256": "29c31ad8e28214b840798a5c3569141c64f334ee2760aeeff3d3ff41ec9c05d3"
+  },
+  {
+    "path": "F:/1A硕博申请/公共资料/事实核验/乐音研究_深挖证据_20261006/各管几何与直接间距.json",
+    "bytes": 3335,
+    "sha256": "228f312f71097449c30693f2490d2d6b401ffe2e5d9238714bcef4b386b162e2"
+  },
+  {
+    "path": "F:/1A硕博申请/公共资料/事实核验/乐音研究_深挖证据_20261006/scale七段共享波形证据链.json",
+    "bytes": 3268,
+    "sha256": "0531e13d5d19531322abca197cedec0ad2fe6c4cf8491db011c5bd4c99170a29"
+  },
+  {
+    "path": "F:/1A硕博申请/公共资料/事实核验/乐音研究_考古证据_20261005/COMSOL静态模型摘要.json",
+    "bytes": 384230,
+    "sha256": "2a943ff003afba8485b1f4eec5898eea0c936f11d9264e59c3a4fdf4190541c8"
+  },
+  {
+    "path": "E:/2023/traindata/数据处理/长度关系比较/数据图表1.jpg",
+    "bytes": 267280,
+    "sha256": "63f3e67fffdfe33f7bf07be6c552155aaf774a7839d4ee99a7d64b2dfabdd2df"
+  },
+  {
+    "path": "E:/2023/traindata/数据处理/长度关系比较/数据图表3.jpg",
+    "bytes": 266686,
+    "sha256": "99f50883f7692b8fa10f910c30972917bf9e7f793f8a8f39ebf7c753e59171b0"
+  },
+  {
+    "path": "E:/2023/traindata/数据处理/内外半径关系比较/比较1.jpg",
+    "bytes": 374274,
+    "sha256": "e962b059641086bbd8ff018f79b8a07a3f842b149416e109ef83611ce62f8627"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/60cm/R11.6mmr8mm_60mm_scale.fig",
+    "bytes": 58998,
+    "sha256": "1a995defdd75b99ae9ef118f31bfee34206b40480aed2893c8b6f35d87851581"
+  },
+  {
+    "path": "E:/2023/traindata/R11.6mm_r8.0mm/80cm/R11.6mmr8mm_80mm_scale.fig",
+    "bytes": 60844,
+    "sha256": "1a6b03ad2c5d8e4bf4dee7de4b5b0cbb22c6e98c056de7196b321a344a53fd0f"
+  },
+  {
+    "path": "E:/COMSOL 6.2/test/parameters.txt",
+    "bytes": 175,
+    "sha256": "eb3a8f020fd292ba30e6822c8ebb72a79c417f4a21ca10b11cdf79ef0082e048"
+  },
+  {
+    "path": "F:/1A硕博申请/A线_西湖博士/面试与导师交流/刘癸庚/S6_尘埃等离子体_v1_20261005/预览/S6_1920x1080.png",
+    "bytes": 120416,
+    "sha256": "70eb5cc4ccdb611b6c2f86543c8336e2c0b3ada465f008a922afd87b33eafb92"
+  },
+  {
+    "path": "F:/1A硕博申请/A线_西湖博士/面试与导师交流/刘癸庚/S8_项目级AI协作_v1_20261005/预览/S8_1920x1080.png",
+    "bytes": 325508,
+    "sha256": "1094efe17639c197e8bae948ca43d1a2f17c9b16d3bc9e1c35cb31a958ced811"
+  }
+]
