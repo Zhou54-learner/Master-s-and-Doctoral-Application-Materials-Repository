@@ -1,0 +1,857 @@
+
+=== F:\biyesheji\code\ohmic_sheet_6x6_ga_stable_code.py ===
+SHA256: 4a479ac5dacca039ebda686e0469ad796f09e07e52c4f54fe1ad345224240e33
+显示时去除行尾空白；行号对应未改动原件。
+
+
+70: # 该厚度用于把片阻 Rs 换算为体电导率 sigma，并辅助 CST 建立可刻蚀薄层；
+71: # 它不代表实际电阻膜的真实物理厚度。
+72: FILM_DRAW_THICKNESS = 0.02   # mm
+73:
+74: # =========================
+75: # 30 bit 编码规则：
+76: # 前 6 bit -> p，接着 6 bit -> h，
+77: # 后两组 9 bit -> X/Y 膜面的 3x3 seed，
+78: # seed 再中心对称扩展为 6x6 mask。
+79: # =========================
+80: link = "\n"
+81: dna_size = 30
+82:
+83: # 这一版默认用于“表面 Ohmic Sheet 建模方式下的 6x6 稳定优化”。
+84: # 之前 pop_size=8, iterations=5 容易在某些随机坏个体上让 CST 频域迭代求解器长时间收敛。
+85: # 因此本稳定版先采用较小规模搜索；确认稳定后可逐步提高到 pop_size=6~8, iterations=4~6。
+86: pop_size = 10
+87: iterations = 8
+88: p_m_start = 0.06
+
+903: def decode(individual):
+904:     bits = "".join(str(i) for i in individual)
+905:
+906:     p_raw  = int(bits[0:6], 2)
+907:     h_raw  = int(bits[6:12], 2)
+908:     mask_x_seed = [int(b) for b in bits[12:21]]
+909:     mask_y_seed = [int(b) for b in bits[21:30]]
+910:
+911:
+912:     p = 13.10 + p_raw / 63.0 * 0.30
+913:     h = 8.70 + h_raw / 63.0 * 0.30
+914:
+915:     return (
+916:         round(p, 4),
+917:         round(h, 4),
+918:         mask_x_seed,
+919:         mask_y_seed,
+920:     )
+921:
+922: #--------------------------------------------------------------------------------------------------------------------------
+923: def expand_seed_to_6x6(seed):
+924:     # seed 是长度为 9 的列表，按 3x3 排列
+925:     r1 = seed[0:3]
+926:     r2 = seed[3:6]
+927:     r3 = seed[6:9]
+928:
+929:     row1 = r1 + r1[::-1]
+930:     row2 = r2 + r2[::-1]
+931:     row3 = r3 + r3[::-1]
+932:
+933:     return [
+934:         row1,
+935:         row2,
+936:         row3,
+937:         row3,
+938:         row2,
+939:         row1,
+940:     ]
+941:
+942:
+943: def bitstring(individual):
+944:     return "".join(str(int(x)) for x in individual)
+945:
+
+1333: def extract_metrics(cst_file):
+1334:     result = cst.results.ProjectFile(cst_file, allow_interactive=True)
+1335:     s11 = result.get_3d().get_result_item(r"1D Results\S-Parameters\SZmax(1),Zmax(1)")
+1336:     data = s11.get_data()
+1337:
+1338:     point_num = 0
+1339:     band_num = 0
+1340:     min_rl = 1e9
+1341:     below10_depth = 0.0
+1342:
+1343:     for row in data:
+1344:         if len(row) < 2:
+1345:             continue
+1346:
+1347:         mag = max(abs(row[1]), 1e-12)
+1348:         rl = 20 * np.log10(mag)
+1349:
+1350:         point_num += 1
+1351:         min_rl = min(min_rl, rl)
+1352:
+1353:         if rl < -10:
+1354:             band_num += 1
+1355:             below10_depth += (-10.0 - rl)
+1356:
+1357:     if point_num == 0:
+1358:         return {"score": 0.0, "bandwidth": 0.0, "min_rl": 0.0}
+1359:
+1360:     bandwidth = band_num / point_num * 16.0
+1361:     depth_bonus = below10_depth / point_num
+1362:
+1363:     if bandwidth > 0:
+1364:         score = bandwidth + 0.12 * depth_bonus
+1365:     else:
+1366:         score = max(0.0, (-min_rl - 3.0) * 0.02)
+1367:
+1368:     return {
+1369:         "score": float(score),
+1370:         "bandwidth": float(bandwidth),
+1371:         "min_rl": float(min_rl)
+1372:     }
+1373: #--------------------------------------------------------------------------------------------------------------------------
+1374: def export_s11_plot(cst_file, out_png):
+1375:     result = cst.results.ProjectFile(cst_file, allow_interactive=True)
+1376:     s11 = result.get_3d().get_result_item(r"1D Results\S-Parameters\SZmax(1),Zmax(1)")
+1377:     data = s11.get_data()
+1378:
+1379:     freq_list = [ ]
+1380:     rl_list = [ ]
+1381:     for row in data:
+1382:         if len(row) < 2:
+1383:             continue
+1384:
+1385:         freq = row[0]
+1386:         mag = max(abs(row[1]), 1e-12)
+1387:         rl = 20 * np.log10(mag)
+1388:
+1389:         freq_list.append(freq)
+1390:         rl_list.append(rl)
+1391:     plt.figure(figsize=(8, 5))
+1392:     plt.plot(freq_list, rl_list)
+1393:     plt.axhline(-10, linestyle="--")
+1394:     plt.xlabel("Frequency (GHz)")
+1395:     plt.ylabel("S11 / RL (dB)")
+1396:     plt.title("Best S11 Curve")
+1397:     plt.grid(True)
+1398:     plt.tight_layout()
+1399:     plt.savefig(out_png, dpi=300)
+1400:     plt.close()
+1401:
+1402:
+1403: def export_s11_curve(cst_file, out_file):
+1404:     result = cst.results.ProjectFile(cst_file, allow_interactive=True)
+1405:     s11 = result.get_3d().get_result_item(r"1D Results\S-Parameters\SZmax(1),Zmax(1)")
+1406:     data = s11.get_data()
+1407:
+1408:     with open(out_file, "w", encoding="utf-8") as f:
+1409:         f.write("freq_GHz\ts11_mag\trl_dB\n")
+1410:         for row in data:
+
+
+=== F:\biyesheji\code\ohmic_sheet_9x9_fixed_ph_ga_code.py ===
+SHA256: 6b39e310b3a048615df4d7ad14deba1916afc9fdb494fffda438d66bf992cc51
+显示时去除行尾空白；行号对应未改动原件。
+
+
+80: # 默认先固定 p、h，只优化 X/Y 两个表面的 9x9 图案：
+81: #   X 膜 5x5 seed -> 镜像扩展为 9x9 mask
+82: #   Y 膜 5x5 seed -> 镜像扩展为 9x9 mask
+83: # 因此默认 DNA 长度为 25 + 25 = 50 bit。
+84: # 如果后续想联合优化 p、h，把 OPTIMIZE_P_H 改为 True，此时 DNA 长度自动变为 62 bit：
+85: #   前 6 bit -> p，接着 6 bit -> h，后面 25+25 bit -> X/Y seed。
+86: OPTIMIZE_P_H = False
+87: TOPOLOGY_N = 9
+88: SEED_N = 5
+89: SEED_BITS_PER_LAYER = SEED_N * SEED_N
+90: GEOMETRY_BITS = 12 if OPTIMIZE_P_H else 0
+91: dna_size = GEOMETRY_BITS + 2 * SEED_BITS_PER_LAYER
+92:
+93: # 采用上一阶段 Ohmic Sheet 6x6 重新优化得到的最佳尺寸作为 9x9 的初始固定尺寸。
+94: # 你上一轮 8代x10个体得到：p=13.1286 mm, h=8.8667 mm。
+95: FIXED_P = 13.1286
+96: FIXED_H = 8.8667
+97:
+98: # 9x9 初始图案由上一阶段 9x9 最优拓扑近似升采样得到。
+99: # X 膜：保留中部横向通道，但在中心附近留出缺口，给 9x9 更多局部调整自由度。
+100: # Y 膜：保留“外框 + 中央窗口/局部缺口”的主要拓扑特征。
+
+923: def decode(individual):
+924:     """解码个体。
+925:
+926:     默认 OPTIMIZE_P_H=False：
+927:         individual = X_seed(25 bit) + Y_seed(25 bit)，p/h 使用 FIXED_P/FIXED_H。
+928:     若 OPTIMIZE_P_H=True：
+929:         individual = p(6 bit) + h(6 bit) + X_seed(25 bit) + Y_seed(25 bit)。
+930:     """
+931:     bits = "".join(str(i) for i in individual)
+932:     if len(bits) != dna_size:
+933:         raise ValueError(f"Invalid DNA length: got {len(bits)}, expected {dna_size}")
+934:
+935:     if OPTIMIZE_P_H:
+936:         p_raw = int(bits[0:6], 2)
+937:         h_raw = int(bits[6:12], 2)
+938:         offset = 12
+939:         p = 13.10 + p_raw / 63.0 * 0.30
+940:         h = 8.70 + h_raw / 63.0 * 0.30
+941:     else:
+942:         offset = 0
+943:         p = FIXED_P
+944:         h = FIXED_H
+945:
+946:     sx0 = offset
+947:     sx1 = sx0 + SEED_BITS_PER_LAYER
+948:     sy0 = sx1
+949:     sy1 = sy0 + SEED_BITS_PER_LAYER
+950:     mask_x_seed = [int(b) for b in bits[sx0:sx1]]
+951:     mask_y_seed = [int(b) for b in bits[sy0:sy1]]
+952:
+953:     return (round(p, 4), round(h, 4), mask_x_seed, mask_y_seed)
+954:
+955:
+956: def expand_seed_to_9x9(seed):
+957:     """5x5 seed 通过镜像扩展为 9x9 mask。
+958:
+959:     规则：每行先由 5 个元素扩展为 9 个元素：row + row[-2::-1]；
+960:     再由上方 5 行扩展为 9 行：rows + rows[-2::-1]。
+961:     """
+962:     if len(seed) != SEED_BITS_PER_LAYER:
+963:         raise ValueError(f"9x9 topology requires 5x5 seed, got length {len(seed)}")
+964:
+965:     seed5 = [seed[i * SEED_N:(i + 1) * SEED_N] for i in range(SEED_N)]
+966:     rows9_top = [row + row[-2::-1] for row in seed5]
+967:     mask9 = rows9_top + rows9_top[-2::-1]
+968:     return mask9
+969:
+970:
+
+
+=== F:\biyesheji\code\ohmic_sheet_12x12_multitemplate_topology_ga_code.py ===
+SHA256: 844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72
+显示时去除行尾空白；行号对应未改动原件。
+
+
+4285: SKIPPED_INDIVIDUAL_FILE = os.path.join(SAVE_PATH, "skipped_individuals_ohmic_sheet_12x12.txt")
+4286:
+4287: os.makedirs(SAVE_PATH, exist_ok=True)
+4288: os.makedirs(TEMP_DIR, exist_ok=True)
+4289:
+4290: RUN_MODE = "optimize"
+4291: OPTIMIZATION_FILM_MODEL = "ohmic_sheet"
+4292: TOPOLOGY_N = 12
+4293:
+4294: # Targets
+4295: TARGET_TOTAL_BAND = 16.0
+4296: REFERENCE_9X9_BW = 12.338308457711443
+4297: REFERENCE_12X12_BW = 13.120000000000001
+4298: TARGET_85_BW = 13.6
+4299:
+4300: # Local ranges around the current 82% result, with some exploration room.
+4301: P_MIN = 12.85
+4302: P_MAX = 13.55
+4303: H_MIN = 9.65
+4304: H_MAX = 10.45
+4305:
+4306: RS_X_MIN = 80.0
+4307: RS_X_MAX = 240.0
+4308: RS_Y_MIN = 20.0
+4309: RS_Y_MAX = 80.0
+4310:
+4311: # Current best 12x12 HF-compensated result.
+4312: BASE_P_12 = 13.1437
+4313: BASE_H_12 = 10.0791
+4314: BASE_RSX_12 = 142.198
+4315: BASE_RSY_12 = 38.599
+4316:
+4317: # GA size. This is larger than the previous HF compensation version, but still moderate.
+4318: # If CST is stable, you can later try pop_size=20, iterations=10.
+4319: pop_size = 16
+4320: iterations = 8
+4321: p_m_start = 0.23
+4322:
+4323: # Topology constraints
+4324: MIN_X_KEPT = 22
+4325: MAX_X_KEPT = 72
+4326: MAX_X_COMPONENTS = 6
+4327: MAX_X_ISOLATED = 4
+4328:
+4329: MIN_Y_KEPT = 64
+4330: MAX_Y_KEPT = 105
+4331: MAX_Y_COMPONENTS = 4
+4332: MAX_Y_ISOLATED = 4
+4333:
+4334: RANDOM_INDIVIDUAL_MAX_TRIALS = 1000
+4335:
+
+4480: def repair_x_mask(mask_x):
+4481:     mx = ensure_array_mask(mask_x).copy()
+4482:     mx = remove_isolated_pixels(mx)
+4483:
+4484:     # Keep at least part of the validated 82% X family.
+4485:     base_core = BEST82_X_MASK_12 == 1
+4486:     if int(np.sum(mx & base_core)) < 18:
+4487:         mx[base_core] = BEST82_X_MASK_12[base_core]
+4488:
+4489:     # Avoid over-dense X that kills high-frequency edge.
+4490:     if int(np.sum(mx)) > MAX_X_KEPT:
+4491:         added = np.argwhere((mx == 1) & (BEST82_X_MASK_12 == 0))
+4492:         np.random.shuffle(added)
+4493:         for i, j in added:
+4494:             if int(np.sum(mx)) <= MAX_X_KEPT:
+4495:                 break
+4496:             mx[i, j] = 0
+4497:
+4498:     return mx.astype(int)
+4499:
+4500:
+4501: def repair_y_mask(mask_y):
+4502:     my = ensure_array_mask(mask_y).copy()
+4503:
+4504:     # Hard skeleton always retained.
+4505:     my[Y_HARD_KEEP] = 1
+4506:
+4507:     # Remove isolated noise in soft regions.
+4508:     my = remove_isolated_pixels(my)
+4509:     my[Y_HARD_KEEP] = 1
+4510:
+4511:     # Avoid too dense Y: preferentially restore some white windows from the 82% seed.
+4512:     if int(np.sum(my)) > MAX_Y_KEPT:
+4513:         candidates = np.argwhere((my == 1) & (BEST82_Y_MASK_12 == 0) & (~Y_HARD_KEEP))
+4514:         np.random.shuffle(candidates)
+4515:         for i, j in candidates:
+4516:             if int(np.sum(my)) <= MAX_Y_KEPT:
+4517:                 break
+4518:             my[i, j] = 0
+4519:
+4520:     # Avoid too sparse Y: restore validated seed pixels first.
+4521:     if int(np.sum(my)) < MIN_Y_KEPT:
+4522:         candidates = np.argwhere((my == 0) & (BEST82_Y_MASK_12 == 1))
+4523:         np.random.shuffle(candidates)
+4524:         for i, j in candidates:
+4525:             if int(np.sum(my)) >= MIN_Y_KEPT:
+4526:                 break
+4527:             my[i, j] = 1
+4528:
+4529:     my[Y_HARD_KEEP] = 1
+4530:     return my.astype(int)
+4531:
+4532:
+4533: def repair_masks(mask_x, mask_y):
+4534:     return repair_x_mask(mask_x), repair_y_mask(mask_y)
+4535:
+4536:
+4537: def make_individual(p=None, h=None, rsx=None, rsy=None, mask_x=None, mask_y=None, origin="seed"):
+4538:     if p is None:
+4539:         p = random.uniform(P_MIN, P_MAX)
+4540:     if h is None:
+4541:         h = random.uniform(H_MIN, H_MAX)
+4542:     if rsx is None:
+4543:         rsx = random.choice([
+4544:             random.uniform(100, 160),
+4545:             random.uniform(140, 210),
+4546:             random.uniform(RS_X_MIN, RS_X_MAX),
+4547:         ])
+4548:     if rsy is None:
+4549:         rsy = random.choice([
+4550:             random.uniform(25, 48),
+4551:             random.uniform(35, 65),
+4552:             random.uniform(RS_Y_MIN, RS_Y_MAX),
+4553:         ])
+4554:     if mask_x is None:
+4555:         mask_x = BEST82_X_MASK_12.copy()
+4556:     if mask_y is None:
+4557:         mask_y = BEST82_Y_MASK_12.copy()
+4558:
+4559:     mx, my = repair_masks(mask_x, mask_y)
+4560:     return {
+4561:         "p": round(float(max(P_MIN, min(P_MAX, p))), 4),
+4562:         "h": round(float(max(H_MIN, min(H_MAX, h))), 4),
+4563:         "rsx": round(float(max(RS_X_MIN, min(RS_X_MAX, rsx))), 3),
+4564:         "rsy": round(float(max(RS_Y_MIN, min(RS_Y_MAX, rsy))), 3),
+4565:         "mask_x": mx.astype(int).tolist(),
+4566:         "mask_y": my.astype(int).tolist(),
+4567:         "origin": origin,
+4568:     }
+
+4619: def decode(individual):
+4620:     if isinstance(individual, dict):
+4621:         return (
+4622:             float(individual["p"]),
+4623:             float(individual["h"]),
+4624:             flatten_mask(individual["mask_x"]),
+4625:             flatten_mask(individual["mask_y"]),
+4626:         )
+4627:     raise ValueError("Multi-template topology code expects dict individual")
+4628:
+4629:
+4630: def prefilter_individual(individual):
+4631:     p, h, sx, sy = decode(individual)
+4632:     mx = expand_seed_to_mask(sx)
+4633:     my = expand_seed_to_mask(sy)
+4634:     rx = mask_quality_report(mx)
+4635:     ry = mask_quality_report(my)
+4636:
+4637:     reasons = []
+4638:     if rx["kept"] < MIN_X_KEPT:
+4639:         reasons.append(f"X_too_few_kept={rx['kept']}")
+4640:     if rx["kept"] > MAX_X_KEPT:
+4641:         reasons.append(f"X_too_many_kept={rx['kept']}")
+4642:     if rx["components"] > MAX_X_COMPONENTS:
+4643:         reasons.append(f"X_too_many_components={rx['components']}")
+4644:     if rx["isolated"] > MAX_X_ISOLATED:
+4645:         reasons.append(f"X_too_many_isolated={rx['isolated']}")
+4646:
+4647:     if ry["kept"] < MIN_Y_KEPT:
+4648:         reasons.append(f"Y_too_few_kept={ry['kept']}")
+4649:     if ry["kept"] > MAX_Y_KEPT:
+4650:         reasons.append(f"Y_too_many_kept={ry['kept']}")
+4651:     if ry["components"] > MAX_Y_COMPONENTS:
+4652:         reasons.append(f"Y_too_many_components={ry['components']}")
+4653:     if ry["isolated"] > MAX_Y_ISOLATED:
+4654:         reasons.append(f"Y_too_many_isolated={ry['isolated']}")
+4655:
+4656:     report = {
+4657:         "p": p, "h": h,
+4658:         "rsx": individual["rsx"], "rsy": individual["rsy"],
+4659:         "mask_x_seed": sx, "mask_y_seed": sy,
+4660:         "mask_x": mx, "mask_y": my,
+4661:         "x": rx, "y": ry,
+4662:         "total_kept": rx["kept"] + ry["kept"],
+4663:     }
+4664:     if reasons:
+4665:         return False, ";".join(reasons), report
+4666:     return True, "ok", report
+4667:
+4668:
+4669: def configure_rs_for_individual(individual):
+4670:     global FILM_X_SHEET_RESISTANCE, FILM_Y_SHEET_RESISTANCE, FILM_X_SHEET_NAME, FILM_Y_SHEET_NAME
+4671:     rsx = float(individual["rsx"])
+4672:     rsy = float(individual["rsy"])
+4673:     FILM_X_SHEET_RESISTANCE = rsx
+4674:     FILM_Y_SHEET_RESISTANCE = rsy
+4675:
+4676:     rsx_name = str(round(rsx, 2)).replace(".", "p")
+4677:     rsy_name = str(round(rsy, 2)).replace(".", "p")
+4678:     FILM_X_SHEET_NAME = f"SMH188H_X_{rsx_name}_OhmicSheet"
+4679:     FILM_Y_SHEET_NAME = f"SMH188H_Y_{rsy_name}_OhmicSheet"
+4680:
+4681:
+4682: def run_cst(individual, film_model_type=None):
+4683:     if film_model_type is None:
+4684:         film_model_type = OPTIMIZATION_FILM_MODEL
+4685:     configure_rs_for_individual(individual)
+4686:     p, h, mask_x_seed, mask_y_seed = decode(individual)
+4687:     return run_cst_for_params(
+4688:         p=p,
+4689:         h=h,
+4690:         mask_x_seed=mask_x_seed,
+4691:         mask_y_seed=mask_y_seed,
+4692:         film_model_type=film_model_type,
+4693:     )
+4694:
+4695:
+4696: def _find_effective_intervals(freqs, rls, threshold=-10.0):
+4697:     below = rls <= threshold
+4698:     intervals = []
+4699:     start = None
+4700:     for i, ok in enumerate(below):
+4701:         if ok and start is None:
+4702:             start = i
+4703:         if (not ok or i == len(below) - 1) and start is not None:
+4704:             end = i - 1 if not ok else i
+4705:             if end >= start:
+4706:                 intervals.append((start, end))
+4707:             start = None
+4708:     return intervals
+4709:
+4710:
+4711: def extract_metrics(cst_file):
+4712:     result = cst.results.ProjectFile(cst_file, allow_interactive=True)
+4713:     s11 = result.get_3d().get_result_item(r"1D Results\S-Parameters\SZmax(1),Zmax(1)")
+4714:     data = s11.get_data()
+4715:
+4716:     freqs, rls = [], []
+4717:     for row in data:
+4718:         if len(row) < 2:
+4719:             continue
+4720:         freq = float(row[0])
+4721:         mag = max(abs(row[1]), 1e-12)
+4722:         freqs.append(freq)
+4723:         rls.append(float(20 * np.log10(mag)))
+4724:
+4725:     if not freqs:
+4726:         return {"score": 0.0, "bandwidth": 0.0, "coverage": 0.0, "min_rl": 0.0, "f_low": 18.0, "f_high": 2.0}
+4727:
+4728:     freqs = np.array(freqs, dtype=float)
+4729:     rls = np.array(rls, dtype=float)
+4730:     intervals = _find_effective_intervals(freqs, rls, -10.0)
+4731:
+4732:     if intervals:
+4733:         i0, i1 = max(intervals, key=lambda t: freqs[t[1]] - freqs[t[0]])
+4734:         f_low = float(freqs[i0])
+4735:         f_high = float(freqs[i1])
+4736:         bw = max(0.0, f_high - f_low)
+4737:     else:
+4738:         f_low, f_high, bw = 18.0, 2.0, 0.0
+4739:
+4740:     min_rl = float(np.min(rls))
+4741:     df = float(np.mean(np.diff(freqs))) if len(freqs) > 1 else 0.0
+4742:     below = rls <= -10.0
+4743:     total_effective_bw = float(np.sum(below) * df)
+4744:
+4745:     if np.any(below):
+4746:         margin = -10.0 - rls[below]
+4747:         mean_margin = float(np.mean(np.maximum(0.0, margin)))
+4748:         shallow_ratio = float(np.mean((rls[below] > -11.0).astype(float)))
+4749:     else:
+4750:         mean_margin = 0.0
+4751:         shallow_ratio = 1.0
+4752:
+4753:     score = 3.2 * bw + 0.20 * total_effective_bw
+4754:
+4755:     # Main target: keep high end and push low edge lower.
+4756:     if f_high >= 17.90:
+4757:         score += 14.0
+4758:     else:
+4759:         score -= 9.0 * (17.90 - f_high)
+4760:
+4761:     if f_low <= 5.00:
+4762:         score += 8.0 + 4.0 * (5.00 - f_low)
+4763:     else:
+4764:         score -= 7.0 * (f_low - 5.00)
+4765:
+4766:     if f_low <= 4.80:
+4767:         score += 7.0
+4768:     if f_low <= 4.60:
+4769:         score += 10.0
+4770:     if f_low <= 4.45:
+4771:         score += 14.0
+4772:
+4773:     # Reference and target bonuses.
+4774:     if bw >= REFERENCE_9X9_BW:
+4775:         score += 6.0
+4776:     if bw >= REFERENCE_12X12_BW:
+4777:         score += 14.0 + 4.0 * (bw - REFERENCE_12X12_BW)
+4778:     if bw >= 13.35:
+4779:         score += 16.0
+4780:     if bw >= TARGET_85_BW:
+4781:         score += 45.0 + 8.0 * (bw - TARGET_85_BW)
+4782:
+4783:     # Avoid a barely below -10 dB curve.
+4784:     score += 0.05 * min(abs(min_rl), 50.0)
+4785:     score += 0.10 * min(mean_margin, 18.0)
+4786:     score -= 2.0 * shallow_ratio
+4787:
+4788:     # Penalize very poor bandwidth.
+4789:     if bw < 12.0:
+4790:         score -= 12.0
+4791:
+4792:     return {
+4793:         "score": float(score),
+4794:         "bandwidth": float(bw),
+4795:         "coverage": float(bw / TARGET_TOTAL_BAND),
+4796:         "min_rl": min_rl,
+4797:         "f_low": f_low,
+4798:         "f_high": f_high,
+4799:         "contiguous_bw": float(bw),
+4800:         "total_effective_bw": total_effective_bw,
+4801:         "mean_margin": mean_margin,
+4802:         "shallow_ratio": shallow_ratio,
+4803:     }
+
+4958: def apply_random_topology_mutations(ind, n_ops=None, origin="mutated"):
+4959:     child = clone_individual(ind)
+4960:     mx = ensure_array_mask(child["mask_x"])
+4961:     my = ensure_array_mask(child["mask_y"])
+4962:
+4963:     if n_ops is None:
+4964:         n_ops = random.randint(1, 4)
+4965:
+4966:     for _ in range(n_ops):
+4967:         r = random.random()
+4968:         if r < 0.35:
+4969:             mx, my = point_flip(mx, my, n_flips=random.randint(1, 5))
+4970:         elif r < 0.35 + BLOCK_MUTATION_PROB:
+4971:             mx, my = block_mutation(mx, my)
+4972:         elif r < 0.35 + BLOCK_MUTATION_PROB + EDGE_MUTATION_PROB:
+4973:             mx, my = edge_grow_shrink(mx, my)
+4974:         else:
+4975:             mx, my = bridge_or_slot_mutation(mx, my)
+4976:
+4977:     child["mask_x"] = mx.astype(int).tolist()
+4978:     child["mask_y"] = my.astype(int).tolist()
+4979:     child["origin"] = origin
+4980:     return child
+4981:
+4982:
+4983: def mutate_params(ind, wide=False):
+4984:     child = clone_individual(ind)
+4985:     scale = 1.8 if wide else 1.0
+4986:     child["p"] = round(max(P_MIN, min(P_MAX, float(child["p"]) + random.gauss(0, 0.055 * scale))), 4)
+4987:     child["h"] = round(max(H_MIN, min(H_MAX, float(child["h"]) + random.gauss(0, 0.075 * scale))), 4)
+4988:     child["rsx"] = round(max(RS_X_MIN, min(RS_X_MAX, float(child["rsx"]) + random.gauss(0, 7.0 * scale))), 3)
+4989:     child["rsy"] = round(max(RS_Y_MIN, min(RS_Y_MAX, float(child["rsy"]) + random.gauss(0, 3.8 * scale))), 3)
+4990:     return child
+4991:
+4992:
+4993: # -------------------------
+
+5134: def evaluate_individual(individual, generation=None, index=None):
+5135:     key = individual_key(individual)
+5136:     if key in cache:
+5137:         metrics, params, cst_file = cache[key]
+5138:         log_individual_trace(generation, index, "cache_hit", individual, metrics=metrics, cst_file=cst_file)
+5139:         return cache[key]
+5140:
+5141:     ok, reason, report = prefilter_individual(individual)
+5142:     if not ok:
+5143:         metrics = {"score": 0.0, "bandwidth": 0.0, "coverage": 0.0, "min_rl": 0.0, "f_low": 18.0, "f_high": 2.0}
+5144:         p, h, sx, sy = decode(individual)
+5145:         params = (p, h, sx, sy)
+5146:         cst_file = ""
+5147:         cache[key] = (metrics, params, cst_file)
+5148:         log_individual_trace(generation, index, "skipped_prefilter", individual, reason=reason, report=report, metrics=metrics)
+5149:         with open(SKIPPED_INDIVIDUAL_FILE, "a", encoding="utf-8") as f:
+5150:             f.write(f"gen={generation}\tidx={index}\treason={reason}\tsummary={template_summary(individual)}\n")
+5151:         return cache[key]
+5152:
+5153:     log_individual_trace(generation, index, "start_cst", individual, reason=reason, report=report)
+5154:     try:
+5155:         metrics, params, cst_file = run_cst(individual)
+5156:         log_individual_trace(generation, index, "finished_cst", individual, reason="ok", report=report, metrics=metrics, cst_file=cst_file)
+5157:     except Exception as e:
+5158:         with open(ERROR_LOG_FILE, "a", encoding="utf-8") as f:
+5159:             f.write("\n" + "=" * 80 + "\n")
+5160:             f.write(f"generation = {generation}, index = {index}\n")
+5161:             f.write(f"summary = {template_summary(individual)}\n")
+5162:             f.write(f"prefilter_report = {report}\n")
+5163:             f.write(repr(e) + "\n")
+5164:             f.write(traceback.format_exc() + "\n")
+5165:         metrics = {"score": 0.0, "bandwidth": 0.0, "coverage": 0.0, "min_rl": 0.0, "f_low": 18.0, "f_high": 2.0}
+5166:         p, h, sx, sy = decode(individual)
+5167:         params = (p, h, sx, sy)
+5168:         cst_file = ""
+5169:         log_individual_trace(generation, index, "failed_cst", individual, reason=repr(e), report=report, metrics=metrics)
+5170:
+5171:     cache[key] = (metrics, params, cst_file)
+5172:     return cache[key]
+
+5187: def select_parent(pop, fit_list):
+5188:     positive = [max(0.0, x) for x in fit_list]
+5189:     total = sum(positive)
+5190:     if total <= 0:
+5191:         return clone_individual(random.choice(pop))
+5192:     r = random.random() * total
+5193:     s = 0.0
+5194:     for ind, fit in zip(pop, positive):
+5195:         s += fit
+5196:         if r <= s:
+5197:             return clone_individual(ind)
+5198:     return clone_individual(pop[-1])
+5199:
+5200:
+5201: def crossover(father, mother):
+5202:     fx, fy = ensure_array_mask(father["mask_x"]), ensure_array_mask(father["mask_y"])
+5203:     mx, my = ensure_array_mask(mother["mask_x"]), ensure_array_mask(mother["mask_y"])
+5204:
+5205:     child_x = fx.copy()
+5206:     child_y = fy.copy()
+5207:
+5208:     # X: block crossover in active rows.
+5209:     for i in range(3, 10, 2):
+5210:         for j in range(0, 12, 2):
+5211:             if random.random() < 0.5:
+5212:                 child_x[i:i+2, j:j+2] = mx[i:i+2, j:j+2]
+5213:
+5214:     # Y: soft-region crossover only.
+5215:     for i, j in Y_SOFT_POS:
+5216:         if random.random() < 0.35:
+5217:             child_y[i, j] = my[i, j]
+5218:
+5219:     child_x, child_y = repair_masks(child_x, child_y)
+5220:
+5221:     p = (float(father["p"]) + float(mother["p"])) / 2.0 + random.gauss(0, 0.045)
+5222:     h = (float(father["h"]) + float(mother["h"])) / 2.0 + random.gauss(0, 0.060)
+5223:     rsx = (float(father["rsx"]) + float(mother["rsx"])) / 2.0 + random.gauss(0, 5.0)
+5224:     rsy = (float(father["rsy"]) + float(mother["rsy"])) / 2.0 + random.gauss(0, 2.8)
+5225:
+5226:     return make_individual(p=p, h=h, rsx=rsx, rsy=rsy, mask_x=child_x, mask_y=child_y, origin="crossover")
+5227:
+5228:
+5229: def mutate(individual, p_m):
+5230:     child = clone_individual(individual)
+5231:
+5232:     if random.random() < p_m:
+5233:         child = mutate_params(child, wide=(random.random() < 0.20))
+5234:
+5235:     if random.random() < p_m:
+5236:         child = apply_random_topology_mutations(child, n_ops=random.randint(1, 4), origin="topology_mutated")
+5237:
+5238:     return child
+5239:
+5240:
+5241: def initialize_population(n):
+5242:     pop = []
+5243:
+5244:     # 1) Hard elites / references
+5245:     pop.append(make_best82_seed(origin="best82_reference"))
+5246:
+5247:     reference_settings = [
+5248:         (13.1437, 10.0791, 142.198, 38.599),
+5249:         (13.0574, 9.7319, 127.53, 44.144),
+5250:         (13.1059, 9.7222, 151.094, 51.242),
+5251:         (13.20, 10.00, 120.0, 55.0),
+5252:         (13.10, 9.86, 160.0, 35.0),
+5253:         (13.00, 10.18, 180.0, 32.0),
+5254:     ]
+5255:     for p, h, rsx, rsy in reference_settings:
+5256:         if len(pop) >= n:
+5257:             break
+5258:         pop.append(make_individual(p=p, h=h, rsx=rsx, rsy=rsy, mask_x=BEST82_X_MASK_12, mask_y=BEST82_Y_MASK_12, origin="reference"))
+5259:
+5260:     # 2) Multi-template seeds
+5261:     trial = 0
+5262:     while len(pop) < n and trial < RANDOM_INDIVIDUAL_MAX_TRIALS:
+5263:         trial += 1
+5264:         if random.random() < 0.55:
+5265:             child = make_random_multitemplate_seed()
+5266:         else:
+5267:             parent = random.choice(pop)
+5268:             child = apply_random_topology_mutations(parent, n_ops=random.randint(1, 5), origin="initial_mutated")
+5269:             child = mutate_params(child, wide=(random.random() < 0.35))
+5270:
+5271:         ok, reason, report = prefilter_individual(child)
+5272:         if ok and individual_key(child) not in [individual_key(x) for x in pop]:
+5273:             pop.append(child)
+5274:         else:
+5275:             with open(SKIPPED_INDIVIDUAL_FILE, "a", encoding="utf-8") as f:
+5276:                 f.write(f"initial_skipped\treason={reason}\tsummary={template_summary(child)}\n")
+5277:
+5278:     while len(pop) < n:
+5279:         pop.append(mutate_params(make_best82_seed(origin="fill_best82")))
+5280:
+5281:     return pop
+5282:
+5283:
+5284: def make_new_population(pop, fit_list, p_m):
+5285:     elite_idx = int(np.argmax(fit_list))
+5286:     elite = clone_individual(pop[elite_idx])
+5287:     newpop = [elite]
+5288:
+5289:     # Always preserve the 82% known-good seed.
+5290:     known_best = make_best82_seed(origin="best82_reference")
+5291:     newpop.append(known_best)
+5292:
+5293:     # Also preserve one parameter-only variation around the elite.
+5294:     elite_param = mutate_params(elite, wide=False)
+5295:     elite_param["origin"] = "elite_param_local"
+5296:     newpop.append(elite_param)
+5297:
+5298:     trial = 0
+5299:     while len(newpop) < pop_size and trial < RANDOM_INDIVIDUAL_MAX_TRIALS:
+5300:         trial += 1
+5301:         r = random.random()
+5302:
+5303:         if r < 0.42:
+5304:             child = crossover(select_parent(pop, fit_list), select_parent(pop, fit_list))
+5305:             child = mutate(child, p_m)
+5306:         elif r < 0.66:
+5307:             parent = select_parent(pop, fit_list)
+5308:             child = apply_random_topology_mutations(parent, n_ops=random.randint(1, 5), origin="elite_topology_local")
+5309:             child = mutate_params(child, wide=(random.random() < 0.18))
+5310:         elif r < 0.84:
+5311:             child = make_random_multitemplate_seed()
+5312:         else:
+5313:             child = make_ph_rs_seed(origin="ph_rs_injected")
+5314:
+5315:         ok, reason, report = prefilter_individual(child)
+5316:         if ok and individual_key(child) not in [individual_key(x) for x in newpop]:
+5317:             newpop.append(child)
+5318:         else:
+5319:             with open(SKIPPED_INDIVIDUAL_FILE, "a", encoding="utf-8") as f:
+5320:                 f.write(f"new_population_skipped\treason={reason}\tsummary={template_summary(child)}\n")
+5321:
+5322:     while len(newpop) < pop_size:
+5323:         child = apply_random_topology_mutations(elite, n_ops=1, origin="fill_elite_local")
+5324:         child = mutate_params(child, wide=False)
+5325:         newpop.append(child)
+5326:
+5327:     return newpop
+
+5387: def optimize():
+5388:     global cache
+5389:     cache = {}
+5390:
+5391:     for path in [LOG_FILE, ERROR_LOG_FILE, INDIVIDUAL_TRACE_FILE, SKIPPED_INDIVIDUAL_FILE]:
+5392:         try:
+5393:             if os.path.exists(path):
+5394:                 os.remove(path)
+5395:         except Exception:
+5396:             pass
+5397:
+5398:     pop = initialize_population(pop_size)
+5399:     best_metrics = {"score": -1.0, "bandwidth": 0.0, "coverage": 0.0, "min_rl": 0.0}
+5400:     best_ind = None
+5401:     best_params = None
+5402:
+5403:     with open(LOG_FILE, "w", encoding="utf-8") as f:
+5404:         f.write("iteration\tindex\tsummary\tscore\tbandwidth\tcoverage\tmin_rl\tf_low\tf_high\ttotal_effective_bw\tmean_margin\tp\th\trs_x\trs_y\tcst_file\n")
+5405:
+5406:     for it in range(iterations):
+5407:         current_pm = max(0.07, p_m_start - 0.014 * it)
+5408:         print(f"\n===== Multi-template topology Iteration {it} =====")
+5409:         print(f"Current mutation rate = {current_pm:.3f}")
+5410:
+5411:         fit_list, info_list = evaluate_population(pop, generation=it)
+5412:
+5413:         for idx, (ind, fit, info) in enumerate(zip(pop, fit_list, info_list)):
+5414:             metrics, params, cst_file = info
+5415:             print(
+5416:                 f"score = {metrics['score']:.6f}, "
+5417:                 f"bandwidth = {metrics['bandwidth']:.6f}, "
+5418:                 f"coverage = {metrics.get('coverage', 0.0)*100:.2f}%, "
+5419:                 f"f_low = {metrics.get('f_low', 0.0):.3f}, "
+5420:                 f"f_high = {metrics.get('f_high', 0.0):.3f}, "
+5421:                 f"minRL = {metrics['min_rl']:.3f}"
+5422:             )
+5423:             with open(LOG_FILE, "a", encoding="utf-8") as f:
+5424:                 f.write(
+5425:                     f"{it}\t{idx}\t{template_summary(ind)}\t{metrics['score']}\t{metrics['bandwidth']}\t"
+5426:                     f"{metrics.get('coverage', 0.0)}\t{metrics['min_rl']}\t{metrics.get('f_low', 0.0)}\t"
+5427:                     f"{metrics.get('f_high', 0.0)}\t{metrics.get('total_effective_bw', 0.0)}\t"
+5428:                     f"{metrics.get('mean_margin', 0.0)}\t{ind['p']}\t{ind['h']}\t"
+5429:                     f"{ind['rsx']}\t{ind['rsy']}\t{cst_file}\n"
+5430:                 )
+5431:
+5432:         idx = int(np.argmax(fit_list))
+5433:         current_best_metrics, current_best_params, current_best_cst = info_list[idx]
+5434:         if current_best_metrics["score"] > best_metrics["score"]:
+5435:             best_metrics = current_best_metrics
+5436:             best_ind = clone_individual(pop[idx])
+5437:             best_params = current_best_params
+5438:
+5439:             if current_best_cst and os.path.exists(current_best_cst):
+5440:                 remove_file_if_exists(BEST_CST)
+5441:                 shutil.copyfile(current_best_cst, BEST_CST)
+5442:                 export_s11_curve(current_best_cst, BEST_S11_FILE)
+5443:                 export_s11_plot(current_best_cst, BEST_S11_PNG)
+5444:
+5445:             save_mask_txt(best_ind["mask_x"], BEST_MASK_X_TXT)
+5446:             save_mask_txt(best_ind["mask_y"], BEST_MASK_Y_TXT)
+5447:             export_mask_figure(best_ind["mask_x"], best_ind["mask_y"], BEST_MASK_PNG)
+5448:             write_best_result(best_metrics, best_ind, best_params)
+5449:
+5450:         print(f"best score so far = {best_metrics['score']:.6f}")
+5451:         print(f"best bandwidth so far = {best_metrics['bandwidth']:.6f} GHz, coverage = {best_metrics.get('coverage', 0.0)*100:.2f}%")
+5452:         print(f"best f_low / f_high so far = {best_metrics.get('f_low', 0.0):.3f} / {best_metrics.get('f_high', 0.0):.3f} GHz")
+5453:         print(f"best min RL so far = {best_metrics['min_rl']:.3f} dB")
+5454:         print(f"best summary so far = {template_summary(best_ind) if best_ind else ''}")
+5455:
+5456:         pop = make_new_population(pop, fit_list, current_pm)
+5457:
+5458:     print("\nMulti-template topology optimization finished.")
+5459:     print(f"Best score = {best_metrics['score']}")
+5460:     print(f"Best bandwidth = {best_metrics['bandwidth']} GHz, coverage = {best_metrics.get('coverage', 0.0)*100:.2f}%")
+5461:     print(f"Best f_low / f_high = {best_metrics.get('f_low', 0.0)} / {best_metrics.get('f_high', 0.0)} GHz")
+5462:     print(f"Best min RL = {best_metrics['min_rl']} dB")
+5463:     print(f"Best summary = {template_summary(best_ind) if best_ind else ''}")
+5464:     print(f"Best CST file saved to: {BEST_CST}")

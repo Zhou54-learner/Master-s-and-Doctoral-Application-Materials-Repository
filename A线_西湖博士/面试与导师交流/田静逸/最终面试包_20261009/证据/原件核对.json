@@ -1,0 +1,149 @@
+{
+  "source_hashes": [
+    {
+      "path": "F:\\biyesheji\\code\\ohmic_sheet_12x12_multitemplate_topology_ga_code.py",
+      "sha256": "844421f6c9f68f9eb4698991afb3c895e139e979f0b3bb6ae4496d435a81ce72",
+      "matches_20261008": true
+    },
+    {
+      "path": "E:\\360MoveData\\Users\\zzj\\OneDrive\\桌面\\毕业设计\\结题\\终稿\\2022112550-周子靖-RESISTIVE FILM-BASED METAMATERIAL STRUCTURE DESIGN FOR ENHANCED BROADBAND MICROWAVE ABSORPTION-物理学院.pdf",
+      "sha256": "3e630eba9001bfed451efba271af1c2af6a97534a3f21c45fc3b04c8888f77fd",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_mask_x_12x12.txt",
+      "sha256": "0f488ec8c3ad31acc65266ddd565c1dd93f0a47857686ee039ee93155047b1f6",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_mask_y_12x12.txt",
+      "sha256": "22528181083bd2c7cd3db2562603d7c0c2c360dc057250abe76617360346dea4",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_result_ohmic_sheet_12x12.txt",
+      "sha256": "676cf13fe94b03bd56b40a713aa93948387c6569b716c96b669ea6b285221f81",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_s11_ohmic_sheet_12x12.txt",
+      "sha256": "8d8048284f076047d23ba6f399d7189def2057eec09ff13fc396dc51da016c04",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\ga_log_ohmic_sheet_12x12.txt",
+      "sha256": "bb511e6d52612c47e0ce5d361fa7337696fba1787a0744757c0218c827728b79",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\individual_trace_ohmic_sheet_12x12.txt",
+      "sha256": "a2aa0f5d4aa9d41ad559721b00a8f216b650ed3051b9d2abee22fa02b03c32f2",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12.cst",
+      "sha256": "a1d145af24db946b04d74e2c07d5ffc069511a9914fb1cdfcbf1dc53074b0174",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\3D\\ModelHistory.json",
+      "sha256": "2e0e13de15d5125878eee891ca1961d67a2679448ebccc5cb78ee3d0e51a663f",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Model\\Parameters.json",
+      "sha256": "134affbbed106316f09062961808f8341acc0dda84a8d715c64c6cb877300034",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\best_design_ohmic_sheet_12x12\\Result\\Model.log",
+      "sha256": "a84261ea6fae649fc4d25537364692dd5fbf1535affaef37f69655fe49b0515c",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979.cst",
+      "sha256": "c7ee980cd32e39601b0d1bcf0b76af10315f6d5eaabf956b78ec4cd92926fe20",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\3D\\ModelHistory.json",
+      "sha256": "a9a5172685d413b4473301cef12b7c4534077685e0a25e9406be34da574258f5",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Model\\Parameters.json",
+      "sha256": "134affbbed106316f09062961808f8341acc0dda84a8d715c64c6cb877300034",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\biyesheji\\最终结果ohmic_sheet_12x12_multitemplate_topology_ga\\temp\\temp_ohmic_sheet_20260503_180023_9979\\Result\\Model.log",
+      "sha256": "ae367c2ad68f10e96fbeb01ebf55a2fb427b0dc55b092e27f038ace1fcc80f4e",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\事实核验\\evidence\\ga_winner\\S11.csv",
+      "sha256": "f7c99ada605777e749b60e059fac59245cd47ded3707195303d944c2e74a65bb",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\事实核验\\evidence\\ga_winner\\S12.csv",
+      "sha256": "2a2c22df5abb69168fd4af950ab8285b6f84b30e3c3c0e56b8038f432eba3bf3",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\事实核验\\evidence\\ga_winner\\S21.csv",
+      "sha256": "a57a5c9889834db55d1c6eab6dad9273dade8bb18f32a494c7eb42c209a201f6",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\事实核验\\evidence\\ga_winner\\S22.csv",
+      "sha256": "1b1d906e43ffdecae8d16253671af6da737378a4dff840ada73fcd89fa82e73d",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\事实核验\\evidence\\1D_Results_S-Parameters_SZmax(1),Zmax(1).csv",
+      "sha256": "178a168d34ac6f7f6869f46ec91cbd50532d98a217c9e151fc469206179b9c8b",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\事实核验\\evidence\\1D_Results_S-Parameters_SZmax(1),Zmax(2).csv",
+      "sha256": "309a8228d3a9528f09b0301103924b766ed8cf9d80a4942b0bf992946ef05f19",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\事实核验\\evidence\\1D_Results_S-Parameters_SZmax(2),Zmax(1).csv",
+      "sha256": "338ad911bdf8328d79e6d18f3e8fe3e2c0dd749e81256c2e681f42440854ed13",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\事实核验\\evidence\\1D_Results_S-Parameters_SZmax(2),Zmax(2).csv",
+      "sha256": "99be704b80de94a6a73371beb7c0c95f1385545d1265837b1bea5b411b948c2c",
+      "matches_20261008": true
+    },
+    {
+      "path": "F:\\1A硕博申请\\A线_西湖博士\\面试与导师交流\\刘癸庚\\完整PPT_v1.1_20261006\\刘癸庚交流_完整PPT_v1.1_20261006.pptx",
+      "sha256": "cc4a169890566cb5fd7f963fe2855a97e8171c4ce07995899993cb2d9e6a664d",
+      "matches_20261008": true
+    }
+  ],
+  "recomputed_saved_native_curves": {
+    "ga": {
+      "rows": 201,
+      "longest": [
+        4.800000000000001,
+        18.0,
+        13.2
+      ]
+    },
+    "adaptive": {
+      "rows": 202,
+      "longest": [
+        5.2,
+        17.68,
+        12.48
+      ]
+    }
+  },
+  "liu_remote_base_sha256": "c0e98976766e72fb799717fb6dfad816cd4be4a1385a637376890e32f8a23e8e",
+  "scope": "只读原件与已归档原生数据；未启动CST求解或GA"
+}
